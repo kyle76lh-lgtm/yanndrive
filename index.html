@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#080b0e" />
+    <meta name="description" content="YannDrive — tableau de bord GPS pour navigateur Tesla" />
+    <title>YannDrive</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="YannDrive — accueil">
+          <span class="brand-mark" aria-hidden="true">Y</span>
+          <span>Yann<span>Drive</span></span>
+        </a>
+        <div class="topbar-right">
+          <time id="clock" class="clock">--:--</time>
+          <button id="mode67Button" class="icon-button mode-67-button" type="button" aria-pressed="false" title="Activer le mode 67">MODE 67</button>
+          <button id="demoButton" class="icon-button" type="button" title="Activer le mode démo" aria-label="Activer le mode démo">DÉMO</button>
+          <button id="fullscreenButton" class="icon-button fullscreen" type="button" title="Plein écran" aria-label="Passer en plein écran">⛶</button>
+        </div>
+      </header>
+
+      <section class="status-strip" aria-live="polite">
+        <div class="gps-status">
+          <span id="statusDot" class="status-dot"></span>
+          <span id="gpsStatus">GPS EN ATTENTE</span>
+        </div>
+        <div class="trip-state"><span id="tripDot" class="trip-dot"></span><span id="tripState">PRÊT</span></div>
+      </section>
+
+      <nav class="app-tabs" aria-label="Sections de YannDrive">
+        <button class="app-tab active" type="button" data-tab="drive" aria-selected="true">CONDUITE</button>
+        <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
+      </nav>
+
+      <section id="driveView" class="dashboard tab-view active">
+        <div class="speed-panel">
+          <div class="speed-label">VITESSE</div>
+          <div class="speed-display">
+            <strong id="speed">0</strong>
+            <span>km/h</span>
+          </div>
+          <div class="speed-bar" aria-hidden="true"><span id="speedBar"></span></div>
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metric-card accent">
+            <span class="metric-icon">↗</span>
+            <div><small>DISTANCE</small><strong id="distance">0,00</strong><span>km</span></div>
+          </article>
+          <article class="metric-card">
+            <span class="metric-icon">◷</span>
+            <div><small>DURÉE</small><strong id="duration">00:00</strong><span>min</span></div>
+          </article>
+          <article class="metric-card">
+            <span class="metric-icon">≈</span>
+            <div><small>VITESSE MOY.</small><strong id="averageSpeed">0</strong><span>km/h</span></div>
+          </article>
+          <article class="metric-card">
+            <span class="metric-icon">↑</span>
+            <div><small>ACCÉLÉRATION</small><strong id="acceleration">0,0</strong><span>m/s²</span></div>
+          </article>
+        </div>
+
+        <aside class="location-card">
+          <div>
+            <small>POSITION ACTUELLE</small>
+            <strong id="coordinates">Latitude — · Longitude —</strong>
+          </div>
+          <div class="accuracy"><span>PRÉCISION</span><strong id="accuracy">— m</strong></div>
+        </aside>
+      </section>
+
+      <section id="infosView" class="infos-view tab-view" aria-labelledby="infosTitle">
+        <div class="infos-heading">
+          <div><small>EN UN COUP D’ŒIL</small><h1 id="infosTitle">Marchés & marée</h1></div>
+          <button id="refreshInfos" class="refresh-button" type="button">↻ ACTUALISER</button>
+        </div>
+        <div class="info-grid">
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/TSLA/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol tesla-symbol">T</span><span id="teslaStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>TESLA · NASDAQ</small>
+            <strong id="teslaPrice">—</strong>
+            <span id="teslaChange" class="info-detail">TSLA · USD</span>
+          </a>
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/SPCX/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol spacex-symbol">X</span><span id="spacexStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>SPACEX · NASDAQ</small>
+            <strong id="spacexPrice">—</strong>
+            <span id="spacexChange" class="info-detail">SPCX · USD</span>
+          </a>
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/SAF.PA/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol safran-symbol">S</span><span id="safranStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>SAFRAN · EURONEXT PARIS</small>
+            <strong id="safranPrice">—</strong>
+            <span id="safranChange" class="info-detail">SAF.PA · EUR</span>
+          </a>
+          <article class="info-card tide-card">
+            <div class="info-card-top"><span class="info-symbol tide-symbol">≈</span><span id="tideStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>PROCHAINE PLEINE MER · LE HAVRE</small>
+            <strong id="nextHighTide">—</strong>
+            <span id="tideDetail" class="info-detail">Prévision du niveau marin</span>
+          </article>
+        </div>
+        <p class="data-note" id="dataNote">Données indicatives uniquement. La prévision de marée ne remplace pas les horaires officiels du SHOM et ne convient pas à la navigation.</p>
+      </section>
+
+      <footer id="driveControls" class="controls">
+        <button id="startButton" class="control primary" type="button"><span>▶</span>DÉMARRER</button>
+        <button id="stopButton" class="control" type="button" disabled><span>■</span>ARRÊTER</button>
+        <button id="resetButton" class="control danger" type="button"><span>↻</span>RÉINITIALISER</button>
+      </footer>
+    </main>
+
+    <div id="celebration67" class="celebration-67" aria-hidden="true">
+      <canvas id="fireworks67" class="fireworks-67" aria-hidden="true"></canvas>
+      <div class="celebration-halo"></div>
+      <strong>67</strong>
+      <span>VITESSE ATTEINTE</span>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
