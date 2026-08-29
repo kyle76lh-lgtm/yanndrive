@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="YannDrive — tableau de bord GPS pour navigateur Tesla" />
     <title>YannDrive</title>
-    <link rel="stylesheet" href="styles.css?v=8" />
+    <link rel="stylesheet" href="styles.css?v=9" />
   </head>
   <body>
     <main class="app-shell">
@@ -63,6 +63,10 @@
           <article class="metric-card">
             <span class="metric-icon">↑</span>
             <div><small>ACCÉLÉRATION</small><strong id="acceleration">0,0</strong><span>m/s²</span></div>
+          </article>
+          <article class="metric-card max-speed-card">
+            <span class="metric-icon">◇</span>
+            <div><small>VITESSE MAX</small><strong id="maxSpeed">0</strong><span>km/h</span></div>
           </article>
         </div>
 
@@ -165,6 +169,6 @@
       <span>VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=8" defer></script>
+    <script src="app.js?v=9" defer></script>
   </body>
 </html>

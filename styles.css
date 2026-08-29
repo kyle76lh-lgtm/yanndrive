@@ -75,6 +75,8 @@ button { font: inherit; }
 .metric-card small { grid-column: span 2; margin-bottom: 16px; color: var(--muted); font-size: 10px; letter-spacing: .14em; font-weight: 800; }
 .metric-card strong { font-size: clamp(25px, 3vw, 38px); font-weight: 580; font-variant-numeric: tabular-nums; letter-spacing: -.04em; }
 .metric-card div > span { color: var(--muted); font-size: 12px; }
+.max-speed-card { grid-column: 1 / -1; min-height: 104px; align-items: center; background: linear-gradient(110deg, rgba(82,226,141,.08), var(--panel) 42%); }
+.max-speed-card small { margin-bottom: 9px; }
 .location-card { min-height: 72px; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center; gap: 24px; border: 1px solid var(--line); border-radius: 14px; background: rgba(16, 21, 26, .75); }
 .location-card div:first-child { min-width: 0; }
 .location-card small, .accuracy span { display: block; margin-bottom: 8px; color: var(--muted); font-size: 9px; letter-spacing: .15em; font-weight: 800; }
