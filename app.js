@@ -20,7 +20,8 @@ const ui = {
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null,
-  lastSpeedMps: 0, lastSpeedAt: null, currentSpeedKmh: 0,
+  lastSpeedMps: 0, lastSpeedAt: null, speedHistory: [], displayedAcceleration: 0,
+  currentSpeedKmh: 0,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null
 };
@@ -221,6 +222,29 @@ function renderSpeed(kmh, acceleration = 0) {
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
 }
 
+function calculateAcceleration(speedMps, timestamp) {
+  state.speedHistory.push({ speed: speedMps, time: timestamp });
+  state.speedHistory = state.speedHistory.filter((sample) => timestamp - sample.time <= 12000).slice(-10);
+  if (state.speedHistory.length < 2) return 0;
+
+  const firstTime = state.speedHistory[0].time;
+  const points = state.speedHistory.map((sample) => ({
+    time: (sample.time - firstTime) / 1000,
+    speed: sample.speed
+  }));
+  const duration = points[points.length - 1].time;
+  if (duration < .8) return state.displayedAcceleration;
+
+  const meanTime = points.reduce((sum, point) => sum + point.time, 0) / points.length;
+  const meanSpeed = points.reduce((sum, point) => sum + point.speed, 0) / points.length;
+  const denominator = points.reduce((sum, point) => sum + (point.time - meanTime) ** 2, 0);
+  if (denominator === 0) return 0;
+  const slope = points.reduce((sum, point) => sum + (point.time - meanTime) * (point.speed - meanSpeed), 0) / denominator;
+  const filtered = state.displayedAcceleration * .45 + slope * .55;
+  state.displayedAcceleration = Math.abs(filtered) < .035 ? 0 : Math.max(-9.9, Math.min(9.9, filtered));
+  return state.displayedAcceleration;
+}
+
 function celebrate67() {
   state.mode67Armed = false;
   clearTimeout(state.celebrationTimer);
@@ -264,13 +288,12 @@ function onPosition(position) {
   }
 
   speedMps ??= 0;
-  const speedAge = state.lastSpeedAt ? (now - state.lastSpeedAt) / 1000 : 0;
-  const acceleration = speedAge > .3 && speedAge < 15 ? (speedMps - state.lastSpeedMps) / speedAge : 0;
+  const acceleration = calculateAcceleration(speedMps, now);
   state.lastSpeedMps = speedMps;
   state.lastSpeedAt = now;
   state.lastPosition = point;
 
-  renderSpeed(speedMps * 3.6, Math.max(-9.9, Math.min(9.9, acceleration)));
+  renderSpeed(speedMps * 3.6, acceleration);
   ui.coordinates.textContent = `Latitude ${c.latitude.toFixed(5)} · Longitude ${c.longitude.toFixed(5)}`;
   ui.accuracy.textContent = `${Math.round(c.accuracy)} m`;
   setGpsStatus(c.accuracy <= 30 ? "SIGNAL GPS BON" : "SIGNAL GPS FAIBLE", c.accuracy <= 30 ? "good" : "");
@@ -297,6 +320,8 @@ function startTrip() {
   state.running = true;
   state.startedAt = Date.now();
   state.lastPosition = null;
+  state.speedHistory = [];
+  state.displayedAcceleration = 0;
   ui.start.disabled = true;
   ui.stop.disabled = false;
   ui.tripState.textContent = "TRAJET EN COURS";
@@ -322,6 +347,8 @@ function resetTrip() {
   state.elapsedBeforeStart = 0;
   state.distanceM = 0;
   state.lastPosition = null;
+  state.speedHistory = [];
+  state.displayedAcceleration = 0;
   ui.start.disabled = false;
   ui.stop.disabled = true;
   ui.tripState.textContent = "PRÊT";
@@ -354,6 +381,8 @@ function toggleDemo() {
     clearInterval(state.demoTimer);
     state.demoTimer = null;
     state.lastPosition = null;
+    state.speedHistory = [];
+    state.displayedAcceleration = 0;
     renderSpeed(0, 0);
     requestGps();
     showToast("Retour au GPS réel");
