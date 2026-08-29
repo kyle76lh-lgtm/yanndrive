@@ -38,4 +38,4 @@ Le dossier ne contient aucune dépendance et peut être déployé tel quel sur G
 
 La vitesse et l'accélération sont des estimations GPS et ne doivent pas être utilisées comme instruments de sécurité ou de conduite.
 
-Les cours sont chargés depuis Yahoo Finance lorsque le navigateur autorise la requête. La marée est estimée depuis le niveau marin modélisé par Open-Meteo : elle est indicative et ne remplace jamais les horaires officiels du SHOM pour la navigation.
+Les cours sont récupérés côté GitHub par une tâche planifiée, enregistrés dans `data/markets.json`, puis lus depuis le même domaine que l'application. Cette architecture évite les blocages CORS du navigateur Tesla. La marée est estimée depuis le niveau marin modélisé par Open-Meteo : elle est indicative et ne remplace jamais les horaires officiels du SHOM pour la navigation.

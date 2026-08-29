@@ -54,6 +54,7 @@ button { font: inherit; }
 .app-tab { min-width: 126px; padding: 11px 18px; border: 0; border-bottom: 2px solid transparent; color: var(--muted); background: transparent; cursor: pointer; font-size: 11px; font-weight: 850; letter-spacing: .12em; }
 .app-tab.active { color: var(--text); border-bottom-color: var(--green); }
 .tab-view { display: none; }
+.tab-view:not(.active) { display: none !important; }
 .tab-view.active { display: grid; }
 
 .dashboard { width: min(1180px, calc(100% - 44px)); margin: auto; padding: clamp(20px, 4vh, 48px) 0; display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; }

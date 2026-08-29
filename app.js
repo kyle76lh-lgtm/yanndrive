@@ -386,27 +386,35 @@ function switchTab(name) {
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
 }
 
+let marketDataPromise = null;
+
+function getMarketData() {
+  marketDataPromise ||= fetch(`data/markets.json?v=${Date.now()}`, { cache: "no-store" }).then((response) => {
+    if (!response.ok) throw new Error("market data unavailable");
+    return response.json();
+  });
+  return marketDataPromise;
+}
+
 async function loadQuote(symbol, priceElement, changeElement, statusElement, currency) {
   statusElement.textContent = "CHARGEMENT";
   statusElement.className = "live-badge";
   try {
-    const response = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1d&range=5d`);
-    if (!response.ok) throw new Error("quote unavailable");
-    const result = (await response.json()).chart.result?.[0];
-    const meta = result?.meta;
-    const price = meta?.regularMarketPrice;
-    const previous = meta?.chartPreviousClose;
+    const data = await getMarketData();
+    const quote = data.quotes?.[symbol];
+    const price = quote?.price;
+    const previous = quote?.previousClose;
     if (!Number.isFinite(price)) throw new Error("invalid quote");
     const change = Number.isFinite(previous) && previous !== 0 ? ((price - previous) / previous) * 100 : null;
     priceElement.textContent = new Intl.NumberFormat("fr-FR", { style: "currency", currency, maximumFractionDigits: 2 }).format(price);
     changeElement.textContent = change === null ? `${symbol} · ${currency}` : `${change >= 0 ? "+" : ""}${formatDecimal(change, 2)} % aujourd’hui`;
     changeElement.className = `info-detail ${change === null ? "" : change >= 0 ? "positive" : "negative"}`;
-    statusElement.textContent = "À JOUR";
+    statusElement.textContent = "COURS CHARGÉ";
     statusElement.className = "live-badge ok";
   } catch {
-    priceElement.textContent = "Voir le cours";
-    changeElement.textContent = `${symbol} · toucher pour ouvrir`;
-    statusElement.textContent = "LIEN DIRECT";
+    priceElement.textContent = "Indisponible";
+    changeElement.textContent = `${symbol} · prochaine actualisation automatique`;
+    statusElement.textContent = "HORS LIGNE";
     statusElement.className = "live-badge error";
   }
 }
@@ -445,6 +453,7 @@ async function loadTide() {
 
 async function loadInfos() {
   ui.infosView.dataset.loaded = "true";
+  marketDataPromise = null;
   ui.refreshInfos.disabled = true;
   await Promise.all([
     loadQuote("TSLA", ui.teslaPrice, ui.teslaChange, ui.teslaStatus, "USD"),

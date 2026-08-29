@@ -1,0 +1,24 @@
+{
+  "updatedAt": "2026-08-29T20:00:00+02:00",
+  "source": "Yahoo Finance",
+  "quotes": {
+    "TSLA": {
+      "price": 348.75,
+      "previousClose": 362.86,
+      "currency": "USD",
+      "marketTime": 1787947200
+    },
+    "SPCX": {
+      "price": 141.5,
+      "previousClose": 136.97,
+      "currency": "USD",
+      "marketTime": 1787947200
+    },
+    "SAF.PA": {
+      "price": 344.2,
+      "previousClose": 339.9,
+      "currency": "EUR",
+      "marketTime": 1787931308
+    }
+  }
+}
