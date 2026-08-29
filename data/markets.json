@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T20:48:50.723Z",
+  "updatedAt": "2026-08-29T21:01:02.839Z",
   "source": "Yahoo Finance",
   "quotes": {
     "TSLA": {
@@ -19,6 +19,18 @@
       "previousClose": 339.9,
       "currency": "EUR",
       "marketTime": 1787931308
+    },
+    "NVDA": {
+      "price": 217.55,
+      "previousClose": 214.72,
+      "currency": "USD",
+      "marketTime": 1787947200
+    },
+    "PLTR": {
+      "price": 186.29,
+      "previousClose": 179.94,
+      "currency": "USD",
+      "marketTime": 1787947200
     }
   }
 }
