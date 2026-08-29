@@ -33,6 +33,7 @@
 
       <nav class="app-tabs" aria-label="Sections de YannDrive">
         <button class="app-tab active" type="button" data-tab="drive" aria-selected="true">CONDUITE</button>
+        <button class="app-tab" type="button" data-tab="engine" aria-selected="false">MOTEUR</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
       </nav>
 
@@ -72,6 +73,36 @@
           </div>
           <div class="accuracy"><span>PRÉCISION</span><strong id="accuracy">— m</strong></div>
         </aside>
+      </section>
+
+      <section id="engineView" class="engine-view tab-view" aria-labelledby="engineTitle">
+        <div class="engine-console">
+          <div class="engine-heading">
+            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">V12 Atmosphérique</h1></div>
+            <span id="engineAudioStatus" class="engine-status">MOTEUR COUPÉ</span>
+          </div>
+          <div class="engine-dials">
+            <div class="rpm-dial">
+              <div class="rpm-scale"><span>1</span><span>3</span><span>5</span><span>7</span><span>8</span></div>
+              <div class="rpm-readout"><strong id="engineRpm">0</strong><span>tr/min</span></div>
+              <div class="rpm-bar"><span id="rpmBar"></span></div>
+            </div>
+            <div id="gearCard" class="gear-card">
+              <small>RAPPORT</small>
+              <strong id="engineGear">N</strong>
+              <span id="shiftStatus">BOÎTE AUTO 6</span>
+            </div>
+          </div>
+          <div class="engine-controls">
+            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>DÉMARRER LE V12</button>
+            <label class="volume-control" for="engineVolume">
+              <span>VOLUME</span>
+              <input id="engineVolume" type="range" min="0" max="100" value="32" />
+              <output id="engineVolumeValue">32 %</output>
+            </label>
+          </div>
+          <p class="engine-note">Son entièrement synthétisé dans le navigateur. Le régime et les passages de rapports suivent la vitesse GPS ou le mode Démo.</p>
+        </div>
       </section>
 
       <section id="infosView" class="infos-view tab-view" aria-labelledby="infosTitle">

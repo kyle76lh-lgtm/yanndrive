@@ -10,7 +10,10 @@ const ui = {
   demo: $("demoButton"), mode67: $("mode67Button"), celebration67: $("celebration67"),
   fireworks67: $("fireworks67"),
   fullscreen: $("fullscreenButton"), toast: $("toast"), driveView: $("driveView"),
-  infosView: $("infosView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
+  engineView: $("engineView"), infosView: $("infosView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
+  engineToggle: $("engineToggle"), engineVolume: $("engineVolume"), engineVolumeValue: $("engineVolumeValue"),
+  engineRpm: $("engineRpm"), rpmBar: $("rpmBar"), engineGear: $("engineGear"),
+  gearCard: $("gearCard"), shiftStatus: $("shiftStatus"), engineAudioStatus: $("engineAudioStatus"),
   teslaPrice: $("teslaPrice"), teslaChange: $("teslaChange"), teslaStatus: $("teslaStatus"),
   spacexPrice: $("spacexPrice"), spacexChange: $("spacexChange"), spacexStatus: $("spacexStatus"),
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
@@ -27,6 +30,136 @@ const state = {
 };
 
 let fireworksFrame = null;
+let engine = null;
+
+class V12Engine {
+  constructor() {
+    this.context = null;
+    this.master = null;
+    this.oscillators = [];
+    this.running = false;
+    this.gear = 0;
+    this.rpm = 0;
+    this.volume = Number(ui.engineVolume.value) / 100;
+  }
+
+  async start() {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) throw new Error("Web Audio indisponible");
+    this.context = this.context || new AudioContext();
+    await this.context.resume();
+    const now = this.context.currentTime;
+    this.master = this.context.createGain();
+    this.master.gain.setValueAtTime(0, now);
+    const compressor = this.context.createDynamicsCompressor();
+    compressor.threshold.value = -18;
+    compressor.ratio.value = 5;
+    const lowpass = this.context.createBiquadFilter();
+    lowpass.type = "lowpass";
+    lowpass.frequency.value = 1800;
+    lowpass.Q.value = .7;
+    this.master.connect(lowpass).connect(compressor).connect(this.context.destination);
+
+    const voices = [
+      { type: "sawtooth", ratio: 1, gain: .22 },
+      { type: "square", ratio: .5, gain: .08 },
+      { type: "triangle", ratio: 2.01, gain: .07 },
+      { type: "sawtooth", ratio: 1.008, gain: .09 }
+    ];
+    this.oscillators = voices.map((voice) => {
+      const oscillator = this.context.createOscillator();
+      const gain = this.context.createGain();
+      oscillator.type = voice.type;
+      gain.gain.value = voice.gain;
+      oscillator.connect(gain).connect(this.master);
+      oscillator.start();
+      return { oscillator, ratio: voice.ratio };
+    });
+    this.running = true;
+    this.master.gain.linearRampToValueAtTime(this.volume, now + .5);
+    this.update(state.currentSpeedKmh, true);
+  }
+
+  stop() {
+    if (!this.context || !this.master) return;
+    const now = this.context.currentTime;
+    this.master.gain.cancelScheduledValues(now);
+    this.master.gain.setValueAtTime(this.master.gain.value, now);
+    this.master.gain.linearRampToValueAtTime(0, now + .35);
+    const voices = this.oscillators;
+    setTimeout(() => voices.forEach(({ oscillator }) => { try { oscillator.stop(); } catch {} }), 400);
+    this.oscillators = [];
+    this.running = false;
+  }
+
+  setVolume(value) {
+    this.volume = value;
+    if (this.running && this.master) this.master.gain.setTargetAtTime(value, this.context.currentTime, .08);
+  }
+
+  update(speedKmh, immediate = false) {
+    const thresholds = [0, 18, 34, 54, 78, 108, 145];
+    let gear = speedKmh < 2 ? 1 : 6;
+    for (let i = 1; i < thresholds.length; i++) {
+      if (speedKmh < thresholds[i]) { gear = i; break; }
+    }
+    const low = thresholds[gear - 1];
+    const high = thresholds[gear] || 190;
+    const progress = Math.max(0, Math.min(1, (speedKmh - low) / (high - low)));
+    const rpm = speedKmh < 2 ? 850 : 2200 + progress * 5200;
+    const changed = this.gear && gear !== this.gear;
+    this.gear = gear;
+    this.rpm = rpm;
+
+    if (this.running && this.context) {
+      const now = this.context.currentTime;
+      const firingFrequency = Math.max(65, rpm / 60 * 6);
+      this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(firingFrequency * ratio, now, immediate ? .01 : .09));
+      if (changed && this.master) {
+        this.master.gain.cancelScheduledValues(now);
+        this.master.gain.setValueAtTime(this.master.gain.value, now);
+        this.master.gain.linearRampToValueAtTime(this.volume * .28, now + .08);
+        this.master.gain.linearRampToValueAtTime(this.volume, now + .3);
+      }
+    }
+    renderEngine(rpm, gear, changed);
+  }
+}
+
+function renderEngine(rpm, gear, shifting = false) {
+  ui.engineRpm.textContent = Math.round(rpm / 50) * 50;
+  ui.rpmBar.style.width = `${Math.min(100, rpm / 80)}%`;
+  ui.engineGear.textContent = gear || "N";
+  if (shifting) {
+    ui.shiftStatus.textContent = "PASSAGE DE RAPPORT";
+    ui.gearCard.classList.remove("shifting");
+    void ui.gearCard.offsetWidth;
+    ui.gearCard.classList.add("shifting");
+    setTimeout(() => { ui.shiftStatus.textContent = "BOÎTE AUTO 6"; }, 500);
+  }
+}
+
+async function toggleEngine() {
+  engine ||= new V12Engine();
+  if (engine.running) {
+    engine.stop();
+    ui.engineToggle.classList.remove("active");
+    ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE V12";
+    ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
+    ui.engineAudioStatus.classList.remove("running");
+    renderEngine(0, 0);
+    return;
+  }
+  try {
+    await engine.start();
+    ui.engineToggle.classList.add("active");
+    ui.engineToggle.innerHTML = "<span>■</span>COUPER LE V12";
+    ui.engineAudioStatus.textContent = "V12 EN MARCHE";
+    ui.engineAudioStatus.classList.add("running");
+  } catch {
+    showToast("Le navigateur ne permet pas de démarrer le son.");
+  }
+}
 
 function startFireworks() {
   const canvas = ui.fireworks67;
@@ -133,6 +266,7 @@ function switchTab(name) {
     button.setAttribute("aria-selected", String(active));
   });
   ui.driveView.classList.toggle("active", name === "drive");
+  ui.engineView.classList.toggle("active", name === "engine");
   ui.infosView.classList.toggle("active", name === "infos");
   ui.driveControls.hidden = name !== "drive";
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
@@ -220,6 +354,7 @@ function renderSpeed(kmh, acceleration = 0) {
   ui.acceleration.textContent = formatDecimal(acceleration, 1);
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
+  if (engine?.running) engine.update(state.currentSpeedKmh);
 }
 
 function calculateAcceleration(speedMps, timestamp) {
@@ -394,6 +529,12 @@ ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
 ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
+ui.engineToggle.addEventListener("click", toggleEngine);
+ui.engineVolume.addEventListener("input", () => {
+  const value = Number(ui.engineVolume.value);
+  ui.engineVolumeValue.textContent = `${value} %`;
+  if (engine) engine.setVolume(value / 100);
+});
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
 ui.fullscreen.addEventListener("click", async () => {
