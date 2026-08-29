@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="YannDrive — tableau de bord GPS pour navigateur Tesla" />
     <title>YannDrive</title>
-    <link rel="stylesheet" href="styles.css?v=10" />
+    <link rel="stylesheet" href="styles.css?v=11" />
   </head>
   <body>
     <main class="app-shell">
@@ -18,6 +18,7 @@
         <div class="topbar-right">
           <time id="clock" class="clock">--:--</time>
           <button id="mode67Button" class="icon-button mode-67-button" type="button" aria-pressed="false" title="Activer le mode 67">MODE 67</button>
+          <button id="settingsButton" class="icon-button settings-button" type="button" title="Ouvrir les réglages" aria-label="Ouvrir les réglages">⚙</button>
           <button id="demoButton" class="icon-button" type="button" title="Activer le mode démo" aria-label="Activer le mode démo">DÉMO</button>
           <button id="fullscreenButton" class="icon-button fullscreen" type="button" title="Plein écran" aria-label="Passer en plein écran">⛶</button>
         </div>
@@ -62,7 +63,7 @@
           </article>
           <article class="metric-card">
             <span class="metric-icon">↑</span>
-            <div><small>ACCÉLÉRATION</small><strong id="acceleration">0,0</strong><span>m/s²</span></div>
+            <div><small>ACCÉLÉRATION</small><strong id="acceleration">0,0</strong><span id="accelerationUnit">m/s²</span></div>
           </article>
           <article class="metric-card max-speed-card">
             <span class="metric-icon">◇</span>
@@ -70,11 +71,11 @@
           </article>
           <article class="metric-card record-card acceleration-record">
             <span class="metric-icon">↟</span>
-            <div><small>ACCÉLÉRATION MAX</small><strong id="maxAcceleration">0,0</strong><span>m/s²</span></div>
+            <div><small>ACCÉLÉRATION MAX</small><strong id="maxAcceleration">0,0</strong><span id="maxAccelerationUnit">m/s²</span></div>
           </article>
           <article class="metric-card record-card deceleration-record">
             <span class="metric-icon">↡</span>
-            <div><small>DÉCÉLÉRATION MAX</small><strong id="maxDeceleration">0,0</strong><span>m/s²</span></div>
+            <div><small>DÉCÉLÉRATION MAX</small><strong id="maxDeceleration">0,0</strong><span id="maxDecelerationUnit">m/s²</span></div>
           </article>
         </div>
 
@@ -176,7 +177,23 @@
       <strong>67</strong>
       <span>VITESSE ATTEINTE</span>
     </div>
+    <div id="settingsOverlay" class="settings-overlay" hidden>
+      <section class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <div class="settings-header">
+          <div><small>YANNDRIVE</small><h2 id="settingsTitle">Réglages</h2></div>
+          <button id="closeSettings" class="settings-close" type="button" aria-label="Fermer les réglages">×</button>
+        </div>
+        <div class="setting-group">
+          <div><strong>Unité d’accélération</strong><span>Pour les valeurs instantanée, maximale et de décélération.</span></div>
+          <div class="unit-selector" role="radiogroup" aria-label="Unité d’accélération">
+            <button type="button" data-acceleration-unit="mps2" role="radio">m/s²</button>
+            <button type="button" data-acceleration-unit="g" role="radio">g</button>
+          </div>
+        </div>
+        <p class="settings-note">1 g = 9,80665 m/s². Ce réglage est conservé dans le navigateur.</p>
+      </section>
+    </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=10" defer></script>
+    <script src="app.js?v=11" defer></script>
   </body>
 </html>

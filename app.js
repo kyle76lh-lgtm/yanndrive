@@ -5,6 +5,7 @@ const ui = {
   clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"), distance: $("distance"),
   duration: $("duration"), averageSpeed: $("averageSpeed"), acceleration: $("acceleration"), maxSpeed: $("maxSpeed"),
   maxAcceleration: $("maxAcceleration"), maxDeceleration: $("maxDeceleration"),
+  accelerationUnit: $("accelerationUnit"), maxAccelerationUnit: $("maxAccelerationUnit"), maxDecelerationUnit: $("maxDecelerationUnit"),
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
@@ -21,14 +22,16 @@ const ui = {
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
   nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
   palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
-  nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus")
+  nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus"),
+  settingsButton: $("settingsButton"), settingsOverlay: $("settingsOverlay"), closeSettings: $("closeSettings")
 };
 
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null,
   lastSpeedMps: 0, lastSpeedAt: null, speedHistory: [], displayedAcceleration: 0,
-  currentSpeedKmh: 0, maxSpeedKmh: 0, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
+  currentSpeedKmh: 0, currentAccelerationMps2: 0, maxSpeedKmh: 0, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
+  accelerationUnit: localStorage.getItem("yanndrive-acceleration-unit") === "g" ? "g" : "mps2",
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null
 };
@@ -477,20 +480,54 @@ function setGpsStatus(label, type = "") {
 function renderSpeed(kmh, acceleration = 0) {
   const previousSpeed = state.currentSpeedKmh;
   state.currentSpeedKmh = Math.max(0, kmh);
+  state.currentAccelerationMps2 = acceleration;
   ui.speed.textContent = Math.round(state.currentSpeedKmh);
   ui.speedBar.style.width = `${Math.min(100, state.currentSpeedKmh / 1.8)}%`;
-  ui.acceleration.textContent = formatDecimal(acceleration, 1);
   if (state.running) {
     state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
     state.maxAccelerationMps2 = Math.max(state.maxAccelerationMps2, acceleration);
     state.maxDecelerationMps2 = Math.max(state.maxDecelerationMps2, -acceleration);
   }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
-  ui.maxAcceleration.textContent = formatDecimal(state.maxAccelerationMps2, 1);
-  ui.maxDeceleration.textContent = formatDecimal(state.maxDecelerationMps2, 1);
+  renderAccelerationMetrics();
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
   if (engine?.running) engine.update(state.currentSpeedKmh);
+}
+
+function renderAccelerationMetrics() {
+  const useG = state.accelerationUnit === "g";
+  const divisor = useG ? 9.80665 : 1;
+  const digits = useG ? 2 : 1;
+  const unit = useG ? "g" : "m/s²";
+  ui.acceleration.textContent = formatDecimal(state.currentAccelerationMps2 / divisor, digits);
+  ui.maxAcceleration.textContent = formatDecimal(state.maxAccelerationMps2 / divisor, digits);
+  ui.maxDeceleration.textContent = formatDecimal(state.maxDecelerationMps2 / divisor, digits);
+  ui.accelerationUnit.textContent = unit;
+  ui.maxAccelerationUnit.textContent = unit;
+  ui.maxDecelerationUnit.textContent = unit;
+}
+
+function setAccelerationUnit(unit, notify = true) {
+  state.accelerationUnit = unit === "g" ? "g" : "mps2";
+  localStorage.setItem("yanndrive-acceleration-unit", state.accelerationUnit);
+  document.querySelectorAll("[data-acceleration-unit]").forEach((button) => {
+    const selected = button.dataset.accelerationUnit === state.accelerationUnit;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-checked", String(selected));
+  });
+  renderAccelerationMetrics();
+  if (notify) showToast(`Accélération affichée en ${state.accelerationUnit === "g" ? "g" : "m/s²"}`);
+}
+
+function openSettings() {
+  ui.settingsOverlay.hidden = false;
+  ui.closeSettings.focus();
+}
+
+function closeSettings() {
+  ui.settingsOverlay.hidden = true;
+  ui.settingsButton.focus();
 }
 
 function calculateAcceleration(speedMps, timestamp) {
@@ -668,6 +705,11 @@ ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
 ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
+ui.settingsButton.addEventListener("click", openSettings);
+ui.closeSettings.addEventListener("click", closeSettings);
+ui.settingsOverlay.addEventListener("click", (event) => { if (event.target === ui.settingsOverlay) closeSettings(); });
+document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !ui.settingsOverlay.hidden) closeSettings(); });
+document.querySelectorAll("[data-acceleration-unit]").forEach((button) => button.addEventListener("click", () => setAccelerationUnit(button.dataset.accelerationUnit)));
 ui.engineToggle.addEventListener("click", toggleEngine);
 ui.engineVolume.addEventListener("input", () => {
   const value = Number(ui.engineVolume.value);
@@ -686,4 +728,5 @@ state.tickTimer = setInterval(renderTrip, 1000);
 ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
+setAccelerationUnit(state.accelerationUnit, false);
 requestGps();
