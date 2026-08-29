@@ -511,14 +511,26 @@ function renderBridges(data) {
 }
 
 let bridgesLoading = false;
-async function loadBridges() {
+async function loadBridges(manual = false) {
   if (bridgesLoading) return;
   bridgesLoading = true;
   ui.refreshBridges.disabled = true;
+  if (manual) ui.refreshBridges.textContent = "↻ ACTUALISATION…";
   try {
-    const response = await fetch(`data/bridges.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error("bridge data unavailable");
-    renderBridges(await response.json());
+    let response;
+    try {
+      response = await fetch("https://yanndrive-bridges.yanndrive-bridges-worker.workers.dev/api/bridges", { cache: "no-store" });
+      if (!response.ok) throw new Error("worker unavailable");
+    } catch {
+      response = await fetch(`data/bridges.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("bridge data unavailable");
+    }
+    const data = await response.json();
+    renderBridges(data);
+    if (manual) {
+      ui.refreshBridges.textContent = "✓ À JOUR";
+      showToast("État des ponts actualisé");
+    }
   } catch {
     ui.bridgesList.querySelectorAll("[data-bridge-id]").forEach((row) => {
       row.className = "bridge-row unknown";
@@ -529,6 +541,8 @@ async function loadBridges() {
   } finally {
     bridgesLoading = false;
     ui.refreshBridges.disabled = false;
+    if (!manual) ui.refreshBridges.textContent = "↻ ACTUALISER";
+    else setTimeout(() => { ui.refreshBridges.textContent = "↻ ACTUALISER"; }, 1500);
   }
 }
 
@@ -778,7 +792,7 @@ ui.engineVolume.addEventListener("input", () => {
 });
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
-ui.refreshBridges.addEventListener("click", loadBridges);
+ui.refreshBridges.addEventListener("click", () => loadBridges(true));
 ui.fullscreen.addEventListener("click", async () => {
   try { document.fullscreenElement ? await document.exitFullscreen() : await document.documentElement.requestFullscreen(); }
   catch { showToast("Le plein écran n’est pas disponible ici."); }
