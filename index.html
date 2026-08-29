@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="YannDrive — tableau de bord GPS pour navigateur Tesla" />
     <title>YannDrive</title>
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=7" />
   </head>
   <body>
     <main class="app-shell">
@@ -111,6 +111,12 @@
           <button id="refreshInfos" class="refresh-button" type="button">↻ ACTUALISER</button>
         </div>
         <div class="info-grid">
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/SAF.PA/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol safran-symbol">S</span><span id="safranStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>SAFRAN · EURONEXT PARIS</small>
+            <strong id="safranPrice">—</strong>
+            <span id="safranChange" class="info-detail">SAF.PA · EUR</span>
+          </a>
           <a class="info-card stock-card" href="https://finance.yahoo.com/quote/TSLA/" target="_blank" rel="noopener">
             <div class="info-card-top"><span class="info-symbol tesla-symbol">T</span><span id="teslaStatus" class="live-badge">CHARGEMENT</span></div>
             <small>TESLA · NASDAQ</small>
@@ -123,11 +129,17 @@
             <strong id="spacexPrice">—</strong>
             <span id="spacexChange" class="info-detail">SPCX · USD</span>
           </a>
-          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/SAF.PA/" target="_blank" rel="noopener">
-            <div class="info-card-top"><span class="info-symbol safran-symbol">S</span><span id="safranStatus" class="live-badge">CHARGEMENT</span></div>
-            <small>SAFRAN · EURONEXT PARIS</small>
-            <strong id="safranPrice">—</strong>
-            <span id="safranChange" class="info-detail">SAF.PA · EUR</span>
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/NVDA/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol nvidia-symbol">N</span><span id="nvidiaStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>NVIDIA · NASDAQ</small>
+            <strong id="nvidiaPrice">—</strong>
+            <span id="nvidiaChange" class="info-detail">NVDA · USD</span>
+          </a>
+          <a class="info-card stock-card" href="https://finance.yahoo.com/quote/PLTR/" target="_blank" rel="noopener">
+            <div class="info-card-top"><span class="info-symbol palantir-symbol">P</span><span id="palantirStatus" class="live-badge">CHARGEMENT</span></div>
+            <small>PALANTIR · NASDAQ</small>
+            <strong id="palantirPrice">—</strong>
+            <span id="palantirChange" class="info-detail">PLTR · USD</span>
           </a>
           <article class="info-card tide-card">
             <div class="info-card-top"><span class="info-symbol tide-symbol">≈</span><span id="tideStatus" class="live-badge">CHARGEMENT</span></div>
@@ -153,6 +165,6 @@
       <span>VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=6" defer></script>
+    <script src="app.js?v=7" defer></script>
   </body>
 </html>

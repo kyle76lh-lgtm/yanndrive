@@ -120,13 +120,15 @@ button { font: inherit; }
 .infos-heading small { color: var(--green); font-size: 10px; font-weight: 850; letter-spacing: .18em; }
 .infos-heading h1 { margin: 7px 0 0; font-size: clamp(28px, 4vw, 48px); letter-spacing: -.04em; }
 .refresh-button { min-height: 44px; padding: 0 18px; border: 1px solid var(--line); border-radius: 10px; color: #cbd1d5; background: var(--panel); cursor: pointer; font-size: 10px; font-weight: 850; letter-spacing: .1em; }
-.info-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .info-card { min-height: 245px; padding: 24px; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 18px; color: var(--text); background: linear-gradient(145deg, #141a20, #0d1216); text-decoration: none; }
 .info-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 42px; }
 .info-symbol { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 12px; font-weight: 900; }
 .tesla-symbol { color: #fff; background: #e82127; }
 .spacex-symbol { color: #121c28; background: #dce9f6; }
 .safran-symbol { color: #fff; background: #0067a7; }
+.nvidia-symbol { color: #071006; background: #76b900; }
+.palantir-symbol { color: #fff; background: #252a2e; border: 1px solid #68727a; }
 .tide-symbol { color: #06202b; background: #65d8e8; font-size: 24px; }
 .live-badge, .private-badge { padding: 6px 8px; border-radius: 6px; color: var(--muted); background: #1b2228; font-size: 8px; font-weight: 850; letter-spacing: .1em; }
 .live-badge.ok { color: var(--green); background: var(--green-soft); }

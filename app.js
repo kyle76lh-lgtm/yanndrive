@@ -18,6 +18,8 @@ const ui = {
   teslaPrice: $("teslaPrice"), teslaChange: $("teslaChange"), teslaStatus: $("teslaStatus"),
   spacexPrice: $("spacexPrice"), spacexChange: $("spacexChange"), spacexStatus: $("spacexStatus"),
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
+  nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
+  palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
   nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus")
 };
 
@@ -456,9 +458,11 @@ async function loadInfos() {
   marketDataPromise = null;
   ui.refreshInfos.disabled = true;
   await Promise.all([
+    loadQuote("SAF.PA", ui.safranPrice, ui.safranChange, ui.safranStatus, "EUR"),
     loadQuote("TSLA", ui.teslaPrice, ui.teslaChange, ui.teslaStatus, "USD"),
     loadQuote("SPCX", ui.spacexPrice, ui.spacexChange, ui.spacexStatus, "USD"),
-    loadQuote("SAF.PA", ui.safranPrice, ui.safranChange, ui.safranStatus, "EUR"),
+    loadQuote("NVDA", ui.nvidiaPrice, ui.nvidiaChange, ui.nvidiaStatus, "USD"),
+    loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD"),
     loadTide()
   ]);
   ui.refreshInfos.disabled = false;

@@ -10,7 +10,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - état et précision du GPS ;
 - mode démo pour tester l'interface sans déplacement ;
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;
-- onglet Infos avec les cours Tesla, SpaceX (`SPCX`) et Safran, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
+- onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
 - onglet Moteur avec six boucles WAV CC0 mélangées selon le régime, synthèse de secours et boîte automatique à six rapports ;
 - mise en page responsive, tactile et sombre ;
 - mode plein écran lorsque le navigateur l'autorise.
