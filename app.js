@@ -37,6 +37,11 @@ class V12Engine {
     this.context = null;
     this.master = null;
     this.oscillators = [];
+    this.sources = [];
+    this.sampleGains = [];
+    this.buffers = null;
+    this.sampleMode = false;
+    this.loading = false;
     this.running = false;
     this.gear = 0;
     this.rpm = 0;
@@ -60,6 +65,43 @@ class V12Engine {
     lowpass.Q.value = .7;
     this.master.connect(lowpass).connect(compressor).connect(this.context.destination);
 
+    try {
+      await this.startSamples();
+      this.sampleMode = true;
+    } catch (error) {
+      console.warn("Boucles moteur indisponibles, synthèse de secours utilisée.", error);
+      this.startSynth();
+      this.sampleMode = false;
+    }
+
+    this.running = true;
+    this.master.gain.linearRampToValueAtTime(this.volume, this.context.currentTime + .5);
+    this.update(state.currentSpeedKmh, true);
+  }
+
+  async startSamples() {
+    if (!this.buffers) {
+      const paths = Array.from({ length: 6 }, (_, index) => `assets/engine/loop_${index}.wav`);
+      const responses = await Promise.all(paths.map((path) => fetch(new URL(path, window.location.href))));
+      if (responses.some((response) => !response.ok)) throw new Error("Un fichier WAV n’a pas été chargé");
+      const bytes = await Promise.all(responses.map((response) => response.arrayBuffer()));
+      this.buffers = await Promise.all(bytes.map((data) => this.context.decodeAudioData(data)));
+    }
+    this.sources = this.buffers.map((buffer) => {
+      const source = this.context.createBufferSource();
+      const gain = this.context.createGain();
+      source.buffer = buffer;
+      source.loop = true;
+      gain.gain.value = 0;
+      source.connect(gain).connect(this.master);
+      source.start();
+      this.sampleGains.push(gain);
+      return source;
+    });
+  }
+
+  startSynth() {
+
     const voices = [
       { type: "sawtooth", ratio: 1, gain: .22 },
       { type: "square", ratio: .5, gain: .08 },
@@ -75,9 +117,6 @@ class V12Engine {
       oscillator.start();
       return { oscillator, ratio: voice.ratio };
     });
-    this.running = true;
-    this.master.gain.linearRampToValueAtTime(this.volume, now + .5);
-    this.update(state.currentSpeedKmh, true);
   }
 
   stop() {
@@ -87,8 +126,14 @@ class V12Engine {
     this.master.gain.setValueAtTime(this.master.gain.value, now);
     this.master.gain.linearRampToValueAtTime(0, now + .35);
     const voices = this.oscillators;
-    setTimeout(() => voices.forEach(({ oscillator }) => { try { oscillator.stop(); } catch {} }), 400);
+    const sources = this.sources;
+    setTimeout(() => {
+      voices.forEach(({ oscillator }) => { try { oscillator.stop(); } catch {} });
+      sources.forEach((source) => { try { source.stop(); } catch {} });
+    }, 400);
     this.oscillators = [];
+    this.sources = [];
+    this.sampleGains = [];
     this.running = false;
   }
 
@@ -113,8 +158,26 @@ class V12Engine {
 
     if (this.running && this.context) {
       const now = this.context.currentTime;
-      const firingFrequency = Math.max(65, rpm / 60 * 6);
-      this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(firingFrequency * ratio, now, immediate ? .01 : .09));
+      if (this.sampleMode) {
+        const sampleRpms = [850, 2100, 3400, 4700, 6000, 7400];
+        let upper = sampleRpms.findIndex((sampleRpm) => sampleRpm >= rpm);
+        if (upper < 0) upper = sampleRpms.length - 1;
+        const lower = Math.max(0, upper - 1);
+        const span = sampleRpms[upper] - sampleRpms[lower] || 1;
+        const blend = Math.max(0, Math.min(1, (rpm - sampleRpms[lower]) / span));
+        this.sampleGains.forEach((gain, index) => {
+          let level = 0;
+          if (index === lower) level = Math.cos(blend * Math.PI / 2) * 1.35;
+          if (index === upper) level = Math.sin(blend * Math.PI / 2) * 1.35;
+          if (lower === upper && index === lower) level = 1.35;
+          gain.gain.setTargetAtTime(level, now, immediate ? .01 : .08);
+          const rate = Math.max(.82, Math.min(1.18, rpm / sampleRpms[index]));
+          this.sources[index].playbackRate.setTargetAtTime(rate, now, immediate ? .01 : .1);
+        });
+      } else {
+        const firingFrequency = Math.max(65, rpm / 60 * 6);
+        this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(firingFrequency * ratio, now, immediate ? .01 : .09));
+      }
       if (changed && this.master) {
         this.master.gain.cancelScheduledValues(now);
         this.master.gain.setValueAtTime(this.master.gain.value, now);
@@ -141,6 +204,7 @@ function renderEngine(rpm, gear, shifting = false) {
 
 async function toggleEngine() {
   engine ||= new V12Engine();
+  if (engine.loading) return;
   if (engine.running) {
     engine.stop();
     ui.engineToggle.classList.remove("active");
@@ -151,13 +215,22 @@ async function toggleEngine() {
     return;
   }
   try {
+    engine.loading = true;
+    ui.engineToggle.disabled = true;
+    ui.engineToggle.innerHTML = "CHARGEMENT DU MOTEUR…";
+    ui.engineAudioStatus.textContent = "PRÉCHAUFFAGE";
     await engine.start();
     ui.engineToggle.classList.add("active");
     ui.engineToggle.innerHTML = "<span>■</span>COUPER LE V12";
-    ui.engineAudioStatus.textContent = "V12 EN MARCHE";
+    ui.engineAudioStatus.textContent = engine.sampleMode ? "V12 ÉCHANTILLONNÉ" : "V12 SYNTHÉTIQUE";
     ui.engineAudioStatus.classList.add("running");
   } catch {
     showToast("Le navigateur ne permet pas de démarrer le son.");
+    ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE V12";
+    ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
+  } finally {
+    engine.loading = false;
+    ui.engineToggle.disabled = false;
   }
 }
 
