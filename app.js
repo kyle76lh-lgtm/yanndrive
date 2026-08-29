@@ -14,6 +14,7 @@ const ui = {
   engineToggle: $("engineToggle"), engineVolume: $("engineVolume"), engineVolumeValue: $("engineVolumeValue"),
   engineRpm: $("engineRpm"), rpmBar: $("rpmBar"), engineGear: $("engineGear"),
   gearCard: $("gearCard"), shiftStatus: $("shiftStatus"), engineAudioStatus: $("engineAudioStatus"),
+  engineSourceNote: $("engineSourceNote"),
   teslaPrice: $("teslaPrice"), teslaChange: $("teslaChange"), teslaStatus: $("teslaStatus"),
   spacexPrice: $("spacexPrice"), spacexChange: $("spacexChange"), spacexStatus: $("spacexStatus"),
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
@@ -81,7 +82,7 @@ class V12Engine {
 
   async startSamples() {
     if (!this.buffers) {
-      const paths = Array.from({ length: 6 }, (_, index) => `assets/engine/loop_${index}.wav`);
+      const paths = Array.from({ length: 6 }, (_, index) => `assets/engine/loop_${index}.wav?v=4`);
       const responses = await Promise.all(paths.map((path) => fetch(new URL(path, window.location.href))));
       if (responses.some((response) => !response.ok)) throw new Error("Un fichier WAV n’a pas été chargé");
       const bytes = await Promise.all(responses.map((response) => response.arrayBuffer()));
@@ -211,6 +212,7 @@ async function toggleEngine() {
     ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE V12";
     ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
     ui.engineAudioStatus.classList.remove("running");
+    ui.engineSourceNote.textContent = "Moteur arrêté — les boucles WAV seront réactivées au prochain démarrage.";
     renderEngine(0, 0);
     return;
   }
@@ -222,8 +224,11 @@ async function toggleEngine() {
     await engine.start();
     ui.engineToggle.classList.add("active");
     ui.engineToggle.innerHTML = "<span>■</span>COUPER LE V12";
-    ui.engineAudioStatus.textContent = engine.sampleMode ? "V12 ÉCHANTILLONNÉ" : "V12 SYNTHÉTIQUE";
+    ui.engineAudioStatus.textContent = engine.sampleMode ? "AUDIO WAV ACTIF" : "SECOURS SYNTHÉTIQUE";
     ui.engineAudioStatus.classList.add("running");
+    ui.engineSourceNote.textContent = engine.sampleMode
+      ? "✓ Six enregistrements WAV CC0 sont chargés et mélangés en temps réel."
+      : "⚠ Les WAV n’ont pas pu être lus : le synthétiseur de secours est utilisé.";
   } catch {
     showToast("Le navigateur ne permet pas de démarrer le son.");
     ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE V12";
