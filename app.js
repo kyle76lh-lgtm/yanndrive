@@ -4,6 +4,7 @@ const $ = (id) => document.getElementById(id);
 const ui = {
   clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"), distance: $("distance"),
   duration: $("duration"), averageSpeed: $("averageSpeed"), acceleration: $("acceleration"), maxSpeed: $("maxSpeed"),
+  maxAcceleration: $("maxAcceleration"), maxDeceleration: $("maxDeceleration"),
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
@@ -27,7 +28,7 @@ const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null,
   lastSpeedMps: 0, lastSpeedAt: null, speedHistory: [], displayedAcceleration: 0,
-  currentSpeedKmh: 0, maxSpeedKmh: 0,
+  currentSpeedKmh: 0, maxSpeedKmh: 0, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null
 };
@@ -479,8 +480,14 @@ function renderSpeed(kmh, acceleration = 0) {
   ui.speed.textContent = Math.round(state.currentSpeedKmh);
   ui.speedBar.style.width = `${Math.min(100, state.currentSpeedKmh / 1.8)}%`;
   ui.acceleration.textContent = formatDecimal(acceleration, 1);
-  if (state.running) state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
+  if (state.running) {
+    state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
+    state.maxAccelerationMps2 = Math.max(state.maxAccelerationMps2, acceleration);
+    state.maxDecelerationMps2 = Math.max(state.maxDecelerationMps2, -acceleration);
+  }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
+  ui.maxAcceleration.textContent = formatDecimal(state.maxAccelerationMps2, 1);
+  ui.maxDeceleration.textContent = formatDecimal(state.maxDecelerationMps2, 1);
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
   if (engine?.running) engine.update(state.currentSpeedKmh);
@@ -611,6 +618,8 @@ function resetTrip() {
   state.elapsedBeforeStart = 0;
   state.distanceM = 0;
   state.maxSpeedKmh = 0;
+  state.maxAccelerationMps2 = 0;
+  state.maxDecelerationMps2 = 0;
   state.lastPosition = null;
   state.speedHistory = [];
   state.displayedAcceleration = 0;

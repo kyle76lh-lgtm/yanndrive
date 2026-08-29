@@ -4,7 +4,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 
 ## Fonctions
 
-- vitesse GPS, vitesse maximale du trajet et repli sur un calcul entre deux positions ;
+- vitesse GPS, vitesse maximale, accélération et décélération maximales du trajet, avec repli sur un calcul entre deux positions ;
 - distance, durée, vitesse moyenne et accélération estimée ;
 - commandes Démarrer, Arrêter et Réinitialiser ;
 - état et précision du GPS ;
