@@ -60,11 +60,23 @@ class V12Engine {
     const compressor = this.context.createDynamicsCompressor();
     compressor.threshold.value = -18;
     compressor.ratio.value = 5;
+    const highpass = this.context.createBiquadFilter();
+    highpass.type = "highpass";
+    highpass.frequency.value = 48;
+    const presence = this.context.createBiquadFilter();
+    presence.type = "peaking";
+    presence.frequency.value = 1100;
+    presence.Q.value = .8;
+    presence.gain.value = 5.5;
+    const brightness = this.context.createBiquadFilter();
+    brightness.type = "highshelf";
+    brightness.frequency.value = 1900;
+    brightness.gain.value = 7;
     const lowpass = this.context.createBiquadFilter();
     lowpass.type = "lowpass";
-    lowpass.frequency.value = 1800;
-    lowpass.Q.value = .7;
-    this.master.connect(lowpass).connect(compressor).connect(this.context.destination);
+    lowpass.frequency.value = 7200;
+    lowpass.Q.value = .5;
+    this.master.connect(highpass).connect(presence).connect(brightness).connect(lowpass).connect(compressor).connect(this.context.destination);
 
     try {
       await this.startSamples();
@@ -143,6 +155,28 @@ class V12Engine {
     if (this.running && this.master) this.master.gain.setTargetAtTime(value, this.context.currentTime, .08);
   }
 
+  playShiftTransient() {
+    if (!this.context || !this.master) return;
+    const duration = .16;
+    const sampleCount = Math.floor(this.context.sampleRate * duration);
+    const buffer = this.context.createBuffer(1, sampleCount, this.context.sampleRate);
+    const data = buffer.getChannelData(0);
+    for (let i = 0; i < sampleCount; i++) {
+      const envelope = Math.exp(-i / (sampleCount * .16));
+      data[i] = (Math.random() * 2 - 1) * envelope;
+    }
+    const source = this.context.createBufferSource();
+    const filter = this.context.createBiquadFilter();
+    const gain = this.context.createGain();
+    filter.type = "bandpass";
+    filter.frequency.value = 240;
+    filter.Q.value = 1.2;
+    gain.gain.value = Math.min(.16, this.volume * .5);
+    source.buffer = buffer;
+    source.connect(filter).connect(gain).connect(this.context.destination);
+    source.start();
+  }
+
   update(speedKmh, immediate = false) {
     const thresholds = [0, 18, 34, 54, 78, 108, 145];
     let gear = speedKmh < 2 ? 1 : 6;
@@ -182,8 +216,10 @@ class V12Engine {
       if (changed && this.master) {
         this.master.gain.cancelScheduledValues(now);
         this.master.gain.setValueAtTime(this.master.gain.value, now);
-        this.master.gain.linearRampToValueAtTime(this.volume * .28, now + .08);
-        this.master.gain.linearRampToValueAtTime(this.volume, now + .3);
+        this.master.gain.linearRampToValueAtTime(this.volume * .1, now + .07);
+        this.master.gain.setValueAtTime(this.volume * .1, now + .14);
+        this.master.gain.linearRampToValueAtTime(this.volume, now + .46);
+        this.playShiftTransient();
       }
     }
     renderEngine(rpm, gear, changed);
