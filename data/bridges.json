@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-08-29T21:23:55.905Z",
+  "source": "HAROPA",
+  "source_endpoint": "ponts",
+  "stale": false,
+  "bridges": [
+    {
+      "id": "pont_rouge",
+      "name": "Pont Rouge",
+      "status": "open"
+    },
+    {
+      "id": "pont_7",
+      "name": "Pont 7",
+      "status": "closed"
+    },
+    {
+      "id": "pont_7_bis",
+      "name": "Pont 7 bis",
+      "status": "opening"
+    },
+    {
+      "id": "pont_8",
+      "name": "Pont 8",
+      "status": "open"
+    }
+  ]
+}

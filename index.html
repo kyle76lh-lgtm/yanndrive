@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="YannDrive — tableau de bord GPS pour navigateur Tesla" />
     <title>YannDrive</title>
-    <link rel="stylesheet" href="styles.css?v=11" />
+    <link rel="stylesheet" href="styles.css?v=12" />
   </head>
   <body>
     <main class="app-shell">
@@ -36,6 +36,7 @@
         <button class="app-tab active" type="button" data-tab="drive" aria-selected="true">CONDUITE</button>
         <button class="app-tab" type="button" data-tab="engine" aria-selected="false">MOTEUR</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
+        <button class="app-tab" type="button" data-tab="bridges" aria-selected="false">PONTS</button>
       </nav>
 
       <section id="driveView" class="dashboard tab-view active">
@@ -164,6 +165,25 @@
         <p class="data-note" id="dataNote">Données indicatives uniquement. La prévision de marée ne remplace pas les horaires officiels du SHOM et ne convient pas à la navigation.</p>
       </section>
 
+      <section id="bridgesView" class="bridges-view tab-view" aria-labelledby="bridgesTitle">
+        <div class="bridges-shell">
+          <div class="bridges-heading">
+            <div><small>HAROPA · LE HAVRE</small><h1 id="bridgesTitle">État des ponts</h1></div>
+            <button id="refreshBridges" class="refresh-button" type="button">↻ ACTUALISER</button>
+          </div>
+          <div id="bridgesFreshness" class="bridges-freshness loading" role="status" aria-live="polite">
+            <span class="freshness-dot"></span><strong>CHARGEMENT DES DONNÉES</strong>
+          </div>
+          <div id="bridgesList" class="bridges-list">
+            <article class="bridge-row unknown" data-bridge-id="pont_rouge"><span class="bridge-light"></span><strong>Pont Rouge</strong><span class="bridge-status">INCONNU</span></article>
+            <article class="bridge-row unknown" data-bridge-id="pont_7"><span class="bridge-light"></span><strong>Pont 7</strong><span class="bridge-status">INCONNU</span></article>
+            <article class="bridge-row unknown" data-bridge-id="pont_7_bis"><span class="bridge-light"></span><strong>Pont 7 bis</strong><span class="bridge-status">INCONNU</span></article>
+            <article class="bridge-row unknown" data-bridge-id="pont_8"><span class="bridge-light"></span><strong>Pont 8</strong><span class="bridge-status">INCONNU</span></article>
+          </div>
+          <p class="bridges-note">Données HAROPA indicatives. Respectez toujours la signalisation sur place. Une donnée ancienne est automatiquement signalée et n’est jamais présentée comme actuelle.</p>
+        </div>
+      </section>
+
       <footer id="driveControls" class="controls">
         <button id="startButton" class="control primary" type="button"><span>▶</span>DÉMARRER</button>
         <button id="stopButton" class="control" type="button" disabled><span>■</span>ARRÊTER</button>
@@ -194,6 +214,6 @@
       </section>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=11" defer></script>
+    <script src="app.js?v=12" defer></script>
   </body>
 </html>

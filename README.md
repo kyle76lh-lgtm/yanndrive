@@ -13,6 +13,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
 - onglet Moteur avec six boucles WAV CC0 mélangées selon le régime, synthèse de secours et boîte automatique à six rapports ;
 - réglage persistant des accélérations en `m/s²` ou en `g` ;
+- onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis et Pont 8, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
 - mise en page responsive, tactile et sombre ;
 - mode plein écran lorsque le navigateur l'autorise.
 
@@ -40,3 +41,5 @@ Le dossier ne contient aucune dépendance et peut être déployé tel quel sur G
 La vitesse et l'accélération sont des estimations GPS et ne doivent pas être utilisées comme instruments de sécurité ou de conduite.
 
 Les cours sont récupérés côté GitHub par une tâche planifiée, enregistrés dans `data/markets.json`, puis lus depuis le même domaine que l'application. Cette architecture évite les blocages CORS du navigateur Tesla. La marée est estimée depuis le niveau marin modélisé par Open-Meteo : elle est indicative et ne remplace jamais les horaires officiels du SHOM pour la navigation.
+
+L’état des ponts est récupéré par `services/haropaBridges.mjs`, normalisé dans `data/bridges.json`, puis servi depuis le domaine YannDrive. L’API `/map/getPonts` est prioritaire et `/waze/incidents` sert de solution de secours. GitHub Actions actualise ce cache toutes les cinq minutes ; l’écran relit le cache toutes les 25 secondes et neutralise les statuts datant de plus de dix minutes.

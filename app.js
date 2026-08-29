@@ -12,7 +12,7 @@ const ui = {
   demo: $("demoButton"), mode67: $("mode67Button"), celebration67: $("celebration67"),
   fireworks67: $("fireworks67"),
   fullscreen: $("fullscreenButton"), toast: $("toast"), driveView: $("driveView"),
-  engineView: $("engineView"), infosView: $("infosView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
+  engineView: $("engineView"), infosView: $("infosView"), bridgesView: $("bridgesView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
   engineToggle: $("engineToggle"), engineVolume: $("engineVolume"), engineVolumeValue: $("engineVolumeValue"),
   engineRpm: $("engineRpm"), rpmBar: $("rpmBar"), engineGear: $("engineGear"),
   gearCard: $("gearCard"), shiftStatus: $("shiftStatus"), engineAudioStatus: $("engineAudioStatus"),
@@ -23,6 +23,7 @@ const ui = {
   nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
   palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
   nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus"),
+  bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges"),
   settingsButton: $("settingsButton"), settingsOverlay: $("settingsOverlay"), closeSettings: $("closeSettings")
 };
 
@@ -388,8 +389,10 @@ function switchTab(name) {
   ui.driveView.classList.toggle("active", name === "drive");
   ui.engineView.classList.toggle("active", name === "engine");
   ui.infosView.classList.toggle("active", name === "infos");
+  ui.bridgesView.classList.toggle("active", name === "bridges");
   ui.driveControls.hidden = name !== "drive";
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
+  if (name === "bridges") loadBridges();
 }
 
 let marketDataPromise = null;
@@ -470,6 +473,63 @@ async function loadInfos() {
     loadTide()
   ]);
   ui.refreshInfos.disabled = false;
+}
+
+const bridgeStatusLabels = {
+  open: "OUVERT",
+  closing: "FERMETURE IMMINENTE",
+  opening: "BIENTÔT OUVERT",
+  closed: "FERMÉ",
+  unknown: "ÉTAT INCONNU"
+};
+
+function describeAge(milliseconds) {
+  const seconds = Math.max(0, Math.floor(milliseconds / 1000));
+  if (seconds < 60) return `Actualisé il y a ${seconds} s`;
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) return `Actualisé il y a ${minutes} min`;
+  return `Actualisé il y a ${Math.floor(minutes / 60)} h`;
+}
+
+function renderBridges(data) {
+  const updatedAt = new Date(data.updated_at).getTime();
+  const age = Number.isFinite(updatedAt) ? Date.now() - updatedAt : Infinity;
+  const tooOld = data.stale || age > 10 * 60 * 1000;
+  const bridges = new Map((data.bridges || []).map((bridge) => [bridge.id, bridge]));
+
+  ui.bridgesList.querySelectorAll("[data-bridge-id]").forEach((row) => {
+    const bridge = bridges.get(row.dataset.bridgeId);
+    const status = tooOld ? "unknown" : bridge?.status || "unknown";
+    row.className = `bridge-row ${status}`;
+    row.querySelector(".bridge-status").textContent = bridgeStatusLabels[status];
+  });
+
+  ui.bridgesFreshness.className = `bridges-freshness ${tooOld ? "stale" : "fresh"}`;
+  ui.bridgesFreshness.querySelector("strong").textContent = tooOld
+    ? `DONNÉES ANCIENNES · ${describeAge(age)}`
+    : `${describeAge(age)} · SOURCE HAROPA`;
+}
+
+let bridgesLoading = false;
+async function loadBridges() {
+  if (bridgesLoading) return;
+  bridgesLoading = true;
+  ui.refreshBridges.disabled = true;
+  try {
+    const response = await fetch(`data/bridges.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error("bridge data unavailable");
+    renderBridges(await response.json());
+  } catch {
+    ui.bridgesList.querySelectorAll("[data-bridge-id]").forEach((row) => {
+      row.className = "bridge-row unknown";
+      row.querySelector(".bridge-status").textContent = bridgeStatusLabels.unknown;
+    });
+    ui.bridgesFreshness.className = "bridges-freshness error";
+    ui.bridgesFreshness.querySelector("strong").textContent = "DONNÉES HAROPA INDISPONIBLES";
+  } finally {
+    bridgesLoading = false;
+    ui.refreshBridges.disabled = false;
+  }
 }
 
 function setGpsStatus(label, type = "") {
@@ -718,6 +778,7 @@ ui.engineVolume.addEventListener("input", () => {
 });
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
+ui.refreshBridges.addEventListener("click", loadBridges);
 ui.fullscreen.addEventListener("click", async () => {
   try { document.fullscreenElement ? await document.exitFullscreen() : await document.documentElement.requestFullscreen(); }
   catch { showToast("Le plein écran n’est pas disponible ici."); }
@@ -725,6 +786,7 @@ ui.fullscreen.addEventListener("click", async () => {
 
 setInterval(() => { ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }); }, 1000);
 state.tickTimer = setInterval(renderTrip, 1000);
+setInterval(() => { if (ui.bridgesView.classList.contains("active")) loadBridges(); }, 25000);
 ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));

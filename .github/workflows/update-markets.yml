@@ -1,8 +1,8 @@
-name: Actualiser les cours
+name: Actualiser les données YannDrive
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,10 +18,12 @@ jobs:
           node-version: 22
       - name: Récupérer les cours
         run: node scripts/update-market-data.mjs
+      - name: Récupérer l’état des ponts HAROPA
+        run: node scripts/update-bridge-data.mjs
       - name: Publier les nouvelles valeurs
         run: |
           git config user.name "YannDrive Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/markets.json
+          git add data/markets.json data/bridges.json
           git diff --cached --quiet || git commit -m "Update market data"
           git push
