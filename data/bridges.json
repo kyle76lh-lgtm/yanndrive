@@ -2,7 +2,7 @@
   "updated_at": "2026-08-30T01:00:54.578Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
-  "stale": false,
+  "stale": true,
   "bridges": [
     {
       "id": "pont_rouge",
@@ -24,5 +24,7 @@
       "name": "Pont 8",
       "status": "open"
     }
-  ]
+  ],
+  "last_attempt_at": "2026-08-30T01:10:40.314Z",
+  "error": "HAROPA data temporarily unavailable"
 }
