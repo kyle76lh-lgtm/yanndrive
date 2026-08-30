@@ -11,7 +11,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - mode démo pour tester l'interface sans déplacement ;
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;
 - onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
-- onglet Moteur avec six boucles WAV CC0 mélangées selon le régime, synthèse de secours et boîte automatique à six rapports ;
+- onglet Moteur W16 quad-turbo basé sur un enregistrement de Bugatti Veyron, découpé par régime, avec synthèse de secours et boîte double embrayage à sept rapports ;
 - réglage persistant des accélérations en `m/s²` ou en `g` ;
 - onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis et Pont 8, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
 - mise en page responsive, tactile et sombre ;

@@ -92,7 +92,7 @@
       <section id="engineView" class="engine-view tab-view" aria-labelledby="engineTitle">
         <div class="engine-console">
           <div class="engine-heading">
-            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">V12 Atmosphérique</h1></div>
+            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">W16 Quad-Turbo</h1></div>
             <span id="engineAudioStatus" class="engine-status">MOTEUR COUPÉ</span>
           </div>
           <div class="engine-dials">
@@ -104,18 +104,18 @@
             <div id="gearCard" class="gear-card">
               <small>RAPPORT</small>
               <strong id="engineGear">N</strong>
-              <span id="shiftStatus">BOÎTE AUTO 6</span>
+              <span id="shiftStatus">DOUBLE EMBRAYAGE 7</span>
             </div>
           </div>
           <div class="engine-controls">
-            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>DÉMARRER LE V12</button>
+            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>DÉMARRER LE W16</button>
             <label class="volume-control" for="engineVolume">
               <span>VOLUME</span>
               <input id="engineVolume" type="range" min="0" max="100" value="32" />
               <output id="engineVolumeValue">32 %</output>
             </label>
           </div>
-          <p id="engineSourceNote" class="engine-note">Six boucles moteur enregistrées sont mélangées selon le régime. Le synthétiseur intégré prend automatiquement le relais si les WAV ne chargent pas.</p>
+          <p id="engineSourceNote" class="engine-note">Un enregistrement réel de Bugatti Veyron W16 est découpé et mélangé selon le régime. Une couche audio simule les quatre turbos.</p>
         </div>
       </section>
 
@@ -214,6 +214,6 @@
       </section>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=15" defer></script>
+    <script src="app.js?v=16" defer></script>
   </body>
 </html>
