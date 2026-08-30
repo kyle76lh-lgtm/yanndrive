@@ -605,8 +605,10 @@ function closeSettings() {
 }
 
 function calculateAcceleration(speedMps, timestamp) {
-  state.speedHistory.push({ speed: speedMps, time: timestamp });
-  state.speedHistory = state.speedHistory.filter((sample) => timestamp - sample.time <= 12000).slice(-10);
+  const previousSample = state.speedHistory[state.speedHistory.length - 1];
+  const sampleTime = previousSample && timestamp <= previousSample.time ? previousSample.time + 1 : timestamp;
+  state.speedHistory.push({ speed: speedMps, time: sampleTime });
+  state.speedHistory = state.speedHistory.filter((sample) => sampleTime - sample.time <= 5000).slice(-10);
   if (state.speedHistory.length < 2) return 0;
 
   const firstTime = state.speedHistory[0].time;
@@ -622,8 +624,8 @@ function calculateAcceleration(speedMps, timestamp) {
   const denominator = points.reduce((sum, point) => sum + (point.time - meanTime) ** 2, 0);
   if (denominator === 0) return 0;
   const slope = points.reduce((sum, point) => sum + (point.time - meanTime) * (point.speed - meanSpeed), 0) / denominator;
-  const filtered = state.displayedAcceleration * .45 + slope * .55;
-  state.displayedAcceleration = Math.abs(filtered) < .035 ? 0 : Math.max(-9.9, Math.min(9.9, filtered));
+  const filtered = state.displayedAcceleration * .3 + slope * .7;
+  state.displayedAcceleration = Math.abs(filtered) < .02 ? 0 : Math.max(-9.9, Math.min(9.9, filtered));
   return state.displayedAcceleration;
 }
 
@@ -658,17 +660,28 @@ function renderTrip() {
 
 function onPosition(position) {
   const c = position.coords;
-  const now = position.timestamp || Date.now();
+  const positionTime = Number(position.timestamp);
+  const now = Number.isFinite(positionTime) && positionTime > 0 ? positionTime : Date.now();
   const point = { latitude: c.latitude, longitude: c.longitude, timestamp: now, accuracy: c.accuracy };
-  let speedMps = Number.isFinite(c.speed) && c.speed >= 0 ? c.speed : null;
+  const reportedSpeed = Number.isFinite(c.speed) && c.speed >= 0 ? c.speed : null;
+  let derivedSpeed = null;
 
   if (state.lastPosition) {
     const seconds = (now - state.lastPosition.timestamp) / 1000;
     const segment = haversine(state.lastPosition, point);
-    if (speedMps === null && seconds > 0) speedMps = segment / seconds;
+    const previousAccuracy = Number.isFinite(state.lastPosition.accuracy) ? state.lastPosition.accuracy : c.accuracy;
+    const movementThreshold = Math.max(1, Math.max(previousAccuracy, c.accuracy) * .08);
+    if (seconds >= .25 && seconds < 15 && segment >= movementThreshold) {
+      const candidate = segment / seconds;
+      if (candidate <= 80) derivedSpeed = candidate;
+    }
     if (state.running && seconds > 0 && seconds < 30 && segment < 500 && segment > Math.max(2, c.accuracy * .25)) state.distanceM += segment;
   }
 
+  // Le navigateur Tesla peut exposer coords.speed à 0 même lorsque la voiture roule.
+  // Dans ce cas, la vitesse calculée entre deux positions GPS sert de secours.
+  let speedMps = reportedSpeed;
+  if (derivedSpeed !== null && (speedMps === null || speedMps < .3)) speedMps = derivedSpeed;
   speedMps ??= 0;
   const acceleration = calculateAcceleration(speedMps, now);
   state.lastSpeedMps = speedMps;
