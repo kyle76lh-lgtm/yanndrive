@@ -92,30 +92,30 @@
       <section id="engineView" class="engine-view tab-view" aria-labelledby="engineTitle">
         <div class="engine-console">
           <div class="engine-heading">
-            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">W16 Quad-Turbo</h1></div>
+            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">Propulsion électrique</h1></div>
             <span id="engineAudioStatus" class="engine-status">MOTEUR COUPÉ</span>
           </div>
           <div class="engine-dials">
             <div class="rpm-dial">
-              <div class="rpm-scale"><span>1</span><span>3</span><span>5</span><span>7</span><span>8</span></div>
+              <div class="rpm-scale"><span>0</span><span>3</span><span>6</span><span>9</span><span>12</span></div>
               <div class="rpm-readout"><strong id="engineRpm">0</strong><span>tr/min</span></div>
               <div class="rpm-bar"><span id="rpmBar"></span></div>
             </div>
             <div id="gearCard" class="gear-card">
-              <small>RAPPORT</small>
+              <small>TRANSMISSION</small>
               <strong id="engineGear">N</strong>
-              <span id="shiftStatus">DOUBLE EMBRAYAGE 7</span>
+              <span id="shiftStatus">PRISE DIRECTE</span>
             </div>
           </div>
           <div class="engine-controls">
-            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>DÉMARRER LE W16</button>
+            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>ACTIVER LE SON</button>
             <label class="volume-control" for="engineVolume">
               <span>VOLUME</span>
               <input id="engineVolume" type="range" min="0" max="100" value="32" />
               <output id="engineVolumeValue">32 %</output>
             </label>
           </div>
-          <p id="engineSourceNote" class="engine-note">Un enregistrement réel de Bugatti Veyron W16 est découpé et mélangé selon le régime. Une couche audio simule les quatre turbos.</p>
+          <p id="engineSourceNote" class="engine-note">Son futuriste généré directement par YannDrive : grondement grave, harmoniques électriques et souffle progressif selon la vitesse.</p>
         </div>
       </section>
 
@@ -214,6 +214,6 @@
       </section>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=16" defer></script>
+    <script src="app.js?v=17" defer></script>
   </body>
 </html>

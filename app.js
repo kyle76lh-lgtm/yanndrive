@@ -40,20 +40,16 @@ const state = {
 let fireworksFrame = null;
 let engine = null;
 
-class W16Engine {
+class ElectricMotor {
   constructor() {
     this.context = null;
     this.master = null;
     this.oscillators = [];
     this.sources = [];
-    this.sampleGains = [];
-    this.buffers = null;
-    this.sampleMode = false;
-    this.turboGain = null;
-    this.turboFilter = null;
+    this.airflowGain = null;
+    this.airflowFilter = null;
     this.loading = false;
     this.running = false;
-    this.gear = 0;
     this.rpm = 0;
     this.volume = Number(ui.engineVolume.value) / 100;
   }
@@ -67,106 +63,58 @@ class W16Engine {
     this.master = this.context.createGain();
     this.master.gain.setValueAtTime(0, now);
     const compressor = this.context.createDynamicsCompressor();
-    compressor.threshold.value = -18;
-    compressor.ratio.value = 5;
+    compressor.threshold.value = -16;
+    compressor.ratio.value = 4;
     const highpass = this.context.createBiquadFilter();
     highpass.type = "highpass";
-    highpass.frequency.value = 48;
+    highpass.frequency.value = 26;
     const presence = this.context.createBiquadFilter();
     presence.type = "peaking";
-    presence.frequency.value = 1650;
-    presence.Q.value = .8;
-    presence.gain.value = 7;
+    presence.frequency.value = 420;
+    presence.Q.value = .7;
+    presence.gain.value = 5;
     const brightness = this.context.createBiquadFilter();
     brightness.type = "highshelf";
-    brightness.frequency.value = 2700;
-    brightness.gain.value = 9;
+    brightness.frequency.value = 1800;
+    brightness.gain.value = 3;
     const lowpass = this.context.createBiquadFilter();
     lowpass.type = "lowpass";
-    lowpass.frequency.value = 10500;
+    lowpass.frequency.value = 6500;
     lowpass.Q.value = .5;
     this.master.connect(highpass).connect(presence).connect(brightness).connect(lowpass).connect(compressor).connect(this.context.destination);
 
-    try {
-      await this.startSamples();
-      this.sampleMode = true;
-    } catch (error) {
-      console.warn("Boucles moteur indisponibles, synthèse de secours utilisée.", error);
-      this.startSynth();
-      this.sampleMode = false;
-    }
+    this.startSynth();
 
     this.running = true;
     this.master.gain.linearRampToValueAtTime(this.volume, this.context.currentTime + .5);
     this.update(state.currentSpeedKmh, true);
   }
 
-  async startSamples() {
-    if (!this.buffers) {
-      const response = await fetch(new URL("assets/engine/w16_source.mp3?v=1", window.location.href));
-      if (!response.ok) throw new Error("L’enregistrement W16 n’a pas été chargé");
-      const recording = await this.context.decodeAudioData(await response.arrayBuffer());
-      const segments = [[.7, 2.8], [3.1, 5.2], [5.5, 7.6], [8, 10.1], [10.8, 12.9], [13.6, 15.7], [16.4, 18.5]];
-      this.buffers = segments.map(([start, end]) => this.makeSeamlessLoop(recording, start, end));
-    }
-    this.sources = this.buffers.map((buffer) => {
-      const source = this.context.createBufferSource();
-      const gain = this.context.createGain();
-      source.buffer = buffer;
-      source.loop = true;
-      gain.gain.value = 0;
-      source.connect(gain).connect(this.master);
-      source.start();
-      this.sampleGains.push(gain);
-      return source;
-    });
-    this.startTurboLayer();
-  }
-
-  makeSeamlessLoop(recording, startSeconds, endSeconds) {
-    const start = Math.floor(startSeconds * recording.sampleRate);
-    const end = Math.min(recording.length, Math.floor(endSeconds * recording.sampleRate));
-    const crossfade = Math.min(Math.floor(recording.sampleRate * .08), Math.floor((end - start) / 4));
-    const length = end - start - crossfade;
-    const loop = this.context.createBuffer(recording.numberOfChannels, length, recording.sampleRate);
-    for (let channel = 0; channel < recording.numberOfChannels; channel++) {
-      const input = recording.getChannelData(channel);
-      const output = loop.getChannelData(channel);
-      for (let i = 0; i < length; i++) output[i] = input[start + i];
-      for (let i = 0; i < crossfade; i++) {
-        const mix = i / crossfade;
-        output[i] = input[end - crossfade + i] * (1 - mix) + input[start + i] * mix;
-      }
-    }
-    return loop;
-  }
-
-  startTurboLayer() {
+  startAirflowLayer() {
     const seconds = 2;
     const noiseBuffer = this.context.createBuffer(1, this.context.sampleRate * seconds, this.context.sampleRate);
     const data = noiseBuffer.getChannelData(0);
     for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
     const noise = this.context.createBufferSource();
-    this.turboFilter = this.context.createBiquadFilter();
-    this.turboGain = this.context.createGain();
+    this.airflowFilter = this.context.createBiquadFilter();
+    this.airflowGain = this.context.createGain();
     noise.buffer = noiseBuffer;
     noise.loop = true;
-    this.turboFilter.type = "bandpass";
-    this.turboFilter.frequency.value = 2800;
-    this.turboFilter.Q.value = 1.4;
-    this.turboGain.gain.value = 0;
-    noise.connect(this.turboFilter).connect(this.turboGain).connect(this.master);
+    this.airflowFilter.type = "bandpass";
+    this.airflowFilter.frequency.value = 900;
+    this.airflowFilter.Q.value = 2;
+    this.airflowGain.gain.value = .012;
+    noise.connect(this.airflowFilter).connect(this.airflowGain).connect(this.master);
     noise.start();
     this.sources.push(noise);
   }
 
   startSynth() {
-
     const voices = [
-      { type: "sawtooth", ratio: 1, gain: .22 },
-      { type: "square", ratio: .5, gain: .08 },
-      { type: "triangle", ratio: 2.01, gain: .07 },
-      { type: "sawtooth", ratio: 1.008, gain: .09 }
+      { type: "sine", ratio: .5, gain: .3 },
+      { type: "triangle", ratio: 1, gain: .2 },
+      { type: "sine", ratio: 2.01, gain: .1 },
+      { type: "sawtooth", ratio: 4.03, gain: .025 }
     ];
     this.oscillators = voices.map((voice) => {
       const oscillator = this.context.createOscillator();
@@ -177,6 +125,7 @@ class W16Engine {
       oscillator.start();
       return { oscillator, ratio: voice.ratio };
     });
+    this.startAirflowLayer();
   }
 
   stop() {
@@ -193,9 +142,8 @@ class W16Engine {
     }, 400);
     this.oscillators = [];
     this.sources = [];
-    this.sampleGains = [];
-    this.turboGain = null;
-    this.turboFilter = null;
+    this.airflowGain = null;
+    this.airflowFilter = null;
     this.running = false;
   }
 
@@ -204,124 +152,57 @@ class W16Engine {
     if (this.running && this.master) this.master.gain.setTargetAtTime(value, this.context.currentTime, .08);
   }
 
-  playShiftTransient() {
-    if (!this.context || !this.master) return;
-    const duration = .16;
-    const sampleCount = Math.floor(this.context.sampleRate * duration);
-    const buffer = this.context.createBuffer(1, sampleCount, this.context.sampleRate);
-    const data = buffer.getChannelData(0);
-    for (let i = 0; i < sampleCount; i++) {
-      const envelope = Math.exp(-i / (sampleCount * .16));
-      data[i] = (Math.random() * 2 - 1) * envelope;
-    }
-    const source = this.context.createBufferSource();
-    const filter = this.context.createBiquadFilter();
-    const gain = this.context.createGain();
-    filter.type = "bandpass";
-    filter.frequency.value = 240;
-    filter.Q.value = 1.2;
-    gain.gain.value = Math.min(.16, this.volume * .5);
-    source.buffer = buffer;
-    source.connect(filter).connect(gain).connect(this.context.destination);
-    source.start();
-  }
-
   update(speedKmh, immediate = false) {
-    const thresholds = [0, 16, 30, 47, 67, 91, 120, 155];
-    let gear = speedKmh < 2 ? 1 : 7;
-    for (let i = 1; i < thresholds.length; i++) {
-      if (speedKmh < thresholds[i]) { gear = i; break; }
-    }
-    const low = thresholds[gear - 1];
-    const high = thresholds[gear] || 205;
-    const progress = Math.max(0, Math.min(1, (speedKmh - low) / (high - low)));
-    const rpm = speedKmh < 2 ? 850 : 1850 + progress * 5050;
-    const changed = this.gear && gear !== this.gear;
-    this.gear = gear;
+    const progress = Math.max(0, Math.min(1, speedKmh / 200));
+    const rpm = speedKmh < 1 ? 0 : 700 + progress * 11300;
     this.rpm = rpm;
 
     if (this.running && this.context) {
       const now = this.context.currentTime;
-      if (this.sampleMode) {
-        const sampleRpms = [850, 1850, 2850, 3850, 4850, 5850, 6900];
-        let upper = sampleRpms.findIndex((sampleRpm) => sampleRpm >= rpm);
-        if (upper < 0) upper = sampleRpms.length - 1;
-        const lower = Math.max(0, upper - 1);
-        const span = sampleRpms[upper] - sampleRpms[lower] || 1;
-        const blend = Math.max(0, Math.min(1, (rpm - sampleRpms[lower]) / span));
-        this.sampleGains.forEach((gain, index) => {
-          let level = 0;
-          if (index === lower) level = Math.cos(blend * Math.PI / 2) * 1.1;
-          if (index === upper) level = Math.sin(blend * Math.PI / 2) * 1.1;
-          if (lower === upper && index === lower) level = 1.1;
-          gain.gain.setTargetAtTime(level, now, immediate ? .01 : .08);
-          const rate = Math.max(.76, Math.min(1.3, rpm / sampleRpms[index]));
-          this.sources[index].playbackRate.setTargetAtTime(rate, now, immediate ? .01 : .1);
-        });
-        if (this.turboGain && this.turboFilter) {
-          const boost = Math.max(0, Math.min(1, (rpm - 2300) / 3900));
-          this.turboGain.gain.setTargetAtTime(boost * .13, now, .12);
-          this.turboFilter.frequency.setTargetAtTime(2600 + boost * 3300, now, .15);
-        }
-      } else {
-        const firingFrequency = Math.max(65, rpm / 60 * 8);
-        this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(firingFrequency * ratio, now, immediate ? .01 : .09));
-      }
-      if (changed && this.master) {
-        this.master.gain.cancelScheduledValues(now);
-        this.master.gain.setValueAtTime(this.master.gain.value, now);
-        this.master.gain.linearRampToValueAtTime(this.volume * .1, now + .07);
-        this.master.gain.setValueAtTime(this.volume * .1, now + .14);
-        this.master.gain.linearRampToValueAtTime(this.volume, now + .46);
-        this.playShiftTransient();
+      const motorFrequency = 44 + Math.pow(progress, .72) * 190;
+      this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(motorFrequency * ratio, now, immediate ? .01 : .1));
+      if (this.airflowGain && this.airflowFilter) {
+        this.airflowGain.gain.setTargetAtTime(.012 + progress * .07, now, .16);
+        this.airflowFilter.frequency.setTargetAtTime(900 + progress * 3600, now, .18);
       }
     }
-    renderEngine(rpm, gear, changed);
+    renderEngine(rpm, speedKmh < 1 ? 0 : "D");
   }
 }
 
-function renderEngine(rpm, gear, shifting = false) {
+function renderEngine(rpm, gear) {
   ui.engineRpm.textContent = Math.round(rpm / 50) * 50;
-  ui.rpmBar.style.width = `${Math.min(100, rpm / 80)}%`;
+  ui.rpmBar.style.width = `${Math.min(100, rpm / 120)}%`;
   ui.engineGear.textContent = gear || "N";
-  if (shifting) {
-    ui.shiftStatus.textContent = "PASSAGE DE RAPPORT";
-    ui.gearCard.classList.remove("shifting");
-    void ui.gearCard.offsetWidth;
-    ui.gearCard.classList.add("shifting");
-    setTimeout(() => { ui.shiftStatus.textContent = "DOUBLE EMBRAYAGE 7"; }, 500);
-  }
 }
 
 async function toggleEngine() {
-  engine ||= new W16Engine();
+  engine ||= new ElectricMotor();
   if (engine.loading) return;
   if (engine.running) {
     engine.stop();
     ui.engineToggle.classList.remove("active");
-    ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE W16";
+    ui.engineToggle.innerHTML = "<span>▶</span>ACTIVER LE SON";
     ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
     ui.engineAudioStatus.classList.remove("running");
-    ui.engineSourceNote.textContent = "Moteur arrêté — l’enregistrement W16 sera réactivé au prochain démarrage.";
+    ui.engineSourceNote.textContent = "Son coupé — la synthèse électrique reprendra au prochain démarrage.";
     renderEngine(0, 0);
     return;
   }
   try {
     engine.loading = true;
     ui.engineToggle.disabled = true;
-    ui.engineToggle.innerHTML = "CHARGEMENT DU MOTEUR…";
-    ui.engineAudioStatus.textContent = "PRÉCHAUFFAGE";
+    ui.engineToggle.innerHTML = "ACTIVATION DU MOTEUR…";
+    ui.engineAudioStatus.textContent = "INITIALISATION";
     await engine.start();
     ui.engineToggle.classList.add("active");
-    ui.engineToggle.innerHTML = "<span>■</span>COUPER LE W16";
-    ui.engineAudioStatus.textContent = engine.sampleMode ? "W16 ÉCHANTILLONNÉ ACTIF" : "SECOURS SYNTHÉTIQUE";
+    ui.engineToggle.innerHTML = "<span>■</span>COUPER LE SON";
+    ui.engineAudioStatus.textContent = "PROPULSION ACTIVE";
     ui.engineAudioStatus.classList.add("running");
-    ui.engineSourceNote.textContent = engine.sampleMode
-      ? "✓ Enregistrement réel de Bugatti Veyron W16, régime et quatre turbos simulés en temps réel."
-      : "⚠ L’échantillon W16 n’a pas pu être lu : le synthétiseur de secours est utilisé.";
+    ui.engineSourceNote.textContent = "✓ Son électrique futuriste généré en temps réel, grave à basse vitesse et plus intense en accélération.";
   } catch {
     showToast("Le navigateur ne permet pas de démarrer le son.");
-    ui.engineToggle.innerHTML = "<span>▶</span>DÉMARRER LE W16";
+    ui.engineToggle.innerHTML = "<span>▶</span>ACTIVER LE SON";
     ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
   } finally {
     engine.loading = false;
