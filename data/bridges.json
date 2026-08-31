@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T06:11:17.161Z",
+  "updated_at": "2026-08-31T06:21:25.301Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -22,7 +22,7 @@
     {
       "id": "pont_8",
       "name": "Pont 8",
-      "status": "opening"
+      "status": "open"
     }
   ]
 }
