@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T09:56:17.111Z",
+  "updatedAt": "2026-08-31T10:06:07.099Z",
   "source": "Yahoo Finance",
   "quotes": {
     "TSLA": {
@@ -18,7 +18,7 @@
       "price": 341.4,
       "previousClose": 343.8,
       "currency": "EUR",
-      "marketTime": 1788169250
+      "marketTime": 1788169859
     },
     "NVDA": {
       "price": 217.55,
