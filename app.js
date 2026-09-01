@@ -2,213 +2,33 @@
 
 const $ = (id) => document.getElementById(id);
 const ui = {
-  clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"), distance: $("distance"),
-  duration: $("duration"), averageSpeed: $("averageSpeed"), acceleration: $("acceleration"), maxSpeed: $("maxSpeed"),
-  maxAcceleration: $("maxAcceleration"), maxDeceleration: $("maxDeceleration"),
-  accelerationUnit: $("accelerationUnit"), maxAccelerationUnit: $("maxAccelerationUnit"), maxDecelerationUnit: $("maxDecelerationUnit"),
+  clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"),
+  duration: $("duration"), averageSpeed: $("averageSpeed"), maxSpeed: $("maxSpeed"),
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
   demo: $("demoButton"), mode67: $("mode67Button"), celebration67: $("celebration67"),
   fireworks67: $("fireworks67"),
   fullscreen: $("fullscreenButton"), toast: $("toast"), driveView: $("driveView"),
-  engineView: $("engineView"), infosView: $("infosView"), bridgesView: $("bridgesView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
-  engineToggle: $("engineToggle"), engineVolume: $("engineVolume"), engineVolumeValue: $("engineVolumeValue"),
-  engineRpm: $("engineRpm"), rpmBar: $("rpmBar"), engineGear: $("engineGear"),
-  gearCard: $("gearCard"), shiftStatus: $("shiftStatus"), engineAudioStatus: $("engineAudioStatus"),
-  engineSourceNote: $("engineSourceNote"),
+  infosView: $("infosView"), bridgesView: $("bridgesView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
   teslaPrice: $("teslaPrice"), teslaChange: $("teslaChange"), teslaStatus: $("teslaStatus"),
   spacexPrice: $("spacexPrice"), spacexChange: $("spacexChange"), spacexStatus: $("spacexStatus"),
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
   nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
   palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
   nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus"),
-  bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges"),
-  settingsButton: $("settingsButton"), settingsOverlay: $("settingsOverlay"), closeSettings: $("closeSettings")
+  bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges")
 };
 
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null,
-  lastSpeedMps: 0, lastSpeedAt: null, speedHistory: [], displayedAcceleration: 0,
-  currentSpeedKmh: 0, currentAccelerationMps2: 0, maxSpeedKmh: 0, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
-  accelerationUnit: localStorage.getItem("yanndrive-acceleration-unit") === "g" ? "g" : "mps2",
+  currentSpeedKmh: 0, maxSpeedKmh: 0,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null
 };
 
 let fireworksFrame = null;
-let engine = null;
-
-class ElectricMotor {
-  constructor() {
-    this.context = null;
-    this.master = null;
-    this.oscillators = [];
-    this.sources = [];
-    this.airflowGain = null;
-    this.airflowFilter = null;
-    this.loading = false;
-    this.running = false;
-    this.rpm = 0;
-    this.volume = Number(ui.engineVolume.value) / 100;
-  }
-
-  async start() {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContext) throw new Error("Web Audio indisponible");
-    this.context = this.context || new AudioContext();
-    await this.context.resume();
-    const now = this.context.currentTime;
-    this.master = this.context.createGain();
-    this.master.gain.setValueAtTime(0, now);
-    const compressor = this.context.createDynamicsCompressor();
-    compressor.threshold.value = -16;
-    compressor.ratio.value = 4;
-    const highpass = this.context.createBiquadFilter();
-    highpass.type = "highpass";
-    highpass.frequency.value = 26;
-    const presence = this.context.createBiquadFilter();
-    presence.type = "peaking";
-    presence.frequency.value = 420;
-    presence.Q.value = .7;
-    presence.gain.value = 5;
-    const brightness = this.context.createBiquadFilter();
-    brightness.type = "highshelf";
-    brightness.frequency.value = 1800;
-    brightness.gain.value = 3;
-    const lowpass = this.context.createBiquadFilter();
-    lowpass.type = "lowpass";
-    lowpass.frequency.value = 6500;
-    lowpass.Q.value = .5;
-    this.master.connect(highpass).connect(presence).connect(brightness).connect(lowpass).connect(compressor).connect(this.context.destination);
-
-    this.startSynth();
-
-    this.running = true;
-    this.master.gain.linearRampToValueAtTime(this.volume, this.context.currentTime + .5);
-    this.update(state.currentSpeedKmh, true);
-  }
-
-  startAirflowLayer() {
-    const seconds = 2;
-    const noiseBuffer = this.context.createBuffer(1, this.context.sampleRate * seconds, this.context.sampleRate);
-    const data = noiseBuffer.getChannelData(0);
-    for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
-    const noise = this.context.createBufferSource();
-    this.airflowFilter = this.context.createBiquadFilter();
-    this.airflowGain = this.context.createGain();
-    noise.buffer = noiseBuffer;
-    noise.loop = true;
-    this.airflowFilter.type = "bandpass";
-    this.airflowFilter.frequency.value = 900;
-    this.airflowFilter.Q.value = 2;
-    this.airflowGain.gain.value = .012;
-    noise.connect(this.airflowFilter).connect(this.airflowGain).connect(this.master);
-    noise.start();
-    this.sources.push(noise);
-  }
-
-  startSynth() {
-    const voices = [
-      { type: "sine", ratio: .5, gain: .3 },
-      { type: "triangle", ratio: 1, gain: .2 },
-      { type: "sine", ratio: 2.01, gain: .1 },
-      { type: "sawtooth", ratio: 4.03, gain: .025 }
-    ];
-    this.oscillators = voices.map((voice) => {
-      const oscillator = this.context.createOscillator();
-      const gain = this.context.createGain();
-      oscillator.type = voice.type;
-      gain.gain.value = voice.gain;
-      oscillator.connect(gain).connect(this.master);
-      oscillator.start();
-      return { oscillator, ratio: voice.ratio };
-    });
-    this.startAirflowLayer();
-  }
-
-  stop() {
-    if (!this.context || !this.master) return;
-    const now = this.context.currentTime;
-    this.master.gain.cancelScheduledValues(now);
-    this.master.gain.setValueAtTime(this.master.gain.value, now);
-    this.master.gain.linearRampToValueAtTime(0, now + .35);
-    const voices = this.oscillators;
-    const sources = this.sources;
-    setTimeout(() => {
-      voices.forEach(({ oscillator }) => { try { oscillator.stop(); } catch {} });
-      sources.forEach((source) => { try { source.stop(); } catch {} });
-    }, 400);
-    this.oscillators = [];
-    this.sources = [];
-    this.airflowGain = null;
-    this.airflowFilter = null;
-    this.running = false;
-  }
-
-  setVolume(value) {
-    this.volume = value;
-    if (this.running && this.master) this.master.gain.setTargetAtTime(value, this.context.currentTime, .08);
-  }
-
-  update(speedKmh, immediate = false) {
-    const progress = Math.max(0, Math.min(1, speedKmh / 200));
-    const rpm = speedKmh < 1 ? 0 : 700 + progress * 11300;
-    this.rpm = rpm;
-
-    if (this.running && this.context) {
-      const now = this.context.currentTime;
-      const motorFrequency = 44 + Math.pow(progress, .72) * 190;
-      this.oscillators.forEach(({ oscillator, ratio }) => oscillator.frequency.setTargetAtTime(motorFrequency * ratio, now, immediate ? .01 : .1));
-      if (this.airflowGain && this.airflowFilter) {
-        this.airflowGain.gain.setTargetAtTime(.012 + progress * .07, now, .16);
-        this.airflowFilter.frequency.setTargetAtTime(900 + progress * 3600, now, .18);
-      }
-    }
-    renderEngine(rpm, speedKmh < 1 ? 0 : "D");
-  }
-}
-
-function renderEngine(rpm, gear) {
-  ui.engineRpm.textContent = Math.round(rpm / 50) * 50;
-  ui.rpmBar.style.width = `${Math.min(100, rpm / 120)}%`;
-  ui.engineGear.textContent = gear || "N";
-}
-
-async function toggleEngine() {
-  engine ||= new ElectricMotor();
-  if (engine.loading) return;
-  if (engine.running) {
-    engine.stop();
-    ui.engineToggle.classList.remove("active");
-    ui.engineToggle.innerHTML = "<span>▶</span>ACTIVER LE SON";
-    ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
-    ui.engineAudioStatus.classList.remove("running");
-    ui.engineSourceNote.textContent = "Son coupé — la synthèse électrique reprendra au prochain démarrage.";
-    renderEngine(0, 0);
-    return;
-  }
-  try {
-    engine.loading = true;
-    ui.engineToggle.disabled = true;
-    ui.engineToggle.innerHTML = "ACTIVATION DU MOTEUR…";
-    ui.engineAudioStatus.textContent = "INITIALISATION";
-    await engine.start();
-    ui.engineToggle.classList.add("active");
-    ui.engineToggle.innerHTML = "<span>■</span>COUPER LE SON";
-    ui.engineAudioStatus.textContent = "PROPULSION ACTIVE";
-    ui.engineAudioStatus.classList.add("running");
-    ui.engineSourceNote.textContent = "✓ Son électrique futuriste généré en temps réel, grave à basse vitesse et plus intense en accélération.";
-  } catch {
-    showToast("Le navigateur ne permet pas de démarrer le son.");
-    ui.engineToggle.innerHTML = "<span>▶</span>ACTIVER LE SON";
-    ui.engineAudioStatus.textContent = "MOTEUR COUPÉ";
-  } finally {
-    engine.loading = false;
-    ui.engineToggle.disabled = false;
-  }
-}
 
 function startFireworks() {
   const canvas = ui.fireworks67;
@@ -315,7 +135,6 @@ function switchTab(name) {
     button.setAttribute("aria-selected", String(active));
   });
   ui.driveView.classList.toggle("active", name === "drive");
-  ui.engineView.classList.toggle("active", name === "engine");
   ui.infosView.classList.toggle("active", name === "infos");
   ui.bridgesView.classList.toggle("active", name === "bridges");
   ui.driveControls.hidden = name !== "drive";
@@ -479,82 +298,17 @@ function setGpsStatus(label, type = "") {
   ui.statusDot.className = `status-dot ${type}`;
 }
 
-function renderSpeed(kmh, acceleration = 0) {
+function renderSpeed(kmh) {
   const previousSpeed = state.currentSpeedKmh;
   state.currentSpeedKmh = Math.max(0, kmh);
-  state.currentAccelerationMps2 = acceleration;
   ui.speed.textContent = Math.round(state.currentSpeedKmh);
   ui.speedBar.style.width = `${Math.min(100, state.currentSpeedKmh / 1.8)}%`;
   if (state.running) {
     state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
-    state.maxAccelerationMps2 = Math.max(state.maxAccelerationMps2, acceleration);
-    state.maxDecelerationMps2 = Math.max(state.maxDecelerationMps2, -acceleration);
   }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
-  renderAccelerationMetrics();
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
-  if (engine?.running) engine.update(state.currentSpeedKmh);
-}
-
-function renderAccelerationMetrics() {
-  const useG = state.accelerationUnit === "g";
-  const divisor = useG ? 9.80665 : 1;
-  const digits = useG ? 2 : 1;
-  const unit = useG ? "g" : "m/s²";
-  ui.acceleration.textContent = formatDecimal(state.currentAccelerationMps2 / divisor, digits);
-  ui.maxAcceleration.textContent = formatDecimal(state.maxAccelerationMps2 / divisor, digits);
-  ui.maxDeceleration.textContent = formatDecimal(state.maxDecelerationMps2 / divisor, digits);
-  ui.accelerationUnit.textContent = unit;
-  ui.maxAccelerationUnit.textContent = unit;
-  ui.maxDecelerationUnit.textContent = unit;
-}
-
-function setAccelerationUnit(unit, notify = true) {
-  state.accelerationUnit = unit === "g" ? "g" : "mps2";
-  localStorage.setItem("yanndrive-acceleration-unit", state.accelerationUnit);
-  document.querySelectorAll("[data-acceleration-unit]").forEach((button) => {
-    const selected = button.dataset.accelerationUnit === state.accelerationUnit;
-    button.classList.toggle("active", selected);
-    button.setAttribute("aria-checked", String(selected));
-  });
-  renderAccelerationMetrics();
-  if (notify) showToast(`Accélération affichée en ${state.accelerationUnit === "g" ? "g" : "m/s²"}`);
-}
-
-function openSettings() {
-  ui.settingsOverlay.hidden = false;
-  ui.closeSettings.focus();
-}
-
-function closeSettings() {
-  ui.settingsOverlay.hidden = true;
-  ui.settingsButton.focus();
-}
-
-function calculateAcceleration(speedMps, timestamp) {
-  const previousSample = state.speedHistory[state.speedHistory.length - 1];
-  const sampleTime = previousSample && timestamp <= previousSample.time ? previousSample.time + 1 : timestamp;
-  state.speedHistory.push({ speed: speedMps, time: sampleTime });
-  state.speedHistory = state.speedHistory.filter((sample) => sampleTime - sample.time <= 5000).slice(-10);
-  if (state.speedHistory.length < 2) return 0;
-
-  const firstTime = state.speedHistory[0].time;
-  const points = state.speedHistory.map((sample) => ({
-    time: (sample.time - firstTime) / 1000,
-    speed: sample.speed
-  }));
-  const duration = points[points.length - 1].time;
-  if (duration < .8) return state.displayedAcceleration;
-
-  const meanTime = points.reduce((sum, point) => sum + point.time, 0) / points.length;
-  const meanSpeed = points.reduce((sum, point) => sum + point.speed, 0) / points.length;
-  const denominator = points.reduce((sum, point) => sum + (point.time - meanTime) ** 2, 0);
-  if (denominator === 0) return 0;
-  const slope = points.reduce((sum, point) => sum + (point.time - meanTime) * (point.speed - meanSpeed), 0) / denominator;
-  const filtered = state.displayedAcceleration * .3 + slope * .7;
-  state.displayedAcceleration = Math.abs(filtered) < .02 ? 0 : Math.max(-9.9, Math.min(9.9, filtered));
-  return state.displayedAcceleration;
 }
 
 function celebrate67() {
@@ -582,7 +336,6 @@ function toggleMode67() {
 function renderTrip() {
   const elapsed = elapsedSeconds();
   ui.duration.textContent = formatTime(elapsed);
-  ui.distance.textContent = formatDecimal(state.distanceM / 1000, 2);
   ui.averageSpeed.textContent = elapsed > 0 ? Math.round((state.distanceM / 1000) / (elapsed / 3600)) : "0";
 }
 
@@ -611,12 +364,9 @@ function onPosition(position) {
   let speedMps = reportedSpeed;
   if (derivedSpeed !== null && (speedMps === null || speedMps < .3)) speedMps = derivedSpeed;
   speedMps ??= 0;
-  const acceleration = calculateAcceleration(speedMps, now);
-  state.lastSpeedMps = speedMps;
-  state.lastSpeedAt = now;
   state.lastPosition = point;
 
-  renderSpeed(speedMps * 3.6, acceleration);
+  renderSpeed(speedMps * 3.6);
   ui.coordinates.textContent = `Latitude ${c.latitude.toFixed(5)} · Longitude ${c.longitude.toFixed(5)}`;
   ui.accuracy.textContent = `${Math.round(c.accuracy)} m`;
   setGpsStatus(c.accuracy <= 30 ? "SIGNAL GPS BON" : "SIGNAL GPS FAIBLE", c.accuracy <= 30 ? "good" : "");
@@ -643,8 +393,6 @@ function startTrip() {
   state.running = true;
   state.startedAt = Date.now();
   state.lastPosition = null;
-  state.speedHistory = [];
-  state.displayedAcceleration = 0;
   ui.start.disabled = true;
   ui.stop.disabled = false;
   ui.tripState.textContent = "TRAJET EN COURS";
@@ -670,17 +418,13 @@ function resetTrip() {
   state.elapsedBeforeStart = 0;
   state.distanceM = 0;
   state.maxSpeedKmh = 0;
-  state.maxAccelerationMps2 = 0;
-  state.maxDecelerationMps2 = 0;
   state.lastPosition = null;
-  state.speedHistory = [];
-  state.displayedAcceleration = 0;
   ui.start.disabled = false;
   ui.stop.disabled = true;
   ui.tripState.textContent = "PRÊT";
   ui.tripDot.classList.remove("active");
   renderTrip();
-  renderSpeed(0, 0);
+  renderSpeed(0);
   showToast("Trajet réinitialisé");
 }
 
@@ -693,10 +437,9 @@ function toggleDemo() {
     state.demoTimer = setInterval(() => {
       t += .8;
       const kmh = Math.max(0, Math.min(118, 54 + 42 * Math.sin(t / 6) + 14 * Math.sin(t / 2.3)));
-      const previous = state.currentSpeedKmh / 3.6;
       const current = kmh / 3.6;
       if (state.running) state.distanceM += current * .8;
-      renderSpeed(kmh, (current - previous) / .8);
+      renderSpeed(kmh);
       ui.coordinates.textContent = "Latitude 49.49437 · Longitude 0.10793";
       ui.accuracy.textContent = "6 m";
       setGpsStatus("MODE DÉMO", "good");
@@ -707,9 +450,7 @@ function toggleDemo() {
     clearInterval(state.demoTimer);
     state.demoTimer = null;
     state.lastPosition = null;
-    state.speedHistory = [];
-    state.displayedAcceleration = 0;
-    renderSpeed(0, 0);
+    renderSpeed(0);
     requestGps();
     showToast("Retour au GPS réel");
   }
@@ -720,17 +461,6 @@ ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
 ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
-ui.settingsButton.addEventListener("click", openSettings);
-ui.closeSettings.addEventListener("click", closeSettings);
-ui.settingsOverlay.addEventListener("click", (event) => { if (event.target === ui.settingsOverlay) closeSettings(); });
-document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !ui.settingsOverlay.hidden) closeSettings(); });
-document.querySelectorAll("[data-acceleration-unit]").forEach((button) => button.addEventListener("click", () => setAccelerationUnit(button.dataset.accelerationUnit)));
-ui.engineToggle.addEventListener("click", toggleEngine);
-ui.engineVolume.addEventListener("input", () => {
-  const value = Number(ui.engineVolume.value);
-  ui.engineVolumeValue.textContent = `${value} %`;
-  if (engine) engine.setVolume(value / 100);
-});
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
 ui.refreshBridges.addEventListener("click", () => loadBridges(true));
@@ -745,5 +475,4 @@ setInterval(() => { if (ui.bridgesView.classList.contains("active")) loadBridges
 ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
-setAccelerationUnit(state.accelerationUnit, false);
 requestGps();

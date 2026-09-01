@@ -18,7 +18,6 @@
         <div class="topbar-right">
           <time id="clock" class="clock">--:--</time>
           <button id="mode67Button" class="icon-button mode-67-button" type="button" aria-pressed="false" title="Activer le mode 67">MODE 67</button>
-          <button id="settingsButton" class="icon-button settings-button" type="button" title="Ouvrir les réglages" aria-label="Ouvrir les réglages">⚙</button>
           <button id="demoButton" class="icon-button" type="button" title="Activer le mode démo" aria-label="Activer le mode démo">DÉMO</button>
           <button id="fullscreenButton" class="icon-button fullscreen" type="button" title="Plein écran" aria-label="Passer en plein écran">⛶</button>
         </div>
@@ -34,7 +33,6 @@
 
       <nav class="app-tabs" aria-label="Sections de YannDrive">
         <button class="app-tab active" type="button" data-tab="drive" aria-selected="true">CONDUITE</button>
-        <button class="app-tab" type="button" data-tab="engine" aria-selected="false">MOTEUR</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
         <button class="app-tab" type="button" data-tab="bridges" aria-selected="false">PONTS</button>
       </nav>
@@ -50,10 +48,6 @@
         </div>
 
         <div class="metrics-grid">
-          <article class="metric-card accent">
-            <span class="metric-icon">↗</span>
-            <div><small>DISTANCE</small><strong id="distance">0,00</strong><span>km</span></div>
-          </article>
           <article class="metric-card">
             <span class="metric-icon">◷</span>
             <div><small>DURÉE</small><strong id="duration">00:00</strong><span>min</span></div>
@@ -62,21 +56,9 @@
             <span class="metric-icon">≈</span>
             <div><small>VITESSE MOY.</small><strong id="averageSpeed">0</strong><span>km/h</span></div>
           </article>
-          <article class="metric-card">
-            <span class="metric-icon">↑</span>
-            <div><small>ACCÉLÉRATION</small><strong id="acceleration">0,0</strong><span id="accelerationUnit">m/s²</span></div>
-          </article>
           <article class="metric-card max-speed-card">
             <span class="metric-icon">◇</span>
             <div><small>VITESSE MAX</small><strong id="maxSpeed">0</strong><span>km/h</span></div>
-          </article>
-          <article class="metric-card record-card acceleration-record">
-            <span class="metric-icon">↟</span>
-            <div><small>ACCÉLÉRATION MAX</small><strong id="maxAcceleration">0,0</strong><span id="maxAccelerationUnit">m/s²</span></div>
-          </article>
-          <article class="metric-card record-card deceleration-record">
-            <span class="metric-icon">↡</span>
-            <div><small>DÉCÉLÉRATION MAX</small><strong id="maxDeceleration">0,0</strong><span id="maxDecelerationUnit">m/s²</span></div>
           </article>
         </div>
 
@@ -87,36 +69,6 @@
           </div>
           <div class="accuracy"><span>PRÉCISION</span><strong id="accuracy">— m</strong></div>
         </aside>
-      </section>
-
-      <section id="engineView" class="engine-view tab-view" aria-labelledby="engineTitle">
-        <div class="engine-console">
-          <div class="engine-heading">
-            <div><small>SIMULATION AUDIO</small><h1 id="engineTitle">Propulsion électrique</h1></div>
-            <span id="engineAudioStatus" class="engine-status">MOTEUR COUPÉ</span>
-          </div>
-          <div class="engine-dials">
-            <div class="rpm-dial">
-              <div class="rpm-scale"><span>0</span><span>3</span><span>6</span><span>9</span><span>12</span></div>
-              <div class="rpm-readout"><strong id="engineRpm">0</strong><span>tr/min</span></div>
-              <div class="rpm-bar"><span id="rpmBar"></span></div>
-            </div>
-            <div id="gearCard" class="gear-card">
-              <small>TRANSMISSION</small>
-              <strong id="engineGear">N</strong>
-              <span id="shiftStatus">PRISE DIRECTE</span>
-            </div>
-          </div>
-          <div class="engine-controls">
-            <button id="engineToggle" class="engine-toggle" type="button"><span>▶</span>ACTIVER LE SON</button>
-            <label class="volume-control" for="engineVolume">
-              <span>VOLUME</span>
-              <input id="engineVolume" type="range" min="0" max="100" value="32" />
-              <output id="engineVolumeValue">32 %</output>
-            </label>
-          </div>
-          <p id="engineSourceNote" class="engine-note">Son futuriste généré directement par YannDrive : grondement grave, harmoniques électriques et souffle progressif selon la vitesse.</p>
-        </div>
       </section>
 
       <section id="infosView" class="infos-view tab-view" aria-labelledby="infosTitle">
@@ -197,23 +149,7 @@
       <strong class="celebration-number" aria-label="67"><span class="celebration-digit digit-6" aria-hidden="true">6</span><span class="celebration-digit digit-7" aria-hidden="true">7</span></strong>
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
-    <div id="settingsOverlay" class="settings-overlay" hidden>
-      <section class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
-        <div class="settings-header">
-          <div><small>YANNDRIVE</small><h2 id="settingsTitle">Réglages</h2></div>
-          <button id="closeSettings" class="settings-close" type="button" aria-label="Fermer les réglages">×</button>
-        </div>
-        <div class="setting-group">
-          <div><strong>Unité d’accélération</strong><span>Pour les valeurs instantanée, maximale et de décélération.</span></div>
-          <div class="unit-selector" role="radiogroup" aria-label="Unité d’accélération">
-            <button type="button" data-acceleration-unit="mps2" role="radio">m/s²</button>
-            <button type="button" data-acceleration-unit="g" role="radio">g</button>
-          </div>
-        </div>
-        <p class="settings-note">1 g = 9,80665 m/s². Ce réglage est conservé dans le navigateur.</p>
-      </section>
-    </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=17" defer></script>
+    <script src="app.js?v=18" defer></script>
   </body>
 </html>

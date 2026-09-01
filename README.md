@@ -4,14 +4,13 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 
 ## Fonctions
 
-- vitesse GPS, vitesse maximale, accélération et décélération maximales du trajet, avec repli sur un calcul entre deux positions ;
-- distance, durée, vitesse moyenne et accélération estimée ;
+- vitesse GPS et vitesse maximale du trajet, avec repli sur un calcul entre deux positions ;
+- durée et vitesse moyenne ;
 - commandes Démarrer, Arrêter et Réinitialiser ;
 - état et précision du GPS ;
 - mode démo pour tester l'interface sans déplacement ;
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;
 - onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
-- onglet Moteur électrique avec une signature sonore futuriste et grave, générée en temps réel selon la vitesse, sans fichier audio externe ni changement de rapport ;
 - réglage persistant des accélérations en `m/s²` ou en `g` ;
 - onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis et Pont 8, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
 - mise en page responsive, tactile et sombre ;
