@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T06:58:20.258Z",
+  "updatedAt": "2026-09-02T07:15:31.381Z",
   "source": "Yahoo Finance",
   "quotes": {
     "TSLA": {
@@ -15,10 +15,10 @@
       "marketTime": 1788292800
     },
     "SAF.PA": {
-      "price": 331.6,
-      "previousClose": 350.4,
+      "price": 330,
+      "previousClose": 343.2,
       "currency": "EUR",
-      "marketTime": 1788276948
+      "marketTime": 1788332427
     },
     "NVDA": {
       "price": 217.44,
