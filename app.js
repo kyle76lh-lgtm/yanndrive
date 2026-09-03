@@ -179,29 +179,27 @@ async function loadTide() {
   ui.tideStatus.textContent = "CHARGEMENT";
   ui.tideStatus.className = "live-badge";
   try {
-    const endpoint = "https://marine-api.open-meteo.com/v1/marine?latitude=49.4938&longitude=0.1077&minutely_15=sea_level_height_msl&forecast_days=3&timezone=Europe%2FParis&cell_selection=sea";
-    const response = await fetch(endpoint);
+    const response = await fetch("data/tides-le-havre-2026.csv?v=1");
     if (!response.ok) throw new Error("tide unavailable");
-    const data = await response.json();
-    const times = data.minutely_15?.time || [];
-    const levels = data.minutely_15?.sea_level_height_msl || [];
+    const rows = (await response.text()).trim().split(/\r?\n/).slice(1);
     const now = Date.now();
-    let peak = null;
-    for (let i = 1; i < levels.length - 1; i++) {
-      const date = new Date(times[i]);
-      if (date.getTime() > now && levels[i] > levels[i - 1] && levels[i] >= levels[i + 1]) { peak = { date, level: levels[i] }; break; }
-    }
-    if (!peak) throw new Error("no peak");
-    const today = new Date().toDateString() === peak.date.toDateString();
-    const day = today ? "Aujourd’hui" : peak.date.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric" });
-    const time = peak.date.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
-    ui.nextHighTide.textContent = time;
-    ui.tideDetail.textContent = `${day} · niveau modélisé ${formatDecimal(peak.level, 2)} m`;
-    ui.tideStatus.textContent = "PRÉVISION";
+    const nextHighTide = rows
+      .map((row) => {
+        const [date, port, , type, time, height, coefficient] = row.split(";");
+        return { date: new Date(`${date}T${time}:00`), port, type, time, height: Number(height), coefficient };
+      })
+      .find((tide) => tide.port === "Le Havre" && tide.type === "Pleine mer" && tide.date.getTime() > now);
+    if (!nextHighTide) throw new Error("no upcoming high tide in 2026 table");
+    const today = new Date().toDateString() === nextHighTide.date.toDateString();
+    const day = today ? "Aujourd’hui" : nextHighTide.date.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+    const coefficient = nextHighTide.coefficient ? ` · coeff. ${nextHighTide.coefficient}` : "";
+    ui.nextHighTide.textContent = nextHighTide.time.replace(":", "h");
+    ui.tideDetail.textContent = `${day} · ${formatDecimal(nextHighTide.height, 2)} m${coefficient}`;
+    ui.tideStatus.textContent = "TABLE LE HAVRE";
     ui.tideStatus.className = "live-badge ok";
   } catch {
     ui.nextHighTide.textContent = "Indisponible";
-    ui.tideDetail.textContent = "Consulter les horaires officiels du SHOM";
+    ui.tideDetail.textContent = "Table des marées du Havre indisponible";
     ui.tideStatus.textContent = "HORS LIGNE";
     ui.tideStatus.className = "live-badge error";
   }

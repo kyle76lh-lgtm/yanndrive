@@ -39,6 +39,6 @@ Le dossier ne contient aucune dépendance et peut être déployé tel quel sur G
 
 La vitesse et l'accélération sont des estimations GPS et ne doivent pas être utilisées comme instruments de sécurité ou de conduite.
 
-Les cours sont récupérés côté GitHub par une tâche planifiée, enregistrés dans `data/markets.json`, puis lus depuis le même domaine que l'application. Cette architecture évite les blocages CORS du navigateur Tesla. La marée est estimée depuis le niveau marin modélisé par Open-Meteo : elle est indicative et ne remplace jamais les horaires officiels du SHOM pour la navigation.
+Les cours sont récupérés côté GitHub par une tâche planifiée, enregistrés dans `data/markets.json`, puis lus depuis le même domaine que l'application. Cette architecture évite les blocages CORS du navigateur Tesla. La prochaine pleine mer est lue dans `data/tides-le-havre-2026.csv`, table dédiée au port du Havre contenant les heures locales, hauteurs et coefficients. Ces données restent indicatives et ne remplacent jamais les publications officielles du SHOM pour la navigation.
 
 L’état des ponts est récupéré en temps réel par le Worker Cloudflare contenu dans `worker/`, avec un cache de 25 secondes et cinq minutes de secours. L’API `/map/getPonts` est prioritaire et `/waze/incidents` sert de solution de repli. Le frontend interroge le Worker toutes les 25 secondes et utilise `data/bridges.json`, produit par GitHub Actions, si le Worker est indisponible. Les statuts trop anciens sont neutralisés.
