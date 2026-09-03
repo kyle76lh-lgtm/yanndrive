@@ -5,7 +5,9 @@ export const bridgeDefinitions = [
   { id: "pont_rouge", name: "Pont Rouge", haropaName: "pont rouge", wazeId: "PTRO" },
   { id: "pont_7", name: "Pont 7", haropaName: "pont 7", wazeId: "PT7" },
   { id: "pont_7_bis", name: "Pont 7 bis", haropaName: "pont 7 bis", wazeId: "PT7B" },
-  { id: "pont_8", name: "Pont 8", haropaName: "pont 8", wazeId: "PT8" }
+  { id: "pont_8", name: "Pont 8", haropaName: "pont 8", wazeId: "PT8" },
+  { id: "quinette_amont", name: "Pont Quinette amont", haropaName: "pont amont quinette", wazeId: "QUIAMPT" },
+  { id: "quinette_aval", name: "Pont Quinette aval", haropaName: "pont aval quinette", wazeId: "QUIAVPT" }
 ];
 
 function comparable(value = "") {
@@ -70,4 +72,3 @@ export async function fetchHaropaBridges() {
     return { bridges: normalizeWazePayload(payload), endpoint: "waze" };
   }
 }
-

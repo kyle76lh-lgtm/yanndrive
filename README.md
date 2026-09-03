@@ -12,7 +12,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;
 - onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
 - réglage persistant des accélérations en `m/s²` ou en `g` ;
-- onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis et Pont 8, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
+- onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis, Pont 8 et les ponts Quinette amont/aval, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
 - mise en page responsive, tactile et sombre ;
 - mode plein écran lorsque le navigateur l'autorise.
 
