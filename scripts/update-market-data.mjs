@@ -22,9 +22,15 @@ for (const symbol of symbols) {
     console.warn(`${symbol}: cours invalide, ancienne valeur conservée`);
     continue;
   }
+  const dailyCloses = (result?.indicators?.quote?.[0]?.close ?? []).filter(Number.isFinite);
+  const previousClose = dailyCloses.at(-2);
+  if (!Number.isFinite(previousClose)) {
+    console.warn(`${symbol}: clôture précédente introuvable, ancienne valeur conservée`);
+    continue;
+  }
   quotes[symbol] = {
     price: meta.regularMarketPrice,
-    previousClose: meta.chartPreviousClose,
+    previousClose,
     currency: meta.currency,
     marketTime: meta.regularMarketTime
   };
