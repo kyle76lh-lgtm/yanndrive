@@ -144,11 +144,24 @@ function switchTab(name) {
 
 let marketDataPromise = null;
 
+async function fetchFresh(path, attempts = 3) {
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt++) {
+    try {
+      const separator = path.includes("?") ? "&" : "?";
+      const response = await fetch(`${path}${separator}fresh=${Date.now()}-${attempt}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (attempt < attempts - 1) await new Promise((resolve) => setTimeout(resolve, 350 * (attempt + 1)));
+    }
+  }
+  throw lastError;
+}
+
 function getMarketData() {
-  marketDataPromise ||= fetch(`data/markets.json?v=${Date.now()}`, { cache: "no-store" }).then((response) => {
-    if (!response.ok) throw new Error("market data unavailable");
-    return response.json();
-  });
+  marketDataPromise ||= fetchFresh("data/markets.json").then((response) => response.json());
   return marketDataPromise;
 }
 
@@ -179,8 +192,7 @@ async function loadTide() {
   ui.tideStatus.textContent = "CHARGEMENT";
   ui.tideStatus.className = "live-badge";
   try {
-    const response = await fetch("data/tides-le-havre-2026.csv?v=1");
-    if (!response.ok) throw new Error("tide unavailable");
+    const response = await fetchFresh("data/tides-le-havre-2026.csv");
     const rows = (await response.text()).trim().split(/\r?\n/).slice(1);
     const now = Date.now();
     const nextHighTide = rows
