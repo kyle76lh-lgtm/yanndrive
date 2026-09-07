@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-07T12:39:29.295Z",
+  "updatedAt": "2026-09-07T12:55:30.204Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
-      "price": 333.4,
+      "price": 333.5,
       "previousClose": 333.5,
       "currency": "EUR",
-      "marketTime": 1788783838
+      "marketTime": 1788784754
     },
     "TSLA": {
       "price": 354.08,
