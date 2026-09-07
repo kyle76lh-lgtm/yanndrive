@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-07T02:42:23.756Z",
+  "updated_at": "2026-09-07T03:08:01.186Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
-  "stale": true,
+  "stale": false,
   "bridges": [
     {
       "id": "pont_rouge",
@@ -34,7 +34,5 @@
       "name": "Pont Quinette aval",
       "status": "closed"
     }
-  ],
-  "last_attempt_at": "2026-09-07T02:54:19.593Z",
-  "error": "HAROPA data temporarily unavailable"
+  ]
 }
