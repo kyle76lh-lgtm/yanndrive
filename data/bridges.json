@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-07T01:17:04.105Z",
+  "updated_at": "2026-09-07T01:31:00.288Z",
   "source": "HAROPA",
-  "source_endpoint": "waze",
+  "source_endpoint": "ponts",
   "stale": false,
   "bridges": [
     {
