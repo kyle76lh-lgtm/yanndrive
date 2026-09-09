@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-09-09T14:38:33.648Z",
+  "updatedAt": "2026-09-09T14:53:13.151Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
-      "price": 322.7,
+      "price": 323,
       "previousClose": 333.6000061035156,
       "currency": "EUR",
-      "marketTime": 1788963802
+      "marketTime": 1788964670
     },
     "TSLA": {
-      "price": 372.455,
+      "price": 372.4,
       "previousClose": 368.1600036621094,
       "currency": "USD",
-      "marketTime": 1788964713
+      "marketTime": 1788965591
     },
     "SPCX": {
-      "price": 150.14,
+      "price": 149.25,
       "previousClose": 153.47000122070312,
       "currency": "USD",
-      "marketTime": 1788964711
+      "marketTime": 1788965592
     },
     "NVDA": {
-      "price": 224.37,
+      "price": 224.225,
       "previousClose": 225.72999572753906,
       "currency": "USD",
-      "marketTime": 1788964708
+      "marketTime": 1788965592
     },
     "PLTR": {
-      "price": 171.19,
+      "price": 170.571,
       "previousClose": 170.3000030517578,
       "currency": "USD",
-      "marketTime": 1788964711
+      "marketTime": 1788965591
     }
   }
 }
