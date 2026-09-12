@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T07:58:37.818Z",
+  "updated_at": "2026-09-12T08:16:04.168Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -7,7 +7,7 @@
     {
       "id": "pont_rouge",
       "name": "Pont Rouge",
-      "status": "opening"
+      "status": "open"
     },
     {
       "id": "pont_7",
@@ -32,7 +32,7 @@
     {
       "id": "quinette_aval",
       "name": "Pont Quinette aval",
-      "status": "open"
+      "status": "closed"
     }
   ]
 }
