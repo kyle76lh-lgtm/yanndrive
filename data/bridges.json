@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-14T13:21:25.050Z",
+  "updated_at": "2026-09-14T13:37:06.079Z",
   "source": "HAROPA",
-  "source_endpoint": "ponts",
+  "source_endpoint": "waze",
   "stale": false,
   "bridges": [
     {
       "id": "pont_rouge",
       "name": "Pont Rouge",
-      "status": "open"
+      "status": "closed"
     },
     {
       "id": "pont_7",
       "name": "Pont 7",
-      "status": "closing"
+      "status": "open"
     },
     {
       "id": "pont_7_bis",
       "name": "Pont 7 bis",
-      "status": "open"
+      "status": "closed"
     },
     {
       "id": "pont_8",
@@ -32,7 +32,7 @@
     {
       "id": "quinette_aval",
       "name": "Pont Quinette aval",
-      "status": "open"
+      "status": "closed"
     }
   ]
 }
