@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T10:11:51.624Z",
+  "updated_at": "2026-09-15T10:28:54.606Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -27,12 +27,12 @@
     {
       "id": "quinette_amont",
       "name": "Pont Quinette amont",
-      "status": "opening"
+      "status": "closed"
     },
     {
       "id": "quinette_aval",
       "name": "Pont Quinette aval",
-      "status": "open"
+      "status": "closed"
     }
   ]
 }
