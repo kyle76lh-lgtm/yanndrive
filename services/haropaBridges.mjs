@@ -2,12 +2,12 @@ const HAROPA_BRIDGES_URL = "https://www.havre-port.com/map/getPonts";
 const HAROPA_WAZE_URL = "https://www.havre-port.com/waze/incidents";
 
 export const bridgeDefinitions = [
-  { id: "pont_rouge", name: "Pont Rouge", haropaName: "pont rouge", wazeId: "PTRO" },
-  { id: "pont_7", name: "Pont 7", haropaName: "pont 7", wazeId: "PT7" },
-  { id: "pont_7_bis", name: "Pont 7 bis", haropaName: "pont 7 bis", wazeId: "PT7B" },
-  { id: "pont_8", name: "Pont 8", haropaName: "pont 8", wazeId: "PT8" },
-  { id: "quinette_amont", name: "Pont Quinette amont", haropaName: "pont amont quinette", wazeId: "QUIAMPT" },
-  { id: "quinette_aval", name: "Pont Quinette aval", haropaName: "pont aval quinette", wazeId: "QUIAVPT" }
+  { id: "pont_rouge", name: "Pont Rouge", haropaName: "pont rouge", wazeId: "PTRO", latitude: 49.48786616400208, longitude: 0.18626335038474393 },
+  { id: "pont_7", name: "Pont 7", haropaName: "pont 7", wazeId: "PT7", latitude: 49.4926892039298, longitude: 0.18049123358000224 },
+  { id: "pont_7_bis", name: "Pont 7 bis", haropaName: "pont 7 bis", wazeId: "PT7B", latitude: 49.4966612525715, longitude: 0.19706728134482937 },
+  { id: "pont_8", name: "Pont 8", haropaName: "pont 8", wazeId: "PT8", latitude: 49.497906150038, longitude: 0.20173700117320223 },
+  { id: "quinette_amont", name: "Pont Quinette amont", haropaName: "pont amont quinette", wazeId: "QUIAMPT", latitude: 49.482983400000435, longitude: 0.11654124993633143 },
+  { id: "quinette_aval", name: "Pont Quinette aval", haropaName: "pont aval quinette", wazeId: "QUIAVPT", latitude: 49.482906700004484, longitude: 0.11347889981895849 }
 ];
 
 function comparable(value = "") {
@@ -30,7 +30,9 @@ export function normalizePontsPayload(payload) {
     return {
       id: definition.id,
       name: definition.name,
-      status: record ? normalizeStatus(record.statut, record.statutText) : "unknown"
+      status: record ? normalizeStatus(record.statut, record.statutText) : "unknown",
+      latitude: Number.isFinite(record?.position?.lat) ? record.position.lat : definition.latitude,
+      longitude: Number.isFinite(record?.position?.lon) ? record.position.lon : definition.longitude
     };
   });
 }
@@ -46,7 +48,9 @@ export function normalizeWazePayload(payload, now = Date.now()) {
     return {
       id: definition.id,
       name: definition.name,
-      status: incident ? normalizeStatus(null, incident.description) === "unknown" ? "closed" : normalizeStatus(null, incident.description) : "open"
+      status: incident ? normalizeStatus(null, incident.description) === "unknown" ? "closed" : normalizeStatus(null, incident.description) : "open",
+      latitude: definition.latitude,
+      longitude: definition.longitude
     };
   });
 }

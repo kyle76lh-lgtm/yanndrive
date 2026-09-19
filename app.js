@@ -22,10 +22,10 @@ const ui = {
 
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
-  startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null,
+  startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, currentPosition: null,
   currentSpeedKmh: 0, maxSpeedKmh: 0,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
-  celebrationTimer: null
+  celebrationTimer: null, bridgeData: null
 };
 
 let fireworksFrame = null;
@@ -248,11 +248,32 @@ function describeAge(milliseconds) {
   return `Actualisé il y a ${Math.floor(minutes / 60)} h`;
 }
 
+function sortBridgesByDistance(bridges) {
+  if (!state.currentPosition) return;
+  const bridgesById = new Map(bridges.map((bridge) => [bridge.id, bridge]));
+  const currentRows = [...ui.bridgesList.querySelectorAll("[data-bridge-id]")];
+  const sortedRows = [...currentRows].sort((firstRow, secondRow) => {
+    const first = bridgesById.get(firstRow.dataset.bridgeId);
+    const second = bridgesById.get(secondRow.dataset.bridgeId);
+    const firstDistance = Number.isFinite(first?.latitude) && Number.isFinite(first?.longitude)
+      ? haversine(state.currentPosition, first)
+      : Infinity;
+    const secondDistance = Number.isFinite(second?.latitude) && Number.isFinite(second?.longitude)
+      ? haversine(state.currentPosition, second)
+      : Infinity;
+    return firstDistance - secondDistance;
+  });
+  if (sortedRows.some((row, index) => row !== currentRows[index])) {
+    sortedRows.forEach((row) => ui.bridgesList.append(row));
+  }
+}
+
 function renderBridges(data) {
   const updatedAt = new Date(data.updated_at).getTime();
   const age = Number.isFinite(updatedAt) ? Date.now() - updatedAt : Infinity;
   const tooOld = data.stale || age > 10 * 60 * 1000;
   const bridges = new Map((data.bridges || []).map((bridge) => [bridge.id, bridge]));
+  state.bridgeData = data.bridges || [];
 
   ui.bridgesList.querySelectorAll("[data-bridge-id]").forEach((row) => {
     const bridge = bridges.get(row.dataset.bridgeId);
@@ -260,6 +281,7 @@ function renderBridges(data) {
     row.className = `bridge-row ${status}`;
     row.querySelector(".bridge-status").textContent = bridgeStatusLabels[status];
   });
+  sortBridgesByDistance(state.bridgeData);
 
   ui.bridgesFreshness.className = `bridges-freshness ${tooOld ? "stale" : "fresh"}`;
   ui.bridgesFreshness.querySelector("strong").textContent = tooOld
@@ -375,6 +397,9 @@ function onPosition(position) {
   if (derivedSpeed !== null && (speedMps === null || speedMps < .3)) speedMps = derivedSpeed;
   speedMps ??= 0;
   state.lastPosition = point;
+  state.currentPosition = point;
+
+  if (state.bridgeData) sortBridgesByDistance(state.bridgeData);
 
   renderSpeed(speedMps * 3.6);
   ui.coordinates.textContent = `Latitude ${c.latitude.toFixed(5)} · Longitude ${c.longitude.toFixed(5)}`;
