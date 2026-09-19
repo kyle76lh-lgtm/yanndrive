@@ -32,12 +32,12 @@
       </section>
 
       <nav class="app-tabs" aria-label="Sections de YannDrive">
-        <button class="app-tab active" type="button" data-tab="drive" aria-selected="true">CONDUITE</button>
+        <button class="app-tab" type="button" data-tab="drive" aria-selected="false">CONDUITE</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
-        <button class="app-tab" type="button" data-tab="bridges" aria-selected="false">PONTS</button>
+        <button class="app-tab active" type="button" data-tab="bridges" aria-selected="true">PONTS</button>
       </nav>
 
-      <section id="driveView" class="dashboard tab-view active">
+      <section id="driveView" class="dashboard tab-view">
         <div class="speed-panel">
           <div class="speed-label">VITESSE</div>
           <div class="speed-display">
@@ -117,7 +117,7 @@
         <p class="data-note" id="dataNote">Horaires de marée dédiés au port du Havre. Données indicatives uniquement : les publications officielles du SHOM restent la référence pour la navigation.</p>
       </section>
 
-      <section id="bridgesView" class="bridges-view tab-view" aria-labelledby="bridgesTitle">
+      <section id="bridgesView" class="bridges-view tab-view active" aria-labelledby="bridgesTitle">
         <div class="bridges-shell">
           <div class="bridges-heading">
             <div><small>HAROPA · LE HAVRE</small><h1 id="bridgesTitle">État des ponts</h1></div>
@@ -138,7 +138,7 @@
         </div>
       </section>
 
-      <footer id="driveControls" class="controls">
+      <footer id="driveControls" class="controls" hidden>
         <button id="startButton" class="control primary" type="button"><span>▶</span>DÉMARRER</button>
         <button id="stopButton" class="control" type="button" disabled><span>■</span>ARRÊTER</button>
         <button id="resetButton" class="control danger" type="button"><span>↻</span>RÉINITIALISER</button>

@@ -485,4 +485,5 @@ setInterval(() => { if (ui.bridgesView.classList.contains("active")) loadBridges
 ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
+switchTab("bridges");
 requestGps();
