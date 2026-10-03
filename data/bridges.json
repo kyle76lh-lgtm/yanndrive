@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T19:09:44.857Z",
+  "updated_at": "2026-10-03T22:07:13.688Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -35,7 +35,7 @@
     {
       "id": "quinette_amont",
       "name": "Pont Quinette amont",
-      "status": "opening",
+      "status": "open",
       "latitude": 49.482983400000435,
       "longitude": 0.11654124993633143
     },
