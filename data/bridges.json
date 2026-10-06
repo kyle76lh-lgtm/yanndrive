@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T09:20:50.412Z",
+  "updated_at": "2026-10-06T16:02:23.447Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -14,7 +14,7 @@
     {
       "id": "pont_7",
       "name": "Pont 7",
-      "status": "open",
+      "status": "opening",
       "latitude": 49.4926892039298,
       "longitude": 0.18049123358000224
     },
