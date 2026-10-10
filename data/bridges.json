@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:41:21.144Z",
+  "updated_at": "2026-10-10T06:24:00.667Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -42,7 +42,7 @@
     {
       "id": "quinette_aval",
       "name": "Pont Quinette aval",
-      "status": "open",
+      "status": "closed",
       "latitude": 49.482906700004484,
       "longitude": 0.11347889981895849
     }
