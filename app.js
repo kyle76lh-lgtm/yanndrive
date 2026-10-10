@@ -390,6 +390,12 @@ function renderTrip() {
     : "Trajet arrêté · estimation conservée. Démarrer reprend ce trajet.";
 }
 
+function saveTripConsumption(value) {
+  state.consumptionKwh100Km = value;
+  localStorage.setItem(consumptionStorageKey, String(value));
+  renderTrip();
+}
+
 function updateTripConsumption() {
   const value = Number(ui.tripConsumption.value);
   if (!isValidConsumption(value)) {
@@ -397,10 +403,8 @@ function updateTripConsumption() {
     showToast("Saisissez une consommation entre 1 et 100 kWh/100 km.");
     return;
   }
-  state.consumptionKwh100Km = value;
   ui.tripConsumption.value = String(value);
-  localStorage.setItem(consumptionStorageKey, String(value));
-  renderTrip();
+  saveTripConsumption(value);
 }
 
 function onPosition(position) {
@@ -534,6 +538,10 @@ ui.start.addEventListener("click", startTrip);
 ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
 ui.tripConsumption.addEventListener("change", updateTripConsumption);
+ui.tripConsumption.addEventListener("input", () => {
+  const value = Number(ui.tripConsumption.value);
+  if (isValidConsumption(value)) saveTripConsumption(value);
+});
 ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
