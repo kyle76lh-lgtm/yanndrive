@@ -4,6 +4,8 @@ const $ = (id) => document.getElementById(id);
 const ui = {
   clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"),
   duration: $("duration"), averageSpeed: $("averageSpeed"), maxSpeed: $("maxSpeed"),
+  tripCost: $("tripCost"), tripDistance: $("tripDistance"), tripEnergy: $("tripEnergy"),
+  tripConsumption: $("tripConsumption"), tripCostStatus: $("tripCostStatus"),
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
@@ -20,10 +22,17 @@ const ui = {
   bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges")
 };
 
+const electricityRate = 0.134;
+const consumptionStorageKey = "lhdrive-consumption-kwh-100km";
+const isValidConsumption = (value) => Number.isFinite(value) && value >= 1 && value <= 100;
+const savedConsumption = Number(localStorage.getItem(consumptionStorageKey));
+
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, currentPosition: null,
   currentSpeedKmh: 0, maxSpeedKmh: 0,
+  consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
+  tripStarted: false, tripHasDemo: false,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null, bridgeData: null
 };
@@ -369,6 +378,29 @@ function renderTrip() {
   const elapsed = elapsedSeconds();
   ui.duration.textContent = formatTime(elapsed);
   ui.averageSpeed.textContent = elapsed > 0 ? Math.round((state.distanceM / 1000) / (elapsed / 3600)) : "0";
+  const distanceKm = state.distanceM / 1000;
+  const energyKwh = distanceKm * state.consumptionKwh100Km / 100;
+  ui.tripDistance.textContent = `${formatDecimal(distanceKm, 2)} km`;
+  ui.tripEnergy.textContent = `${formatDecimal(energyKwh, 2)} kWh estimés`;
+  ui.tripCost.textContent = `${formatDecimal(energyKwh * electricityRate, 2)} €`;
+  ui.tripCostStatus.textContent = !state.tripStarted ? "En attente du démarrage."
+    : state.distanceM === 0 ? "Aucune distance enregistrée : estimation en attente."
+    : state.tripHasDemo ? "Simulation démo : ce total contient une distance fictive."
+    : state.running ? "Estimation en cours · distance GPS enregistrée uniquement."
+    : "Trajet arrêté · estimation conservée. Démarrer reprend ce trajet.";
+}
+
+function updateTripConsumption() {
+  const value = Number(ui.tripConsumption.value);
+  if (!isValidConsumption(value)) {
+    ui.tripConsumption.value = String(state.consumptionKwh100Km);
+    showToast("Saisissez une consommation entre 1 et 100 kWh/100 km.");
+    return;
+  }
+  state.consumptionKwh100Km = value;
+  ui.tripConsumption.value = String(value);
+  localStorage.setItem(consumptionStorageKey, String(value));
+  renderTrip();
 }
 
 function onPosition(position) {
@@ -426,12 +458,14 @@ function requestGps() {
 function startTrip() {
   if (state.running) return;
   state.running = true;
+  state.tripStarted = true;
   state.startedAt = Date.now();
   state.lastPosition = null;
   ui.start.disabled = true;
   ui.stop.disabled = false;
   ui.tripState.textContent = "TRAJET EN COURS";
   ui.tripDot.classList.add("active");
+  renderTrip();
   showToast("Trajet démarré");
 }
 
@@ -452,6 +486,8 @@ function resetTrip() {
   state.startedAt = null;
   state.elapsedBeforeStart = 0;
   state.distanceM = 0;
+  state.tripStarted = false;
+  state.tripHasDemo = false;
   state.maxSpeedKmh = 0;
   state.lastPosition = null;
   ui.start.disabled = false;
@@ -473,7 +509,10 @@ function toggleDemo() {
       t += .8;
       const kmh = Math.max(0, Math.min(118, 54 + 42 * Math.sin(t / 6) + 14 * Math.sin(t / 2.3)));
       const current = kmh / 3.6;
-      if (state.running) state.distanceM += current * .8;
+      if (state.running) {
+        state.distanceM += current * .8;
+        state.tripHasDemo = true;
+      }
       renderSpeed(kmh);
       ui.coordinates.textContent = "Latitude 49.49437 · Longitude 0.10793";
       ui.accuracy.textContent = "6 m";
@@ -494,6 +533,7 @@ function toggleDemo() {
 ui.start.addEventListener("click", startTrip);
 ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
+ui.tripConsumption.addEventListener("change", updateTripConsumption);
 ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
@@ -510,5 +550,7 @@ setInterval(() => { if (ui.bridgesView.classList.contains("active")) loadBridges
 ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
+ui.tripConsumption.value = String(state.consumptionKwh100Km);
+renderTrip();
 switchTab("bridges");
 requestGps();

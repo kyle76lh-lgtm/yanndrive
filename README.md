@@ -7,6 +7,7 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - vitesse GPS et vitesse maximale du trajet, avec repli sur un calcul entre deux positions ;
 - durée et vitesse moyenne ;
 - commandes Démarrer, Arrêter et Réinitialiser ;
+- coût estimé du trajet dans Conduite : distance GPS × consommation moyenne réglable (18 kWh/100 km par défaut) × 0,134 €/kWh ; le réglage est mémorisé, Arrêter conserve le total et Démarrer le reprend, Réinitialiser le remet à zéro ; estimation hors pertes de recharge, sans lecture de la consommation réelle de la Tesla ;
 - état et précision du GPS ;
 - mode démo pour tester l'interface sans déplacement ;
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;

@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=15" />
+    <link rel="stylesheet" href="styles.css?v=16" />
   </head>
   <body>
     <main class="app-shell">
@@ -69,6 +69,21 @@
           </div>
           <div class="accuracy"><span>PRÉCISION</span><strong id="accuracy">— m</strong></div>
         </aside>
+
+        <section class="trip-cost-card" aria-labelledby="tripCostTitle">
+          <div class="trip-cost-summary">
+            <div><small id="tripCostTitle">COÛT ESTIMÉ DU TRAJET</small><strong id="tripCost">0,00 €</strong></div>
+            <p><span id="tripDistance">0,00 km</span> · <span id="tripEnergy">0,00 kWh estimés</span></p>
+          </div>
+          <div class="trip-cost-settings">
+            <label for="tripConsumption">Consommation moyenne <span>(kWh/100 km)</span></label>
+            <input id="tripConsumption" type="number" inputmode="decimal" min="1" max="100" step="0.1" value="18" aria-describedby="tripCostNote" />
+            <span class="trip-cost-rate">Tarif au travail : <strong>0,134 €/kWh</strong></span>
+          </div>
+          <p id="tripCostNote" class="trip-cost-note">Estimation sur la distance GPS enregistrée et votre consommation moyenne, hors pertes de recharge. Arrêter conserve le total ; Réinitialiser le remet à zéro.</p>
+          <p id="tripCostStatus" class="trip-cost-status">En attente du démarrage.</p>
+        </section>
+
       </section>
 
       <section id="infosView" class="infos-view tab-view" aria-labelledby="infosTitle">
@@ -152,6 +167,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=23" defer></script>
+    <script src="app.js?v=24" defer></script>
   </body>
 </html>
