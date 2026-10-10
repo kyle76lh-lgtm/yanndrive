@@ -6,6 +6,7 @@ const ui = {
   duration: $("duration"), averageSpeed: $("averageSpeed"), maxSpeed: $("maxSpeed"),
   tripCost: $("tripCost"), tripDistance: $("tripDistance"), tripEnergy: $("tripEnergy"),
   tripConsumption: $("tripConsumption"), tripCostStatus: $("tripCostStatus"),
+  tripElectricityRate: $("tripElectricityRate"),
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
@@ -22,7 +23,9 @@ const ui = {
   bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges")
 };
 
-const electricityRate = 0.134;
+const electricityRateStorageKey = "lhdrive-electricity-rate-eur-kwh";
+const isValidElectricityRate = (value) => Number.isFinite(value) && value >= 0 && value <= 10;
+const savedElectricityRate = localStorage.getItem(electricityRateStorageKey);
 const consumptionStorageKey = "lhdrive-consumption-kwh-100km";
 const isValidConsumption = (value) => Number.isFinite(value) && value >= 1 && value <= 100;
 const savedConsumption = Number(localStorage.getItem(consumptionStorageKey));
@@ -32,6 +35,7 @@ const state = {
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, currentPosition: null,
   currentSpeedKmh: 0, maxSpeedKmh: 0,
   consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
+  electricityRate: savedElectricityRate !== null && savedElectricityRate.trim() !== "" && isValidElectricityRate(Number(savedElectricityRate)) ? Number(savedElectricityRate) : 0.134,
   tripStarted: false, tripHasDemo: false,
   mode67: localStorage.getItem("yanndrive-mode-67") === "true", mode67Armed: true,
   celebrationTimer: null, bridgeData: null
@@ -382,7 +386,7 @@ function renderTrip() {
   const energyKwh = distanceKm * state.consumptionKwh100Km / 100;
   ui.tripDistance.textContent = `${formatDecimal(distanceKm, 2)} km`;
   ui.tripEnergy.textContent = `${formatDecimal(energyKwh, 2)} kWh estimés`;
-  ui.tripCost.textContent = `${formatDecimal(energyKwh * electricityRate, 2)} €`;
+  ui.tripCost.textContent = `${formatDecimal(energyKwh * state.electricityRate, 2)} €`;
   ui.tripCostStatus.textContent = !state.tripStarted ? "En attente du démarrage."
     : state.distanceM === 0 ? "Aucune distance enregistrée : estimation en attente."
     : state.tripHasDemo ? "Simulation démo : ce total contient une distance fictive."
@@ -405,6 +409,23 @@ function updateTripConsumption() {
   }
   ui.tripConsumption.value = String(value);
   saveTripConsumption(value);
+}
+
+function saveTripElectricityRate(value) {
+  state.electricityRate = value;
+  localStorage.setItem(electricityRateStorageKey, String(value));
+  renderTrip();
+}
+
+function updateTripElectricityRate() {
+  const value = Number(ui.tripElectricityRate.value);
+  if (ui.tripElectricityRate.value.trim() === "" || !isValidElectricityRate(value)) {
+    ui.tripElectricityRate.value = String(state.electricityRate);
+    showToast("Saisissez un tarif entre 0 et 10 €/kWh.");
+    return;
+  }
+  ui.tripElectricityRate.value = String(value);
+  saveTripElectricityRate(value);
 }
 
 function onPosition(position) {
@@ -538,6 +559,11 @@ ui.start.addEventListener("click", startTrip);
 ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
 ui.tripConsumption.addEventListener("change", updateTripConsumption);
+ui.tripElectricityRate.addEventListener("change", updateTripElectricityRate);
+ui.tripElectricityRate.addEventListener("input", () => {
+  const value = Number(ui.tripElectricityRate.value);
+  if (ui.tripElectricityRate.value.trim() !== "" && isValidElectricityRate(value)) saveTripElectricityRate(value);
+});
 ui.tripConsumption.addEventListener("input", () => {
   const value = Number(ui.tripConsumption.value);
   if (isValidConsumption(value)) saveTripConsumption(value);
@@ -559,6 +585,7 @@ ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit",
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
 ui.tripConsumption.value = String(state.consumptionKwh100Km);
+ui.tripElectricityRate.value = String(state.electricityRate);
 renderTrip();
 switchTab("bridges");
 requestGps();
