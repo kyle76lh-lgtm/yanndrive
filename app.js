@@ -411,7 +411,7 @@ function onPosition(position) {
 function onGpsError(error) {
   const labels = { 1: "AUTORISATION GPS REFUSÉE", 2: "GPS INDISPONIBLE", 3: "GPS SANS RÉPONSE" };
   setGpsStatus(labels[error.code] || "ERREUR GPS", "bad");
-  showToast("La géolocalisation doit être autorisée pour utiliser YannDrive.");
+  showToast("La géolocalisation doit être autorisée pour utiliser LHdrive.");
 }
 
 function requestGps() {
