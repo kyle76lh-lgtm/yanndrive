@@ -292,3 +292,26 @@ button { font: inherit; }
   * { transition: none !important; }
   .celebration-67.show .celebration-number, .celebration-67.show .celebration-digit, .celebration-67.show .celebration-caption { animation: none; }
 }
+
+/* Bilan de trajet affiché à l'arrêt, avec les compteurs réels. */
+.trip-summary { width: min(1180px, calc(100% - 44px)); margin: 24px auto 0; padding: 28px; border: 1px solid #34564a; border-radius: 24px; background: linear-gradient(135deg, #142c29, #101923 75%); }
+.summary-eyebrow { color: var(--green); font-size: 11px; letter-spacing: .2em; font-weight: 800; }
+.summary-check { display: grid; place-items: center; width: 48px; height: 48px; margin: 18px 0 12px; border: 2px solid var(--green); border-radius: 50%; color: var(--green); background: var(--green-soft); font-size: 25px; }
+.trip-summary h2 { font-size: clamp(28px, 4vw, 42px); letter-spacing: -.04em; margin: 0; }
+.summary-context { color: #a0b7b3; font-size: 13px; margin: 10px 0 22px; }
+.summary-metrics { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.summary-metrics > div { padding: 18px 14px; border: 1px solid #2b4143; border-radius: 14px; background: rgba(7, 14, 19, .5); }
+.summary-metrics small, .summary-metrics span { display: block; color: #99b0b1; font-size: 11px; }
+.summary-metrics small { font-weight: 800; letter-spacing: .08em; }
+.summary-metrics strong { display: block; font-size: clamp(24px, 3vw, 34px); margin: 10px 0 6px; font-variant-numeric: tabular-nums; }
+.summary-cost strong { color: var(--green); }
+.summary-footer { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-top: 22px; }
+.summary-badge { display: grid; gap: 7px; }
+.summary-badge span, .summary-note { color: #99b0b1; font-size: 12px; }
+.summary-close { min-height: 48px; padding: 12px 20px; border: 1px solid #3c6255; border-radius: 12px; color: var(--text); background: #1c3b31; cursor: pointer; }
+.summary-close:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.summary-note { line-height: 1.6; margin: 20px 0 0; }
+.summary-appear { animation: summary-reveal .5s ease-out; }
+@keyframes summary-reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 780px) { .trip-summary { width: calc(100% - 28px); padding: 22px 18px; } .summary-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } .summary-cost { grid-column: 1 / -1; } .summary-footer { flex-wrap: wrap; } }
+@media (prefers-reduced-motion: reduce) { .summary-appear { animation: none; } }

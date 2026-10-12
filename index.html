@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=16" />
+    <link rel="stylesheet" href="styles.css?v=17" />
   </head>
   <body>
     <main class="app-shell">
@@ -37,6 +37,24 @@
         <button class="app-tab" type="button" data-tab="drive" aria-selected="false">CONDUITE</button>
       </nav>
 
+
+      <section id="tripSummary" class="trip-summary" hidden aria-labelledby="tripSummaryTitle">
+        <div class="summary-eyebrow">BILAN DU TRAJET</div>
+        <div class="summary-check" aria-hidden="true">✓</div>
+        <h2 id="tripSummaryTitle">Mission accomplie.</h2>
+        <p id="summaryContext" class="summary-context"></p>
+        <div class="summary-metrics">
+          <div><small>DISTANCE</small><strong id="summaryDistance"></strong><span>km parcourus</span></div>
+          <div><small>DURÉE</small><strong id="summaryDuration"></strong><span>temps du trajet</span></div>
+          <div><small>VITESSE MOY.</small><strong id="summaryAverage"></strong><span>km/h · pauses comprises</span></div>
+          <div><small>VITESSE MAX</small><strong id="summaryMax"></strong><span>km/h · mesure GPS</span></div>
+          <div class="summary-cost"><small>COÛT ESTIMÉ</small><strong id="summaryCost"></strong><span>électricité uniquement</span></div>
+        </div>
+        <div class="summary-footer"><div class="summary-badge"><strong id="summaryBadge"></strong><span id="summaryEnergy"></span></div>
+          <button id="closeSummary" class="summary-close" type="button">Fermer le bilan</button>
+        </div>
+        <p class="summary-note">Démarrer reprend ce trajet ; Réinitialiser commence un nouveau trajet. Estimation hors pertes de recharge.</p>
+      </section>
       <section id="driveView" class="dashboard tab-view">
         <div class="speed-panel">
           <div class="speed-label">VITESSE</div>
@@ -168,6 +186,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=27" defer></script>
+    <script src="app.js?v=28" defer></script>
   </body>
 </html>

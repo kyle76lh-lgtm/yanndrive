@@ -151,6 +151,7 @@ function switchTab(name) {
   ui.infosView.classList.toggle("active", name === "infos");
   ui.bridgesView.classList.toggle("active", name === "bridges");
   ui.driveControls.hidden = name !== "drive";
+  if (name !== "drive") $("tripSummary").hidden = true;
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
   if (name === "bridges") loadBridges();
 }
@@ -378,7 +379,37 @@ function toggleMode67() {
   showToast(`Mode 67 ${state.mode67 ? "activé" : "désactivé"}`);
 }
 
+function renderTripSummary() {
+  const elapsed = elapsedSeconds();
+  const km = state.distanceM / 1000;
+  const energy = km * state.consumptionKwh100Km / 100;
+  $("summaryDistance").textContent = formatDecimal(km, 2);
+  $("summaryDuration").textContent = formatTime(elapsed);
+  $("summaryAverage").textContent = elapsed > 0 ? Math.round(km / (elapsed / 3600)) : "0";
+  $("summaryMax").textContent = Math.round(state.maxSpeedKmh);
+  $("summaryCost").textContent = formatDecimal(energy * state.electricityRate, 2) + " €";
+  $("summaryEnergy").textContent = formatDecimal(energy, 2) + " kWh estimés";
+  $("summaryContext").textContent = state.tripHasDemo
+    ? "Mode démo · ce bilan contient une distance fictive."
+    : state.distanceM === 0 ? "Aucune distance GPS enregistrée pour ce trajet."
+    : "Trajet arrêté · les compteurs sont conservés.";
+  $("summaryBadge").textContent = km >= 200 ? "🧭 Grand voyageur"
+    : km >= 50 ? "🌍 Au-delà du quotidien"
+    : km > 0 ? "✨ Explorateur du quotidien" : "🚗 Prêt pour la prochaine sortie";
+}
+
+function showTripSummary() {
+  renderTripSummary();
+  const summary = $("tripSummary");
+  summary.hidden = false;
+  summary.classList.remove("summary-appear");
+  void summary.offsetWidth;
+  summary.classList.add("summary-appear");
+  summary.scrollIntoView({ behavior: "auto", block: "start" });
+}
+
 function renderTrip() {
+  if (!$("tripSummary").hidden) renderTripSummary();
   const elapsed = elapsedSeconds();
   ui.duration.textContent = formatTime(elapsed);
   ui.averageSpeed.textContent = elapsed > 0 ? Math.round((state.distanceM / 1000) / (elapsed / 3600)) : "0";
@@ -505,6 +536,7 @@ function requestGps() {
 
 function startTrip() {
   if (state.running) return;
+  $("tripSummary").hidden = true;
   state.running = true;
   state.tripStarted = true;
   state.startedAt = Date.now();
@@ -528,9 +560,11 @@ function stopTrip() {
   ui.tripState.textContent = "EN PAUSE";
   ui.tripDot.classList.remove("active");
   renderTrip();
+  showTripSummary();
 }
 
 function resetTrip() {
+  $("tripSummary").hidden = true;
   state.running = false;
   state.startedAt = null;
   state.elapsedBeforeStart = 0;
@@ -581,6 +615,7 @@ function toggleDemo() {
   }
 }
 
+$("closeSummary").addEventListener("click", () => { $("tripSummary").hidden = true; });
 ui.start.addEventListener("click", startTrip);
 ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);
