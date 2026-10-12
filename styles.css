@@ -318,3 +318,6 @@ button { font: inherit; }
 
 .mascot-view { width: min(1180px, calc(100% - 28px)); margin: 20px auto; }
 .mascot-view iframe { width: 100%; height: 1000px; border: 0; border-radius: 20px; background: #0b0e13; }
+
+.galaxy-view { width: calc(100% - 28px); margin: 14px auto; }
+.galaxy-view iframe { width: 100%; height: max(580px, calc(100dvh - 190px)); border: 0; border-radius: 20px; background: #050711; }
