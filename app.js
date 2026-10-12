@@ -141,7 +141,9 @@ function showToast(message) {
   showToast.timer = setTimeout(() => ui.toast.classList.remove("show"), 2600);
 }
 
+let activeAppTab = "bridges";
 function switchTab(name) {
+  activeAppTab = name;
   document.querySelectorAll(".app-tab").forEach((button) => {
     const active = button.dataset.tab === name;
     button.classList.toggle("active", active);
@@ -150,6 +152,8 @@ function switchTab(name) {
   ui.driveView.classList.toggle("active", name === "drive");
   ui.infosView.classList.toggle("active", name === "infos");
   ui.bridgesView.classList.toggle("active", name === "bridges");
+  $("engineView").classList.toggle("active", name === "engine");
+  $("engineFrame").contentWindow?.postMessage({type:"engine-visible",visible:name==="engine"},location.origin);
   $("mascotView").classList.toggle("active", name === "mascot");
   ui.driveControls.hidden = name !== "drive";
   if (name !== "drive") $("tripSummary").hidden = true;
@@ -350,8 +354,10 @@ let bobSpeedSample = null;
 let bobMotion = { type: "bob-motion", speed: 0, acceleration: 0 };
 function sendBobMotion() {
   $("bobFrame").contentWindow?.postMessage(bobMotion, location.origin);
+  $("engineFrame").contentWindow?.postMessage({...bobMotion,type:"engine-motion"}, location.origin);
 }
 window.addEventListener("message", (event) => {
+  if(event.origin===location.origin&&event.source===$("engineFrame").contentWindow&&event.data?.type==="engine-ready"){sendBobMotion();$("engineFrame").contentWindow.postMessage({type:"engine-visible",visible:activeAppTab==="engine"},location.origin);}
   if (event.origin === location.origin && event.source === $("bobFrame").contentWindow && event.data?.type === "bob-ready") sendBobMotion();
 });
 function renderSpeed(kmh) {
