@@ -315,3 +315,6 @@ button { font: inherit; }
 @keyframes summary-reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 780px) { .trip-summary { width: calc(100% - 28px); padding: 22px 18px; } .summary-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); } .summary-cost { grid-column: 1 / -1; } .summary-footer { flex-wrap: wrap; } }
 @media (prefers-reduced-motion: reduce) { .summary-appear { animation: none; } }
+
+.mascot-view { width: min(1180px, calc(100% - 28px)); margin: 20px auto; }
+.mascot-view iframe { width: 100%; height: 1000px; border: 0; border-radius: 20px; background: #0b0e13; }

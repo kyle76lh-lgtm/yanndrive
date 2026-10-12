@@ -150,6 +150,7 @@ function switchTab(name) {
   ui.driveView.classList.toggle("active", name === "drive");
   ui.infosView.classList.toggle("active", name === "infos");
   ui.bridgesView.classList.toggle("active", name === "bridges");
+  $("mascotView").classList.toggle("active", name === "mascot");
   ui.driveControls.hidden = name !== "drive";
   if (name !== "drive") $("tripSummary").hidden = true;
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
@@ -344,9 +345,26 @@ function setGpsStatus(label, type = "") {
   ui.statusDot.className = `status-dot ${type}`;
 }
 
+
+let bobSpeedSample = null;
+let bobMotion = { type: "bob-motion", speed: 0, acceleration: 0 };
+function sendBobMotion() {
+  $("bobFrame").contentWindow?.postMessage(bobMotion, location.origin);
+}
+window.addEventListener("message", (event) => {
+  if (event.origin === location.origin && event.source === $("bobFrame").contentWindow && event.data?.type === "bob-ready") sendBobMotion();
+});
 function renderSpeed(kmh) {
   const previousSpeed = state.currentSpeedKmh;
   state.currentSpeedKmh = Math.max(0, kmh);
+
+  const bobNow = Date.now();
+  const bobSeconds = bobSpeedSample ? (bobNow - bobSpeedSample.time) / 1000 : 0;
+  const bobAcceleration = bobSeconds >= .25 && bobSeconds <= 5
+    ? (state.currentSpeedKmh - bobSpeedSample.speed) / 3.6 / bobSeconds : 0;
+  bobMotion = { type: "bob-motion", speed: state.currentSpeedKmh, acceleration: Math.max(-12, Math.min(12, bobAcceleration)) };
+  bobSpeedSample = { speed: state.currentSpeedKmh, time: bobNow };
+  sendBobMotion();
   ui.speed.textContent = Math.round(state.currentSpeedKmh);
   ui.speedBar.style.width = `${Math.min(100, state.currentSpeedKmh / 1.8)}%`;
   if (state.running) {
