@@ -32,7 +32,7 @@ const savedConsumption = Number(localStorage.getItem(consumptionStorageKey));
 
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
-  startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, currentPosition: null,
+  startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, tripPosition: null, currentPosition: null,
   currentSpeedKmh: 0, maxSpeedKmh: 0,
   consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
   electricityRate: savedElectricityRate !== null && savedElectricityRate.trim() !== "" && isValidElectricityRate(Number(savedElectricityRate)) ? Number(savedElectricityRate) : 0.134,
@@ -445,7 +445,30 @@ function onPosition(position) {
       const candidate = segment / seconds;
       if (candidate <= 80) derivedSpeed = candidate;
     }
-    if (state.running && seconds > 0 && seconds < 30 && segment < 500 && segment > Math.max(2, c.accuracy * .25)) state.distanceM += segment;
+
+  }
+
+  // Garder un point de référence du trajet : les petits déplacements s'accumulent
+  // au lieu d'être perdus à chaque nouvelle mesure GPS.
+  if (state.running) {
+    const anchor = state.tripPosition;
+    if (anchor) {
+      const seconds = (now - anchor.timestamp) / 1000;
+      const segment = haversine(anchor, point);
+      const accuracy = Number.isFinite(c.accuracy) ? c.accuracy : 0;
+      const threshold = Math.max(2, Math.min(25, accuracy * .25));
+      if (seconds > 0) {
+        if (seconds > 120 || segment / seconds > 80) {
+          // Ne pas relier une longue interruption ou un saut GPS au trajet.
+          state.tripPosition = point;
+        } else if (segment >= threshold) {
+          state.distanceM += segment;
+          state.tripPosition = point;
+        }
+      }
+    } else {
+      state.tripPosition = point;
+    }
   }
 
   // Le navigateur Tesla peut exposer coords.speed à 0 même lorsque la voiture roule.
@@ -486,6 +509,7 @@ function startTrip() {
   state.tripStarted = true;
   state.startedAt = Date.now();
   state.lastPosition = null;
+  state.tripPosition = null;
   ui.start.disabled = true;
   ui.stop.disabled = false;
   ui.tripState.textContent = "TRAJET EN COURS";
@@ -515,6 +539,7 @@ function resetTrip() {
   state.tripHasDemo = false;
   state.maxSpeedKmh = 0;
   state.lastPosition = null;
+  state.tripPosition = null;
   ui.start.disabled = false;
   ui.stop.disabled = true;
   ui.tripState.textContent = "PRÊT";
@@ -549,6 +574,7 @@ function toggleDemo() {
     clearInterval(state.demoTimer);
     state.demoTimer = null;
     state.lastPosition = null;
+  state.tripPosition = null;
     renderSpeed(0);
     requestGps();
     showToast("Retour au GPS réel");
@@ -589,3 +615,4 @@ ui.tripElectricityRate.value = String(state.electricityRate);
 renderTrip();
 switchTab("bridges");
 requestGps();
+
