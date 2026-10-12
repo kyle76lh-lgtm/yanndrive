@@ -25,7 +25,7 @@
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 main{max-width:100%;padding:14px 20px}.layout{grid-template-columns:1fr}.stage{min-height:420px}.dev{margin-top:16px}h1{margin:0;font-size:28px}.readout{flex-wrap:wrap;justify-content:center}</style><main><h1>Bob</h1><p>Ton compagnon de bord : ses expressions suivent la vitesse et les accélérations GPS.</p><div class="layout">
 <section class="stage"><div class="state-label" id="stateLabel">À L’ARRÊT</div><div class="character stopped" id="character" aria-hidden="true"><div class="head"><i class="brow left-brow"></i><i class="brow right-brow"></i><i class="eye left-eye"></i><i class="eye right-eye"></i><i class="cheek left"></i><i class="cheek right"></i><i class="mouth"></i><i class="sweat"></i></div><div class="arm left-arm"><i class="watch"></i></div><div class="arm right-arm"></div><div class="puke"></div><div class="puddle"></div></div><div class="caption" id="caption" role="status" aria-live="polite">On part bientôt ? J’ai tout mon temps…</div><div class="readout"><span>Vitesse <strong id="liveSpeed">0 km/h</strong></span><span>Accélération <strong id="accel">0,0 m/s²</strong></span></div></section>
-</div><p class="note">Réactions humoristiques basées sur des estimations GPS. Les messages de Bob ne connaissent pas les limitations de la route.</p><details class="dev"><summary>🛠 Menu développeur — animations et dialogues</summary><p class="note">Les tests prennent temporairement la priorité sur les réactions GPS. Retour automatique après quelques secondes. Le passage de 67 km/h déclenche Six seven ; redescends sous 62 pour le réarmer.</p><h3>Tester une animation</h3><div id="animationButtons" class="dev-buttons"></div><div class="dev-buttons"><button id="endTest" type="button">Retour au GPS</button><button id="newLine" type="button">Autre réplique aléatoire</button></div><details><summary>💬 Tous les dialogues — cliquer pour les jouer</summary><div id="dialogueList" class="dialogues"></div></details></details></main>
+</div><p class="note">Réactions humoristiques basées sur des estimations GPS. Les messages de Bob ne connaissent pas les limitations de la route.</p></main>
 <script>const $=id=>document.getElementById(id);
 const dialogues={
 welcome:["Salut ! Moi, c’est Bob. Copilote, pas GPS.","Coucou ! J’ai apporté ma bonne humeur. Et un sac, au cas où.","Bonjour chef ! Bob est prêt à embarquer.","Salut ! Ceinture imaginaire attachée."],
@@ -71,11 +71,6 @@ window.addEventListener("message",event=>{
  if(!Number.isFinite(data.speed)||!Number.isFinite(data.acceleration))return;
  speed=Math.max(0,Math.min(300,data.speed));acceleration=data.acceleration;gpsReceived=performance.now();check67();render();
 });
-const animationNames={welcome:"👋 Bienvenue",stopped:"⌚ La montre",bored:"🥱 Ennui",happy:"😄 Heureux",sick:"🤢 Nausée",vomit:"🤮 Vomissement",sixseven:"🙌 Six seven",wave:"👋 Coucou",dance:"🪩 Disco",sneeze:"🤧 Éternuement",hiccup:"🫧 Hoquet",sleep:"💤 Sieste",peek:"👀 Coup d’œil",heart:"💚 Merci",shock:"😳 Secousse",fast:"🚨 Au-dessus de 130"};
-Object.entries(animationNames).forEach(([key,label])=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.addEventListener("click",()=>play(key));$("animationButtons").append(b);});
-Object.entries(dialogues).forEach(([key,lines])=>{const details=document.createElement("details"),summary=document.createElement("summary");summary.textContent=(animationNames[key]||key)+" · "+lines.length+" répliques";details.append(summary);lines.forEach(line=>{const b=document.createElement("button");b.type="button";b.textContent=line;b.addEventListener("click",()=>play(key,line));details.append(b);});$("dialogueList").append(details);});
-$("newLine").addEventListener("click",()=>say(effect?effect.name:speed>130?"fast":messageCategory||"welcome"));
-$("endTest").addEventListener("click",()=>{effect=null;messageCategory="";render();});
 function tick(now){const dt=Math.min(1,(now-lastTime)/1000);lastTime=now;
 
 if(now-gpsReceived>5000)acceleration=0;
