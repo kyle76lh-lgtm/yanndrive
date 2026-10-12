@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=19" />
+    <link rel="stylesheet" href="styles.css?v=20" />
   </head>
   <body><div id="launchSplash" aria-hidden="true" style="position:fixed;inset:0;z-index:10000;background:#030907;pointer-events:none"><canvas id="launchCanvas" style="display:block;width:100%;height:100%"></canvas></div><script src="launch.js?v=1"></script>
     <main class="app-shell">
@@ -41,7 +41,7 @@
       </nav>
 
 
-      <section id="galaxyView" class="tab-view galaxy-view"><iframe id="galaxyFrame" title="Galaxie et ciel étoilé"></iframe></section>
+      <section id="galaxyView" class="tab-view galaxy-view"><iframe id="galaxyFrame" allow="fullscreen" allowfullscreen title="Galaxie et ciel étoilé"></iframe></section>
       <section id="engineView" class="tab-view mascot-view"><iframe id="engineFrame" title="Simulation sonore V8 GM LS" src="engine.html?v=1" loading="lazy"></iframe></section>
       <section id="mascotView" class="tab-view mascot-view"><iframe id="bobFrame" title="Bob, compagnon de bord" src="bob.html?v=2" loading="lazy"></iframe></section>
       <section id="tripSummary" class="trip-summary" hidden aria-labelledby="tripSummaryTitle">
@@ -192,6 +192,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=31" defer></script>
+    <script src="app.js?v=32" defer></script>
   </body>
 </html>

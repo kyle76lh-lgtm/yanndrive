@@ -155,7 +155,7 @@ function switchTab(name) {
 
   $("galaxyView").classList.toggle("active",name==="galaxy");
   const galaxyFrame=$("galaxyFrame");
-  if(name==="galaxy"&&!galaxyFrame.getAttribute("src"))galaxyFrame.src="galaxy.html?v=1";
+  if(name==="galaxy"&&!galaxyFrame.getAttribute("src"))galaxyFrame.src="galaxy.html?v=2";
   galaxyFrame.contentWindow?.postMessage({type:"galaxy-visible",visible:name==="galaxy"},location.origin);
   $("engineView").classList.toggle("active", name === "engine");
   $("engineFrame").contentWindow?.postMessage({type:"engine-visible",visible:name==="engine"},location.origin);
@@ -362,6 +362,7 @@ function sendBobMotion() {
   $("engineFrame").contentWindow?.postMessage({...bobMotion,type:"engine-motion"}, location.origin);
 }
 window.addEventListener("message", (event) => {
+  if(event.origin===location.origin&&event.source===$("galaxyFrame").contentWindow&&event.data?.type==="galaxy-immersive")$("galaxyView").classList.toggle("galaxy-immersive",event.data.active===true);
   if(event.origin===location.origin&&event.source===$("galaxyFrame").contentWindow&&event.data?.type==="galaxy-ready")$("galaxyFrame").contentWindow.postMessage({type:"galaxy-visible",visible:activeAppTab==="galaxy"},location.origin);
   if(event.origin===location.origin&&event.source===$("engineFrame").contentWindow&&event.data?.type==="engine-ready"){sendBobMotion();$("engineFrame").contentWindow.postMessage({type:"engine-visible",visible:activeAppTab==="engine"},location.origin);}
   if (event.origin === location.origin && event.source === $("bobFrame").contentWindow && event.data?.type === "bob-ready") sendBobMotion();

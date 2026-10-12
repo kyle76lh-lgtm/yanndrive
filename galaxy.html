@@ -1,7 +1,27 @@
 <!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LHdrive · Galaxie</title><style>
 *{box-sizing:border-box}body{margin:0;background:#050711;color:#eef2ff;font-family:system-ui}#scene{position:fixed;inset:0;touch-action:none}canvas{display:block}.header{position:absolute;top:28px;left:32px;pointer-events:none}h1{font-size:36px;margin:8px 0;letter-spacing:-1px}.eyebrow{font-size:11px;letter-spacing:3px;color:#c2a6ff}.panel{position:absolute;bottom:24px;right:24px;width:320px;padding:22px;background:#0d1224dd;border:1px solid #343550;border-radius:20px;backdrop-filter:blur(15px)}label{display:block;font-size:13px;color:#bcc3dd;margin:14px 0 8px}input[type=range],select{width:100%;accent-color:#e791ff}select,button{font:inherit;color:#eef2ff;background:#242b46;border:1px solid #494b70;border-radius:10px;padding:10px}button{cursor:pointer}button:hover{background:#3a3b61}.buttons{display:flex;gap:8px;margin-top:16px}.note{font-size:11px;color:#929cbf;line-height:1.6}#status{color:#a2e4cd;font-size:12px}.hint{position:absolute;bottom:25px;left:32px;color:#8694b6;font-size:12px}@media(max-width:650px){.panel{width:calc(100% - 28px);right:14px;bottom:14px;padding:15px}.header{top:16px;left:20px}.hint{display:none}h1{font-size:28px}} 
-</style><div id="scene"></div><div class="header"><div class="eyebrow">LHDRIVE / GALAXIE</div><h1>Une galaxie à bord.</h1><div id="status">Chargement de la scène…</div></div><div class="hint">Glisse pour changer l’angle · molette pour zoomer</div><section class="panel"><strong>Explorer la galaxie</strong><label for="speed">Vitesse simulée : <span id="value">35</span> km/h</label><input id="speed" type="range" min="0" max="160" value="35"><label for="quality">Densité des étoiles</label><select id="quality"><option value="10000">Légère · 10 000</option><option value="35000" selected>Standard · 35 000</option><option value="70000">Dense · 70 000</option></select><label><input type="checkbox" id="auto" checked> Rotation automatique</label><div class="buttons"><button id="warp">✦ Hyperespace</button><button id="reset">Vue initiale</button></div><p class="note">Scène interactive · rendu WebGL · réglage de rotation indépendant du GPS.</p></section>
+
+[hidden]{display:none!important}.immersive .header,.immersive .panel,.immersive .hint{display:none}
+#exitImmersive{position:fixed;right:18px;top:18px;z-index:10;background:rgba(12,18,32,.65);font-size:12px;border-color:#ffffff33;min-height:44px}
+</style><div id="scene"></div><div class="header"><div class="eyebrow">LHDRIVE / GALAXIE</div><h1>Une galaxie à bord.</h1><div id="status">Chargement de la scène…</div></div><div class="hint">Glisse pour changer l’angle · molette pour zoomer</div><section class="panel"><strong>Explorer la galaxie</strong><label for="speed">Vitesse simulée : <span id="value">35</span> km/h</label><input id="speed" type="range" min="0" max="160" value="35"><label for="quality">Densité des étoiles</label><select id="quality"><option value="10000">Légère · 10 000</option><option value="35000" selected>Standard · 35 000</option><option value="70000">Dense · 70 000</option></select><label><input type="checkbox" id="auto" checked> Rotation automatique</label><div class="buttons"><button id="warp">✦ Hyperespace</button><button id="reset">Vue initiale</button><button id="enterImmersive">⛶ Plein écran</button></div><p class="note">Scène interactive · rendu WebGL · réglage de rotation indépendant du GPS.</p></section>
+<button id="exitImmersive" hidden aria-label="Quitter le plein écran">✕ Quitter le plein écran</button>
 <script type="module">
+
+function setImmersive(active){
+ document.body.classList.toggle("immersive",active);
+ document.getElementById("exitImmersive").hidden=!active;
+ parent.postMessage({type:"galaxy-immersive",active},location.origin);
+}
+document.getElementById("enterImmersive").onclick=async()=>{
+ setImmersive(true);
+ try{await document.documentElement.requestFullscreen();}catch{}
+};
+document.getElementById("exitImmersive").onclick=async()=>{
+ setImmersive(false);
+ if(document.fullscreenElement)try{await document.exitFullscreen();}catch{}
+};
+document.addEventListener("fullscreenchange",()=>{if(!document.fullscreenElement)setImmersive(false);});
+document.addEventListener("keydown",event=>{if(event.key==="Escape")setImmersive(false);});
 let galaxyVisible=false;
 window.addEventListener("message",event=>{if(event.source===parent&&event.origin===location.origin&&event.data?.type==="galaxy-visible")galaxyVisible=event.data.visible===true;});
 try{
