@@ -4,6 +4,7 @@ const $ = (id) => document.getElementById(id);
 const ui = {
   clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"),
   duration: $("duration"), averageSpeed: $("averageSpeed"), maxSpeed: $("maxSpeed"),
+  acceleration: $("acceleration"), maxAcceleration: $("maxAcceleration"), maxDeceleration: $("maxDeceleration"),
   tripCost: $("tripCost"), tripDistance: $("tripDistance"), tripEnergy: $("tripEnergy"),
   tripConsumption: $("tripConsumption"), tripCostStatus: $("tripCostStatus"),
   tripElectricityRate: $("tripElectricityRate"),
@@ -34,6 +35,7 @@ const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, tripPosition: null, currentPosition: null,
   currentSpeedKmh: 0, maxSpeedKmh: 0,
+  motionSample: null, accelerationMps2: null, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
   consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
   electricityRate: savedElectricityRate !== null && savedElectricityRate.trim() !== "" && isValidElectricityRate(Number(savedElectricityRate)) ? Number(savedElectricityRate) : 0.134,
   tripStarted: false, tripHasDemo: false,
@@ -440,10 +442,14 @@ function showTripSummary() {
 }
 
 function renderTrip() {
+  if (state.motionSample && Date.now() - state.motionSample.receivedAt > 5000) state.accelerationMps2 = null;
   if (!$("tripSummary").hidden) renderTripSummary();
   const elapsed = elapsedSeconds();
   ui.duration.textContent = formatTime(elapsed);
   ui.averageSpeed.textContent = elapsed > 0 ? Math.round((state.distanceM / 1000) / (elapsed / 3600)) : "0";
+  ui.acceleration.textContent = state.accelerationMps2 === null ? "—" : formatDecimal(state.accelerationMps2, 2);
+  ui.maxAcceleration.textContent = formatDecimal(state.maxAccelerationMps2, 2);
+  ui.maxDeceleration.textContent = formatDecimal(state.maxDecelerationMps2, 2);
   const distanceKm = state.distanceM / 1000;
   const energyKwh = distanceKm * state.consumptionKwh100Km / 100;
   ui.tripDistance.textContent = `${formatDecimal(distanceKm, 2)} km`;
@@ -490,12 +496,40 @@ function updateTripElectricityRate() {
   saveTripElectricityRate(value);
 }
 
+function updateAcceleration(speedMps, timestamp, source) {
+  const previous = state.motionSample;
+  const seconds = previous ? (timestamp - previous.timestamp) / 1000 : 0;
+  state.accelerationMps2 = null;
+  if (speedMps !== null && previous && previous.source === source && seconds >= .25 && seconds <= 5) {
+    const acceleration = (speedMps - previous.speedMps) / seconds;
+    // Une rupture de signal ne doit pas devenir un record d'accélération.
+    if (Math.abs(acceleration) <= 12) {
+      state.accelerationMps2 = acceleration;
+      if (state.running) {
+        state.maxAccelerationMps2 = Math.max(state.maxAccelerationMps2, acceleration);
+        state.maxDecelerationMps2 = Math.max(state.maxDecelerationMps2, -acceleration);
+      }
+    }
+  }
+  state.motionSample = speedMps === null ? null : { speedMps, timestamp, source, receivedAt: Date.now() };
+}
+
+function clearMotionSamples() {
+  state.lastPosition = null;
+  state.tripPosition = null;
+  state.motionSample = null;
+  state.accelerationMps2 = null;
+}
+
 function onPosition(position) {
+  if (state.demo) return;
   const c = position.coords;
+  if (!Number.isFinite(c.latitude) || !Number.isFinite(c.longitude) || Math.abs(c.latitude) > 90 || Math.abs(c.longitude) > 180) return;
   const positionTime = Number(position.timestamp);
   const now = Number.isFinite(positionTime) && positionTime > 0 ? positionTime : Date.now();
-  const point = { latitude: c.latitude, longitude: c.longitude, timestamp: now, accuracy: c.accuracy };
-  const reportedSpeed = Number.isFinite(c.speed) && c.speed >= 0 ? c.speed : null;
+  if (state.lastPosition && now <= state.lastPosition.timestamp) return;
+  const reportedSpeed = Number.isFinite(c.speed) && c.speed >= 0 && c.speed <= 80 ? c.speed : null;
+  const point = { latitude: c.latitude, longitude: c.longitude, timestamp: now, accuracy: c.accuracy, reportedSpeed };
   let derivedSpeed = null;
 
   if (state.lastPosition) {
@@ -514,7 +548,17 @@ function onPosition(position) {
   // au lieu d'être perdus à chaque nouvelle mesure GPS.
   if (state.running) {
     const anchor = state.tripPosition;
-    if (anchor) {
+    const previous = state.lastPosition;
+    const interval = previous ? (now - previous.timestamp) / 1000 : 0;
+    const speedDistanceAvailable = previous && interval > 0 && interval <= 15
+      && reportedSpeed !== null && previous.reportedSpeed !== null
+      && Math.max(reportedSpeed, previous.reportedSpeed) >= .5;
+    if (speedDistanceAvailable) {
+      // La vitesse GPS peut être actualisée alors que les coordonnées sont figées.
+      // Une seule source par intervalle : intégration de vitesse OU coordonnées.
+      state.distanceM += (reportedSpeed + previous.reportedSpeed) * .5 * interval;
+      state.tripPosition = point;
+    } else if (anchor) {
       const seconds = (now - anchor.timestamp) / 1000;
       const segment = haversine(anchor, point);
       const accuracy = Number.isFinite(c.accuracy) ? c.accuracy : 0;
@@ -536,7 +580,12 @@ function onPosition(position) {
   // Le navigateur Tesla peut exposer coords.speed à 0 même lorsque la voiture roule.
   // Dans ce cas, la vitesse calculée entre deux positions GPS sert de secours.
   let speedMps = reportedSpeed;
-  if (derivedSpeed !== null && (speedMps === null || speedMps < .3)) speedMps = derivedSpeed;
+  let speedSource = "gps";
+  if (derivedSpeed !== null && (speedMps === null || speedMps < .3)) {
+    speedMps = derivedSpeed;
+    speedSource = "coordinates";
+  }
+  updateAcceleration(speedMps, now, speedSource);
   speedMps ??= 0;
   state.lastPosition = point;
   state.currentPosition = point;
@@ -551,6 +600,8 @@ function onPosition(position) {
 }
 
 function onGpsError(error) {
+  clearMotionSamples();
+  renderTrip();
   const labels = { 1: "AUTORISATION GPS REFUSÉE", 2: "GPS INDISPONIBLE", 3: "GPS SANS RÉPONSE" };
   setGpsStatus(labels[error.code] || "ERREUR GPS", "bad");
   showToast("La géolocalisation doit être autorisée pour utiliser LHdrive.");
@@ -571,8 +622,7 @@ function startTrip() {
   state.running = true;
   state.tripStarted = true;
   state.startedAt = Date.now();
-  state.lastPosition = null;
-  state.tripPosition = null;
+  clearMotionSamples();
   ui.start.disabled = true;
   ui.stop.disabled = false;
   ui.tripState.textContent = "TRAJET EN COURS";
@@ -603,8 +653,9 @@ function resetTrip() {
   state.tripStarted = false;
   state.tripHasDemo = false;
   state.maxSpeedKmh = 0;
-  state.lastPosition = null;
-  state.tripPosition = null;
+  state.maxAccelerationMps2 = 0;
+  state.maxDecelerationMps2 = 0;
+  clearMotionSamples();
   ui.start.disabled = false;
   ui.stop.disabled = true;
   ui.tripState.textContent = "PRÊT";
@@ -615,6 +666,7 @@ function resetTrip() {
 }
 
 function toggleDemo() {
+  clearMotionSamples();
   state.demo = !state.demo;
   ui.demo.classList.toggle("active", state.demo);
   if (state.demo) {
@@ -624,6 +676,7 @@ function toggleDemo() {
       t += .8;
       const kmh = Math.max(0, Math.min(118, 54 + 42 * Math.sin(t / 6) + 14 * Math.sin(t / 2.3)));
       const current = kmh / 3.6;
+      updateAcceleration(current, Date.now(), "demo");
       if (state.running) {
         state.distanceM += current * .8;
         state.tripHasDemo = true;

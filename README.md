@@ -19,6 +19,10 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 
 ## Lancement local
 
+La distance utilise l'intégration de deux vitesses GPS successives lorsque celles-ci sont disponibles, même si les coordonnées restent figées. Sinon, les déplacements entre coordonnées sont cumulés. Une seule source est comptée par intervalle ; les pauses et pertes de signal réinitialisent les références. L'accélération GPS et ses records sont estimés à partir des variations de vitesse ; une mesure manquante ou trop ancienne est affichée « — ». Ces estimations restent dépendantes de la fréquence et de la qualité du GPS du navigateur.
+
+Vérification des calculs et des régressions GPS : `node scripts/test-trip.cjs`.
+
 La géolocalisation fonctionne sur `localhost` ou sur un site HTTPS. Depuis ce dossier :
 
 ```powershell

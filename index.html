@@ -84,6 +84,15 @@
             <span class="metric-icon">◇</span>
             <div><small>VITESSE MAX</small><strong id="maxSpeed">0</strong><span>km/h</span></div>
           </article>
+          <article class="metric-card">
+            <div><small>ACCÉLÉRATION GPS</small><strong id="acceleration">—</strong><span>m/s²</span></div>
+          </article>
+          <article class="metric-card">
+            <div><small>ACCÉL. MAX</small><strong id="maxAcceleration">0,00</strong><span>m/s²</span></div>
+          </article>
+          <article class="metric-card">
+            <div><small>DÉCÉL. MAX</small><strong id="maxDeceleration">0,00</strong><span>m/s²</span></div>
+          </article>
         </div>
 
         <aside class="location-card">
@@ -97,7 +106,7 @@
         <section class="trip-cost-card" aria-labelledby="tripCostTitle">
           <div class="trip-cost-summary">
             <div><small id="tripCostTitle">COÛT ESTIMÉ DU TRAJET</small><strong id="tripCost">0,00 €</strong></div>
-            <p><span id="tripDistance">0,00 km</span> · <span id="tripEnergy">0,00 kWh estimés</span></p>
+            <p>Distance : <span id="tripDistance">0,00 km</span> · <span id="tripEnergy">0,00 kWh estimés</span></p>
           </div>
           <div class="trip-cost-settings">
             <label for="tripConsumption">Consommation moyenne <span>(kWh/100 km)</span></label>
@@ -192,6 +201,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=32" defer></script>
+    <script src="app.js?v=33" defer></script>
   </body>
 </html>
