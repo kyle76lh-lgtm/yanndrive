@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T20:00:39.287854+00:00",
+  "updatedAt": "2026-10-16T22:13:46.843392+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -7,12 +7,6 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmNWVXFLYVV1UFRsT1ZUTFVZUEdKUDNBZEFwV2V0U3lRQlpRQUtCdmFrWUgwQVZBeldveFpHQnFGLWtqbVlxM3JEdkJCMHNKRHZFcllXM2Y2Yi1pOXBodjZNOHBHTWdHVlJ5ZFh2VTVsakc1Y3FMeFAtQU8wT0JvY1Z6cmJoTGM?oc=5",
       "source": "La Sélection du Jour",
       "publishedAt": "2026-10-16T18:00:00+00:00"
-    },
-    {
-      "title": "Quand l’IA permet de déchiffrer une lettre codée de Napoléon",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmNxYzFJNlVQSnRReWh2SU1IQ1RDdndKRm9TNl9iaW1ZQVpUZExzVnY3UHNCM01qV1d3eHNQV1RlSThiYk5vMk5YcFRiRTQzN0NuZ2lMWHg4b3hfN0FMOUFKSW9CSTY0QlljYlZOQ3hIS04yN0xXd0dsQ3JEUmV4V3pLVFJtcV9FdU5tWjBrZmxOblM4?oc=5",
-      "source": "Le Devoir",
-      "publishedAt": "2026-10-16T16:35:06+00:00"
     },
     {
       "title": "L'intelligence artificielle pour sécuriser les soins à Chartres",
@@ -30,7 +24,7 @@
       "title": "L’intelligence artificielle met la formation au défi aux Charmilles",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanoyMzd0cU40SHg5enBkX3FqdldrTlVpd3hxODVkblVZYU52TFcwYkpGZk1vYVd1S2JVc3hlaE1KWkZCbHp1dTFvbC1NcThseXpCUGZPcTF5NlBaSG15REtHSXV3b0lYX0hoY1hzNGU4UE1sZUdkbGJCb3hDXzBxbU1ac3V0QU9RNnp3bG5nVU9ZVDVpems1ck91OEtwTVhfemdfMDlnUnRkanZwVmV6dGZrVE4?oc=5",
       "source": "RCF Radio",
-      "publishedAt": "2026-10-16T15:33:45+00:00"
+      "publishedAt": "2026-10-16T15:34:08+00:00"
     },
     {
       "title": "La présidentielle 2027 se jouera sous haute intelligence artificielle",
@@ -73,6 +67,12 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOXzU4WE01YUc4ODFnRFpBbjJTbXQ2dlRvZUZJTHJmb0MtSHVWMXVJSUw1bW9wZHpUVkNmczZZZUFBTEJpM3ZsZUMwNFdQRF9WSkltNllrUUc0djFvYTl1aDhaOHdOa2N3NDNYN2U3YTc3YTlqOExCbXZWbndtMFFKT1pJSTBDWDhzNUg4aUpfNFdnUW9zN0dSRW5MMmt0T1hiejFFVjQxd3FKdFZqcld2MA?oc=5",
       "source": "Le Figaro",
       "publishedAt": "2026-10-16T11:10:41+00:00"
+    },
+    {
+      "title": "AstraZeneca mise sur la start-up d’IA Insitro pour mieux identifier les cibles de ses futurs médicaments",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQcC1DYjg2Q0E0STdQdnQwSmhPZU45Y21saDMwZ2cxTzFQTUtzMlJZX3Z2ZGZCcVdrMFhtUWdielZaSHpxNUN5dHJCVkc5akdpNk00SVFNSmVpc3pNX21iZkZDOGlpN2lqbUY4V05VQWtiV1ZBWDNPdHNvc21pQmVQZ2ZqSF9sZFJXMEVMYlV0Z1hYdHB1cTFrb0FlQzVXcVNSNjdRMy1OMU9vSXQxQ3VlNUpWWnBkWktrRUt2c1VTS2x2X0FZOG1LeGk5MGtEWVpuUjhHMC1FeVZvWEEtNTcxaGdCSWJrMEltOEVST1BWU3F0VC00aEJ1Q0lyeDJXbkNuYXY0UnVBZHptZVN0ZmFURUhXbWJUUEwzYlNTdTJNWFpPcm5FWXlNYjlma3FfQQ?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-10-16T10:00:00+00:00"
     }
   ]
 }
