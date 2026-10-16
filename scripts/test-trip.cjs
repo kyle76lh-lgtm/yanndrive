@@ -7,7 +7,9 @@ function app(saved) {
   const elements = new Map();
   const element = id => {
     if (!elements.has(id)) elements.set(id, {
-      textContent: '', value: '', style: {}, dataset: {}, hidden: true, scrollIntoView() {}, getAttribute() {return null;},
+      textContent: '', value: '', style: {}, dataset: {}, hidden: true, children: [],
+      append(child) { this.children.push(child); }, replaceChildren() { this.children = []; },
+      scrollIntoView() {}, getAttribute() {return null;},
       classList: {toggle() {}, add() {}, remove() {}, contains() {return false;}},
       addEventListener() {}, setAttribute() {}, querySelector() {return element(id + '-child');},
       querySelectorAll() {return [];}
@@ -15,14 +17,14 @@ function app(saved) {
     return elements.get(id);
   };
   const context = vm.createContext({
-    document: {getElementById:element, querySelectorAll:() => []},
+    document: {getElementById:element, querySelectorAll:() => [], createElement:() => element('created-' + elements.size)},
     window: {addEventListener() {}}, location: {origin:'https://lhdrive.by-labs.fr'},
     localStorage:{getItem:k => storage.get(k) ?? null, setItem:(k,v) => storage.set(k,v)},
     navigator:{geolocation:{watchPosition:() => 1, clearWatch() {}}},
     setTimeout:() => 1, clearTimeout() {}, setInterval:() => 1, clearInterval() {},
     fetch:async () => ({ok:false}), console
   });
-  vm.runInContext(source + '\nglobalThis.test = {state,ui,startTrip,stopTrip,resetTrip,onPosition,onGpsError,renderTrip,updateTripConsumption,updateTripElectricityRate};', context);
+  vm.runInContext(source + '\nglobalThis.test = {state,ui,startTrip,stopTrip,resetTrip,onPosition,onGpsError,renderTrip,renderSpeed,parseTides,parisTimestamp,renderTides,updateTripConsumption,updateTripElectricityRate};', context);
   return {test:context.test, storage};
 }
 let {test, storage} = app();
@@ -134,3 +136,27 @@ assert.equal(test.state.distanceM, 0);
 test.onPosition(motion(11, null, 50));
 assert.equal(test.state.distanceM, 0);
 console.log('PASS: frozen coordinates, acceleration/braking, duplicate timestamps, pause/resume, signal loss, coordinate fallback, stationary/jump rejection.');
+test = app().test;
+test.startTrip();
+test.renderSpeed(80);
+test.renderSpeed(50);
+assert.equal(test.ui.headerMaxSpeed.textContent, 80);
+test.stopTrip();
+test.renderSpeed(100);
+assert.equal(test.ui.headerMaxSpeed.textContent, 80);
+test.resetTrip();
+assert.equal(test.ui.headerMaxSpeed.textContent, 0);
+assert.equal(test.parisTimestamp('2026-01-15', '12:00'), Date.parse('2026-01-15T11:00:00Z'));
+assert.equal(test.parisTimestamp('2026-07-15', '12:00'), Date.parse('2026-07-15T10:00:00Z'));
+assert.equal(test.parisTimestamp('2026-10-25', '08:00'), Date.parse('2026-10-25T07:00:00Z'));
+const tides = test.parseTides(fs.readFileSync(__dirname + '/../data/tides-le-havre-2026.csv','utf8'));
+assert.ok(tides.length > 1300);
+test.renderTides(tides, Date.parse('2026-10-16T12:00:00Z'));
+assert.notEqual(test.ui.nextHighTide.textContent, 'Indisponible');
+assert.notEqual(test.ui.nextLowTide.textContent, 'Indisponible');
+assert.ok(test.ui.tideRows.children.length >= 6);
+assert.ok(test.ui.tideRows.children.some(row => row.className === 'tide-past'));
+test.renderTides(tides, Date.parse('2027-01-02T12:00:00Z'));
+assert.equal(test.ui.nextHighTide.textContent, 'Indisponible');
+assert.match(test.ui.tideStatus.textContent, /période non couverte/);
+console.log('PASS: header maximum/reset, Paris winter/summer/DST times, high/low tides, day table and expired data.');

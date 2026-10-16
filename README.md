@@ -11,7 +11,9 @@ Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 - état et précision du GPS ;
 - mode démo pour tester l'interface sans déplacement ;
 - mode 67 activable : une célébration plein écran de trois secondes avec feu d'artifice doux se déclenche au franchissement de 67 km/h, sans flash rapide ;
-- onglet Infos avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir, ainsi qu'une estimation de la prochaine pleine mer au Havre ;
+- onglet Infos, intitulé Marchés, avec les cours Safran, Tesla, SpaceX (`SPCX`), Nvidia et Palantir ;
+- onglet Marées dédié au Havre : prochaine pleine et basse mer, hauteurs, coefficients renseignés, tableau d'aujourd'hui et demain en heure de Paris (été/hiver), à partir de la table 2026 ; les périodes non couvertes sont signalées ;
+- vitesse maximale du trajet affichée en haut à la place de l'heure ; menus Mascotte, Moteur et Galaxie retirés de l'application ;
 - réglage persistant des accélérations en `m/s²` ou en `g` ;
 - onglet Ponts pour Pont Rouge, Pont 7, Pont 7 bis, Pont 8 et les ponts Quinette amont/aval, normalisé depuis l’API HAROPA avec repli sur le flux Waze et détection des données anciennes ;
 - mise en page responsive, tactile et sombre ;

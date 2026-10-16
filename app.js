@@ -2,7 +2,7 @@
 
 const $ = (id) => document.getElementById(id);
 const ui = {
-  clock: $("clock"), speed: $("speed"), speedBar: $("speedBar"),
+  headerMaxSpeed: $("headerMaxSpeed"), speed: $("speed"), speedBar: $("speedBar"),
   duration: $("duration"), averageSpeed: $("averageSpeed"), maxSpeed: $("maxSpeed"),
   acceleration: $("acceleration"), maxAcceleration: $("maxAcceleration"), maxDeceleration: $("maxDeceleration"),
   tripCost: $("tripCost"), tripDistance: $("tripDistance"), tripEnergy: $("tripEnergy"),
@@ -21,6 +21,7 @@ const ui = {
   nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
   palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
   nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus"),
+  tidesView: $("tidesView"), refreshTides: $("refreshTides"), nextLowTide: $("nextLowTide"), lowTideDetail: $("lowTideDetail"), tideRows: $("tideRows"),
   bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges")
 };
 
@@ -155,13 +156,8 @@ function switchTab(name) {
   ui.infosView.classList.toggle("active", name === "infos");
   ui.bridgesView.classList.toggle("active", name === "bridges");
 
-  $("galaxyView").classList.toggle("active",name==="galaxy");
-  const galaxyFrame=$("galaxyFrame");
-  if(name==="galaxy"&&!galaxyFrame.getAttribute("src"))galaxyFrame.src="galaxy.html?v=2";
-  galaxyFrame.contentWindow?.postMessage({type:"galaxy-visible",visible:name==="galaxy"},location.origin);
-  $("engineView").classList.toggle("active", name === "engine");
-  $("engineFrame").contentWindow?.postMessage({type:"engine-visible",visible:name==="engine"},location.origin);
-  $("mascotView").classList.toggle("active", name === "mascot");
+  ui.tidesView.classList.toggle("active", name === "tides");
+  if (name === "tides") loadTide();
   ui.driveControls.hidden = name !== "drive";
   if (name !== "drive") $("tripSummary").hidden = true;
   if (name === "infos" && !ui.infosView.dataset.loaded) loadInfos();
@@ -214,32 +210,91 @@ async function loadQuote(symbol, priceElement, changeElement, statusElement, cur
   }
 }
 
+const parisParts = (time) => Object.fromEntries(new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit",
+  hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23"
+}).formatToParts(new Date(time)).filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+const parisDay = (time) => {
+  const parts = parisParts(time);
+  return `${parts.year}-${parts.month}-${parts.day}`;
+};
+function parisTimestamp(day, time) {
+  const wall = Date.parse(`${day}T${time}:00Z`);
+  let timestamp = wall;
+  for (let i = 0; i < 2; i++) {
+    const p = parisParts(timestamp);
+    const parisWall = Date.parse(`${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}Z`);
+    timestamp += wall - parisWall;
+  }
+  return timestamp;
+}
+function parseTides(csv) {
+  return csv.trim().split(/\r?\n/).slice(1).map((row) => {
+    const [day, port, , type, time, height, coefficient] = row.split(";");
+    if (port !== "Le Havre" || !/^\d{4}-\d{2}-\d{2}$/.test(day) || !/^\d{2}:\d{2}$/.test(time) || !["Pleine mer", "Basse mer"].includes(type)) return null;
+    return { day, type, time, height: height?.trim() ? Number(height.replace(",", ".")) : null,
+      coefficient: coefficient?.trim() ? Number(coefficient) : null, timestamp: parisTimestamp(day, time) };
+  }).filter(Boolean).sort((a, b) => a.timestamp - b.timestamp);
+}
+let tideData = null;
+let tidesLoading = false;
+const tideDayLabel = (tide) => new Date(tide.timestamp).toLocaleDateString("fr-FR", {
+  timeZone: "Europe/Paris", weekday: "long", day: "numeric", month: "long"
+});
+const tideHeight = (tide) => Number.isFinite(tide.height) ? `${formatDecimal(tide.height, 2)} m` : "—";
+const tideCoefficient = (tide) => Number.isFinite(tide.coefficient) ? String(tide.coefficient) : "—";
+function renderTides(tides, now = Date.now()) {
+  const today = parisDay(now);
+  const tomorrow = parisDay(Date.parse(`${today}T12:00:00Z`) + 86400000);
+  for (const [type, timeElement, detailElement] of [
+    ["Pleine mer", ui.nextHighTide, ui.tideDetail], ["Basse mer", ui.nextLowTide, ui.lowTideDetail]
+  ]) {
+    const next = tides.find((tide) => tide.type === type && tide.timestamp >= now);
+    timeElement.textContent = next ? next.time.replace(":", "h") : "Indisponible";
+    detailElement.textContent = next ? `${tideDayLabel(next)} · ${tideHeight(next)}${next.coefficient !== null ? ` · coeff. ${tideCoefficient(next)}` : ""}` : "Aucun horaire futur dans la table 2026";
+  }
+  ui.tideRows.replaceChildren();
+  const days = tides.filter((tide) => tide.day === today || tide.day === tomorrow);
+  for (const tide of days) {
+    const row = document.createElement("tr");
+    if (tide.timestamp < now) row.className = "tide-past";
+    for (const text of [tideDayLabel(tide), tide.type, `${tide.time}${tide.timestamp < now ? " · passée" : ""}`, tideHeight(tide), tideCoefficient(tide)]) {
+      const cell = document.createElement("td");
+      cell.textContent = text;
+      row.append(cell);
+    }
+    ui.tideRows.append(row);
+  }
+  if (!days.length) {
+    const row = document.createElement("tr");
+    const cell = document.createElement("td");
+    cell.colSpan = 5;
+    cell.textContent = "Aucun horaire disponible pour aujourd’hui et demain dans la table 2026.";
+    row.append(cell);
+    ui.tideRows.append(row);
+  }
+  ui.tideStatus.textContent = `Table Le Havre 2026 · heures de Paris, heure d’été/hiver comprise${days.length ? "" : " · période non couverte"}`;
+}
 async function loadTide() {
-  ui.tideStatus.textContent = "CHARGEMENT";
-  ui.tideStatus.className = "live-badge";
+  if (tidesLoading) return;
+  tidesLoading = true;
+  ui.refreshTides.disabled = true;
+  ui.tideStatus.textContent = "Chargement des horaires…";
   try {
-    const response = await fetchFresh("data/tides-le-havre-2026.csv");
-    const rows = (await response.text()).trim().split(/\r?\n/).slice(1);
-    const now = Date.now();
-    const nextHighTide = rows
-      .map((row) => {
-        const [date, port, , type, time, height, coefficient] = row.split(";");
-        return { date: new Date(`${date}T${time}:00`), port, type, time, height: Number(height), coefficient };
-      })
-      .find((tide) => tide.port === "Le Havre" && tide.type === "Pleine mer" && tide.date.getTime() > now);
-    if (!nextHighTide) throw new Error("no upcoming high tide in 2026 table");
-    const today = new Date().toDateString() === nextHighTide.date.toDateString();
-    const day = today ? "Aujourd’hui" : nextHighTide.date.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
-    const coefficient = nextHighTide.coefficient ? ` · coeff. ${nextHighTide.coefficient}` : "";
-    ui.nextHighTide.textContent = nextHighTide.time.replace(":", "h");
-    ui.tideDetail.textContent = `${day} · ${formatDecimal(nextHighTide.height, 2)} m${coefficient}`;
-    ui.tideStatus.textContent = "TABLE LE HAVRE";
-    ui.tideStatus.className = "live-badge ok";
+    if (!tideData) {
+      const response = await fetchFresh("data/tides-le-havre-2026.csv");
+      tideData = parseTides(await response.text());
+      if (!tideData.length) { tideData = null; throw new Error("empty tide table"); }
+    }
+    renderTides(tideData);
   } catch {
-    ui.nextHighTide.textContent = "Indisponible";
-    ui.tideDetail.textContent = "Table des marées du Havre indisponible";
-    ui.tideStatus.textContent = "HORS LIGNE";
-    ui.tideStatus.className = "live-badge error";
+    for (const element of [ui.nextHighTide, ui.nextLowTide]) element.textContent = "Indisponible";
+    for (const element of [ui.tideDetail, ui.lowTideDetail]) element.textContent = "Réessayez avec Actualiser.";
+    ui.tideRows.replaceChildren();
+    ui.tideStatus.textContent = "Table des marées du Havre indisponible.";
+  } finally {
+    tidesLoading = false;
+    ui.refreshTides.disabled = false;
   }
 }
 
@@ -252,8 +307,7 @@ async function loadInfos() {
     loadQuote("TSLA", ui.teslaPrice, ui.teslaChange, ui.teslaStatus, "USD"),
     loadQuote("SPCX", ui.spacexPrice, ui.spacexChange, ui.spacexStatus, "USD"),
     loadQuote("NVDA", ui.nvidiaPrice, ui.nvidiaChange, ui.nvidiaStatus, "USD"),
-    loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD"),
-    loadTide()
+    loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD")
   ]);
   ui.refreshInfos.disabled = false;
 }
@@ -357,35 +411,17 @@ function setGpsStatus(label, type = "") {
 }
 
 
-let bobSpeedSample = null;
-let bobMotion = { type: "bob-motion", speed: 0, acceleration: 0 };
-function sendBobMotion() {
-  $("bobFrame").contentWindow?.postMessage(bobMotion, location.origin);
-  $("engineFrame").contentWindow?.postMessage({...bobMotion,type:"engine-motion"}, location.origin);
-}
-window.addEventListener("message", (event) => {
-  if(event.origin===location.origin&&event.source===$("galaxyFrame").contentWindow&&event.data?.type==="galaxy-immersive")$("galaxyView").classList.toggle("galaxy-immersive",event.data.active===true);
-  if(event.origin===location.origin&&event.source===$("galaxyFrame").contentWindow&&event.data?.type==="galaxy-ready")$("galaxyFrame").contentWindow.postMessage({type:"galaxy-visible",visible:activeAppTab==="galaxy"},location.origin);
-  if(event.origin===location.origin&&event.source===$("engineFrame").contentWindow&&event.data?.type==="engine-ready"){sendBobMotion();$("engineFrame").contentWindow.postMessage({type:"engine-visible",visible:activeAppTab==="engine"},location.origin);}
-  if (event.origin === location.origin && event.source === $("bobFrame").contentWindow && event.data?.type === "bob-ready") sendBobMotion();
-});
 function renderSpeed(kmh) {
   const previousSpeed = state.currentSpeedKmh;
   state.currentSpeedKmh = Math.max(0, kmh);
 
-  const bobNow = Date.now();
-  const bobSeconds = bobSpeedSample ? (bobNow - bobSpeedSample.time) / 1000 : 0;
-  const bobAcceleration = bobSeconds >= .25 && bobSeconds <= 5
-    ? (state.currentSpeedKmh - bobSpeedSample.speed) / 3.6 / bobSeconds : 0;
-  bobMotion = { type: "bob-motion", speed: state.currentSpeedKmh, acceleration: Math.max(-12, Math.min(12, bobAcceleration)) };
-  bobSpeedSample = { speed: state.currentSpeedKmh, time: bobNow };
-  sendBobMotion();
   ui.speed.textContent = Math.round(state.currentSpeedKmh);
   ui.speedBar.style.width = `${Math.min(100, state.currentSpeedKmh / 1.8)}%`;
   if (state.running) {
     state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
   }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
+  ui.headerMaxSpeed.textContent = Math.round(state.maxSpeedKmh);
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
 }
@@ -717,16 +753,16 @@ ui.demo.addEventListener("click", toggleDemo);
 ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
+ui.refreshTides.addEventListener("click", loadTide);
+setInterval(() => { if (ui.tidesView.classList.contains("active")) loadTide(); }, 60000);
 ui.refreshBridges.addEventListener("click", () => loadBridges(true));
 ui.fullscreen.addEventListener("click", async () => {
   try { document.fullscreenElement ? await document.exitFullscreen() : await document.documentElement.requestFullscreen(); }
   catch { showToast("Le plein écran n’est pas disponible ici."); }
 });
 
-setInterval(() => { ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" }); }, 1000);
 state.tickTimer = setInterval(renderTrip, 1000);
 setInterval(() => { if (ui.bridgesView.classList.contains("active")) loadBridges(); }, 25000);
-ui.clock.textContent = new Date().toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
 ui.mode67.classList.toggle("active", state.mode67);
 ui.mode67.setAttribute("aria-pressed", String(state.mode67));
 ui.tripConsumption.value = String(state.consumptionKwh100Km);
