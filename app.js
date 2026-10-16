@@ -11,7 +11,7 @@ const ui = {
   coordinates: $("coordinates"), accuracy: $("accuracy"), gpsStatus: $("gpsStatus"),
   statusDot: $("statusDot"), tripState: $("tripState"), tripDot: $("tripDot"),
   start: $("startButton"), stop: $("stopButton"), reset: $("resetButton"),
-  demo: $("demoButton"), mode67: $("mode67Button"), celebration67: $("celebration67"),
+  mode67: $("mode67Button"), celebration67: $("celebration67"),
   fireworks67: $("fireworks67"),
   fullscreen: $("fullscreenButton"), toast: $("toast"), driveView: $("driveView"),
   infosView: $("infosView"), bridgesView: $("bridgesView"), driveControls: $("driveControls"), refreshInfos: $("refreshInfos"),
@@ -743,43 +743,6 @@ function resetTrip() {
   showToast("Trajet réinitialisé");
 }
 
-function toggleDemo() {
-  clearMotionSamples();
-  state.demo = !state.demo;
-  $("vmaxLabel").textContent = state.demo ? "VMAX DÉMO" : "VMAX";
-  ui.demo.classList.toggle("active", state.demo);
-  if (state.demo) {
-    state.demoMaxSpeedKmh = 0;
-    ui.headerMaxSpeed.textContent = "0";
-    if (state.watchId !== null) navigator.geolocation.clearWatch(state.watchId);
-    let t = 0;
-    state.demoTimer = setInterval(() => {
-      t += .8;
-      const kmh = Math.max(0, Math.min(118, 54 + 42 * Math.sin(t / 6) + 14 * Math.sin(t / 2.3)));
-      const current = kmh / 3.6;
-      updateAcceleration(current, Date.now(), "demo");
-      if (state.running) {
-        state.distanceM += current * .8;
-        state.tripHasDemo = true;
-      }
-      renderSpeed(kmh);
-      ui.coordinates.textContent = "Latitude 49.49437 · Longitude 0.10793";
-      ui.accuracy.textContent = "6 m";
-      setGpsStatus("MODE DÉMO", "good");
-      renderTrip();
-    }, 800);
-    showToast("Mode démo activé");
-  } else {
-    clearInterval(state.demoTimer);
-    state.demoTimer = null;
-    state.lastPosition = null;
-  state.tripPosition = null;
-    renderSpeed(0);
-    requestGps();
-    showToast("Retour au GPS réel");
-  }
-}
-
 $("closeSummary").addEventListener("click", () => { $("tripSummary").hidden = true; });
 function resetVmax() {
   state[state.demo ? "demoMaxSpeedKmh" : "autoMaxSpeedKmh"] = 0;
@@ -800,7 +763,7 @@ ui.tripConsumption.addEventListener("input", () => {
   const value = Number(ui.tripConsumption.value);
   if (isValidConsumption(value)) saveTripConsumption(value);
 });
-ui.demo.addEventListener("click", toggleDemo);
+
 ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
