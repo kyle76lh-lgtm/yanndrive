@@ -52,6 +52,13 @@ button { font: inherit; }
 .tide-table th, .tide-table td { padding: 14px 16px; border-top: 1px solid var(--line); white-space: nowrap; font-size: 14px; }
 .tide-table th { color: var(--green); }
 .tide-past { color: var(--muted); }
+.news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 18px; margin-top: 26px; }
+.news-card { display: flex; flex-direction: column; gap: 18px; padding: 26px; min-height: 230px; border: 1px solid var(--line); border-radius: 18px; text-decoration: none; color: var(--text); background: linear-gradient(135deg, #172329, #0e1419); }
+.news-card:hover, .news-card:focus-visible { border-color: var(--green); }
+.news-card > small { color: var(--green); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; }
+.news-card h2 { margin: 0; font-size: 21px; line-height: 1.4; }
+.news-card time { color: var(--muted); font-size: 12px; margin-top: auto; }
+.news-card > span { font-size: 12px; color: #9cd9ca; }
 .tide-hero { display: flex; align-items: center; gap: 32px; padding: 30px; margin-top: 24px; border: 1px solid #29575e; border-radius: 24px; background: radial-gradient(ellipse at 5% 100%, #0f4854, transparent 70%), #0c1920; }
 .tide-sea { flex: 0 0 160px; height: 160px; border-radius: 50%; overflow: hidden; position: relative; background: linear-gradient(#112638, #24667a); border: 1px solid #70d4d85c; box-shadow: 0 0 50px #38bdb718; }
 .tide-sea > span { position: absolute; z-index: 1; inset: 22px 0 auto; text-align: center; font-size: 65px; color: #b1f7ed; }

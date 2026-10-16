@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=23" />
+    <link rel="stylesheet" href="styles.css?v=24" />
   </head>
   <body><div id="launchSplash" aria-hidden="true" style="position:fixed;inset:0;z-index:10000;background:#030907;pointer-events:none"><canvas id="launchCanvas" style="display:block;width:100%;height:100%"></canvas></div><script src="launch.js?v=1"></script>
     <main class="app-shell">
@@ -36,6 +36,7 @@
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">ACTIONS</button>
         <button class="app-tab" type="button" data-tab="cryptos" aria-selected="false">CRYPTOS</button>
         <button class="app-tab" type="button" data-tab="tides" aria-selected="false">MARÉES</button>
+        <button class="app-tab" type="button" data-tab="news" aria-selected="false">NEWS IA</button>
       </nav>
 
 
@@ -181,6 +182,12 @@
 <a class="info-card stock-card" href="https://finance.yahoo.com/quote/XRP-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#b7d7e8">X</span><span id="XRPStatus" class="live-badge">CHARGEMENT</span></div><small>XRP · XRP</small><strong id="XRPPrice">—</strong><span id="XRPChange" class="info-detail">XRP · USD</span></a>
 <a class="info-card stock-card" href="https://finance.yahoo.com/quote/BNB-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#f3cf53">B</span><span id="BNBStatus" class="live-badge">CHARGEMENT</span></div><small>BNB · BNB</small><strong id="BNBPrice">—</strong><span id="BNBChange" class="info-detail">BNB · USD</span></a>
 <a class="info-card stock-card" href="https://finance.yahoo.com/quote/DOGE-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#cfb66c">Ð</span><span id="DOGEStatus" class="live-badge">CHARGEMENT</span></div><small>DOGECOIN · DOGE</small><strong id="DOGEPrice">—</strong><span id="DOGEChange" class="info-detail">DOGE · USD</span></a></div><p class="data-note">Cours en dollars, source Yahoo Finance. Variation depuis la clôture quotidienne UTC ; cours indicatifs actualisés périodiquement.</p></section>
+      <section id="newsView" class="infos-view tab-view" aria-labelledby="newsTitle">
+        <div class="infos-heading"><div><small>INTELLIGENCE ARTIFICIELLE · PRESSE FRANCOPHONE</small><h1 id="newsTitle">News IA</h1></div><button id="refreshNews" class="refresh-button" type="button">↻ ACTUALISER</button></div>
+        <p id="newsStatus" class="data-note" role="status">Chargement des actualités…</p>
+        <div id="newsList" class="news-grid"></div>
+        <p class="data-note">Titres récents réunis via Google Actualités. La sélection est actualisée environ chaque heure, selon l’exécution des tâches planifiées. Chaque lien ouvre l’article de son éditeur ; certains contenus peuvent nécessiter un abonnement.</p>
+      </section>
       <section id="tidesView" class="infos-view tab-view" aria-labelledby="tidesTitle">
         <div class="infos-heading">
           <div><small>LE HAVRE · HEURES LOCALES DE PARIS</small><h1 id="tidesTitle">Marées</h1></div>
@@ -238,6 +245,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=40" defer></script>
+    <script src="app.js?v=41" defer></script>
   </body>
 </html>

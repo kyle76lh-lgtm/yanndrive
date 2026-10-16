@@ -157,6 +157,8 @@ function switchTab(name) {
   ui.driveView.classList.toggle("active", name === "drive");
   ui.infosView.classList.toggle("active", name === "infos");
   $("cryptosView").classList.toggle("active", name === "cryptos");
+  $("newsView").classList.toggle("active", name === "news");
+  if (name === "news") loadAiNews();
   if (name === "cryptos") loadCryptos();
   ui.bridgesView.classList.toggle("active", name === "bridges");
 
@@ -211,6 +213,52 @@ async function loadQuote(symbol, priceElement, changeElement, statusElement, cur
     changeElement.textContent = `${symbol} · prochaine actualisation automatique`;
     statusElement.textContent = "HORS LIGNE";
     statusElement.className = "live-badge error";
+  }
+}
+
+let newsLoading = false;
+async function loadAiNews() {
+  if (newsLoading) return;
+  newsLoading = true;
+  $("refreshNews").disabled = true;
+  $("newsStatus").textContent = "Chargement des actualités…";
+  try {
+    const response = await fetchFresh("data/ai-news.json");
+    const data = await response.json();
+    const now = Date.now();
+    const articles = (Array.isArray(data.articles) ? data.articles : []).filter((article) =>
+      typeof article.title === "string" && typeof article.url === "string" && /^https:\/\//i.test(article.url)
+      && Number.isFinite(Date.parse(article.publishedAt)) && Date.parse(article.publishedAt) <= now + 600000
+      && now - Date.parse(article.publishedAt) <= 7 * 86400000
+    ).slice(0, 12);
+    $("newsList").replaceChildren();
+    for (const article of articles) {
+      const card = document.createElement("a");
+      card.className = "news-card";
+      card.href = article.url;
+      card.target = "_blank";
+      card.rel = "noopener noreferrer";
+      const source = document.createElement("small");
+      source.textContent = article.source || "Presse";
+      const title = document.createElement("h2");
+      title.textContent = article.title;
+      const date = document.createElement("time");
+      date.dateTime = article.publishedAt;
+      date.textContent = new Date(article.publishedAt).toLocaleString("fr-FR", {timeZone:"Europe/Paris", day:"numeric", month:"short", hour:"2-digit", minute:"2-digit"});
+      const link = document.createElement("span");
+      link.textContent = "Lire l’article ↗";
+      card.append(source, title, date, link);
+      $("newsList").append(card);
+    }
+    const updated = Date.parse(data.updatedAt);
+    $("newsStatus").textContent = !articles.length ? "Aucune actualité des sept derniers jours disponible."
+      : Number.isFinite(updated) ? `${data.source || "Presse"} · sélection actualisée le ${new Date(updated).toLocaleString("fr-FR", {timeZone:"Europe/Paris"})}${now - updated > 86400000 ? " · mise à jour ancienne" : ""}` : "Actualités de la presse francophone";
+  } catch {
+    $("newsList").replaceChildren();
+    $("newsStatus").textContent = "Actualités indisponibles. Réessayez avec Actualiser.";
+  } finally {
+    $("refreshNews").disabled = false;
+    newsLoading = false;
   }
 }
 
@@ -791,6 +839,8 @@ ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
 $("refreshCryptos").addEventListener("click", loadCryptos);
+$("refreshNews").addEventListener("click", loadAiNews);
+setInterval(() => { if ($("newsView").classList.contains("active")) loadAiNews(); }, 300000);
 setInterval(() => { if ($("cryptosView").classList.contains("active")) loadCryptos(); }, 300000);
 ui.refreshTides.addEventListener("click", loadTide);
 setInterval(() => { if (ui.tidesView.classList.contains("active")) loadTide(); }, 60000);
