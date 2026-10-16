@@ -369,7 +369,8 @@ async function loadInfos() {
     loadQuote("NVDA", ui.nvidiaPrice, ui.nvidiaChange, ui.nvidiaStatus, "USD"),
     loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD"),
     loadQuote("NFLX", ui.netflixPrice, ui.netflixChange, ui.netflixStatus, "USD"),
-    loadQuote("IWDA.AS", ui.iwdaPrice, ui.iwdaChange, ui.iwdaStatus, "EUR")
+    loadQuote("IWDA.AS", ui.iwdaPrice, ui.iwdaChange, ui.iwdaStatus, "EUR"),
+    loadQuote("GC=F", $("goldPrice"), $("goldChange"), $("goldStatus"), "USD")
   ]);
   ui.refreshInfos.disabled = false;
 }
