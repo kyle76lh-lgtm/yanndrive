@@ -1,6 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
-const symbols = ["SAF.PA", "TSLA", "SPCX", "NVDA", "PLTR"];
+const symbols = ["SAF.PA", "TSLA", "SPCX", "NVDA", "PLTR", "NFLX", "IWDA.AS"];
 const outputPath = new URL("../data/markets.json", import.meta.url);
 
 let previousData = { quotes: {} };

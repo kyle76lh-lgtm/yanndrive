@@ -20,6 +20,8 @@ const ui = {
   safranPrice: $("safranPrice"), safranChange: $("safranChange"), safranStatus: $("safranStatus"),
   nvidiaPrice: $("nvidiaPrice"), nvidiaChange: $("nvidiaChange"), nvidiaStatus: $("nvidiaStatus"),
   palantirPrice: $("palantirPrice"), palantirChange: $("palantirChange"), palantirStatus: $("palantirStatus"),
+  netflixPrice: $("netflixPrice"), netflixChange: $("netflixChange"), netflixStatus: $("netflixStatus"),
+  iwdaPrice: $("iwdaPrice"), iwdaChange: $("iwdaChange"), iwdaStatus: $("iwdaStatus"),
   nextHighTide: $("nextHighTide"), tideDetail: $("tideDetail"), tideStatus: $("tideStatus"),
   tidesView: $("tidesView"), refreshTides: $("refreshTides"), nextLowTide: $("nextLowTide"), lowTideDetail: $("lowTideDetail"), tideRows: $("tideRows"),
   bridgesList: $("bridgesList"), bridgesFreshness: $("bridgesFreshness"), refreshBridges: $("refreshBridges")
@@ -347,7 +349,9 @@ async function loadInfos() {
     loadQuote("TSLA", ui.teslaPrice, ui.teslaChange, ui.teslaStatus, "USD"),
     loadQuote("SPCX", ui.spacexPrice, ui.spacexChange, ui.spacexStatus, "USD"),
     loadQuote("NVDA", ui.nvidiaPrice, ui.nvidiaChange, ui.nvidiaStatus, "USD"),
-    loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD")
+    loadQuote("PLTR", ui.palantirPrice, ui.palantirChange, ui.palantirStatus, "USD"),
+    loadQuote("NFLX", ui.netflixPrice, ui.netflixChange, ui.netflixStatus, "USD"),
+    loadQuote("IWDA.AS", ui.iwdaPrice, ui.iwdaChange, ui.iwdaStatus, "EUR")
   ]);
   ui.refreshInfos.disabled = false;
 }
