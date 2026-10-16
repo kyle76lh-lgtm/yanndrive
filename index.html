@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=22" />
+    <link rel="stylesheet" href="styles.css?v=23" />
   </head>
   <body><div id="launchSplash" aria-hidden="true" style="position:fixed;inset:0;z-index:10000;background:#030907;pointer-events:none"><canvas id="launchCanvas" style="display:block;width:100%;height:100%"></canvas></div><script src="launch.js?v=1"></script>
     <main class="app-shell">
@@ -16,7 +16,8 @@
           <span>LH<span>drive</span></span>
         </a>
         <div class="topbar-right">
-          <div class="header-max" aria-label="Vitesse maximale du trajet"><small>MAX</small> <strong id="headerMaxSpeed">0</strong> <span>km/h</span></div>
+          <div class="header-max" aria-label="Vitesse maximale depuis la remise à zéro"><small>VMAX</small> <strong id="headerMaxSpeed">0</strong> <span>km/h</span></div>
+          <button id="resetVmax" class="icon-button" type="button" aria-label="Remettre la Vmax à zéro">RESET</button>
           <button id="mode67Button" class="icon-button mode-67-button" type="button" aria-pressed="false" title="Activer le mode 67">MODE 67</button>
           <button id="demoButton" class="icon-button" type="button" title="Activer le mode démo" aria-label="Activer le mode démo">DÉMO</button>
           <button id="fullscreenButton" class="icon-button fullscreen" type="button" title="Plein écran" aria-label="Passer en plein écran">⛶</button>
@@ -34,7 +35,6 @@
       <nav class="app-tabs" aria-label="Sections de LHdrive">
         <button class="app-tab active" type="button" data-tab="bridges" aria-selected="true">PONTS</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">INFOS</button>
-        <button class="app-tab" type="button" data-tab="drive" aria-selected="false">CONDUITE</button>
         <button class="app-tab" type="button" data-tab="tides" aria-selected="false">MARÉES</button>
       </nav>
 
@@ -161,13 +161,20 @@
           <button id="refreshTides" class="refresh-button" type="button">↻ ACTUALISER</button>
         </div>
         <p id="tideStatus" class="data-note" role="status">Chargement des horaires…</p>
+        <div class="tide-hero">
+          <div class="tide-sea" aria-hidden="true"><span>≈</span><div class="sea-wave"></div></div>
+          <div class="tide-hero-copy"><small>LE RYTHME DE LA MER</small><h2 id="tidePhase">Lecture des marées…</h2><p id="tideCountdown">—</p><p class="data-note">Tendance indicative entre les horaires de pleine et basse mer.</p></div>
+        </div>
         <div class="info-grid tide-overview">
-          <article class="info-card tide-card"><small>PROCHAINE PLEINE MER</small><strong id="nextHighTide">—</strong><span id="tideDetail" class="info-detail">—</span></article>
-          <article class="info-card tide-card"><small>PROCHAINE BASSE MER</small><strong id="nextLowTide">—</strong><span id="lowTideDetail" class="info-detail">—</span></article>
+          <article class="info-card tide-card high-tide"><span class="tide-arrow" aria-hidden="true">↗</span><small>PROCHAINE PLEINE MER</small><strong id="nextHighTide">—</strong><span id="tideDetail" class="info-detail">—</span></article>
+          <article class="info-card tide-card low-tide"><span class="tide-arrow" aria-hidden="true">↘</span><small>PROCHAINE BASSE MER</small><strong id="nextLowTide">—</strong><span id="lowTideDetail" class="info-detail">—</span></article>
         </div>
         <h2>Aujourd’hui et demain</h2>
+        <div id="tideTimeline" class="tide-timeline" aria-label="Chronologie des marées"></div>
+        <details class="tide-details"><summary>Tous les horaires et coefficients</summary>
         <div class="tide-table-wrap"><table class="tide-table"><caption>Horaires et hauteurs des marées au Havre</caption><thead><tr><th scope="col">Jour</th><th scope="col">Marée</th><th scope="col">Heure</th><th scope="col">Hauteur</th><th scope="col">Coefficient</th></tr></thead><tbody id="tideRows"></tbody></table></div>
-        <p class="data-note">Les événements passés sont indiqués dans le tableau. Hauteurs et coefficients selon la table disponible pour 2026 ; un tiret indique une valeur non renseignée. Données indicatives : les publications officielles du SHOM restent la référence pour la navigation.</p>
+        </details>
+        <p class="data-note">Hauteurs et coefficients selon la table disponible pour 2026 ; un tiret indique une valeur non renseignée. Données indicatives : les publications officielles du SHOM restent la référence pour la navigation.</p>
       </section>
 
       <section id="bridgesView" class="bridges-view tab-view active" aria-labelledby="bridgesTitle">
@@ -205,6 +212,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=34" defer></script>
+    <script src="app.js?v=35" defer></script>
   </body>
 </html>

@@ -52,6 +52,32 @@ button { font: inherit; }
 .tide-table th, .tide-table td { padding: 14px 16px; border-top: 1px solid var(--line); white-space: nowrap; font-size: 14px; }
 .tide-table th { color: var(--green); }
 .tide-past { color: var(--muted); }
+.tide-hero { display: flex; align-items: center; gap: 32px; padding: 30px; margin-top: 24px; border: 1px solid #29575e; border-radius: 24px; background: radial-gradient(ellipse at 5% 100%, #0f4854, transparent 70%), #0c1920; }
+.tide-sea { flex: 0 0 160px; height: 160px; border-radius: 50%; overflow: hidden; position: relative; background: linear-gradient(#112638, #24667a); border: 1px solid #70d4d85c; box-shadow: 0 0 50px #38bdb718; }
+.tide-sea > span { position: absolute; z-index: 1; inset: 22px 0 auto; text-align: center; font-size: 65px; color: #b1f7ed; }
+.sea-wave { position: absolute; width: 230px; height: 230px; border-radius: 43%; top: 92px; left: -35px; background: #43cbbd70; transform: rotate(12deg); }
+.tide-hero-copy > small { color: #79dcd3; letter-spacing: .18em; font-size: 10px; font-weight: 800; }
+.tide-hero-copy h2 { font-size: clamp(28px, 4vw, 48px); margin: 12px 0; letter-spacing: -.04em; }
+.tide-hero-copy > p:not(.data-note) { color: #b8e8ea; font-size: 18px; }
+.tide-overview .info-card { position: relative; overflow: hidden; }
+.tide-overview .high-tide { background: linear-gradient(130deg, #123c43, #0e1a20); border-color: #28666c; }
+.tide-overview .low-tide { background: linear-gradient(130deg, #172c48, #0e1722); border-color: #2b4965; }
+.tide-arrow { position: absolute; right: 24px; top: 15px; font-size: 70px; color: #7ddbd34d; }
+.tide-overview .low-tide .tide-arrow { color: #7cbbf54d; }
+.tide-day { margin: 24px 0; }
+.tide-day h3 { color: #b9cdcf; font-size: 15px; letter-spacing: .04em; }
+.tide-events { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 14px; }
+.tide-event { position: relative; padding: 22px; border-radius: 16px; border: 1px solid #274345; border-top: 3px solid #68d4c2; background: linear-gradient(155deg, #132b2d, #10171d); }
+.tide-event.low { border-top-color: #79acdf; background: linear-gradient(155deg, #162737, #10171d); }
+.tide-event.next { box-shadow: 0 0 0 1px #7ee8cf; }
+.tide-event.past { opacity: .55; }
+.tide-event > span, .tide-event > small { display: block; font-size: 10px; letter-spacing: .06em; color: #9bc4c7; }
+.tide-event > strong { display: block; margin: 16px 0 12px; font-size: 30px; font-variant-numeric: tabular-nums; }
+.tide-event > p { font-size: 20px; margin: 0 0 14px; color: #d7ecea; }
+.tide-event > small:last-child { margin-top: 18px; color: #8de4cd; font-size: 9px; }
+.tide-details { border-top: 1px solid var(--line); margin-top: 32px; padding-top: 20px; }
+.tide-details summary { padding: 14px 0; cursor: pointer; color: #a9c4c8; }
+@media (max-width: 600px) { .tide-hero { padding: 20px; gap: 18px; } .tide-sea { flex-basis: 85px; height: 85px; } .tide-sea > span { font-size: 42px; top: 6px; } .sea-wave { top: 52px; } .tide-hero-copy > p:not(.data-note) { font-size: 14px; } }
 .icon-button { min-width: 52px; height: 38px; padding: 0 11px; border: 1px solid var(--line); border-radius: 9px; color: var(--muted); background: var(--panel); cursor: pointer; font-size: 10px; font-weight: 800; letter-spacing: .08em; }
 .icon-button.active { color: var(--green); border-color: rgba(82, 226, 141, .35); background: var(--green-soft); }
 .mode-67-button.active { color: #09050d; border-color: #ffdd57; background: #ffdd57; box-shadow: 0 0 18px rgba(255, 221, 87, .3); }

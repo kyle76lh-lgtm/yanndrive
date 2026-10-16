@@ -2,6 +2,8 @@
 
 Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 
+Navigation actuelle : PONTS, INFOS et MARÉES. Le menu CONDUITE est retiré. La Vmax de l'en-tête se met à jour automatiquement avec les vitesses GPS reçues, sans démarrer de trajet ; son bouton RESET la remet à zéro. Elle couvre la session de page courante et ignore le mode démo. Le menu Marées présente une tendance indicative entre les horaires connus, un compte à rebours et des cartes chronologiques aujourd'hui/demain ; le tableau détaillé est repliable.
+
 ## Fonctions
 
 - vitesse GPS et vitesse maximale du trajet, avec repli sur un calcul entre deux positions ;

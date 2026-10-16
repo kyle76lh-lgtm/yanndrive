@@ -35,7 +35,7 @@ const savedConsumption = Number(localStorage.getItem(consumptionStorageKey));
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, tripPosition: null, currentPosition: null,
-  currentSpeedKmh: 0, maxSpeedKmh: 0,
+  currentSpeedKmh: 0, maxSpeedKmh: 0, autoMaxSpeedKmh: 0,
   motionSample: null, accelerationMps2: null, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
   consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
   electricityRate: savedElectricityRate !== null && savedElectricityRate.trim() !== "" && isValidElectricityRate(Number(savedElectricityRate)) ? Number(savedElectricityRate) : 0.134,
@@ -244,6 +244,7 @@ const tideDayLabel = (tide) => new Date(tide.timestamp).toLocaleDateString("fr-F
 const tideHeight = (tide) => Number.isFinite(tide.height) ? `${formatDecimal(tide.height, 2)} m` : "—";
 const tideCoefficient = (tide) => Number.isFinite(tide.coefficient) ? String(tide.coefficient) : "—";
 function renderTides(tides, now = Date.now()) {
+  renderTideVisuals(tides, now);
   const today = parisDay(now);
   const tomorrow = parisDay(Date.parse(`${today}T12:00:00Z`) + 86400000);
   for (const [type, timeElement, detailElement] of [
@@ -275,6 +276,42 @@ function renderTides(tides, now = Date.now()) {
   }
   ui.tideStatus.textContent = `Table Le Havre 2026 · heures de Paris, heure d’été/hiver comprise${days.length ? "" : " · période non couverte"}`;
 }
+function renderTideVisuals(tides, now) {
+  const next = tides.find((tide) => tide.timestamp >= now);
+  const previous = tides.filter((tide) => tide.timestamp < now).slice(-1)[0];
+  $("tidePhase").textContent = previous && next ? (next.type === "Pleine mer" ? "La mer monte" : "La mer descend") : "Horaires indisponibles";
+  if (next) {
+    const minutes = Math.ceil((next.timestamp - now) / 60000);
+    $("tideCountdown").textContent = `${next.type} dans ${Math.floor(minutes / 60)} h ${String(minutes % 60).padStart(2, "0")} · ${next.time.replace(":", "h")}`;
+  } else $("tideCountdown").textContent = "Aucune prochaine marée dans la table 2026.";
+  const timeline = $("tideTimeline");
+  timeline.replaceChildren();
+  const today = parisDay(now);
+  const tomorrow = parisDay(Date.parse(`${today}T12:00:00Z`) + 86400000);
+  for (const day of [today, tomorrow]) {
+    const events = tides.filter((tide) => tide.day === day);
+    const group = document.createElement("section");
+    group.className = "tide-day";
+    const heading = document.createElement("h3");
+    heading.textContent = day === today ? "Aujourd’hui" : "Demain";
+    group.append(heading);
+    const cards = document.createElement("div");
+    cards.className = "tide-events";
+    for (const tide of events) {
+      const card = document.createElement("article");
+      card.className = `tide-event ${tide.type === "Pleine mer" ? "high" : "low"}${tide.timestamp < now ? " past" : ""}${tide === next ? " next" : ""}`;
+      for (const [tag, text] of [["span", tide.type === "Pleine mer" ? "↗ PLEINE MER" : "↘ BASSE MER"], ["strong", tide.time.replace(":", "h")], ["p", tideHeight(tide)], ["small", tide.coefficient !== null ? `Coefficient ${tideCoefficient(tide)}` : "Coefficient —"], ["small", tide === next ? "PROCHAINE MARÉE" : tide.timestamp < now ? "PASSÉE" : "À VENIR"]]) {
+        const item = document.createElement(tag);
+        item.textContent = text;
+        card.append(item);
+      }
+      cards.append(card);
+    }
+    if (!events.length) { const empty = document.createElement("p"); empty.textContent = "Aucun horaire disponible."; cards.append(empty); }
+    group.append(cards);
+    timeline.append(group);
+  }
+}
 async function loadTide() {
   if (tidesLoading) return;
   tidesLoading = true;
@@ -292,6 +329,9 @@ async function loadTide() {
     for (const element of [ui.tideDetail, ui.lowTideDetail]) element.textContent = "Réessayez avec Actualiser.";
     ui.tideRows.replaceChildren();
     ui.tideStatus.textContent = "Table des marées du Havre indisponible.";
+    $("tidePhase").textContent = "Marées indisponibles";
+    $("tideCountdown").textContent = "Réessayez avec Actualiser.";
+    $("tideTimeline").replaceChildren();
   } finally {
     tidesLoading = false;
     ui.refreshTides.disabled = false;
@@ -421,7 +461,8 @@ function renderSpeed(kmh) {
     state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
   }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
-  ui.headerMaxSpeed.textContent = Math.round(state.maxSpeedKmh);
+  if (!state.demo) state.autoMaxSpeedKmh = Math.max(state.autoMaxSpeedKmh, state.currentSpeedKmh);
+  ui.headerMaxSpeed.textContent = Math.round(state.autoMaxSpeedKmh);
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
 }
@@ -736,6 +777,12 @@ function toggleDemo() {
 }
 
 $("closeSummary").addEventListener("click", () => { $("tripSummary").hidden = true; });
+function resetVmax() {
+  state.autoMaxSpeedKmh = 0;
+  ui.headerMaxSpeed.textContent = "0";
+  showToast("Vmax remise à zéro");
+}
+$("resetVmax").addEventListener("click", resetVmax);
 ui.start.addEventListener("click", startTrip);
 ui.stop.addEventListener("click", stopTrip);
 ui.reset.addEventListener("click", resetTrip);

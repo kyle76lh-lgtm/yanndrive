@@ -24,7 +24,7 @@ function app(saved) {
     setTimeout:() => 1, clearTimeout() {}, setInterval:() => 1, clearInterval() {},
     fetch:async () => ({ok:false}), console
   });
-  vm.runInContext(source + '\nglobalThis.test = {state,ui,startTrip,stopTrip,resetTrip,onPosition,onGpsError,renderTrip,renderSpeed,parseTides,parisTimestamp,renderTides,updateTripConsumption,updateTripElectricityRate};', context);
+  vm.runInContext(source + '\nglobalThis.test = {state,ui,startTrip,stopTrip,resetTrip,resetVmax,onPosition,onGpsError,renderTrip,renderSpeed,parseTides,parisTimestamp,renderTides,updateTripConsumption,updateTripElectricityRate};', context);
   return {test:context.test, storage};
 }
 let {test, storage} = app();
@@ -137,15 +137,19 @@ test.onPosition(motion(11, null, 50));
 assert.equal(test.state.distanceM, 0);
 console.log('PASS: frozen coordinates, acceleration/braking, duplicate timestamps, pause/resume, signal loss, coordinate fallback, stationary/jump rejection.');
 test = app().test;
-test.startTrip();
 test.renderSpeed(80);
 test.renderSpeed(50);
 assert.equal(test.ui.headerMaxSpeed.textContent, 80);
-test.stopTrip();
 test.renderSpeed(100);
-assert.equal(test.ui.headerMaxSpeed.textContent, 80);
-test.resetTrip();
-assert.equal(test.ui.headerMaxSpeed.textContent, 0);
+assert.equal(test.ui.headerMaxSpeed.textContent, 100);
+test.state.demo = true;
+test.renderSpeed(120);
+assert.equal(test.ui.headerMaxSpeed.textContent, 100);
+test.state.demo = false;
+test.resetVmax();
+assert.equal(test.ui.headerMaxSpeed.textContent, '0');
+test.renderSpeed(30);
+assert.equal(test.ui.headerMaxSpeed.textContent, 30);
 assert.equal(test.parisTimestamp('2026-01-15', '12:00'), Date.parse('2026-01-15T11:00:00Z'));
 assert.equal(test.parisTimestamp('2026-07-15', '12:00'), Date.parse('2026-07-15T10:00:00Z'));
 assert.equal(test.parisTimestamp('2026-10-25', '08:00'), Date.parse('2026-10-25T07:00:00Z'));
