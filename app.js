@@ -35,7 +35,7 @@ const savedConsumption = Number(localStorage.getItem(consumptionStorageKey));
 const state = {
   running: false, demo: false, watchId: null, demoTimer: null, tickTimer: null,
   startedAt: null, elapsedBeforeStart: 0, distanceM: 0, lastPosition: null, tripPosition: null, currentPosition: null,
-  currentSpeedKmh: 0, maxSpeedKmh: 0, autoMaxSpeedKmh: 0,
+  currentSpeedKmh: 0, maxSpeedKmh: 0, autoMaxSpeedKmh: 0, demoMaxSpeedKmh: 0,
   motionSample: null, accelerationMps2: null, maxAccelerationMps2: 0, maxDecelerationMps2: 0,
   consumptionKwh100Km: isValidConsumption(savedConsumption) ? savedConsumption : 18,
   electricityRate: savedElectricityRate !== null && savedElectricityRate.trim() !== "" && isValidElectricityRate(Number(savedElectricityRate)) ? Number(savedElectricityRate) : 0.134,
@@ -461,8 +461,9 @@ function renderSpeed(kmh) {
     state.maxSpeedKmh = Math.max(state.maxSpeedKmh, state.currentSpeedKmh);
   }
   ui.maxSpeed.textContent = Math.round(state.maxSpeedKmh);
-  if (!state.demo) state.autoMaxSpeedKmh = Math.max(state.autoMaxSpeedKmh, state.currentSpeedKmh);
-  ui.headerMaxSpeed.textContent = Math.round(state.autoMaxSpeedKmh);
+  const maxKey = state.demo ? "demoMaxSpeedKmh" : "autoMaxSpeedKmh";
+  state[maxKey] = Math.max(state[maxKey], state.currentSpeedKmh);
+  ui.headerMaxSpeed.textContent = Math.round(state[maxKey]);
   if (state.mode67 && state.mode67Armed && previousSpeed < 67 && state.currentSpeedKmh >= 67) celebrate67();
   if (state.currentSpeedKmh < 62) state.mode67Armed = true;
 }
@@ -745,8 +746,11 @@ function resetTrip() {
 function toggleDemo() {
   clearMotionSamples();
   state.demo = !state.demo;
+  $("vmaxLabel").textContent = state.demo ? "VMAX DÉMO" : "VMAX";
   ui.demo.classList.toggle("active", state.demo);
   if (state.demo) {
+    state.demoMaxSpeedKmh = 0;
+    ui.headerMaxSpeed.textContent = "0";
     if (state.watchId !== null) navigator.geolocation.clearWatch(state.watchId);
     let t = 0;
     state.demoTimer = setInterval(() => {
@@ -778,7 +782,7 @@ function toggleDemo() {
 
 $("closeSummary").addEventListener("click", () => { $("tripSummary").hidden = true; });
 function resetVmax() {
-  state.autoMaxSpeedKmh = 0;
+  state[state.demo ? "demoMaxSpeedKmh" : "autoMaxSpeedKmh"] = 0;
   ui.headerMaxSpeed.textContent = "0";
   showToast("Vmax remise à zéro");
 }
