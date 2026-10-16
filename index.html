@@ -35,6 +35,7 @@
         <button class="app-tab active" type="button" data-tab="bridges" aria-selected="true">PONTS</button>
         <button class="app-tab" type="button" data-tab="infos" aria-selected="false">ACTIONS</button>
         <button class="app-tab" type="button" data-tab="tides" aria-selected="false">MARÉES</button>
+        <button class="app-tab" type="button" data-tab="cryptos" aria-selected="false">CRYPTOS</button>
       </nav>
 
 
@@ -116,7 +117,7 @@
 
       <section id="infosView" class="infos-view tab-view" aria-labelledby="infosTitle">
         <div class="infos-heading">
-          <div><small>EN UN COUP D’ŒIL</small><h1 id="infosTitle">Marchés</h1></div>
+          <div><small>EN UN COUP D’ŒIL</small><h1 id="infosTitle">Actions</h1></div>
           <button id="refreshInfos" class="refresh-button" type="button">↻ ACTUALISER</button>
         </div>
         <div class="info-grid">
@@ -167,6 +168,12 @@
 
       </section>
 
+<section id="cryptosView" class="infos-view tab-view" aria-labelledby="cryptosTitle"><div class="infos-heading"><div><small>SIX GRANDES RÉFÉRENCES</small><h1 id="cryptosTitle">Cryptos</h1></div><button id="refreshCryptos" class="refresh-button" type="button">↻ ACTUALISER</button></div><div class="info-grid"><a class="info-card stock-card" href="https://finance.yahoo.com/quote/BTC-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#f7a931">₿</span><span id="BTCStatus" class="live-badge">CHARGEMENT</span></div><small>BITCOIN · BTC</small><strong id="BTCPrice">—</strong><span id="BTCChange" class="info-detail">BTC · USD</span></a>
+<a class="info-card stock-card" href="https://finance.yahoo.com/quote/ETH-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#adbbff">Ξ</span><span id="ETHStatus" class="live-badge">CHARGEMENT</span></div><small>ETHEREUM · ETH</small><strong id="ETHPrice">—</strong><span id="ETHChange" class="info-detail">ETH · USD</span></a>
+<a class="info-card stock-card" href="https://finance.yahoo.com/quote/SOL-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#70e8ca">◎</span><span id="SOLStatus" class="live-badge">CHARGEMENT</span></div><small>SOLANA · SOL</small><strong id="SOLPrice">—</strong><span id="SOLChange" class="info-detail">SOL · USD</span></a>
+<a class="info-card stock-card" href="https://finance.yahoo.com/quote/XRP-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#b7d7e8">X</span><span id="XRPStatus" class="live-badge">CHARGEMENT</span></div><small>XRP · XRP</small><strong id="XRPPrice">—</strong><span id="XRPChange" class="info-detail">XRP · USD</span></a>
+<a class="info-card stock-card" href="https://finance.yahoo.com/quote/BNB-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#f3cf53">B</span><span id="BNBStatus" class="live-badge">CHARGEMENT</span></div><small>BNB · BNB</small><strong id="BNBPrice">—</strong><span id="BNBChange" class="info-detail">BNB · USD</span></a>
+<a class="info-card stock-card" href="https://finance.yahoo.com/quote/DOGE-USD/" target="_blank" rel="noopener"><div class="info-card-top"><span class="info-symbol" style="color:#cfb66c">Ð</span><span id="DOGEStatus" class="live-badge">CHARGEMENT</span></div><small>DOGECOIN · DOGE</small><strong id="DOGEPrice">—</strong><span id="DOGEChange" class="info-detail">DOGE · USD</span></a></div><p class="data-note">Cours en dollars, source Yahoo Finance. Variation depuis la clôture quotidienne UTC ; cours indicatifs actualisés périodiquement.</p></section>
       <section id="tidesView" class="infos-view tab-view" aria-labelledby="tidesTitle">
         <div class="infos-heading">
           <div><small>LE HAVRE · HEURES LOCALES DE PARIS</small><h1 id="tidesTitle">Marées</h1></div>
@@ -224,6 +231,6 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=38" defer></script>
+    <script src="app.js?v=39" defer></script>
   </body>
 </html>

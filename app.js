@@ -156,6 +156,8 @@ function switchTab(name) {
   });
   ui.driveView.classList.toggle("active", name === "drive");
   ui.infosView.classList.toggle("active", name === "infos");
+  $("cryptosView").classList.toggle("active", name === "cryptos");
+  if (name === "cryptos") loadCryptos();
   ui.bridgesView.classList.toggle("active", name === "bridges");
 
   ui.tidesView.classList.toggle("active", name === "tides");
@@ -189,7 +191,7 @@ function getMarketData() {
   return marketDataPromise;
 }
 
-async function loadQuote(symbol, priceElement, changeElement, statusElement, currency) {
+async function loadQuote(symbol, priceElement, changeElement, statusElement, currency, digits = 2, period = "aujourd’hui") {
   statusElement.textContent = "CHARGEMENT";
   statusElement.className = "live-badge";
   try {
@@ -199,8 +201,8 @@ async function loadQuote(symbol, priceElement, changeElement, statusElement, cur
     const previous = quote?.previousClose;
     if (!Number.isFinite(price)) throw new Error("invalid quote");
     const change = Number.isFinite(previous) && previous !== 0 ? ((price - previous) / previous) * 100 : null;
-    priceElement.textContent = new Intl.NumberFormat("fr-FR", { style: "currency", currency, maximumFractionDigits: 2 }).format(price);
-    changeElement.textContent = change === null ? `${symbol} · ${currency}` : `${change >= 0 ? "+" : ""}${formatDecimal(change, 2)} % aujourd’hui`;
+    priceElement.textContent = new Intl.NumberFormat("fr-FR", { style: "currency", currency, maximumFractionDigits: digits }).format(price);
+    changeElement.textContent = change === null ? `${symbol} · ${currency}` : `${change >= 0 ? "+" : ""}${formatDecimal(change, 2)} % ${period}`;
     changeElement.className = `info-detail ${change === null ? "" : change >= 0 ? "positive" : "negative"}`;
     statusElement.textContent = "COURS CHARGÉ";
     statusElement.className = "live-badge ok";
@@ -209,6 +211,22 @@ async function loadQuote(symbol, priceElement, changeElement, statusElement, cur
     changeElement.textContent = `${symbol} · prochaine actualisation automatique`;
     statusElement.textContent = "HORS LIGNE";
     statusElement.className = "live-badge error";
+  }
+}
+
+let cryptosLoading = false;
+async function loadCryptos() {
+  if (cryptosLoading) return;
+  cryptosLoading = true;
+  $("refreshCryptos").disabled = true;
+  marketDataPromise = null;
+  try {
+    await Promise.all(["BTC", "ETH", "SOL", "XRP", "BNB", "DOGE"].map((symbol) =>
+      loadQuote(`${symbol}-USD`, $(`${symbol}Price`), $(`${symbol}Change`), $(`${symbol}Status`), "USD", symbol === "DOGE" ? 4 : 2, "depuis la clôture UTC")
+    ));
+  } finally {
+    cryptosLoading = false;
+    $("refreshCryptos").disabled = false;
   }
 }
 
@@ -771,6 +789,8 @@ ui.tripConsumption.addEventListener("input", () => {
 ui.mode67.addEventListener("click", toggleMode67);
 document.querySelectorAll(".app-tab").forEach((button) => button.addEventListener("click", () => switchTab(button.dataset.tab)));
 ui.refreshInfos.addEventListener("click", loadInfos);
+$("refreshCryptos").addEventListener("click", loadCryptos);
+setInterval(() => { if ($("cryptosView").classList.contains("active")) loadCryptos(); }, 300000);
 ui.refreshTides.addEventListener("click", loadTide);
 setInterval(() => { if (ui.tidesView.classList.contains("active")) loadTide(); }, 60000);
 ui.refreshBridges.addEventListener("click", () => loadBridges(true));
