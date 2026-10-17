@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-17T00:31:14.480562+00:00",
+  "updatedAt": "2026-10-17T04:55:04.977966+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "« Chaque entreprise sera un jour une entreprise d’IA » : la prédiction du patron de Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUFnMUJJZjNWYkVLNFk2YjExc2dSTUp0emJLcjJvaVV0cWtXeVNIS1d5Q29BdVhmMWd1Zkx1MmFFRWVac3ZBVnNUU3JDblVUSFVOZGlwbFZ5OE1pa2FRN1VWcUlGOWFXWDEtTzhndHhjY1plU0Ntby1DQnNDS0h2NUpHYThwM0s4WlprRmpuSFNXZGdxVzFVbUJoNTFNYXVVVWVzTDIzVDRfaEJZSVZRQWpIR3d4aEdwTFBLYU5B?oc=5",
+      "source": "Maddyness",
+      "publishedAt": "2026-10-16T19:50:48+00:00"
+    },
     {
       "title": "La géographie cachée de l'Intelligence Artificielle (IA)",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmNWVXFLYVV1UFRsT1ZUTFVZUEdKUDNBZEFwV2V0U3lRQlpRQUtCdmFrWUgwQVZBeldveFpHQnFGLWtqbVlxM3JEdkJCMHNKRHZFcllXM2Y2Yi1pOXBodjZNOHBHTWdHVlJ5ZFh2VTVsakc1Y3FMeFAtQU8wT0JvY1Z6cmJoTGM?oc=5",
@@ -12,7 +18,7 @@
       "title": "L'intelligence artificielle pour sécuriser les soins à Chartres",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVZWa2R0YzJoenZ6b2hvdG02RHFEeUJvZm9zRW5zNXozSGpSNmlHQlUtWVYybDVZV2Zuc2hzdk9nSlVWVnl5Njk1WGpfWUNLSnd2WmpUMm1JcXVIQWI3b2dsdmNvVUZ6YlZCeF8yeENjNmNCYmxOb2VTSloyUEUxU1Jkd0tvenFNNmJob19YY0x0cnM?oc=5",
       "source": "Radio Intensité",
-      "publishedAt": "2026-10-16T16:07:29+00:00"
+      "publishedAt": "2026-10-16T16:02:00+00:00"
     },
     {
       "title": "Intelligence artificielle et anglais professionnel : pourquoi savoir traduire ne suffit plus pour réussir à l'international",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSFpPVmo4MHVYYkhlX3p4NFFPZ0xuQTVURmhFZXVJR3hJT1BHSjZxT1I3WUFjQWgydDFiazkyWnRMNFpnei13Yzd0dU1Ra0ROeXI5OW1jYThxdVZkTlk0N2sxVGhxMFd3Qk5KRXd2TldNcFpXdTJVTHlRVWdEaGRDNmpjamFMekR5SFlzemNHSUM2MjVNUFZMQnBuZzJaZWlfUkJab2FJV290cUl1UVFTbVNNbUdsTldZUDBpdUlTSkIzSzBFYmhMRU01VQ?oc=5",
       "source": "mesinfos",
       "publishedAt": "2026-10-16T12:24:00+00:00"
-    },
-    {
-      "title": "Écrire avec l’intelligence artificielle : un manque de savoir-vivre ?",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOXzU4WE01YUc4ODFnRFpBbjJTbXQ2dlRvZUZJTHJmb0MtSHVWMXVJSUw1bW9wZHpUVkNmczZZZUFBTEJpM3ZsZUMwNFdQRF9WSkltNllrUUc0djFvYTl1aDhaOHdOa2N3NDNYN2U3YTc3YTlqOExCbXZWbndtMFFKT1pJSTBDWDhzNUg4aUpfNFdnUW9zN0dSRW5MMmt0T1hiejFFVjQxd3FKdFZqcld2MA?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-10-16T11:10:41+00:00"
     }
   ]
 }
