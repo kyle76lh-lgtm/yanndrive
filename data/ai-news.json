@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-17T16:03:17.331499+00:00",
+  "updatedAt": "2026-10-17T18:25:00.523300+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA : Anthropic préfère qu'un juge suspende un nouveau modèle considéré comme dangereux",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaEl3ZUZQcHBrTS0tVmZOMWU3UlV6LW1Ua1BpUFlmNTZyakM4dXBUQVBrTEl5OHBJZzZ4MnNsVnQwWXpuVFlxZ0RVQzE5R3lObjE3YjhpTmVwVTNWSVB1Y0dIVnIyUEk1ajNHWUlyQ2NZOFRjckx0S1hIZEQwM1pKbzgwLUlUdGJFYlRNdzA5THU1N2lZeHE4dF9QNkRaSFlNVEtBdllkODJGX0ZkNVI0dGxGNUdiY084YWg2Rno3UzNHY1FoRnVSLW1uWGQ2VFBuR3FGcg?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-17T16:33:13+00:00"
+    },
     {
       "title": "Intelligence artificielle : la bulle financière de l’IA pourrait-elle faire vaciller l’économie ?",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcVZtSDhVTnZHVW9nSndvREt2X19zMjBFN3pLRXQ3Uzl5MjczZ0J3dkY2dlNVNGI2cjA2UWNLMVduWXUxaWE4X2F1NDdJVk5MN1JxWkc1VU96YUdLNl9hZnQ2WEZaNHVFZV9DRXJLakFiZWxjaXJ1ekFtbUUydFl0VWtCV2RoQjAxZVJsUE9ucmh1YjVkNVJCNHhGZGxiMTBOTjR0N3ExQ29zdHZ5bDJJeFhjSE91d1VuYVRBRU96RzVyLTU5QkM1MUdzNDgyUHJCc3ZmU0k1SDhvRnhoRTk5Tm9MRVozdEFfNDlNeGpSai1WMkJLY09RUHZDMGVsaXRzU3hDcWxwQjJ3YU9G?oc=5",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbnhOSTM5dkE0YU83MlV4X3U1Q3ZtR0Y1U0ZETVB5bVdYT0dHd2ptbC00eGMxVDdIWVE5SjJMR25oeTRaN3hTQ1ZiV2ZTTi1xU3BfVHlJZ05QWmJZQ3c4SGRVYnYxQzYwMFBqX29vcEFkOUlQa1lLcGdnQVNGc3NYRDhjcHdfMTRsYWN1aTUtWjd5MzF1TExEQTZmREI2cFkxRENZWnY2TnVUNG1GU0J4X2k4ZnpxX2Qwby0zUFdHc2lGXzRQczcyaEk3Z0U3UGhNaGRrOTFfY0RkQ012UWZ3bTl3d3VXb2xnTi1vSVI0aTVVZ1E5NUY0R1FWZjY4OHR2LXc?oc=5",
       "source": "France 3 Régions",
       "publishedAt": "2026-10-16T15:00:02+00:00"
-    },
-    {
-      "title": "Les bénéfices de l’intelligence artificielle ne sont pas garantis, selon le FMI",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDhoRXlWQ0VrRE52bkxHeDlvYjNuempBVEswN1VxRXNRTVRCQ1pFQXRfcFJTd3dnX0pwbG4wQ2RZcUEyZV9Lc1p3YzhvUHB2TjcyZGFNVlROa05EdlpRWk42NG9yVi1qcm1SUkQwcFdhVHE5NW5PVEdqRU9rdXFTbEdjVmtBTmZfTG1CVWhWekVIOEI3OVFiTUZnU21fX1pEN3VIYWQxUkFqTU5l?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-10-16T14:44:00+00:00"
     }
   ]
 }
