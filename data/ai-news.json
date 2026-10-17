@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:25:00.523300+00:00",
+  "updatedAt": "2026-10-17T20:47:47.901131+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -9,10 +9,22 @@
       "publishedAt": "2026-10-17T16:33:13+00:00"
     },
     {
+      "title": "Zam-2.0, système nord-coréen de torpille assistée d’intelligence artificielle, testé en mode sous-marin",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZDVpZ3R1d2w0VWRjQ3FOQ3BsbG15Umk1RXQtT1k4VnVINzBJbnB1SDBpcXM5U0FqZXRVLUZMN1I4MHJ5VXlDNTBWRmlFN3NlalIzT2FtWGYxN1dxZk04VUFKN1hGX05adzd5NktleWV4NTk0c3JmZWZ2UUtna3RFOTZNakdKa0FEOUw4OHdsRmwwc0VlVE1ybDhJSnZXR2JoZEhrT0VEQTVzWUJYZEZHWE9Cd19WbFZDcENPbFhBR3h0YzVkbUhHMGdfem9CcUJ4Y3NxdjdVZmpvT3RvMVhvcUZtbEt2V3B6Q3RVSUtSYlNIUDFvUFpONVJuaDVRQ2E3TEw1SmNneHU?oc=5",
+      "source": "Le marin",
+      "publishedAt": "2026-10-17T14:30:05+00:00"
+    },
+    {
       "title": "Intelligence artificielle : la bulle financière de l’IA pourrait-elle faire vaciller l’économie ?",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcVZtSDhVTnZHVW9nSndvREt2X19zMjBFN3pLRXQ3Uzl5MjczZ0J3dkY2dlNVNGI2cjA2UWNLMVduWXUxaWE4X2F1NDdJVk5MN1JxWkc1VU96YUdLNl9hZnQ2WEZaNHVFZV9DRXJLakFiZWxjaXJ1ekFtbUUydFl0VWtCV2RoQjAxZVJsUE9ucmh1YjVkNVJCNHhGZGxiMTBOTjR0N3ExQ29zdHZ5bDJJeFhjSE91d1VuYVRBRU96RzVyLTU5QkM1MUdzNDgyUHJCc3ZmU0k1SDhvRnhoRTk5Tm9MRVozdEFfNDlNeGpSai1WMkJLY09RUHZDMGVsaXRzU3hDcWxwQjJ3YU9G?oc=5",
       "source": "Sud Ouest",
       "publishedAt": "2026-10-17T10:29:28+00:00"
+    },
+    {
+      "title": "La Chine veut contrôler la sortie de ses IA à l’étranger",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSF96MEFMVkYtNlNwTzhYUDJyM0ZhRy1wUVF1UEZyQmNoai1jWXZ4SEk1MXVBRExYWkdhQmMzREJPUDBubDBqM1J4SkxET05YTVlFS3NyUzRXZDlaLVBDZjczRmt3UlhLLTVLRkdtbWloWXcybjJSN1RPenpJd1ItQ0VzRmRlemlhV3JNaHZ4dkROSkN3U05FRk5VUUQ2MUpnaTk2MFd1am5UZ3ZldHZ4cHBfYmtqZUxhVy1YOUNTTFdyeTg?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-17T09:30:00+00:00"
     },
     {
       "title": "“Non. L'intelligence artificielle ne raccourcit pas. Elle coupe.”",
@@ -25,6 +37,12 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWTl4YUs4Nkp2T0xWS2tNUHpUYkJtUmswVlh3WDdreERSWnFGZmh2Y19aN3V2TU02OWJBWmlaeTB3WktYeHYwS0dqS0JSM0pDU213YjFrRURTRFphV0NQWFV3cU9iNmQxTHFTTzhaWUVEZ3lMVXBROUJ3cFowQWFUNEdsNFJ4cWpkYnM1WksxRW4ySERWM3E2bC1WaEZINjkzVE0tTzREeGVYUnBxNERMNXc5dGlOVXEyM2JrUmhqejhyMVRFQmp0d1hiNmZpZGZxQnVQOUk2VEZrVFU0WUxRWg?oc=5",
       "source": "Radio Classique",
       "publishedAt": "2026-10-17T08:00:00+00:00"
+    },
+    {
+      "title": "'J’en ai même pleuré' : pourquoi les progrès de l’intelligence artificielle plongent les mathématiciens dans 'une crise existentielle'",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVV95b3F6aHU1RnU5UkUtVWZBRHN5S3EteHlTUTc0M3BRelhQR3JMdEVzdnZkSXZrV3N2SWhzQVpuRXFvZVpCR0dMcEhJVjViSHJNSWdMRFNMMTBtUlhVUWFUMngxbl9Ia3Z3TzZobDBqaFBzQm1GSkxoNXVhMTZGVHdGazhvd1BLbERuWFRmOXV5dzRYV0VMdFZaU2QtTUdyTTdycUJXZE9meW5LeUFQYTFXdkdxeUF5enEzQlFuMHF6aTgzX0tfN0dXbmo4MGVuTlQzVVREcDRGcl9fdXozbFE1eWVaa2ZDZjZTLXlYZjViRGFDR0xueA?oc=5",
+      "source": "RTBF",
+      "publishedAt": "2026-10-17T06:35:03+00:00"
     },
     {
       "title": "Intelligence artificielle : Comment l'IA amende le budget 2027",
@@ -55,24 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanoyMzd0cU40SHg5enBkX3FqdldrTlVpd3hxODVkblVZYU52TFcwYkpGZk1vYVd1S2JVc3hlaE1KWkZCbHp1dTFvbC1NcThseXpCUGZPcTF5NlBaSG15REtHSXV3b0lYX0hoY1hzNGU4UE1sZUdkbGJCb3hDXzBxbU1ac3V0QU9RNnp3bG5nVU9ZVDVpems1ck91OEtwTVhfemdfMDlnUnRkanZwVmV6dGZrVE4?oc=5",
       "source": "RCF Radio",
       "publishedAt": "2026-10-16T15:34:08+00:00"
-    },
-    {
-      "title": "La présidentielle 2027 se jouera sous haute intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ2k4Sl9pa3NTTlAtUjRObnhEN3RYak1VelNrSnRRY1RjRk9TQXpzdEVhLTBZenJPSEUtLU1YdFdhaHNxZ1otYzJMVE5YMWJJbmF0Skhuc1JxRVNNMlAtQjdDWndpY1VQbHZfcENVbGRiQjNZZWZreUJzUVVseVFtOXFGaG9jVlBfOEVvV0ctTDJIbjJxNkxtdldINWRJS3lsQl9FWE95RzU3MDg?oc=5",
-      "source": "Maddyness",
-      "publishedAt": "2026-10-16T15:27:54+00:00"
-    },
-    {
-      "title": "Pourquoi les chiffres d'Anthropic et OpenAI commencent à inquiéter les marchés",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZGIwX3Q1LTdsTkh6YTNlSEZCb1hOWFRsVTZRalBJdWRZd3RZNVRnR0lTMmNSaGI3RDY0eVdKb3QyaXBTeG1Pb05YazQ1bnk1TDlIMVVsWVdCeWlWeTBkb21ObVZJMnc1d1g5b3lkQ09nV0E5WTZhSzYyd3dYZUJUME9qQWlkMkR5YzhEQ3FQYkVTSHBNZWVmZWJGYl9MR2IwTU90NXBLeU9OWk9WSVN2TnZ3cVA3bzJtNHc3eHFyXzV1VDZjSG93dzBVWTJDS2k3d251SXJKM196QUhhdW1QMA?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-16T15:26:41+00:00"
-    },
-    {
-      "title": "\"C'est un crève-cœur\" : à 38 ans, elle ferme son entreprise, concurrencée par l'intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbnhOSTM5dkE0YU83MlV4X3U1Q3ZtR0Y1U0ZETVB5bVdYT0dHd2ptbC00eGMxVDdIWVE5SjJMR25oeTRaN3hTQ1ZiV2ZTTi1xU3BfVHlJZ05QWmJZQ3c4SGRVYnYxQzYwMFBqX29vcEFkOUlQa1lLcGdnQVNGc3NYRDhjcHdfMTRsYWN1aTUtWjd5MzF1TExEQTZmREI2cFkxRENZWnY2TnVUNG1GU0J4X2k4ZnpxX2Qwby0zUFdHc2lGXzRQczcyaEk3Z0U3UGhNaGRrOTFfY0RkQ012UWZ3bTl3d3VXb2xnTi1vSVI0aTVVZ1E5NUY0R1FWZjY4OHR2LXc?oc=5",
-      "source": "France 3 Régions",
-      "publishedAt": "2026-10-16T15:00:02+00:00"
     }
   ]
 }
