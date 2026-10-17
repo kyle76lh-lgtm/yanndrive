@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-17T04:55:04.977966+00:00",
+  "updatedAt": "2026-10-17T08:59:39.999574+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Comment l'intelligence artificielle replace l'art oratoire et la force de la voix dans le monde professionnel",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWTl4YUs4Nkp2T0xWS2tNUHpUYkJtUmswVlh3WDdreERSWnFGZmh2Y19aN3V2TU02OWJBWmlaeTB3WktYeHYwS0dqS0JSM0pDU213YjFrRURTRFphV0NQWFV3cU9iNmQxTHFTTzhaWUVEZ3lMVXBROUJ3cFowQWFUNEdsNFJ4cWpkYnM1WksxRW4ySERWM3E2bC1WaEZINjkzVE0tTzREeGVYUnBxNERMNXc5dGlOVXEyM2JrUmhqejhyMVRFQmp0d1hiNmZpZGZxQnVQOUk2VEZrVFU0WUxRWg?oc=5",
+      "source": "Radio Classique",
+      "publishedAt": "2026-10-17T08:00:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : Comment l'IA amende le budget 2027",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYUdSdHBTaHF0NjhKanZHS1Fkemx1dXhPYm5KOGR6OWNaelJEZUFSMDFEUldETTJPcXFxbnpBUlhVUVhzYUN6eFhpalJWSE81MGoxaEdKY3FkNTk4M3hnZDloWmprdmFNczdnVWZacUpCekduS3dVZ2d6amVWVDVwbmNDOXFwejN2bjZUNXZZQWhMcXpUQ3lUeg?oc=5",
+      "source": "Le Canard enchaîné",
+      "publishedAt": "2026-10-17T05:00:00+00:00"
+    },
     {
       "title": "« Chaque entreprise sera un jour une entreprise d’IA » : la prédiction du patron de Nvidia",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUFnMUJJZjNWYkVLNFk2YjExc2dSTUp0emJLcjJvaVV0cWtXeVNIS1d5Q29BdVhmMWd1Zkx1MmFFRWVac3ZBVnNUU3JDblVUSFVOZGlwbFZ5OE1pa2FRN1VWcUlGOWFXWDEtTzhndHhjY1plU0Ntby1DQnNDS0h2NUpHYThwM0s4WlprRmpuSFNXZGdxVzFVbUJoNTFNYXVVVWVzTDIzVDRfaEJZSVZRQWpIR3d4aEdwTFBLYU5B?oc=5",
@@ -61,18 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmFpTlJEMEh5emphUUVNNmlxWmhTOW1rVnJmTnVpWEQwWVIxaUVxVFRzRm5NYlRTV3ZzY0pmUzZpOFZVWFU4WnZWZFN2NjVqeG5QUUV4dHJWUFAtZGh6YjJhMlh2YzVEWVNITDctX214WjJXcW9VM2NzWUlPNXdWcWJqdHN1ckczYTRzWXJRb2xIb2o2eXZrT0g3X1ZiYkFjVzZiXzBCZTh1S3FOakN0akpiUEhiYmZlampwVzBGMVR4UEVS?oc=5",
       "source": "Livres Hebdo",
       "publishedAt": "2026-10-16T13:37:00+00:00"
-    },
-    {
-      "title": "VanEck Semiconductor UCITS ETF : capter la croissance de l'intelligence artificielle à travers les semi-conducteurs",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdzh0eWU3c2xsVHZ4S04zcEtyMEJpZkpsc1NGMGRiZ281TU1FUlAwa0RIcTV1YWUzbTBHcnhMZ19kaF9VRFczUmhpRzRxaTlILXlicWpVeld5dDc5ajM0QUtYN2VjMXhlSHZMMkVYUmhTb2VxdFUyYUVlcGFmdFBpUmRHR3phdVpyMEx3NU1UQ29nRXRBeDJUVHlFYmhXUWZKSlNnOTVmSWctMnY5QV9KeXo5OURXTDE5REppTl9hMEpaTzI2bG5QUGdPdjNpaFJLMFU2UUI0S0FHa1h3UU5pR0dEbzRNcE9MOS12ellB?oc=5",
-      "source": "Easybourse",
-      "publishedAt": "2026-10-16T12:45:51+00:00"
-    },
-    {
-      "title": "Intelligence Artificielle : l'Île-de-France en avance sur les autres régions françaises",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSFpPVmo4MHVYYkhlX3p4NFFPZ0xuQTVURmhFZXVJR3hJT1BHSjZxT1I3WUFjQWgydDFiazkyWnRMNFpnei13Yzd0dU1Ra0ROeXI5OW1jYThxdVZkTlk0N2sxVGhxMFd3Qk5KRXd2TldNcFpXdTJVTHlRVWdEaGRDNmpjamFMekR5SFlzemNHSUM2MjVNUFZMQnBuZzJaZWlfUkJab2FJV290cUl1UVFTbVNNbUdsTldZUDBpdUlTSkIzSzBFYmhMRU01VQ?oc=5",
-      "source": "mesinfos",
-      "publishedAt": "2026-10-16T12:24:00+00:00"
     }
   ]
 }
