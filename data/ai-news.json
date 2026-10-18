@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-10-18T13:20:36.019259+00:00",
+  "updatedAt": "2026-10-18T16:37:21.485678+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "«Quiconque utilise le terme “intelligence artificielle” est un ennemi» : Donald Trump persiste à vouloir imposer ses mots",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOamx5ZkVENlNhRGcxeXdEZ2VVMVpGbXVXcGxBY2Q5dHZSY0hQUDgtYUtoWjYtMVZvcXE5Mno5NGxhY3JNb08zUWJ5MHBMUzZHdXpVcHhnYjdOcGxPQVJtM2tGeHRlRm42cHItTTNQSUxNSmx3YjA0ejdNLWtwR1NMNFBrODNsR3lIZl9BRmtjR1l6RURvUVRKVVBsWXl4Yl8wWmhPRGsyNXVaamRyU1NMWUdPb29OdjJnTi1aUVEwc2ttOGpqb3A3ZVR3Rkp0ZllBcnR6dVo4UXlxS3NRU2ZnLVhZWjNOQ1FlLXhtaEFKNTlOQ2ZhdDMtcktzeHNnYjg2NG45WlRkSS1oU1k?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-10-18T11:49:48+00:00"
+      "title": "Électricité indisponible : Microsoft abandonne un mégaprojet d'IA au Royaume-Uni",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU3NXTTJyOVljeTh5bUdic0JlbGRyT1VCTkJhYTA3Y0ozY1RSZGFQOVB3TEZpT3ZLYVpVbUczRkRROE1hZEc1SzhlWGg1S0g3RGNZb2QzUGdKdExvNzRzMlR4Yy1DV2R5aWw3Yzc0YkRsODdrOFo4dlJ6djJHeGhHMU9YYnNPbENMekFGS1E5ZTdMeWhJRXZFaXlkV2owd1BaUnpHQXBTLW41Y1RpLU5jVGZFdF95aFhHOVJ3aVVKa1pWVXI4UDJXelFJN1FVMFdKT1FaaGVmU2c0TkRxdlZFN3pGQndPejViVGFSag?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-18T15:30:01+00:00"
+    },
+    {
+      "title": "Le secret de Google Maps pour prédire les embouteillages avant même que vous n'y arriviez",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWjV4cEJPVTkzT0doREh1eEhEZDhmaWdSV0xBelZPZjdCMmUwM2pISDczeXVtODNwajNvM3loQU9uQWo5N24wc20td1czdUJkR252a2RMNy1BMFU1Y0xCU3RaQjVEbGl1WTc4NFBMY1FVNC1hSUcwVldZV29ySkRudVdZMlNQSEd3U2tqMnl1QjNFTjV4QVR2MmF1NVBnSEtRd1lRZEtSTExWcFFkc2xqMHMzLTdiNE9NTUFKc3ZNUk03ZnR6eDNILXFtYlRzdFJpZlpJ?oc=5",
+      "source": "Les Numériques",
+      "publishedAt": "2026-10-18T15:00:00+00:00"
     },
     {
       "title": "Enseigner, étudier, vivre les Lettres à l'heure de l'intelligence artificielle.",
@@ -19,6 +25,12 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTnBtUnNZb3poc2hVZjd0U282djlxXzlTYV9XZmxrV2xuOEVPRFV4dE9ZbE05NThyMHlwanRMR2ctWG9BNzUwOWpRNnN1UVBiUWw2Ukg0NTQtV0VHZTkwcW1SM2ZsaHkzYmIwZ25UOWhCTFdMbTlVaS1hOXRMUWUwOEQxSDBzZ2FzajJYZnQ3Sk9udEpYZXR2ZXpLa01QTVlYbVNWQ2tZX2sxa1VpZnRJVU9xdjdVVzNMSFpaejZBSGM4V3lYa3FCdHdPbUtiUlBheUc1ZFNUMjdZMURvakQ1V1FySGJvUENrcXpyVk9MNVRfQQ?oc=5",
       "source": "L'Express",
       "publishedAt": "2026-10-18T06:30:00+00:00"
+    },
+    {
+      "title": "«Quiconque utilise le terme “intelligence artificielle” est un ennemi» : Donald Trump persiste à vouloir imposer ses mots",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOamx5ZkVENlNhRGcxeXdEZ2VVMVpGbXVXcGxBY2Q5dHZSY0hQUDgtYUtoWjYtMVZvcXE5Mno5NGxhY3JNb08zUWJ5MHBMUzZHdXpVcHhnYjdOcGxPQVJtM2tGeHRlRm42cHItTTNQSUxNSmx3YjA0ejdNLWtwR1NMNFBrODNsR3lIZl9BRmtjR1l6RURvUVRKVVBsWXl4Yl8wWmhPRGsyNXVaamRyU1NMWUdPb29OdjJnTi1aUVEwc2ttOGpqb3A3ZVR3Rkp0ZllBcnR6dVo4UXlxS3NRU2ZnLVhZWjNOQ1FlLXhtaEFKNTlOQ2ZhdDMtcktzeHNnYjg2NG45WlRkSS1oU1k?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-10-18T06:00:10+00:00"
     },
     {
       "title": "Prix Caine: un auteur zimbabwéen primé et à son tour accusé d’avoir utilisé l’intelligence artificielle",
@@ -51,28 +63,16 @@
       "publishedAt": "2026-10-17T14:30:05+00:00"
     },
     {
+      "title": "Intelligence artificielle en santé : comment bien l'utiliser ?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNclFvcjZXV1NITWJoQWNzZTkxS0lrTmVydUNsTVdYUDgwcTNaSktrMGd4NHgtRktBaE1JeG1zdkZqaEVvM0Mxb1B4UWJGd1pjQkE1QWNLNm9DUEJEUW9wOEVwbGtFa1RGZ3c5SGZBdVQxSXBvQ3MyYk83RE9sTDNLd2tmTXdMYm51RWJXOVY3LWJEU0ZKbWliTURMWlBRaHdfUE5GOUNB?oc=5",
+      "source": "Magazine Avantages",
+      "publishedAt": "2026-10-17T13:45:00+00:00"
+    },
+    {
       "title": "Intelligence artificielle : la bulle financière de l’IA pourrait-elle faire vaciller l’économie ?",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNcVZtSDhVTnZHVW9nSndvREt2X19zMjBFN3pLRXQ3Uzl5MjczZ0J3dkY2dlNVNGI2cjA2UWNLMVduWXUxaWE4X2F1NDdJVk5MN1JxWkc1VU96YUdLNl9hZnQ2WEZaNHVFZV9DRXJLakFiZWxjaXJ1ekFtbUUydFl0VWtCV2RoQjAxZVJsUE9ucmh1YjVkNVJCNHhGZGxiMTBOTjR0N3ExQ29zdHZ5bDJJeFhjSE91d1VuYVRBRU96RzVyLTU5QkM1MUdzNDgyUHJCc3ZmU0k1SDhvRnhoRTk5Tm9MRVozdEFfNDlNeGpSai1WMkJLY09RUHZDMGVsaXRzU3hDcWxwQjJ3YU9G?oc=5",
       "source": "Sud Ouest",
       "publishedAt": "2026-10-17T10:29:28+00:00"
-    },
-    {
-      "title": "La Chine veut contrôler la sortie de ses IA à l’étranger",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSF96MEFMVkYtNlNwTzhYUDJyM0ZhRy1wUVF1UEZyQmNoai1jWXZ4SEk1MXVBRExYWkdhQmMzREJPUDBubDBqM1J4SkxET05YTVlFS3NyUzRXZDlaLVBDZjczRmt3UlhLLTVLRkdtbWloWXcybjJSN1RPenpJd1ItQ0VzRmRlemlhV3JNaHZ4dkROSkN3U05FRk5VUUQ2MUpnaTk2MFd1am5UZ3ZldHZ4cHBfYmtqZUxhVy1YOUNTTFdyeTg?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-10-17T09:30:00+00:00"
-    },
-    {
-      "title": "“Non. L'intelligence artificielle ne raccourcit pas. Elle coupe.”",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVHhLUzlHb0FiWmJ6cFdJbS1JNUR1Zm5oWGlPUE9uenFpZ093aWVFVTFCbmtPdndxMnI0TUlaNDhzeFNMQXBCaEhiWEl4WFpUVDZRQlBNR29WZmlpb0pNQWlnLVJ4SV80cXlVS2ZXZE9CbnZVbVQtM3J6U2pSUkZZZmZ5Q3JLX3I5RlBIalJjd05mbFFRd29wcUgza2FHYUFyVV9JS2ZVTDM4dw?oc=5",
-      "source": "ActuaLitté.com",
-      "publishedAt": "2026-10-17T08:31:00+00:00"
-    },
-    {
-      "title": "Comment l'intelligence artificielle replace l'art oratoire et la force de la voix dans le monde professionnel",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWTl4YUs4Nkp2T0xWS2tNUHpUYkJtUmswVlh3WDdreERSWnFGZmh2Y19aN3V2TU02OWJBWmlaeTB3WktYeHYwS0dqS0JSM0pDU213YjFrRURTRFphV0NQWFV3cU9iNmQxTHFTTzhaWUVEZ3lMVXBROUJ3cFowQWFUNEdsNFJ4cWpkYnM1WksxRW4ySERWM3E2bC1WaEZINjkzVE0tTzREeGVYUnBxNERMNXc5dGlOVXEyM2JrUmhqejhyMVRFQmp0d1hiNmZpZGZxQnVQOUk2VEZrVFU0WUxRWg?oc=5",
-      "source": "Radio Classique",
-      "publishedAt": "2026-10-17T08:00:00+00:00"
     }
   ]
 }
