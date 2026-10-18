@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T22:42:00.744061+00:00",
+  "updatedAt": "2026-10-18T00:23:44.856202+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -51,6 +51,12 @@
       "publishedAt": "2026-10-17T05:00:00+00:00"
     },
     {
+      "title": "« Chaque entreprise sera un jour une entreprise d’IA » : la prédiction du patron de Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUFnMUJJZjNWYkVLNFk2YjExc2dSTUp0emJLcjJvaVV0cWtXeVNIS1d5Q29BdVhmMWd1Zkx1MmFFRWVac3ZBVnNUU3JDblVUSFVOZGlwbFZ5OE1pa2FRN1VWcUlGOWFXWDEtTzhndHhjY1plU0Ntby1DQnNDS0h2NUpHYThwM0s4WlprRmpuSFNXZGdxVzFVbUJoNTFNYXVVVWVzTDIzVDRfaEJZSVZRQWpIR3d4aEdwTFBLYU5B?oc=5",
+      "source": "Maddyness",
+      "publishedAt": "2026-10-16T19:50:48+00:00"
+    },
+    {
       "title": "La géographie cachée de l'Intelligence Artificielle (IA)",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmNWVXFLYVV1UFRsT1ZUTFVZUEdKUDNBZEFwV2V0U3lRQlpRQUtCdmFrWUgwQVZBeldveFpHQnFGLWtqbVlxM3JEdkJCMHNKRHZFcllXM2Y2Yi1pOXBodjZNOHBHTWdHVlJ5ZFh2VTVsakc1Y3FMeFAtQU8wT0JvY1Z6cmJoTGM?oc=5",
       "source": "La Sélection du Jour",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaDNlWjlwLVdzQzZ4Rmg2cjl1VUhwckFsenlnd2VCQXhFWUxCdkY4WkFVQldwODRuZWtHdlM4aHVIRHZKZVRVYWZvLVpja3Zrcm9YZTd4dFZYS2NaUFViMnhTRXJJMVVlUWJ4U0ViYkx1T29zOWtEdl9UWGF3TnBSRTYtWDExVHU5VWZUdUdpQXJUck82ZnNyeHVKVEk2eGVweHVWeVRmS0JiM0VLSy1YSXFScXF4eG95bXRYN0dwd09NRU5fYVpVaVVCVGN1UHl2Z2puRHREenhIdV9Id0ZScEh3cVZnUDZQaER1Z1hxVFFDRmpGV0U2TENVWGVHODltb3VRYTAyMU45VjVX?oc=5",
       "source": "JDN",
       "publishedAt": "2026-10-16T15:49:15+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle met la formation au défi aux Charmilles",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanoyMzd0cU40SHg5enBkX3FqdldrTlVpd3hxODVkblVZYU52TFcwYkpGZk1vYVd1S2JVc3hlaE1KWkZCbHp1dTFvbC1NcThseXpCUGZPcTF5NlBaSG15REtHSXV3b0lYX0hoY1hzNGU4UE1sZUdkbGJCb3hDXzBxbU1ac3V0QU9RNnp3bG5nVU9ZVDVpems1ck91OEtwTVhfemdfMDlnUnRkanZwVmV6dGZrVE4?oc=5",
-      "source": "RCF Radio",
-      "publishedAt": "2026-10-16T15:34:08+00:00"
     }
   ]
 }
