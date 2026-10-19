@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-10-19T19:31:14.002905+00:00",
+  "updatedAt": "2026-10-19T23:02:21.726399+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
-    {
-      "title": "Intelligence artificielle : micro dans une salle de réunion, possible espionnage saoudien, ingénieur arrêté… que se passe-t-il chez OpenAI ?",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOVhCOUpab3ZlSUg3Wi1JZkpBTnMxbnAyUnNxdlhKNEU3SDlHbnA3Mmx5WlRZOFY0eUdWY2xBeWlNY0FQU3M1MGpuYm5mck0zdGpLVWF6eU0zbF9meFBoVjVnS3RuQk9HYWtCVjB6YWZ1bHgtN1E3eHRMOHhxWF9uTjVlQTZRV1FQX2IyWVBMakJmXzR3THFEdTF1MDI4Q2ZlcjhmajZjRlphekc1VW5QTno5aGV2V3FTSDNfM1R4d1pOSlZFUDJjR3ByRzAtVWo3aWhGVTBRa2UydHgxN1dqZ29sQTZCRXZ6YkZqa21hVndJV1JSczJCbUd2SGJMcDZVME9VdjhHMzAyZWFwaEVydm13RkFhZWdwRzRlREw1MUtyZzBzMWZhdHFZdUE1TjFwNFNxS1d3?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-19T16:07:53+00:00"
-    },
-    {
-      "title": "Œuvres déplacées, copies exposées, intelligence artificielle... Un an après le casse du Louvre, comment la France veut mieux protéger ses musées",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOdEtGeTY2OTNkcjBxdlFYaDQ4blZ5R2VaQWw1bnEwZVl3bEw4QlRNbHdOWGlXbkxCSEdKbl9CTldIWTRxYnJKSGp3YWJ1UmxFUmdLMkstUDdXVkFNS2tia0ZQSXRIeGtXblNKVmdleUpINFBJelYyUmdaX2NnMlhvcE00Q1M0YmpXRlMxX1RIMkZoa1BLX0F6N0Noam9oenlMNmpCazdIaDRhS3dYYjFpSUlnTHZ5VlJiZ2MtbDhuMjNwaHdYYW9XbUhkWTl6SXZsdEh4OUxXbURoM1ZzS0hnYmlQVk9BVWs1WXlJc3M5bGt5WklMcHlqNG5OUThRUDU5eDZUYVphemRmcS0yQm12RThZUkNQRFNkdlBIcnd5Yw?oc=5",
-      "source": "RTL",
-      "publishedAt": "2026-10-19T16:04:00+00:00"
-    },
     {
       "title": "Conflits entre agents d’IA, la gouvernance écrite cède la place au contrôle à l’exécution",
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWDlyT0laYlhTMGxyaUYyYTR2aG4wVE1zX0ExVHJTOXZ6NURzUkwxTlVFZ051ZGFXbTZxV1NoTF9lanNJUkZBRllfMWcwRUxtQ09TYUpLZHU3Snk5S0VXSXZ2VU5vR1BYXzdQdUVRRkpzOTlmMHZUeFkwZHEwTTY1NGJUUEg5dzJqZVc4SnU2M1Jxa3N2QjVfeW5NcTRoRXNxYXRIWVpFa1l4dmZLQkhnQ2lNLWhpdXdheTdXbi0zbUlUbk5qN0xtXzdYZG5ZYWFBQkp2dDZhTnFKYmZVTi1OQkJMWGI2TmxHb3VmanlaUmh5ZTlxOVktanRDTVM?oc=5",
@@ -27,10 +15,28 @@
       "publishedAt": "2026-10-19T15:00:00+00:00"
     },
     {
+      "title": "L’intelligence artificielle entre à l’université de Picardie pour former les enseignants de demain",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbktKSXYxY1lVTXA1bWJtenB6QVhYdFJVM0NkbEZRQ3E4TnR4VTFmcExqRl9ndDlmVGp2YjFNVlNwV0Q1LXhVUk81R1lINjNrQVJtM1I2RWwzSnFqSDM5WDRtblZtTEgyN2xOSngzWDFXd1NvYnRHQzhyS0txRjM1U1hMalVIZE54OC00MFZHUVBVY2tvb1hiNTRhSDFkX0JFM3FOYTVaUjh2dElJckdqdGhIVTZUajB0LV9kOFdHRTdnVUdYVnZtbA?oc=5",
+      "source": "L'Aisne nouvelle",
+      "publishedAt": "2026-10-19T14:51:57+00:00"
+    },
+    {
       "title": "Un \"coup de massue\": face à l'IA, les mathématiciens sont sous le choc",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVS1MSi1md0o5d0hNVGZvelJJbkpHbUYtYmNJY3RtT0hJTm9TV1d6MjlfVTV5RFpKOU4xU3F2anJQYzFwaEw4dk1ZbkY0WTR4cDdzR2xXTF9ERjJVMlYteWV4NFhmQldaQTdLa3RlRU9pYW1leVdMaGpKYnlIcmd6a195dEtONWU5ZXhhUy1EX2NoVDUwaFJyU0lrLWx2QVNxc2dzTjgzaV9DdUdzTnRUNDNLS2NRcVpnWmdrU1BKU3dtM1IzeFZ5YnI4QUdoWFk?oc=5",
       "source": "Sciences et Avenir",
       "publishedAt": "2026-10-19T14:37:00+00:00"
+    },
+    {
+      "title": "Google commence à donner plus de visibilité aux sites web dans ses réponses IA",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWhMYy1CS0F4V1J5SHUyV0dqZUxUQm5JUUIxWVFhajJSQ19VZlJSeGN3VS0zYnZUUnJLeU42azlvMmtZNlJrRkF4STlUZUxBUmE5X3J1bWgwLVE0RlhEVFQ4S2JmMVRISjZSb09scHZzZnJJbzlYajBia2ZhQWtuUjdBa1pzTWhldFpEVjJzUWs5amJMdmd0bjZFbEZHWUpwelAzdXk3aXdZQ0hiLW9Pb0RIWGc2QQ?oc=5",
+      "source": "Siècle Digital",
+      "publishedAt": "2026-10-19T13:55:20+00:00"
+    },
+    {
+      "title": "Anthropic veut donner au gouvernement américain le pouvoir de bloquer les IA dangereuses",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVR0WUpmNGladGtTcHVuWkZLV3ZfOWhDbjNRNkR4Q2UzTlFpUGhkTUdJRjFIb1NLLXVLdnBwcmRxVXp4UG0xWHE5SDVYNnQ5OEFjcFItWGpnZHBMWjhBeTZsOTZKTzEwYjNtWFlzeW1WeUtMcktad1FzNHZ5TFFLaTE1VF9kdFVzVkUtQjkwMFVhajg0M3dac0FYU21RSEE?oc=5",
+      "source": "Siècle Digital",
+      "publishedAt": "2026-10-19T13:44:49+00:00"
     },
     {
       "title": "IA et cybersécurité : près de 500 chercheurs lancent l’alerte",
@@ -39,16 +45,16 @@
       "publishedAt": "2026-10-19T13:39:03+00:00"
     },
     {
+      "title": "Meta fait marche arrière sur l’utilisation des contenus des sites web pour entraîner son IA",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkhab01jT19MWV96eFZqTTZzQm5majZWRWZqN05SM2Q0TnJFWFpWWWxQeGhvUkZPQ3k3YnNRZ09NS1RWdHRxNVdzMS11TUNZLWppY3NXallWaE1ITTZ3dGZtTXFKTUxWVmd5bTBfNHNOUG1YV0p4dzNtaHpuZGh5WjdUdnFfY212bFF4ZmZ0OUxvMXhOV0NBV3AyVlg5RWJaN2pjX21YclZveXl4MktsMjRjalBwcE9jeGgtWUlIQTVpR3IzaFE?oc=5",
+      "source": "Siècle Digital",
+      "publishedAt": "2026-10-19T13:37:15+00:00"
+    },
+    {
       "title": "Cancer et intelligence artificielle, comment la recherche avance dans les Alpes-Maritimes ?",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY0xSSHhBYTB4UHdkMzZORnJxNnlELWtSc1h3M2Y4QWRnRTRDQnJHUVRRLUZFUThaaTFqTVJmd3ZZQkpZMDM4QTVvSGNGWmRqcG5ERDNURDh3UXRfNnV2alQ5R25YOWFNVE5Ec2dqVHpoclpWLWVxLXVsRXRuSkVGNVA2N1M0OXdHNUxrNkZNY0EydDEyY25Yb2J5R1NkeExFQXE0OGhRdkxJcDNMc1lJelF0M2VMbUNfWFBMU1lZQkJWYzJMbnc?oc=5",
       "source": "Nice Premium",
       "publishedAt": "2026-10-19T13:21:47+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Microsoft se retire d'un projet de centre de données géant au Royaume-Uni",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTlJrblBhWEQtQzRzWEpmVU9yYUQ4elFLQmNLdTZtb0RIZ0tfdjJ5T290ZWdNaVRXb09IYmFZTW1uQ1ZzNjY1ZlpmcldrbUVESXRrNmlkLWE4ZU5lWFVpMjZZUGFTRTBiZVVNQ2tvWkxjd1p6b3ZJd3k4dmRhSDE0NzhoT2RpSnhMbmZuTnJ2QXU5OGh0dEF6WjZsNlJZQTdOLVlET2dxV2g4SDc2QXdzYklJYnJOSVJCSGE1NU9IdVJ2UzhGODczYVNvMVNfQU5KbzhmZ2NkWlZPQjlheE5OZndHS3pxQQ?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-19T13:00:25+00:00"
     },
     {
       "title": "Siemens et NVIDIA s'allient pour développer l'IA industrielle à Erlangen",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSVZtV1BERXVBWE9oU0ZVdjFCZVNudVJ5aWNXdnU1cXZqWlZVcGpnTmZSaU1qbHE1OHotWFJwSXlXdlFjaGQ1aWJMTEJZdGo0Sy1qLVY4NG1QVjRycHJWR25yMzBIbV9VUkV1aFVtOUR5M0ZDb2NLY0VXSWRHNkI3TmhjaXBWUmJyMlN5ajk1alZzQXBOUElHMzBiNEtsdllPRmFsN0FsU2hFVEZzSEpOdjhHa1M5S0ZMVV9YVzd6MDMwLU5zcjVPdmwwVVV6cndyTHpzcUt6R2daUUFO?oc=5",
       "source": "Le Figaro",
       "publishedAt": "2026-10-19T11:27:40+00:00"
-    },
-    {
-      "title": "Intelligence artificielle, affiches et volonté du maire de Sète de les écarter, retrouvez le dessin (réalisé sans IA) de Dadou",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSHJtUHluNmhTeWppdUdXTzJOWDFvUFdFbm92VEkwV1BQM0otLUdxaHJ6VTlQcTNSRW96YV9nZ01pblZYanZhSEhpQnQwWWJwT0VobG5RUGt3Q1Q3bDBfSm9kbzlUeXl2TGw1ODM1QXM1MDB3aGp4V0QzOWxNN3VDSnJRdTV4aGptRWdjb3JJX2RmOGNFcDduV0pXT1BlSERyV3B2MXlEaFc3U0Q5RlUya09oYXZpRmtPOFZESGxER29MMlBBM1NtakljcmtyRUJ1OGdsYXk5SWplUTZNV3lGNnduUVNYUjYwMTZCVHoyQ2tMV1V6WnRGd29zN2hwdkNB?oc=5",
-      "source": "Midi Libre",
-      "publishedAt": "2026-10-19T10:01:00+00:00"
     }
   ]
 }
