@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-20T01:42:48.974973+00:00",
+  "updatedAt": "2026-10-20T06:39:20.022617+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Bréhal. L’intelligence artificielle, un sujet qui interpelle",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWxRQ2l3SGlBZFB2Qzc4bHhOMHdPTU1EN0phUGNNWTFXZHBuS0Q3VnkyOWhkODdUMzREYlNvbEFsZml4UTNPNk5rc2hYRzRPbkNLWXBpZnJwSEhpWlgtZURJc0gyTEpTVy1zd2JiN1EydUdWaTAycEJUNlNPOHZfV0VwekRKWFY0aHNSLTRnS2RKRGpiY29EZmNpcnVVQnpBenVUcTZyRi1NNkwzSEV5bE9kbUlVVUNCS0JVVkJ3RFhyNWswX2h3bnhXSFNOQk50eG9JZl9QTGVRWEtrVWc?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-10-20T03:31:58+00:00"
+    },
+    {
+      "title": "IA générative : les femmes prennent le pouvoir des algorithmes",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUhvWU5PRnN2c2l0Z1BmSEs2UmdrWG9QM2ZUcHA4MHNtUzhJcHNWdDFtc0ZNRHdUNm1kTzZRSURoVjZ1RlIwRGxoX3BOSUdmS3JhX1NfVzBaYXhQcklGUEdrV0Y1eDdWN3lSWkg2YUtXRzhQdjI5cmExdXRvQVlQcW50V3l3R29YWGpxWnc0MEdndHFocjl4MURobw?oc=5",
+      "source": "lecourrier.vn",
+      "publishedAt": "2026-10-20T03:27:00+00:00"
+    },
     {
       "title": "Intelligence artificielle : micro dans une salle de réunion, possible espionnage saoudien, ingénieur arrêté… que se passe-t-il chez OpenAI ?",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOVhCOUpab3ZlSUg3Wi1JZkpBTnMxbnAyUnNxdlhKNEU3SDlHbnA3Mmx5WlRZOFY0eUdWY2xBeWlNY0FQU3M1MGpuYm5mck0zdGpLVWF6eU0zbF9meFBoVjVnS3RuQk9HYWtCVjB6YWZ1bHgtN1E3eHRMOHhxWF9uTjVlQTZRV1FQX2IyWVBMakJmXzR3THFEdTF1MDI4Q2ZlcjhmajZjRlphekc1VW5QTno5aGV2V3FTSDNfM1R4d1pOSlZFUDJjR3ByRzAtVWo3aWhGVTBRa2UydHgxN1dqZ29sQTZCRXZ6YkZqa21hVndJV1JSczJCbUd2SGJMcDZVME9VdjhHMzAyZWFwaEVydm13RkFhZWdwRzRlREw1MUtyZzBzMWZhdHFZdUE1TjFwNFNxS1d3?oc=5",
@@ -25,6 +37,12 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbktKSXYxY1lVTXA1bWJtenB6QVhYdFJVM0NkbEZRQ3E4TnR4VTFmcExqRl9ndDlmVGp2YjFNVlNwV0Q1LXhVUk81R1lINjNrQVJtM1I2RWwzSnFqSDM5WDRtblZtTEgyN2xOSngzWDFXd1NvYnRHQzhyS0txRjM1U1hMalVIZE54OC00MFZHUVBVY2tvb1hiNTRhSDFkX0JFM3FOYTVaUjh2dElJckdqdGhIVTZUajB0LV9kOFdHRTdnVUdYVnZtbA?oc=5",
       "source": "L'Aisne nouvelle",
       "publishedAt": "2026-10-19T14:51:57+00:00"
+    },
+    {
+      "title": "Google commence à donner plus de visibilité aux sites web dans ses réponses IA",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWhMYy1CS0F4V1J5SHUyV0dqZUxUQm5JUUIxWVFhajJSQ19VZlJSeGN3VS0zYnZUUnJLeU42azlvMmtZNlJrRkF4STlUZUxBUmE5X3J1bWgwLVE0RlhEVFQ4S2JmMVRISjZSb09scHZzZnJJbzlYajBia2ZhQWtuUjdBa1pzTWhldFpEVjJzUWs5amJMdmd0bjZFbEZHWUpwelAzdXk3aXdZQ0hiLW9Pb0RIWGc2QQ?oc=5",
+      "source": "Siècle Digital",
+      "publishedAt": "2026-10-19T13:55:20+00:00"
     },
     {
       "title": "Anthropic veut donner au gouvernement américain le pouvoir de bloquer les IA dangereuses",
@@ -51,28 +69,10 @@
       "publishedAt": "2026-10-19T13:21:47+00:00"
     },
     {
-      "title": "Siemens et NVIDIA s'allient pour développer l'IA industrielle à Erlangen",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSVpuVVRjVncyWmo4a2s5NjFMRGJTcnQybElsbTZRU09sNy15aU8tSzdDVmpXX21DSEJ2azNEMW1YSHhWRlBsOE8tTnE4YkxlZnlLTERkUF92R3RoRm5QUkdrWXVQVXFYbWc3Ynp1R1g1bVNpMFdGZzlFN0luOVp6em52Q0VvTjdjS0tGU1RDV3JoeXRsZnpGUEd5RXk0V3lUcFZWOENMS3dKQnZMN3ZsOS15cTJuckZwYVRnRzBGd25ERVZKa3BBU3JfUVJKb3g4MDVvdUhfaC1GOTVIcXpzUlEwMnI2WkJfM3fSAeoBQVVfeXFMT0lablVUY1Z3MlpqOGtrOTYxTERiU3J0MmxJbG02UVNPbDcteWlPLUs3Q1ZqV19tQ0hCdmszRDFtWEh4VkZQbDhPLU5xOGJMZWZ5S0xEZFBfdkd0aEZuUFJHa1l1UFVxWG1nN2J6dUdYNW1TaTBXRmc5RTdJbjlaenpudkNFb043Y0tLRlNUQ1dyaHl0bGZ6RlBHeUV5NFd5VHBWVjhDTEt3SkJ2TDd2bDkteXEybnJGcGFUZ0cwRnduREVWSmtwQVNyX1FSSm94ODA1b3VIX2gtRjk1SHF6c1JRMDJyNlpCXzN3?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-19T12:27:00+00:00"
-    },
-    {
-      "title": "Le Vietnam promeut une gouvernance responsable de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUk9xWG1zTWFSMUI2ZDlzZFJ0UDRTYTVnbmhxbWh3bWhoTGlGZlQwRzFSZFE3Q09JWEdoT3VuOVZWdUUtWVVPWHlhY1VaUHpkZE1STDI4Z1N0cmJxQzk2TG5qS2pJOU1EazVkcy13ZnpXSlRkNTZMTFBKRFA4elQwLUczd0FKOWFKZmN3T3Y1RE1xUXNyMmhnc2xyckZUeVFyOVItVlBLVUdFNGtrSkZnMw?oc=5",
-      "source": "lecourrier.vn",
-      "publishedAt": "2026-10-19T12:11:00+00:00"
-    },
-    {
-      "title": "« Super-vendeur » : en Chine, l’export soutenu par l’intelligence artificielle tire toujours la croissance",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSVZtV1BERXVBWE9oU0ZVdjFCZVNudVJ5aWNXdnU1cXZqWlZVcGpnTmZSaU1qbHE1OHotWFJwSXlXdlFjaGQ1aWJMTEJZdGo0Sy1qLVY4NG1QVjRycHJWR25yMzBIbV9VUkV1aFVtOUR5M0ZDb2NLY0VXSWRHNkI3TmhjaXBWUmJyMlN5ajk1alZzQXBOUElHMzBiNEtsdllPRmFsN0FsU2hFVEZzSEpOdjhHa1M5S0ZMVV9YVzd6MDMwLU5zcjVPdmwwVVV6cndyTHpzcUt6R2daUUFO?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-10-19T11:27:40+00:00"
-    },
-    {
-      "title": "SPS 2026 : l’intelligence artificielle au cœur de l’automatisation industrielle",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUHlOZko1d2YzUGtlYzZhYlh6dVh4ZS0wX1pya3pmYi1DNGMyY0dlZkFBZGE4a3ppamdJRDJQUmlINWhKMUdRWHFoR2VfcVhYRVJfQUlRU2l2UmI5d1BfRXg1TklCMUlHRnZLNlhKQWVybVllZ3daS01EeTBiSTk1cDVmbnVSMWI5Q2UyQkdDbmZKd2xoYXJYby1OejhoeGhfU3hndDl1blNMNW9sdThSYjVpSzdxdVVjSGdzdUctTGVWUVBJQ0wxbmpkSEd2aEZLZG1RaQ?oc=5",
-      "source": "Team France Export",
-      "publishedAt": "2026-10-19T11:24:54+00:00"
+      "title": "Intelligence artificielle : Microsoft se retire d'un projet de centre de données géant au Royaume-Uni",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTlJrblBhWEQtQzRzWEpmVU9yYUQ4elFLQmNLdTZtb0RIZ0tfdjJ5T290ZWdNaVRXb09IYmFZTW1uQ1ZzNjY1ZlpmcldrbUVESXRrNmlkLWE4ZU5lWFVpMjZZUGFTRTBiZVVNQ2tvWkxjd1p6b3ZJd3k4dmRhSDE0NzhoT2RpSnhMbmZuTnJ2QXU5OGh0dEF6WjZsNlJZQTdOLVlET2dxV2g4SDc2QXdzYklJYnJOSVJCSGE1NU9IdVJ2UzhGODczYVNvMVNfQU5KbzhmZ2NkWlZPQjlheE5OZndHS3pxQQ?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-10-19T13:00:25+00:00"
     }
   ]
 }
