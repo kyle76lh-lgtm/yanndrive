@@ -1,78 +1,78 @@
 {
-  "updatedAt": "2026-10-20T06:39:20.022617+00:00",
+  "updatedAt": "2026-10-20T12:12:14.027774+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "Bréhal. L’intelligence artificielle, un sujet qui interpelle",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYWxRQ2l3SGlBZFB2Qzc4bHhOMHdPTU1EN0phUGNNWTFXZHBuS0Q3VnkyOWhkODdUMzREYlNvbEFsZml4UTNPNk5rc2hYRzRPbkNLWXBpZnJwSEhpWlgtZURJc0gyTEpTVy1zd2JiN1EydUdWaTAycEJUNlNPOHZfV0VwekRKWFY0aHNSLTRnS2RKRGpiY29EZmNpcnVVQnpBenVUcTZyRi1NNkwzSEV5bE9kbUlVVUNCS0JVVkJ3RFhyNWswX2h3bnhXSFNOQk50eG9JZl9QTGVRWEtrVWc?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-20T03:31:58+00:00"
+      "title": "Siemens et Nvidia accélèrent dans la course aux usines autonomes pilotées par l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUFVoRnEwZjh0c2xacmdlYVlBX0M1ckRxc3NxV08zbHFvdm9LSmVJTmE2c0JRMUcxNFB1OFFOaFBDREpCbnNnWE8xZTdOQ2JhYWNFUWw2Ul9rTW96ZU5ySmtKdnJxOC1TZHN4dWJfSmJjejg0cmFseXFPUzZ0ekVrQTR2MGRKSDdxTHlsQjI1cFJ1QTNWTlp3am1lRFd2ZU13YjRibDVmbnFnd2wzVFNGYmpOVWN2UW16REU2M0pFZUZvVUs1RUc2VmEwR3g0bURrTkJpZGZVNk0xWmtlOXZRRk1MZ0hXTV9sM0VkRC1oZ29VTi05a3FFb0VpdmNKS1RDaS1tRXJlWlBMUTZQcWttVGFScmNXVXlzOF80SUxBY2llWFVqMHVoaUtUZ1dqWkk?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-10-20T11:45:20+00:00"
     },
     {
-      "title": "IA générative : les femmes prennent le pouvoir des algorithmes",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUhvWU5PRnN2c2l0Z1BmSEs2UmdrWG9QM2ZUcHA4MHNtUzhJcHNWdDFtc0ZNRHdUNm1kTzZRSURoVjZ1RlIwRGxoX3BOSUdmS3JhX1NfVzBaYXhQcklGUEdrV0Y1eDdWN3lSWkg2YUtXRzhQdjI5cmExdXRvQVlQcW50V3l3R29YWGpxWnc0MEdndHFocjl4MURobw?oc=5",
-      "source": "lecourrier.vn",
-      "publishedAt": "2026-10-20T03:27:00+00:00"
+      "title": "Schneider electric : La bise continue de souffler sur l'IA en Bourse... Un fournisseur de puissance de calcul coréen s'effondre de 32% pour ses débuts à Séoul, Schneider et STMicro chutent à Paris",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0JPcm10bkttczhTbzdzcGpqNkl2TU8yc3lRTnMyMGF6OEZoOVo4Y3dILWFwNG9TOWhuMEs5VmRyZ09ISEw0bTNPd3VMcjBHMHRrUUkwb3F3RF9ySFRTOTB2Ymp3cFh4a2Zpdm9rX0oyTlRhekQyOG1RWU1OWHpYcmduNXNzMktmcGFXSF9nWDRzRTE2aEJ0eXdmb3JZM2lqMWRIa0REX1FVTVE?oc=5",
+      "source": "BFM Bourse",
+      "publishedAt": "2026-10-20T10:08:15+00:00"
     },
     {
-      "title": "Intelligence artificielle : micro dans une salle de réunion, possible espionnage saoudien, ingénieur arrêté… que se passe-t-il chez OpenAI ?",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNOVhCOUpab3ZlSUg3Wi1JZkpBTnMxbnAyUnNxdlhKNEU3SDlHbnA3Mmx5WlRZOFY0eUdWY2xBeWlNY0FQU3M1MGpuYm5mck0zdGpLVWF6eU0zbF9meFBoVjVnS3RuQk9HYWtCVjB6YWZ1bHgtN1E3eHRMOHhxWF9uTjVlQTZRV1FQX2IyWVBMakJmXzR3THFEdTF1MDI4Q2ZlcjhmajZjRlphekc1VW5QTno5aGV2V3FTSDNfM1R4d1pOSlZFUDJjR3ByRzAtVWo3aWhGVTBRa2UydHgxN1dqZ29sQTZCRXZ6YkZqa21hVndJV1JSczJCbUd2SGJMcDZVME9VdjhHMzAyZWFwaEVydm13RkFhZWdwRzRlREw1MUtyZzBzMWZhdHFZdUE1TjFwNFNxS1d3?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-19T16:07:53+00:00"
+      "title": "L’URN se dote d’une charte d’usage de l’IA générative",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3NDeFk4d2NUUjRTZTc3TGdNRXBwT2w1SmVzaTgyMzZEY2hUbk9rVXdDeWxNMENrbHVTZndqaEcweEI2U3BtMUxuaUd4WE9ORkdqMHp4MW9adVRKeDRGTmlpWXhQVkxWbnpWQzVIZlpTWDg2alNWSlVLejFHbzNucHZCaXJaUHluVndGbl94ckM?oc=5",
+      "source": "Université de Rouen Normandie",
+      "publishedAt": "2026-10-20T10:01:10+00:00"
     },
     {
-      "title": "Conflits entre agents d’IA, la gouvernance écrite cède la place au contrôle à l’exécution",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWDlyT0laYlhTMGxyaUYyYTR2aG4wVE1zX0ExVHJTOXZ6NURzUkwxTlVFZ051ZGFXbTZxV1NoTF9lanNJUkZBRllfMWcwRUxtQ09TYUpLZHU3Snk5S0VXSXZ2VU5vR1BYXzdQdUVRRkpzOTlmMHZUeFkwZHEwTTY1NGJUUEg5dzJqZVc4SnU2M1Jxa3N2QjVfeW5NcTRoRXNxYXRIWVpFa1l4dmZLQkhnQ2lNLWhpdXdheTdXbi0zbUlUbk5qN0xtXzdYZG5ZYWFBQkp2dDZhTnFKYmZVTi1OQkJMWGI2TmxHb3VmanlaUmh5ZTlxOVktanRDTVM?oc=5",
-      "source": "IT Social",
-      "publishedAt": "2026-10-19T15:07:31+00:00"
+      "title": "À Porto-Vecchio, une caméra dotée d'intelligence artificielle pour détecter les départs de feu",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMEtXMUZzR1lRS2ROYmVqRXBFZXA3R3JjLVRSalE2anRQSDl0SVFmOExpY3Z2dV9HZkcyQnBXZFJoYThvSlNFdjhaWnl0Z0FGbVFIeTZBMnp5b1FSYWVMOEJvY21EQlR2akoyZUZPbUlUdFpjY0JhWW5JSWZ1Y3VmcGNRSmVqaFc0TlFZdnVjY1ExcDJTZk1NMkZ6SE5vM0NlSXJyZ3kzbWZsQ2htNnBwbkJwMjRmRDZaMC14Umh4TFhxYUs3QkVxZ2FCQnctR2I5aDgxajhSU3JlYzJxcVY5R21LaXQ?oc=5",
+      "source": "Corse Matin",
+      "publishedAt": "2026-10-20T10:00:01+00:00"
     },
     {
-      "title": "« Tous les data centers sont différents » : comment la question de l'eau empoisonne le débat sur l'intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNNzJrdjBnU3Nmejg3azVQeDZGdE1wRGdjdzN5NnVkcFZ0TF82VmtUaDRKMVdfaEZzMnBkMnVFb1VqNG5HWFJhTkdDOFF0ZEtETUsxOXVPT3h6Y3hmRFhFdlpRY0ZFZWhVNzJuemx6SkRybVZwNnV3UlkxaVpqcUVIUld2Y3pSUUV3anpGdEh1OEFWclJfREhvb2hPZVZpNkljNVE1NHc4NGNSNVdQUTJHQUR6VVdKSmtJYllicnk3SmFINUZLQUYyV2FpcGp2cWkxTEMtV1lGcGZ5U004RkZDbm1pOFo2WVZ5Y0pQMzBtWUUwWWZGMm9iWHhqQ0pHaElzSDF5Z3gzVGg5cUVncThPVGExSnk?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-19T15:00:00+00:00"
+      "title": "Focus sur les capacités des IA à travers le monde : comparaison et analyse",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWmZ2OFJfd1ZPRy1RM280a1NyMTNweUxNN3ZoaURLdlRvb0wxWXR5YWpWUUtiMnZRajREbjhvczIxREpFaEkwQXBxLUxuLXRRTk5VUVFMOTNaekhoVmdJcWJIZUd1TTNvY1lMbnM0M0Y3VlVOX05DYkJnVGljdkZVVmhFQlVMeVR4X3JCeXNNbm9pV1k?oc=5",
+      "source": "Harvard Business Review France",
+      "publishedAt": "2026-10-20T10:00:00+00:00"
     },
     {
-      "title": "L’intelligence artificielle entre à l’université de Picardie pour former les enseignants de demain",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbktKSXYxY1lVTXA1bWJtenB6QVhYdFJVM0NkbEZRQ3E4TnR4VTFmcExqRl9ndDlmVGp2YjFNVlNwV0Q1LXhVUk81R1lINjNrQVJtM1I2RWwzSnFqSDM5WDRtblZtTEgyN2xOSngzWDFXd1NvYnRHQzhyS0txRjM1U1hMalVIZE54OC00MFZHUVBVY2tvb1hiNTRhSDFkX0JFM3FOYTVaUjh2dElJckdqdGhIVTZUajB0LV9kOFdHRTdnVUdYVnZtbA?oc=5",
-      "source": "L'Aisne nouvelle",
-      "publishedAt": "2026-10-19T14:51:57+00:00"
+      "title": "Des jeunes filles de la troisième à la terminale s’initient à l’IA à Saint-André",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmhMVTU4MGFXY2Q0OHUtYXBhZkZlWDJUdUpQUFBtamNYTm9UaTVQWW5xMkswcUJ0NTJDek9FeURuV1o0YWtNRldDY2I4c3VxMUpRUWlMdGZERV8zRVZoS2ZUaTA1WkdtT0dyRmx4TFpxMXNWNFdCMnhtSjZTWjdfdWhQNWd4d01MQTl4R0FSRkRBMjN3LWFoQWk1WTJZYmNESE5VRzFHZV9LRDZWMkhKWHotSEgzOUM3RkhBNVJKaXFBeHFGajFDN21CUE4?oc=5",
+      "source": "Outre-mer La 1ère",
+      "publishedAt": "2026-10-20T09:33:53+00:00"
     },
     {
-      "title": "Google commence à donner plus de visibilité aux sites web dans ses réponses IA",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWhMYy1CS0F4V1J5SHUyV0dqZUxUQm5JUUIxWVFhajJSQ19VZlJSeGN3VS0zYnZUUnJLeU42azlvMmtZNlJrRkF4STlUZUxBUmE5X3J1bWgwLVE0RlhEVFQ4S2JmMVRISjZSb09scHZzZnJJbzlYajBia2ZhQWtuUjdBa1pzTWhldFpEVjJzUWs5amJMdmd0bjZFbEZHWUpwelAzdXk3aXdZQ0hiLW9Pb0RIWGc2QQ?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-10-19T13:55:20+00:00"
+      "title": "AstraZeneca s'associe à Oracle pour mener des essais cliniques basés sur l'intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNS1ltVGlqcFhwNXY2dHN3UVZDcmwxcmt1UDdhX3RNYXFDX2VpTGVlX2dITWI1d1dhOGxrcVJERlYyRjZZbF9pMjI1cVlqbnR5RzA0eGZxbEdiV2JqOU1ZMzhXYUpNM1JGc1k5VUpVbUdaNFhldUwyVExrbGZ1c19BTzdfN1FybkRUUS01Z09INGFiUVZHSjBtZ1NrUXpSUjllN3R3RW4yNDU2R0ZMWUlXQkh2S1IwZzZ2X2wtX1VOdXQyU3RDLUtTQXZnYnhYOGp6QnpMMnVQMTRhUldTS0FEWkhTOGVkNU5mUWdwaW5DU3lsWnByWUlSQlN5U05aUklvQjhfTFo5NGY0RnlyeUJ30gGPAkFVX3lxTE1LWW1UaWpwWHA1djZ0c3dRVkNybDFya3VQN2FfdE1hcUNfZWlMZWVfZ0hNYjV3V2E4bGtxUkRGVjJGNllsX2kyMjVxWWpudHlHMDR4ZnFsR2JXYmo5TVkzOFdhSk0zUkZzWTlVSlVtR1o0WGV1TDJUTGtsZnVzX0FPN183UXJuRFRRLTVnT0g0YWJRVkdKMG1nU2tRelJSOWU3dHdFbjI0NTZHRkxZSVdCSHZLUjBnNnZfbC1fVU51dDJTdEMtS1NBdmdieFg4anpCekwydVAxNGFSV1NLQURaSFM4ZWQ1TmZRZ3BpbkNTeWxacHJZSVJCU3lTTlpSSW9COF9MWjk0ZjRGeXJ5Qnc?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-20T07:33:48+00:00"
     },
     {
-      "title": "Anthropic veut donner au gouvernement américain le pouvoir de bloquer les IA dangereuses",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVR0WUpmNGladGtTcHVuWkZLV3ZfOWhDbjNRNkR4Q2UzTlFpUGhkTUdJRjFIb1NLLXVLdnBwcmRxVXp4UG0xWHE5SDVYNnQ5OEFjcFItWGpnZHBMWjhBeTZsOTZKTzEwYjNtWFlzeW1WeUtMcktad1FzNHZ5TFFLaTE1VF9kdFVzVkUtQjkwMFVhajg0M3dac0FYU21RSEE?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-10-19T13:44:49+00:00"
+      "title": "Capgemini renouvelle son mécénat en faveur de la recherche en IA",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY0dtcDJCS0lKejAtWWZBcUswOUctOXc2MGRBQkxqVGMxRnY1bzNXOHNVRHpPcTQ5MHJuVE9YM19iZnZIZUI0X2o5MFg0T0Rmbl90Yi0wd2toaVVyNm1NVmd2QW1wQlVEb3c2SlBLdWx0WlhDUnhDUWk0V3ZTRzk4U2ppWF9VekMzNy13dGY2QURTQTktTTFLQ2RhZlJxalhVeFZWSno1bi1Pd2Z1RXNtN3BsU3puMkFqY2k4dGFwVTlHVnV6c2lhb2xxczRXcFpteC11QlFSYXJuSm5HczA40gHfAUFVX3lxTFBjR21wMkJLSUp6MC1ZZkFxSzA5Ry05dzYwZEFCTGpUYzFGdjVvM1c4c1VEek9xNDkwcm5UT1gzX2JmdkhlQjRfajkwWDRPRGZuX3RiLTB3a2hpVXI2bU1WZ3ZBbXBCVURvdzZKUEt1bHRaWENSeENRaTRXdlNHOThTamlYX1V6QzM3LXd0ZjZBRFNBOS1NMUtDZGFmUnFqWFV4VlZKejVuLU93ZnVFc203cGxTem4yQWpjaTh0YXBVOUdWdXpzaWFvbHFzNFdwWm14LXVCUVJhcm5KbkdzMDg?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-20T07:07:00+00:00"
     },
     {
-      "title": "IA et cybersécurité : près de 500 chercheurs lancent l’alerte",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWWl4VExBdUdKZnBodmZBTmdlYWJFRXNLQ1pqZGlTQ3NGUEFCT3doQXpPX1Z3MWd3RlBmSmtRbG5CSngyckFfM05CRktBUHVQbnJuRWw3MmpOWGtRM0xDd0FlY25ZTm1iTGxfbEQ5STdNNDFueDlqR2JCT1lxSmtGWGpXbmN3V2xPSjEyNlpQclhWdEw4SFdoaGFZWTZJOXl4d0xIa19IYUdjS0NJLS1WNzI3QTFyRW80cFBaQklBSDRDbnJ0QUFr?oc=5",
-      "source": "Décideurs Juridiques",
-      "publishedAt": "2026-10-19T13:39:03+00:00"
+      "title": "« S’opposer localement à un data center revient à refuser la fuite en avant collective de l’IA, de tous ses impacts sur nos vies »",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNU2FweEo5eEVTSFVuUkIzOVI1STBiLVlhT1NISmxicVl3N0lRZXZTa0RkajY0YUZXczFHNll1MFh4Yl9MNlRmY2xSLUU5MUZlTlQ0b1FfTjhnTVNBMVd5U3p2U0Ztam9GaXM3eGxJeU5EX283ZkhHTHdkS3lKUG1iQVFOZU0xV3VOa1g2aHJOTHAwQkFpVXBXdzdqUmRfSFVFY08wdnZHcGNJdnhQeDB0Q2hTTDdaajZZakdYNmx3SnZBdEVRNFJVaVlYOEoyemdacmpWZVl2eHprYTVpb09JblpkeVBaVWlSMnNJOGI0U0M4NUZnTXFlOVFiaE5hcEhsRW5SbkFWdU91T0dlQ0RLb0RKdTVXSTFfaS04?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-20T06:30:02+00:00"
     },
     {
-      "title": "Meta fait marche arrière sur l’utilisation des contenus des sites web pour entraîner son IA",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkhab01jT19MWV96eFZqTTZzQm5majZWRWZqN05SM2Q0TnJFWFpWWWxQeGhvUkZPQ3k3YnNRZ09NS1RWdHRxNVdzMS11TUNZLWppY3NXallWaE1ITTZ3dGZtTXFKTUxWVmd5bTBfNHNOUG1YV0p4dzNtaHpuZGh5WjdUdnFfY212bFF4ZmZ0OUxvMXhOV0NBV3AyVlg5RWJaN2pjX21YclZveXl4MktsMjRjalBwcE9jeGgtWUlIQTVpR3IzaFE?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-10-19T13:37:15+00:00"
+      "title": "Intelligence artificielle : souvenirs du monde de la veste grise",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckRpU21RX080cDlSQ3RFd3VyVjRDUlNmd3hLS0tUS1Rka3ZyUDNKSWNDektGZGd1ZV90dzFCYmZlUHhBYXQxTEJnMDBKLXRoa2tiU1c0b3JuUzBoeVhua1pUcWZ1UVVLVHdDOFFVYzVSSE9ob2Y1SWNoX003VnJoZ3R6NUktUW5OR3lGRnF0d2wzUWhTYmlpYTRDcS1ma3FXZXBBcQ?oc=5",
+      "source": "La Croix",
+      "publishedAt": "2026-10-20T05:48:37+00:00"
     },
     {
-      "title": "Cancer et intelligence artificielle, comment la recherche avance dans les Alpes-Maritimes ?",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY0xSSHhBYTB4UHdkMzZORnJxNnlELWtSc1h3M2Y4QWRnRTRDQnJHUVRRLUZFUThaaTFqTVJmd3ZZQkpZMDM4QTVvSGNGWmRqcG5ERDNURDh3UXRfNnV2alQ5R25YOWFNVE5Ec2dqVHpoclpWLWVxLXVsRXRuSkVGNVA2N1M0OXdHNUxrNkZNY0EydDEyY25Yb2J5R1NkeExFQXE0OGhRdkxJcDNMc1lJelF0M2VMbUNfWFBMU1lZQkJWYzJMbnc?oc=5",
-      "source": "Nice Premium",
-      "publishedAt": "2026-10-19T13:21:47+00:00"
+      "title": "Nasdaq et S&P 500 en hausse avec le rebond des valeurs liées à l'IA",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOd1ZpSDdnNGpRSXdTay05RV9hZFBVSlNQUjhHUGFUTHlDMVNnYkxuZEpscXhwUmpaWVNIczBZQnN2ZVlCVjI5MjQ0VjI1cHlZeXZ4dVJaQ1FiMV95QmEzc2tfU0lyZXRDc2p6dWcyRlRmckpnMkRCcnFIV0FnMFBaU1VEenI3c2dMaTF1TEJULUpPTjl5a29vRjdLeVRfc2JsMEcxZEZsTERyX3hoMWlIc1VWbkU0TFFhTkRXUHhmdW9NUmNKdXVuUjU5MFQ0dG5xMmJpLVZDY1BzbHA1T1VEZWYtSdIB4wFBVV95cUxOd1ZpSDdnNGpRSXdTay05RV9hZFBVSlNQUjhHUGFUTHlDMVNnYkxuZEpscXhwUmpaWVNIczBZQnN2ZVlCVjI5MjQ0VjI1cHlZeXZ4dVJaQ1FiMV95QmEzc2tfU0lyZXRDc2p6dWcyRlRmckpnMkRCcnFIV0FnMFBaU1VEenI3c2dMaTF1TEJULUpPTjl5a29vRjdLeVRfc2JsMEcxZEZsTERyX3hoMWlIc1VWbkU0TFFhTkRXUHhmdW9NUmNKdXVuUjU5MFQ0dG5xMmJpLVZDY1BzbHA1T1VEZWYtSQ?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-20T05:44:36+00:00"
     },
     {
-      "title": "Intelligence artificielle : Microsoft se retire d'un projet de centre de données géant au Royaume-Uni",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTlJrblBhWEQtQzRzWEpmVU9yYUQ4elFLQmNLdTZtb0RIZ0tfdjJ5T290ZWdNaVRXb09IYmFZTW1uQ1ZzNjY1ZlpmcldrbUVESXRrNmlkLWE4ZU5lWFVpMjZZUGFTRTBiZVVNQ2tvWkxjd1p6b3ZJd3k4dmRhSDE0NzhoT2RpSnhMbmZuTnJ2QXU5OGh0dEF6WjZsNlJZQTdOLVlET2dxV2g4SDc2QXdzYklJYnJOSVJCSGE1NU9IdVJ2UzhGODczYVNvMVNfQU5KbzhmZ2NkWlZPQjlheE5OZndHS3pxQQ?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-19T13:00:25+00:00"
+      "title": "Affaire Orélien : quelle valeur donner à un travail intellectuel utilisant l’IA ?",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNclMzWDRKZV9nNy1MdVc3U1laaW95c1laOUtBM0NsWXRKUXlkalRQb3E3YjA1YXJXelRtbmlZY2ZZOXc3U1BYVUNtQU1MeHpOcnBsM014Y3V5TElnU01LLUlwUjlfelE0bUw2Yl9NdXVieGwzMy1Mc2wzVklhT210VTI4U1N0dHdJZ2l4S2dmVDdUR0FsZDBqT2ZjM2tfRDNRc01qRjJQM2FNZWpnQjg1Vk0wZXc3VDNxc3Atc3VfMmxROTBrSFZnTUVMLUs5RkRuOHpCUVZ1NUlTd2llcm5jOGZ5Y1JtbkNtTGpn?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-20T04:53:22+00:00"
     }
   ]
 }
