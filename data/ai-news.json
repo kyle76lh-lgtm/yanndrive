@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-20T17:09:05.531214+00:00",
+  "updatedAt": "2026-10-20T20:33:48.966205+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA : l’ONU alerte sur le risque d’une guerre menée par les machines",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xRGFHLVREeXZYbF9DOFZmVFlVb0w0RndUMjhiR0VDYUJGdlJfa2t1OWhPUmdxNEZ6dzZVa0gwU19sa0V0Wi1JY09TQ1hvX2FDcWc3R296SQ?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-10-20T19:30:53+00:00"
+    },
+    {
+      "title": "Rieupeyroux. L’Intelligence artificielle au programme",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbW96NExIQU5lVFRfRHdoTTFWNmpjMW1yZnNGUExIUmRmRm9sc0llc041VzYyejFRTVNsSl9VbFdfLVpVdUc2TU5NNVVaeXlRcWlKVFgtbmdzakRkSWMzRUlUd0tuN3Mwc1BHWlZJRXRqdkxsMlVzV3VZRUFoM1UwTWpidFFDVzgyTjZ4OXBMQXBSQmM2YTZ0cnkxeGxCVzQ?oc=5",
+      "source": "Centre Presse Aveyron",
+      "publishedAt": "2026-10-20T19:23:00+00:00"
+    },
+    {
+      "title": "OPINION. « L'inférence IA, la prochaine étape de la transformation des entreprises françaises »",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOalF1YmpmRjZIdFVtRjctMlphNVN0a1JNVTZOZ1pDaGZ1amFtSlFJQ0Ffdk0zYXNya1FUNVNCb28tUEtIRnRBTGRuOEZwMk9RY3FYZ1AtVkxjWnpSbzktajloTjBqdG5NeTlvNi1ybVdXdndoVVgxUFFHWkg2V1VQTEM4R3F1MFNKRmtRZko3MzVFaHhCUXktV01JR1NPcHNtM0x3MGtLZExXVmI3WVMxdjQyU0JCR1Q5YWdhTjY0LVNfc1JrNE5pQjFXQ3pPTy1TWVVjWENoNUlfUQ?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-20T18:30:01+00:00"
+    },
+    {
+      "title": "Céline Dion, Harry Styles, Rosalía... l’intelligence artificielle révolutionne désormais en direct le son des concerts",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQcl9lT1A2d0o1ZkxEMGhHQ3lYWXhQNlBocUtlRmhENGRMZ2psU253ZVpFTHJMUVpFVDR5ZmpVU3dqTkhqeWkzaTVfT3ZmdFlpZDNjQnJDS1VYQjRVZlRhMTlDWEc5ZVVMa2k3TURidjdEYy1id2l4UDY2dDJ6bUlWT0g1NzhmY1RaU094Z05KdXJVWUc5eER0M2Ffc1BmVkxERmNkTXpqZUJhY3QyNk1JWk5ZQW85Y2VVYTgxam9zYVVUa2pUdjlpQjNGTGE0ZGlfbGltYmZTQm5VNU5xalZwNGExYURYeUlZV2NtZlBwNS1NZGw2RzZvbDFKWm4xNVIzMGdQVzN6OXgtclh0d3psODctZnBaQQ?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-10-20T17:45:28+00:00"
+    },
     {
       "title": "Comme dans \"Minority Report\" ou presque: l'intelligence artificielle utilisée comme \"police prédictive\" dans certains pays pour prévenir les émeutes",
       "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOVm9mNDA4Ukk0X3diYzQxdExhVURPVzNVNkYySE5Od1A0N19NRlhRbFFua2FoMW5ON29CVzBqWTN1WERTaTlXZ2N2UFZUSTdfZ29KdmJoR3pIcU5YcWdWVTZwVWxYa01saWltNmkyM2duRHIwVEhQSHlEX0tCZHlUZ2RmNVoyYzNGMV94MGZEQUViRHpLNEZLOTRUWmNoNm5yT0JYTC05Yy10V3dWWlJrcUg3UmpGdlJiM3RZNzFSQjZhS0NIVDNvTW53MHpmUVA1alJEd3lidGhBUDUxeDgtSVF5QUVqZXZaUXp1cWdSVkdlNVB1UGZNX01hNmJGNU4zb2ViZXh3bEd5RUt0NDZqMWVEVWt3VXg1ZHhKQjlJUldCaFZybzRZRE9aR0poYVZHT19pRUE1c2NLb1pJb1E?oc=5",
@@ -13,6 +37,12 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMF9BdmJCX0l3SDFUSW10MnRqbmdSVDdDNkVBXzBTdFN4b2w2Rk9LRXg4enFNSmY4X01vSlpwSF9iYkFaTU1IOTljeWtYSnM2WGsxOFZVcDFERUFnd3VrYmZKb2JtZGdyZXppa1BTVW42T2xfX2diSi1UM0FQb3BEcEFnOGpVWHNxYmwzYU5YU3BPVDhXN3NRd1dQUkRnRnZ4U2ZJV0QxbXpsMGRLblVpMVd0LWx2RkJm?oc=5",
       "source": "L'Est Républicain",
       "publishedAt": "2026-10-20T16:40:32+00:00"
+    },
+    {
+      "title": "Faut-il avoir peur de l’intelligence artificielle ?",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNlFIaVFxZTBRQ191ZjJ6MVhIX1lMV2x5eVc2UFJWbVQxN3FwdnZEYW12U3VHVFVfQktGcUZPZVd6UlItN3FIM2lvR2t2bVhzSHJrNmVXdVhUU000YkYyVW1GRmJMbVhrcGZOTVVzX2dFbjFtNDdJajc0WDJfNnpmSnhLNTNVOUowek94QTVodzZmZ25DQXlUQnZHV05oQm94S2lvY25fZFlEZk1Ybm1YdnZTX25WSjFCLXh3YWlqYUE?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-20T16:26:27+00:00"
     },
     {
       "title": "OVHcloud : Résultats records et pivot historique vers l'Intelligence Artificielle !",
@@ -42,37 +72,7 @@
       "title": "Louhans-Châteaurenaud. Un café pour parler d’intelligence artificielle, entre curiosité, espoirs et inquiétudes",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTmtpeHRVQnhvVzI2Vld3ejFWakFuU2s5XzRGSkZQOTFmbzJqT1R1alBTTTdPbnFvR2VyZHpvOUpLVHdqNzZjblJCeFN4RW5DRWsxVDBRSF9wMlJNcFBNRTJ2OUpUbmN6V3hYN3dKUUltYTNlR1BUbmg3SERQZGdoUHVjaFZrWDJ6TDVXZnFyWnVKX0RCUE50Z3daanV3dFgtSTV3TGpZOTgya2xKTWJ3c3IyYVVUYkN6YWF4ZlpndW9YRnhJbWc1Rzc2U3g2QzJv?oc=5",
       "source": "Le JSL",
-      "publishedAt": "2026-10-20T13:28:16+00:00"
-    },
-    {
-      "title": "La Comece exhorte l'Europe à une utilisation vertueuse de l'IA",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXdKRlNGWmQ2a1FhVTc5V0RhY0FVWXAtdWZVdFVmY1VSRGM5WHllLWt3RVZyb25ha1JvSTBDclRLQTEwZWsyT05sQ2MxVGktSUoxZy04MXpjWi00dFNMN3ZoNFlsak9fQ041V2lsbk84eEZaVjB4OTNuTW5Dcm5uNkRjNTY2dXlTUFpqOHd0Zkp5eVNsRTA3OXZfNA?oc=5",
-      "source": "Vatican News",
-      "publishedAt": "2026-10-20T12:36:39+00:00"
-    },
-    {
-      "title": "Etats-Unis : avec 137 millions de dollars investis, l’IA s’impose dans les élections de mi-mandat",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNUm02YktfdEYwdTZYOEh2SEkzSTAzN2tOWkpBX2ZSUExUZHV4SVBVSVJic2JaX01xMmUtV3pEemtPZHQ4alB2YlJURDhTcnluS3pMNkVFQ1Z2S0ZudkhJQmVSRExsQnhYWDlJNXNUZ080UHZCU2lyZkgza3paZ2VKNnVDQlRCbnRPbVhuRXNNM0RRLURLc1c3TW9SakFWUUFCTUpKVml1VDk3amRwNi1hSWFPLVFkX2ozSmhRU2dxY1J3UGhnbDVaOVhMNGI1bEZDa2JOWUZ6UGJIT29UZmxZVFROb0ZObkNQTFRnSWpHdVVGc0hJd0VEbjdnczJXNkZrRDRJUFFoOHNDUQ?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-20T12:28:25+00:00"
-    },
-    {
-      "title": "INFRA : l’IA au service de la santé des femmes",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOElhUWd1RG1UTFZTTTc0QXlVa2RKbWRtSWt5bUI2dk5jUGx2TWFsdzN6NmpxWEh6b2diU1U3Tnhqb3BtTm1pbm5taGNLLVE0WGwyc09ONFo0YWh2WVdTcnZHeGJhZmpjbGp1Sk1VUGtCY2NDeGwtVnZxSE05NzNiUUxBbnBoaHJrRE1kcVpwMVYxS0puY3BXcDdn?oc=5",
-      "source": "Orléans Métropole",
-      "publishedAt": "2026-10-20T12:00:42+00:00"
-    },
-    {
-      "title": "Siemens et Nvidia accélèrent dans la course aux usines autonomes pilotées par l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNUFVoRnEwZjh0c2xacmdlYVlBX0M1ckRxc3NxV08zbHFvdm9LSmVJTmE2c0JRMUcxNFB1OFFOaFBDREpCbnNnWE8xZTdOQ2JhYWNFUWw2Ul9rTW96ZU5ySmtKdnJxOC1TZHN4dWJfSmJjejg0cmFseXFPUzZ0ekVrQTR2MGRKSDdxTHlsQjI1cFJ1QTNWTlp3am1lRFd2ZU13YjRibDVmbnFnd2wzVFNGYmpOVWN2UW16REU2M0pFZUZvVUs1RUc2VmEwR3g0bURrTkJpZGZVNk0xWmtlOXZRRk1MZ0hXTV9sM0VkRC1oZ29VTi05a3FFb0VpdmNKS1RDaS1tRXJlWlBMUTZQcWttVGFScmNXVXlzOF80SUxBY2llWFVqMHVoaUtUZ1dqWkk?oc=5",
-      "source": "L'Usine Digitale",
-      "publishedAt": "2026-10-20T11:45:20+00:00"
-    },
-    {
-      "title": "Schneider electric : La bise continue de souffler sur l'IA en Bourse... Un fournisseur de puissance de calcul coréen s'effondre de 32% pour ses débuts à Séoul, Schneider et STMicro chutent à Paris",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0JPcm10bkttczhTbzdzcGpqNkl2TU8yc3lRTnMyMGF6OEZoOVo4Y3dILWFwNG9TOWhuMEs5VmRyZ09ISEw0bTNPd3VMcjBHMHRrUUkwb3F3RF9ySFRTOTB2Ymp3cFh4a2Zpdm9rX0oyTlRhekQyOG1RWU1OWHpYcmduNXNzMktmcGFXSF9nWDRzRTE2aEJ0eXdmb3JZM2lqMWRIa0REX1FVTVE?oc=5",
-      "source": "BFM Bourse",
-      "publishedAt": "2026-10-20T10:08:15+00:00"
+      "publishedAt": "2026-10-20T13:34:42+00:00"
     }
   ]
 }
