@@ -1,7 +1,37 @@
 {
-  "updatedAt": "2026-10-21T01:45:21.703202+00:00",
+  "updatedAt": "2026-10-21T06:37:16.998823+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "François Deruty, expert en cybermenaces : «On attire les IA avec des faux sites pour les observer",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZkp2TDJTcmRjYmJnLVZLMUZxUXpUNGZRbUZoZUU5LTdqTG54eGluWGpGUk52Z0QxWE90NTZxalFxNGxuMnVKXzVscEt1SXRmRm9fSEthcE95aHNaQmZURXFQSkVFcEY1NFVIY19hRm52V2JiQTlYb3lxdlp6ZzNIdFlPZGl5Wnl0NDVPZ3Q1LWdVbGV5T3RaNW9Yb0FzOVlBeXNMNWlLc2ltMXRGV1dVdHc5QnVIX1JIMXZpWXU2RlRobkZxS2Vrd1hXdlBkQUdfekFXTV9YM3pKeHc?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-10-21T04:34:13+00:00"
+    },
+    {
+      "title": "« Sweatshop numérique » : un rapport dévoile les pratiques de Scale AI, fournisseur de données de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUmtxYjNnUC1uczR6V1djMm1qZmJKN2Y0TWtEajBGajJFZXFJU0lUWEd2WVVNdlJHYW9xZnpLQXRrTGJBdUdDS01sLXR2TUpKeXJ1bzNTd3Nud2RfUTQtT0NmLTdTWk01Tmd4Y1ZELXFZQ2dQbXNNV0JuQ2hGQ0xFbXRrMzg1XzV5bHJDYmd1dkRkS2ZrcjZOYjNrR2pvRVRtRUU2dHQwUFR3UTJCVHRhcHFTNGNYUFE2cDdHUTVFZ21zZDdXT2RoOGo1WmQ5ak1FRTRJWXhiNXpJb3JYbFZ0RnVWSHFPeGlUemxuZ2NGcUE4cHpsODkyWnBkTGlnV29rX21oeQ?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-21T04:29:01+00:00"
+    },
+    {
+      "title": "OpenAI affirme que ses agents d’intelligence artificielle (IA) ont affaibli le système interne de surveillance",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPc2E2RTFfSUtKc1ZHS0hxSy1HdzAxOWhOV0YwUGtzaWVrVVlTQm5OalJyQWpZM0h4VnJ6ZmtEbmtvQVhWUGxzZEpwWjJ5WVZoUDhsTDZXZFJPVEVGOWluN3BTRUIyS3AzX1lWX1hKcWVaa3hNbTNjbVZqQXFZaWhiRWNSVmR1MThlM3czSDl6TmpvM0J6c0NndE5XRkROMmM5SUxLcVRLYjBaVjI0WGxXUFlQeUxvbnZhU3RZckM1R0lvYXFJWUM3RUhZTVNMaXJBZ05qTHVWR194S1FHWlBoaTlldnJJeldIcjlVMg?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-10-21T02:36:23+00:00"
+    },
+    {
+      "title": "L'intelligence artificielle ou l'épreuve du discernement : penser à l'ère de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsUEREV1Y5RFN4aVgteGUtZkJxQ1Qxam10d19odWdSZ3MwTWJqNGNBWmVVUW9mdnZQMTdXdi02YmF0eERUY1JGd0U2VGJwWkZsMWV5YTMxNmVSRnZRU25zWWcxTWR4aXU3Vl94Wncxbnhudw?oc=5",
+      "source": "Ar Gedour",
+      "publishedAt": "2026-10-21T00:04:27+00:00"
+    },
+    {
+      "title": "CRM et IA dans l’industrie : montrer moins pour aider à vendre plus",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdWdySGwzd3BZN0VlTWcxVFcxWm90ZlpWTGhEaWRObDJUTUNzOUk4VUJSd2VRek9HMWlSUGNTWEtSLVRZSnNkQU9nQmFpQUhEUU1PTUNWSVM5YXN0dmRrNExIQnhlQTdINnNFbFQwX1VsUVVTQkR1cU5sOVQ5cmwtRXVybVpxV205NnJOdFVtN1lkWHVma2ZVcV8tRElPQjFnQUZCaUF3?oc=5",
+      "source": "it social",
+      "publishedAt": "2026-10-20T22:52:25+00:00"
+    },
     {
       "title": "Afrique économie - Tunisie: quand l'intelligence artificielle s'impose dans les entretiens d'embauche",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVV9mMjNTZk9RREhQLXRCT2dZTTdadUJtZE5Hc2g5bDJSaGRaZ3M4d2JYcVc0U3ZQcGEwMG15MTdiSnRCSEVVMG1zSFd4dzNqZGd0M2NKYUxBMkcwX3RINl9naWVSaXVBSlNOLVVzTUhqb2tZd0hnZVZZZmgyRnJuZ1drY2VkU1p3Uzl3S3ctVVVOc3ZRZmFOdW9lT1V1T2JMWGY0RHE1MDB3YTlGaDV3QTViRnVKSE5NZzdNcGxENzItTVo1TTFwdmVpLXdHNmZROGExbDltVzJEREk?oc=5",
@@ -39,40 +69,10 @@
       "publishedAt": "2026-10-20T17:04:37+00:00"
     },
     {
-      "title": "Saulxures-lès-Nancy. L’intelligence artificielle expliquée au grand public",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMF9BdmJCX0l3SDFUSW10MnRqbmdSVDdDNkVBXzBTdFN4b2w2Rk9LRXg4enFNSmY4X01vSlpwSF9iYkFaTU1IOTljeWtYSnM2WGsxOFZVcDFERUFnd3VrYmZKb2JtZGdyZXppa1BTVW42T2xfX2diSi1UM0FQb3BEcEFnOGpVWHNxYmwzYU5YU3BPVDhXN3NRd1dQUkRnRnZ4U2ZJV0QxbXpsMGRLblVpMVd0LWx2RkJm?oc=5",
-      "source": "L'Est Républicain",
-      "publishedAt": "2026-10-20T16:40:32+00:00"
-    },
-    {
       "title": "Faut-il avoir peur de l’intelligence artificielle ?",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNlFIaVFxZTBRQ191ZjJ6MVhIX1lMV2x5eVc2UFJWbVQxN3FwdnZEYW12U3VHVFVfQktGcUZPZVd6UlItN3FIM2lvR2t2bVhzSHJrNmVXdVhUU000YkYyVW1GRmJMbVhrcGZOTVVzX2dFbjFtNDdJajc0WDJfNnpmSnhLNTNVOUowek94QTVodzZmZ25DQXlUQnZHV05oQm94S2lvY25fZFlEZk1Ybm1YdnZTX25WSjFCLXh3YWlqYUE?oc=5",
       "source": "Le Monde.fr",
       "publishedAt": "2026-10-20T16:26:27+00:00"
-    },
-    {
-      "title": "OVHcloud : Résultats records et pivot historique vers l'Intelligence Artificielle !",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNUWtpUTBnalRSVFBrZnc2ZjZDVkNkZWFyWl9qSm5kbHVFRUIzeVc1VlZNcER6MklpdTFJd2JpZ0E5OThKYjRUbXE0N005OGRBemR1RG9rN3dfamp4YmhSY0hJU0JtdWQzdkJEYkZnRDFvazltaWl3czRUVnRXNVNMTlloQURBaVlDaG5SQUVBNVhGYVZhYVJST3VfQnctTTE3SXBtR2lpc0FsdXZPWU1HQ3pyQVlVQXJNSG1hcXFwdVhUY0JURnVxNW05SGV6Sm1KNEpTZVkxN2FaeGtvU1ExUlJUblZvTkV3ZXR1ZW9CVjNsSTUzc2pTT0Y4VjJrUFVFRDFXZHhrNTYyaWRlaGVORWxzRHJ2b1RkelMzTmNlb1Y?oc=5",
-      "source": "Bourse Direct",
-      "publishedAt": "2026-10-20T16:11:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle: comment protéger l’emploi des jeunes ?",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWWlXZUFIZTdaUDZadlIzMWhIM3V5QTJhYnNyWWp1TzRWdVZDNGNVbUtJX2U5MXZ0Q0QzNGhaNENRdWE3ei0wdXQ4N1AzRU9rRHZXWXZwVG9xY2NyUVhid21oOUsyTjFzVDNad1ptTkVuOEQtUFZ3S1RGLUFqeTNRUml1TVotWW56T3ZHVXIxSnIwSnZaWVlv?oc=5",
-      "source": "CFTC",
-      "publishedAt": "2026-10-20T15:08:13+00:00"
-    },
-    {
-      "title": "Amin Maalouf : « On ne pourra pas arrêter l’intelligence artificielle, mais ce n'est pas joué d'avance »",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0J3eEtpQTlIb0JfNmExR0pMWU04cDVQa2lrdTZjdFE2SGUwNEFfRzNOVWtLOEh4OXJWTWRfcXVOcGV2NzdkT2p3WXlhR3Q0Q1V0SFk1QWZjMm5lSVEzWkZPUG1heUdhTDVRNV9Bck1fWkN0Rm5nOHNodEFKVmpXemEtdkR2Z0FRZUU3dk51ejVRRWhHRXVqVjEwbno3NlNXTDJCdlNOYnl3UUR1ejd1Vnh5UVh3UjlEMlZ3ZkEyM1huYUVKRGg3MDE2MkhzZw?oc=5",
-      "source": "Radio Classique",
-      "publishedAt": "2026-10-20T13:47:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : le cabinet comptable à l'épreuve du lien humain",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBELWFaZERjYmkzMmV1dmhTbXp1WEF2NnczNE5UTHZNWi1WNmlyV1JFakNGZ2ZhbVdwS0ZQM1ZKQ2JLYVJtTXdPMHBKQTR1Tm5iSThEeWE3OTdvZWZxbU83UzFfNkw4YlhsNjJpaA?oc=5",
-      "source": "Compta Online",
-      "publishedAt": "2026-10-20T13:44:02+00:00"
     }
   ]
 }
