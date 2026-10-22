@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-22T12:58:32.556176+00:00",
+  "updatedAt": "2026-10-22T17:54:39.740370+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Quand l’intelligence artificielle aide à mieux décider dans les filières alimentaires et les bioproduits",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORS1OWG9zZWFOMVFMb0FxLWJEelp5X3I1WWdVRUNoVjJGV1hUYl9lbGoyMG10N1N4Q0djbEkzcXI1LXhidHFJempncmtheDg2X2tZVjBkU3NoeDJXQjIybWEwQThqT3E0c2ZoWkc0aGdjWVFnMlhyUHdIUEdjdm5JampIMWdqTEdjaEdpQWNEaXJ5RG1wMWNiN2NuaGFrTElZVGV0VWp2MERPYjRqMFA5OUIwQnpwMkNC?oc=5",
+      "source": "INRAE",
+      "publishedAt": "2026-10-22T17:29:03+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : à l’office de tourisme de Caen-la-Mer aussi, « c’est devenu un sujet » à prendre au sérieux",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQWTRWd2tJQjY4R3dvaGFzVG5RV1djZm9YSF9mX25MRTN6dHlCTWp3OU1SaTEyODhfQTBiUXdqdV9NbTlqQ2dCdlJGT0dBWkstV0pWaFBZYnVhM2xtMFIxYUJfNUp1bFBCeDRuam5oZmpNMWxPNmIwRWlfQmt6bElsRXFSUTJiQmxvOGdyTElVY1E3MHBIUE9PN0FmTXBzeEk1WGxMT1VWSEJpMC1jU3JtekFyaUVhUW1FZnYtaml0bF9ua3lrMnhlTnhJQzhYdjE4R1JlTkJhRWwwRE5zM2NiWkVIVmo5MkgzaC1RUHRQemRvQi1pa2NVN2FUb3pCSXplT1gtMDk2cWc1ZlF5N3BGUUxMU3RrMUh1TDBBcVlhVzJMQjVjNndIS1ZveHVSclF6aldQZFpB?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-10-22T17:01:02+00:00"
+    },
+    {
+      "title": "Les règles de (l’IA dans) l’art",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OQTV4MXZOb2R0X2tuZ2hKMFYzdG5oeUFZRjIxWHR2U1I3TUhFMS1pbFV6UzRTeU5sVVBxTXVqN3VEaW9QZ0duUHZ3VzZhNF9mTjFqMXVaV3luemFsaGtNcXRRMlk?oc=5",
+      "source": "Le Devoir",
+      "publishedAt": "2026-10-22T17:01:02+00:00"
+    },
+    {
+      "title": "Blaise Pascal, l’intelligence artificielle et la volonté",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObGNCbTNsbEd3TUZRY21pc1k4RFMyQVpNOHdwY1hmeUpRLW8teUVkNkgzSjR0LUQwdE93N3REVUF2MHRxSTNmOExMSjlKMGpPMVJBSUxoZ2ZPU3dXLTlTY200S2dyT2xxb0tuaGxyT0FzU1QyNFQ3eDlRZFEzQk81MFJRM2VlaVdldlY5N0FCZFMxLVZXeTZKYXlnSQ?oc=5",
+      "source": "La Croix",
+      "publishedAt": "2026-10-22T15:16:49+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : après le succès de Meta avec Muse, Anthropic présente Claude Duet, son agent IA à tout faire",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0FwaGNpNmlVajNpNEpZZGh2eDViOVpuY3V6a21PanNIVkk0RHZ0OC1iVVVjd0FnZ0xGTmpBMXF6LUc5QU9sWXAyaWJ1S1UtUHQ4YkhvVXRmV1lTR3lGa19WcVZqUjJ0R3FCMnV4UTdaSTljREMtV2dJYTNyOUFwWl9nRU5JMlp3QklKWnZpalBSTmNMMlNINkt2c3Rhbjd6alJsQmJ4cnpQNlRvWjhSSXhPYkNfOXZGZVFMR04xU18yTTU1MHJxT2MycDJOTFR6cWlkQWJOODFCNGg5RW5zM29MX2htdTdBMFphNXUwZ2wwQmNZWHVlT0xSMnU4YkhBYnhpUmI4eVlFV3FwYXlNRFVqTS03WFhlekJPLVJpVmtfMl9kcWh2aldacw?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-10-22T14:09:40+00:00"
+    },
+    {
+      "title": "De l’intelligence artificielle dans le suivi budgétaire des structures médico-sociales",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxObi1ObnlUb0pKQkFGRDhTTTBqdGh0ZEI3US1YZEpuT1VsTDJTUDBHbDhVYXN5cmN2d2tvVnFkYWRFeUR1VDBsbFoybk0wMG5MN2hXelBsMlFtY3NpSWlhRWp4bmNMWDI4ZklQcGtwM253Wjl2LXhKLUkyM2lZRTI2RDBpYzI5WEQxSGRYQXJWRm93aVBXdnFrX0VvODVUVWZXY1BiUzUzQTJnUHhwaFQ5THJZb29rNFpiUGxvM3dOQVpqLVYwS1M3dEducDFDZzctaUpldWF2Z0tydHVFSGFfNEp4ZGxhNlIyUGFxck95X3VwZENHN2VWSnBLSUIwZkl0UHZmX09IeU9GU2ZyVW52RXozU1lMSUlmNzA5dW9yUG9hQWJCQnZtcV94Njk2SEVfOG1SR20xQlhZcG9kbjZlZ1hlNUhCN0YzclZDMnFycE5LZw?oc=5",
+      "source": "La Gazette des Communes",
+      "publishedAt": "2026-10-22T13:12:35+00:00"
+    },
     {
       "title": "L’Intelligence artificielle finira-t-elle par plaider ?",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORV9BNFNpdGxFSnpuZUZIZ3FBSEpGcVFERDVHbFYzbHJDcEd0VXIxTi1RQXBlSTliWDJOLTViYVJSekNtT3p5ZmgwQWozRHVVRVJ0aDdnVWZLaldBd3FCWGRzOTZ4VVdJblpFbGFoUUotTC1JbkdudHpHWk1EVFlFa3hyOEVBa3AydFZUVC1qY01Xb2ViTWtUNzZGQ2NYeW90?oc=5",
@@ -15,64 +51,28 @@
       "publishedAt": "2026-10-22T12:00:20+00:00"
     },
     {
+      "title": "L'IA hors de sa boîte : apocalypse now?",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mN0J1WTRqdi1YMjlHOFRONlBfdXhQUG9jSVFMX1BwS0pCX1lreEhKdzRjME1zX2lMcEhwSENzeEZYcDZFLU81RVI4aC1IRWJlSW1uMFgycFdEUlFkbnZ5a2NmakYzcnl2OURyVHFXSkV5TDBqam9LYQ?oc=5",
+      "source": "l'Institut français des relations internationales (IFRI)",
+      "publishedAt": "2026-10-22T12:00:00+00:00"
+    },
+    {
       "title": "Intelligence artificielle : \"il faut au préalable une phase d'acculturation\", la Chambre d'agriculture forme les exploitants aux nouveaux outils numériques",
       "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOMl94aW9iaFlFNEpIQkFLZ0kwZTFWNFg3U0dEQUFwcWZpNXZ4dTU4UGQ1andlNFdlZUtmekNoaDdjZEtXb19pT3lDejRkQ1otWXctVUwtVE5GekVTZ1kyQ0lUVkdYRmJQNF9aODFuZXp3X3RCYy1zLV9PR2kwdm9lRWVDclVTbkZSUE1adUloZnp0aUcxUWxmbjZianBOSXN3a0g1ZThIME03RzFBUGpoUGQ4cVREN0dORm9RUG9pOXVrMWRkMVVLUWlzbUFuWE9fRWk4Mm1PanA0UFJ0cjdXX25xYVJCVllJQWxSSVpnQTM1eDUzalI2dkpRUU5PRnZ3ejNjSktUR3NsOENlN09yRk9KQWcwRWl0aWNuVTFvUkdiRVBpOUJKb3BnVlNINzduYjc0VkhPZFVJaGlmclUzLUg1YUdlVW5LakpLYWxNLTZIZnYzMWdr?oc=5",
       "source": "France 3 Régions",
       "publishedAt": "2026-10-22T11:40:07+00:00"
     },
     {
+      "title": "Le MIT a laissé une IA seule sur une île virtuelle. Comment a-t-elle réagi?",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlUwRmhOU3hTaXpmMk5wd0hDSGJzZnlFYnBUaWRmWUZHQm1VdEN6ejU1cXRGaDEzVlZ6eXFLazZheGRqRTlVSjEyMWx3WmlPVjJZakR0Mk5QY0xfelRMZVYtNW5DQ3FzcFF4N1Z0UXVTYklHd0cwRVdJc1dTVDlBQlp2aTdoRUpTekdpR3BFQ1J0SzhFSVN3cjgtRUxnaDdaTGxZMjR5ZmlNelN1dU53dVlVc2tfMVoxa004ekVWUmVEdHlheUE?oc=5",
+      "source": "magazine GEO",
+      "publishedAt": "2026-10-22T10:43:00+00:00"
+    },
+    {
       "title": "Intelligence artificielle : Walmart crée une interface dédiée aux courses faites par les agents IA de leurs cl",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOYkJwTkVhOU82UzZxcDQwRDVYZWo5UjcxUWRaWjE5dGVlQU5SdzVMUDI4QzM1OEFHeW9rRmJtNXB2b2xtRDItZWUyWmhHRFgxV0FZOWZSbzRSTngxQXl5ZV9ZZVRQYmV0NURPa012R3lmMFNQc0x1eFNDS1JSRmFVS3RSQUYtUFNNcHNWcEZsaTNTeW9LWDhiWm1JZGFRclc2VDZZS2F5aUtkaWRGcjhNT2tja1Z0VENjWEJMZ18zRTNXazRoeWdycEl2T0g5VG5PaTI1eUEwS3UxaE1GbzlwYkZNV1NsZWVxZFhuamQtSHJHNVU2cl9pX25jczd5cWJOLVVwal9XMzFNRFRzeWZCUDVPVmtOUXpCLWdSV2hxeU_SAaACQVVfeXFMTmJCcE5FYTlPNlM2cXA0MEQ1WGVqOVI3MVFkWloxOXRlZUFOUnc1TFAyOEMzNThBR3lva0ZibTVwdm9sbUQyLWVlMlpoR0RYMVdBWTlmUm80Uk54MUF5eWVfWWVUUGJldDVET2tNdkd5ZjBTUHNMdXhTQ0tSUkZhVUt0UkFGLVBTTXBzVnBGbGkzU3lvS1g4YlptSWRhUXJXNlQ2WUtheWlLZGlkRnI4TU9rY2tWdFRDY1hCTGdfM0UzV2s0aHlncnBJdk9IOVRuT2kyNXlBMEt1MWhNRm85cGJGTVdTbGVlcWRYbmpkLUhyRzVVNnJfaV9uY3M3eXFiTi1VcGpfVzMxTURUc3lmQlA1T1ZrTlF6Qi1nUldocXlP?oc=5",
       "source": "Boursorama",
       "publishedAt": "2026-10-22T09:57:46+00:00"
-    },
-    {
-      "title": "72% des créateurs utilisent l’intelligence artificielle pour leur vidéo YouTube",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT01wbzlfeGgxWE43cU5MbWhybzJkd25xWDA2R0JGbHRRYmJISXhZNW5UbS0yRWdSc0VHN2kybzNfY0RvLWc5ZmlORDc2N3lPWkZITnFOZUdYd3lDSUVDckdWR005eG1mWXNmVzJpU2FnYS1kMHFRb3JYdjdjUmRBVmd1MUNGZHhiaWpTR3IzVGRQVWFJMWVXX1cxb0hnaTgxOEtmMXdmUDVuak53SmdHSi1TMUrSAboBQVVfeXFMTmVkb0dYbDVKR2trVXhWVGYzMlc0WnVZWDRHakMtZ0w1VXpiaEVwcG8zLTNuNlQ0OGVsRVlkeVFENHhPY0dhb3k3NklnM0JNQWJJWHNCckhwaWtlTDJNZzFnMnNTQ0V0d1hWV19JWENZd3gtZ0UyUkZzR3gwNmY3TkpNTklGUW0zQktVTGl1RmJxRHBIeTF2QVNZWnk2UkF1MllCZHdVVy11eTNwMVNkOUE2SXVUZU1IdzJn?oc=5",
-      "source": "Les Gens d'Internet",
-      "publishedAt": "2026-10-22T09:06:24+00:00"
-    },
-    {
-      "title": "L'IA ne vaut que si elle est partagée : pour une démocratisation technologique de l'immobilier",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTzVoblNhOXNZVzZRRzR0enQtaTlJVGE1M3ktWmszTkhua3E3R0NlTmxKSnAxWVlXTkNpWnIxUzl1allhUU9rcWxSN0lmTFFsWVA4c2FNQXJYM3F5QzNhUWZtSkcyUTZJU2l6QUliTy16RGh2VDQtNkNCOFhBX0N5NDlYOFNtU0ZiQk84VjFidHR5c0x2T3pia0o3YnNFVG8zRVI0S3JrUEhIZGs1OGlxSElfeHVqYkV5dnZWaFpmRlMtRF8wYlZrLW1Pdm1zWVk2ODJFRC1HdjAtcmtGUTVTcDFPMzkwUlk?oc=5",
-      "source": "Immo Matin",
-      "publishedAt": "2026-10-22T08:57:38+00:00"
-    },
-    {
-      "title": "Intelligence artificielle en santé : Galeon réunit les acteurs hospitaliers à Marseille le 18 novembre",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYm9FU1Q3WGIzNTk3aGVicmRUQUlyTXhaRnJKZ1dEcEF5SERBblVHSmhSRFNPZFc2dlBaU18ySnJ6UHlZYlNjS1lVc3pTQXdZcERGYXM3dUgxNkU1cWJDTDU3WGZ5SVVvcXhBRV9hbTRpNmJoak9wRmc0M3lfY2FnWGhial9sbEk3Q19uZV9weDNBQ3R2cXJUTUVFak1XWE93ZVRtQm1yVEVha1RqVFY4MTEwalN6eGFlc2p4MlNsX1QzQXJMNjZYVEpEbnNmM3dOVXpj?oc=5",
-      "source": "Hospitalia.fr",
-      "publishedAt": "2026-10-22T08:56:31+00:00"
-    },
-    {
-      "title": "Barclays va supprimer 5 000 emplois dans le cadre d'un plan de réduction des coûts basé sur l'intelligence art",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQRHB5T2N5TUtaV3QwTFBuVV9jOWpWUVhva0V3Wk1mLXN5U0dkcl9scktLSlJHNXRGMzdDcERvQmVWbGxDU3R1XzVKQ2twVW1ka0E2VTEtbUNvRDhOaUtSR0ZGYWlmV2huNmFFNkhqZkdfNFFCc2ozWXBVUjlBWUlLYkYwdTh6VzU1dzZnVnA0UnVRcEtKZGxZdzRESkxrS09SdFByeExLQWd4NE10VWhsRzh1MGJRdHJJQUtiN2xHRktDamgzYkM2NnQ0RlVDaWw1U01weFFPNUItbU1MbDRGTzJ1SEpSdWN1d2kwYUpzaC14S21PaS12ZzZ0V1FqdFM3eC14SmtJeGd3UHJjZUVNNWhpVHFEN3JzNVV6eV80MkZYMTJ3M1RtTdIBqAJBVV95cUxQRHB5T2N5TUtaV3QwTFBuVV9jOWpWUVhva0V3Wk1mLXN5U0dkcl9scktLSlJHNXRGMzdDcERvQmVWbGxDU3R1XzVKQ2twVW1ka0E2VTEtbUNvRDhOaUtSR0ZGYWlmV2huNmFFNkhqZkdfNFFCc2ozWXBVUjlBWUlLYkYwdTh6VzU1dzZnVnA0UnVRcEtKZGxZdzRESkxrS09SdFByeExLQWd4NE10VWhsRzh1MGJRdHJJQUtiN2xHRktDamgzYkM2NnQ0RlVDaWw1U01weFFPNUItbU1MbDRGTzJ1SEpSdWN1d2kwYUpzaC14S21PaS12ZzZ0V1FqdFM3eC14SmtJeGd3UHJjZUVNNWhpVHFEN3JzNVV6eV80MkZYMTJ3M1RtTQ?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-22T08:08:40+00:00"
-    },
-    {
-      "title": "IA : le chinois DeepSeek lève un record de près de 15 milliards de dollars",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWm1LYWEycmtEMFEwUC1ySWpMWHJLZkpzbFlyUGhRZm9zMGJFWU1ySWRMWHVRNERocVl0MXI4LVdpa1o3dzk4TWt5ZVVRSDk4ZVc0UVdZdUVCSUFwcmpaRUM5V3J5UUV4WjVHVThHT1MyaEVCYXlLbmw5NnE1bUdyT0cyeVFwS21iZFI5bWkteGRfSEY4LWFBaTZYcFZxNGduU2JaTUlyWTZOQUZOQ1o5X3I3ckgxOUZhZGdTX0JCSUV1SDNIZDdHMg?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-22T07:33:23+00:00"
-    },
-    {
-      "title": "Nokia profite de l'IA, sa restructuration coûte plus cher que prévu",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdjZVSGtPQ0dWZkpNZVdRbDFuZFlLeG5kLUJFTUp3ek91UGVYdGUtbmplRzRaeV9DdHp5dFIzQ1NvVlZpdG8wdnAySTZwbVFhcEdjWFZaaFllSzgwbmhZUDh1UU1wcnNGVXRwVzVYRTRYeU9zQXEyODhDUjVrb1NsUFpjRktqRGt4RnRjU3NaUXVvTGZ1cWxZYmQySnlZeU9sTllmcktjQTdHU2NtczdsMTl1Ul8zUWZLcXBGMEhCQkQ4emdKYkFCYThqZXh3c1V1UmpaQU1ZQ1laQTlBa3FwcHlB0gHiAUFVX3lxTE52NlVIa09DR1ZmSk1lV1FsMW5kWUt4bmQtQkVNSnd6T3VQZVh0ZS1uamVHNFp5X0N0enl0UjNDU29WVml0bzB2cDJJNnBtUWFwR2NYVlpoWWVLODBuaFlQOHVRTXByc0ZVdHBXNVhFNFh5T3NBcTI4OENSNWtvU2xQWmNGS2pEa3hGdGNTc1pRdW9MZnVxbFliZDJKeVl5T2xOWWZyS2NBN0dTY21zN2wxOXVSXzNRZktxcEYwSEJCRDh6Z0piQUJhOGpleHdzVXVSalpBTVlDWVpBOUFrcXBweUE?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-22T07:22:00+00:00"
-    },
-    {
-      "title": "Créer un prix pour les livres écrits avec l’IA, c’est être très prompt à l’opportunisme",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeTBtSXNXdTU5X2x2TWY0Ql85QUl0TGRacVJpXzBadGJ1ZEZNcllMY1VGVTU5OHJpZDNodm1RUVRkT3pzTG1YVEFULTNFOWhRSlZNN0VneHRNNjgwQVRpM2xRd3dVSXBsYWtCQnpqd2gtem1yb0djWnY0aHB4NWJKcWxhbFp2cHVQdXdMNHZjampNY21oZVlES3NzXzRWQTlROVFHYlVUVTlzTE9KNm1oemVWWWMtUGFJZXZiZ3VLS1B4LVNfYzE3V3dHeHQ5VmR1MXZBbTVTRnNTeXlxZ212VkVnZk1hQWlzcHdYYnktcFRITjBN?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-22T06:48:00+00:00"
-    },
-    {
-      "title": "Mini-data center, sécurité des agents, IA physique… les nouvelles ambitions de Nvidia",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOb0JaazlZZHJqT3FGc2J2ZVdlSEJhQ1BSSjFwZ200QXktVkp6d0NyaVhwMmZCMnJ5SEdvSUlWUWpUUzBUR3lnaXlDWGJtX3cyd2JSakVRMVhvdTVYcDJ5REZiUk04RWJMNzhzTjNLWUJXalNLZ0FmeHBWNUJaa1RVd1BiMlF3SHVmUS1sQ0VOVGpnOVVwUVNubkdwd0RkSW5WdGhKYkVTS3pWNzhLemZhelR6WlNWbFNEbU1ad2UxamlWSFR5a1Z3MG0tNkVkZWpDX3FBSXkwSTZjdzBfQ0Rtb0xDUndmSzg?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-22T04:40:08+00:00"
     }
   ]
 }
