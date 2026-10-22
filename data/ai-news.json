@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:09:08.820168+00:00",
+  "updatedAt": "2026-10-22T23:58:24.864481+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -27,6 +27,12 @@
       "publishedAt": "2026-10-22T17:01:02+00:00"
     },
     {
+      "title": "IA : à qui profite la peur de la fin du monde ?",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVEhBU08xUUxtT3M5bzd1Ykx4OEQzZmtnX2s2c29PclFVbmV2ZTcyUmZrcFV0ZndyVzRuTWNkLU1ISWRLWm1aOEdQREJZOGs1bGtRaGpNVzI0Sl83WFJieWhUclF6VTcxNXM5ejdXMDNOQy1tVm1TZ1FBNlQ4Sjl3czdXUXZBa1QwRVNPYWpBelcxdUNwMXVDeXRUWDctbDZ6RG5GeEtlMElaQQ?oc=5",
+      "source": "Blast",
+      "publishedAt": "2026-10-22T16:39:22+00:00"
+    },
+    {
       "title": "5 000 emplois remplacés par l’IA ? Barclays taille dans ses effectifs au nom des « gains d’efficacité » permis par l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOTEM4ZVVDdEEwczFQMHhxNkNkWl9YSW9vQUFIelRxeUc1V2xWc2ExOHpuVlA1Q181NnhVaGt3V3JWd1dCQXhwb19iRWk0UnRSNkZJM2FKMjdJSVZUZkYwVnJjdWw4a3dUZ3ZjdEg2aVlBT081M0liODMwVkNiSEdHS2VJMGVuRlpTMW9BLUJfNGVydmV0SHFhUXhpWmtuRW9XVG9NYm81UzduazVqa1FFdjI3VHB0V1hISldBSnpwS1hRTmxiOWpsTzRBMzhhMlZ3ZDR2Y01jc3BLVXRfRklYS2NJd1ozb3pDMDE2MHRwZzRKRnVFWHFLY0xvV3duenBKQm9EVFBQalV1ZnFNS3JTYXAxR3lHa3J0VzhYMDF0OWt2Z00?oc=5",
       "source": "Challenges",
@@ -37,12 +43,6 @@
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObGNCbTNsbEd3TUZRY21pc1k4RFMyQVpNOHdwY1hmeUpRLW8teUVkNkgzSjR0LUQwdE93N3REVUF2MHRxSTNmOExMSjlKMGpPMVJBSUxoZ2ZPU3dXLTlTY200S2dyT2xxb0tuaGxyT0FzU1QyNFQ3eDlRZFEzQk81MFJRM2VlaVdldlY5N0FCZFMxLVZXeTZKYXlnSQ?oc=5",
       "source": "La Croix",
       "publishedAt": "2026-10-22T15:16:49+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : après le succès de Meta avec Muse, Anthropic présente Claude Duet, son agent IA à tout faire",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0FwaGNpNmlVajNpNEpZZGh2eDViOVpuY3V6a21PanNIVkk0RHZ0OC1iVVVjd0FnZ0xGTmpBMXF6LUc5QU9sWXAyaWJ1S1UtUHQ4YkhvVXRmV1lTR3lGa19WcVZqUjJ0R3FCMnV4UTdaSTljREMtV2dJYTNyOUFwWl9nRU5JMlp3QklKWnZpalBSTmNMMlNINkt2c3Rhbjd6alJsQmJ4cnpQNlRvWjhSSXhPYkNfOXZGZVFMR04xU18yTTU1MHJxT2MycDJOTFR6cWlkQWJOODFCNGg5RW5zM29MX2htdTdBMFphNXUwZ2wwQmNZWHVlT0xSMnU4YkhBYnhpUmI4eVlFV3FwYXlNRFVqTS03WFhlekJPLVJpVmtfMl9kcWh2aldacw?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-22T14:09:40+00:00"
     },
     {
       "title": "Une IA découvre une faille dans le langage informatique PHP, des milliers de sites web mis hors ligne",
