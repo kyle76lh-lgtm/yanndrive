@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-10-22T17:54:39.740370+00:00",
+  "updatedAt": "2026-10-22T21:09:08.820168+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Formation en ligne dans le domaine de l'Intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdWlneldENVE3akxvZGhZREJfSkw0dHBTY0dJV0xQUWowcHZOajBLMFIyYVdTZmtBTnFrRXAwc3ZURS1nckd6MWtSVUpQVzhTYmdaSUROaEpUSTJXdFdvZ2kyNFJjVlRwMEtoTFpKYS1HbVA3SG05WU4wN1RRa2sybHNkNVJOVE5QZnpSek45SWtMZ0t0XzFWTEwzOUNjM00?oc=5",
+      "source": "Organisation internationale de la Francophonie (OIF)",
+      "publishedAt": "2026-10-22T19:27:40+00:00"
+    },
     {
       "title": "Quand l’intelligence artificielle aide à mieux décider dans les filières alimentaires et les bioproduits",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORS1OWG9zZWFOMVFMb0FxLWJEelp5X3I1WWdVRUNoVjJGV1hUYl9lbGoyMG10N1N4Q0djbEkzcXI1LXhidHFJempncmtheDg2X2tZVjBkU3NoeDJXQjIybWEwQThqT3E0c2ZoWkc0aGdjWVFnMlhyUHdIUEdjdm5JampIMWdqTEdjaEdpQWNEaXJ5RG1wMWNiN2NuaGFrTElZVGV0VWp2MERPYjRqMFA5OUIwQnpwMkNC?oc=5",
       "source": "INRAE",
-      "publishedAt": "2026-10-22T17:29:03+00:00"
+      "publishedAt": "2026-10-22T18:27:37+00:00"
     },
     {
       "title": "Intelligence artificielle : à l’office de tourisme de Caen-la-Mer aussi, « c’est devenu un sujet » à prendre au sérieux",
@@ -21,6 +27,12 @@
       "publishedAt": "2026-10-22T17:01:02+00:00"
     },
     {
+      "title": "5 000 emplois remplacés par l’IA ? Barclays taille dans ses effectifs au nom des « gains d’efficacité » permis par l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOTEM4ZVVDdEEwczFQMHhxNkNkWl9YSW9vQUFIelRxeUc1V2xWc2ExOHpuVlA1Q181NnhVaGt3V3JWd1dCQXhwb19iRWk0UnRSNkZJM2FKMjdJSVZUZkYwVnJjdWw4a3dUZ3ZjdEg2aVlBT081M0liODMwVkNiSEdHS2VJMGVuRlpTMW9BLUJfNGVydmV0SHFhUXhpWmtuRW9XVG9NYm81UzduazVqa1FFdjI3VHB0V1hISldBSnpwS1hRTmxiOWpsTzRBMzhhMlZ3ZDR2Y01jc3BLVXRfRklYS2NJd1ozb3pDMDE2MHRwZzRKRnVFWHFLY0xvV3duenBKQm9EVFBQalV1ZnFNS3JTYXAxR3lHa3J0VzhYMDF0OWt2Z00?oc=5",
+      "source": "Challenges",
+      "publishedAt": "2026-10-22T15:30:00+00:00"
+    },
+    {
       "title": "Blaise Pascal, l’intelligence artificielle et la volonté",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObGNCbTNsbEd3TUZRY21pc1k4RFMyQVpNOHdwY1hmeUpRLW8teUVkNkgzSjR0LUQwdE93N3REVUF2MHRxSTNmOExMSjlKMGpPMVJBSUxoZ2ZPU3dXLTlTY200S2dyT2xxb0tuaGxyT0FzU1QyNFQ3eDlRZFEzQk81MFJRM2VlaVdldlY5N0FCZFMxLVZXeTZKYXlnSQ?oc=5",
       "source": "La Croix",
@@ -31,6 +43,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNd0FwaGNpNmlVajNpNEpZZGh2eDViOVpuY3V6a21PanNIVkk0RHZ0OC1iVVVjd0FnZ0xGTmpBMXF6LUc5QU9sWXAyaWJ1S1UtUHQ4YkhvVXRmV1lTR3lGa19WcVZqUjJ0R3FCMnV4UTdaSTljREMtV2dJYTNyOUFwWl9nRU5JMlp3QklKWnZpalBSTmNMMlNINkt2c3Rhbjd6alJsQmJ4cnpQNlRvWjhSSXhPYkNfOXZGZVFMR04xU18yTTU1MHJxT2MycDJOTFR6cWlkQWJOODFCNGg5RW5zM29MX2htdTdBMFphNXUwZ2wwQmNZWHVlT0xSMnU4YkhBYnhpUmI4eVlFV3FwYXlNRFVqTS03WFhlekJPLVJpVmtfMl9kcWh2aldacw?oc=5",
       "source": "Sud Ouest",
       "publishedAt": "2026-10-22T14:09:40+00:00"
+    },
+    {
+      "title": "Une IA découvre une faille dans le langage informatique PHP, des milliers de sites web mis hors ligne",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPa20wNTl0eWJOQmx6NlRHOXV6WWpvdzZ0WmpqQTdJS1h2OGZvZ3I4aDBvQ01xTTN0Q1hrdUVpaEtMTzFSZk44Zk1QVm05OGJwZnBiYkJVQk5JY0k1Mk5wUlZtcERtQU9nVjBIdWJDQ3Q5TkZkdmVZbzU4S000R1lvZFgzTklralItQWxldDVrRzRuRXNuNG5DTWxIOEphelVoTURPY0tvZkRUaVh1Tjgyc0NhcllELVRhZ1V6V0dJQWJXYm9SOVNTZ1NWbGp3dWVUaTlZNXhYbVpxWEJkekQyRUtxRQ?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-10-22T13:52:37+00:00"
     },
     {
       "title": "De l’intelligence artificielle dans le suivi budgétaire des structures médico-sociales",
@@ -55,24 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mN0J1WTRqdi1YMjlHOFRONlBfdXhQUG9jSVFMX1BwS0pCX1lreEhKdzRjME1zX2lMcEhwSENzeEZYcDZFLU81RVI4aC1IRWJlSW1uMFgycFdEUlFkbnZ5a2NmakYzcnl2OURyVHFXSkV5TDBqam9LYQ?oc=5",
       "source": "l'Institut français des relations internationales (IFRI)",
       "publishedAt": "2026-10-22T12:00:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : \"il faut au préalable une phase d'acculturation\", la Chambre d'agriculture forme les exploitants aux nouveaux outils numériques",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOMl94aW9iaFlFNEpIQkFLZ0kwZTFWNFg3U0dEQUFwcWZpNXZ4dTU4UGQ1andlNFdlZUtmekNoaDdjZEtXb19pT3lDejRkQ1otWXctVUwtVE5GekVTZ1kyQ0lUVkdYRmJQNF9aODFuZXp3X3RCYy1zLV9PR2kwdm9lRWVDclVTbkZSUE1adUloZnp0aUcxUWxmbjZianBOSXN3a0g1ZThIME03RzFBUGpoUGQ4cVREN0dORm9RUG9pOXVrMWRkMVVLUWlzbUFuWE9fRWk4Mm1PanA0UFJ0cjdXX25xYVJCVllJQWxSSVpnQTM1eDUzalI2dkpRUU5PRnZ3ejNjSktUR3NsOENlN09yRk9KQWcwRWl0aWNuVTFvUkdiRVBpOUJKb3BnVlNINzduYjc0VkhPZFVJaGlmclUzLUg1YUdlVW5LakpLYWxNLTZIZnYzMWdr?oc=5",
-      "source": "France 3 Régions",
-      "publishedAt": "2026-10-22T11:40:07+00:00"
-    },
-    {
-      "title": "Le MIT a laissé une IA seule sur une île virtuelle. Comment a-t-elle réagi?",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlUwRmhOU3hTaXpmMk5wd0hDSGJzZnlFYnBUaWRmWUZHQm1VdEN6ejU1cXRGaDEzVlZ6eXFLazZheGRqRTlVSjEyMWx3WmlPVjJZakR0Mk5QY0xfelRMZVYtNW5DQ3FzcFF4N1Z0UXVTYklHd0cwRVdJc1dTVDlBQlp2aTdoRUpTekdpR3BFQ1J0SzhFSVN3cjgtRUxnaDdaTGxZMjR5ZmlNelN1dU53dVlVc2tfMVoxa004ekVWUmVEdHlheUE?oc=5",
-      "source": "magazine GEO",
-      "publishedAt": "2026-10-22T10:43:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Walmart crée une interface dédiée aux courses faites par les agents IA de leurs cl",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOYkJwTkVhOU82UzZxcDQwRDVYZWo5UjcxUWRaWjE5dGVlQU5SdzVMUDI4QzM1OEFHeW9rRmJtNXB2b2xtRDItZWUyWmhHRFgxV0FZOWZSbzRSTngxQXl5ZV9ZZVRQYmV0NURPa012R3lmMFNQc0x1eFNDS1JSRmFVS3RSQUYtUFNNcHNWcEZsaTNTeW9LWDhiWm1JZGFRclc2VDZZS2F5aUtkaWRGcjhNT2tja1Z0VENjWEJMZ18zRTNXazRoeWdycEl2T0g5VG5PaTI1eUEwS3UxaE1GbzlwYkZNV1NsZWVxZFhuamQtSHJHNVU2cl9pX25jczd5cWJOLVVwal9XMzFNRFRzeWZCUDVPVmtOUXpCLWdSV2hxeU_SAaACQVVfeXFMTmJCcE5FYTlPNlM2cXA0MEQ1WGVqOVI3MVFkWloxOXRlZUFOUnc1TFAyOEMzNThBR3lva0ZibTVwdm9sbUQyLWVlMlpoR0RYMVdBWTlmUm80Uk54MUF5eWVfWWVUUGJldDVET2tNdkd5ZjBTUHNMdXhTQ0tSUkZhVUt0UkFGLVBTTXBzVnBGbGkzU3lvS1g4YlptSWRhUXJXNlQ2WUtheWlLZGlkRnI4TU9rY2tWdFRDY1hCTGdfM0UzV2s0aHlncnBJdk9IOVRuT2kyNXlBMEt1MWhNRm85cGJGTVdTbGVlcWRYbmpkLUhyRzVVNnJfaV9uY3M3eXFiTi1VcGpfVzMxTURUc3lmQlA1T1ZrTlF6Qi1nUldocXlP?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-22T09:57:46+00:00"
     }
   ]
 }
