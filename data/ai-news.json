@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-22T23:58:24.864481+00:00",
+  "updatedAt": "2026-10-23T04:19:41.676274+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Les inquiétudes sur l’intelligence artificielle font plonger Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRFc0UW1Pb09DNHZsOVk1dm4xRlJPYW16Mkg1eGM2M2FBaWdPWWpoa3ZGM2FrUjd0Sy01S1NYOGY2RXNGTmwzVzJzQ2NGZktTbVhEMkdzbVQ2WlMtcFd3OW5pc2RBdFFrQU5yRnM2Z05GLW1FNUFYN0pNUkRkRWxfaFBWTHJDQVNDQm51UmNBaDJxdHVBb2lzaEJnVWN5TXBaQjRfSmNldlEycWZuOHZEaUZCLWNqU3Rmd19IOVZ6aTlOMS1Sb05ibTFERng3d04wLU5GVW5pNVc?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-23T04:04:31+00:00"
+    },
     {
       "title": "Formation en ligne dans le domaine de l'Intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdWlneldENVE3akxvZGhZREJfSkw0dHBTY0dJV0xQUWowcHZOajBLMFIyYVdTZmtBTnFrRXAwc3ZURS1nckd6MWtSVUpQVzhTYmdaSUROaEpUSTJXdFdvZ2kyNFJjVlRwMEtoTFpKYS1HbVA3SG05WU4wN1RRa2sybHNkNVJOVE5QZnpSek45SWtMZ0t0XzFWTEwzOUNjM00?oc=5",
@@ -18,12 +24,6 @@
       "title": "Intelligence artificielle : à l’office de tourisme de Caen-la-Mer aussi, « c’est devenu un sujet » à prendre au sérieux",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQWTRWd2tJQjY4R3dvaGFzVG5RV1djZm9YSF9mX25MRTN6dHlCTWp3OU1SaTEyODhfQTBiUXdqdV9NbTlqQ2dCdlJGT0dBWkstV0pWaFBZYnVhM2xtMFIxYUJfNUp1bFBCeDRuam5oZmpNMWxPNmIwRWlfQmt6bElsRXFSUTJiQmxvOGdyTElVY1E3MHBIUE9PN0FmTXBzeEk1WGxMT1VWSEJpMC1jU3JtekFyaUVhUW1FZnYtaml0bF9ua3lrMnhlTnhJQzhYdjE4R1JlTkJhRWwwRE5zM2NiWkVIVmo5MkgzaC1RUHRQemRvQi1pa2NVN2FUb3pCSXplT1gtMDk2cWc1ZlF5N3BGUUxMU3RrMUh1TDBBcVlhVzJMQjVjNndIS1ZveHVSclF6aldQZFpB?oc=5",
       "source": "Ouest-France",
-      "publishedAt": "2026-10-22T17:01:02+00:00"
-    },
-    {
-      "title": "Les règles de (l’IA dans) l’art",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OQTV4MXZOb2R0X2tuZ2hKMFYzdG5oeUFZRjIxWHR2U1I3TUhFMS1pbFV6UzRTeU5sVVBxTXVqN3VEaW9QZ0duUHZ3VzZhNF9mTjFqMXVaV3luemFsaGtNcXRRMlk?oc=5",
-      "source": "Le Devoir",
       "publishedAt": "2026-10-22T17:01:02+00:00"
     },
     {
@@ -51,6 +51,12 @@
       "publishedAt": "2026-10-22T13:52:37+00:00"
     },
     {
+      "title": "Wall Street ouvre dans le rouge, la méfiance envers l'IA refait surface",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa2ZyLWNoZTI2Qmk1VjlHdFpCTXFPR2NGNVRvakJ2UHNfYWxsN3U3VmNkWDFJeDhxdHE0d1plc0tKaFlnR0hHV1JZcWRuU216MmNBN2NEVEFZRllpLXVBNEtMdnhWMlhDaTNNcEFDMGsyQ2hmdldWOTN1eWhGd2ZBNEZRanNMY0FRcFcteEtwRjJLNXhxdXVyOTVlRkZKQ3NjdkZmdW9WalFlLWk1a194Q3YxOUNncjdEbWZWdk93VXFEMzlHREtvSWJST21HNGRJUk1OckF5UE9IUEtqbzR5bjItWUZ6bHPSAecBQVVfeXFMUGtmci1jaGUyNkJpNVY5R3RaQk1xT0djRjVUb2pCdlBzX2FsbDd1N1ZjZFgxSXg4cXRxNHdaZXNLSmhZZ0dIR1dSWXFkblNtejJjQTdjRFRBWUZZaS11QTRLTHZ4VjJYQ2kzTXBBQzBrMkNoZnZXVjkzdXloRndmQTRGUWpzTGNBUXBXLXhLcEYySzV4cXV1cjk1ZUZGSkNzY3ZGZnVvVmpRZS1pNWtfeEN2MTlDZ3I3RG1mVnZPd1VxRDM5R0RLb0liUk9tRzRkSVJNTnJBeVBPSFBLam80eW4yLVlGemxz?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-22T13:46:50+00:00"
+    },
+    {
       "title": "De l’intelligence artificielle dans le suivi budgétaire des structures médico-sociales",
       "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxObi1ObnlUb0pKQkFGRDhTTTBqdGh0ZEI3US1YZEpuT1VsTDJTUDBHbDhVYXN5cmN2d2tvVnFkYWRFeUR1VDBsbFoybk0wMG5MN2hXelBsMlFtY3NpSWlhRWp4bmNMWDI4ZklQcGtwM253Wjl2LXhKLUkyM2lZRTI2RDBpYzI5WEQxSGRYQXJWRm93aVBXdnFrX0VvODVUVWZXY1BiUzUzQTJnUHhwaFQ5THJZb29rNFpiUGxvM3dOQVpqLVYwS1M3dEducDFDZzctaUpldWF2Z0tydHVFSGFfNEp4ZGxhNlIyUGFxck95X3VwZENHN2VWSnBLSUIwZkl0UHZmX09IeU9GU2ZyVW52RXozU1lMSUlmNzA5dW9yUG9hQWJCQnZtcV94Njk2SEVfOG1SR20xQlhZcG9kbjZlZ1hlNUhCN0YzclZDMnFycE5LZw?oc=5",
       "source": "La Gazette des Communes",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWmkxc0RjVF9od1ZFcTBEQ2RIbTFtd0ZWdUMyU3pBRzhEckU2MFhKN3RFYkk1c2puYy0xWEZDcHZHcFlnLW1XU0Fwc25kakhuNU1tTDBZVzRvNU5vWXl3azVvbTVVNXBXYXJNZWNXSVM0OWg1SHM0RHozb3p5emtxT0lqcFg0MnlHUlFzNFlmMGV5MllEYlNkZUhiRDFyOVBFNlJueWVrcGJlX3d4RnUwbGRqSTJ4YmVkenBYNWxuTE83QQ?oc=5",
       "source": "Éditions WEKA",
       "publishedAt": "2026-10-22T12:00:20+00:00"
-    },
-    {
-      "title": "L'IA hors de sa boîte : apocalypse now?",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mN0J1WTRqdi1YMjlHOFRONlBfdXhQUG9jSVFMX1BwS0pCX1lreEhKdzRjME1zX2lMcEhwSENzeEZYcDZFLU81RVI4aC1IRWJlSW1uMFgycFdEUlFkbnZ5a2NmakYzcnl2OURyVHFXSkV5TDBqam9LYQ?oc=5",
-      "source": "l'Institut français des relations internationales (IFRI)",
-      "publishedAt": "2026-10-22T12:00:00+00:00"
     }
   ]
 }
