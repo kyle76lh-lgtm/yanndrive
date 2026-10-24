@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-24T13:01:50.457267+00:00",
+  "updatedAt": "2026-10-24T16:31:58.432844+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle et risques existentiels pour l’humanité : au-delà du brouillard médiatique",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU2s0UVk2UERhalppMTU1anZtVVliTFloN2NnMnVpUmJYeFotX1BFdXc4Zl9Takl5RGdxUENCY3FLRS13UmROZFBURkN1Q0RJWWhPV0VlOTlQaV9sa3ppbFJ5RzhOQm5BSm5FYm5WTHkxWVZ2MHFHOWtFaWFjUzM3UTBGNTcwR29ydDNsczlOd09nMV9uZk1jaDhZQkd5UQ?oc=5",
+      "source": "Association française pour l’information scientifique",
+      "publishedAt": "2026-10-24T11:06:16+00:00"
+    },
     {
       "title": "Peut-on se fier à l’IA pour randonner ? Le comité FFRandonnée Doubs s’interroge",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUEFwLU1lRzUyRDUwYl8xbE12OFNNNUpXTEVOTU9pbnQtWUtJMEc4aVJQRmRtVG1ETWp6TG9adGpzSTdjckoxUHVodUVYWldmbUEteFZYNkd4VVdMR0hJSTJzbGFYMlFIb2ktN1ZjcHVZX2Q2YUVBaDRzeWtRVXgtRDctN2p5em8zWXlYX214QVVoOWQxdEtvQzUyeU1KNW15SUFiSDh6YVh3NjJsZkNVTG44UDBWcmpXdV9qMTkzdC10Njky?oc=5",
@@ -33,10 +39,22 @@
       "publishedAt": "2026-10-24T03:13:42+00:00"
     },
     {
+      "title": "Une IA souveraine européenne, ça veut dire quoi concrètement ?",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeE9rbk40YUpmb2trRGtZMV9YNi14TXk3N0dQLXBrMlpYc0ZrbjZkYjFNVjlBSFZnd0tlT0JYTmVsUEVETEMtQjJSQ3VrN3ppWnZ3UTYwd08weEpWOFVoYmk2cHVwZ25SemtqWnBIc0QtSm5KLWZyT0xFd3NNTUk1WGhITXdCUTNjR2NiVy1vX3VqUFAxU3hRMGItNmpPQQ?oc=5",
+      "source": "Maddyness",
+      "publishedAt": "2026-10-23T19:18:11+00:00"
+    },
+    {
       "title": "Pays de Montbéliard. Intelligence artificielle : pourquoi l’Agglo prend une longueur d’avance",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVXVlbkxxS0Z5clJycFhRS1Z5c05KcmZtM2l5UE9odjJqaldYVnV4YlBHY3R0dzAzWkotN2Q5ajFrc2VzYlFKLTg4TDJJREFUWnJTdF9oSXkwZ0ljenVHNUNLcW4xbnVDQkl5WHV6bHlBQS1uVjIzVVpGYzJuM05rbWwxb3g4dGlkWkFzcWxxdmhQN0pnU2h0UDluaEtTdXdhRm9nTlNmRnNIU3pDVDRsZVAzNzBCN2k3REpfcmFB?oc=5",
       "source": "L'Est Républicain",
       "publishedAt": "2026-10-23T18:47:53+00:00"
+    },
+    {
+      "title": "Les craintes liées aux technologies de l’intelligence artificielle (IA) propulsent les écarts de crédit mondiaux à leur plus haut niveau depuis 17 mois",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR08zZ1ZVTW1lT2Y1bU9RTjRtblV6SzAxSEU3VU1uRU1GYVRkRHVWSGhWa3Q4d0dfODFxYTh1TF9abVljM2llMERaeHFQNWxMdWlOY3pzSlF2X0tYR3pYaVVRZWU0V0JWal9ENk9FbmU1QWhUSlk3MjZSWnJ2NWVfem9CNmdsM25EZmFPQTZiOFpJX0taY2RsS2hqRDNkVGszT3pzLUZBcG55SDBGT1ozYXJjejZFN2FWV1p0VHlFRm50MXpDcUkzbjg1TTNpb21QaUJlTm53VVNtNlZTN2x3V2g2aTJ3OTFHQy00aHpB?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-10-23T16:21:17+00:00"
     },
     {
       "title": "L’intelligence artificielle a gagné",
@@ -45,34 +63,16 @@
       "publishedAt": "2026-10-23T16:18:46+00:00"
     },
     {
-      "title": "Stabilité financière mondiale: l’IA soutient la croissance, mais les risques «demeurent élevés», selon le FMI",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPVHhobGxQOWNuR0g3Vy1wcWl1SkREU3oxdTBxWUhsQWFxWG5xMjNrSDZWTzROeFpfZDZLYU9zQ0M4cjBjazUwZjRrVjkydmo4S3hWd2VaOGhLLXJCTVFIaVJiYUp2Q0prRUlTNHBoamM3WTZLZ18xUHN1elRmd0VwcDBKX0s3WmNQdmIxdlBSMG5xd3Btd0RHc0Z1YXo3X19EWndGdGVrMXh1VHdvSW1WTjNCSlgxM0tHS0k4SjdId0VTRWQtcVBrQTU2WVl6QnpzVldBSGp2bXd6U2U3b0dsQ0hHWWFaVEw2d0tEUHR5alBhbzQtM3dTRTY4TlhLeFZIVHF2eWZJaVlFVHJoX29iN0o5T2XSAZQCQVVfeXFMT1R4aGxsUDljbkdIN1ctcHFpdUpERFN6MXUwcVlIbEFhcVhucTIza0g2Vk80TnhaX2Q2S2FPc0NDOHIwY2s1MGY0a1Y5MnZqOEt4VndlWjhoSy1yQk1RSGlSYmFKdkNKa0VJUzRwaGpjN1k2S2dfMVBzdXpUZndFcHAwSl9LN1pjUHZiMXZQUjBucXdwbXdER3NGdWF6N19fRFp3RnRlazF4dVR3b0ltVk4zQkpYMTNLR0tJOEo3SHdFU0VkLXFQa0E1NllZekJ6c1ZXQUhqdm13elNlN29HbENIR1lhWlRMNndLRFB0eWpQYW80LTN3U0U2OE5YS3hWSFRxdnlmSWlZRVRyaF9vYjdKOU9l?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-23T16:07:37+00:00"
+      "title": "Tout entendre, sans rien téléverser : VoxNexus lance la première intelligence artificielle (IA) vocale pour Android à écoute continue, à faible consommation et entièrement embarquée",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUGhzTHlOTWt6UDk3Vkw1RG5FUnIxQWQ1V3VYenZHWXRmMjJrUmVQV2V4XzdzSWJDRkp4cm9DYkJINWx3RElQaUxyLWFsU21pX1psUldmRFlOTW5jME1fNjhn?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-10-23T15:55:04+00:00"
     },
     {
       "title": "« On garde un détachement face aux écrans » : ces retraités tentent d’apprivoiser l’Intelligence artificielle au Mans",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPWnoxREhjeVRmUklRd1BVNjk1MURzbHhQdzYyOWZlSE1Ncy1xUUk2RHVEeHk2MHRha0l6WHBPRnBxem1zQ0tIdGFGeDQ3VGN0bVpiQVdzTWpPSEtrR19OYnVSZ3lpX1RXQktHTVlmdldRUlA1eFRQYV9jN1l4TDkxRGhGdEd2N1BVMXFGc0hHd1B2alo3QjU0c3hkeDgyY2ZCN3F1T2ZPQ2l2YS01R1lrNWsyWkx1eXNWM3NNOFFEY0J1TkpmbXQ5c3lSTXpKdW1ON01rS3dubWhUV3JzRlNvMjRHSTF0ZWNlaVlKTTBlOWJwRUFmRXRQekZjQUJDT0NETWYzenlHbHFIV0l2amlQdHRiMXAxQnFBeUZYdE5EZnM?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-10-23T15:39:33+00:00"
-    },
-    {
-      "title": "Éco d'ici éco d'ailleurs - Cybersécurité : l'intelligence artificielle, amie des entreprises?",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSE9GVkxKelp5eW1tRTZON0pOLW9lSUVRTXIyTENacEt0SHhkRkVKUTlvUTZoRmxTX3FBb3JqeTBDbUNqRjgxU0lFOG5CUkM3N3FNUFduMHVlNmU1eGRqcDN4WFpYV3NoV1A5QmlJU0d5MTRjVE4xUEltODhGQUptbGt2SW9YaW5MNFh3X3JqLWZwNDJtX1FtN1N3R09HRDJxZ2praDI4WDE0TlBiWDFpVEJPNnd1T2RjNzVlMEdFWU03aTBJMkRGZEZfLXVFVGdW?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-10-23T15:10:39+00:00"
-    },
-    {
-      "title": "Gironde : développement d’une intelligence artificielle dédiée à la neurochirurgie chez RebrAIn",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNTRxY25qajBCdTVLYVVHOUViY0Q0VkVLMlBxdWM5dHV4MnE5ZjB4UkNEZEJNc3dYbS1Na3NwWmVFYVY1RVZkMS1YZXAtOUpYcE1PX2tTZ0RNbEZrV0JMS3lYMmN0N1pLb1FlbUx0bWJxYm1rbEVoeXEwSnRVOWhKcHFvYXlkalgtY3daTWt5RF8yMGRDMC1wSURKV1VWY3ozUGlwQ205c0FrSXdjQUJsOW14ZUZKQXVteHJMMjdBaUJxOHY5bWlHTFVtMHR6cG9Ka2d3dWZnQ0xUZHYtWENwS0FXOTlRMlpaMWNXMEViRzNnaFo2dXF6aGR3NGhFR3YxNVU4QjdoVUlYOVhNLXc?oc=5",
-      "source": "L'Usine Nouvelle",
-      "publishedAt": "2026-10-23T14:10:09+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : en Corse, des ateliers pour apprendre et comprendre les enjeux",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX2J2LXItT0ZhTWE0VXY4OUJXUzItN09yYkJ4MjRjS3lzWDVtbkNFUXBidFRhQ0RRRXZsTmo2WE0zR1NUcnlUX3d2azFjd2x0OUp6T0lvdEtwSWZMZHROWWpaZnBzSGJqaEZJR3BVNTE5dW9SRDNQMy1FMGp5X2hCR3M4WDhPX2VZSkwwR1BLQ3lKcWtfNWFFc3JWMUJEOTJVb2RhY1l1enNrdXEydmFKQUhPZUg2dlVDWHZjeVB1clB5bGhEdUZNVllIU3c0dw?oc=5",
-      "source": "Corse Net Infos",
-      "publishedAt": "2026-10-23T13:27:00+00:00"
     }
   ]
 }
