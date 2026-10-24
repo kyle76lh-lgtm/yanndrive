@@ -1,12 +1,24 @@
 {
-  "updatedAt": "2026-10-24T16:31:58.432844+00:00",
+  "updatedAt": "2026-10-24T18:57:28.514399+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "L'intelligence artificielle pourrait aussi devenir un levier d'inclusion",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVThFNWx5ZjRCQnpuc1VwY2lQcHdQczBaN2w3NUZJU3ZldWRzeEVCcW5CZzNuc3VFRTAzR1N6ZGJxaGdSbllYRjNnaEZmazhJNklxcVhPTy1EeGdxZmttV2VEb2ZWQmhOMk9NcjdfMjRxWHZmemxLMmM1N1lVbzFpT0tNYUlzZU9wanAxNFdodjhBVW14NF9wVWg0S2htT25BWkIzSHJ6YlFrX0R1VlhQekM3UXRpcWVCd3RYekpoNnNZbVBUYl9DRkg4eEpjMXJzb19jZHh1UHNHbl94aDZkMkprUmlrTkFrakdHS1lFVWpveFhVOG9v?oc=5",
+      "source": "La Libre.be",
+      "publishedAt": "2026-10-24T14:09:00+00:00"
+    },
     {
       "title": "Intelligence artificielle et risques existentiels pour l’humanité : au-delà du brouillard médiatique",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU2s0UVk2UERhalppMTU1anZtVVliTFloN2NnMnVpUmJYeFotX1BFdXc4Zl9Takl5RGdxUENCY3FLRS13UmROZFBURkN1Q0RJWWhPV0VlOTlQaV9sa3ppbFJ5RzhOQm5BSm5FYm5WTHkxWVZ2MHFHOWtFaWFjUzM3UTBGNTcwR29ydDNsczlOd09nMV9uZk1jaDhZQkd5UQ?oc=5",
       "source": "Association française pour l’information scientifique",
       "publishedAt": "2026-10-24T11:06:16+00:00"
+    },
+    {
+      "title": "Des applications qui identifient les champignons trouvés en forêt grâce à l’IA ? La fausse bonne idée décriée par les mycologues",
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOLUQxZEdQWVcxSmJxRGdidkc3alBxQ3pLc0ZmUkl5WkhPNjhVbnNHQUdoMW1qOXY1bTlGNU42STc2YTU0RUJGVTlRVTZiUmtsUC1sU2ZmVDdrNXNRMVNmdnlDa2E4SUJqWnhBRnlBUjlrSUJEMjkzSVNFQ0drT2tWZTJqWFEyTHNnd0stVTU0REMyXzFpdHpkOE55WTl1MFM5bzNhU0hJTGd3Zm9XS3FiRVhSenBmM2tycy1JOWVJQVZWT0tlVVZEZm5ZVTlRTnlIQnRhQVd4aWZGNERFa2FzRjNRQ2dmYVVUdnhzWExrODBaTlFxTEpSUkYxNHJITHVBN29kZ3VCS2J2bjBQdjJ1TzFaZFkwS1pLeUdNX0pmejlWbUpCLTgxbGtfNVBXb3BqaGliRzJfWHQ4UXc?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-10-24T08:14:08+00:00"
     },
     {
       "title": "Peut-on se fier à l’IA pour randonner ? Le comité FFRandonnée Doubs s’interroge",
@@ -61,18 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jWVpwNWhkTlg1ZW10LWFFM3FIWFpxbE9SS2RZZFZxM1BYZTFGcGZtR05CR2xEUHI0SmhzSEdiTjdvNkpvNU9WOXJVMXN2d1BmSE92b2ltY0pwV3JWWDYtRDZuYXJON0Nsc1c1Smdn?oc=5",
       "source": "Urbania",
       "publishedAt": "2026-10-23T16:18:46+00:00"
-    },
-    {
-      "title": "Tout entendre, sans rien téléverser : VoxNexus lance la première intelligence artificielle (IA) vocale pour Android à écoute continue, à faible consommation et entièrement embarquée",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUGhzTHlOTWt6UDk3Vkw1RG5FUnIxQWQ1V3VYenZHWXRmMjJrUmVQV2V4XzdzSWJDRkp4cm9DYkJINWx3RElQaUxyLWFsU21pX1psUldmRFlOTW5jME1fNjhn?oc=5",
-      "source": "TradingView",
-      "publishedAt": "2026-10-23T15:55:04+00:00"
-    },
-    {
-      "title": "« On garde un détachement face aux écrans » : ces retraités tentent d’apprivoiser l’Intelligence artificielle au Mans",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPWnoxREhjeVRmUklRd1BVNjk1MURzbHhQdzYyOWZlSE1Ncy1xUUk2RHVEeHk2MHRha0l6WHBPRnBxem1zQ0tIdGFGeDQ3VGN0bVpiQVdzTWpPSEtrR19OYnVSZ3lpX1RXQktHTVlmdldRUlA1eFRQYV9jN1l4TDkxRGhGdEd2N1BVMXFGc0hHd1B2alo3QjU0c3hkeDgyY2ZCN3F1T2ZPQ2l2YS01R1lrNWsyWkx1eXNWM3NNOFFEY0J1TkpmbXQ5c3lSTXpKdW1ON01rS3dubWhUV3JzRlNvMjRHSTF0ZWNlaVlKTTBlOWJwRUFmRXRQekZjQUJDT0NETWYzenlHbHFIV0l2amlQdHRiMXAxQnFBeUZYdE5EZnM?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-23T15:39:33+00:00"
     }
   ]
 }
