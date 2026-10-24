@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T04:12:43.493Z",
+  "updatedAt": "2026-10-24T08:53:40.365Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
       "price": 271.8,
-      "previousClose": 313.8999938964844,
+      "previousClose": 302,
       "currency": "EUR",
       "marketTime": 1792769982
     },
@@ -45,43 +45,43 @@
       "marketTime": 1792769727
     },
     "BTC-USD": {
-      "price": 80803.23,
-      "previousClose": 81311.890625,
+      "price": 80579.35,
+      "previousClose": 81074.1875,
       "currency": "USD",
-      "marketTime": 1792815156
+      "marketTime": 1792832014
     },
     "ETH-USD": {
-      "price": 2378.01,
-      "previousClose": 2386.189208984375,
+      "price": 2366.15,
+      "previousClose": 2384.077392578125,
       "currency": "USD",
-      "marketTime": 1792815156
+      "marketTime": 1792832011
     },
     "SOL-USD": {
-      "price": 102.44,
-      "previousClose": 103.54232025146484,
+      "price": 101.73,
+      "previousClose": 102.77986145019531,
       "currency": "USD",
-      "marketTime": 1792815160
+      "marketTime": 1792832007
     },
     "XRP-USD": {
-      "price": 1.2896,
-      "previousClose": 1.3076560497283936,
+      "price": 1.2787,
+      "previousClose": 1.2939430475234985,
       "currency": "USD",
-      "marketTime": 1792815160
+      "marketTime": 1792832007
     },
     "BNB-USD": {
-      "price": 739.05,
-      "previousClose": 730.4766235351562,
+      "price": 732.62,
+      "previousClose": 738.8374633789062,
       "currency": "USD",
-      "marketTime": 1792815137
+      "marketTime": 1792831994
     },
     "DOGE-USD": {
-      "price": 0.07869,
-      "previousClose": 0.0786760002374649,
+      "price": 0.07743,
+      "previousClose": 0.0785370022058487,
       "currency": "USD",
-      "marketTime": 1792815130
+      "marketTime": 1792832014
     },
     "GC=F": {
-      "price": 4010,
+      "price": 4007.9,
       "previousClose": 4060.39990234375,
       "currency": "USD",
       "marketTime": 1792789198
