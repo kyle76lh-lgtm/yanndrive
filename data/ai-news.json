@@ -1,13 +1,7 @@
 {
-  "updatedAt": "2026-10-24T23:32:33.404594+00:00",
+  "updatedAt": "2026-10-25T01:32:05.313301+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
-    {
-      "title": "Lignes de défense - Avec HypAIRion la chasse française prépare l'arrivée de l'IA dans les cockpits",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb1BwWDYzdGhEam5oNlM1OTl4Q2JVQVpkczBuV0IzVVI2VnhLSkp4X3ViNWhSNnZxamotLVc1cmItY3B6Mzdwa3BXQk9fUlliZjIzOTMxSzJuTzdGQi1JZ3hmYm9iN3VQaThLRi1CbndWYWpsRDZkb2xjeWZ0MVpTZjUtZi11SWxCTGd2akhHZllfM1ZHWTlCWjBSZ1NIR3dJVW1PekZ3dVVfbHBXTk9ObnJvQklEaU94amNqcHp5NGJVT0F4VEJkUm5XNHc2enFtYXN6a09iU0J2bmxqN3htc0tMSFNvU20zR3lYNA?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-10-24T22:08:00+00:00"
-    },
     {
       "title": "Jon Hernández, expert en intelligence artificielle : « Les gens utilisent ChatGPT pour rechercher des connaissances, comme s’il s’agissait de Google, et c’est leur plus grande erreur.",
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNbnpUc04xaTRqZXY3azVHOFkyX3VpeDlqamg0WlRZQVg3TGVqOWU1MFN2UWJ0MWM5OERnclRiT0RxVTFITFI5UTNURmxjZGRzWmUyYlRMcWdHTDFjdkIzcHZERmxNQlF2TnRLMXQ1MjZMaFdzc3I4d3kzbEhtRDRHWTdTcFcwVEhyYnM1cGZ2M1JRYXVGbC1YejZQalRuSXBvcVUycW9FVnBaQXVlWjBCNFpKT2pVSXdqSG5ONWhfeG9vNXU4c3RTWnFiZzFKRWFVUGp4dzRZcnNQVnJYOVNIQzJoMkttaW5vY0kyRFdCSXBMWlhTbVZXcndhcUlPcmF5NVlDaGNNZV9SWDNmaXBWbDJrenRsSlgyTjVkbFR5MTFxbFYwdlZ3MHJhSk43cm1rTFdpMlRhY2VOUQ?oc=5",
@@ -73,6 +67,12 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR08zZ1ZVTW1lT2Y1bU9RTjRtblV6SzAxSEU3VU1uRU1GYVRkRHVWSGhWa3Q4d0dfODFxYTh1TF9abVljM2llMERaeHFQNWxMdWlOY3pzSlF2X0tYR3pYaVVRZWU0V0JWal9ENk9FbmU1QWhUSlk3MjZSWnJ2NWVfem9CNmdsM25EZmFPQTZiOFpJX0taY2RsS2hqRDNkVGszT3pzLUZBcG55SDBGT1ozYXJjejZFN2FWV1p0VHlFRm50MXpDcUkzbjg1TTNpb21QaUJlTm53VVNtNlZTN2x3V2g2aTJ3OTFHQy00aHpB?oc=5",
       "source": "Zonebourse Suisse",
       "publishedAt": "2026-10-23T16:21:17+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle a gagné",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jWVpwNWhkTlg1ZW10LWFFM3FIWFpxbE9SS2RZZFZxM1BYZTFGcGZtR05CR2xEUHI0SmhzSEdiTjdvNkpvNU9WOXJVMXN2d1BmSE92b2ltY0pwV3JWWDYtRDZuYXJON0Nsc1c1Smdn?oc=5",
+      "source": "Urbania",
+      "publishedAt": "2026-10-23T16:18:46+00:00"
     }
   ]
 }
