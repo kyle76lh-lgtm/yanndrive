@@ -1,12 +1,60 @@
 {
-  "updatedAt": "2026-10-25T16:04:55.792451+00:00",
+  "updatedAt": "2026-10-25T18:58:01.278243+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Des applications qui identifient les champignons trouvés en forêt grâce à l’IA ? La fausse bonne idée décriée par les mycologues",
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOLUQxZEdQWVcxSmJxRGdidkc3alBxQ3pLc0ZmUkl5WkhPNjhVbnNHQUdoMW1qOXY1bTlGNU42STc2YTU0RUJGVTlRVTZiUmtsUC1sU2ZmVDdrNXNRMVNmdnlDa2E4SUJqWnhBRnlBUjlrSUJEMjkzSVNFQ0drT2tWZTJqWFEyTHNnd0stVTU0REMyXzFpdHpkOE55WTl1MFM5bzNhU0hJTGd3Zm9XS3FiRVhSenBmM2tycy1JOWVJQVZWT0tlVVZEZm5ZVTlRTnlIQnRhQVd4aWZGNERFa2FzRjNRQ2dmYVVUdnhzWExrODBaTlFxTEpSUkYxNHJITHVBN29kZ3VCS2J2bjBQdjJ1TzFaZFkwS1pLeUdNX0pmejlWbUpCLTgxbGtfNVBXb3BqaGliRzJfWHQ4UXc?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-10-25T18:44:52+00:00"
+    },
+    {
+      "title": "«Les revenus générés seront insuffisants» : Wall Street rattrapé par la facture du boom de l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMWxNdzl0Q2FkbTBGM0xEa0xNajBDSFMyaU10UFVjdlpWekJzUDNSZkpjUW14QVJ4UF9QSDRhaXRPZkNKREZVTmpobWNQQkw2ZUhNNnJZcEhTdlJhX21lbHNGRXVKZXFLYUFLTUYwSWQ5dlc2aVNFU3dKX1hHRExuYU0tXzVLLWJKYjF5MWlRR3c4MXdrUDA2TXBFUWNiMENveHdqcEJBNXhoUV9ZOTdVOWhwZ1ZxbV9TMUsxLVRkT2V3aGRnX3VSTmk5UkY0UTNaOVdqNndNa213ekRiRXZoWjlFNnM2alRVbEFkTnppY2w5dExhNERCTg?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-10-25T17:22:57+00:00"
+    },
+    {
+      "title": "VIDEO. L’intelligence artificielle s’invite dans les vignobles du Vaucluse",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVm5PY0plLXFrZE5KR0U1cmNiVFd5dzlkVXd6VmxLRlM0VEFfc01xVjd3VnRvWldSVWFyRDNqT1JwdEp6ZDhONWNnanhYb0JySDYxOWZITktadUtoamFoUkgtb3otbWJKWVFfTXY5bVVwal8yTDJWMmxEdmI0ZVlpNUlQaTN0eXpfRDVYajZQZ01GbkcwNUlwaW9tOXBuWWd5cGF2Q2swQnI0Q0w2VjhMN0tycWFWWFduNktXb2dxbTlzSmV1NHU0Zy1wZ2lNUTVPSWJsc2JacTJBRVU4SXE4a2hNNmRUVGx6UnA0cXdrTDlWV2p5?oc=5",
+      "source": "France 3 Régions",
+      "publishedAt": "2026-10-25T16:52:30+00:00"
+    },
+    {
+      "title": "Le rêve cabossé d’Hollywood face à l’IA : « Tout le monde l’utilise, mais personne ne veut en parler »",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbFpNeXJLRE5IQkZZYXNudGFsUG41TTNHQ2RrSy1OSWc4UkJvUEhIS0EzdWdxZ2FXbVhYa2NPcDJZQ1QtbDZLQUc4U25nWUtwNFF5Q1F6aklsaGxyY25HS2dPd3dtczdwUXZqc1IwM2tmQi1wcGtmTlJyN3Nkc1RkX3VmU0RESmx0OE96MDZKdFYyVG9wRTBYczh2WlBzaEl4eDJHb2g1a0xXZE11T0U5RXlVSmVvRU4yQUZDUWZ3dlpRbFhwZWNUdWUzR3F0aHBIRXJpS1pGd1pzX3JDLTNEdm41a2s3WUlsREpQWEVGdWlma0h1QW40ak1Uak9jZw?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-25T16:30:07+00:00"
+    },
+    {
+      "title": "Jon Hernández, expert en intelligence artificielle, met en garde contre l'avenir du travail : « D'ici un an, l'IA pourrait remplacer n'importe quel emploi à distance.",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQaGlrSHU3aU0xYm9wbG9rcTR5RmZwYTl6N0M5dUk5S1lSLWhMUGxKZGhVNmRjWXNZMzQwUWw2RU9VNldCRlAyN0Qza3hTVjZNOE9ISF9Ib3pZREFtRjRCU2M0Wm1iSGl4RUFJZ251Y0RZYlItcy1tY3NpQk5SQ1U5UEVMNDEtYVA1cTBOLUlDWXdfREIyRVY2Q2RkYzVsVjdhdnpYMmVaX194OXlwNlZPOUJKV1dBV0dBQXBwa3pNNWF6Z0lyaGhEeUpIV2MxbVpPaVVTaGZmQ2RYQUpZNTdzWTg1cEE4a0U3MkcyUDlKM1FkMm12Q29nWWJUVlU0ZTA2VUZyVDlOSURUT1pMNl8xZEFud01aSTVtMDB1T3p1cHFvdDV1S1NGTHZLRXhOX3VH?oc=5",
+      "source": "La Crème Du Gaming",
+      "publishedAt": "2026-10-25T13:00:22+00:00"
+    },
+    {
+      "title": "Orasio, la start-up qui veut doper la vidéosurveillance à l’IA",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQTRiRTNIUEdtRUJnbG04ZVJtdnNZSFNiSWx0NXFCUHVMSVVER05wVXVkdEI1VEg2UFdfM3JhVkZpSVdzVXJMMXp4UlozaGhvSmI2NzFFXzItSTRmMWNSS2ZGWFh4NXB4MlhEMFI2VHU2QTBlczI0R2VoanVyaVVzLVJsZUM3QktjRWRrQmpMVjVoNWZjN1M4Sg?oc=5",
+      "source": "l'Opinion",
+      "publishedAt": "2026-10-25T13:00:00+00:00"
+    },
     {
       "title": "Calvados : avec l'Intelligence artificielle, il crée un album de coloriage \"pour les plus grands\"",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc1dvelZ0a0xMcjVxTFh5NVRQcUF3bFNUOUtBT1VhM1FtaVlGQjZJWExvbG95TWpQYW5sTUZzSnB4eUhUNnoyRVV3ZXNfQ0F1Q0J5bU9MTnBQTGRBbThCa0VuTWpMN19XQlpNOEFReENyOExWc2tXS3c3R29BcGJDejhFV0Z5VVExeDZYOGRpYTZOSjFtXzBzd3RLR0FBeE9fcTJDZWRPWHhKNHJIcXgxc0t6X2ZKZW9KV1lDNXpFMGJGQm1RcDFpaWVQR3BqUHpKTGF3NW55aWYyTm9vUDFj?oc=5",
       "source": "Actu.fr",
       "publishedAt": "2026-10-25T12:53:48+00:00"
+    },
+    {
+      "title": "Une IA qui se reproduit comme un organisme vivant : les chercheurs explorent un scénario digne de la science-fiction !",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRHlmRzJYRXNXZ2dUcnllRWtGbmRmdUVJTG5Gd2VlNUNSTUtZLWFfRzRvMmoxblM3enZianJ2b0lDbDc0OUI2ZjRNTlVXSks2dFN6a2YzdmVtVHZiN3QteGUxUDdpUmsxQno2ZUpyN0hrSmxOVDk4U09IOVpfdVlraU8zMERiMThZOFpkekhqTk5yLW5EWS1UNkxEdzdQc1dha3RiMHJXbHQ4aVAxOWk4N1gwa2VDMnpOaDJJSzI1alNaWGxJS3VsZ2hvMkxxZzUxZFhEMXFNRXhNRmhQdTdkUnMyVWktTVZiT2p0bEs2SjdVMWZHWFlMZHR2UE9OQQ?oc=5",
+      "source": "Futura, le média qui explore le monde",
+      "publishedAt": "2026-10-25T11:21:00+00:00"
+    },
+    {
+      "title": "Catherine Malabou, philosophe: «Avec l’IA, l’homme découvre que son intelligence lui échappe",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUlZQR0ZydTBueGgxdnplakRWNUY1YjR1ei1hSnZRRnIyalBTRFhDOC00dGNQUmpDOFpTRFpwbzd5aUFDOW1iZXk5cVU0SVRoaE5UaGlDTGEwWGZzdDlPVHluQzBmVnhSa0NKVGNwenlmUldnd1RXVGFUalVmenR6dnp0YWdVYkFOSlBWSnZiUWQ4MEMzSjdsdlFJSDg1UmdMUUdUakQ3SXpiT0lMM1NoUV9aRHl0TVJrOGhydWgwQU50MXFGa3Nmam9yRzRjV1R6Wkh0SmhKNG1IQQ?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-10-25T10:42:04+00:00"
     },
     {
       "title": "Données, armement, travailleurs du clic : la face cachée des IA (Video)",
@@ -25,54 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdW5yQWFfUGU2REFrN05qWGZtbVhvTlBMOXE1M0V1enpmVlpNNmFzVDI4V2kxZDlLR25iVFRoVDlNNUlLMS1NbHluOHhTMEhwLXRiVngyQ3V5ZUJUZFNnaHc5NjhNR3F6Qks5WkJfTUxZb1FCWjN3ZElUekpPWnVGZFlRUWw0NHp6cUV6ZmVQdUNnNlY4UUZ6WVE4OVFleklkUlZtbjFQMktwSDY5RHNseFN1c0swSHd1cGtqTk52UHg4bnlaY2JQcE4xNWUyM3RFX0dyT3c4ZVRVanRkYW1GRUZPOFZaVDZ6QmdLeQ?oc=5",
       "source": "Nice-Matin",
       "publishedAt": "2026-10-25T09:30:09+00:00"
-    },
-    {
-      "title": "Dossier | Placements | L’IA pourrait-elle pirater vos comptes ? (2 articles)",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeGh5TUZYMk5lYUpXYnIxZGRwRHAyVUVobDlPbElaZnRqNVZTREl5NHZ0dlFUT3lmRUNIOWNFdXlsTmxpdjBNQnBHeTdLV3YxVUp3MDc0bjdJVFBESzRhQWYwS0pjcUhOY2FEY3pIeFg5YWloelJTWDRxcHpIU2NnVHJNRG9CMVBKWDFNZmNoTm03WHFEVERZZlNaUjdmeDJGb2o4Nko3bmpjRTluVWdueng1X1N6akU1RlRESDhEempJSERyVXNCOE5CdjNGMEpyNHZLXzZ6bDVJNGpZV2MtYjU4c1BMblk?oc=5",
-      "source": "La Presse",
-      "publishedAt": "2026-10-25T09:00:00+00:00"
-    },
-    {
-      "title": "Ils ont laissé une IA diriger leur entreprise, ce qu'il s'est passé en dit long sur l'avenir du travail",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNa0ctU2pVQVp0ci1YOXNmeElTUURsd082SFQ0UnBramRtbUlVYkJiUlVrRWcxV0d2NjBLX0hYZ2xHM0JRZ0Z0dk9WRDJySk9KTEFvQ2ZsUl9zQkktVkFYajRRRTBpdW40akVjMzFzMjk1VmFXcTVxbF84c0FpYUN6U1FCcXhMZ1BZS2UwcmctUlZKMWFSQzI0NmdOc1lNSWI2b3F4OFBac0tKd3VBX3UwNmlQRVBIV1NYOWNLUk1rLXVVcmtCREJhLUlHWWJaOTNDVExxRXkzS0NWY0phYkZreEtnMFR6WGVDN0RLVFFObEx0U2VJeG45RWtR?oc=5",
-      "source": "Futura, le média qui explore le monde",
-      "publishedAt": "2026-10-25T08:00:00+00:00"
-    },
-    {
-      "title": "Avant la présidentielle au Brésil, ces fausses militantes pro-Bolsonaro créées par IA font polémique",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZjFMMk1GMU85UG0xX3BzZndDcEFpVk5BQTVsa1VjMW9uX2NCTXJiN2Y5RVVLdjhBMjJYblp6a1U3RDV4Qi1VbTRRLWtZSUFjZmZXTVJZV3BxVTBIWG4xcG5UMklSRk9kcUF4Tmt5Sk93N2RVOHQwVy0yR1kyRm16NlIxdVlZLTczU1RzU1RGV0sxSEZobV9wbFlnYWU4T1dXd1VoUGFzMDRlR0s3Q1lzdnlNaWJhZ2FndTkwc3pjdUY1NU5rdDVlNGtKYXdXUFdPQjk2MDNNbDNPaEtWTnphWjZneC1ET3hqNUJ2dktGVnQ5SGUtdHlJTFdn?oc=5",
-      "source": "Le HuffPost",
-      "publishedAt": "2026-10-25T06:05:07+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : c’est quoi ce problème « d’alignement », qui fait tant polémique ces derniers mois ?",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbFZmYkQzSWdPS0dfTEJrNm15UkJDNDdiWnA1dC03ZlMtWVM4bTRXTzRyeUNIS0N5TXp5a0lYQVZJd05lbTRmZ3FxNFRiQk5YM205eHk1ODY2aWhOX2lBUXBzSWRySkxmaHJKX2xWQzU5OTgzNmNPZVJBM0J0THRMYVRQU0psVzZNWF9nOWQtYmVadkFTZnVCMy1HQTZ4cG9ubWZXU0piOXJXRTZldUtiY0VocjIxdHdCRGNlMTNrUl9uSElVa240TW9pLXR2S2FVQ3JHRXhTTzlwQWozaENvei1HTTEtTnZrcUZBR1VCX3c0TWgzdmJRZ3pQNUlldEJ2d3p1cUYyWmZtOURoNlBTNUpaaUNvZEFlUkxGd3RQNjFsOEpTbWJMZmh3?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-25T06:00:10+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : la région PACA se classe 2ᵉ région de France la plus avancée",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZldScmJfeXhiVXJ2ejZEWVNEbUpPbGFkV0tVWVZtQXFWYU5YS3VBbnhZb0ZFRWZsRUlkZzBWUUowZUQtUWFoeFN4VDBYNXB0d05jY0Y2MnFBZXRvSXFRZVlfWjhzRDhUREJDUnU3MEFDY1ZkTk0xV1BiVnR3Q3MtTm1jLWQ5UzBKR1puaWhZbE5zN0JfOWZudjQ3cXRnaEdKdHlfYlFjdzZuSEFSVEVuRkRyVXVYN3JXS3I2ZHVzaGp2X0hLSVp1blhVYW9VTlVQN2FGZVptWUM?oc=5",
-      "source": "Maritima",
-      "publishedAt": "2026-10-25T05:58:00+00:00"
-    },
-    {
-      "title": "Pour identifier le recours à l’IA dans les œuvres, la musique affiche une sérieuse avance sur l’édition et le cinéma",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOTXR1M0dBRGNxcVc5QmtUVjJYYmxMckxOM3JEOEZoaENwZG04TURMZTBjNDVTd2RPYk5XTU9tOURrYW5aRUtLNkRKWng3dFRIaDNjQnhzUXRWNDVIUVNfM2N1ejVvcWdpcU9PYXBQRzhvQlBDWVZWdTdZcERjWkFHYURKMHBfQ2tpR2JVdGpqdnlfM25ZY1lsVVBzOUJHN0ZJTFRWTEZXRnZ5eG5UNTZMdWxBdzliaUpGYnJDd2Zjd0tuNEl4MkxsVWdOREtvbTV5SG5HSjNBMHB1VEdIQUxGdVVhaDRqQ01OMTlZWlQzSnAxUVN1NEo1aldZbTVqZUZ2Z0dya1ozRGlYQTJBYWx4WQ?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-10-25T04:30:12+00:00"
-    },
-    {
-      "title": "« Je n’ai pas la force de lutter contre l’IA » : face aux ravages de l’automatisation, une partie des jeunes se tourne vers des métiers manuels",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNS1NkcVFjbUt6UXVJb05ybVQxOVMxX2ZiNkF5dndYdUNtYWdkWENUeWR3dm15bFJpaE9vNGstWDN3Yk9UdHpIRkZZelZEbl9Vc0s5T2ljYzlIU0RGSmJLM0dBWmZZSEVBVGM1XzkyWVpfUFdCd3doaW50OUM0cHE4ODJQaHVxNngtLS1QT29IZ29uNU93ZEg1WVMwem5YUDhQLVctbFpZV2FYRHloQVJzX1JYVm9WcW5lOGV5QWpBRFdSZlRJOEpmM3ZlZ2N5ZXNpalJTWnVTc2pFMFBTM3BZZGQtYUZCVUw4QUFNQnZiQVFtMmJKTHYtWVBFUFhKUjFmelU1elB2ZDR0SUlGZU8wWkd5WHFaRmJ4aC1hWU8zTFhjYlFCazdMQWdhYTJreGc?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-10-25T04:30:11+00:00"
-    },
-    {
-      "title": "Lignes de défense - Avec HypAIRion la chasse française prépare l'arrivée de l'IA dans les cockpits",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb1BwWDYzdGhEam5oNlM1OTl4Q2JVQVpkczBuV0IzVVI2VnhLSkp4X3ViNWhSNnZxamotLVc1cmItY3B6Mzdwa3BXQk9fUlliZjIzOTMxSzJuTzdGQi1JZ3hmYm9iN3VQaThLRi1CbndWYWpsRDZkb2xjeWZ0MVpTZjUtZi11SWxCTGd2akhHZllfM1ZHWTlCWjBSZ1NIR3dJVW1PekZ3dVVfbHBXTk9ObnJvQklEaU94amNqcHp5NGJVT0F4VEJkUm5XNHc2enFtYXN6a09iU0J2bmxqN3htc0tMSFNvU20zR3lYNA?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-10-24T22:08:00+00:00"
     }
   ]
 }
