@@ -1,7 +1,37 @@
 {
-  "updatedAt": "2026-10-25T01:32:05.313301+00:00",
+  "updatedAt": "2026-10-25T06:44:19.241956+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle : c’est quoi ce problème « d’alignement », qui fait tant polémique ces derniers mois ?",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNbFZmYkQzSWdPS0dfTEJrNm15UkJDNDdiWnA1dC03ZlMtWVM4bTRXTzRyeUNIS0N5TXp5a0lYQVZJd05lbTRmZ3FxNFRiQk5YM205eHk1ODY2aWhOX2lBUXBzSWRySkxmaHJKX2xWQzU5OTgzNmNPZVJBM0J0THRMYVRQU0psVzZNWF9nOWQtYmVadkFTZnVCMy1HQTZ4cG9ubWZXU0piOXJXRTZldUtiY0VocjIxdHdCRGNlMTNrUl9uSElVa240TW9pLXR2S2FVQ3JHRXhTTzlwQWozaENvei1HTTEtTnZrcUZBR1VCX3c0TWgzdmJRZ3pQNUlldEJ2d3p1cUYyWmZtOURoNlBTNUpaaUNvZEFlUkxGd3RQNjFsOEpTbWJMZmh3?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-10-25T06:00:10+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : la région PACA se classe 2ᵉ région de France la plus avancée",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZldScmJfeXhiVXJ2ejZEWVNEbUpPbGFkV0tVWVZtQXFWYU5YS3VBbnhZb0ZFRWZsRUlkZzBWUUowZUQtUWFoeFN4VDBYNXB0d05jY0Y2MnFBZXRvSXFRZVlfWjhzRDhUREJDUnU3MEFDY1ZkTk0xV1BiVnR3Q3MtTm1jLWQ5UzBKR1puaWhZbE5zN0JfOWZudjQ3cXRnaEdKdHlfYlFjdzZuSEFSVEVuRkRyVXVYN3JXS3I2ZHVzaGp2X0hLSVp1blhVYW9VTlVQN2FGZVptWUM?oc=5",
+      "source": "Maritima",
+      "publishedAt": "2026-10-25T05:58:00+00:00"
+    },
+    {
+      "title": "Pour identifier le recours à l’IA dans les œuvres, la musique affiche une sérieuse avance sur l’édition et le cinéma",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOTXR1M0dBRGNxcVc5QmtUVjJYYmxMckxOM3JEOEZoaENwZG04TURMZTBjNDVTd2RPYk5XTU9tOURrYW5aRUtLNkRKWng3dFRIaDNjQnhzUXRWNDVIUVNfM2N1ejVvcWdpcU9PYXBQRzhvQlBDWVZWdTdZcERjWkFHYURKMHBfQ2tpR2JVdGpqdnlfM25ZY1lsVVBzOUJHN0ZJTFRWTEZXRnZ5eG5UNTZMdWxBdzliaUpGYnJDd2Zjd0tuNEl4MkxsVWdOREtvbTV5SG5HSjNBMHB1VEdIQUxGdVVhaDRqQ01OMTlZWlQzSnAxUVN1NEo1aldZbTVqZUZ2Z0dya1ozRGlYQTJBYWx4WQ?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-25T04:30:16+00:00"
+    },
+    {
+      "title": "« Je n’ai pas la force de lutter contre l’IA » : face aux ravages de l’automatisation, une partie des jeunes se tourne vers des métiers manuels",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNS1NkcVFjbUt6UXVJb05ybVQxOVMxX2ZiNkF5dndYdUNtYWdkWENUeWR3dm15bFJpaE9vNGstWDN3Yk9UdHpIRkZZelZEbl9Vc0s5T2ljYzlIU0RGSmJLM0dBWmZZSEVBVGM1XzkyWVpfUFdCd3doaW50OUM0cHE4ODJQaHVxNngtLS1QT29IZ29uNU93ZEg1WVMwem5YUDhQLVctbFpZV2FYRHloQVJzX1JYVm9WcW5lOGV5QWpBRFdSZlRJOEpmM3ZlZ2N5ZXNpalJTWnVTc2pFMFBTM3BZZGQtYUZCVUw4QUFNQnZiQVFtMmJKTHYtWVBFUFhKUjFmelU1elB2ZDR0SUlGZU8wWkd5WHFaRmJ4aC1hWU8zTFhjYlFCazdMQWdhYTJreGc?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-25T04:30:11+00:00"
+    },
+    {
+      "title": "Lignes de défense - Avec HypAIRion la chasse française prépare l'arrivée de l'IA dans les cockpits",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb1BwWDYzdGhEam5oNlM1OTl4Q2JVQVpkczBuV0IzVVI2VnhLSkp4X3ViNWhSNnZxamotLVc1cmItY3B6Mzdwa3BXQk9fUlliZjIzOTMxSzJuTzdGQi1JZ3hmYm9iN3VQaThLRi1CbndWYWpsRDZkb2xjeWZ0MVpTZjUtZi11SWxCTGd2akhHZllfM1ZHWTlCWjBSZ1NIR3dJVW1PekZ3dVVfbHBXTk9ObnJvQklEaU94amNqcHp5NGJVT0F4VEJkUm5XNHc2enFtYXN6a09iU0J2bmxqN3htc0tMSFNvU20zR3lYNA?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-10-24T22:08:00+00:00"
+    },
     {
       "title": "Jon Hernández, expert en intelligence artificielle : « Les gens utilisent ChatGPT pour rechercher des connaissances, comme s’il s’agissait de Google, et c’est leur plus grande erreur.",
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNbnpUc04xaTRqZXY3azVHOFkyX3VpeDlqamg0WlRZQVg3TGVqOWU1MFN2UWJ0MWM5OERnclRiT0RxVTFITFI5UTNURmxjZGRzWmUyYlRMcWdHTDFjdkIzcHZERmxNQlF2TnRLMXQ1MjZMaFdzc3I4d3kzbEhtRDRHWTdTcFcwVEhyYnM1cGZ2M1JRYXVGbC1YejZQalRuSXBvcVUycW9FVnBaQXVlWjBCNFpKT2pVSXdqSG5ONWhfeG9vNXU4c3RTWnFiZzFKRWFVUGp4dzRZcnNQVnJYOVNIQzJoMkttaW5vY0kyRFdCSXBMWlhTbVZXcndhcUlPcmF5NVlDaGNNZV9SWDNmaXBWbDJrenRsSlgyTjVkbFR5MTFxbFYwdlZ3MHJhSk43cm1rTFdpMlRhY2VOUQ?oc=5",
@@ -21,6 +51,12 @@
       "publishedAt": "2026-10-24T11:06:16+00:00"
     },
     {
+      "title": "Pourquoi penser qu’un texte a été écrit par une IA change notre manière de le lire",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUF4ZHo1WUFxNktVM1VfQ0lTQ19YSy1UbWZPV2l4UlNocFVmNUhoN3ZhVC10eERHR2sxR1hocDYxLVdvdHFlVFFLbzU5N3liV1k3aXNJN1JjU3BzUUpDX3FEclZheFhVWkl1dEk1OEpBTDdyMDlEdmZfQWpuMUZFS2VLQTd3WW1xMGJCZHVtMHNWNWU3MlhhNGFWRUlXWWxSeDV6T0h6WEo5cTBQV2hxRlRDN1ZrMmM?oc=5",
+      "source": "The Conversation",
+      "publishedAt": "2026-10-24T08:30:51+00:00"
+    },
+    {
       "title": "Des applications qui identifient les champignons trouvés en forêt grâce à l’IA ? La fausse bonne idée décriée par les mycologues",
       "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOLUQxZEdQWVcxSmJxRGdidkc3alBxQ3pLc0ZmUkl5WkhPNjhVbnNHQUdoMW1qOXY1bTlGNU42STc2YTU0RUJGVTlRVTZiUmtsUC1sU2ZmVDdrNXNRMVNmdnlDa2E4SUJqWnhBRnlBUjlrSUJEMjkzSVNFQ0drT2tWZTJqWFEyTHNnd0stVTU0REMyXzFpdHpkOE55WTl1MFM5bzNhU0hJTGd3Zm9XS3FiRVhSenBmM2tycy1JOWVJQVZWT0tlVVZEZm5ZVTlRTnlIQnRhQVd4aWZGNERFa2FzRjNRQ2dmYVVUdnhzWExrODBaTlFxTEpSUkYxNHJITHVBN29kZ3VCS2J2bjBQdjJ1TzFaZFkwS1pLeUdNX0pmejlWbUpCLTgxbGtfNVBXb3BqaGliRzJfWHQ4UXc?oc=5",
       "source": "Libération",
@@ -37,42 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOek01X0JUMTUyNmtic21PVVV4emx6eVdMOEFsTklpOXMxWW95ZUktUVN6TkRtSXRqUWM4QjFjOTZEaUR2S0t5TlNVSFAtNUhGUHhaSXUwWTBsNFFoOUxUMmhXOUpfS0RndzNObHNfRHNNZFdIUU9WbjFBaVl5VV83bmpiQTNDcnR4N2xTZlJlNkR6UXlFUU15Wk8xVkZkZlRmVnc?oc=5",
       "source": "Le Canard enchaîné",
       "publishedAt": "2026-10-24T05:59:00+00:00"
-    },
-    {
-      "title": "Sarrebourg. Affiches créées par intelligence artificielle : qu’en pensent les professionnels ?",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVlXcXk5NDdjNXVnQUpoTFlLaldPbVdfMG9UbU14eFN2cTVwejZpUUFmazRSdDJDa1o2eC02MGFySW9XaHFabVFPcFhTdThPQ2F4RUhDQ0xQTUJrUTFaZXh2cEFEeWdfcWVMMWNpTUM1TEd2azZWOGEydjRaVl9nVTdDemszdnVJemRETW1Db1l5M3Jra1lfVVZlR1JKQjFBLUZNNExFVm56UVA5SGtoenJUbVZqZl90SlljeTY4cm1CWWdNX2hLb1djM1ltdw?oc=5",
-      "source": "Le Republicain Lorrain",
-      "publishedAt": "2026-10-24T04:47:09+00:00"
-    },
-    {
-      "title": "Le Bono. Comprendre l’intelligence artificielle : une conférence ouverte à tous mercredi",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMXAtMUlvRlNOREdaX0V4Rmp1eENFMk0wcUNJWHFqaWhRQmNnNk1aZ1FRSXYzWEdmajd2OGlSc0dVZG83Q2lYVU5GbTFRVHU4ZGVBcnoyQ1VIWWRLLTZESzc2bGNyMG5IbVlWU3FLODBDMUtUcEtCZzZiYktXRnl2RVg4eWxzMF9WVWxCVDFlRkp0dEpUdFZtZ0ZES1pUZ3NnXzRlN2h6bEJlZkd1dFVkeE4ydFBYc0RFUHQxa3RnM1BLUWxlODBhdUZpV1haVHJRajBJQlhsWXFEQ0h6U0FnN3MzV2JtVUx5S0dIZ3JaeGJBWWRTaDJNLUpuNGY4QkdaREE?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-24T03:13:42+00:00"
-    },
-    {
-      "title": "Une IA souveraine européenne, ça veut dire quoi concrètement ?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeE9rbk40YUpmb2trRGtZMV9YNi14TXk3N0dQLXBrMlpYc0ZrbjZkYjFNVjlBSFZnd0tlT0JYTmVsUEVETEMtQjJSQ3VrN3ppWnZ3UTYwd08weEpWOFVoYmk2cHVwZ25SemtqWnBIc0QtSm5KLWZyT0xFd3NNTUk1WGhITXdCUTNjR2NiVy1vX3VqUFAxU3hRMGItNmpPQQ?oc=5",
-      "source": "Maddyness",
-      "publishedAt": "2026-10-23T19:18:11+00:00"
-    },
-    {
-      "title": "Pays de Montbéliard. Intelligence artificielle : pourquoi l’Agglo prend une longueur d’avance",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVXVlbkxxS0Z5clJycFhRS1Z5c05KcmZtM2l5UE9odjJqaldYVnV4YlBHY3R0dzAzWkotN2Q5ajFrc2VzYlFKLTg4TDJJREFUWnJTdF9oSXkwZ0ljenVHNUNLcW4xbnVDQkl5WHV6bHlBQS1uVjIzVVpGYzJuM05rbWwxb3g4dGlkWkFzcWxxdmhQN0pnU2h0UDluaEtTdXdhRm9nTlNmRnNIU3pDVDRsZVAzNzBCN2k3REpfcmFB?oc=5",
-      "source": "L'Est Républicain",
-      "publishedAt": "2026-10-23T18:47:53+00:00"
-    },
-    {
-      "title": "Les craintes liées aux technologies de l’intelligence artificielle (IA) propulsent les écarts de crédit mondiaux à leur plus haut niveau depuis 17 mois",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNR08zZ1ZVTW1lT2Y1bU9RTjRtblV6SzAxSEU3VU1uRU1GYVRkRHVWSGhWa3Q4d0dfODFxYTh1TF9abVljM2llMERaeHFQNWxMdWlOY3pzSlF2X0tYR3pYaVVRZWU0V0JWal9ENk9FbmU1QWhUSlk3MjZSWnJ2NWVfem9CNmdsM25EZmFPQTZiOFpJX0taY2RsS2hqRDNkVGszT3pzLUZBcG55SDBGT1ozYXJjejZFN2FWV1p0VHlFRm50MXpDcUkzbjg1TTNpb21QaUJlTm53VVNtNlZTN2x3V2g2aTJ3OTFHQy00aHpB?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-10-23T16:21:17+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle a gagné",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jWVpwNWhkTlg1ZW10LWFFM3FIWFpxbE9SS2RZZFZxM1BYZTFGcGZtR05CR2xEUHI0SmhzSEdiTjdvNkpvNU9WOXJVMXN2d1BmSE92b2ltY0pwV3JWWDYtRDZuYXJON0Nsc1c1Smdn?oc=5",
-      "source": "Urbania",
-      "publishedAt": "2026-10-23T16:18:46+00:00"
     }
   ]
 }
