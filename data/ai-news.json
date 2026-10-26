@@ -1,78 +1,78 @@
 {
-  "updatedAt": "2026-10-26T06:54:31.473457+00:00",
+  "updatedAt": "2026-10-26T13:49:23.461735+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "L'intelligence artificielle, nouveau défi pour les experts de la cybersécurité",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajBRRG1nQUJMVE5xZlNPYVFxNFdCeVFuaE5RR1kxMVNjbDBrdU1YanF3cXV5TVNSaEt5eC11NUl6Skg4NXNRdk5rcUdCSzluVE9LbG9YNWhBMXdDN2dJbVZsRWh6TUViZ21JeFZ0bjlTUWlySDdSbXNXS01DbmxJV1NvZkljNGFNa1UyNVpwT2Q1TkpVZmZ0Q3pmT3BtUGY5MDQ2VnZlSWVFRk1GcWhHTURlbl9yY2JudGxGNnl0Wkw?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-26T06:30:08+00:00"
-    },
-    {
-      "title": "L'entreprise devient un acteur majeur de l'IA: SpaceX emprunte 40 milliards pour financer l'achat de puces pour intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOQzJjVm4zbVpCQzUyQ2pHbGdPRDZMZzhMWC0tVXBMYkhCeXZpdHl6eUIxYkFRalFkRW5nY1QyRHozcW5wa0lSSno5cnJaNDh3WjFDX2U3SG5FeVVrWUxWOXpWUEZLSklBNllOQWsxNW1JeEtsV1c2TU1yLXJNUnNWOGxMSFd0UjI5MkRVVTk3ZFFGcTJBY1ZNM005RnZKM3NIOHhtbTFmOE4weWhJSGxDNWdYdzVsRDRZVDZnRTF5NnhWZVZVOGZ3MWc3ZFhBQ2N4bVJ1ejMyeV9WTGg4SW9EN0dGZUZsbDFjN3NDRUpkcndmeGFlZUVoMGE3MjFvazFLamtobWgweXR1c2l4NzZGbFVJSTFaUlJ6NG8ycFdLVVhySUpDdGl0MElZbw?oc=5",
+      "title": "\"Aucun pays en Europe ne peut se payer ça tout seul\": face aux géants américains et chinois, la coprésidente du Conseil de l’intelligence artificielle et du numérique “milite pour créer une sorte de Cern de l'IA”",
+      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxOZ21feExvUlNMSUNReXFJelpMYmtsajRZTVdvU19CSDNiaEQ2VjhGMHgxZWlOZVRzN21FcnVtWi1nMURWWTdHUE1mM3Y5dF9tdE9veTdRV3ZaVUdJYmQzdzFYYUczREZRa3BsVzVKdExmN3hYQ3VxVzBuVkFJUXN2d3dlOGNRVmJ3ZFBKVXN0d2tsbk5ZNm40N3dCcnhLQzNJSHYxOTZSaFh3czhtWGpZN3Ayd1ZHQ0RVbDcwVmh3SFZvVGhOTk1MVGNnLWlzYTRGRVZVS2F4NU1PazNyeDNzTjVVZ3dwNTRkMElWSDAzNG9FZUFmVmR4RVlZTHFGcktURjFBMHdXNDViQ2plMEJYOE5kc0xlUlc2NWlGUHg4SjQzQ0xMOW5LMlE5QjI2Wlp5Y3JVTW85OV82VDU4SWtPS2FMVFZFbXF1clNFbWRJTlpRbnpoRUl5Ny1mamlrQkNyQXh3MjE5QnlNTGRKYkExT0x0VXQ1LThvSmNydlJndFJWSDJIQnVEcjlmaU16ZXdhQmc?oc=5",
       "source": "BFM",
-      "publishedAt": "2026-10-26T05:38:49+00:00"
+      "publishedAt": "2026-10-26T13:15:16+00:00"
     },
     {
-      "title": "Israël. L’intelligence artificielle, une arme de propagande électorale",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVFsUjVPY3RLZk1kNDhLUVJTOTVOT1BJUGZhUlRoR3U0a28ycFJuN1hLZlc5RktuaHNxT0JneTMxU19fWDIxaU04Zm8xTEZISGJrMlA2VmVDQWwwMVBXbk1OYmh6UEMxTzVFc09nakJpUVN0TktvcDJkUzA5TVczQnp2NW1TYXF3dGVlSWJBaWg3b0JTRWc?oc=5",
-      "source": "Orient XXI",
-      "publishedAt": "2026-10-26T05:07:40+00:00"
-    },
-    {
-      "title": "L’IA, je m’en passe, par Michel Henry",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONVRUTHJMSFp0REVqYk8zODlvRFdVRzZHR1Q1NGhJZXNVcUZ4WlV6dHhTNk9zNmNaSG9MS0g5RnJyMDhkclVmWEF3ZkZmQ3IwR29kOGlNbEJiM3NjdHBjd3hKZkhZWHU2dXhValVLSWp0QjctVXpQYVhWdlU5NFhQOERfUUVxODItTTNGbVJvWGhWamJ4SFdxbHc5X2kxNXFFUFNsWkQxRko1TVdnTTAtV1RCV18yMEphSVhnN2ZB?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-26T04:49:08+00:00"
-    },
-    {
-      "title": "Se former pour devenir référent IA, un rôle clé dans les années à venir",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQUdmVFozV1I3MXNaeHFhMEdJTmZ5MHRLMjV0a3UtUnhSMXA3LWFhSXdvdGFJTVFQX1pYaTVaYmRFdTA0cm1jVE5uR3Y3cTNnZld0NW5VNFQzYmdUMHllaTJMeFllelBtempKQThaRDU0Y1VqenJZaEt3T28xS2l1UDk2UTNPRUFwcnMyMGROeWhfRWpFNzJzRmhNbFF6RmRlSjI1MXNFRGl4VEdaeDNFNkc3ejRZZWdWb2FSWW04empuWnp4LVhrS0kzeUVZbjlSUVlSa1Brck9OaW56MGpsZWxrcGtPaWNQWVZKZW53?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-25T19:00:00+00:00"
-    },
-    {
-      "title": "«Les revenus générés seront insuffisants» : Wall Street rattrapé par la facture du boom de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQMWxNdzl0Q2FkbTBGM0xEa0xNajBDSFMyaU10UFVjdlpWekJzUDNSZkpjUW14QVJ4UF9QSDRhaXRPZkNKREZVTmpobWNQQkw2ZUhNNnJZcEhTdlJhX21lbHNGRXVKZXFLYUFLTUYwSWQ5dlc2aVNFU3dKX1hHRExuYU0tXzVLLWJKYjF5MWlRR3c4MXdrUDA2TXBFUWNiMENveHdqcEJBNXhoUV9ZOTdVOWhwZ1ZxbV9TMUsxLVRkT2V3aGRnX3VSTmk5UkY0UTNaOVdqNndNa213ekRiRXZoWjlFNnM2alRVbEFkTnppY2w5dExhNERCTg?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-10-25T17:22:57+00:00"
-    },
-    {
-      "title": "VIDEO. L’intelligence artificielle s’invite dans les vignobles du Vaucluse",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVm5PY0plLXFrZE5KR0U1cmNiVFd5dzlkVXd6VmxLRlM0VEFfc01xVjd3VnRvWldSVWFyRDNqT1JwdEp6ZDhONWNnanhYb0JySDYxOWZITktadUtoamFoUkgtb3otbWJKWVFfTXY5bVVwal8yTDJWMmxEdmI0ZVlpNUlQaTN0eXpfRDVYajZQZ01GbkcwNUlwaW9tOXBuWWd5cGF2Q2swQnI0Q0w2VjhMN0tycWFWWFduNktXb2dxbTlzSmV1NHU0Zy1wZ2lNUTVPSWJsc2JacTJBRVU4SXE4a2hNNmRUVGx6UnA0cXdrTDlWV2p5?oc=5",
-      "source": "France 3 Régions",
-      "publishedAt": "2026-10-25T16:52:30+00:00"
-    },
-    {
-      "title": "Calvados : avec l'Intelligence artificielle, il crée un album de coloriage \"pour les plus grands\"",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc1dvelZ0a0xMcjVxTFh5NVRQcUF3bFNUOUtBT1VhM1FtaVlGQjZJWExvbG95TWpQYW5sTUZzSnB4eUhUNnoyRVV3ZXNfQ0F1Q0J5bU9MTnBQTGRBbThCa0VuTWpMN19XQlpNOEFReENyOExWc2tXS3c3R29BcGJDejhFV0Z5VVExeDZYOGRpYTZOSjFtXzBzd3RLR0FBeE9fcTJDZWRPWHhKNHJIcXgxc0t6X2ZKZW9KV1lDNXpFMGJGQm1RcDFpaWVQR3BqUHpKTGF3NW55aWYyTm9vUDFj?oc=5",
-      "source": "Actu.fr",
-      "publishedAt": "2026-10-25T12:53:48+00:00"
-    },
-    {
-      "title": "Catherine Malabou, philosophe: «Avec l’IA, l’homme découvre que son intelligence lui échappe",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUlZQR0ZydTBueGgxdnplakRWNUY1YjR1ei1hSnZRRnIyalBTRFhDOC00dGNQUmpDOFpTRFpwbzd5aUFDOW1iZXk5cVU0SVRoaE5UaGlDTGEwWGZzdDlPVHluQzBmVnhSa0NKVGNwenlmUldnd1RXVGFUalVmenR6dnp0YWdVYkFOSlBWSnZiUWQ4MEMzSjdsdlFJSDg1UmdMUUdUakQ3SXpiT0lMM1NoUV9aRHl0TVJrOGhydWgwQU50MXFGa3Nmam9yRzRjV1R6Wkh0SmhKNG1IQQ?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-10-25T10:42:04+00:00"
-    },
-    {
-      "title": "Données, armement, travailleurs du clic : la face cachée des IA (Video)",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWGdHUDE3aS1OZzhsaFEwWDdXa3RGOUtRQXpXX2xSc2xNNDY3OVE2dW1Vc1d0RVRYTUhEdFBXU0FuQTdHeEdCTU1TV1Q2LURaQjRDZTBkQjI4VzJ1MjA5blNxTmVpRkZPWnMwM0VXcnU2RkZNeHc4YlNhVmlKSW1TdzZ0LUZDZDRHeExab2h2c2pWcFFzSWVpVmQ2VEdsMDNLMW5vNENaMTVHeFhTRWlOSw?oc=5",
-      "source": "L'Humanité",
-      "publishedAt": "2026-10-25T10:01:00+00:00"
-    },
-    {
-      "title": "Avec l'intelligence artificielle, le cuivre a du plomb dans l'aile",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNUtDN0lBdE1wOWNxT1dEVjJiWEY4UVBLSGx3dm1BWXlyejRGUTVaWTUzLTItdlYzWWxfMlFWVnZ3UDBGOUR2V2gyUFVFLVZRS1piemlhRnVteFNDVHpNYW8zQXBSODlWUlJOZzJiZlM4S25fNXhqSTdCREJILXNDMDFXMllqMHlwN1ZBYXdqc0pzQUxlcnJ0REhlN3Z3aHA1Y19ldkxkYWtDMTFaX1hRbFRNRVRYNXpZeE05d1ExbEhUWkVkeGZMOE5R?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-25T10:00:11+00:00"
-    },
-    {
-      "title": "Tribune libre. Jean-Pierre Chruszez : « L’intelligence artificielle a-t-elle sa place dans l’écriture d’un roman ? »",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdW5yQWFfUGU2REFrN05qWGZtbVhvTlBMOXE1M0V1enpmVlpNNmFzVDI4V2kxZDlLR25iVFRoVDlNNUlLMS1NbHluOHhTMEhwLXRiVngyQ3V5ZUJUZFNnaHc5NjhNR3F6Qks5WkJfTUxZb1FCWjN3ZElUekpPWnVGZFlRUWw0NHp6cUV6ZmVQdUNnNlY4UUZ6WVE4OVFleklkUlZtbjFQMktwSDY5RHNseFN1c0swSHd1cGtqTk52UHg4bnlaY2JQcE4xNWUyM3RFX0dyT3c4ZVRVanRkYW1GRUZPOFZaVDZ6QmdLeQ?oc=5",
+      "title": "Parcours de soins, robotique, diagnostic : l’intelligence artificielle en santé fait débat dans le Var",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSFAwVm9ndGI0ZFY3TGRpQjlGZEF0NzloWHl5d2U5V2NXSjNWeEFPbWFITlJUN3JwMEVFdTZ3eXBDRmFGRmpHOXd3TlVRXzNTd3dua1BJZHdxRllwN3ItWlhIQmdOWFQ2cE5hZzdSVmwwWHZRM3NSQy0tbE1XaFhHSmdGSFRTbzEyMm91Zmpocmk1ZGVURVF3OVlMdWR4LXBsaTNBenRfVWd0bGM5bVhDSDdtVkZPejhSTXkwS3BqbVJzUzQ0aFlJd2RzbDlwOE5qOWMxX1pB?oc=5",
       "source": "Nice-Matin",
-      "publishedAt": "2026-10-25T09:30:09+00:00"
+      "publishedAt": "2026-10-26T13:03:08+00:00"
+    },
+    {
+      "title": "Verizon revoit à la hausse ses prévisions annuelles et signe un contrat de plus de 2 milliards de dollars avec",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOeUM3WGNfQVAxUFFFMWoyR3kyM1BUX2VPNEk0aWpoUXZJcFlXQ2R5bUh2aTRtRHJVdzItblJ0TmRfRnVjLVpRcTUya2VQLUNSZE9LeFZhUGJRQXV0d21iT3ZiX0pUelJ5NXN0eXFNT1YzWklrV3pUVzZMTlFMUG9BTzV1aG42UUJ2aENjMmtRXzZNSWpGTmZRV2FQM1RhenF5d2xfR0RMSGNMbXE5SFlkbGhSY1EzRFY5clk0TEFzUzROc2VweGVvdVlkaTVlS1laRmlrbVVKdTctWmp0WlZLNnNYYVhoWlNKVS13dFFaSi1YVjJGY01Wai1VbmdlMGM2b01CRHVaRXJ0Ri1sMGpqMWdWWTROd2d6dE0zS1lDMzlmTzNodjF3U0Z1UG5EVDZSekRXenJKTU9oNmZDX05PUFBITDBrRDM5NGEtc094TU5ic1ZZWmxQd3FURS1WOEtUWnZEczByNNIB5wJBVV95cUxOeUM3WGNfQVAxUFFFMWoyR3kyM1BUX2VPNEk0aWpoUXZJcFlXQ2R5bUh2aTRtRHJVdzItblJ0TmRfRnVjLVpRcTUya2VQLUNSZE9LeFZhUGJRQXV0d21iT3ZiX0pUelJ5NXN0eXFNT1YzWklrV3pUVzZMTlFMUG9BTzV1aG42UUJ2aENjMmtRXzZNSWpGTmZRV2FQM1RhenF5d2xfR0RMSGNMbXE5SFlkbGhSY1EzRFY5clk0TEFzUzROc2VweGVvdVlkaTVlS1laRmlrbVVKdTctWmp0WlZLNnNYYVhoWlNKVS13dFFaSi1YVjJGY01Wai1VbmdlMGM2b01CRHVaRXJ0Ri1sMGpqMWdWWTROd2d6dE0zS1lDMzlmTzNodjF3U0Z1UG5EVDZSekRXenJKTU9oNmZDX05PUFBITDBrRDM5NGEtc094TU5ic1ZZWmxQd3FURS1WOEtUWnZEczByNA?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-26T11:00:56+00:00"
+    },
+    {
+      "title": "GEM lance un MSc data et IA en Chine avec l’université UESTC de Chengdu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWktJU0c4NFVoQWM2QjZEajl5eVNhWWRsZnUtN3NzTkFNU0p3T1FsMVVtWVJMVExveFRaakI2QkpVMEJ2YUFNZHl6S3IwaFVzUGQ0V3pJcU5Velg1N0k3S2loYzRMT2dHWUFuekNkTDkyM0dwSnUyZ3pRNnJIckdzbUFYYmE3LTJOQjhjYTlab05sWlBaLV9NN1hBb09SOGYwUjhZdmVnamsxSkZIc09MSHNmWDBJTDQ?oc=5",
+      "source": "Studyrama Grandes Ecoles",
+      "publishedAt": "2026-10-26T10:47:46+00:00"
+    },
+    {
+      "title": "IA : SpaceX lève 40 milliards de dollars, Elon Musk prédit une « hécatombe » chez ses concurrents",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQQ2dsVnotZnZKSmJZdW4wTHROT0pqZ2lEMUkzaHNockpDQ2hXcDExdklONXBiN0h2a3ZpRG1HM3pPM0lTWVdtYVhxSTNydUxSMEQ4a1RCNHZIcjNOV3U5MTBJY09zUVF6SHlSUTNkNDJtUmtPRmR2YWhQTEVLdS1PeDdvQXU4ZG85YzczZjB1WGxqUUR2LW9BUU5pRmJORjhwc2lOTlFqMnhxOVdVWXQzUjhOOEFlWFBMdmV4SUtkMG9tQmF3NHFsaDB2YW15MGlhRUJyeExtcHVrY2EzakZUd3Uwc2xIUjFManVFUzJ0YjFFOXlUV0t3RHJlMXlhTnhwVUpiaDN4ZWhSdmNDemRkM0pB?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-26T10:33:39+00:00"
+    },
+    {
+      "title": "Le Conseil national des barreaux lance avocat +, une plateforme d’intelligence artificielle ouverte à tous les avocats",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOUEN0OGpsTHBqVDhiRWg2MlkwWHBGOUZZTGdBek1aTDJUeFAtanZyblh0dnJxSUVrMXV5UDYyT0RRWWtFZDljZjZTRFJRSXdpTWkzcy03cHdoYWEtSmtfSE10UlRURm1NR19KamtkeU15cGl1ZEEtUGtiVVo2bFpibDZZR1NJdEg0QVhkUjNHX3JJZm9nUWhjd0lBeVlkOHlaRUZvd0Njd2Z3bmI4ZHhydGN6WjJadGtuVFZTTzFhaE5kLV96OC1PTmI4THFSVEpDTXBRbkFWM0NieW90Ui1xYnp2dElRcmh1WjBxS1lhNk84MTEwemVzNVdlTGxPNUVCNWlfTDUwQ3ZNTVNzVlhibnFYTUNCMl8zU0E?oc=5",
+      "source": "Le Monde du Droit",
+      "publishedAt": "2026-10-26T10:01:12+00:00"
+    },
+    {
+      "title": "L'ère de l'efficience de l'IA replace les données au cœur de la création de valeur",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPanlCQ1U2aFY4bWJtUEUyMlB4d3lMRnpxMmx3a1dtU3pGSDdwaVQ4LVZmaHdYM1V0VFhZSEJqTHYxMG5RM3FvYzVxdUxwODlTNVA4eHRPcUNMcjlQYjBnNmszRWRJTG1qYmZVSVZaYlVLS0k4OXlEaElMcllQM29nemM0NGxRLW4tS3dSeWNlWUdmMEVaZXFIT2ZobU9sdUVxSUlabkMxZ3RpM2pxR1pwTmV1REk1UFRLOFlvWDhseVV1cUNYTmd2ZHBWbzZSZ0hGckJLRUZOZ19lWUdMNjdRZQ?oc=5",
+      "source": "JDN",
+      "publishedAt": "2026-10-26T09:56:41+00:00"
+    },
+    {
+      "title": "Prendre le train de l'IA tant qu'il est encore temps",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFAyM2NfNTUwa2FmVEE5TVQzOVlqWDl2YVRKVjlkVldfdWt4Y3JJZzA2MnlJem1hNURYTElUNTdPMmk0OS15eVRWN2NhVnRVbE9NTlhQWHpqZm8xd0o3MHpSLVk3Y0pCazUtSUYwSThFckZ3RmozREpUTlJxa1hzekl1THlBY1RuZEx4RjZQUGRYRTd6N0ZjektmV3JWU2ZVQUlzYWZUUTZ2eEZtNnZaTGQzTkpJcGs?oc=5",
+      "source": "JDN",
+      "publishedAt": "2026-10-26T09:56:03+00:00"
+    },
+    {
+      "title": "Atos lance la suite Atos Genesis Intelligence, intégrant Atos Codex, pour couvrir l'ensemble du spectre des ap",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNWU1oMVBJbk1HWFFlbzZKbW9ObzRyVWJMRndNU3FHUkhKUEpoeEpzTGFzQVQ2bGpXU3NjSy1VczhIXzF0VDZ6YWt2WWNFenRNdS1zblpRLVpfUEZxRXFVdl9lU25SdkZWemhpOXZaZ2hvZ045YXVIOUM4MVduQ1dXLVVwUG91WVVQYUU1eF9YSC1RMmF2VVczLUhxVDlYRG1YNWQ4eGlVVER3QUNUT0o1TE0wMzBXUG1Uc3lCb0txX1ZSRkJ6X0FMSzNwTXdrTzQ4ZmgwbndBQ19MTnkzS0IzdU50OWZrZEFYY015MHdwZ1Q3TFNzb3pmTU5OanI5OG5kZ05kZHRVOWpJaFJtNWdFM0VlajlLWFBlTkJuLWZ1N21VeHhnVlZhS2ZsOVRMSC1yX3fSAbICQVVfeXFMTVlNaDFQSW5NR1hRZW82Sm1vTm80clViTEZ3TVNxR1JISlBKaHhKc0xhc0FUNmxqV1NzY0stVXM4SF8xdFQ2emFrdlljRXp0TXUtc25aUS1aX1BGcUVxVXZfZVNuUnZGVnpoaTl2Wmdob2dOOWF1SDlDODFXbkNXVy1VcFBvdVlVUGFFNXhfWEgtUTJhdlVXMy1IcVQ5WERtWDVkOHhpVVREd0FDVE9KNUxNMDMwV1BtVHN5Qm9LcV9WUkZCel9BTEszcE13a080OGZoMG53QUNfTE55M0tCM3VOdDlma2RBWGNNeTB3cGdUN0xTc296Zk1OTmpyOThuZGdOZGR0VTlqSWhSbTVnRTNFZWo5S1hQZU5Cbi1mdTdtVXh4Z1ZWYUtmbDlUTEgtcl93?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-26T09:44:12+00:00"
+    },
+    {
+      "title": "BLACK FRIDAY 2026 : QUAND L’INTELLIGENCE ARTIFICIELLE REDESSINE LES HABITUDES D’ACHAT",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMVdsazA4X2xmeGdyekNtQWI1V3dEVGJvLWRBRXFQejh5NXdIdmZwaU5hekIzZTU5aTRocU42S09UV1MyQnh6VFoyMUgyd3ZZRDZrb3o2NjhROThJVzdhQUVuSy1yWFlBZ1FRVGZJb2d0X1g0NjJ3LWZwVzBRbmFTWkpGY2ZOMVdWbmNuMEZzMTU2Mmx1TklRTmpTME51eWlJNjlZRFlEUGREN05Cc1FOMXlvNk5iTDFWcHhQbmFuNl9mSExpUzNRc3R1MUk0dHREUEd3?oc=5",
+      "source": "Les Echos Etudes",
+      "publishedAt": "2026-10-26T09:10:53+00:00"
+    },
+    {
+      "title": "« Transformer les données opérationnelles en décisions et en actions » : Atos veut faire agir l’intelligence artificielle, pas seulement la faire parler",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPOURyZ01ZdGE3bUphLW82SlNucXl0cXpqcjlCdXl6bFFycFFQcjlMR2VLeDBXSS1Eamd2X1RfaXdBcHJPaVpyYmxCbmllUjVoMEw3QlJKdDhHM3V0blpxZjdhLVZrZXBDa0tXUEhUZzFTNDBJa0s0b2J4RjJPYzF4aWVWWXpXM0g1Y2daSFdGXzNpemtDRG1GT09mRWJza3oySS14R0dDbG9jRkhISEJMand5LUxKM0pNTk9FcXpyYUpQQ2ZWWTh3T01vT3p2ZHI0Y0tkeGN5ZnlGX2tOZU1SQlVMdUgyMnhoZjhPZUUwLVBMcEhKX1lUcW1zNTlaU3NBQ3NYVTVtQ0YxRDRqZHotX3hxZ0VHbmlmd3VsRWFTWXFTNWFNRG53NnluMGhub2tzTTBiX0phOTV4OU4tV0U0bVZGaF9KOHE2ZWwwd0xfMFFZMnM?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-10-26T09:00:00+00:00"
+    },
+    {
+      "title": "Le secteur bancaire directement touché par l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOXzUxdHRlRXJ4aE9wVVdqbnhGbzA5T3FVa3V2QS1Fb0hqVGhpLUpkekFCa2hUOWNmWkpfOVJQT2tTb19vb2gwc0NLT0R5QmIzV2ltcUprV2xiSDNBNnZueTVDT054MVBNLVJ3R1hPbzV4Y1B3NjBacUZabVFPZThRdF9XWEZiYTE1M3VVUGR5QjJxNHdXUmVCTEdBYnRJZTBlc2s4U296R2EwQzdoUXRxbzJrVXVsb3RWSEF6X3ktbGhKYnprT1JCcVlzTjZZTG9H?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-10-26T08:42:57+00:00"
     }
   ]
 }
