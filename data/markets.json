@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T18:58:41.500Z",
+  "updatedAt": "2026-10-27T22:53:45.991Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
@@ -9,34 +9,34 @@
       "marketTime": 1793118943
     },
     "TSLA": {
-      "price": 406.905,
+      "price": 407.46,
       "previousClose": 391.6199951171875,
       "currency": "USD",
-      "marketTime": 1793127520
+      "marketTime": 1793131200
     },
     "SPCX": {
-      "price": 149.89,
+      "price": 148.58,
       "previousClose": 146.89999389648438,
       "currency": "USD",
-      "marketTime": 1793127519
+      "marketTime": 1793131200
     },
     "NVDA": {
-      "price": 217.685,
+      "price": 217.94,
       "previousClose": 216,
       "currency": "USD",
-      "marketTime": 1793127519
+      "marketTime": 1793131201
     },
     "PLTR": {
-      "price": 199.9,
+      "price": 198.73,
       "previousClose": 198.83999633789062,
       "currency": "USD",
-      "marketTime": 1793127517
+      "marketTime": 1793131200
     },
     "NFLX": {
-      "price": 62.655,
+      "price": 62.52,
       "previousClose": 63.900001525878906,
       "currency": "USD",
-      "marketTime": 1793127516
+      "marketTime": 1793131200
     },
     "IWDA.AS": {
       "price": 131.61,
@@ -45,46 +45,46 @@
       "marketTime": 1793118906
     },
     "BTC-USD": {
-      "price": 80526.87,
+      "price": 80749.89,
       "previousClose": 80006.65625,
       "currency": "USD",
-      "marketTime": 1793127513
+      "marketTime": 1793141620
     },
     "ETH-USD": {
-      "price": 2341.86,
+      "price": 2345.29,
       "previousClose": 2320.28125,
       "currency": "USD",
-      "marketTime": 1793127516
+      "marketTime": 1793141618
     },
     "SOL-USD": {
-      "price": 100.84,
+      "price": 101.1,
       "previousClose": 100.75485229492188,
       "currency": "USD",
-      "marketTime": 1793127513
+      "marketTime": 1793141614
     },
     "XRP-USD": {
-      "price": 1.3215,
+      "price": 1.3242,
       "previousClose": 1.306900978088379,
       "currency": "USD",
-      "marketTime": 1793127515
+      "marketTime": 1793141618
     },
     "BNB-USD": {
-      "price": 748.86,
+      "price": 744.52,
       "previousClose": 741.4193725585938,
       "currency": "USD",
-      "marketTime": 1793127486
+      "marketTime": 1793141582
     },
     "DOGE-USD": {
-      "price": 0.07818,
+      "price": 0.07861,
       "previousClose": 0.07760100066661835,
       "currency": "USD",
-      "marketTime": 1793127508
+      "marketTime": 1793141606
     },
     "GC=F": {
-      "price": 4069.3,
+      "price": 4077,
       "previousClose": 4038.39990234375,
       "currency": "USD",
-      "marketTime": 1793126911
+      "marketTime": 1793141015
     }
   }
 }
