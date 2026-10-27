@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-27T02:10:01.949760+00:00",
+  "updatedAt": "2026-10-27T07:50:25.123783+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA : cinq plaintes en Europe contre Scale AI pour collecte de données",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON29Mam5saHRINkFvc3pPVFZfb2xITG5QeS1xc3pjQTlmbTYwelh5eE1ONXZBN2JuT0ZNVkp5d1ZIT0RhT0t1ejZrME5mRmZibGwwRjBqN0NTTkJWOFRwbks0RU9XNmhDQ1Z1M3BEVUFTdjZUa2xXV3oxUWUyWFR0VS1XMzdpQ1FHc2hMS1dDUWRqSFBvVG5fY3dLX3l0YnFiamNoS0FvU2tCbTZpeEM0WllfaWgtT0xVbFE?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-10-27T06:28:33+00:00"
+    },
+    {
+      "title": "Des « petites mains » de l’IA portent plainte pour infraction aux règles de protection des données",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeWVzQWdsX3hoWUdqNGIxUFloRmlUYjJ6cmJ5U3NSSHhTelRBMkEwa1YyLUswR2JmbnlvNUZzYm14d045NGF2R1lhRE1iOWY0cll4M1lrOEQ1elZxOE1ONjNJTk1xOXAxS3RzeVl2TUFyZHJxeHhGWVNJOHNfdC15MHJxeGUzS1F3SjFJWENwZC1MWldhMXR6SjZSNTBNTXgzdl91VnAtWDNYXzFLc3JiTlRQNGM4bW9hR0dObWZwaTduQlN0M3g4RjUxQkdzVkhzNVpRMWl6bWZfUXBfOGxuWkh0ZEExZ1R6d2luaHpOY3FTSkh2T3c?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-27T06:00:21+00:00"
+    },
+    {
+      "title": "Cyberattaques par des IA de pointe : le casse-tête de la responsabilité pénale",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObUVkOFpnYXUtXzZPWkUzM0gtcDROcEk5S20yaVZZaDhJbnZySEN5Vms1XzdJdTFiNV9XamdjMDVlZWFOamFzTUFuVjdHd1dCY2hlYlZKZndONVA0bG9NakVkUVRhSzdvd1FnNk52SUtxcW9oOTBsWk0tdEZaamV2MlQwRTJtdWFnbVMxMUs3dGtUbUhwV1I4RG5KaUhNVWlnOE1yRV9VQ2lPZ0JqQjlnMVEwakdSSXRKeGxrTnE1MXRUUmVJdEZRejBHMXFRblVpa0NHQkEyanQ5Nklwd1Rr?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-27T06:00:08+00:00"
+    },
+    {
+      "title": "Salaire, nombre d'actions, droits de vote… La gouvernance très égalitaire d'Anthropic, le prodige de l'IA, en piste pour Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRUlTX2E4R3lHZ3ZRRURjRDI0U1JOVHFKMWx3Tmctd0NNcmhnSEJZYXZKQ3FGRTBzbF9kbm50dTIzVVdZa0lIV2NOZS1tdjQzZDhsZlNGTWF4by05QXltZnpDTFBTV1lkVF92OUV0MXAteklUU1M2SVdUN25pTF9NWGNzUGd6NVl4Qk40dlNEd2FyTmRwRmwydXhEOVdmZVYzWUM1c1ptXzhJSG1IYWVFMEVqak04enBTeF9xbGd4VEFmSkYzcU9NeTJzQnRUb1BfeWw5em9FTk9ldnpiU3kwTFVnWll6NC1Rbl9YeEhxRi1fSkZUcmxsOVBhZEJHaDNXcEM0Z3VlME1NVV9Nb3NBOG5WejlXNnV0YU1PWjFKMA?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-10-27T05:10:08+00:00"
+    },
+    {
+      "title": "Le peer review fait par l’intelligence artificielle : nous y sommes très bientôt",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDVRTVVNdVgwUFVlQXZCVC1lSVFwaF94MlM0SVhZeDR4WGJQaVlMOFQ1MG9ROEM4aHVzeEtCeDlnUHVsTGs4Q2E2Q3AtNVF5c2hWc0tpb0FIMnFKemNGVGhJOGJDUzlUNUoxUW1HbndNcnowbFkxTGFLNnU2Zm1LZW95UlNSeEJzaXRyaExZak9hSUhCR0tMeERrUTJlMnNrdFB5OTJkNTJrMFlqYUF5d0gydzdKeWJpT3c?oc=5",
+      "source": "Rédaction Médicale et Scientifique",
+      "publishedAt": "2026-10-27T05:00:45+00:00"
+    },
+    {
+      "title": "Tous les regards tournés vers l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWszVkpWSnFHZjUxbWFpUlB1RlJ2ZnJjdURIVGJ6Y19qQ2ZHOVUtcGItSHk5S0FZNGd2YUc2R0pXSVNBQk9lZldyM1lPZHhGWmRYUXh3ZnFUZVlhYU1BcTBselhzR1JIeFVNN2VLVkZ6RnVJNjZwd0R4elZlR29uRVVucHJoQ0RuVVppSGNMMEhYNFlWZzFONFlLbHlVaEQ4M2J3aWVRcm5xQ21mYVlVM2JNVFJQbXBQc3c?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-10-27T04:41:34+00:00"
+    },
     {
       "title": "Le gouvernement néerlandais veut supprimer 25 000 agents publics et les remplacer par de l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQa1RPWHNReVFnYUdPWXNjbFM3UzRfRUo0ellKOU1BQ256eTlBaEl0cmdfVHJPc0d0N2RBSkpRc3VaMDdmZTJmQ19ULUJFZHhRLWlUaWZxRDIycFB6Y2drRGtibVcyOTF4Qm96eW9TcEtzeUJrbnFGRWptYmdUREswZFRNWFc0RzBJMXU4NE5GZ0NTSS01aTdzQkpTLVdNV3dqRlNJM2pxNDY2eDFLRjhJMVJ2YXNFSHR5WUlBbDIwUkprOVkzejBoeW9BaG52QTZFeVc2UDRNUzRIVTF6VDhtbTc0dkpnS1JlaGJ3d2FTSGV1dEkwaEJpbVRGcG1HQ3NCdlpkaTRJRy05RmFFQ1U2R2p3R0dIMTBRaWQ5VXpIdXRYWDg?oc=5",
@@ -15,10 +51,10 @@
       "publishedAt": "2026-10-26T22:01:55+00:00"
     },
     {
-      "title": "L'intelligence artificielle prédit des surprises retentissantes au Ballon d'Or : Mbappé et Messi hors du top 3",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQejFjNlJLQnNJQnFFd09DZGRpQ0xVMHpvX2RZejkzVWkxS2xsYTF4OEZ3YzFyVU5uVEVZMDA5NVVkMzB5cHRwQVc0R2NwOEY0QzlDdXVfRTRWZlQwR3kzdUtSWWxDWmtSem9aUmxxTXh2UTJCZEhnS280Y1pqVnRNU3p3TFJ5UmdqREFCc0dTQkRNOG00LW13T2M5QUp4eGRoZzNaUlpMeTBPdTN6WWloRExVT3lfVVFHbUtxWmxDNU1tTUt1NTVtOWhZNjVvN210QkJmZ0lNd2tnVE52UUlSTlZ5UW5jVk9sem8tdnlB?oc=5",
-      "source": "Goal.com",
-      "publishedAt": "2026-10-26T20:33:07+00:00"
+      "title": "Wall Street clôture en hausse, l'IA reprend des couleurs",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbkFadUdLY1pmMDZPSHZxSS1makVmN3VkMTNUVzlfaXZYMlhCMmZEQW5Xenp5SzQ4X2Q3c2t6a2p0NEcwYkpwX2hCeEk4UEJPQTFJWTdhNUszQ0JXVlhza3BqYjhfd0JXMWlpdGhfNWplLTh5YzhDS1Q5dU5RMHBUdVVYeHFLQ1lXdmJzcmFFNmlIaTZYMERBTEhiYk0wVVFwUXJPMmJWN1gtZnpKbnA3aTF2cG5qSE84aUsyeWwxeEstN1h2UHhpVjJUeXJHd9IB0wFBVV95cUxOWms5VV9tcWR5T2VDWl82NzFDTTBtMkd0cWVGZlBnWmJxVmFtb050Vkg2OXNJWGhOclpSemRsaHNZWTRWc085VS1sdU1sb1R0SXhydXgxRTFCakFteUJpeml3TVFrNU00cktZVlFJdXNHR1VUZUF5WVFObXkzQUN6ME5WRnVxNkROUElvcFJFQ0ZIb05SdDNzdE5FV0h6WHhRUUtJMjFIcUdEMnZVb09yTW41SDVwYnFITjIxdXBVV2hLUXl3blNkZS02eEk5V0Nqd0Fv?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-26T21:06:03+00:00"
     },
     {
       "title": "L’UdeM crée une chaire en intelligence artificielle consacrée aux soins cardiovasculaires",
@@ -28,51 +64,15 @@
     },
     {
       "title": "Wall Street clôture en hausse, l'IA reprend des couleurs",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaTctY0hSeVljSUgzeXVVV0FqZ3h6ZzYwbjNoc3R6MnR3NWxuNXlEcXVJN3hTZU1mYXZlc0JjNXp2M19fMklpenlsU3FTbHA2bUZ0M0NPU2lacEhkdHlkT2puVkVULVBrN1lsUDg2dk8wcDM3T2J4STVoS01vbmRvTDRlcFpfbUMzM2ExRjhub1FuQ0xBSEx3NVpOamtucUg0TlFQZDBDMFNfcjlLbFVyeE5HNA?oc=5",
-      "source": "France 24",
-      "publishedAt": "2026-10-26T20:24:58+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOGdycDBqYUVQemlDb3Q2YXliXy1EUXZub1RtNlAtVFR0ckxCUXdaek92UEh4NktqXzhDNjZEN2EtM0hDMU1UbnJkLTVaZXF2dC1Ya0RuQ19BcUJiN1pFXzExV1NqVWNqX3ZOTlNBczB3NE5qY0U5R2xmZ2lhVWQ5d1RPdGN4OUdMV296dEFIUjlZVHJ1?oc=5",
+      "source": "Yahoo Finance France",
+      "publishedAt": "2026-10-26T20:22:42+00:00"
     },
     {
       "title": "Intelligence artificielle : c’est quoi « l’alignement » ?",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc05wQjQyVkFJSmtFZkFfVDYwR2NCTVNqRm45NnVEa0lRX25HcG9ENXNzMHhzOUpQeEdfX0g2YzhfU042UGU5dDM5R2lQY0h1aDVCNlk3Q0RiTEljSFNtVFI2TjZDeUZPUmxfeTBOSU00R2dreXc3cmJjLVlqcmZOZGNHMnJwUHI3?oc=5",
       "source": "Toulouse7.com",
       "publishedAt": "2026-10-26T19:36:40+00:00"
-    },
-    {
-      "title": "Croissance météorique, coûts exorbitants, risques en pagaille… Anthropic lève le voile sur l’IA avant son entrée en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPb2dhdW1xVUk4d1pXR2k5VkpJa3VvbmcxU1lzX0FpbFlRMnJsU1NjN05nNTQycDd6c01UWUtManlZVEpZUGprTU0xYzhUQ21WaUcyYVdkNUlqVnl4TW9zN0ZVQndGWThvaDVLajZYejFwSHEzbE5VclZ0OXVuNldwY3pxTHlObEpoNWRoaU15Skl3dWdEdnRTendLRXhjZm1Fd0JlVEhjcEloQkMtcWlfUldGanVoM3Q3N3JITjV6bHUwazRFaXVnTUF0WUx5WnhCQlN4elNmSjV5bnNOWVhuWWcwMjE3ekwyM052TkhuUHJtaFBwN0cxd2JsMzc2bHVaM2duN25EZzZWd0VxTURrR2VJN2lUWFVDcWZLeklNbzlucUhWZDJYUVl3MGhhZ1E?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-26T17:29:14+00:00"
-    },
-    {
-      "title": "Jon Hernández, expert en intelligence artificielle : « Si nous essayons de rivaliser avec l’IA, nous ne gagnerons pas ; la clé pour créer de la valeur, c’est de savoir comment en tirer parti.",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcEdNbENYVm1kRkpkejBEdUR1dUJ2NThMT3dfSXFPSm42d1czZEpxVFBtLU0wZmVCTFZybGx5a3h1dzdXWm5mVzZoN3llcHJlM3plazZwa28wcXRCZzU3MDdYcVE2eDdncWl0Zjh3Xy00ZUZaV294dU5wbExjNHNaNmgxOGFGMkpoTE1MTGQ1R05DdUdJY3k0UjVWckZUVEI0STBQNUdOWlFtVjNkR2hSNjdSd1Iwdi05OTlkaUpNaURUcVhhR1FraW4wckV2WmNweENXN3IxUWcyajJZR3ZQQlBhcXpKNFJua3Vrc21BS0dKczBvaWs0dkVmcnBkN05ENjYySFFEOHlUbWFkcExwU0lHdVdXWG9GUzZRamdtdHlPdVJ2NWpudU15VXl0RFY4Zmhtd2tsVnhSRm8zN3p5S3lR?oc=5",
-      "source": "La Crème Du Gaming",
-      "publishedAt": "2026-10-26T17:00:19+00:00"
-    },
-    {
-      "title": "« Faire partie de quelque chose de plus grand » : le prodige de l'IA Anthropic en piste pour une gigantesque introduction en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRnJBeUFnZmNQajZ6VWlRUWEyYWNydFR6VU1UbEhpaEs0MlVuMzZRLS1ZdUJ5NUtMcjF4YUotUDBFV0tzeVQxMG8zTF9GNWM1aXY3OU8zU3hMVTVuN3dpYmh0dDNzN3BLWFBzUlVtUFpZbkpHbnBQeXRZYXFvUmRkNE9Db2huSzdITmxVZ2tzSjVHY3RHTGN1dkxxSmJabmdvN291Um5TUWZOMnVaVUlyWU1sUm9XSUU0bWZQd3FCS3ZFdmljWC03TGNCRDBqZ0NTMjBIT3MzOTU3ZGw0cllRbUFzdFM2Vm43aGwzeXZWb3NBOUJ1eVBwcWJFOHN0Z1Eyc0RPZnhCbFNjRHFhdGRteFlTa1E3SE5KTVJJaUVCWQ?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-26T16:49:03+00:00"
-    },
-    {
-      "title": "À l'ère de l'IA, le collectif retrouve sa fonction critique",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOajNWczd0YWpZRU90MGpLcy1pZjZmUURpb3NyYWRLVS10WEJTWnJocmJ2bEJBeGlUeWxhY1gxNkFZMDFIaV96LUh6YU9UM243SW9HU1ZjNHBuN0JpRzVYYnhoMGhWZWtRTEZUZXIyX2lzMHNkWTZsa1hfeWRzQkMySHAyM1FWWEVHM3pDVXJSb21wZWNscGNWNk42NWVHd1JRTHNz?oc=5",
-      "source": "EY",
-      "publishedAt": "2026-10-26T16:39:11+00:00"
-    },
-    {
-      "title": "Ce réglage Google à vérifier d’urgence pour empêcher l’IA d’utiliser vos emails et photos à des fins publicitaires",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZnkzWk5WV3V5UjMzYzMwXzhjbUhUWFFZcmxjdUxnY1l3OGtNUHN5eVA4TnUteE9UYm5sd0Q0aVJLSEdNa2JoU1dYalRjTHBocXl3R0ZoeWpGZXN5NUtSSkNXakxfcldkZ3QxbTVSYmpISUVZYS02VWpvZ3Q3QkgtaWxSSXlONVhhcmNMN0VFOTlnNkZVdjU1WDJ4MHZlWmp5SkxYRGlabFBuTmhNZnJwaEVBcDRYaTdOQWEwd2hzMGR6T2ZLMzQ5NWxoMXgzeDFiT01WVm4xUUlPcUx4U2Z0Y1Bvb2g4TU5TZ2ZTQzFDSFM1SGdUQmV2RktuU0lvYjYwdmxJQVVIVlZSRm5uZ3NqSw?oc=5",
-      "source": "Les Numériques",
-      "publishedAt": "2026-10-26T16:37:00+00:00"
-    },
-    {
-      "title": "Gymnastique artistique. Actuellement testée, l’intelligence artificielle pourrait être utilisée aux JO 2028",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQX1FmWmpFZDZlamV3OFBBaXBOOElmZFFjV3gtZC16WU9MdTcxMzJMTFYxS0xNWjR5ajNfMkFIcFo3RFVlNUJzX2VqY3NaaEtRRWk5dkFQaUJ1ZTFrYTRrUVh3dkpzM3ppQWNuSlZnRWp1S20zemYyZjA4OWJPUzZKNWU3MExBdzRJRTRxRTVEcVBqOVE3ZzFCNEJUaE1ZVWZFcW1GTXJYcG8zZ0hkVzFiZlprQVNFeERNZHlycEtvZ3Z3NjI1cDFvdXpmMDFsOFpCRmp2eERqbERBSmI0YWt4aFFKc0NZQVJ4ZGpIVlJya05ibFBaOFh4RmhmOU9EXzFhUDZOaENXWXJoeEFqb2dTcXR3azNKUWpPZFEzRmhsbzZYUVlf?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-26T16:32:19+00:00"
     }
   ]
 }
