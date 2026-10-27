@@ -1,7 +1,61 @@
 {
-  "updatedAt": "2026-10-27T13:39:30.446382+00:00",
+  "updatedAt": "2026-10-27T18:58:42.062600+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Des « petites mains » de l’IA portent plainte pour infraction aux règles de protection des données",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeWVzQWdsX3hoWUdqNGIxUFloRmlUYjJ6cmJ5U3NSSHhTelRBMkEwa1YyLUswR2JmbnlvNUZzYm14d045NGF2R1lhRE1iOWY0cll4M1lrOEQ1elZxOE1ONjNJTk1xOXAxS3RzeVl2TUFyZHJxeHhGWVNJOHNfdC15MHJxeGUzS1F3SjFJWENwZC1MWldhMXR6SjZSNTBNTXgzdl91VnAtWDNYXzFLc3JiTlRQNGM4bW9hR0dObWZwaTduQlN0M3g4RjUxQkdzVkhzNVpRMWl6bWZfUXBfOGxuWkh0ZEExZ1R6d2luaHpOY3FTSkh2T3c?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-27T18:03:58+00:00"
+    },
+    {
+      "title": "Qui décide si vos données peuvent servir à entraîner un modèle d’IA ? La réforme du RGPD ravive le débat entre intérêt des entreprises et des citoyens",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPV3djODNZblJsa0Q5dm1tQ3BqM3FGRGxwWGdKR0xTS2F1WGROeHFpa3M5a1JYTFZoWjNCbXJmN3BtWHV5ZENvdXRzZ3pPNkJpQ1pCQU0zc0daSTlCMHlxNktWdURHQUdoamY0WTE2a3dxbzVwVGV5N3FQSkNhRjR1dVh2UzI1RlBRTUNhYWRYOXlkNi1UWTYwa0E0NEd3dGI5Ry14eERGb3pkSlgtcGo2bkFkcE14WTR3eTkwLWtVRVlyblRseV9FMmhCNEJHQi10UVZDU2h6NVA3TV9yOHd2Nm5fbU9Pdk50OWFmVDhKVnVYS3ZuN1BYRlZLaHN5dGRCb2VSZU5KS0g0anVqbDYtRllJNWlLUS03U1dqNnFGUnpxeHBybmdSRkIydTI5SEYwd0tIQUViMWpDVHBVYmt2Y3MyR0JWTVdhcDI0ZzQ0RG5nR3Y3X0E?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-10-27T16:35:03+00:00"
+    },
+    {
+      "title": "Quand l’intelligence artificielle submerge l’autoédition et menace la création littéraire",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQUlIZ2ZITnlpVmlJaFQyNmdzTkViZzQ1ZVBNaUpxOWwwRzZaYk54VDZQWERnazFKOHl6MHdWX0pleTVBM190VEhMMUlMNklyUHlPZmhVU0FuWENza0FPQ3JMOUhUSlJ4SGdoUlNLcVV0NDl4RGxXVV95QUhTNzlhRHk5ZmtqSGV0VmZPRGUxeHRmQzRWRmlXUVkwU3BCTzdoYktVZXZGdFdGZEhJXzV4bGQ0TW9Ycml5ekJhOUdtcmlWYWZYMXJ0RFc4alNSdUFxQ2tLNGFaN2k2UnE0ZXRIQWdtdWlnMTg?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-27T16:00:15+00:00"
+    },
+    {
+      "title": "L'Académie Goncourt face à l'intelligence artificielle après l'affaire Thélyson Orélien",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOYXI4TE5sUFd6RkQ0dUx2M0F2ZWtqd2ttYUN0end5aG1UU2syM2R6MmQzckR5ZWhsUVVjZkpnblJvdmhHNC1HN0t3T3hEamozWTlWaVdoUjNqdXc0cEdtTS16ZXlvZ0tzeXdNTklyWlVfTGRLekdXTnRoNS1zcGd6YUNKLS1uNDNRcjlQcFl0Z2JLTy1EdHdOWXQ5dE9KYkh6a19lcHF0QkIwSDA4MWF2djZWaTItVzA0RGpESjRibDM4SDNiM250U1Y3X3EyQlRDVnFUbnE2TDNEeVY5LU92MG5KOWtGaUtEZ1hEel9xc1plTlV6Uy1PZDBVMElHa0tSdHkxcTROVWNzajJOMGxsLTRPdW9JREFqY1NVTA?oc=5",
+      "source": "Radio France",
+      "publishedAt": "2026-10-27T16:00:00+00:00"
+    },
+    {
+      "title": "Pourquoi Anthropic admet des risques d'IA \"consciente\" dans son dossier d'IPO",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQN2JPYWtCMGZuWE92T3E5WmJacXEwVGV4dmFjNXBjWFd4QzVWYTFVaWY0RU43VFRuUFA5RlQ4SzFyLTdkNnZxRXhjUlNSMkxockp3YmlGcEdGWFU4MXJIR2ZrR3dxNFFXdHN1akgxN0E2WUFOa1N6YTh1RjYxbVkxV2dsSzNuWGthRk1ZU0x6TGY5WkxkLTE4eVh2ZERhb3ZPMm5mNzlEZllaSnVZV0ZFY3RrX1dHVm5zSjRsUU9obldSZjR5UHEzSHdCMm5SNkctU0RGa3JqQUtDR1lmWk83ZGFrRzBTaWxLaEFWME8xVGwxSVdFMHN0MktzaW1rOHNhNlRfbl8wY1A?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-10-27T15:28:05+00:00"
+    },
+    {
+      "title": "Interview | Cyberattaques, Intelligence Artificielle, souveraineté… le Général Erwan Rolland fait le bilan du CND 1 an sur l’antenne de Skyrock PLM",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcnVDZVUyeTJyOFlIcTlESzM0Y29qWVRheFB0UEVpNlhuekQyMlJhYmxrMFo3Um1ud3diNUJNOTFsWUpkNHo5QWNpbFFFVldROGNfZHdhR3Bjak5hTWVlTTdFMHQ4U2VnaldidXRkUTF5S0NUQmdaRFFwWjNHSVR3MzEtVU9jaGVBXzJUdmpQcGF2eE1DeFNJd1hLX3ZWc3d3ZlJzVkdxa09PcDhaeXRJRDZJakdlc0RzS1FmSnB0UmxtX2NvMy05aWJkeXN4bjJ6TFVJb3NfaE0?oc=5",
+      "source": "Ministère des Armées",
+      "publishedAt": "2026-10-27T15:21:20+00:00"
+    },
+    {
+      "title": "Un nouveau prix littéraire récompensera une œuvre créée à l’aide de l’intelligence artificielle : « Depuis l’affaire Thélyson Orélien, plus personne ne doute que l’IA est capable d’écrire un bon roman »",
+      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNMWRNUzY5ZXJWUXBPaDVLMUdFNmlRaElKa1hzNE0xTjQwVEVVeWExOFdONTk0RUdxWWJScksxSWJMUnFFd3VZUHlqU3lUSkFPdFI1cUpZMXpLVnVTekotU1h0ZjRfR0F4QzRSeVBReTRXemd4MEl6ZjdhcGlOQl9tWlRlLW5DMjBGbUMxYkJmeEZTZWQ0bk5Rd2tYbnNQVVg0N05nNklhMjRlaGZ3YWtrUE1FLVJqV2lMaGhGUFRnTzhXX1hyX3ZMbjF6MGJfOWY1Sk03OHoyckJpQUlrTjM5dGU3c0dXQkw2NkIwYTh2MVNVaVlZWGlDSHU2UTFuWmhKb3VucS1KZFYxekROT1hKVjE1QVYzQ1N3bUVCZHF4YVdYQmNiOGFzYm5jcWFtdVN3OHNITVhGVW81UUVoTzljTXhBNFE3Z0dad2VfbTNYbnFTM0RWbVViTVJYN0h3Wkh6dHA3cjNYZTlvcGxaUlZqc2t4RlBoVWRobDMwQlBkOA?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-10-27T15:00:11+00:00"
+    },
+    {
+      "title": "L’apocalypse de l’intelligence artificielle, un scénario haussier ?",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQTlLTjhKa3MzbXhNdTFaaUJCZXNHVmtQZ3RFWWRoYkJCalVDWVIwejV5MVI5US1JNDEzWGtoZzFsRHJyNDVyOUc0R0l2TXEzZ3o1emdMQmMyczdZS3ptc1NOUHVvcWFobEpzNWRpWGpuakRGZ3JCMHlPeVo1c1BGWUNaZWxzRmlGOFdUNml2VFFlaHFRNzlUd0JfVQ?oc=5",
+      "source": "l'Opinion",
+      "publishedAt": "2026-10-27T15:00:00+00:00"
+    },
+    {
+      "title": "\"Celui qui ne l’utilise pas perd du temps\" : l’intelligence artificielle détectée dans les travaux des députés du Loir-et-Cher",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQLWl3aWFRdEVMVTlnWEFET1FNU3RMVGZpNEEzVjF6M2J5SWdhTTJCN2dUMlFOOWpmUUlYYlpRX1VsVjI1cll2Rm5yUl83R0F5VTY5a0tqNGRSU3EyQTlITmdKWFVQTUt3VzBGZzhtcEt1Qng2LXdMNDRrZ29LVVcyLXBaX1Y5NXJxX1pGUFhlSHpudDFTMnU4akNoaWFzb2tiN1V4RGlOQXNUUGM5NmphdmJaZGFNYVRENlR4Q1J1eWZzejZobWRWOHlHbmtfVDFSWGJyWUFrM29qb0J3YU9LRUZvM2pVUTZpVTJGa09GeEc1RnFKVXJCbzcxeW5NcFQtbXE3UktB?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "publishedAt": "2026-10-27T14:26:56+00:00"
+    },
     {
       "title": "L'IA va-t-elle remplacer les médecins? Cette intelligence artificielle peut être 2 fois plus efficace qu'un généraliste",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQbldEbW9mc3YyeldFZU0tQkNuUGkzSFloZl9aSU5ob0t5c0FiOVdUb0EzdFIzN29GOTVoRUs2R0FMMkV1Zzh5RERqVU41RDZHdFFsbWpOMmd0b3haMDdTdDc2UXhsSmw1MUJGR3VDX2JsSlpVTUx3WUljUVVQQkpjWWNEY3h5dTVhZ3BjeFZOb3ZtQVB5SXctaUtmYUxBcl9TZTNDVmhQckRLYkJnai1yNGJrb2tDRk9mMmVJa29pcndLUV81OGs0c085OEFUaHZ1RWw0MDFva2F4Tk10NW5VTzZqMVVVT293MHFSWVVURUI3RnBvREhtZzZPZWg5MnZhR2Q2ZV9DRTRQdFc2TkZ5ZldsRVQ?oc=5",
@@ -15,64 +69,10 @@
       "publishedAt": "2026-10-27T13:15:19+00:00"
     },
     {
-      "title": "Dabo. Intelligence artificielle et amour sur les planches : Les Obadiers font rire avec une comédie en dialecte",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUXBHb0lWS1liVUktaXY0QkVHSllVcl81TUFtWDI2Zks0ajVoNUtlaC1TYkF3X3V3TVdQTHdrdHlQOFFUS2xrUUs1aXFiM3VwdDV1V244R2prcmtPY3RsQjBRRjlaTHN1MDJIc1psZzFERFBfZmU3QVpvc2pqbnIycEsyU1M4ZF9VemstS2puamhjd013NmQ5bWgzeUt4UjV6bmlramllTHhJU3VqV01jbDB3cml2SzZSWlBWeFVRMFd3d1BYd1FZQXdIT1BEa2w1UjJORFd4V2NqU1NPaTNSeUJkRDE1MzV6WUtTd2xKVnpwRWlhRFFXbQ?oc=5",
-      "source": "Le Republicain Lorrain",
-      "publishedAt": "2026-10-27T11:03:25+00:00"
-    },
-    {
-      "title": "« L’intelligence artificielle peut être un formidable accompagnateur » : le Grand Est veut miser sur l’IA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbUN4OHNGV1VuSlpqWktFdEoxSXVOdy1sNjM4dmp5cEhqOG9Vbm9SSEwycnFTY051OEt5MlZZY1AzUGVodE1QUU9SZDFZMmZPT1BUWUxTenBGal9HOXhNSWczQXpiZFNIbHNhbE1IS0ZGT1hseTVfdkh5bDJHbnFOM3NZWUEtY19Sb21hbHF1UXc2Y2M?oc=5",
-      "source": "Tout-Metz.com",
-      "publishedAt": "2026-10-27T11:00:13+00:00"
-    },
-    {
-      "title": "Loire. Du Forez à l’ONU, il interroge l’avenir de l’humanité face à l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQREo4ZlFRMnpxUllCUldhVVp3STB4WEhMS25ZUTlWdlU1SVdVV2l0WmpvYmkzcGxuM2dTYWszMndnZW9PNEc1cXlncG15b3gweUZ3MWR1T3cxYUhXUnc1aW0tWDN3WjJ5cE1vNEl4cldQMk5FN3FsLXFmUDBadmd6eG1YR0Z5dVdjOXB4TzVBYXotcUJ0SzJRUnVHdjlZWW9qcUd3QTY2clFxbERSTHNybTVnYlM4ekhyZE50NEVubUxpTWJBUTZKOVM2Vkg?oc=5",
-      "source": "Le Progrès",
-      "publishedAt": "2026-10-27T10:57:57+00:00"
-    },
-    {
-      "title": "Forest : l’intelligence artificielle au service de la conformité financière",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORHpYQ29fSG1BaklpdGFmaWh2a0g2LWxzb2lxSkJSdFRuQ1dNVXl4LTUtUVc3b0puaVFzS0c4ZFlHLTJfdi11SmhpWXpRT0dURDVUamlodVFCUDZYUjZVLVNJZzZfaWlxYUU0WnN3b3djeDVqLTVmU21EMS1EWDl1bkRmb2JrekRfQURqVkcxV1ByNnB0NFlpcndWb1A2QjhmaGhWbHVJTnlTdjFWSWdHaTdGemFDTkUxNGZULXZWcUJuNWVONEE3TTNpUQ?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-10-27T10:29:22+00:00"
-    },
-    {
-      "title": "Nvidia renforce son emprise sur l’infrastructure IA de Meta avec un investissement de 3 milliards de dollars",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNMEtsSWp2UVRXZHhTZlUtbmE1alBVSDFTLTVWSjZzbmZocHRvWXh2OENGVWI4ZndVcXVJZURHOVphYUJtblotSmFrbFllYklyM1pZa2tXdE0zdmJVR0JyU1dsQm1laXFIenBCTHU4c0FVNVBfMFhfVnVTLUoxY3dZN1I3QWp1cUR0VnZ1LTh3QU1mRXRnVTdGTnc2dmxGbUlYWlBMd0JsdWt2TnhDeFhRQ28wUmlyTGFQSTZyazRuUzRJR2Z4R0x1a2pYZUFUTVJ2OFhGQ3EtWm9zUTY1bTZpMlN1TkVrMnBaLUlMZW5MOWFXTGxvNENHQUZNT0sta09SRkJia2UwZE44T1c2YzVHQTFxRFJMUlZE?oc=5",
-      "source": "L'Usine Digitale",
-      "publishedAt": "2026-10-27T10:25:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : l’IA transforme l’immobilier en Asie",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRXdtd0NLSTY5Nm5PdE01WUgwb1NyOTdjRmhvUFdUenBYaERBYjVrRTBlbjk3YWJ5MFRGdUh5cnVNVV9FSDdDMW8tUEtlZ2NCeDRHMnphM1ZNOFR1VmctOUp6U3N4T3dXUG9landMdkRKUjl2M0F2MVJDYUtHZlVJSjZHUGRkV0Fwa2xaMGZHdUhoalEtN3ZFLXJQamVTSWxzbDJzTms4R3BYcm9vTWsxVEtYb1o?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-10-27T10:00:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : les ayants droit d’Elvis réclament 41 millions de dollars à Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNajM2eEZzNHdtUlJiUF9mcEpMTDBaMkZ4SmhsZV93ODE4VUh0eno5aHlmOGs4djRkNHJ1MENMbGU2VFdaNGhucFd2UkNsQUVnUXZqemszeGJfUmRtQzY1NU9rMnJheTF1V3JadUtHLWtEaFdqYkpiWTRGcmFRNXViYTJEMlJaQnkzdS1NRkN3bmhadW1rZ1g1Ukh4SkdvTDNsRHA3YklBMUZMVmh4eVM5X0hKaktmRTI3UWluZTFzVndfTVNqVWxoOS1nOG9uWHBGU1E?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-10-27T09:37:41+00:00"
-    },
-    {
-      "title": "Pourquoi une banque centrale devrait-elle s’intéresser à l’intelligence artificielle ? L’exemple de la Banque de France",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLTI1RU8tb0Znay00R29DQ2ZlSl9EMUlaaWRWclpqWjhkZ0NYVVBURnlXckZCSnZCYmlPcUhjRFZ5Z0E4ZWkzbXBxcEJfbXpVVU56UHA2bWc3azdZRGJQLWhMVmFhRGpFNV9WQVFWa3k5M3VEaWZRZ2tjWTRBeDdndjdwaDVXMWhGd0tRb0FfQThCQTk2YkU4dUZiWUY5cmFFeTZ2eEt6UGUzV2FPTEJiQk5ZZG0tbWlnTXVCdmFYRDVUQWV4ckxsLXRxZERxZm9uSlJwWQ?oc=5",
-      "source": "Banque de France",
-      "publishedAt": "2026-10-27T09:12:11+00:00"
-    },
-    {
-      "title": "Course à l’intelligence artificielle : le prochain choc chinois se profile à l’horizon",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQclNORHRUQXJqSnpUbkpOQVdQLWxuSXlXNmk0QkZ1QTMxSFBCNWUwLTJXX2JiRHc3UlpxQlM3aTQ1TW9sbFliUnpJMkVkY2dIZWtJVGlDT1QxREhDMkdvVzg5NkxUSGV5TWhpQWxGT01BMzFsM1c1YndQb09SLWJwR3I5bUxORzRZenVheGRHbERmNkEwcHEwSmFvQVB4R2JwdTgwQjlWS2VqZlYta3dPNm1VanBjWjdNcGFRbW1Fei10WHdhTklURVZEa01NS2Ri?oc=5",
-      "source": "La Crème Du Gaming",
-      "publishedAt": "2026-10-27T09:00:12+00:00"
-    },
-    {
-      "title": "IA incontrôlée, cyberattaques, armes: les risques qu'Anthropic brandit avant son entrée en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSVlQN0xJTUw4VE9YU0xvWnlKZFVRWG10X0FGYlhRNU02M2V1N2FuS3Z3TlE5Zk8wX2M4bHlGa3FBQU8xY0w1bUVCN0dzTnJrLXpWd0pqdTBObzNyYTlLRl91dmhNLXZ4T2doeUV0YkNLR1FZSUs5THJNQk55eGtvZXlObnljM2RGY2JwZ3JRRU5QMkNqeTlJU3FYRnpZSlVfLTdWZWRlRHljb2dLWGs3QWQ1NXNTV2ctcEJUVlFQeFB4Q0k?oc=5",
-      "source": "Euronews.com",
-      "publishedAt": "2026-10-27T08:54:07+00:00"
+      "title": "Café IA : l’intelligence artificielle au service des entreprises",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQjRoSTZfeUtWb0JqZVZ5RXBRdGgta1VxNzAxOTNIMmg4ekJoZFpMc3ViMUV0Unl3aDlCdTEyMENMRHQ3SEctWXZTdndGV05YQ0NlNkM1b2lWMlV2U3A0dU1uREJpd2dTMmlDSkY2NkdsNW51ZHdwUExDMFRFdENJZmFKUTZJenRYeVd0YlFoUTBWNTJHS3pYMEVoOWtFZWdzVXc?oc=5",
+      "source": "Ville d'Antony",
+      "publishedAt": "2026-10-27T12:37:03+00:00"
     }
   ]
 }
