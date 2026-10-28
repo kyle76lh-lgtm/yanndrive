@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:03:19.874Z",
+  "updated_at": "2026-10-28T20:12:54.666Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -7,7 +7,7 @@
     {
       "id": "pont_rouge",
       "name": "Pont Rouge",
-      "status": "closed",
+      "status": "open",
       "latitude": 49.48786616400208,
       "longitude": 0.18626335038474393
     },
@@ -21,7 +21,7 @@
     {
       "id": "pont_7_bis",
       "name": "Pont 7 bis",
-      "status": "closing",
+      "status": "open",
       "latitude": 49.4966612525715,
       "longitude": 0.19706728134482937
     },
@@ -42,7 +42,7 @@
     {
       "id": "quinette_aval",
       "name": "Pont Quinette aval",
-      "status": "open",
+      "status": "closed",
       "latitude": 49.482906700004484,
       "longitude": 0.11347889981895849
     }
