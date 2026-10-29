@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-10-29T17:33:24.550992+00:00",
+  "updatedAt": "2026-10-29T21:57:57.812062+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "\"L’intelligence artificielle, c’est un peu comme la bombe nucléaire\": l'appel de Pascal Lamy à des \"accords internationaux\"",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWnV4d0VTd0xGUXdYY2lnYW02Q29seTJIVmVuNmVIdVM1QktwM20wT1hLQXFyTThaeFhoRmlJbDcydXlab2lzVjZ5SnZlTW5ZNU1Bdk9MNFpjN096UHc0TDRSY2FDYXZRMS1Ba2RKTjhqTlNxZXh2RTc3OHVTRlk3RFZDcjJZWkd0b3g0ZXV2V19CenA2TWpqaGdQN2pXXzFJQlVIZUZrMTAxR2V2cW9xVHY0TWI?oc=5",
+      "source": "LCP-Assemblée nationale",
+      "publishedAt": "2026-10-29T18:05:03+00:00"
+    },
     {
       "title": "Les gouvernements d’Europe et d’Asie centrale adoptent à l’unanimité une nouvelle vision de l’IA dans le domaine des soins de santé",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3FJM0NXSTRvaklUQmtMaUVkYXFwN3A1ZlRSeC1HcldXYlF3NDhLQWtRWWFJNjJOSFNzQ3RMc0tPM3duTEUxeWVUdXBtRFduUF9TQzZiZVRYVVp3V1FkbFZyRG01YXJpRjEyMWM0elZVMTI4U3YxTm9rRGI5ZEFwY20wSEJyb0Rmb2tMUVJ1U2VMT0JtNmsyU2xEczk0LW1zaDdaS0lUZ2c1QnRMN25lemFuQVFFNzR2UHNYd2RVUDFfS2R5Nmc2eS1rZFVfUXk2eVpJaGI4a2c4cDhq?oc=5",
       "source": "World Health Organization (WHO)",
-      "publishedAt": "2026-10-29T17:31:49+00:00"
+      "publishedAt": "2026-10-29T17:31:17+00:00"
     },
     {
       "title": "L’intelligence artificielle rend-elle les artistes plus créatifs ?",
@@ -15,16 +21,46 @@
       "publishedAt": "2026-10-29T17:19:29+00:00"
     },
     {
+      "title": "Réotier. L’intelligence artificielle au programme des ateliers du jeudi",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOG84OF9xQUVwZ29NMWNGaGtWYmJYMlBqeE9mMW1VYmdzWWVpbTZobElNVnota29nTWh6LWh1bm9yeUJxc3F4MDd4aXdHTkVBY1c2OE9oQjNLMEZ6Tndid1FJaDVmWXJWcEJLSG9fYkM4X2NLTmREN2NSbXpFeGtsT1ZyTFZHcUY4ejRuZnRzQjRLdUZBcEdXaU9wUlo4a3hwNllBNkVlYnFjQjZQ?oc=5",
+      "source": "Le Dauphiné Libéré",
+      "publishedAt": "2026-10-29T16:54:56+00:00"
+    },
+    {
+      "title": "ServiceNow se fait étriller suite à ses prévisions",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMF9LMlB3ekJsMFlBS0RNNEYydFBEOUhXdHZDdWs2Q29wd2t1WVBHOFlremt4MDdzNlg4MU5ZUVN4MkVXRnNaMHFQQXNqTEc3TGloUHNYNE9QTUEwZEVJNnVCcVN5cTVQamhfUXY4WU9QY0t1YjFhdE5xdU5hdFFRYkc3MjBKd0d0eHVnY01fMzlCdk12R3pLbTJsdkVDY29kZHJtd0VJSC1Nb1ZudUczTF9veVNnM2QtY1VwMHZrZExGdGN3ZWpIcDdNYU7SAcwBQVVfeXFMTTBfSzJQd3pCbDBZQUtETTRGMnRQRDlIV3R2Q3VrNkNvcHdrdVlQRzhZa3preDA3czZYODFOWVFTeDJFV0ZzWjBxUEFzakxHN0xpaFBzWDRPUE1BMGRFSTZ1QnFTeXE1UGpoX1F2OFlPUGNLdWIxYXROcXVOYXRRUWJHNzIwSndHdHh1Z2NNXzM5QnZNdkd6S20ybHZFQ2NvZGRybXdFSUgtTW9WbnVHM0xfb3lTZzNkLWNVcDB2a2RMRnRjd2VqSHA3TWFO?oc=5",
+      "source": "Boursorama",
+      "publishedAt": "2026-10-29T16:38:00+00:00"
+    },
+    {
       "title": "Harcèlement des jeunes: quand l'intelligence artificielle devient une confidente",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOGotNEU4NlFFakFOQzV6MzVHOFpmaTVROXJzSHYwbDlqczBabWgxNVVfSTlCNHh3aW5TZkVKTTVURVJjWHZUbHVtM0Y4S3h1NHotTWxhUVVSQVZQeFg4MG5sV2dqdm5uZDlmRFh1d1R4Q2piYkY3TFBYTExNMV9UdHBpVDJDTEJuUk03SUNqVTlGSjRWOTFxUUxadWZOSDVfYVZ2ZXh5cEd1QUtPLTVSdGJJcDh1TWQxeXZFUFRiVQ?oc=5",
       "source": "RFI",
       "publishedAt": "2026-10-29T16:27:48+00:00"
     },
     {
+      "title": "Jura. Ce Dolois de 31 ans a créé Nakerion, une intelligence artificielle au service des TPE et PME locales",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQblByTTI1N1pyR2FCNFFnSTNpVDJNQ2ZGc1ZsSUNQbHpPaVZna19Gb04zcy1SSTdOUmtrRHZ3NExEVGVzb3JPODI1SUhOVG5vMUpJSFBBTklSLW5NSG00eDd2LWRORGdiSk1mRXZNX2dXNkdUajZHRnRGRXA5Wjl2SU9kaXRJUUtMQng2RVhWOUpuUkhuUGM3RENFaEhEbnZSalBfOC12NWIxSTdoWHhDSllUdENlcGxKQ1F0X2Rn?oc=5",
+      "source": "Le Progrès",
+      "publishedAt": "2026-10-29T16:03:11+00:00"
+    },
+    {
+      "title": "“Je n'épargne plus pour ma retraite” : ce chercheur en IA est tellement sûr qu'on va tous mourir qu'il a cessé de cotiser",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQXVZcXJvdWtjSU5yWFFSdkYtQlZ5bGdPbHEtOTNGX3UyZ0NUY0I0M0VMM214ZFpDbzZ4YmhBcU5qZ0hSY2xiTy1YUm5BbEtuZ3E0ZnpYSHZHd3h6cE14OGplTFNCeGpmLTNoV2dMVHJYN19Lbm9sQ3RtZ0d6cGZnSzRyeHVZbTNmTF9nSlg5cUg3NHhXTVVQallWZExEc3VOdDJrODJ5YkhaT1U4U0NDdkFQdDBxcVZxZ1Y2eF9vRFQyNkMyckNCTFJKaEo0YnBqNDdxRnE4MTFsODk5OGQzVG5YS3ctTGhVMTZqS3FfSTZDZ08zdmx0MUxzdkRGbXRpeHY3Y19lT19rdzllMWc1MGpkbHI?oc=5",
+      "source": "Les Numériques",
+      "publishedAt": "2026-10-29T15:33:00+00:00"
+    },
+    {
       "title": "\"Une arme de harcèlement à part entière\" : l’intelligence artificielle au cœur d’un rapport choc sur les mineurs harcelés",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPck1HZVBMZjdGNGMtNDdJM3R1N1E3NW1IdkNJaENSaU93RFJFQ3JkOVdZZTRtTWVWV1hJRFExdG1wLWNKUnFFYVdjbzFBaldoa1FEbGhXaFpWN0h2NmJCRXQ5eGM5c0I2YW5GVjRoTVNwVnk0bVN3NHZMUjlQcEVjWWFhQTlvcDZVS1EzNTQ4WmNvdjdDZ2M3eS1mZUx0anJpTWJhT19JbTllSmcyRW1oMlNwR1F3WXVIekpsMVhxTnVXZGd0elFlVXZyU0hxRC1ZbEFTUlpoc3NMcGYyb29LdG9JSmVjUkhHSkl2NDNhaTc2X3RHYnNzeg?oc=5",
       "source": "Midi Libre",
       "publishedAt": "2026-10-29T15:00:00+00:00"
+    },
+    {
+      "title": "En mer, l’IA bouleverse les règles de la guerre",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpRVVHbnRrS2xNM19JYXo1dGhvdl9LbFI5dDh5dHNzLUxueHlsa3pVaFJZSmt3QnQ2U21tSV9UUS1OdFJoa1pJb1gzT0tIOFZMel9ZZ0pxMA?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-10-29T14:00:00+00:00"
     },
     {
       "title": "Oise : développement de l’intelligence artificielle chez Opella pour la production de contenus de santé",
@@ -37,42 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXNVTnJVbzlsamVEVWVsdjVSdjA3cVhQMVgySVpVclJXM3F5ZEZ3Q0QzQVVRUkl1bmcxNXZIVnlyQUlCZ0EyNGJCczl1ckNrT2xmMXpkRTRvX0t5bkNTZW9BZjhYSGtVWngxOC1WdGpnNVdrcVFEMzRDTDhOMWNWQm4xWk9MR3d5MzYtYk5zQzFqVmlCMU41U0psaVZuNndjdEdmWEE2Wk5fbFhtUTE0UWJQRmxtMWp2VGhIM19EVTA4VHBoak9pWWFR?oc=5",
       "source": "Le Moniteur",
       "publishedAt": "2026-10-29T12:02:43+00:00"
-    },
-    {
-      "title": "Conscience artificielle : si l’IA devient sentiente, saurons-nous reconnaître ses droits ?",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYUNhZTZIdGpkX3FUQTU1TjZlMlZUMkNDYXg2angxWFExYmltUUx1cGhSZ09tTWlNM0hRY1lMbHBab3V6ZUVCcmNyOXRKaFRhQW1MSUU3QVZaY3hiZVpGWDB4eXBzWk5KNmJrcWpvd0VUX3ljOTBEMXdWWjlEcEstWXZwQkZSLTNhN2d5UlJ3SFhtTGItQnRrYXdKMllwNzdncElNMm9DZXVqNzVfSFVXOHlzSGsyRmcteE9vZ1htYVRpRnhoMGNzaElKRmVUNVJnYzU4dHlyY1piTUVNX3NhdEUxZ0xDMWhVdElsZndn?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-10-29T10:30:17+00:00"
-    },
-    {
-      "title": "Alphabet paie le prix de ses ambitions dans l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19nSHFqUGZBMHpWSGtBdDNQX1pPakxnbXYwXzUtN2l3bERNaE0wdXNDVkxqTnNkS2xQSEltbTdqV0NqeGY5ZXBpQTR4WmpOQjZoR2RvMU9XZzVscHZ0eENRcXY0bnJiYVE5U18xYjhRd1hJWHBpc3FaLWdQT0JRblJMamVOWFg5Z1NfalpkY2hTbXRrX09hYXA0Z1p4RVJwOG5wTTNSMlR3Ymcz?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-10-29T09:41:00+00:00"
-    },
-    {
-      "title": "480 milliards de dollars volatilisés : la bulle de l’IA vient-elle d’éclater en Chine ?",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWl6Qnhlcm9aQWFuSmk2X05PNjJsa2M2ZjhNdzBFSFlwcDBDdjlFdTdNYmVmNjFhLWVFaGFDQ283WTVuOXdjRzExWlJxMzR2WC1oSHRDc2JQbXpEYVNKR1pwYTV6Yl9IR2ZoekJNNk1wTzRmVVFLaWo2ZUN4YktwRnNyVjBmU1oyazhXZW0zd2ttV051UG5uTGd6QUN3bFpWRE5FSlpNUy1TaGJP?oc=5",
-      "source": "01net.com",
-      "publishedAt": "2026-10-29T09:18:43+00:00"
-    },
-    {
-      "title": "Le CNB lance sa propre plateforme d’intelligence artificielle juridique",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYU1hdVpVNzVpTm80Sk9jYjZWSk5QNDhEeVAxTktpclhqbWsxYVFualBrM29lUmllc0Zmd1JrMVB2NThia21aZzhkZFdvbzg5U3dIa1BId3UybGFjY1ByanUzcTRibV85R1k0cVh2M1BMWktKbk9BeTFfc3ZjTWUwRnFhQkQwQ01DcXUwLTdVVjhrMXowU2RlcUpiTFhlVThMb1dJdmd0LXRWbWptQkVQSXRrTExORHo1c0RNNENJdE1OcTZXWUJKeVcyeGd2a2t6RDFIa2ZoUQ?oc=5",
-      "source": "DECIDEURS JURIDIQUES",
-      "publishedAt": "2026-10-29T08:32:20+00:00"
-    },
-    {
-      "title": "RELX capitalise sur l'intelligence artificielle et ses contenus propriétaires pour personnaliser ses outils d'aide à la décision",
-      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQVU9mTFczRU10WTFsU0ZFZDhKUXdjT2pOXzdUcTBtZ3BZd291YlRhS1RLRUYwR3U3NjRMNGRkUTVrcEhOa1RwRmtnRnl3UGVtSVNGUV9fOVhWWGcyYUZTSE1LZ3dvdERtc1FXZ3d6TzIydnJQUFBfTmJqRHZfVlhKOUdlZEpmNUV2b0ZONEtpZGR6VzRLWVRnS2JhTFJPeDNXOGFOblB0VWhDam4wYVNjckFxVW0xYnBJbEtoYmlMM3JDTjRDc3cyYXRKOXV2SDV0dV9PeGh2Q1lMYnJKMTNadzlXaTdMejhqclBPbHpIRUItTXdWcFZBQTBWRU5YSmFWUzdpWkxzbzlCbHVfNEw5SDFKbFBGU1QyeExnNHcwbnFqMkZ3cjg1RHg4WFJUUQ?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-29T08:18:23+00:00"
-    },
-    {
-      "title": "Smart TV : de l’intelligence artificielle contre la bêtise réelle",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUVdRN2F6ZzZMYUE3YjY3U00zXy13WDQ4Y0Q4ZzRfYXBBajAtMURSUXdZUER0TV8tUVZpZW9VUnJyYW5LY1gxQTVvX2hLZE5XZkNIbjBkUzV6YjFEQkNKbmp2QXU0Z2JSZXlHcGhyVVhvM0p5RFdPamdwSjNKcTYyR0UxeDBpUmlUeENGTTg0WF8?oc=5",
-      "source": "Next INpact",
-      "publishedAt": "2026-10-29T08:09:07+00:00"
     }
   ]
 }
