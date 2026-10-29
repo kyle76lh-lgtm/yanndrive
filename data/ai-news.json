@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-10-29T11:43:17.340738+00:00",
+  "updatedAt": "2026-10-29T17:33:24.550992+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Les gouvernements d’Europe et d’Asie centrale adoptent à l’unanimité une nouvelle vision de l’IA dans le domaine des soins de santé",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3FJM0NXSTRvaklUQmtMaUVkYXFwN3A1ZlRSeC1HcldXYlF3NDhLQWtRWWFJNjJOSFNzQ3RMc0tPM3duTEUxeWVUdXBtRFduUF9TQzZiZVRYVVp3V1FkbFZyRG01YXJpRjEyMWM0elZVMTI4U3YxTm9rRGI5ZEFwY20wSEJyb0Rmb2tMUVJ1U2VMT0JtNmsyU2xEczk0LW1zaDdaS0lUZ2c1QnRMN25lemFuQVFFNzR2UHNYd2RVUDFfS2R5Nmc2eS1rZFVfUXk2eVpJaGI4a2c4cDhq?oc=5",
+      "source": "World Health Organization (WHO)",
+      "publishedAt": "2026-10-29T17:31:49+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle rend-elle les artistes plus créatifs ?",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaXF6UGhhMWk0RGNuWGpHQjliUGRzQkVuZ0swYkRJeHdMc21NUVc1SDJIS1ZmbzhMRmpfTExCdmNVUGhBbDYyNzdtWUtEaldfSXZWUkpTd3hJMXFYdTJUam1EcFdxN2RfSm9HT2JMYVZBNUVXS1lzenJabXdDWmFuc3BTaU5EWVY4SGw3Y2t4MUlnYWg2dE1JQzRraDVlcFU?oc=5",
+      "source": "The Conversation",
+      "publishedAt": "2026-10-29T17:19:29+00:00"
+    },
+    {
+      "title": "Harcèlement des jeunes: quand l'intelligence artificielle devient une confidente",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOGotNEU4NlFFakFOQzV6MzVHOFpmaTVROXJzSHYwbDlqczBabWgxNVVfSTlCNHh3aW5TZkVKTTVURVJjWHZUbHVtM0Y4S3h1NHotTWxhUVVSQVZQeFg4MG5sV2dqdm5uZDlmRFh1d1R4Q2piYkY3TFBYTExNMV9UdHBpVDJDTEJuUk03SUNqVTlGSjRWOTFxUUxadWZOSDVfYVZ2ZXh5cEd1QUtPLTVSdGJJcDh1TWQxeXZFUFRiVQ?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-10-29T16:27:48+00:00"
+    },
+    {
+      "title": "\"Une arme de harcèlement à part entière\" : l’intelligence artificielle au cœur d’un rapport choc sur les mineurs harcelés",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPck1HZVBMZjdGNGMtNDdJM3R1N1E3NW1IdkNJaENSaU93RFJFQ3JkOVdZZTRtTWVWV1hJRFExdG1wLWNKUnFFYVdjbzFBaldoa1FEbGhXaFpWN0h2NmJCRXQ5eGM5c0I2YW5GVjRoTVNwVnk0bVN3NHZMUjlQcEVjWWFhQTlvcDZVS1EzNTQ4WmNvdjdDZ2M3eS1mZUx0anJpTWJhT19JbTllSmcyRW1oMlNwR1F3WXVIekpsMVhxTnVXZGd0elFlVXZyU0hxRC1ZbEFTUlpoc3NMcGYyb29LdG9JSmVjUkhHSkl2NDNhaTc2X3RHYnNzeg?oc=5",
+      "source": "Midi Libre",
+      "publishedAt": "2026-10-29T15:00:00+00:00"
+    },
+    {
+      "title": "Oise : développement de l’intelligence artificielle chez Opella pour la production de contenus de santé",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOTzV6allTd1pKNkQ0YTNZVzZSRmpFcjB3NGlqeEo0Sk9yNFZZYzRsQTQ4TlU1ang0emt2SW85Nm1PS0cyYzRGZTQ1SF9wc2sycWp0ajJCRGNBZlFrRjNwSWVXNkJOV0J3OHduM0taQVRuUUVxeEFRZ2gtbkRLM1EzYkZFMmtiWHNabWY0dnpoRE1GUzM0dGVHVnNVN2JPS0p2U0E1NUZSQ3ZyQXJkU2ttZE1Cb1R6d3RWRlU2Wm5ndmN2N1NPNnQzMk9sdHpfWHduUjRCcmsyZWVQOU1mSWtZTDN0MVBfVllNLUFQdGVNQTdwMXJFZ0l0X2xMUENBQQ?oc=5",
+      "source": "Le Moniteur",
+      "publishedAt": "2026-10-29T12:24:15+00:00"
+    },
+    {
+      "title": "Oise : nouvelle offre d’intelligence artificielle pour WYZ Group",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSXNVTnJVbzlsamVEVWVsdjVSdjA3cVhQMVgySVpVclJXM3F5ZEZ3Q0QzQVVRUkl1bmcxNXZIVnlyQUlCZ0EyNGJCczl1ckNrT2xmMXpkRTRvX0t5bkNTZW9BZjhYSGtVWngxOC1WdGpnNVdrcVFEMzRDTDhOMWNWQm4xWk9MR3d5MzYtYk5zQzFqVmlCMU41U0psaVZuNndjdEdmWEE2Wk5fbFhtUTE0UWJQRmxtMWp2VGhIM19EVTA4VHBoak9pWWFR?oc=5",
+      "source": "Le Moniteur",
+      "publishedAt": "2026-10-29T12:02:43+00:00"
+    },
     {
       "title": "Conscience artificielle : si l’IA devient sentiente, saurons-nous reconnaître ses droits ?",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYUNhZTZIdGpkX3FUQTU1TjZlMlZUMkNDYXg2angxWFExYmltUUx1cGhSZ09tTWlNM0hRY1lMbHBab3V6ZUVCcmNyOXRKaFRhQW1MSUU3QVZaY3hiZVpGWDB4eXBzWk5KNmJrcWpvd0VUX3ljOTBEMXdWWjlEcEstWXZwQkZSLTNhN2d5UlJ3SFhtTGItQnRrYXdKMllwNzdncElNMm9DZXVqNzVfSFVXOHlzSGsyRmcteE9vZ1htYVRpRnhoMGNzaElKRmVUNVJnYzU4dHlyY1piTUVNX3NhdEUxZ0xDMWhVdElsZndn?oc=5",
@@ -9,10 +45,16 @@
       "publishedAt": "2026-10-29T10:30:17+00:00"
     },
     {
-      "title": "Safran choisit Singapour pour implanter son premier centre IA à l'international",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWXowazJpNlhTRXNscVFVTmgyd1VNekc5S1hkWmdJdDZtdHJvVFJUdjh1Z3FiOW5xakU4YlFSYS1RSHdneVFTa1ZPSndqWVhZTHJhZ1NYUEU0VWxQRkJ3VmZOUW1CRC1YOGZDT01hUUtTQzZsUFNlRWdXMHQyY1Vyb2lIdEY3eFU5UUJsSGk1LUtsLU1wa0pIRFlfbUxqZjZOYi02X2RHQmVGa01PUVptOEQyWk9zS0ZIXzhCclJrc1ZmdW9lZ2hTdXJZbWloaG92MkJVVmowR0FVRUJzX3NJdjdZcFk4NGZ3eHlpcFhEMF9FYnPSAfMBQVVfeXFMTll6MGsyaTZYU0VzbHFRVU5oMndVTXpHOUtYZFpnSXQ2bXRyb1RSVHY4dWdxYjlucWpFOGJRUmEtUUh3Z3lRU2tWT0p3allYWUxyYWdTWFBFNFVsUEZCd1ZmTlFtQkQtWDhmQ09NYVFLU0M2bFBTZUVnVzB0MmNVcm9pSHRGN3hVOVFCbEhpNS1LbC1NcGtKSERZX21MamY2TmItNl9kR0JlRmtNT1FabThEMlpPc0tGSF84QnJSa3NWZnVvZWdoU3VyWW1paGhvdjJCVVZqMEdBVUVCc19zSXY3WXBZODRmd3h5aXBYRDBfRWJz?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-29T09:24:00+00:00"
+      "title": "Alphabet paie le prix de ses ambitions dans l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR19nSHFqUGZBMHpWSGtBdDNQX1pPakxnbXYwXzUtN2l3bERNaE0wdXNDVkxqTnNkS2xQSEltbTdqV0NqeGY5ZXBpQTR4WmpOQjZoR2RvMU9XZzVscHZ0eENRcXY0bnJiYVE5U18xYjhRd1hJWHBpc3FaLWdQT0JRblJMamVOWFg5Z1NfalpkY2hTbXRrX09hYXA0Z1p4RVJwOG5wTTNSMlR3Ymcz?oc=5",
+      "source": "Le Revenu",
+      "publishedAt": "2026-10-29T09:41:00+00:00"
+    },
+    {
+      "title": "480 milliards de dollars volatilisés : la bulle de l’IA vient-elle d’éclater en Chine ?",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWl6Qnhlcm9aQWFuSmk2X05PNjJsa2M2ZjhNdzBFSFlwcDBDdjlFdTdNYmVmNjFhLWVFaGFDQ283WTVuOXdjRzExWlJxMzR2WC1oSHRDc2JQbXpEYVNKR1pwYTV6Yl9IR2ZoekJNNk1wTzRmVVFLaWo2ZUN4YktwRnNyVjBmU1oyazhXZW0zd2ttV051UG5uTGd6QUN3bFpWRE5FSlpNUy1TaGJP?oc=5",
+      "source": "01net.com",
+      "publishedAt": "2026-10-29T09:18:43+00:00"
     },
     {
       "title": "Le CNB lance sa propre plateforme d’intelligence artificielle juridique",
@@ -27,52 +69,10 @@
       "publishedAt": "2026-10-29T08:18:23+00:00"
     },
     {
-      "title": "L'intelligence artificielle va détruire des emplois... mais en créera-t-elle ailleurs ?",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ3ZxNU8wbUxHZXJNa1d2OFFhblpzTzVUN2RmT082el9QcUxzM1pzeFpnc3lZc3ptOWxiWUlNcXNhVkFUVEpydGJzOW03cGE3ZWI0QVdGVXZhZWFDVU8zOW5kb1pYZTdoZ1hXV1lNaS1KM2R5dk1aLWRFUzJBcHA2RW5SUDZnQjIxcE5EVDZCTDhzaHZUTWpVdkpKSjhGc19nb2FSTXhZcmEtQ21YSHFlUlMtckVGSHREOE9WMF9jQzREbjlmRnQ0cmNWUWs0Zw?oc=5",
-      "source": "Alternatives économiques",
-      "publishedAt": "2026-10-29T07:00:00+00:00"
-    },
-    {
-      "title": "OpenAI dévoile de nouvelles percées majeures en mathématiques, en physique et en informatique, mais peine toujours à maîtriser la communication avec la communauté scientifique, et s'attire une nouvelle fois ses foudres",
-      "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPc3VONWlSTEZBZHlseHpVclV6bC1uckNKLTBhNTcyQWtSTnZmbEZialJjbkdKdElkcGhRYlIzMm9qQ0tQVnNFSEZUME5RWE1ZeUpGd1VvOUs2NDZTeWQtNERsSzVpR1FpOGZCREhIZVEwVG90Y3FCTmZBLVFFSFpMY0ZKWndkYzF4eWdlRmY4NXgwZ1E1NlZDTURyaTAtQUlTVl9iYTNlOUxZTGFsZkdKQkZCWDd1WGNWd1BIX29obG1vVTNNUUxIb182elh0cktaOUpZNnBkeTRETmJCQlQyQVdiUEdXUnZlQ0hoWXhYYm1UeHVOcHY1UjZaMWVKRndqQmtjdy1hN2hjX1pVeGw2OHJJanc4cjVMLWktUk10TXZtMEJXbm5xdjN5Ti1tN2hQRVVTYUJISm4yVnVqVmJJV3lFeVhObklaRkQzRTE0RWlON2pHLVdDMUdVRTc5ajVHN3Ribll6TUo5VVhyNDhNV3hXYWZQclk2d2k4dUFpYXFaR2JvQUdxUDFTZTFlZXRSNE15NF9IS284aUw2OG5Z?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-10-29T06:42:00+00:00"
-    },
-    {
-      "title": "Dopé par l'IA, Samsung Electronics multiplie par six son résultat net trimestriel",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNmpqU1JsUFZkNUZuai1BaWtUcDVLR2tfb25ReFpXNkxJNnV2S1E5TmhpVUcwWkR2ZDF5bU10c3hzTFJHdlRnZDhmazdjQktrS2xTcWJwWVhtcVpSei1UcUY2OFo1aFhKNlMxRVRMc19mcVZ0c3djYWFCdUNCZHVlS2FqU1JIQ21qd0RidzZzVUMtWFpTd0FZX0FMTUUxTDFGZ3oyaDU0MXFRMnFqZVJJWXdOdlBQekpuSHF6Vy03MVU2dGtLQXc3ZGZyZmFLQ08yU1Y2RmEwZ1cyRHlHc1ZDVHNldEY2bWhxRmR3UUxuVU9pbXRq0gH0AUFVX3lxTE02ampTUmxQVmQ1Rm5qLUFpa1RwNUtHa19vblF4Wlc2TEk2dXZLUTlOaGlVRzBaRHZkMXltTXRzeHNMUkd2VGdkOGZrN2NCS2tLbFNxYnBZWG1xWlJ6LVRxRjY4WjVoWEo2UzFFVExzX2ZxVnRzd2NhYUJ1Q0JkdWVLYWpTUkhDbWp3RGJ3NnNVQy1YWlN3QVlfQUxNRTFMMUZnejJoNTQxcVEycWplUklZd052UFB6Sm5IcXpXLTcxVTZ0a0tBdzdkZnJmYUtDTzJTVjZGYTBnVzJEeUdzVkNUc2V0RjZtaHFGZHdRTG5VT2ltdGo?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-29T06:37:58+00:00"
-    },
-    {
-      "title": "L’Intelligence artificielle: retour au réel?",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM1pQbXNMNDVOUndGampOdGlNM3UzMUZ4NG84TldwbXU4VW1xTVN5dUU4ZXk5dW11OHlJWko3VmVZRmQ1dXl6cktxVFNZaXlzNFpQRnFmOGhGbXpsZjZPYnFCMklOVnZmenM0R2xVcTRKS01MN2JpTWZvbGJqRjlSZmcwbXJpbUpTMnc4bkFOaGR4a004eUJmTDRCYkhrQQ?oc=5",
-      "source": "Tribune de Genève",
-      "publishedAt": "2026-10-29T06:06:00+00:00"
-    },
-    {
-      "title": "On en demande un peu trop à l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb2dJU2VTZjZQS3pRUjNyeEdQbnIzVDNtZUlZLVNZUXR1Ul91RlltOE9ibnNyNU9ndWd4SngxRDFtSXZmaFZRM1hvTVF4ci1xN3NSQVNGaFVGS1JkUFpITlpfYmF5VmUzbHJaYXJMZVlKaVZmYnNOWXhySUQwa3ZPbGpfdW45WkMwYzAzTERWVVg0ZE8xc0xF?oc=5",
-      "source": "Allnews",
-      "publishedAt": "2026-10-29T06:00:00+00:00"
-    },
-    {
-      "title": "\"Ça ne vient pas vraiment du cœur\" : l'usage de l'intelligence artificielle en littérature fait débat à Poitiers",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxObk5rWEhtbFp6Z1pZTzdRWFJDNVgwclVRZjl6LTkwTnloUzV2ZWFvbTRlaGxsVzYwZ05yU2tPOFFLNTczWTh6ZmxCRzBkYXFyZXlhckk2bHloRjdEWkJfdUhvWExrQWZha3hPaFdqbVc5cUJEamRxODVfWGJQbXRINDExdlhRdmRaYXZ1R3RNMkxTYUk1a2hqbnVqRW84NEJoUlZ6NjFtalB5YVJkTE92c3VUUl9Fdkh5WVg2ODFEUEdzTkxEdXQyNTAxYi1lX2cxaEFqY1VJMF9fdW1SaU45aVhXRmNVYloxZXNwb3VrdzkwUmE2SWhCSlV6YmlSTVU?oc=5",
-      "source": "ici.fr",
-      "publishedAt": "2026-10-29T05:32:30+00:00"
-    },
-    {
-      "title": "Peut-on vraiment taxer l'IA et les robots ?",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWXhjQ1cxa01ZT3NMazN5dW1vWm13aFFwR0JoZmQtQ3NzQUo5LXFPbGhuQUlGUGsydDk0VllrdmJnTHhlOEVxeldLNldsemQ1SVpmQlpJUjZWZFZPSlpzODJzby1DMWduYklrYkFmZ3hKNmt1R0xraURCcWdPTXhMVmV2S0dSczVFbUtpamtGNWxWZ0FVVmktM29wMmJ4S2U2Z0dhYmpZSnd2UnNWSHNj?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-29T05:15:09+00:00"
-    },
-    {
-      "title": "Avec le déploiement de l’intelligence artificielle, les jeunes en première ligne du recul des embauches",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPWmQ4M09lakhIcFlaODFZY3hDQlB4S3hnLTNfZzJMSXdIRVlUNDgyYXNua3l3am1uY2M0RlBPZldZaDRPdmh3MWdhanM4MlFjVTA4MUd5WFdfRVFaVHdpVUlmVnNLajNHMnVHZGNVRWYwcy03REFCdTdqWENPN0N6RWUyaUZSd2dQbW5xN0hxOFBzTDlkQl9pT0xzaE5scm0xYzlkRWVYNkdRZUhpZ0hMTlNUZ1hQWHJvcmpzeTBmWWhfQXAyRTRtOXl1Q2ZDNTgyTDlFTEgwUHNNblJwWGlaRnFlR0FjM3RxMG1zaFhkZGZqWmpCWGxjQWdudjZVbFhlN1IwTEFXMG5JTnhF?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-29T05:10:00+00:00"
+      "title": "Smart TV : de l’intelligence artificielle contre la bêtise réelle",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUVdRN2F6ZzZMYUE3YjY3U00zXy13WDQ4Y0Q4ZzRfYXBBajAtMURSUXdZUER0TV8tUVZpZW9VUnJyYW5LY1gxQTVvX2hLZE5XZkNIbjBkUzV6YjFEQkNKbmp2QXU0Z2JSZXlHcGhyVVhvM0p5RFdPamdwSjNKcTYyR0UxeDBpUmlUeENGTTg0WF8?oc=5",
+      "source": "Next INpact",
+      "publishedAt": "2026-10-29T08:09:07+00:00"
     }
   ]
 }
