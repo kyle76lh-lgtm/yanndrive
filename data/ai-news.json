@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-29T21:57:57.812062+00:00",
+  "updatedAt": "2026-10-30T01:45:01.067070+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IAgora à Strasbourg : une journée pour explorer l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQUpBUmlkd2UzbzFsM1FBVkV1YmhPel9XOVFPcGtxZkk1T0Iyd3ZSVWZlcHdoOXlvR1BNVUp2QzN3dFpOTXVLLTNMVEQ1cmI0OWMzekZmZzhybW1LckpYQUpVcmJ1U0kyb2tXN213c0lORFFmVE1HaW5qQkIzM1RSVmJYOUxUeEhpd2VNTWhYU2wxTGhMUHVSblhB?oc=5",
+      "source": "Inria",
+      "publishedAt": "2026-10-29T22:34:22+00:00"
+    },
+    {
+      "title": "Salon des maires : l’intelligence artificielle repère 96 % des bâtiments d’un quartier, toute la Guyane visée en 2027",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQODBiZUNrNVNKMWtNZWphWC1rbjBWU2NSYVp5cVY0SVJ3UjJCbzFEY1BpdG9UMjZIdDJnRzYtdVhnUi1IN1Nfc1pmemFDajJuTXBFMk0xTTZXNFNSNjc5RThBRGRaaEtleERPYm1IbV9Ya21MMEpSU2hZaExRSS0wTEZGWGpqZGxhSlFGajZaT1UtVndiWlhkRWFjNnFqeHU3MnN1enlxX3Rhbm0tTWVjMlRlZEMtVjlidVJub3g1UGh1Qjl4Y29MRDZKek4xMDNlZk01UXNMZ01ia25uTERPdktBbGI0ZVpXU2ZBX0p2eVpxSjV2R2Ywbk1kbEd4eURwczFsU0E5VQ?oc=5",
+      "source": "Outre-mer La 1ère",
+      "publishedAt": "2026-10-29T21:43:39+00:00"
+    },
     {
       "title": "\"L’intelligence artificielle, c’est un peu comme la bombe nucléaire\": l'appel de Pascal Lamy à des \"accords internationaux\"",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWnV4d0VTd0xGUXdYY2lnYW02Q29seTJIVmVuNmVIdVM1QktwM20wT1hLQXFyTThaeFhoRmlJbDcydXlab2lzVjZ5SnZlTW5ZNU1Bdk9MNFpjN096UHc0TDRSY2FDYXZRMS1Ba2RKTjhqTlNxZXh2RTc3OHVTRlk3RFZDcjJZWkd0b3g0ZXV2V19CenA2TWpqaGdQN2pXXzFJQlVIZUZrMTAxR2V2cW9xVHY0TWI?oc=5",
@@ -21,12 +33,6 @@
       "publishedAt": "2026-10-29T17:19:29+00:00"
     },
     {
-      "title": "Réotier. L’intelligence artificielle au programme des ateliers du jeudi",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOG84OF9xQUVwZ29NMWNGaGtWYmJYMlBqeE9mMW1VYmdzWWVpbTZobElNVnota29nTWh6LWh1bm9yeUJxc3F4MDd4aXdHTkVBY1c2OE9oQjNLMEZ6Tndid1FJaDVmWXJWcEJLSG9fYkM4X2NLTmREN2NSbXpFeGtsT1ZyTFZHcUY4ejRuZnRzQjRLdUZBcEdXaU9wUlo4a3hwNllBNkVlYnFjQjZQ?oc=5",
-      "source": "Le Dauphiné Libéré",
-      "publishedAt": "2026-10-29T16:54:56+00:00"
-    },
-    {
       "title": "ServiceNow se fait étriller suite à ses prévisions",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMF9LMlB3ekJsMFlBS0RNNEYydFBEOUhXdHZDdWs2Q29wd2t1WVBHOFlremt4MDdzNlg4MU5ZUVN4MkVXRnNaMHFQQXNqTEc3TGloUHNYNE9QTUEwZEVJNnVCcVN5cTVQamhfUXY4WU9QY0t1YjFhdE5xdU5hdFFRYkc3MjBKd0d0eHVnY01fMzlCdk12R3pLbTJsdkVDY29kZHJtd0VJSC1Nb1ZudUczTF9veVNnM2QtY1VwMHZrZExGdGN3ZWpIcDdNYU7SAcwBQVVfeXFMTTBfSzJQd3pCbDBZQUtETTRGMnRQRDlIV3R2Q3VrNkNvcHdrdVlQRzhZa3preDA3czZYODFOWVFTeDJFV0ZzWjBxUEFzakxHN0xpaFBzWDRPUE1BMGRFSTZ1QnFTeXE1UGpoX1F2OFlPUGNLdWIxYXROcXVOYXRRUWJHNzIwSndHdHh1Z2NNXzM5QnZNdkd6S20ybHZFQ2NvZGRybXdFSUgtTW9WbnVHM0xfb3lTZzNkLWNVcDB2a2RMRnRjd2VqSHA3TWFO?oc=5",
       "source": "Boursorama",
@@ -37,12 +43,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOGotNEU4NlFFakFOQzV6MzVHOFpmaTVROXJzSHYwbDlqczBabWgxNVVfSTlCNHh3aW5TZkVKTTVURVJjWHZUbHVtM0Y4S3h1NHotTWxhUVVSQVZQeFg4MG5sV2dqdm5uZDlmRFh1d1R4Q2piYkY3TFBYTExNMV9UdHBpVDJDTEJuUk03SUNqVTlGSjRWOTFxUUxadWZOSDVfYVZ2ZXh5cEd1QUtPLTVSdGJJcDh1TWQxeXZFUFRiVQ?oc=5",
       "source": "RFI",
       "publishedAt": "2026-10-29T16:27:48+00:00"
-    },
-    {
-      "title": "Jura. Ce Dolois de 31 ans a créé Nakerion, une intelligence artificielle au service des TPE et PME locales",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQblByTTI1N1pyR2FCNFFnSTNpVDJNQ2ZGc1ZsSUNQbHpPaVZna19Gb04zcy1SSTdOUmtrRHZ3NExEVGVzb3JPODI1SUhOVG5vMUpJSFBBTklSLW5NSG00eDd2LWRORGdiSk1mRXZNX2dXNkdUajZHRnRGRXA5Wjl2SU9kaXRJUUtMQng2RVhWOUpuUkhuUGM3RENFaEhEbnZSalBfOC12NWIxSTdoWHhDSllUdENlcGxKQ1F0X2Rn?oc=5",
-      "source": "Le Progrès",
-      "publishedAt": "2026-10-29T16:03:11+00:00"
     },
     {
       "title": "“Je n'épargne plus pour ma retraite” : ce chercheur en IA est tellement sûr qu'on va tous mourir qu'il a cessé de cotiser",
