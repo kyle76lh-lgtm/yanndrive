@@ -1,18 +1,48 @@
 {
-  "updatedAt": "2026-10-30T14:34:09.362191+00:00",
+  "updatedAt": "2026-10-30T19:39:17.769404+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "Microsoft affiche des résultats historiques, mais ses dépenses dans l’IA explosent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQnJ0Rl9Gb3FMNk9wdHFQVy05c2hNYTZUWU1jZWVxenh0TjdPQVY0bmEyVVVOSEQ4bjVVZFJIZXBVcEU3ejNsZnRjVkFYQVZ0MjZZRWI4dTZ0MEtlWXBwQXg3Zjd4N3NaNEJkMVB0b0tYYmE0bHVQeEY2anFfWDF6MExmYkowZzVEM1ZrenpPLU9MV3JXSzExc2RzdnFCcG5tbGpoTFp0bVo0Mm4zcmlyVFB2cWZOekp5?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-10-30T14:25:01+00:00"
+      "title": "Formation en ligne : Intelligence artificielle et manipulations de l’information",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnlqT2ZMTm5xUGZ2R09GY2VmNVpNUk1LRW16UVoxNVAyWGxXLS1SU0Nxa2dBa09ubjhfdFZLbzViLWtad3A3Ylg3eG5hY1k1dXlSN3Y5S3loRHczOGMyLWc0NEg2aDhwbTBibjVJWFp1NnJKTGttRzU5UGllWjVoMXltdEp5VWxGRHA5RWlpUmNoNGx0QXZOSWZudW5yMjF5N2FXeGpSQ2lSeXBDZnFJQQ?oc=5",
+      "source": "Organisation internationale de la Francophonie (OIF)",
+      "publishedAt": "2026-10-30T17:36:18+00:00"
     },
     {
-      "title": "Tableaux repeints, pièces disparues… Comment l'IA, cette \"machine qui ne se fatigue pas\", aide les enquêteurs à retrouver les œuvres d'art volées",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPdndTYTNSZEtOUWc2Zlk2UGhSSHZ4eHV2VGpwVENVTzBEbXh1bXp3WlhZNkFLb053VVBncmNXWU9QcFl5M3RDcnRLVmcxc1VXcGoxMVVhQ3NQQVI5ZmVpWWxIMnBZNE5WMnBoV3dpdkR2MkxBdDFfazh2MHBlcUFMQ1RpcXhfaTNJZllIZUtQdDl4d2RXdmFBd3FZT29zbmVMdTRaalBEMFd0YWdsM1hqcVhqQ01FVTBKWi1rbHpqY3RHbUhmNnl5OHZCUDcyWlkwZURrbFRhMnl0akZ3MFg0MUJXN3BGc0FQVXBtSHhYeWYxdUdKX0o2R283SjB2MlhiTzZXZWFQOWEzS2hSYVAxalJqRU1PODhDbW1YTTRLdzhfN1dzZU9nQlpVT3RCSHB5WDJz?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-10-30T14:01:34+00:00"
+      "title": "L’intelligence artificielle, kryptonite des Bourses mondiales",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSVRHQXctWkNIOE5MeC1pamp6QnpuN0ZTcGRnYUd5cGRLazFHUDFpZnY5VHB1TXBEeUxEendZUE1iUHFsWnBOU21xWHZ3dU1jUkc0OEFlUjdmU1hDeTFXc3pRVldCRkRwa05HT1hHQjVYS1dfaFRjUlduV0lyZ1FVX3NNUkRwQTZvMk80UENZMzlQVGU3Y3ZLNjJ1eXRhQlNNNVR0aWh1MUMxUThu?oc=5",
+      "source": "Le Revenu",
+      "publishedAt": "2026-10-30T17:30:00+00:00"
+    },
+    {
+      "title": "Mad et Moselle. L’intelligence artificielle bientôt au service des secrétaires de mairie",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1BvMzI0MnNfYlNxY29QbzFuNV9xQU83aXk5R0NEVV93X1FyQnpqSWVBUkYzNlJQZnByN3lDem1yemNhWnF5V1FVUnlSOXBRdHU0cVNpdktQdHJqSVJfUk1HYXY5cWhiNFVnMWd3VFZjenVZMjRrYWFEVEpaZ0NHNW1kNGhUTnA2a3VibWlGX2RqVDhSdEpTWXU1V1ZHRXVFQ21pS3pGT2Rvc1RVUlVabkNkaDZRMDAwQVNULV9UYms?oc=5",
+      "source": "L'Est Républicain",
+      "publishedAt": "2026-10-30T16:14:07+00:00"
+    },
+    {
+      "title": "Pour Noël, les jouets passent aussi à l'intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlIwRlR4X0JMYlJ1eUx2RnZpUmpXV1gwT0I3Q19pMEF2X25wNzVRUEJ0elpMM2tmdEh1dXktdHZaZ1JzRVlFcTVBRUlQV3I3aWQxSUl3RUc2Z2x4UWc4X01HNW1iTEF3Mk45UWE3NlhyUEhoVzQtRVVsREMxXzl3UGhFTWZ0b3I0VnBjZ1JQdmdocXhyMVIyZTVjRUNQaElRc1NxcEpVNVJjdnQ4NmNvTTQ5UGpQdk02R0tUSXcxSlY4OXN0LVQtR2JSNXYzWTRKRGd3aA?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-10-30T15:36:47+00:00"
+    },
+    {
+      "title": "Les Nations unies face aux puissances de l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYlIwQVBiNzV3eUo4aklMNlktaHpwQ2QwdXJWeC1jUmNadzhFQkVPN1dpOFhPLXJ1VFl6ay1xYnJTa2IyeE5qUzNBak5kZUtCdnZWVmVqWUhLUWJRV2xZSy1lRlRBS2d5YXBUaGZENmwwWFlHaXpLZDNVV2thS0VYQ25kb2c3T1prTnpTZGJIMEgxb2g2cmd4Wmh0YlhUeGRFdExubTJVejBnVnhfeTkw?oc=5",
+      "source": "Le Grand Continent",
+      "publishedAt": "2026-10-30T15:28:02+00:00"
+    },
+    {
+      "title": "Santé : l’Europe veut mettre l’IA au service des patients, sans en perdre le contrôle",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54VFJEQm13b1VXTktaSVJ6LUpONXk3NTJDbjB1czRtNFBfOFExWVpuWThKeVNqVkRTaG0yMEZHVllIRzV3M2JFM1lGdGwzSWxZUmZmcW9uMA?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-10-30T15:09:06+00:00"
+    },
+    {
+      "title": "Une IA pourrait faire vaciller une des certitudes les plus solides de l’informatique",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMHZRUlROaVJ0d2xPZEFocm9QSHc5MUY2T2hJTlhjWDZXS1hvS1VKcTFJSXV6dHFDSE8wSTgtaEtwbGN0ZmdPQVdYV081dnZoV0g3NkdjZVRXNkpkWlhkUmVhelE2SXBycXJ6d0pjenhGZUNUYTdhaHB6V1FGTmtiM241czh5Tlhod2dXbWpTb1dhU08ya1pMLWVjelhHT2FzcDRBdkxWbEhSanJBLXZpU2w3ck9MeDhjeEJHSmd1S0JnYmg3RWZIT29ZT1k3YXhCTVZ3czJjb2dCUQ?oc=5",
+      "source": "L'Humanité",
+      "publishedAt": "2026-10-30T14:20:41+00:00"
     },
     {
       "title": "L'intelligence artificielle menace-t-elle les emplois des femmes ?",
@@ -27,28 +57,10 @@
       "publishedAt": "2026-10-30T13:24:58+00:00"
     },
     {
-      "title": "Cikisi : la veille comme matière première de l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMEd4REF1Z2pJbUZ5VmktY05Vb0hEdTNNb3Y1QllWQzFtMDFsYzJpeVNZem5oN3hkdDE2LWE0MWxXLU9ldDBSRUVOSzFKVC0tRHpOQXVhVEVGa2VITEMyZDV4Ti1RR01ERUtLaURIdVhTX0pneXM2aDBaS0tvNVhRZXg4Nk9pQk9V?oc=5",
-      "source": "Archimag",
-      "publishedAt": "2026-10-30T13:20:31+00:00"
-    },
-    {
       "title": "Léon XIV appelle à encadrer le développement de l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkhTYVU5QXFiRjBxUHJsZ3kwVmx5OTZxdmkxOHZMeFQxNWUwTHZEMVNMUE5xUXhQWXRRR0Q2MWVtR2QyS2RVU3A4MGdOd3I0LWZzcXk2UFUyZzN2bGpKQjU4a2twY2J4MXFTejYwR3d4b0tlLU5ITEd0NEowbzFUbmJNb2JqWTBzc3dKdHVhOE5ZX0ZFN0hzMlhhYy0wWGlqWFprZHZFNndCVGc?oc=5",
       "source": "ZENIT - Français - Le monde vu de Rome",
       "publishedAt": "2026-10-30T13:07:00+00:00"
-    },
-    {
-      "title": "Sur les Bourses mondiales, la tech rattrapée par ses dépenses effrénées dans l'IA",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRTVIWFZ3Z1lpVC01ei13Wmo5RGdvakdRNlB2bEQ5US1IdjJOdzFIbHlDMXZCV1NCOTJsekhKbFIyR2xyby1zVnpnbE9TNVBzX0hoaEgwVUlSZFphQUxJYXVmdkF0aTVLYTVFSG1uX2NYdUl2VXdMUGx1WExGeVRrb28wYmQ5MG8yY2hzSEtVdWIwa3BwRFhHOXk2S3hCaThYbmpQM2pGNkpsU0NEeV9NQ0s4NGEtMUczeFUxRm04M3g0cE91ZFZkcUNtbWpBM3VlUjNVdDZYZU5ON3ZsLURz?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-30T12:15:08+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : cette loge maçonnique de l’Oise ouvre le débat, \"une conférence ouverte à tous\"",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObEVtTHdyQ01pd2ZvUUdXLTk2b0ZuMTZpdjd1dFNRQkMybUlMb0djbzgyTGF4RGl6ZlpuWjlhNE5tZFBFOFM5d1dZYmpEQnZ4b3dhMG1sY21PNmV4eUYzODFaN3VMTy0tOGJhbncyUTdSYVdqV2JXUWZzNGppTGpYdjdSZkpfaWk5dTJoN1ppV3p3QUdhS2ZTMllSNEljODc1NmF5NGY3QUN3NTlHQTQ4WktsRUVqSHNqOHVoM3NHRlRnN2p6dnJGOXN2b0w1aW1LTXJWZUxqSzlLMzFmT0Njd3pNTEFwZDl1RTNRUFJ0azA2Mzg?oc=5",
-      "source": "Actu.fr",
-      "publishedAt": "2026-10-30T12:12:01+00:00"
     },
     {
       "title": "Le Pape exhorte à ne jamais déléguer à l’IA la décision de mettre fin à une vie humaine",
@@ -61,18 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNanAzMk9ZVEJTaDdRdFZTUEZ3eEJBWTZQR25oWC1idFRKbW1NeU8taVNxTGFxYUN6VUNnNkJtRWhkMHFzWjJGQlJQY1F3dVV1TndDRkRPYWVUUmdDZU12SWVYeGlmVGk2b05pUlo0NWl0Q1pPeklRX3RoYWFJUUpOWXMtdk44N1pSaU5VM25jVkRFQTJQSGFDTHNpX19lTDBqa3diQjdwc3h0WDJHRnpQUVBpd1hfWmtIOWJqM2drNUk4Z0tEaUJTamZuZWZ6TTFDaXE1dVdfTXhaNmdpbjFUaUlOcW82RnVKNDlNUEhn?oc=5",
       "source": "Les Echos",
       "publishedAt": "2026-10-30T11:51:55+00:00"
-    },
-    {
-      "title": "« C'est la fin de la récréation » : la flambée des coûts de l'IA, nouvelle préoccupation majeure des développeurs",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRG00M2kyZVpKeW5zV21NSDR1T1FyaDRlT0tIaWJPZzJ5OXVYX3JWV2lGM1hkUE5JRnc0dXRHaVk5Qi12NFU5Wmd3QlNaTk5od0tXMVVzWUlPckZPc1BZSzdjdERuR0dXVmFRT3Nsd1dPYkNaT0p5SllYWURLNmpBakNZY3p1aG0wcEJ6LUZRZ2pYdmp5UmtqRm9hamhkaW51eDZ6UFFLRUdVVzZXWnJTbnQxNW1PeTZOUVBLazVTejFnYTVOSXNCWDBuX3MtTFRabEJDR3lHLVZTc1dHeHdzQ2tWaXd1WnpvbmFoMmlKdzAwWjNXY2h0em9nQnlERDBXci1IUA?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-30T11:45:22+00:00"
-    },
-    {
-      "title": "Affiches générées par IA : elles se multiplient, va-t-on vers une nouvelle norme graphique ?",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORC1pLUpvRzBud0pPOC10b3V6NnVjZTkwN3ZpVkgycVd6VU5DUVo3bjhNdU5FUTlkTGQ0OWZteWFtdjgxME5ZTHc4U25xSHJZY0twS2RhQ0ZodERLNXRjSU1NbVJKSl9hM0hSSzVSczE2T1V6Zy1LbkMtOWVmWWR0bkt0eWY2aWdaTnJkVTlfYmhmREQ5MFdLSDFjVUpGNFNvWHppSTRwRy15WlNEUGRFc1lqOWNQS1JWSmdITEFMcVdZWXFEb1V1QTVQeVNWTDNCSmM0U2lFY2dQbTh1UFBjR0hQcUN1Ty12NWJuanNVNC1RbEYzR2lQUHR5MDhudWhXZm0wRA?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-10-30T10:41:13+00:00"
     }
   ]
 }
