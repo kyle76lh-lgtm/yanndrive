@@ -1,12 +1,48 @@
 {
-  "updatedAt": "2026-10-30T19:39:17.769404+00:00",
+  "updatedAt": "2026-10-30T23:14:38.344235+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Google fait tourner son IA dans l’espace… grâce à une fusée de SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHVxZ1g4SnVqa252TWRCSzVXOWgydS1oZmt4U1VLU2QxQmVrSGdqUFZSaVFncXY3VTVNQnBDZ2x4QlhPVHM3SE5ZWVIzNFZsT3V3QXZZRnVob1FabXJRR0RHaWJERlpBMjFyUlI2bGphVlFrdTVIRW1HN05GRmUzQ3RpQVNJN1NGdHJtMDdaSkIyR3FTZllub3oxcnRMR1lmazdDSHBqQjAyM0ltanYxZXhvNjlBTWtZbnBYZkY4bDBNWFNk?oc=5",
+      "source": "MacGeneration",
+      "publishedAt": "2026-10-30T21:45:00+00:00"
+    },
+    {
+      "title": "Ukraine, minerais, IA : l’Union européenne et le Canada scellent un rapprochement inédit",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWjRjZFdvUm9oa3E2cnFiaUt6ZVl4eTcwSnBKek1wZFRGSmdHNk5HWU4zRHJfTmx2SlZ4Z1pfWTRkY0tfQkFkX2hOcU4tcEpvZnprWWlkVVdfZW8tUnVmbTQxUm1iSzNmbjFpV0VaeDZtQUxCUlI2NThueEhnWlBsMDJtSWVvamNqYkVQeHV4Wjc5VDdsVTd0NU1EX0hLMFM1WDRQVF9GaDM0VGpaTjlnWWkyYkFGNjZ6LU5mQzBEZVlZMXZNWXBMVkEwdy1JSGdUU0RPM2N1aXp1VEozZmxoUjJQanhVeG9EMnNmZzdTLV9wVW5VRGxHUVFYdw?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-10-30T19:32:00+00:00"
+    },
+    {
+      "title": "Foxconn : l’intelligence artificielle (IA) va stimuler l’électronique grand public",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOUkxMFNIRi01WWpSUmhETlN3NUVFQlpmT1Y5Vm1tMTdqbFkzSk1fNzRyVmJHR1lUMGwtZ0ozZFI0azBpWmJDX21vR1R2MnoyUUxwSlVGQ0NJa04yUkIxVnBXSzJETU5Lc3JGSFVCZUd1Nl9sMVY5bWRfQ1JJRFdGc1ZpLW4xWmVDZ251SzQ4bGxGMy1heW5CaERQZGVDSkowdmE4YmpoT2NHWFBCazdvNVVRUU50SmpKdnhPUHIxMWVxMEdMZE9ReDdrSUoyRC1idGw0V3ZOdw?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-10-30T18:50:05+00:00"
+    },
+    {
+      "title": "Vidéo Pourquoi et comment toutes les entreprises doivent apprendre à adopter l'intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeE1rQlVVTWZ3M09SYWxhZU8zT2RxeFo5bHlMTU5tTFNGLTJmMFZrQVJTYXVmRnJSQklxT21vY24wRzhweXpfSUlkY3ZsTXkyNVZWVmVDX0haS2E4bnY0TVBwX3hkQk9ZMVlEY0o4cE1xd3RVSTF6a0hUU3kxbldJQ2FZRVhtT0lKUVFOWTRsZjAySFBkMFhHdjhPWUNqSThTSlBrUkFWV1Voak42aFkyUWJXQnVTdTlyajFtQmhEdU1WZmQtRWdqOWRNMWRPWUJjMjBSdXd1VUNXYkZxc0lWamJraDcxZTgtbHpDUkRnQWlmSzZqdGhsaw?oc=5",
+      "source": "Actu.fr",
+      "publishedAt": "2026-10-30T18:26:40+00:00"
+    },
+    {
+      "title": "Cybercriminalité : avec l’IA, tout le monde peut devenir escroc",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EQUxiRm5ZTUFIbWdlSk51UFE1WW5WNFByeEstTlE0Rmx2V0M5ZHpOMVBnc3FfcTJ4eEZld04ybF9VZjJ5Y2JpTEVEbS04NThVV3dkMjU3RQ?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-10-30T17:55:17+00:00"
+    },
     {
       "title": "Formation en ligne : Intelligence artificielle et manipulations de l’information",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNnlqT2ZMTm5xUGZ2R09GY2VmNVpNUk1LRW16UVoxNVAyWGxXLS1SU0Nxa2dBa09ubjhfdFZLbzViLWtad3A3Ylg3eG5hY1k1dXlSN3Y5S3loRHczOGMyLWc0NEg2aDhwbTBibjVJWFp1NnJKTGttRzU5UGllWjVoMXltdEp5VWxGRHA5RWlpUmNoNGx0QXZOSWZudW5yMjF5N2FXeGpSQ2lSeXBDZnFJQQ?oc=5",
       "source": "Organisation internationale de la Francophonie (OIF)",
       "publishedAt": "2026-10-30T17:36:18+00:00"
+    },
+    {
+      "title": "Guerre en Ukraine, minerais, intelligence artificielle… L’Union européenne et le Canada scellent un rapprochement stratégique inédit face aux États-Unis et à la Chine",
+      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNUzc1bml6SklqTm45Vkt6UElfcUtRV2pxWGFCdTRlaVhWX0Y4UjNvd2FkSl9OOWRSZk5GZTlyRnFHT3NQTUpQOXNxWG80Rmx0TGdJUTRBdUQyMHBoMVhMNmdXZVpwR3pPR2pScDRtZmswQ1FzU2xLWlJITWw0V3BWcUN2X2dsekpoc0xTS3czTFdyNXJCZFVpWFRVSlltRGRVemZiSTZ1NGdzeHlyQkVvTXp5VmRXNFoyZ09uaFpqbF83RVl3S1NTd0JmSGg3bWdPU3A3bWNXS3NsSzBhblBRVEhPZTIzZS1nU1dXTm00UU5pUGxJblo0VFNxdzNGTERqa3dPVzlEbVIxeXJKdlRfQ2J1YlZVLWVxRzc2RzNBQ3JKQWxhWU1QUXh0NnJLeXpFUVIxbWFxOF9ObDhpOHVBbUVPbVljYjhPRGw4a3RR?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-10-30T17:30:40+00:00"
     },
     {
       "title": "L’intelligence artificielle, kryptonite des Bourses mondiales",
@@ -15,64 +51,28 @@
       "publishedAt": "2026-10-30T17:30:00+00:00"
     },
     {
+      "title": "Intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fVjBnS3ZpUmZSSDZjR2FOWFFqNFZOd0VaZGxVOTRaRzBFRjlidzdVWG1pVEQ4TXYtNDZNcjhDbDBDQ3JweXRCMnc0a1VsTHJpZ2tzQkctTmhWeUdnS3JSZ09Od3YtdWtUazVKNC1nUVc?oc=5",
+      "source": "Radio-Canada",
+      "publishedAt": "2026-10-30T16:41:59+00:00"
+    },
+    {
       "title": "Mad et Moselle. L’intelligence artificielle bientôt au service des secrétaires de mairie",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1BvMzI0MnNfYlNxY29QbzFuNV9xQU83aXk5R0NEVV93X1FyQnpqSWVBUkYzNlJQZnByN3lDem1yemNhWnF5V1FVUnlSOXBRdHU0cVNpdktQdHJqSVJfUk1HYXY5cWhiNFVnMWd3VFZjenVZMjRrYWFEVEpaZ0NHNW1kNGhUTnA2a3VibWlGX2RqVDhSdEpTWXU1V1ZHRXVFQ21pS3pGT2Rvc1RVUlVabkNkaDZRMDAwQVNULV9UYms?oc=5",
       "source": "L'Est Républicain",
-      "publishedAt": "2026-10-30T16:14:07+00:00"
+      "publishedAt": "2026-10-30T16:20:17+00:00"
     },
     {
-      "title": "Pour Noël, les jouets passent aussi à l'intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQlIwRlR4X0JMYlJ1eUx2RnZpUmpXV1gwT0I3Q19pMEF2X25wNzVRUEJ0elpMM2tmdEh1dXktdHZaZ1JzRVlFcTVBRUlQV3I3aWQxSUl3RUc2Z2x4UWc4X01HNW1iTEF3Mk45UWE3NlhyUEhoVzQtRVVsREMxXzl3UGhFTWZ0b3I0VnBjZ1JQdmdocXhyMVIyZTVjRUNQaElRc1NxcEpVNVJjdnQ4NmNvTTQ5UGpQdk02R0tUSXcxSlY4OXN0LVQtR2JSNXYzWTRKRGd3aA?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-10-30T15:36:47+00:00"
+      "title": "Quand l’intelligence artificielle annonce le décès d’une personne bien vivante",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUTNTOTE5NTRJTFBKSWdYRzZobm1NUDZpME9fdU5pZklFUWY0NzdvLUxBTlpWYnBwRzZRM3JFQ2VNakRMVnI1YzJQTWJVN0ljUUlSdkRCbVBkQ1lVRlh2Z19aX0t1eS1BTGRRQk9Cd1dzWjhxT0xSU1RweVdNbkdBSW1vWWJwRERfNk4ydVpnSkc0WnpqTGdPVGpKSThqVnB2ajhZaVg1dUFBUHdzeTJ1Z2NzNDdDNHRqd0FJMV9Jd2NmV1A0NG5MTF9QaFNuSG9ENm9lcV9kZzBUY0lLS2ttQ2ZIcVd1bGpHZDVjaVg0MXJlYWQ3ZjdjRFdpWV9vWDNzM2c?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-10-30T16:15:56+00:00"
     },
     {
-      "title": "Les Nations unies face aux puissances de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYlIwQVBiNzV3eUo4aklMNlktaHpwQ2QwdXJWeC1jUmNadzhFQkVPN1dpOFhPLXJ1VFl6ay1xYnJTa2IyeE5qUzNBak5kZUtCdnZWVmVqWUhLUWJRV2xZSy1lRlRBS2d5YXBUaGZENmwwWFlHaXpLZDNVV2thS0VYQ25kb2c3T1prTnpTZGJIMEgxb2g2cmd4Wmh0YlhUeGRFdExubTJVejBnVnhfeTkw?oc=5",
-      "source": "Le Grand Continent",
-      "publishedAt": "2026-10-30T15:28:02+00:00"
-    },
-    {
-      "title": "Santé : l’Europe veut mettre l’IA au service des patients, sans en perdre le contrôle",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54VFJEQm13b1VXTktaSVJ6LUpONXk3NTJDbjB1czRtNFBfOFExWVpuWThKeVNqVkRTaG0yMEZHVllIRzV3M2JFM1lGdGwzSWxZUmZmcW9uMA?oc=5",
-      "source": "UN News",
-      "publishedAt": "2026-10-30T15:09:06+00:00"
-    },
-    {
-      "title": "Une IA pourrait faire vaciller une des certitudes les plus solides de l’informatique",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMHZRUlROaVJ0d2xPZEFocm9QSHc5MUY2T2hJTlhjWDZXS1hvS1VKcTFJSXV6dHFDSE8wSTgtaEtwbGN0ZmdPQVdYV081dnZoV0g3NkdjZVRXNkpkWlhkUmVhelE2SXBycXJ6d0pjenhGZUNUYTdhaHB6V1FGTmtiM241czh5Tlhod2dXbWpTb1dhU08ya1pMLWVjelhHT2FzcDRBdkxWbEhSanJBLXZpU2w3ck9MeDhjeEJHSmd1S0JnYmg3RWZIT29ZT1k3YXhCTVZ3czJjb2dCUQ?oc=5",
-      "source": "L'Humanité",
-      "publishedAt": "2026-10-30T14:20:41+00:00"
-    },
-    {
-      "title": "L'intelligence artificielle menace-t-elle les emplois des femmes ?",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlMC0zemJjUHRLTXpBVGw0YnpsSml2NXRpNW1ZWTdBRk8tbHB0N2tsbEZqb2JDMmpTdndTWTNOWGNsNURJRVl3TElwVmQ4UEc4anphTGt1SThuTHltaGdF0gFkQVVfeXFMT2R3N3JMZW9qdjI4blFLVGpzZUw4OTVhaWZvLXcxb1AwU3JnNVF4cEhkVWtXMzVYTFFUMk1ZcGhCTUhaSzVrVDJzczZzeXRiVFZkZzRyOXdveFJYSDd0WGd6eThSRQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-10-30T13:34:14+00:00"
-    },
-    {
-      "title": "En Chine, le premier film entièrement réalisé par l'intelligence artificielle pour le cinéma boudé par le public",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWXZQcTlvX0dDUWhid1JVSUpHUjk0Q1MyeDFZcW9BdHhBM29zay01c3ZNUV82TFhGcFZ6NmZndklKNTdSZTMzUlBReVBudlg4cGpyZzBDWEkzeEVCSkVoMU1CWTNtMVlXd1IxQkRtR0lTUkdoVWJYWi1ZUExaT0NCaE1fUnpIOHNhTDkxU2tUOGhZbFpyemYzVkhIZjNLYVhuYzVZcUV5Rk1DajJZUE9mNEl0UFZCZmUtdFlMR1M0WGtQMEZfSzFqcEdPOFI3YWU1YVVEQ2NFcnJaUzdTUHFkbzUyNk4wU0s1b3RHWTI5THdEYUdFODBPSVJSNU1WTU5BSnhnLV9hZTFuQU9lYWc?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-10-30T13:24:58+00:00"
-    },
-    {
-      "title": "Léon XIV appelle à encadrer le développement de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNkhTYVU5QXFiRjBxUHJsZ3kwVmx5OTZxdmkxOHZMeFQxNWUwTHZEMVNMUE5xUXhQWXRRR0Q2MWVtR2QyS2RVU3A4MGdOd3I0LWZzcXk2UFUyZzN2bGpKQjU4a2twY2J4MXFTejYwR3d4b0tlLU5ITEd0NEowbzFUbmJNb2JqWTBzc3dKdHVhOE5ZX0ZFN0hzMlhhYy0wWGlqWFprZHZFNndCVGc?oc=5",
-      "source": "ZENIT - Français - Le monde vu de Rome",
-      "publishedAt": "2026-10-30T13:07:00+00:00"
-    },
-    {
-      "title": "Le Pape exhorte à ne jamais déléguer à l’IA la décision de mettre fin à une vie humaine",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNazdDcnlmMC05MDVUNVJfb043YkRid1lSNmFhUXIzSk9BbDA3TFVvcHk0OU9rZTBsdDdsbFhXVEQ3SlNZbzFibUtFcGlhY2ZaX2ZCZkk0bFpPa0phSE9QOVZlVXN5bUdqVlMyNDZWRGktUkJZeFpwVFV1N0x1Qm53a0UtQ0tvUzdYR3FLR055RGpNUGlBa2lLekxkdVRUd1RnQ29XOGVuUzhIUHg1ekE?oc=5",
-      "source": "Vatican News",
-      "publishedAt": "2026-10-30T11:52:19+00:00"
-    },
-    {
-      "title": "En Chine, l'intelligence artificielle et la tech subissent une violente correction en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNanAzMk9ZVEJTaDdRdFZTUEZ3eEJBWTZQR25oWC1idFRKbW1NeU8taVNxTGFxYUN6VUNnNkJtRWhkMHFzWjJGQlJQY1F3dVV1TndDRkRPYWVUUmdDZU12SWVYeGlmVGk2b05pUlo0NWl0Q1pPeklRX3RoYWFJUUpOWXMtdk44N1pSaU5VM25jVkRFQTJQSGFDTHNpX19lTDBqa3diQjdwc3h0WDJHRnpQUVBpd1hfWmtIOWJqM2drNUk4Z0tEaUJTamZuZWZ6TTFDaXE1dVdfTXhaNmdpbjFUaUlOcW82RnVKNDlNUEhn?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-10-30T11:51:55+00:00"
+      "title": "Le Home Office épinglé pour son usage \"opaque\" de l'intelligence artificielle dans le traitement des demandes d'asile",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTEFiQ3dmcGVpVHUwSVZsM3c1cFpzUDZZdHR6SWFVb08xeDBWMW5LdFVmOFpwSUxibm12LUtKVkI3QlUxaTIxN1F0MUg1UFVKQVNwWkliZmhEWWFCM0pxOFR2RGVCbDhtMW5uOGE0c2JUaGpNNWZ4SXVFcE5fMHdhbXRJaGZVMkdyUWozU2pWdG5yMW1EcGhSWlRod2xGRDlSUE9ybWtUTWdGNXJKRTBxZFhpWkc5VERGNklUdV95cmRfbDQwbG1aYnVYV0xpaWJZLUJNTGlpc01pRllRc2RmNGpuQnQ4MjZ3eWt0WQ?oc=5",
+      "source": "InfoMigrants",
+      "publishedAt": "2026-10-30T15:40:28+00:00"
     }
   ]
 }
