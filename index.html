@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#080b0e" />
     <meta name="description" content="LHdrive — tableau de bord GPS pour navigateur Tesla" />
     <title>LHdrive</title>
-    <link rel="stylesheet" href="styles.css?v=24" />
+    <link rel="stylesheet" href="styles.css?v=25" />
   </head>
   <body><div id="launchSplash" aria-hidden="true" style="position:fixed;inset:0;z-index:10000;background:#030907;pointer-events:none"><canvas id="launchCanvas" style="display:block;width:100%;height:100%"></canvas></div><script src="launch.js?v=1"></script>
     <main class="app-shell">
@@ -37,8 +37,25 @@
         <button class="app-tab" type="button" data-tab="cryptos" aria-selected="false">CRYPTOS</button>
         <button class="app-tab" type="button" data-tab="tides" aria-selected="false">MARÉES</button>
         <button class="app-tab" type="button" data-tab="news" aria-selected="false">NEWS IA</button>
+        <button class="app-tab" type="button" data-tab="waze" aria-selected="false">WAZE</button>
       </nav>
 
+
+      <section id="wazeView" class="waze-view tab-view" aria-labelledby="wazeTitle">
+        <div class="waze-toolbar">
+          <h1 id="wazeTitle">Waze · trafic en direct</h1>
+          <div class="waze-actions">
+            <button id="wazeLocate" class="refresh-button" type="button">MA POSITION</button>
+            <button id="wazeHome" class="refresh-button" type="button">LE HAVRE</button>
+            <button id="wazeReload" class="refresh-button" type="button">RECHARGER</button>
+            <a id="wazeExternal" class="refresh-button" href="https://www.waze.com/fr/live-map/" target="_blank" rel="noopener noreferrer">OUVRIR WAZE ↗</a>
+            <button id="wazeExpand" class="refresh-button" type="button" aria-pressed="false">PLEIN ÉCRAN</button>
+          </div>
+        </div>
+        <p id="wazeStatus" class="data-note" role="status">Carte centrée sur Le Havre.</p>
+        <iframe id="wazeMap" title="Waze Live Map — carte et trafic en temps réel" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen"></iframe>
+        <p class="data-note">Carte officielle Waze Live Map. Trafic selon les données disponibles chez Waze ; pas de guidage vocal intégré. Carte indisponible ? Essayez Recharger ou Ouvrir Waze.</p>
+      </section>
 
       <section id="tripSummary" class="trip-summary" hidden aria-labelledby="tripSummaryTitle">
         <div class="summary-eyebrow">BILAN DU TRAJET</div>
@@ -245,6 +262,7 @@
       <span class="celebration-caption">VITESSE ATTEINTE</span>
     </div>
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=41" defer></script>
+    <script src="waze.js?v=1" defer></script>
+    <script src="app.js?v=42" defer></script>
   </body>
 </html>

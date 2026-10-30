@@ -1,5 +1,28 @@
 # LHdrive V0
 
+## Waze Live Map
+
+Six onglets : PONTS → ACTIONS → CRYPTOS → MARÉES → NEWS IA → WAZE.
+La carte officielle française est chargée uniquement à la première ouverture de WAZE,
+centrée sur Le Havre. MA POSITION demande une position GPS ponctuelle et recentre
+la carte ; elle ne suit pas automatiquement le véhicule. Aucune modification du suivi
+GPS/Vmax existant. LE HAVRE rétablit le centre initial et RECHARGER recharge la carte.
+La vue plein écran couvre l'application, sans dépendre du plein écran natif Tesla ;
+le bouton de sortie reste disponible. OUVRIR WAZE est le repli si l'intégration est bloquée.
+
+Documentation : https://developers.google.com/waze/iframe (vérifiée le 31 octobre 2026).
+Seuls l'iframe officielle, la langue française et les paramètres documentés lat/lon/zoom
+sont utilisés. Aucun logo Waze associé à une autre carte, aucune récupération de données
+privées ni contournement des restrictions du service. Les fonctions partenaires Broadcasters
+ne sont pas utilisées. Waze gère le contenu et le rafraîchissement du trafic ; pas de
+guidage vocal/virage par virage fourni par cette intégration. Le chargement contacte Waze ;
+MA POSITION lui transmet le centre choisi dans l'URL de la carte. L'application ne peut
+pas vérifier le contenu d'une iframe d'une autre origine ni garantir sa disponibilité.
+
+Validation Tesla à l'arrêt : ouvrir les six onglets, vérifier carte et trafic, zoom/panoramique
+tactiles, GPS autorisé/refusé, retour Le Havre, rechargement, plein écran et sortie.
+Les essais sur navigateur de bureau ne valident pas le navigateur embarqué Tesla.
+
 Tableau de bord GPS statique conçu pour le navigateur intégré d'une Tesla.
 
 Navigation actuelle : PONTS, INFOS et MARÉES. Le menu CONDUITE est retiré. La Vmax de l'en-tête se met à jour automatiquement avec les vitesses GPS reçues, sans démarrer de trajet ; son bouton RESET la remet à zéro. Elle couvre la session de page courante et ignore le mode démo. Le menu Marées présente une tendance indicative entre les horaires connus, un compte à rebours et des cartes chronologiques aujourd'hui/demain ; le tableau détaillé est repliable.

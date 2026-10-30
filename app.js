@@ -149,6 +149,8 @@ function showToast(message) {
 let activeAppTab = "bridges";
 function switchTab(name) {
   activeAppTab = name;
+  $("wazeView").classList.toggle("active", name === "waze");
+  if (typeof LHdriveWaze !== "undefined") LHdriveWaze.setVisible(name === "waze");
   document.querySelectorAll(".app-tab").forEach((button) => {
     const active = button.dataset.tab === name;
     button.classList.toggle("active", active);

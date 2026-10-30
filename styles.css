@@ -99,6 +99,19 @@ button { font: inherit; }
 .app-tabs { display: flex; justify-content: center; gap: 8px; padding: 10px 20px 0; }
 .app-tab { min-width: 126px; padding: 11px 18px; border: 0; border-bottom: 2px solid transparent; color: var(--muted); background: transparent; cursor: pointer; font-size: 11px; font-weight: 850; letter-spacing: .12em; }
 .app-tab.active { color: var(--text); border-bottom-color: var(--green); }
+.app-tabs { flex-wrap: wrap; }
+.waze-view { padding: 20px clamp(16px, 4vw, 64px); gap: 12px; }
+.waze-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+.waze-toolbar h1 { margin: 0; font-size: 22px; }
+.waze-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.waze-actions .refresh-button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; touch-action: manipulation; }
+.waze-actions button:disabled { opacity: .5; }
+.waze-actions :focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+#wazeMap { display: block; width: 100%; height: max(420px, calc(100vh - 340px)); height: max(420px, calc(100dvh - 340px)); border: 1px solid var(--line); border-radius: 12px; background: var(--panel); color-scheme: light; }
+.waze-view .data-note { margin: 0; }
+.waze-expanded-page { overflow: hidden; }
+.waze-view.waze-expanded { position: fixed; inset: 0; z-index: 11000; background: var(--bg); display: flex; flex-direction: column; overflow-y: auto; padding: 12px; }
+.waze-expanded #wazeMap { flex: 1; min-height: 180px; height: auto; }
 .tab-view { display: none; }
 .tab-view:not(.active) { display: none !important; }
 .tab-view.active { display: grid; }
