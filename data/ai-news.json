@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T23:14:38.344235+00:00",
+  "updatedAt": "2026-10-31T02:27:37.697365+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -12,7 +12,7 @@
       "title": "Ukraine, minerais, IA : l’Union européenne et le Canada scellent un rapprochement inédit",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWjRjZFdvUm9oa3E2cnFiaUt6ZVl4eTcwSnBKek1wZFRGSmdHNk5HWU4zRHJfTmx2SlZ4Z1pfWTRkY0tfQkFkX2hOcU4tcEpvZnprWWlkVVdfZW8tUnVmbTQxUm1iSzNmbjFpV0VaeDZtQUxCUlI2NThueEhnWlBsMDJtSWVvamNqYkVQeHV4Wjc5VDdsVTd0NU1EX0hLMFM1WDRQVF9GaDM0VGpaTjlnWWkyYkFGNjZ6LU5mQzBEZVlZMXZNWXBMVkEwdy1JSGdUU0RPM2N1aXp1VEozZmxoUjJQanhVeG9EMnNmZzdTLV9wVW5VRGxHUVFYdw?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-10-30T19:32:00+00:00"
+      "publishedAt": "2026-10-30T19:34:56+00:00"
     },
     {
       "title": "Foxconn : l’intelligence artificielle (IA) va stimuler l’électronique grand public",
@@ -51,6 +51,12 @@
       "publishedAt": "2026-10-30T17:30:00+00:00"
     },
     {
+      "title": "Le président de Foxconn : la demande en intelligence artificielle est bien réelle",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSkhpdnhUZm90ZnlNb0w3UUw5WVZOM2c4U1VmbTd0ZEhRdm1UcExBWUJjNWxXbVhHYXpPNVRFVEtWcGlJWGYzcDA0WWVBQVRTZlB1N3hBZGczM3FDSlZNRmtIM3ZOYVk0dzJnVzVUZDRtSEdxeTZ5M1VZdEpBQzJYUEZXU3VWdHQ2VDVDNmF2NVFsQlZqLWYzeFFQVTU5OHR1bVkxXzNERlB3ZFoxbkdBYVRnNzI0aGlCcFVCdzZpdTNRMThmRUNNTmtIbzQtMnZ3cXdCRkxR?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-10-30T17:22:18+00:00"
+    },
+    {
       "title": "Intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fVjBnS3ZpUmZSSDZjR2FOWFFqNFZOd0VaZGxVOTRaRzBFRjlidzdVWG1pVEQ4TXYtNDZNcjhDbDBDQ3JweXRCMnc0a1VsTHJpZ2tzQkctTmhWeUdnS3JSZ09Od3YtdWtUazVKNC1nUVc?oc=5",
       "source": "Radio-Canada",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUTNTOTE5NTRJTFBKSWdYRzZobm1NUDZpME9fdU5pZklFUWY0NzdvLUxBTlpWYnBwRzZRM3JFQ2VNakRMVnI1YzJQTWJVN0ljUUlSdkRCbVBkQ1lVRlh2Z19aX0t1eS1BTGRRQk9Cd1dzWjhxT0xSU1RweVdNbkdBSW1vWWJwRERfNk4ydVpnSkc0WnpqTGdPVGpKSThqVnB2ajhZaVg1dUFBUHdzeTJ1Z2NzNDdDNHRqd0FJMV9Jd2NmV1A0NG5MTF9QaFNuSG9ENm9lcV9kZzBUY0lLS2ttQ2ZIcVd1bGpHZDVjaVg0MXJlYWQ3ZjdjRFdpWV9vWDNzM2c?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-10-30T16:15:56+00:00"
-    },
-    {
-      "title": "Le Home Office épinglé pour son usage \"opaque\" de l'intelligence artificielle dans le traitement des demandes d'asile",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTEFiQ3dmcGVpVHUwSVZsM3c1cFpzUDZZdHR6SWFVb08xeDBWMW5LdFVmOFpwSUxibm12LUtKVkI3QlUxaTIxN1F0MUg1UFVKQVNwWkliZmhEWWFCM0pxOFR2RGVCbDhtMW5uOGE0c2JUaGpNNWZ4SXVFcE5fMHdhbXRJaGZVMkdyUWozU2pWdG5yMW1EcGhSWlRod2xGRDlSUE9ybWtUTWdGNXJKRTBxZFhpWkc5VERGNklUdV95cmRfbDQwbG1aYnVYV0xpaWJZLUJNTGlpc01pRllRc2RmNGpuQnQ4MjZ3eWt0WQ?oc=5",
-      "source": "InfoMigrants",
-      "publishedAt": "2026-10-30T15:40:28+00:00"
     }
   ]
 }
