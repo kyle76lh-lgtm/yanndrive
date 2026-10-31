@@ -1,12 +1,42 @@
 {
-  "updatedAt": "2026-10-31T14:47:30.000646+00:00",
+  "updatedAt": "2026-10-31T18:51:18.304231+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "L’intelligence artificielle perd le contrôle dans la mine du musée des Gueules rouges près de Brignoles",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSWZfNkZyR1FJcFJQMEVIQU02bmJVeGl5RFluOXZ1T1NPQy1SQzJFcnRsMk8wcEdRTEQ1Z2tPTGl6bENENmg0SVNMQkYwZnhwQlg2WHN2aFY3N0huYzlwa09DV2tKMlZtby1yN2k1eWJObE9GaVlISFY3TlJQRzNycFNZdGFJdkFqZmNaNWlSWnI3MW1PMkRDdEFpanYwQWp5YXFqY3JzSFB0QUQzelBObm5pelBTano1aGJoMEdwQzI2VDhDam1zV1QtVGxyMms3bHRlcG5vMGhyLVRDNXI4?oc=5",
+      "source": "Nice-Matin",
+      "publishedAt": "2026-10-31T17:20:01+00:00"
+    },
+    {
+      "title": "Le grand hold-up : comment les géants de l’IA rançonnent l’économie",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWZCeWRSZXU5YWRuYWI4WkJwX2dQQ2RwOG5PdU16Vkxfd1VGSkxodURtNmVyMUozbHFWVVdGRXpZMXVqZ3dlX0xWT1U2X1VfcVpPTXpXQmwwZ0RTT1U0SFhWTmdzU1Rncm1uYTFhRzBWSzdoOXNEbTMtdVBYcEtwaHFsb2FNQWkwbV9ESEJYUGlMTXFqb0c5Q182dW0yWk56eEhOLUR0UjlLTjJLR1RBbVh6dGVjMzg?oc=5",
+      "source": "Alternatives économiques",
+      "publishedAt": "2026-10-31T16:50:28+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle va-t-elle remplacer les fonctionnaires ?",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTJvRV9WMm9Idm8xdHBVdG1hSW1UaXNvNHE4UDRTT3g1YU5RQjNjdGl5Y2tza2VGaXJieVJhOVpYb0pwVkV1RjdwUThQdUlqT0t4WUxhcWE3RkJ0V3l2eWRGLW1ZWjJFYVdpRUZaZEFOOG1YSE5GRmNlcGNRYlZ1eTZvTEdtS3FOV3BCODRMMW40bWt0eWdjTTZJWWp1Z0JPU3FnMw?oc=5",
+      "source": "Naudrh.com",
+      "publishedAt": "2026-10-31T16:08:02+00:00"
+    },
+    {
+      "title": "Supercalculateur Intelligence artificielle à Bessé-sur-Braye : le collectif Vivantes informe sur le data center",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNLUZzRlRfYm9ROUpBRkU1OFJ4SWtwQXFIWmhHLWZaTS11dHRpbU1laGR1S2R6MGxlcDU3SmhnT2hTT2R1X21idlpXYU1RR09OZVJYMldRcjBDX1R5c2w5cnB5YWg5T0w1Y2doSE9nVk1RTlU4UFRLQkFQMVFSRXJQSm04Zy1jNTQ2Snh1OEpSeTJFVHZlM3lSNjRDUkt0RXVmTERxLU1rWUx5WVR1S2NrNmlZUGZvUXJfYjVNdF8yTl9zN2YtRHhraDYtclF2UFNCZ2daaVhWWXpyQkxaOXA2SzFEQ055NUVRcjN0Y3Y5bXpwSDg1aFFZVzJKUTdEOWk2WGFHRmJzaFB2UQ?oc=5",
+      "source": "Actu.fr",
+      "publishedAt": "2026-10-31T14:42:15+00:00"
+    },
     {
       "title": "Les détecteurs d’intelligence artificielle, une solution séduisante mais imparfaite",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1BKVGs4ZEg3NHI3OWg2QWRLc1ZSai05UVZDNXhidjN5NU1LX2lXMTlJdkRndEVzeFVhTi0zeVlVajJKbUk4dnRxMXBpQmRvVmo5S0hEaWNQajlSX3pEakVqeFpuRFNLRHhDR0lkUjlfOHVjQmhKeE0xd0g1bF8xV01BZDNhcUJWV0RJTFQ2QmhXcnJZWFJNdGN2LW81QzJGbUJld0l2MnJ5UWhjSTlyenlyYnNPLTZBdDZDNUdjck5lUlJUbURaYVNNOWRPS003NlRoVnFR?oc=5",
       "source": "Mediapart",
       "publishedAt": "2026-10-31T14:19:03+00:00"
+    },
+    {
+      "title": "Roblox : 70 000 jeux créés avec l’IA en quelques mois",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeTAzb1NhTTV1WXV3djhrZzhNSHBZLUNZS0VQWEFselZsMGp3Q3AtVmhpS21zNUtSYko2V3VBSWhHSC1mYXhlQWQ3Q3RVYVY4YjJuZFRZM0Jvb19sWlphbGRvNUlRLUhMRVdJTnB5aF9zdUtvTUY2cWxUSWFyN3VOSHF3UQ?oc=5",
+      "source": "Univers-Simu.com",
+      "publishedAt": "2026-10-31T12:40:25+00:00"
     },
     {
       "title": "Le premier film chinois entièrement réalisé par intelligence artificielle a fait un flop au box-office",
@@ -15,16 +45,16 @@
       "publishedAt": "2026-10-31T11:30:27+00:00"
     },
     {
-      "title": "Le grand hold-up : comment les géants de l’IA rançonnent l’économie",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWZCeWRSZXU5YWRuYWI4WkJwX2dQQ2RwOG5PdU16Vkxfd1VGSkxodURtNmVyMUozbHFWVVdGRXpZMXVqZ3dlX0xWT1U2X1VfcVpPTXpXQmwwZ0RTT1U0SFhWTmdzU1Rncm1uYTFhRzBWSzdoOXNEbTMtdVBYcEtwaHFsb2FNQWkwbV9ESEJYUGlMTXFqb0c5Q182dW0yWk56eEhOLUR0UjlLTjJLR1RBbVh6dGVjMzg?oc=5",
-      "source": "Alternatives économiques",
-      "publishedAt": "2026-10-31T11:14:56+00:00"
-    },
-    {
       "title": "Le Vatican organise un dialogue sur l’IA et la dignité humaine",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMW12blliNjNZMjBoZmxXb2hraEREVFh3QnV6bmpnLVktZjhlSmVPU2xTZEV3VGZzY1R5dm5FaDdwNHJEUGJnMXp1RDRvVmwtRWZDa0lzMFhXdGtTYnJ6TWJMb3ZJVVNTbnpUQml4TTlBQVA0UU1va3FVSjdqUTM2cHhUdW1TVDBKQXNHNS0yejI5YmFpdF9aRHFPLVJHX1EtZFhKUFNkeWJZQTByME51WQ?oc=5",
       "source": "Vatican News",
       "publishedAt": "2026-10-31T11:01:58+00:00"
+    },
+    {
+      "title": "L’Intelligence Artificielle, nègre ultime",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ydTEyNC0tLWhsZVNaUFdJOXltLXNja2NDaE9VSldsNlNPNDBGQks3MF9ORnNtSXdlNjNTRFcxZUQwWmlWdjBYX2FJY2JIeTRXcGhYRjVid1cxb1V2cWJWSFdTWk5lRjhjSkNCSVRMVVkxM3JuUUJ0ZG1B?oc=5",
+      "source": "Causeur",
+      "publishedAt": "2026-10-31T09:59:00+00:00"
     },
     {
       "title": "\"Ça leur fait une publicité énorme\": entre prestige et démonstration des capacités de leurs modèles, pourquoi les mathématiques sont devenus le terrain de jeu des entreprises d'IA?",
@@ -43,36 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXlRd3d6aW5ybEdTYVFNdWxNRHlKN3YxQTlUVXVQc0JOblZvQ3QzRmczRDcwYnBDazVHMDdINHdfTFZGWXFwQWN4MEZ2d2Z5djB2OVlPdWJZWWVKRUN4bEZxZTluT1JNekFMT01aSUJvR25WejI2TXBqYVJmMnhUd0VKeHFzcHpUQ1NkVFNSY3RxS2EtSHlpMTRBYTFkSnluZnpLdnNncFhkX05FcnB2VzZvVm55UWljWDBya0FTVlNqRmJxM0IxVTkyTTcxMC1abkNURnA3Yw?oc=5",
       "source": "La Tribune",
       "publishedAt": "2026-10-31T07:00:12+00:00"
-    },
-    {
-      "title": "Avec les dessins de l'intelligence artificielle, une bande dessinée sur notre histoire",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcEVIMWxMUnJiOTFmTFI1T0c1d2R2Y0M4LS01cWdTTFlvQXUxMF9yWlB6LU5lVFRsZDl4TUNKSlZlbmttaVF5SDNLMVk0Q3ZPOWlQY2NQVFVGMUtKbHBpZ3JWUVdPSkh5M1JvYVY4VFdtY3B5WVhQTXlNVnFKdFo1aWdnNC1ubDF3eE9RazY5QWF5MnRaR0xvc05SUVJHUEUwUGE0VnZrUWhRTmNSeVlYTXZKaXZhOVlaODMyQ0Jvb25Yc3lZeXZMUUFRcjhqU0tLdV9vcEZ1ZlpISDRVakkyWFlqTmQ?oc=5",
-      "source": "Actu.fr",
-      "publishedAt": "2026-10-31T06:16:02+00:00"
-    },
-    {
-      "title": "\"Ça va finir par se voir qu'on gagne autant qu'avec un bac +5\": secrétaire devenue fleuriste, étudiant graphiste qui veut tout plaquer... Ces Français qui fuient l'IA pour se réfugier dans les métiers manuels",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOMGx2d0IxN3ZBdUU1eG5NUV9CejgyOUVpZ2hnaXFKamNnSnV6OFBuelVpWno2S1V1TDZ4bWQ5VWZ2WHJ2YTBDUWcybXRkNGt2X05XTGZ5LUUyaVU1R3BBbzMxWHBockRGZHd2X0RpcU9EOHNaYjJDckF6NDY4SE1tRjktb1hsZDZlZTdJeU40aUdjbVBnMkFwd01VcnVmdTdzeFhZb0k3WFZnb2FUekpERlA2cVhiN3JoeV9rQm1iSHQzYUxMSUU5U21zMmJYWHByc0dQNElGSFdlV1BqSVFkUnBxWW9wcF9NMWpjSEdKVGhzdXk1SmtuT09Ra1huSEdXUHJPX0ZRQ2RWWkF5THdvbG0xZWh3MF9QYVNILWVTaC1NSGtzSzZjY3NzUGdLZ2RDTHYxRlUxSDhtR1JFNk5tV0hVbzNvLXQ5c0l1MEplTnNyMmZoVVN4MWlSSl9Dd3J0ZDhBZVJFZHlyQ0NKTXBud0k0WnBaZw?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-10-31T05:59:00+00:00"
-    },
-    {
-      "title": "Google fait tourner son IA dans l’espace… grâce à une fusée de SpaceX",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHVxZ1g4SnVqa252TWRCSzVXOWgydS1oZmt4U1VLU2QxQmVrSGdqUFZSaVFncXY3VTVNQnBDZ2x4QlhPVHM3SE5ZWVIzNFZsT3V3QXZZRnVob1FabXJRR0RHaWJERlpBMjFyUlI2bGphVlFrdTVIRW1HN05GRmUzQ3RpQVNJN1NGdHJtMDdaSkIyR3FTZllub3oxcnRMR1lmazdDSHBqQjAyM0ltanYxZXhvNjlBTWtZbnBYZkY4bDBNWFNk?oc=5",
-      "source": "MacGeneration",
-      "publishedAt": "2026-10-30T21:45:00+00:00"
-    },
-    {
-      "title": "Bourses mondiales: retour des doutes sur l'IA, la tech déraille à Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdExuZmk5eElJUVctREF3bDNBdHYtTGMyT2lNdDRiQUt3ZHFxaDNjWUsyTy1mUG1zRXdqWS1US2hDck40QzhPNzgyWHkwdEpuZndNWm1BbnFhRVNwZjd3RThaZVk4SUZjYnh2Z3BQbkJQRS1MY1BuWXMtUE8yeFNGZGlFRHNSa0tJNjRLeUkyLWd5VkdkVWE3a3JSMlJ2d2RmaHA0Y0owVlpqWXlXYl9uSHJjZmdUVzdlVEM5bVZOOA?oc=5",
-      "source": "tv5monde",
-      "publishedAt": "2026-10-30T21:26:08+00:00"
-    },
-    {
-      "title": "Ukraine, minerais, IA : l’Union européenne et le Canada scellent un rapprochement inédit",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWjRjZFdvUm9oa3E2cnFiaUt6ZVl4eTcwSnBKek1wZFRGSmdHNk5HWU4zRHJfTmx2SlZ4Z1pfWTRkY0tfQkFkX2hOcU4tcEpvZnprWWlkVVdfZW8tUnVmbTQxUm1iSzNmbjFpV0VaeDZtQUxCUlI2NThueEhnWlBsMDJtSWVvamNqYkVQeHV4Wjc5VDdsVTd0NU1EX0hLMFM1WDRQVF9GaDM0VGpaTjlnWWkyYkFGNjZ6LU5mQzBEZVlZMXZNWXBMVkEwdy1JSGdUU0RPM2N1aXp1VEozZmxoUjJQanhVeG9EMnNmZzdTLV9wVW5VRGxHUVFYdw?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-30T19:32:00+00:00"
     }
   ]
 }
