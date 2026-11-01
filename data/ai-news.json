@@ -1,12 +1,48 @@
 {
-  "updatedAt": "2026-11-01T18:51:41.855261+00:00",
+  "updatedAt": "2026-11-01T22:30:22.452506+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "France Inter. . Les demandeurs d'emploi inscrits à France Travail pourraient bientôt être contrôlés avec l'aide de l'intelligence artificielle. Objectif affiché : repérer plus rapidement les situations pouvant conduire à une suspension d'allocations et harmoniser les",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZVNibU1IR29STWVxM0d0TW8wTHZtSkVSOExIelUxY3lLcjNLTkp2T054VkY3VlN1ZUdZdlRFbUdpU1pyTTVJbklDSGdiUHVwX3hzdk01eVl3dTFPdmo3Y192T0xXWlJIellodFFyb3JvTXhQaDEtLUZvZ255RlFaZS1mU0pMV0UtV3hUY21GRy1abnRfZUZGWkZNaTRmWDBDcWJCQjJueWFBYWk5MXJ1OEhQRW1JU3NwQmctTkxBV1ZMMU53QnRTU2JHTC1MbEpmdmh1RGZkZTdZQQ?oc=5",
+      "source": "Facebook",
+      "publishedAt": "2026-11-01T18:15:21+00:00"
+    },
+    {
+      "title": "Elle conteste ses impôts avec un formulaire rédigé par l'IA et écope d'une amende",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUURwaVRNSm1Sb0cyMUI0TEwyaWQ4WDh3VnltSlVuZGZQbFB1UUhwN2FjSDRUbjg4eDZIb2xoX0FXczhTNTFiNFBHajVoRDE4ZFNvMUoyU3pIWThfMDdWZUpUTjAtWnhva1BwT20zMWtZN3RQZnhQbVRVTkgwQ0JXTFQ4YVJHZ1luU2hTai1MdGFqZ1FoeXFvUm5fdlN5aUVtN25kdDlwdElOQ2pTQWtJTTZfR2NXQlU4eGfSAb8BQVVfeXFMUE8wLTctZTE2b1ZMS3U4MGlyaDFVandTZmFpZzYwQWJ4RW5tYVA1RFhhaENJTXdRaEtjX19jd1E5bVhiS1J1a2wxa1MwMmcwX3hrbnlvSDR2akdfRHJPQkRPUm5FaXNYRTlvVTQtY3NaZ1NQY2cwbGxvZ2ZHWmpXM25PLVBGaDA5MEJCTkdNaXpSWmM4QUFiaGlPSjlnaXJpYUNmeDgwenJhbWtma2dnWDRnZE5JazdGQy1ZdkFrZTQ?oc=5",
+      "source": "CNews",
+      "publishedAt": "2026-11-01T17:55:53+00:00"
+    },
+    {
+      "title": "L'intelligence artificielle ou la tentation du trop",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTzRtQjVYN2FaOTJpUlFuaEFSV2FGS2laUHNqRzYwU1B6QnhwLU4xd1ZIRm1obHFvVEZnNEhCODVtaEZhMWtNNmxTUlRNN3dZVkNnNS1DYnl3aHR6UkxzWHJHTk9uTk9ZT1JTU3ZtSGZCMDZ3Y0tObmo1ZlRVTU54QUZyemFpUWdIU1Z1VHQ4UmRuS3ByeFJuY2NoV2NXdTRja1oyTVBFMHZKVkhET1hCUkNjOGdmdU10YjBLZTMyaDdCVXB4UllWNTlyN09kTzl4UWFvcjJnS3Jxdk01?oc=5",
+      "source": "La Libre.be",
+      "publishedAt": "2026-11-01T17:24:00+00:00"
+    },
+    {
+      "title": "Réchauffement climatique, intelligence artificielle, voitures autonomes… Les défis de l’assurance au cœur des débats",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOWHdDUWQxUXNsdElzVmI4UmcxQUlpODB2ZnJuZEFRZGg2Z3dNLVRHTFJiUXBnWTlkRU9vVEhKb0hTVHBocXJLMFlYajFGMHNoTE9Tcmh1amotRnJ0N19vTmFoajFmVDk0N0NjVndNclg5VHFINlVEMk9LWmpFbXNwNXJZcm93QjZvenphMVNZWFV4TjFsTU1ySnh4Um5ENTNwN1NaQ3l1UlJjNnVvVEVoT1g5N0NSZ0VickFYOGc0OTVKUGV2Qkktd1ZITWZZM0cybVV2YnVjanRWcC12OHg3YmV2N2RlU3dYMVdzVW9vQkl6RzJ1YUFUZlg0N1ZyUFpweVdWZW5kWXBQcHBUNHNqSm1NVkZwV0tmOU43WjJSbUY?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-01T17:03:17+00:00"
+    },
     {
       "title": "La question du jour. Présidentielle : craignez-vous l’influence de l’intelligence artificielle à l’approche du scrutin ?",
       "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQVHl0WlBlQWtBeHB5LXpsVjgyWUdOdHBWQ1ZpVG5BMXdESVFZQXd5ME53TkYxVEJZdGtyRFJUWmxOd1dzaVpvYThTMEJmcHBCVjBPREs5T0ljMFFZMGo4b2dXeGJjTVQtYVNwM3lIelhCMHIzWDB4bjB2emxCMjFpMDBPTGJfT010N1VtM1hVUDBWcGpEZkNuLW9XN1ctZEpfNUsyc2Z4V2Y0YlB2d1I5TkJqbmYwQVRoblhYTjc3Y2VIRFhKZnBmYmtuOWwyeU1haXlrdHlpZ1cxU2JZS3d2LWVnYXhWNXh5R3lVbl9idnFxMHFOUnBVR0licGJ6LTZPU0tjdjZvRzBkMzlZcm5EMlBjSG9wX3Z6c2k0dmNBV1I5SXR5NGpveC1B?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-11-01T16:31:03+00:00"
+    },
+    {
+      "title": "Jon Hernández, expert en intelligence artificielle : « Les gens utilisent ChatGPT pour rechercher des connaissances, comme s’il s’agissait de Google, et c’est leur plus grande erreur.",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQTjVBLXE4ZTNKZ0hYYXhaREpNdGNLSk9neHJ1RDVhRDR0ODlZeERWbmpzd1g2UTVUekRWWU9MeXZTRnh0Z1JPMkQzaklsekUzZzFTR2ZFWE5EREZ5NEhqVWJNSXBKZXBtVlUyUkpZeV8ycWExT3RyRXlUeGxXcFZIbVd5LUo5NTN6cEJyQnRobEFTYzN0ZVBTelZ2MW5XdE9hUTAySGpjZExJbFBQMDNYZUVaWjAzM2NnZ2tadjhCbFgySDVOakhVZUxWTVhJSEd1dk9zWWRtYWRjYVFLOWRCM19lZnRNOEFNcHNCbDJjUnBYRmJsV21tMW52OXBHMXVGZko4eDBsbXh6V2t5Z1A1a2lRZ2o2cTZGY253OTNBZkJGQQ?oc=5",
+      "source": "La Crème Du Gaming",
+      "publishedAt": "2026-11-01T15:02:52+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : les affiches générées gratuitement séduisent les petites communes, mais inquiètent les graphistes",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOdGdQc0ZxbjRGUXFDODl6dzh4OWNkV2ZHM2lUdGNneTZFR191LVBxWG5nNTQzaVdOVnd4em8wQkxSR0xCeFZ1UzB1akVpN3lCSDJ0eENYOHZoLWJLUndVRnM3THpTM1NSdVhKOXFUYU11WTlVNTVZVkRuR0F2UUpQTXRCVy1ObTI3MW1NMVYtSkNDYm9lUUlVY0VTUksweWlZZHU1OXl0bTljVzhLNXAwcHJOR005SndvMmoyZWFsSURRd1RrcEZNdUs0X2g2M2pLdDUxb3p3a2VYanNrenhDYXdIcE1La3AzUVhFaHQ1QlloZFlyVEZ1OTVrRzJTckNpTlRFQXdLdkpWdkd6aUpWQnk0czVweUFRXzlOc0RKUlVSUQ?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-01T14:18:00+00:00"
     },
     {
       "title": "Que pense l'intelligence artificielle de l'humanité ? Les meilleures IA pointent toutes les mêmes faiblesses",
@@ -15,64 +51,28 @@
       "publishedAt": "2026-11-01T14:07:00+00:00"
     },
     {
+      "title": "\"Ça paraît assez robotique\" : en Chine, le premier film 100% réalisé grâce à l'intelligence artificielle fait un flop",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPWVlXLVlJejJ5NUducU91R2ZHZVF2dThicmRzS0R2QjJsdWNEcnR2LUlEc0tOamMzS2Y5ZnR0NzNLbklCX3BQTDk3SWNtQXVhbU9CZjQ0c2xRVElBRGc0dkszTENtbTQwa09kUFZwUkRwcGRwWGZ0cUw2a3JzWnMtS0ZOMTFwNDBUYWVrOGV5d1Z2ZWY0bldPZHhIekFUYWNSVG5ERU9kRV8tMjFiTjVuMTZxSUU4SEE1T2VNWGhRalJaX2IyVkVVX3JnaThqRkk5TDBURXlhMUp3MUhvaWIzeUJDTU1RVXFFcnpmNXRMSjhwdw?oc=5",
+      "source": "TF1 Info",
+      "publishedAt": "2026-11-01T12:29:10+00:00"
+    },
+    {
+      "title": "Pour Sam Altman, la RAM de nos ordinateurs serait mieux exploitée dans les data centers au service de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ1VLdTg4SmlnMlVzVFM3Qk4wN0psWW84ekVOTlNKbUMyeDE0Skt1Y0YydnhUc094eVkwSDdxYkVMRVpJaXN5U2tHUkNYYXJiRWxtRDZnWm5JSElkREk5R05GVl9hNTFUTk9hdm1jSjMySmRjRGlVQW9fQ0Y0NDl5MEhqTWRVWk50TzZhR0NjLWsyaDdpV3lVUktwejN2Znl4MXRfTWFiRW5Qd05WUUtNRy01TDg0REtXNjJMTEV6YXB3dzdwOHVVdWlHN29JTEk4TkZGVkZQY3ZtbzhSelhMTg?oc=5",
+      "source": "MacGeneration",
+      "publishedAt": "2026-11-01T12:10:00+00:00"
+    },
+    {
+      "title": "« Comment rendre son entreprise visible dans l’IA ? » : une conférence bientôt à Cholet",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQcWlTTXpLZ1J6Vl8xb21QYkE2bXZaRmp4b1NTX2dfbG1UQmp6U3BRUGZFeFNYNTdFOVktS0M3MDZXUFQtM0RSQ2Z6R1NaVmdRM1BaZVhfRVUyUGtMN25oWVVxM282VnBDdVVoZ1ZnT3kwNno4WElfcEdmMHIzQ2NJcmdWbUNiNlkyZzIxeUpzTENRSHFvN2E5QXpZN29rMUFtNDdSbVgzaDFWREtoTkotbGl5UmtJaEJuTEVSaDZpU2NWVU04amx2cVZuYXlOX015VmNOeTlsTjdTNWRHQTFsZ3BoV1pJaGR6OGtiTXVDdzZQY1V0TnBhTThNYkRlOFc3YXhHckVEQ0JWTGc?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-01T11:31:48+00:00"
+    },
+    {
       "title": "«Mes parents passent leurs journées à parler avec DeepSeek» : en Chine, quasi rien ni personne n’échappe à l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNZEs5ajJyX3dMaWw3dE01Uy1ya2hhQlJjYlR5VFdmUHdrSDRYM3NNTkdDcXoyTFRYVE1OWHV6ZWZ6b1V2ajRnRUlfNzdkUHRBX1FLWWMxTkp0TzcyejJ3R0p3R0JmWlladklDZUc3eFd3dWFhWHRBQXJYQ2poRHdLdmdoR2tSclRuNG9weGkwellhQVlqT2d4STZrN2Q1LXhmbXVBOE9aN2E3MGx5RmNlWlRnVEpvSTlQdUVRVXRkUElDUVRraDRkVXBKNUl2WUpDc1U4NE90N3pjSVNDTEtqY2tDemJWRVA0Q3IxTnhBT3VFc0xLRWdnemNwRXNoX1JaTXNXbVk0SmtlY2dqVk1odGxvVWcyejVCU2xSU2xwSjBMQ1Q4YnVoLUx2Wk1DRnJCSlhrQmVfcjFvNEtvRUhB?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-11-01T11:24:00+00:00"
-    },
-    {
-      "title": "Marché : «Tout le boom de l'IA se retrouve sur la sellette»... L'introduction XXL d'Anthropic à Wall Street, un crash-test pour l'intelligence artificielle en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQV2tJRVktNks0Z2VrM0c3WUlEODBTeUd5WVdtWlVBNUdXTzMyUVlRRmZ3NFRXVVBGWTVlMU01QXJySHpfNEtCMUoxTkhpQ0FHb0V2WVVOMVFnZThtLWgxYWx2NEdITTJlNTJTTFRtVFNBWms1VG1mQVBwZjJnYzhWcDB4cFlaLVZ3aUZNZDNZSFc5QjZ6ZnFUeldodEpNcGZUa3FlYkxpcGI0TVNuNzRxdk5BZXgwRmhXdTdoVGpfbFZDemtHbWg3MmdYa25mOUZOSlVKYTJ1b3RHME05WFlUNXFkUzk3OGtRbDFVcVFlNXhtaFNWS21LMWRqOThaMW1tT3pQWFVlUk1ON2VIWkVPRFh1LWlzR1E3bDNWdkNYUDMzZU5yUFJWczRubG5wck02OUpsNWFseTdDcDZ5VEgxazRB?oc=5",
-      "source": "BFM Bourse",
-      "publishedAt": "2026-11-01T06:00:00+00:00"
-    },
-    {
-      "title": "Quel est l’impact environnemental de l’intelligence artificielle ? Ce que dit la dernière note de l’Ademe",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNa3o1NGh1YnNiQkF4aXJFdlFKeUZuUnJYYUM0d3VTb2tDdUVZTDVqOTFlWTRFR2RpQ05RWW5Ic0VLME1kdmZPWTZwejJ6M0VGbmFLQWJBV2xWdUcxV2ZhcUEwdzlOWUhGeXk1R3BTRWM1Ym1zcDJRVHg5SUg2b1laaW5kRko0MDZaOFJfSjA0cG1wUjNfRXFkWmpMZlZnSjBCbFBpbXU3V0xyTUk4dEFKUkJteWNsVDE5V1IybktLN0M1dGQ0eXg3V3UzZ2ItYi1sX29wY3ZpV21EUmdHdWtqOEktV0NNWXZjTTY0MGRXMWEyaVI4aU9LaWhGVWZzYlQwZUk5WUFtWU9pWC1OczQxLXkwUGdOb1A4YlpGRC1lakV2WE9ONFFXUg?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-01T05:30:08+00:00"
-    },
-    {
-      "title": "« L’intelligence artificielle peut être un outil de travail mais l’écriture doit rester humaine », affirment ces auteurs",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYVhKTl9fWG9HWGJhN29DVHdJc3BVRzY1OG0zUFpqdzROLVd0U3J6N2ZzNm1UcnExLW5fUk94d0U5TTVDaDQ5ZHNuUGEtakpaQVpWMUZHcnc0SFNvR2pXa2dsU0p5Z0NNeWhUejVKVHpHUGxibXdlNlQxOXdOWjVBVHhicEFTRVl1dUs0UWhwa1JFbERQYW1tOElTckNNcVppUmNoQXl2VWVPejdaMUVXdlRYR2ZfWnJSSHVXNlJLRVNrVWVoUDNYTjVpeTdOV0pxWXVvMjlFSmR0TFNQN1otYVVPOUNrNmdKaUFPQ2s5cDVCRVd4ZjRueW1VS2JpQ3VOWWg5LWxTVFNtako1OEpDOFBoMnVqam8?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-10-31T18:51:10+00:00"
-    },
-    {
-      "title": "L’Intelligence Artificielle, nègre ultime",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ydTEyNC0tLWhsZVNaUFdJOXltLXNja2NDaE9VSldsNlNPNDBGQks3MF9ORnNtSXdlNjNTRFcxZUQwWmlWdjBYX2FJY2JIeTRXcGhYRjVid1cxb1V2cWJWSFdTWk5lRjhjSkNCSVRMVVkxM3JuUUJ0ZG1B?oc=5",
-      "source": "Causeur",
-      "publishedAt": "2026-10-31T18:00:00+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle nous oblige-t-elle à repenser notre animalité",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORXFMaVlNRjZjUUxBdFhXMnhLdEpwRG5UQ0tsaEd2d093M25xUk4yNDh1aHpyWlpoamRlZkNUVzNEYlZOVFE0VUc2YWFBYVNwVG5FaldLdEVJZl9aM3paMjFRUm5acEpBbVJBRDRSaTVwckdhOWlYa3hja2plcDBQTVZ3Y19HUllCLUIxRFRZd0szb2VIcGxfd0VXRUtzaExJazBFVW5VUDgxRjdNdFVzRjk4Q2Q?oc=5",
-      "source": "Le Grand Continent",
-      "publishedAt": "2026-10-31T17:25:49+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle va-t-elle remplacer les fonctionnaires ?",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTJvRV9WMm9Idm8xdHBVdG1hSW1UaXNvNHE4UDRTT3g1YU5RQjNjdGl5Y2tza2VGaXJieVJhOVpYb0pwVkV1RjdwUThQdUlqT0t4WUxhcWE3RkJ0V3l2eWRGLW1ZWjJFYVdpRUZaZEFOOG1YSE5GRmNlcGNRYlZ1eTZvTEdtS3FOV3BCODRMMW40bWt0eWdjTTZJWWp1Z0JPU3FnMw?oc=5",
-      "source": "Naudrh.com",
-      "publishedAt": "2026-10-31T16:08:02+00:00"
-    },
-    {
-      "title": "Les détecteurs d’intelligence artificielle, une solution séduisante mais imparfaite",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1BKVGs4ZEg3NHI3OWg2QWRLc1ZSai05UVZDNXhidjN5NU1LX2lXMTlJdkRndEVzeFVhTi0zeVlVajJKbUk4dnRxMXBpQmRvVmo5S0hEaWNQajlSX3pEakVqeFpuRFNLRHhDR0lkUjlfOHVjQmhKeE0xd0g1bF8xV01BZDNhcUJWV0RJTFQ2QmhXcnJZWFJNdGN2LW81QzJGbUJld0l2MnJ5UWhjSTlyenlyYnNPLTZBdDZDNUdjck5lUlJUbURaYVNNOWRPS003NlRoVnFR?oc=5",
-      "source": "Mediapart",
-      "publishedAt": "2026-10-31T14:19:03+00:00"
-    },
-    {
-      "title": "Bulle de l’IA : le troisième avertissement des marchés",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdDR0d01OWTcyNWRqNHptYWd3eUlFXzVEU0VaVVQwbXFvNE5hUEFPMlZRUlE3cnloRlhDa0xmRHhwQkFVZVFaX3B6RURuaDE3OHM2N2JHa205T29WM05wTXRXbGRZY0YzelJlNjFaZ2pFTUVCekFVb1NMSFM5UWhVMHhqUmdsT0x2M1VwTXoyd1hsMjFtM2c0OWdGOEh6QkhoX1QzYkFORlNoZw?oc=5",
-      "source": "Mediapart",
-      "publishedAt": "2026-10-31T14:14:56+00:00"
-    },
-    {
-      "title": "Eloges funèbres écrits avec l’IA : pour les employés funéraires, «ça sonne très creux»",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWUQwN1FNZDdCUWFFNk5NNF93YnFXRVd0VF9IYjlhdTlsMFlrM1dzbTNibG5MbEJadEY5RlYxQVl3TTRqenpuX3FJRjNiSTdwMnRQWGE4V0doMng1LXNfU1FpMjlCbVY5Q1dyUDNaZzVHVi0xSXhrUWRXODFmTmxYUllmVjR6SjRMenM2WlR1RG5UbkR4Mjc5aFlfVWRuaTdSODFlZmFmRW1PeHhlNjZCb0NjTVR6LXhfemt2SnppNk5tN09WLXNZMDJ4bWQtVDVGT1ZKTkpEU3N6LTB2V1BrUGZhQkJlem1aa1BaM0V1WFd2X0tfalE?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-31T08:56:00+00:00"
+      "publishedAt": "2026-11-01T11:26:21+00:00"
     }
   ]
 }
