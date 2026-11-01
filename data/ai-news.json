@@ -1,18 +1,24 @@
 {
-  "updatedAt": "2026-11-01T14:01:34.473900+00:00",
+  "updatedAt": "2026-11-01T18:51:41.855261+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "La question du jour. Présidentielle : craignez-vous l’influence de l’intelligence artificielle à l’approche du scrutin ?",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQVHl0WlBlQWtBeHB5LXpsVjgyWUdOdHBWQ1ZpVG5BMXdESVFZQXd5ME53TkYxVEJZdGtyRFJUWmxOd1dzaVpvYThTMEJmcHBCVjBPREs5T0ljMFFZMGo4b2dXeGJjTVQtYVNwM3lIelhCMHIzWDB4bjB2emxCMjFpMDBPTGJfT010N1VtM1hVUDBWcGpEZkNuLW9XN1ctZEpfNUsyc2Z4V2Y0YlB2d1I5TkJqbmYwQVRoblhYTjc3Y2VIRFhKZnBmYmtuOWwyeU1haXlrdHlpZ1cxU2JZS3d2LWVnYXhWNXh5R3lVbl9idnFxMHFOUnBVR0licGJ6LTZPU0tjdjZvRzBkMzlZcm5EMlBjSG9wX3Z6c2k0dmNBV1I5SXR5NGpveC1B?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-01T16:31:03+00:00"
+    },
+    {
+      "title": "Que pense l'intelligence artificielle de l'humanité ? Les meilleures IA pointent toutes les mêmes faiblesses",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZFN6UWdoVnNoUEI3Vm93WTNmNWVjLWlKd2Viek1mNjM0czhrV2lLX3dTM2h5OTJrT0lPMEN0TDd4cVg5a3k5bm9teUphQld3Yjh2U2gtU2xlei1SR09EWDZMOTJQeGRqU3ltSHFBMnMwbklWT0VwbHktaEQxWmNTa2RvZnFwNzNJMW9QeEotRzRtTGxxOGY2SGYwOE9SUVRtX29CRVFiMkJuTFdYSlhUbTZtaUxBQ3pXM3RRRFI5a0toNlRCSjdrbVlfYjVoYm9kRTF6dFpBQS1FZ2JIOG12RmhsRkFac25SYjBfRVB3RzFCSVJPZzJYRk5uLThpUQ?oc=5",
+      "source": "Futura, le média qui explore le monde",
+      "publishedAt": "2026-11-01T14:07:00+00:00"
+    },
     {
       "title": "«Mes parents passent leurs journées à parler avec DeepSeek» : en Chine, quasi rien ni personne n’échappe à l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNZEs5ajJyX3dMaWw3dE01Uy1ya2hhQlJjYlR5VFdmUHdrSDRYM3NNTkdDcXoyTFRYVE1OWHV6ZWZ6b1V2ajRnRUlfNzdkUHRBX1FLWWMxTkp0TzcyejJ3R0p3R0JmWlladklDZUc3eFd3dWFhWHRBQXJYQ2poRHdLdmdoR2tSclRuNG9weGkwellhQVlqT2d4STZrN2Q1LXhmbXVBOE9aN2E3MGx5RmNlWlRnVEpvSTlQdUVRVXRkUElDUVRraDRkVXBKNUl2WUpDc1U4NE90N3pjSVNDTEtqY2tDemJWRVA0Q3IxTnhBT3VFc0xLRWdnemNwRXNoX1JaTXNXbVk0SmtlY2dqVk1odGxvVWcyejVCU2xSU2xwSjBMQ1Q4YnVoLUx2Wk1DRnJCSlhrQmVfcjFvNEtvRUhB?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-11-01T11:26:21+00:00"
-    },
-    {
-      "title": "Le grand hold-up : comment les géants de l’IA rançonnent l’économie",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWZCeWRSZXU5YWRuYWI4WkJwX2dQQ2RwOG5PdU16Vkxfd1VGSkxodURtNmVyMUozbHFWVVdGRXpZMXVqZ3dlX0xWT1U2X1VfcVpPTXpXQmwwZ0RTT1U0SFhWTmdzU1Rncm1uYTFhRzBWSzdoOXNEbTMtdVBYcEtwaHFsb2FNQWkwbV9ESEJYUGlMTXFqb0c5Q182dW0yWk56eEhOLUR0UjlLTjJLR1RBbVh6dGVjMzg?oc=5",
-      "source": "Alternatives économiques",
-      "publishedAt": "2026-11-01T10:25:53+00:00"
+      "publishedAt": "2026-11-01T11:24:00+00:00"
     },
     {
       "title": "Marché : «Tout le boom de l'IA se retrouve sur la sellette»... L'introduction XXL d'Anthropic à Wall Street, un crash-test pour l'intelligence artificielle en Bourse",
@@ -31,6 +37,12 @@
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNYVhKTl9fWG9HWGJhN29DVHdJc3BVRzY1OG0zUFpqdzROLVd0U3J6N2ZzNm1UcnExLW5fUk94d0U5TTVDaDQ5ZHNuUGEtakpaQVpWMUZHcnc0SFNvR2pXa2dsU0p5Z0NNeWhUejVKVHpHUGxibXdlNlQxOXdOWjVBVHhicEFTRVl1dUs0UWhwa1JFbERQYW1tOElTckNNcVppUmNoQXl2VWVPejdaMUVXdlRYR2ZfWnJSSHVXNlJLRVNrVWVoUDNYTjVpeTdOV0pxWXVvMjlFSmR0TFNQN1otYVVPOUNrNmdKaUFPQ2s5cDVCRVd4ZjRueW1VS2JpQ3VOWWg5LWxTVFNtako1OEpDOFBoMnVqam8?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-10-31T18:51:10+00:00"
+    },
+    {
+      "title": "L’Intelligence Artificielle, nègre ultime",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ydTEyNC0tLWhsZVNaUFdJOXltLXNja2NDaE9VSldsNlNPNDBGQks3MF9ORnNtSXdlNjNTRFcxZUQwWmlWdjBYX2FJY2JIeTRXcGhYRjVid1cxb1V2cWJWSFdTWk5lRjhjSkNCSVRMVVkxM3JuUUJ0ZG1B?oc=5",
+      "source": "Causeur",
+      "publishedAt": "2026-10-31T18:00:00+00:00"
     },
     {
       "title": "L’intelligence artificielle nous oblige-t-elle à repenser notre animalité",
@@ -57,22 +69,10 @@
       "publishedAt": "2026-10-31T14:14:56+00:00"
     },
     {
-      "title": "Le Vatican organise un dialogue sur l’IA et la dignité humaine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMW12blliNjNZMjBoZmxXb2hraEREVFh3QnV6bmpnLVktZjhlSmVPU2xTZEV3VGZzY1R5dm5FaDdwNHJEUGJnMXp1RDRvVmwtRWZDa0lzMFhXdGtTYnJ6TWJMb3ZJVVNTbnpUQml4TTlBQVA0UU1va3FVSjdqUTM2cHhUdW1TVDBKQXNHNS0yejI5YmFpdF9aRHFPLVJHX1EtZFhKUFNkeWJZQTByME51WQ?oc=5",
-      "source": "Vatican News",
-      "publishedAt": "2026-10-31T11:01:58+00:00"
-    },
-    {
       "title": "Eloges funèbres écrits avec l’IA : pour les employés funéraires, «ça sonne très creux»",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWUQwN1FNZDdCUWFFNk5NNF93YnFXRVd0VF9IYjlhdTlsMFlrM1dzbTNibG5MbEJadEY5RlYxQVl3TTRqenpuX3FJRjNiSTdwMnRQWGE4V0doMng1LXNfU1FpMjlCbVY5Q1dyUDNaZzVHVi0xSXhrUWRXODFmTmxYUllmVjR6SjRMenM2WlR1RG5UbkR4Mjc5aFlfVWRuaTdSODFlZmFmRW1PeHhlNjZCb0NjTVR6LXhfemt2SnppNk5tN09WLXNZMDJ4bWQtVDVGT1ZKTkpEU3N6LTB2V1BrUGZhQkJlem1aa1BaM0V1WFd2X0tfalE?oc=5",
       "source": "Libération",
       "publishedAt": "2026-10-31T08:56:00+00:00"
-    },
-    {
-      "title": "La bulle de l’IA commence-t-elle à se dégonfler ?",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHVhWTNvVkdUVXhFYlhhZHdiNVN3bXVuN0tfUnV6QlRvVjRSNG1ETzRGcjQ2YjZSel84TEZyNExwLXJPekM2aW02UndOeHRLQm5Mc08wcUVrTkxkY0NvbnYtX1lUZERxcVhjRU91NGd5SXZVQnFnNXpmdDdnak5hNF9sRnBITkptMkZoV3Z1aEkxR3ZXc3F3aG82QXJvby02c014Q2dlbk0?oc=5",
-      "source": "MacGeneration",
-      "publishedAt": "2026-10-31T08:46:00+00:00"
     }
   ]
 }
