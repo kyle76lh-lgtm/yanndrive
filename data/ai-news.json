@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-11-01T00:50:49.971563+00:00",
+  "updatedAt": "2026-11-01T06:55:09.876423+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Marché : «Tout le boom de l'IA se retrouve sur la sellette»... L'introduction XXL d'Anthropic à Wall Street, un crash-test pour l'intelligence artificielle en Bourse",
+      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQV2tJRVktNks0Z2VrM0c3WUlEODBTeUd5WVdtWlVBNUdXTzMyUVlRRmZ3NFRXVVBGWTVlMU01QXJySHpfNEtCMUoxTkhpQ0FHb0V2WVVOMVFnZThtLWgxYWx2NEdITTJlNTJTTFRtVFNBWms1VG1mQVBwZjJnYzhWcDB4cFlaLVZ3aUZNZDNZSFc5QjZ6ZnFUeldodEpNcGZUa3FlYkxpcGI0TVNuNzRxdk5BZXgwRmhXdTdoVGpfbFZDemtHbWg3MmdYa25mOUZOSlVKYTJ1b3RHME05WFlUNXFkUzk3OGtRbDFVcVFlNXhtaFNWS21LMWRqOThaMW1tT3pQWFVlUk1ON2VIWkVPRFh1LWlzR1E3bDNWdkNYUDMzZU5yUFJWczRubG5wck02OUpsNWFseTdDcDZ5VEgxazRB?oc=5",
+      "source": "BFM Bourse",
+      "publishedAt": "2026-11-01T06:00:00+00:00"
+    },
+    {
+      "title": "Quel est l’impact environnemental de l’intelligence artificielle ? Ce que dit la dernière note de l’Ademe",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNa3o1NGh1YnNiQkF4aXJFdlFKeUZuUnJYYUM0d3VTb2tDdUVZTDVqOTFlWTRFR2RpQ05RWW5Ic0VLME1kdmZPWTZwejJ6M0VGbmFLQWJBV2xWdUcxV2ZhcUEwdzlOWUhGeXk1R3BTRWM1Ym1zcDJRVHg5SUg2b1laaW5kRko0MDZaOFJfSjA0cG1wUjNfRXFkWmpMZlZnSjBCbFBpbXU3V0xyTUk4dEFKUkJteWNsVDE5V1IybktLN0M1dGQ0eXg3V3UzZ2ItYi1sX29wY3ZpV21EUmdHdWtqOEktV0NNWXZjTTY0MGRXMWEyaVI4aU9LaWhGVWZzYlQwZUk5WUFtWU9pWC1OczQxLXkwUGdOb1A4YlpGRC1lakV2WE9ONFFXUg?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-01T05:30:08+00:00"
+    },
     {
       "title": "Le grand hold-up : comment les géants de l’IA rançonnent l’économie",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUWZCeWRSZXU5YWRuYWI4WkJwX2dQQ2RwOG5PdU16Vkxfd1VGSkxodURtNmVyMUozbHFWVVdGRXpZMXVqZ3dlX0xWT1U2X1VfcVpPTXpXQmwwZ0RTT1U0SFhWTmdzU1Rncm1uYTFhRzBWSzdoOXNEbTMtdVBYcEtwaHFsb2FNQWkwbV9ESEJYUGlMTXFqb0c5Q182dW0yWk56eEhOLUR0UjlLTjJLR1RBbVh6dGVjMzg?oc=5",
       "source": "Alternatives économiques",
-      "publishedAt": "2026-10-31T22:25:53+00:00"
+      "publishedAt": "2026-11-01T04:25:53+00:00"
+    },
+    {
+      "title": "Avec des charades visuelles générées par l’intelligence artificielle, il fait deviner les noms de communes vendéennes",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNQk1NWFRtZW9LNnNXdmV4Z0Uxb1Eyb1FhclVQNUpwT1RvSjRDUm1veEZUclRQb1ZFOGg2MklodFgxQjE1MXRzVlpUd0xWT0NnQnVnaFNwVFRCV2FTRmJEaUFhd0pmLUpOcmsyeUVGNElmeXBtalBYLWh5MlIzczBxQnk5RlJZbzJkZTZIcmNHUmZyai1tS0FMZHNWWDdqN2x5MnJQVFlCcGNIVlFQSk5MSFJkWWxpZVBFdmRRQ3ozVVh0UWNRNHZFUmxlUE41aEIwTnNyclUxVjIzZV9vR2ozM2RPSElaeC1Jdm5pWEdXMUMzcmd2ZG9JT21yRjFtWXJNUDVRS0N3V2oxMTZXS2dHWDRSQkNmX1BIRTdSd2hVWVUtVy1aQzJ5bWx1bU04TmxQWUszaXBtc3ZQMTR4?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-10-31T19:35:03+00:00"
+    },
+    {
+      "title": "L’hôtel de demain, entre ancrage local, quête d’expériences et intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM3JhbW1jTFBiOUktVlpiZjJqOXZTZERQRUdjaU9BQmQ1VEg3dEhiZzMwekdxeXFmeHRFVUJJUEs0cXRISVJhMUZ2Z3pEOGF6S25QajZsS1p2OFE2T2x6S2pRQlVRc2t2d0pmbHduazVrT1YxWHdLY3hMT0FXc0dCQi13d2FHQUh5cm42SlV0Y1BTUkk2cTktNGFabzZIS2NkOFhlbkxXSnlfOUlYTFVHbDFILVpuSC1wWWlBQ3VMUFZnR3lFVGV4cnNoTC1OOU0?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-10-31T19:00:00+00:00"
     },
     {
       "title": "« L’intelligence artificielle peut être un outil de travail mais l’écriture doit rester humaine », affirment ces auteurs",
@@ -15,10 +39,22 @@
       "publishedAt": "2026-10-31T18:51:10+00:00"
     },
     {
+      "title": "Maintenant que l’IA est là, où sont nos semaines de 4 jours et le repos promis ?",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0Y0QXE3ZUtyMUVzX1otbFE3WGxFSjRpV25FZV9lc0xJM2g5LUVQYk5BZ0tvb01uRVhXZkthREJYZ28yWmJoeGtDZ0VjRWVPTXNUb29wdFBnTmItMjJyWlBUb1BmUzVRQU1WUTJSTDF0dUswRnNuaUVQVW41MmZ4MmFmeVFNSEJ3MDlER2hPX1BHZW9ndVNBZ1p2ZTRHanVkOEZUaXVuQWtzdDNFV3o3VTBzeV85V0EzSVE?oc=5",
+      "source": "Journal du Geek",
+      "publishedAt": "2026-10-31T18:03:46+00:00"
+    },
+    {
       "title": "L’intelligence artificielle nous oblige-t-elle à repenser notre animalité",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORXFMaVlNRjZjUUxBdFhXMnhLdEpwRG5UQ0tsaEd2d093M25xUk4yNDh1aHpyWlpoamRlZkNUVzNEYlZOVFE0VUc2YWFBYVNwVG5FaldLdEVJZl9aM3paMjFRUm5acEpBbVJBRDRSaTVwckdhOWlYa3hja2plcDBQTVZ3Y19HUllCLUIxRFRZd0szb2VIcGxfd0VXRUtzaExJazBFVW5VUDgxRjdNdFVzRjk4Q2Q?oc=5",
       "source": "Le Grand Continent",
       "publishedAt": "2026-10-31T17:25:49+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle perd le contrôle dans la mine du musée des Gueules rouges près de Brignoles",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSWZfNkZyR1FJcFJQMEVIQU02bmJVeGl5RFluOXZ1T1NPQy1SQzJFcnRsMk8wcEdRTEQ1Z2tPTGl6bENENmg0SVNMQkYwZnhwQlg2WHN2aFY3N0huYzlwa09DV2tKMlZtby1yN2k1eWJObE9GaVlISFY3TlJQRzNycFNZdGFJdkFqZmNaNWlSWnI3MW1PMkRDdEFpanYwQWp5YXFqY3JzSFB0QUQzelBObm5pelBTano1aGJoMEdwQzI2VDhDam1zV1QtVGxyMms3bHRlcG5vMGhyLVRDNXI4?oc=5",
+      "source": "Nice-Matin",
+      "publishedAt": "2026-10-31T17:20:01+00:00"
     },
     {
       "title": "L’intelligence artificielle va-t-elle remplacer les fonctionnaires ?",
@@ -27,52 +63,16 @@
       "publishedAt": "2026-10-31T16:08:02+00:00"
     },
     {
+      "title": "Supercalculateur Intelligence artificielle à Bessé-sur-Braye : le collectif Vivantes informe sur le data center",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNLUZzRlRfYm9ROUpBRkU1OFJ4SWtwQXFIWmhHLWZaTS11dHRpbU1laGR1S2R6MGxlcDU3SmhnT2hTT2R1X21idlpXYU1RR09OZVJYMldRcjBDX1R5c2w5cnB5YWg5T0w1Y2doSE9nVk1RTlU4UFRLQkFQMVFSRXJQSm04Zy1jNTQ2Snh1OEpSeTJFVHZlM3lSNjRDUkt0RXVmTERxLU1rWUx5WVR1S2NrNmlZUGZvUXJfYjVNdF8yTl9zN2YtRHhraDYtclF2UFNCZ2daaVhWWXpyQkxaOXA2SzFEQ055NUVRcjN0Y3Y5bXpwSDg1aFFZVzJKUTdEOWk2WGFHRmJzaFB2UQ?oc=5",
+      "source": "Actu.fr",
+      "publishedAt": "2026-10-31T14:42:15+00:00"
+    },
+    {
       "title": "Les détecteurs d’intelligence artificielle, une solution séduisante mais imparfaite",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ1BKVGs4ZEg3NHI3OWg2QWRLc1ZSai05UVZDNXhidjN5NU1LX2lXMTlJdkRndEVzeFVhTi0zeVlVajJKbUk4dnRxMXBpQmRvVmo5S0hEaWNQajlSX3pEakVqeFpuRFNLRHhDR0lkUjlfOHVjQmhKeE0xd0g1bF8xV01BZDNhcUJWV0RJTFQ2QmhXcnJZWFJNdGN2LW81QzJGbUJld0l2MnJ5UWhjSTlyenlyYnNPLTZBdDZDNUdjck5lUlJUbURaYVNNOWRPS003NlRoVnFR?oc=5",
       "source": "Mediapart",
       "publishedAt": "2026-10-31T14:19:03+00:00"
-    },
-    {
-      "title": "Bulle de l’IA : le troisième avertissement des marchés",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdDR0d01OWTcyNWRqNHptYWd3eUlFXzVEU0VaVVQwbXFvNE5hUEFPMlZRUlE3cnloRlhDa0xmRHhwQkFVZVFaX3B6RURuaDE3OHM2N2JHa205T29WM05wTXRXbGRZY0YzelJlNjFaZ2pFTUVCekFVb1NMSFM5UWhVMHhqUmdsT0x2M1VwTXoyd1hsMjFtM2c0OWdGOEh6QkhoX1QzYkFORlNoZw?oc=5",
-      "source": "Mediapart",
-      "publishedAt": "2026-10-31T14:14:56+00:00"
-    },
-    {
-      "title": "Le premier film chinois entièrement réalisé par intelligence artificielle a fait un flop au box-office",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOV2dBSXBSdHpLYTMtWkNIQ3F3cGhsSG5FU2ExcWdEcGo4cExGbnVobjJZWkt3Z1Nzb1hoSVR2NXhwaldtTHNTWXpsMkF3RkpfV0pYTjRiVWI1SjAwYWdWY1JXLUl4TnVIUmp5ZnNlRzE3cEtCVy1DLTNsY1lFOE12ZGZ5VUdHSlJ0eVFPeGpkUU9vVF9uUWRydk5zVU1ILXFqRHUtZFdxZDJrdXpUZXg3ZWdtX1UwUjFNMktjX2RXcGZiQVRWNUlKYkw1a0c3aVVJVEFjai1YUVJBQXVwNTNJWWFTWnl0ckw2VV84U09sWXdnSkRP?oc=5",
-      "source": "Science et vie",
-      "publishedAt": "2026-10-31T11:30:27+00:00"
-    },
-    {
-      "title": "Le Vatican organise un dialogue sur l’IA et la dignité humaine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMW12blliNjNZMjBoZmxXb2hraEREVFh3QnV6bmpnLVktZjhlSmVPU2xTZEV3VGZzY1R5dm5FaDdwNHJEUGJnMXp1RDRvVmwtRWZDa0lzMFhXdGtTYnJ6TWJMb3ZJVVNTbnpUQml4TTlBQVA0UU1va3FVSjdqUTM2cHhUdW1TVDBKQXNHNS0yejI5YmFpdF9aRHFPLVJHX1EtZFhKUFNkeWJZQTByME51WQ?oc=5",
-      "source": "Vatican News",
-      "publishedAt": "2026-10-31T11:01:58+00:00"
-    },
-    {
-      "title": "Eloges funèbres écrits avec l’IA : pour les employés funéraires, «ça sonne très creux»",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWUQwN1FNZDdCUWFFNk5NNF93YnFXRVd0VF9IYjlhdTlsMFlrM1dzbTNibG5MbEJadEY5RlYxQVl3TTRqenpuX3FJRjNiSTdwMnRQWGE4V0doMng1LXNfU1FpMjlCbVY5Q1dyUDNaZzVHVi0xSXhrUWRXODFmTmxYUllmVjR6SjRMenM2WlR1RG5UbkR4Mjc5aFlfVWRuaTdSODFlZmFmRW1PeHhlNjZCb0NjTVR6LXhfemt2SnppNk5tN09WLXNZMDJ4bWQtVDVGT1ZKTkpEU3N6LTB2V1BrUGZhQkJlem1aa1BaM0V1WFd2X0tfalE?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-31T08:58:13+00:00"
-    },
-    {
-      "title": "\"Ça va finir par se voir qu'on gagne autant qu'avec un bac +5\": secrétaire devenue fleuriste, étudiant graphiste qui veut tout plaquer... Ces Français qui fuient l'IA pour se réfugier dans les métiers manuels",
-      "url": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxOMGx2d0IxN3ZBdUU1eG5NUV9CejgyOUVpZ2hnaXFKamNnSnV6OFBuelVpWno2S1V1TDZ4bWQ5VWZ2WHJ2YTBDUWcybXRkNGt2X05XTGZ5LUUyaVU1R3BBbzMxWHBockRGZHd2X0RpcU9EOHNaYjJDckF6NDY4SE1tRjktb1hsZDZlZTdJeU40aUdjbVBnMkFwd01VcnVmdTdzeFhZb0k3WFZnb2FUekpERlA2cVhiN3JoeV9rQm1iSHQzYUxMSUU5U21zMmJYWHByc0dQNElGSFdlV1BqSVFkUnBxWW9wcF9NMWpjSEdKVGhzdXk1SmtuT09Ra1huSEdXUHJPX0ZRQ2RWWkF5THdvbG0xZWh3MF9QYVNILWVTaC1NSGtzSzZjY3NzUGdLZ2RDTHYxRlUxSDhtR1JFNk5tV0hVbzNvLXQ5c0l1MEplTnNyMmZoVVN4MWlSSl9Dd3J0ZDhBZVJFZHlyQ0NKTXBud0k0WnBaZw?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-10-31T05:59:00+00:00"
-    },
-    {
-      "title": "Bourses mondiales: retour des doutes sur l'IA, la tech déraille à Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUW9LbmRFV011N0lsUE41OS1kLWQ0Y1BsbDdreXRlN0lLY1ppblRIUjNlWW1jbFNLTDhJRFFUaldYeG9ZZWxJcnpHb0RzWEQxQkcxNjdWOVgwd1o0UVMwVVoyNTNPQkppQnVIX3IxTl9iX3dwTWZrWU5XQm9tNFRjZU9CN0lQaU54bmZkTkpnZTREVDNVc1dPZk1NYUxTeTdDUF9EX0ROTFJ4WU51ZUZaY290X3ZqS0VSRzdpZTFMcC1Zc1dnT3IxMmUwd21lOEVFdTJzRVBqMHltQkpHNFNnSjR1VjZyZGxUMk9sSGxn0gHuAUFVX3lxTE9Rb0tuZEVXTXU3SWxQTjU5LWQtZDRjUGxsN2t5dGU3SUtjWmluVEhSM2VZbWNsU0tMOElEUVRqV1h4b1llbElyekdvRHNYRDFCRzE2N1Y5WDB3WjRRUzBVWjI1M09CSmlCdUhfcjFOX2Jfd3BNZmtZTldCb200VGNlT0I3SVBpTnhuZmROSmdlNERUM1VzV09mTU1hTFN5N0NQX0RfRE5MUnhZTnVlRlpjb3RfdmpLRVJHN2llMUxwLVlzV2dPcjEyZTB3bWU4RUV1MnNFUGoweW1CSkc0U2dKNHVWNnJkbFQyT2xIbGc?oc=5",
-      "source": "Boursorama",
-      "publishedAt": "2026-10-30T21:06:20+00:00"
-    },
-    {
-      "title": "Ukraine, minerais, IA : l’Union européenne et le Canada scellent un rapprochement inédit",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWjRjZFdvUm9oa3E2cnFiaUt6ZVl4eTcwSnBKek1wZFRGSmdHNk5HWU4zRHJfTmx2SlZ4Z1pfWTRkY0tfQkFkX2hOcU4tcEpvZnprWWlkVVdfZW8tUnVmbTQxUm1iSzNmbjFpV0VaeDZtQUxCUlI2NThueEhnWlBsMDJtSWVvamNqYkVQeHV4Wjc5VDdsVTd0NU1EX0hLMFM1WDRQVF9GaDM0VGpaTjlnWWkyYkFGNjZ6LU5mQzBEZVlZMXZNWXBMVkEwdy1JSGdUU0RPM2N1aXp1VEozZmxoUjJQanhVeG9EMnNmZzdTLV9wVW5VRGxHUVFYdw?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-10-30T19:32:00+00:00"
     }
   ]
 }
