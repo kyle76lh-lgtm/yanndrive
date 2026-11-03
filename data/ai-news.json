@@ -1,12 +1,60 @@
 {
-  "updatedAt": "2026-11-03T01:12:49.081010+00:00",
+  "updatedAt": "2026-11-03T07:56:37.486300+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle : la Cour de cassation promeut une charte éthique de « référence » sur l’utilisation \"normalisée\" de l’I.A.",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQzRBU1QxY3QtbmloSWQwaENnaTZkQWNZc3lIOWZZM1gwX0llSzloeGRBTC0xUzRSMzlxNTdNVVdteWdDNi1tLTVXZDdZYjRrNUxzZnRmVy0yel9SZ24zdG5XaVBLVUZYYWtUSnNPUGJWWGhzNkJNdjJHVmF2dHdNNng3cVhCb3I3RG9xVks3LWtRdXhManZwbFhqdkFEd0dnOXZPSlNJWnVINW9uZ3hxbmw0aHFFbXNrOFVGcnFoM2w3ZGRXWVk0SXVtblFEc19Ua3Z3UFZfSjZFSXFl?oc=5",
+      "source": "UNSA",
+      "publishedAt": "2026-11-03T07:15:53+00:00"
+    },
+    {
+      "title": "Ces cinq gigas opérations qui ont marqué l'année 2026 dans l'IA",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeGlDd3M3enZfenMtNlI1VmZaTlFfYWtSYXNtMHdOdnRqSVFKWVRpWkJiUGNqeFBPZEFNd0tZTEZiNEpzYnB4b3JFVGdNamt4M1kwOHdvN1ZvR1FKMGR0bExmNGhWWWZTT0tWVlhXYkRxc09nNG1YM1VvOHRDS2llelNYamJnRXAwdjhZcDBJaEppRldja0FuZ05PM3B4bVBIR185czlRTUpuWTdMZ3I3bE0zN096bkVGNnhlcUZnNW0xMkxIWC1WYWhlNA?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-03T07:15:08+00:00"
+    },
+    {
+      "title": "MotorK veut automatiser les opérations des concessions grâce à une nouvelle plateforme d’IA",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdzB5TlhHbkNaT3QxX1o2NHFZc3VNckVEVnZPdGI4Q0hEUC1DektwX1FOd2NxTnJiQjFpN2JVT2xaY25mQjRnN3dLNXBBWUVOOHdaNV8tazBGWEF6aGZkNF9EakhQa0JwQUdzalY1Uk1sYUtJTVhsbE5UbUg1eWJLd2NKU1dGMGNFNE9ORGZ6RlFCTHZDclhaMWlncjdEZ01TaWZQNm10cGZxLVFNN1dsdWVySGhIYXptbFRiekFXNkpZOEFHX3J0ekN6THo?oc=5",
+      "source": "Auto Infos",
+      "publishedAt": "2026-11-03T07:12:00+00:00"
+    },
+    {
+      "title": "Data centers : « Pas de révolution de l'IA en Europe sans révolution énergétique »",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSkJMLVB0MkxiM3lwNUhKelZNU3c3TFhFNWRYQkJKVG1JWndvR2FtQUo0dm9XVzFpQkloLVhGQTk2d1hvMGJnM3R2NzY4TlpwVXlIQm5SOTJTeERLSFFnMl92bGZrc1hlTnoyaDQ4WGZyZ1hjci0zX1RQc1h1cGxPVGZXOHFyT05XaGR2TXpXZTBHemp2bDZER2hWeV9mZm9IWXFDa1FpdURMUXVWLXktM1JXU2podUF1X3cwV3ZjZDJtRU9kTkE?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-03T06:55:09+00:00"
+    },
+    {
+      "title": "Les ministères dopés à l'IA pour faire des économies budgétaires",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hpM0Y4cWJacl91aGE4Rk55dnlNUDdKdE9BWkxOS1FCN1l2UFU5QVJtdXZ4NGlKZkx2dktrQ3pGUGZQMkdTb0tHOVVGdjBoSEt1VkFRSVpza2Jyb3pQRmVFMG1ib3RWWTZqV3NSNVRGbElGVW9qbnFCdnU0R3FDNWlLN0d3YVdUZnFDdG1BYVc0aVdYZkFoZHJoZHlxUXR2MXdYd3dpOFpHQTNYVTFPX0VnTTlmeWxPWjhPLXFhLWlUMjliMVRLS2dWb3ZBNzE2b2lnUVpEZkpsUQ?oc=5",
+      "source": "Radio France",
+      "publishedAt": "2026-11-03T06:30:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : « Il faut réformer complètement la politique d’investissement dans les technologies de rupture », avertissent les économistes Jean Tirole et Karine Van Der Straeten",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxOMUo3bXZLVFR6c2xEZTNxOWYwZ1kwREc3Uy1vY29GbFhtaE16S1dDcFhDMmwwUzN0UmItcnJQbUZzTVRIeUQwdlplVU9rSG9MNXM0QjBRZXFfMUo3ZXJWc0tWRWhsdHAwME1Sc245b0NqaVh5VXpyXy1YSlZXbkNmY011azZ5Qzhvd1RZMG5hZG53cUd1RlA1dWhWeExEWnZBT0FFMjZIaUhFeFFDV3RPTk96emVkZXlWUWw1RGhwTHVlWTlWU3MxWklwQlBURHlxT0VuTWNxQXdKUzJ1eHMwQXlfSFFwOUczbFhwamlyRV9MVFRjVXgtSnhuRlVlRWxkMGx0ZmlIRHdldEZXQno2aWRLTHRad01jeDJZWVJjcmMyQUN2Zlhfbkp0Mk15WXR6eDdqNGVIZTdwbnB3NXpJN0ZONW5kNkdwUE5QamJnYlNzRl9aSlBURFJGRkJNWG1BeUNoYg?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-03T06:30:00+00:00"
+    },
+    {
+      "title": "Pourquoi Meta veut créer une IA qui prédit le fonctionnement du cerveau",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQm02SUF0SWtqVGpqWEpfMjN4VWxpYm05RTFhMWhzYV9OOHR6b21lM3RsbVYtSzEwaGw3Y05ueVpKSjA4YTljZkVKV2xuRWl3X0EzZnpSYWNJY3BlOF9aN2pFbDM4Ym9BOEU1eTFQdGR3VE8xWWg4dE1CZXlWdVFzVVg1OFFobEt5M3lUTGFSMVdzRVVOVWp6ckFiRTdtUG10aW1mWkd5Z1RkdVgxMmlwUE5OSmZEUWVEdFp6VVpB?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-11-03T06:03:20+00:00"
+    },
+    {
+      "title": "Deepseek, Moonshot, Alibaba… La grande bataille des entreprises d’IA chinoise",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNT053SEZ6YTUyZmtSZXhZQmFlMGNLZHl6bjRadllGQmJqWDEtYUt0cGFqdERDdUZMSzBKLUtrRTVwV29DWWpORm0ySlBaRGR6MHl5TUdyeW42MkdybGdmSXVvdDl0Q0NtUVN0VUo5SUkxWGpQVmx6R0Q4Zk5xWFpjZ1RGeHVObzR2cWtfOG9maG9DRktlNV9JNklEa0F2WnhVMDRxQTNXRmNnTkZWUmpzdUgxdENfYXJ0Vnp4dE5xRXBqWVFteDRXdGkyUUxtMnB0OERPaW5FUXNtLWhRT0VyMURxZklMbjR1R2xhdXpEdGdraWE1bmJV?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-03T05:16:48+00:00"
+    },
     {
       "title": "« Que penses-tu de la mort ? » : entretien avec une intelligence artificielle sur ce qui demeure et ce qui disparaît",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR1dzZ1pPMnV1eWZ2eFFNVXh5NFlZUkNjREZmd1lwRV9MaVh4aEsxcjF6MlZaUGgwTUNwY1U3cnFITU5iclIwM1RUMXJ0cVU5M0J2cEtmUFlrSEtsX1R6aVRtSkFzRDliT0hmRG5XUGFuMU1acC1GcFRXVmJYSmVpSjFFeXFCYmFZVTRMUU1qdzE5WFZtQTlYQWZtM0RWV3FUUG5qZDBFUVNiRVRSRllyS0d4bmxHX3J1STVJYVA3bDIxTHRxOVJQZGdyNnZ2WXM?oc=5",
       "source": "Ar Gedour",
-      "publishedAt": "2026-11-02T23:02:15+00:00"
+      "publishedAt": "2026-11-03T01:03:09+00:00"
     },
     {
       "title": "Un pari à 115 milliards de dollars : nouveau deal record dans l'IA",
@@ -25,54 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU2ZEX2F2YzhRVGVieW5iTnhLMnd6M01QWnh0QWxBVmFSanZqRmNfNFBXSVpmejd3TzFFRkVqdHFVSGZqTEVwMFRtVUR6SFdvV21XLUZUUHlubFhLWEF3OTNVbTdrbTFrbmMxZE53aVdia3hUMHhFVDJuektHZWl2Y3NpV0V6T2VHTW00ajhHNzdjOFNTbDJOVjBVejlkcTR2c2h1SzlFU0k1ZXlBNU9odjdNbmVjSmE2dTZKbThkMHJ5SUExZk9BQi1SbWd4V1BHeEE?oc=5",
       "source": "Le Figaro",
       "publishedAt": "2026-11-02T19:20:00+00:00"
-    },
-    {
-      "title": "\"On n'est pas du tout en retard\" : comment l'IA en Nouvelle-Calédonie a pris sa place au sein de la société (1/3)",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOMlN5bVk4Y1dfRXR1M09wa3dPMlFoY1B3T0hRR3ZXQWktSDVSOVN3SHVnbzZSVnZlUEg1VTNsQ19lUFpJSmJuMm5JanpwV0pNMTZ5ZmlUVFRnbVNNZWV4b3hIak9neHhSWVQyaElqeERjTVI2Y0ljOWJSUVpjbWdjcmhPMGYwVWZUSUlXXzlJY0FsMmlTSDNwZTRWdTVSVnlTdkc4TUJwSUkxNTRIb0Ixd25sdDJzWmxDOElzY2QwTWxHMGF2Ulh1UlRlRW04QV82TnY4dkY1Z1V2c1A5MGRHSlVuTTZnMk1yUmZZaWdRUzlDa0VobzdOZ0VCYw?oc=5",
-      "source": "Outre-mer La 1ère",
-      "publishedAt": "2026-11-02T19:00:02+00:00"
-    },
-    {
-      "title": "Face aux violences carcérales, le Michigan joue à \"Minority report\" et veut utiliser l'IA pour classer ses prisonniers en fonction de leurs \"futurs actes de violence\"",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOcFRuQU9tR1EtOFQ3R0FqWkdWc1czTlpFWGxjYThDVThkOXJEa1ZCYTFEbmRqQ2Y3V3dpZU55RUhlcG1Lem9EMUlBOE51cXR6ME41TEt1RnZob1A4T3RKQ1EzREN0OEE3WDdXNzdKOUZmUFFCaUFLQVhvYmFmMlQ5bmhoOGRnMHpyWEVMUmhMbkV6aHc0cU9rOU45VUhGVHRUWkxLVFdaYlFzZ1hZVF81Y1VqOVhhV2VwOEVXVmZqSlRHaGo4MEY0RTZreEdmal9WaV9ZSTFRZ0dHdFB2N3M2Z1VHNXJ1QVlSQUpETFN5c2I1TVhtNkczVVBXY0l0NUxSUDVHU2liMllBZTRZbDBkMGoweHFpQmlBZDB5c1ZyeG9oMGxtZ3NCSW9INl9XandRLWVvRFlFZlNCRHo0MUNTWGhJZzhUUFhlRGlId3AtRmVfSDhDNnc?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-02T17:28:35+00:00"
-    },
-    {
-      "title": "L'intelligence artificielle facilite le travail des responsables de blanchisserie",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRmRzX3VUaVpKMS1xV2htcDZ5Mk9XUkFqNTREbFlPalBJVmt3SWhxSl9GYjVNM011RHVhNjRqeVNMTW9HRGVQZG9oYmw4dDdNQlNzZGwwRW42a0RNUEFXalFKOXRtbmk3TlYxd1Z6VjVCOUI4R2swZDBqejE0NGZzdlZFMWtIZzBRUlhhU0doOEE1WVRKeWh2QnhMTHJiejJ0Y2VCaGxDM2FqUnF4QTRnYVZqOVN3THM?oc=5",
-      "source": "Hospimedia",
-      "publishedAt": "2026-11-02T17:07:43+00:00"
-    },
-    {
-      "title": "«Montez à bord ou vous vous ferez écraser»: Proton pris dans une polémique autour de l’adoption ultra-rapide de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNm1Ka2hLSjZIQmEtTm9Sb1VaVDlGWTNab29KSnhmS3pFSFkwUGdKUlVNZFNNQnpwR2xpb0JtUmQxQ1JkM0Iydl9mLW9CelBaWm5zNzZXdHJiTHZYSGVPcm1VempGeXNLNmU0WVA2bjZudmtQQjMwZ2gzRUh1UnVDRzVFQlB4enQxbU1TWnFrQkZwdXJIQktobHoyYWFDQm9fVzlrSEdxa1JEdDY2QTJabkZ2MUtYN1Azb29USTNOMkFsODdrTDcxRV8zZGxqNDA4cjg4RnlsZXRJbUlUcHpYSnN6YmlTWVRSd1d3dGFXNHZUdTZGSlJR?oc=5",
-      "source": "Le Temps",
-      "publishedAt": "2026-11-02T16:24:29+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Anthropic affiche un chiffre d’affaires de 17 milliards de dollars avant son entrée en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNSU1WckxOWjhfUkFzN3NDVmlPcnBqaEJsRjM1eDdQQkYwLXBUNHRhMVN5S2xiSTZlRVpnY2oySk52RFF6NnNVOHpvVjVaLWc2SGYwUC1EQzcwcmdMWmJLMVB6WWdJTnV4SzZEVGh3aXU2XzYyNmVxRU1kRUZyNUtqV2FuRHdsMENLZmpuR0ZoS3ZUTk93dWx2cW5tY0ZkSmxJaXJ0dkRDUUtXMjdENFg3LS1DNXRBbEdTUEZ4MmRTaFMzdEVCZmtNVm5BM0RCbENSaVAtR3dfZU5fSU1ISTR2azh3RWczN1VOX3BEcWVPZDZ5SXdHNXlCaXZieE9LUzc3aXJibkpYNURSMG4zVjhQa1NHTnkwaU1iR2hHWmF4ZjMyZGJOWEttUHpGbUh2Y0U?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-11-02T16:07:49+00:00"
-    },
-    {
-      "title": "Google, OpenAI et Microsoft s'accordent pour permettre aux sites web de refuser l'utilisation de leurs contenus par les IA",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNejBKVmtjNkcyTlBib0hPRC03VEF3NEY2b25mT1lEX3NiZER2QzNMVm1QUEVWbDRZa2QwbkMtdFo2WTc5VnlOd29kalhFdThVeGZmMWZDNWJscXNveW5RNlZibEhqTV8zMHcyenJCalctc0x1YUNxdzVkYmhxUzkzeVh6SkVRcTVWZFhtRHVXOEM3UXhYV1BEODQxLWxoUkhNLWRnY045X0dfRXpJUHVldzlSRnVYaTdVcFNVSENZMXZSYUc5LS1iajB0bTF4SlBhalE?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-11-02T16:07:05+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : l’Europe face au défi matériel",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNN050ZkFTTE5XTDJwX1k1RDY4cHAyMEQ3UG9tN2xDalpucHNfM3doX2lIQzJuY3B5RFNJY2Z6amdJWjI1aVJRY1Mtc19Ub0d2R1lvN0RBbXdoUXZYV29OcTZaQ1ZkWmx6X2lsRDN2c2JJY2lLQVNNVnRGLVFOMmN5djVwX3E?oc=5",
-      "source": "Libnanews",
-      "publishedAt": "2026-11-02T15:57:23+00:00"
-    },
-    {
-      "title": "Cinq organisations françaises portent plainte contre Google pour dénoncer l'impact de ses réponses IA sur le trafic des sites web",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSXpQX1dMQlRMWlBHTUhhdmdUMzh1OW1DeGtlT01SdWZFbHdzc1FZRW0wQlF3ZmdyeW45Y1V1c21LSmNNOVhabkdRcXBoWXZ5UkIyZ3JaUndncTdGcWc1NlUzWlZPMVVqbktCQXJuMVA0TU9YYjRPQzJQai15UWZDT2E0OE1TckJObVB4SjhQaTVqNmI4Q00wN1kwalF0ekduMmE5eUJZRTZDOGtGRGplRHF6ZGowUHdCaFlJOXR1NXFnRWFCaUVn?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-11-02T15:43:16+00:00"
     }
   ]
 }
