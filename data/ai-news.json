@@ -1,24 +1,48 @@
 {
-  "updatedAt": "2026-11-03T07:56:37.486300+00:00",
+  "updatedAt": "2026-11-03T15:54:40.018371+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle : Résistons !",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMmxjMjBSWWlzZVdLNFlNdFQxSDFVNjZLVERrb3BCbFZYWmhzRXV1VU5pbDNubllodGVSb203TTdLZVhZZzZmc1dxS2tYM2tSbDMzNnU2Um1iV0J3ZW40TmhOZS1TcTVwU3VTdUpla0ZoVGRJWk1UdmpMYVZoNUlmMmU1eWlFQ2JNX2pYeEFqNkI?oc=5",
+      "source": "Ash.tm.fr",
+      "publishedAt": "2026-11-03T13:20:21+00:00"
+    },
+    {
+      "title": "Pour le meilleur ou pour le pire? Microsoft a breveté une IA capable de transformer, \"quasi en temps réel\", les propos et mouvements des lèvres d'une personne filmée en direct",
+      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxONkpFY2g3b2FpYTlYX25heFdHWlZPdW1TckljenF4RGM3bEVMaEd2RW5uZ2U5dG9mRHJ1VWFQd0x4aFJxT2ZEYThEY1h2RURHRUhPWFp4SlgwSjZXNjZwWDA2cTVCQ0dVOW42ekUxQ01zd0w0LUFjNGxlb0lfRGZUbFg3TEJrTnkwU3VkQUxNeGo5a2txbF80dVdUTWx6eFc0eVdmSG9uelBRUW5FQ2RHNHJhR0cwVE1iQ1RqbVBhV1o0ZFpfbDZKTHNPMkNmc1dfSzBBYk5lVFdwUExYcnZiT09PenV3ZVBadmhTSkFwMFdqNE1ZcXBINDV4eElxT3lEemhiQnZFdnJSRllUcU5LRG54UmJSaGROcUpFdzREVHpyWUttdVdzdndVME5xNi1zVHdiMXdUVU02d29HdUFMZkxnVC1MLWdCTVpwNnVNQ1NHLXdBZHVFQy1uejdUWUdCWmc?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-03T13:09:16+00:00"
+    },
+    {
+      "title": "Quand les hallucinations de l'intelligence artificielle sèment le trouble dans les tribunaux britanniques",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQS3VqMzJzQ1gtZDBoYTFNLXNJdlk1SkpNNVZ6ZHhCSUZoemIzaGRkOTNXckVBYjRLTVdiR3FSV0ZxX0ZuRF8yMWw1TDlCRWJVMFdoZmRUWmNOaThRS0hKSmtWSFFvMHJNZm82dTdNalFSZ2hsVEZ3N3dqZFQwRG9iQWtNRGhYY19aendjalVMNS1NaHFabFpfV1lqS19sX3pib29IRlBVT01sYksxQVRMaGxDNG1HMFg1eWlRazhJRnF3Wks2RmNXRGVCcFhtNDR4RzRPazAzT3ZsbXRBM2NmTU1RTC1NMHFPelhwS0JGbXlVU0pCVjVOUnRxbk5tODM0c1k1S0lrN1ctV00?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-03T12:54:46+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : s’y mettre oui mais comment ? Tous les dispositifs pour aider les entreprises à gagner du temps",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPU3ZCQlRtb09tczA3by00MlRic2lvVVN2b0syZnhDVlYxVDdST01SMG0yel9EZVB3ZFRDaVRQRWpaVjJUajhBUFV2X3VRTnNDcUZ0UlYzdGV3ZXFaeFJXUmEwUkpEeGFNeHBxcFBjdDg0ZnZKbVZSaV9wNWhuZHlLdS1zS05kSTZ0SlFFS0wyd3pIdzdpbjloN3k0UzhUNmRSbkdPei1tdFZnQ2ZTNkw1QkY1eE9GcVhMcS1yMERlZEY5cGtWRlVUa0RfR3h0TC04MVVhbERQa01kZWh3VEl1LTZmTzBPUTBqVzhKZnJYMTk2QU9KRTY1ZEtJcEE5LXp0bmRMS1VfOWVWY3ltSktvZWFB?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-03T11:30:00+00:00"
+    },
+    {
+      "title": "Les CFF étudient une solution basée sur l’intelligence artificielle pour évaluer la fréquentation des trains en temps réel",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOMGdNXzc2ckkxeTN1ZEJKc0VvT0tFeVIzRzlxYnZ5c1ZMbG94alNObkhHWEJfellEZkFCVm1MaGFhT0hIeU1wSjlTQ1FVVUJKenJYTnZtdzVKcUVxQVN3bEVHdDhFQVFaTnctLWN0eEFncm5MNGRuUUlJZy02Q014OWN4WXNaTjFjU3R5UkxraW1qUk14Rk05ZFVuclJfMDZiQ0ZxVTE2Y0NmUjVUSS1hVXR6WkkwSVVjZG5CSFh1VTVPQWZRTDhySmFtLUpBQ251ekVKcTZJalcwSU8zcTdpX3duUTBFZlRtZWFhbGFxODNrSUptbzNXTlVhMmxfS0lkVFJheTZjLTc?oc=5",
+      "source": "Le Temps",
+      "publishedAt": "2026-11-03T11:05:05+00:00"
+    },
+    {
+      "title": "Une mairie de Haute-Savoie en croisade contre l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdkFSWGRndUROMXYzZTZ1NzJOOE9sNjU5VjU3ajBuSmtuS2pEUnJFQ1BLV0dMaEg4d3BUeTF2bnV2RDRUQjFsbDBCX1pObi1RUFdSRHFtOE1YenJIQW1LeFo2Ym9UUnZzLVlzOTQ4Tk84VHFWcTlISzRrYUFrNGVscVU5M3BGTG52ODBadVpPY3pVai1DTDhtbndfRHJhdmx1ei1rcVN5R0NuelVjQ29yMnoxalJmNUw0djRURjJRbkx3S0dwV3hVU2hNRmxweUlQR2M3NndDOEJxUUpwZEdsZHJIS1gzQjJMaHV4aw?oc=5",
+      "source": "Le Parisien",
+      "publishedAt": "2026-11-03T09:44:13+00:00"
+    },
     {
       "title": "Intelligence artificielle : la Cour de cassation promeut une charte éthique de « référence » sur l’utilisation \"normalisée\" de l’I.A.",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQzRBU1QxY3QtbmloSWQwaENnaTZkQWNZc3lIOWZZM1gwX0llSzloeGRBTC0xUzRSMzlxNTdNVVdteWdDNi1tLTVXZDdZYjRrNUxzZnRmVy0yel9SZ24zdG5XaVBLVUZYYWtUSnNPUGJWWGhzNkJNdjJHVmF2dHdNNng3cVhCb3I3RG9xVks3LWtRdXhManZwbFhqdkFEd0dnOXZPSlNJWnVINW9uZ3hxbmw0aHFFbXNrOFVGcnFoM2w3ZGRXWVk0SXVtblFEc19Ua3Z3UFZfSjZFSXFl?oc=5",
       "source": "UNSA",
       "publishedAt": "2026-11-03T07:15:53+00:00"
-    },
-    {
-      "title": "Ces cinq gigas opérations qui ont marqué l'année 2026 dans l'IA",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeGlDd3M3enZfenMtNlI1VmZaTlFfYWtSYXNtMHdOdnRqSVFKWVRpWkJiUGNqeFBPZEFNd0tZTEZiNEpzYnB4b3JFVGdNamt4M1kwOHdvN1ZvR1FKMGR0bExmNGhWWWZTT0tWVlhXYkRxc09nNG1YM1VvOHRDS2llelNYamJnRXAwdjhZcDBJaEppRldja0FuZ05PM3B4bVBIR185czlRTUpuWTdMZ3I3bE0zN096bkVGNnhlcUZnNW0xMkxIWC1WYWhlNA?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-03T07:15:08+00:00"
-    },
-    {
-      "title": "MotorK veut automatiser les opérations des concessions grâce à une nouvelle plateforme d’IA",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdzB5TlhHbkNaT3QxX1o2NHFZc3VNckVEVnZPdGI4Q0hEUC1DektwX1FOd2NxTnJiQjFpN2JVT2xaY25mQjRnN3dLNXBBWUVOOHdaNV8tazBGWEF6aGZkNF9EakhQa0JwQUdzalY1Uk1sYUtJTVhsbE5UbUg1eWJLd2NKU1dGMGNFNE9ORGZ6RlFCTHZDclhaMWlncjdEZ01TaWZQNm10cGZxLVFNN1dsdWVySGhIYXptbFRiekFXNkpZOEFHX3J0ekN6THo?oc=5",
-      "source": "Auto Infos",
-      "publishedAt": "2026-11-03T07:12:00+00:00"
     },
     {
       "title": "Data centers : « Pas de révolution de l'IA en Europe sans révolution énergétique »",
@@ -39,40 +63,16 @@
       "publishedAt": "2026-11-03T06:30:00+00:00"
     },
     {
-      "title": "Pourquoi Meta veut créer une IA qui prédit le fonctionnement du cerveau",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQm02SUF0SWtqVGpqWEpfMjN4VWxpYm05RTFhMWhzYV9OOHR6b21lM3RsbVYtSzEwaGw3Y05ueVpKSjA4YTljZkVKV2xuRWl3X0EzZnpSYWNJY3BlOF9aN2pFbDM4Ym9BOEU1eTFQdGR3VE8xWWg4dE1CZXlWdVFzVVg1OFFobEt5M3lUTGFSMVdzRVVOVWp6ckFiRTdtUG10aW1mWkd5Z1RkdVgxMmlwUE5OSmZEUWVEdFp6VVpB?oc=5",
-      "source": "La Tribune",
-      "publishedAt": "2026-11-03T06:03:20+00:00"
-    },
-    {
       "title": "Deepseek, Moonshot, Alibaba… La grande bataille des entreprises d’IA chinoise",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNT053SEZ6YTUyZmtSZXhZQmFlMGNLZHl6bjRadllGQmJqWDEtYUt0cGFqdERDdUZMSzBKLUtrRTVwV29DWWpORm0ySlBaRGR6MHl5TUdyeW42MkdybGdmSXVvdDl0Q0NtUVN0VUo5SUkxWGpQVmx6R0Q4Zk5xWFpjZ1RGeHVObzR2cWtfOG9maG9DRktlNV9JNklEa0F2WnhVMDRxQTNXRmNnTkZWUmpzdUgxdENfYXJ0Vnp4dE5xRXBqWVFteDRXdGkyUUxtMnB0OERPaW5FUXNtLWhRT0VyMURxZklMbjR1R2xhdXpEdGdraWE1bmJV?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-11-03T05:16:48+00:00"
+      "publishedAt": "2026-11-03T05:15:00+00:00"
     },
     {
-      "title": "« Que penses-tu de la mort ? » : entretien avec une intelligence artificielle sur ce qui demeure et ce qui disparaît",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR1dzZ1pPMnV1eWZ2eFFNVXh5NFlZUkNjREZmd1lwRV9MaVh4aEsxcjF6MlZaUGgwTUNwY1U3cnFITU5iclIwM1RUMXJ0cVU5M0J2cEtmUFlrSEtsX1R6aVRtSkFzRDliT0hmRG5XUGFuMU1acC1GcFRXVmJYSmVpSjFFeXFCYmFZVTRMUU1qdzE5WFZtQTlYQWZtM0RWV3FUUG5qZDBFUVNiRVRSRllyS0d4bmxHX3J1STVJYVA3bDIxTHRxOVJQZGdyNnZ2WXM?oc=5",
-      "source": "Ar Gedour",
-      "publishedAt": "2026-11-03T01:03:09+00:00"
-    },
-    {
-      "title": "Un pari à 115 milliards de dollars : nouveau deal record dans l'IA",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZzhaY3Z5RDRyMllfYUpycy1OaU1PMmMtWEdESWMtbExLQXAzak0tQ0FZRjI5cnpOZ0lmV2VSLXJQWS1NdDhLV3M2WXJzZ1BDSGZHSkJwUGctMndBLXFoUl9JbDZmYThyb0owX05OdnBpazNoWms2WmItSEJuN1BJejNwb3owRGRkUlg2UUlsSEs0Zm5ZNFJ0YTNBS0kwU0Q2emxKeTNUS3ZMck5aYmVEYlRjWGdVSkUxZlhGcENlT0k3cDZjVFhSQXpSVjlDZw?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-02T21:08:16+00:00"
-    },
-    {
-      "title": "Tsahal Prépare Sa Révolution De L’intelligence Artificielle Et De La Robotique",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVWZoYl9UN0hsLTFOeHZoSVdjcUo0U1hUNHlnaDIxWlFUT3FSbUNDbTBxNlpVeXVuQWJxV3hYYnl6a1REXzM2LXVBRUJZRzRGRFBwUDJkdHR0aU45Uno2ejFUWFJfWXNPRGc5RWZsYWV2NUJJb3dVYUt0Tmh3RldjNklXY1dXdzhjZVpxcDhZQXdBLXA0bFQzYzliMS1zTV9acHY3TGFpOVIybmczUG9DQ3Z3VndraHJtVUd3OHZR?oc=5",
-      "source": "i24NEWS",
-      "publishedAt": "2026-11-02T20:34:00+00:00"
-    },
-    {
-      "title": "Comment le Royaume-Uni veut s’imposer comme la vigie mondiale des risques liés à l’IA",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU2ZEX2F2YzhRVGVieW5iTnhLMnd6M01QWnh0QWxBVmFSanZqRmNfNFBXSVpmejd3TzFFRkVqdHFVSGZqTEVwMFRtVUR6SFdvV21XLUZUUHlubFhLWEF3OTNVbTdrbTFrbmMxZE53aVdia3hUMHhFVDJuektHZWl2Y3NpV0V6T2VHTW00ajhHNzdjOFNTbDJOVjBVejlkcTR2c2h1SzlFU0k1ZXlBNU9odjdNbmVjSmE2dTZKbThkMHJ5SUExZk9BQi1SbWd4V1BHeEE?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-11-02T19:20:00+00:00"
+      "title": "IA, puces électroniques, robots : la Corée du Sud débloque 14,3 milliards d'euros pour accélérer",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMUFLZFlISXJXbTA0Y2ZwZ1pmVkJFWWFXVzVXVlo3NnJDekxJVzRNNFhSN3JrQ2lTOFVMSnA5VWJybWFWR0dfVnhfb3FPbmtjU2RjTTNvTFlhUzdVM3k1OTJSYzlUWXVLcUstMVFkbmpUaTdCa055WXZybl9rb19nYzdENW5aMnRWSXdPOVVFMnRvZTU4dF9GLXNjaWw0b21EQnEzaUNQUnBFanpCRzJEQ2VoY0thd0pPaFVfeG5zZktENkFTU1pJSkpwc21meVM1Smo5dW8zNmp5TmtHTU8wbmMtUTBLeTkyU2xqVXBpVDk?oc=5",
+      "source": "Sciences et Avenir",
+      "publishedAt": "2026-11-02T22:10:59+00:00"
     }
   ]
 }
