@@ -1,12 +1,60 @@
 {
-  "updatedAt": "2026-11-05T16:50:19.175976+00:00",
+  "updatedAt": "2026-11-05T22:24:38.465753+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Pour maîtriser ses coûts, Apple réduit le recours de ses employés à l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSWgwdG9lbHdJSlFjMHZLTWh1amtxRV9CV1VCWTgwZUV2ckhHZmwxLU42OG56Mnc4bzlHcUxMMmgzNFFjMWc2bE5vVXh5emxfMWZ5dXhwN2RmUkZGd0RRNENwc2s3T1RWa3h3Qm5UVHloZWpZM0VyWU9HdHdfdkRQUmg2Rk96RUVfZWVxY3RvVkZCelNLX29zR0FoS0swaGczR2pCRUxvQWlROVdiZDdoV2w1c0t4R1ltVDVpQ3NGS0lLYjlwSmEwSkdjSThiZjJXQWxUbkdfOWRzU2NVVHc?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-11-05T21:15:58+00:00"
+    },
+    {
+      "title": "IA : la France et l’Europe ont-elles perdu la guerre ?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWZ1eWV6XzJwd19WT3NUVHEySVZxRkUxQXJ4VmVINW9UVVNEeEtibFdEUUQ1bnE0ajcxaTRmRmNGZXFMWWxVWnJ2U0FaYW9VSVdTQlNfMk14Tkl1MVp3Um03RGRzWU1MTEFKQXB5VC1RdS1rTGZwQkpGMFZydk1XaXV0M2FXWnpadXVWQ1RXM3BYUTIwVUMzNWN0MGVsanpISW92UndB?oc=5",
+      "source": "Valeurs actuelles",
+      "publishedAt": "2026-11-05T20:01:26+00:00"
+    },
+    {
+      "title": "A Wall Street, la victoire démocrate aux midterms a fait exploser la bulle de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeDczejQ1aUR0OEctX1gxSjhxQUFQai1XeWFoM0lfTFdPMnJaVHNtTktXQjdtMUFoaEkzTmFzTVRFbVhLb3BxcVVRUFZtY0FhSkI0b2ZMMG1zaEdOaTAxQ3pJdUtZcF9uc1FTRTY2Rzl1ZWdjNERzbUFyOWh3TVBNVllmUXl5ZW1senpmX2drb2thTDliU05qVl8xaVFvZG9iVWdWdGowUXZtVzRGQTVqdEMwSHZ5bU9qZWZNWm92X2VXNzI2OTNpXzB5ZzE4aUFwcXpyb2RYeWg0andrZlJqV0xTOFo?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-05T19:35:36+00:00"
+    },
+    {
+      "title": "Rignac. L’intelligence artificielle au programme des \"rencontres citoyennes\"",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOE90d0JHdHZ0T3dsOFhTMF9jWDh4Q2dBMGk0UU96RUFuQXhLZTRRNGl1dl9NZ1B2OHJWOWlLY1VCSERmOEpOaEdGTkRWY1dsYW1PSy1sVzdPb0Z4T1VQRzJqU01ieGhyRzhrSEpmYzhhT0xYbmNybkM2blRSQ2JlTks5TzVsMTUtcGRFdlg5Y1RLQ2hXdzc4UDZzbmNidExsUlROY1VXclQyLVVKOUFwclFLRHduRDBacGJBaDY0Ykktdw?oc=5",
+      "source": "Centre Presse Aveyron",
+      "publishedAt": "2026-11-05T19:33:00+00:00"
+    },
+    {
+      "title": "OpenAI promet de montrer patte blanche pour ses projets de data centers après les midterms",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQaWVUbU42dmdUU1p1Y0xFZFN0cFRLbTZGNmQ3SHhQbmJKVFBBMlMtcmJsZmt1RllUYmp0amh2Tm5pOVBmckhYaGNGaDBIbjdBcTBKWm9QUHdjeDI0cXJVZ1JDVkVpcFZuc09nMzVwOWU2OFctLVVBVXdKTV8tS3QxNDd4T2NRM1h5ZFQwR2s1OGxIZUZlMjZ6Nk1pNEIzOGM1ekdDczVROXR1ZXkzczJwX2djX3p3Nk9fNmZXUkdBV0RCckMxdHJQdnNfV2pRdS0ycmtPWGtVYW4zUzhsRGhsS1FqUm5JWmxQOEhnQVdLTXdydw?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-05T18:01:16+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : le rochelais A2D ausculte les monuments sous tous les angles numériques",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMTc5NDBCZnNReEhBODFzRGgyWU5rRVl3c0ExQThYdUFBbmktZ1pibmlKd0FiZ1NuM2taTTFWVFR6OTV6cmItV2hYU2hCSFY3eFhCaU45aGFlY2Y0bVpiczRCVGFzTHh4RV92VUVJNURQaXFTRHBHTmVFVW4weTkzLU9WWjZ3cnU5QTdiazRya0xxaGRSbFlfX1oya2J2MWc1OG11TE9FRC1iMHVVMXhMbVJfMnBILXUweUxMRTBIclkxTmdNWlFyLVBXbldRUmRzZk5WWlBrU3dhZ0RIOGU0M3ZsckFFVjliZW15WmszUXR3LThf?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-05T17:30:00+00:00"
+    },
+    {
+      "title": "Wall Street : après les Midterms, les positions des nouveaux élus démocrates sur l’IA font dévisser le Nasdaq, qui s’enfonce de plus de 3 %",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOdFJlempPUXJGeWVyN3gxaUJzYmZLaUxOaGFXbVNhM3ZqMEdyYjVwNGQ2cWlNYXloeTVFaTBucWtLSW53REV0c0M3OFNvS0cybVZUR0Q1YkU1SkZvU2VFS3FnaTQ0c0E2cjN3VVJWXzJCbVJodHltR2NnckhLQkt4M3hSMFdhTmVEZzB3dDJjcnQzQ3VfRzNIalpJSXRNUzFpLVFTdEZqdnJHZ29GVjVGa1o0QUxqMkw5LTViR05hal9wY09wT0Fma0trcVk4Qk9vdmU4X3VkSm05VWhvdHJuVFB1TnZzUElfU1pLLW9LUnV4NXl5RlBVMng3czZzQ3d3N2hYcXd0TVp4cHFpbDVBWDNmUTcycDBXSHdB?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-05T17:08:36+00:00"
+    },
+    {
+      "title": "L'ère du « management algorithmique » : comment l'IA renforce la surveillance des salariés en entreprise",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbUhDekVNTnhTQmhOOC1fOTlBTExEQjltS2xsV1FVaTRtQWI4TE0wa18xdU9xbDZjRk1JQXRnb0pQVTNtTVVfRTU1MG1vT181XzdGNDRsVzNrVmZxRXFTenJkaW1xeGpuV3lOSTg3R1o1emkyaWFTRWg5T0VDOVhReHNiSzJkd21CVEc5Y0t6T3g1Vmk2WDVpd0NPVDk1NjEySnJKRWNRQWZCWGJsakRkeEVQRlBUUVIyOWNCX3o3MDFjQXczT01OSlVJU1NOa3dCaGRPUEYyY0kwQjJpMmpQa3ZpVjBZY1VSbEFaOV9Ba2ZfTkYzNEZ6Tk1n?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-05T17:02:00+00:00"
+    },
     {
       "title": "ATELIER SCIENCE INFUSE : Intelligence artificielle, bioacoustique et conservation des espèces menacées",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSHV2elVlOHdIWXJnREp3b242UXJFLTVfTUxYQzYxQ0VxLXg3RjZiSzREN0pVckl0bnAxMFE1WDd3SnNac1lwbUhCaW9kX0RyNU5KMllQbU9IMVU4a20tUnNobm54RldSX2JKcko1X3VOdDJqbmFrRTM0cWhPTjc1TUJoMTNva1FTb2VqaWpqWWVfY0xaMVgxZEpKZF9DaXc0NmRBV2VSbXI5ODRQUzNOaXRBNmh5Rmx5ZU5aT0t0eVFRTC1HUEVvSUs3c0hvUVZmeEFtdzBiTGdHM294ZXMwNQ?oc=5",
       "source": "ECHOSCIENCES - Grenoble",
-      "publishedAt": "2026-11-05T15:44:48+00:00"
+      "publishedAt": "2026-11-05T15:43:48+00:00"
     },
     {
       "title": "Les valeurs de l’intelligence artificielle (IA) et des centres de données reculent, la victoire démocrate assombrissant les projets d’expansion",
@@ -15,64 +63,16 @@
       "publishedAt": "2026-11-05T15:36:33+00:00"
     },
     {
+      "title": "Intelligence artificielle et fertilité : choisir son bébé ?",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTVWa2NRSTNjZEZEZjhodi16UkM0Rko4bHVuVlJKd1hDTDlxaDFBajg2dGZMRXFiNkZpVzVRRzJmZEFkNDAxVmx6aE10c0dyS1ZNWVA3X0JveVBQS2FIcWg5MkR4Z2xqcms5cnlSX3E4ZU9hUlBILU8yc3lFZjNQYVNUbmhYYWl2ZUo1LXJOOHhtdzhmbnEtUUpmRHI0YTdkVXVZZExaMVJlOXdBZTB2anR3?oc=5",
+      "source": "Santé sur le Net",
+      "publishedAt": "2026-11-05T15:28:28+00:00"
+    },
+    {
       "title": "« Taxer l'IA est un mauvais remède pour un mal en partie hypothétique »",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQREFncHhPVk9SeEdOTkhvbmxxbnAzRk1yTkQyVHJYQ2hpOFA2YWl3XzM3RmNGbUNObnJmTW9JLXRBNmJNYUlZNjhqZVU0TEhpSzFOOW1LRU9VRW5UZjJRYlEzaTVIdk9wWTBJLThmbHpsQkZrdUEyVGUzZjBmb2Q3a3d1dG9mbm9mN1RFbDhnN2RYR2dQYjFPMXVCbGhQOUY0THd1VDBtdnBhU0RwSEVXdEdnYWx2LUUzT1E?oc=5",
       "source": "Les Echos",
       "publishedAt": "2026-11-05T15:15:25+00:00"
-    },
-    {
-      "title": "Canva en difficulté face à l’IA, plus de 1 200 salariés concernés par une restructuration",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTFNYUmJ0QU5WdGJzbXMzbThlLUhlc094UEJsVERVMDUxS2N6WnlnZ3BOekt3VnhiSkhWbDktY0RDNTRBZUN2RHlJcF9EQUltRFo1RmRNOUhaTkdOZzF4S0NLekRPbzNTZmtBYk9mdHBpTVYzRTNxWmdMX3hVQWVLZEoybjNuc1V3Y2xldk5ueFI2MUp1MjNfZHUzT0VCVDhOak9HUjBOWnZYOWswdGowR0dWTTQxQ2ZIX283RzNiQ0M0dw?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-11-05T15:09:12+00:00"
-    },
-    {
-      "title": "Mistral accélère dans le code généré par IA grâce à une nouvelle acquisition",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaWhMTjdCS2NrVUNzSUlMTHRlSTFYVTdldFZUNmNqcVIxZ2dxY2JuV3Fhd0xLUGVRZUZ0NGJqM01yRHV2Sl9jVEFtWDc0NjZnYzFyVW53QTFxLXFzUzV3VDc0bkI4VmpLeWRaXzRSbXhMcWQwa1lwMmhna2x6aV9iSFpBY2tOY28wUE82Sm05cGplLTVoQmVUT05BZ0ZwVktndXhrS3pHWkd6dVpMY08zNFpyQmhmM3ppMTZIV0x5Qm5GX0dqN3AwcXQ3dkN3aFlRWm9RS1J2OTF6X1RzdXAw?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-05T15:02:56+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : aux Etats-Unis, les jeunes mathématiciens inquiets et démotivés par les progrès de l’IA générative",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNSGhSZXRTdi1lQzAzb2ZZSEhOMHNhMzhvNkJHS05hbGN0aUJZcUhKNnNKdGZMSWtFaDhGa3l4MkVfRzdLMVJ5UzdNR19pSXpLUjlHczJ0VEg3MHMtUDRVdkRkQTdoLUFZcFVfUnpiU1dxdXhqQUNKSnVtNjgwRXB2ZzFScFBNN3FHalF6N2dBRDBmRGlHVDVVX0lPVnhaSkpOUHV3ZU9fTV9vX2VjUFd3WExMT3dCTUdxRG1lRVp1LTJSdzF4V09ZenlXelZ2TnFZTEZhUDhFcWltc2Vpb2JFaDlxWHdOa0dYQm91TE5MTlN0Q3dZaGVLY2lVZU9wUmtXOHJ4WlpCbng2TVJZ?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-11-05T14:36:17+00:00"
-    },
-    {
-      "title": "« Nous ne sommes pas dépendants des entreprises américaines » : une intelligence artificielle « souveraine » créée à Vienne",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORWE0dk5oN0ItZGxXVTVPc21aTHd0QjFPQWM4Wm1EMWFlM0JxbjY5cjV4M0JYY08yX1hsaWl0eGVYb29GbWY3eFZHRWZjX2c2c3RmdzU3bV83cF9zclJVaXJBQng4bUd2R2lqQUttN0N6WVVGeUV1NnI0RWtIazRVcHNxWnFPR0pNMXR4WnZwU25PcWZMNU9jTVZwYnBPWDRNNllkLVhVSDRFTUlkOXItOWVTRXFlbnhZS3ZIaTBFSFZLZExRY0hjbGdHYngyVzFsaGJfOG9zTlZTRkM0ZXZSUm03RndLTUJnZGJ2TEp5UGk2U3luam5LRWs0Y0pmVlc4dHo4?oc=5",
-      "source": "Le Dauphiné Libéré",
-      "publishedAt": "2026-11-05T14:02:34+00:00"
-    },
-    {
-      "title": "Innovation: L’IA plonge les mathématiciens dans une crise existentielle",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVnZxV1BIQnR1MkZ0cFA5b0hacE9QTnFZZi1jNlFMdjAzLTg1TTB1RVQyQ1FobFVRUG5jb2ROUzNBRjYwQ1lyak9waTdOR2dGWm96U2VsQVhFV3h0NFQ3SE5lMEhDbnBVdERmQUR0UGk1djVPQ2owb3A2d0lIQ3pXZEJpUF91eHpPcm4xU25WeWxYQkpwVE5MaGUtX19wVTlzQzFPeEZkdkdSbUx6MHZWM1FaZXFSdw?oc=5",
-      "source": "Bilan",
-      "publishedAt": "2026-11-05T14:00:00+00:00"
-    },
-    {
-      "title": "La tendance de réduction des coûts se durcit, Apple resserre les budgets alloués à l’utilisation de l’IA en interne",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxObjZObkl1djBGdndTQzJuODQ0eS0wOTZPVmJ0OEFHcmlHOEVMd1FHNDc1NjJmQmpVUjlobVBEN3dnTF9MMWJpblVHX1FvaEVaZU5SWVhhaDZILVduNUpCVG05Y1dRaUg3NlYxWUkxNWNLbXlSd1UtRFlGRnpZNlpkWFQ0U0VqSUxBMXdlV3BCWWpKaUlYUWVmZTJXaUFRN0pReWVjdzlZSDVSQnNDdGJhVXphanpmaFB5V1NXWlk1WFdxckhtMk8tNkppNlFreE9ldlFnaUs1WDBLMWl2dDVDQTYxdENZMkpyVmZVSDcwaWRtV0ZqQWgxMVJPVnpiak5IYl9rSFVuQUtEdERmeDFYZDZGRFNLaGEw?oc=5",
-      "source": "L'Usine Digitale",
-      "publishedAt": "2026-11-05T13:55:47+00:00"
-    },
-    {
-      "title": "Netflix déploie une fonction proposant des conseils de visionnages en s’appuyant sur l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOTEF1UGl3Qzg5cTBQdDNUdHdBUHU1YW9TbEdXRUVXdmIxYUc0UFktQUZpeEdQWWhtbVNoRUZXblo5ampPUW95Um1aNmdJOE92bkFHMHBRdmFmT0h0Q0hvNXJkeWNvclh0ZXg0V0E3SUtQY1pwUVM0SkRRYmMyWEp2UlV3MUxDVjhNRGJNVTFDdm1Xd1daOVMtclVHVWJUTEF1My1XZnY1X0lRUmVkRW0tR3RmdHduS0ZXWEVmYjlSd1llaUVla2RDN2d4cjRIa1lWb0pBVUhtSHdGZ19PNndTZ0laMnNyTmNQekhES0kycUlGTEFUUWVyTVJDMlFzTnp2MXVoX2Vjb2xhcjBpaUVQN1pubjVqQnc2NGlFTnJHNEFrUjJZemt3Y01Zbw?oc=5",
-      "source": "Programme TV Ouest-France",
-      "publishedAt": "2026-11-05T13:52:46+00:00"
-    },
-    {
-      "title": "Pangram étend sa technologie de détection de l’IA aux images et aux vidéos",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU0hQREJsNDRpaHBUTHBfZUdPamxfTmNJZ0p2UGR1NWRkaEUyRF9kWGxrNElwaDlUVzRZMDhraXNRRm1mTF9kcG44Y0tRc2o5ZUpHM08zM2xEX2VxTjV3UHZaZXQxUVFPSGdOejFib0F1N1pybmRxaHVHejZsbjVQS1ZWbUJNRnJhc1d2Q1Z5aWNkYzgxMXdvNkgtZlJJckQteGNFZElFYXR4QlZKRzNF?oc=5",
-      "source": "Siècle Digital",
-      "publishedAt": "2026-11-05T13:25:40+00:00"
-    },
-    {
-      "title": "ACTUALITÉS : L’intelligence artificielle au cœur du prochain « rendez-vous du sport »",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX0QxRk1YNU8tZkwxOWp0N1dTZHkzeDQ5RVB3Q29Qalk3ZncyWWxRVnlWd2syYlpMbExJdlhwMXBjTEkzVWVPX2lUMjZ6T2Z4WS1rRmhZZ1JoaXdIUi1MNFdISkpRVWJLQ3JONXo4aXowMjhNTUkwaG9zSF9aWHFfbFN2YmNWUnN2bERWTDFHNjF2V3ZLaVU4NDItMFhRRFF4RUN4VWhKWThua1hLai01QWhVU3BNNjQ?oc=5",
-      "source": "GazetteSports",
-      "publishedAt": "2026-11-05T13:23:11+00:00"
     }
   ]
 }
