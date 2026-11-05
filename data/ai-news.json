@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-11-05T01:51:34.568398+00:00",
+  "updatedAt": "2026-11-05T08:38:50.084319+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA et handicap : une véritable révolution ?",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc3BvMWlGaVk4ZE5USUIyZ3poWm9XdG1hU2MwYnRadHFicF9HSVdtX3dkWmRBTnpwUWdzYzRKTng0dUtmX0Q2dGw4TWgxbWJDMnp2TEE5ZjdCbXlweTZ3R29MMXpTLXgwM0tfbmhhT3NCUUREdHNmNTdta0kzQXlOUWJuSWRNdW5KSU5EVzRpNDctWGZBSHlLTTh1ZkQtNkJ2cHdHWDRVV3ZDLUZBQms5S1BOZVZMTGVyWWc?oc=5",
+      "source": "Lorient Agglomération",
+      "publishedAt": "2026-11-05T08:13:31+00:00"
+    },
+    {
+      "title": "Face à l'IA, la peur primitive",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY0RLZW5ENHNvZ3hMdjhXM3Y0Ny1MS1pWWno3dU14eXpYZXNTajYzc24zY1FFUUZJYU5zdE5FbkVjRUZNNTdmUU1DVXM5ZVpPV0dGOG5KQm11amtyTWpLTE1fSDM0ODNpaTlqcW0tVEExNExpaEFCNnE0STVJR3lvcktfWFRNSFp6WFlLTDVUbXFUUTA?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-05T07:35:08+00:00"
+    },
+    {
+      "title": "La peur du «youhua» : en Chine, les travailleurs à l’épreuve de l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQejZ6SnZObDJ6MnpnWjlmNk5FcTZGU3dhajlTNndYMmU4eFAtOWh5SDBzUjYwRmZIY0thQ3FDMmZyWHdXNmdURGNTSHh0S3FQd0NXaUhqTVlEdFg5MG9Sck0xbTNfaGVpM0JYSl9HMHJtdU9DZFRWb25vaXpCYzRjeXVRcnpXeXN4aEw0T2w3X2pNSFMtV2pMU2RjZHlNczJOQk9WYU05ZkFMa1h0clhRbWFkUllFQWxpOXk4M3RzSDU0QUlRbURoY3VnVUlnekFhYWZYei1TMlpDX0syZFMzNGVmV3kyeFFILWtPOXZ2YWtaVUFLSzA0VEhfa0pxbnBfODNfb3l3?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-05T06:07:36+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle provoque-t-elle la bêtise naturelle ?",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQzhralJ3RVhWb2ZtTFE2dHMwT09iRGYtc3Y5bWhHdS1meHUzOW9YZEstRzVKQlNwT2FVSm1JU0RBUVpycDNKV1BBalE4N2dUb29pLUZ4M2JoNkdzbkFYVmFjX1NJSkhLbFFvR1hWMFpZX3Q2U1FudmlvLUpwMlpMY3RnUzg5eGR0aUh4VjZzVDlFSHhHOWxYSGpjam9nX1VHQzBBeHQydlBvcm5SeWM2TXVtZ0pBYVFnUllwUG5HNmx5aGtLN2dENGpYdW5IMk15RXZxYmRacw?oc=5",
+      "source": "www.republikgroup.com",
+      "publishedAt": "2026-11-05T05:10:29+00:00"
+    },
+    {
+      "title": "Outils d’IA en médecine : «Il y a le fantasme de remplir des objectifs jusque-là hors de portée",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSnB2MmZuNl9maUhuenI2TEdUVTViVHpQLVEtNWJJc0Rpc0hzdEM5YU9VeVdla3ZGZFY4WW9rd2otamxEQVZKN2lockhQazJFV3hXT3JyU3RUOGk5X295MGVaTmtzOExEZFhpbXh4RC1OVlI4bmd4ZkJPLVFvclM5NHFNOEt3cl9LcXRNaDBkd0h1d09ZSXBENFFSdkduVHRRQWk2UUNZd2p1ME5aY1czcGRVQ2JtSUpQdEgxNFBYZEdTSGdZbkFKSldaTE9BY1gzU2d5X3lDNnpNUUFzSEFlSFQtSWpUZXlRWm15ZmN3eGdfeENxTFRaZHR1dW0?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-05T05:06:00+00:00"
+    },
+    {
+      "title": "Aéronautique, spatial : développement, décarbonation, « l’intelligence artificielle est un accélérateur »",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSzZOVWU0dEVlbnV5b0MwNlFjVk1BbDkwYlVqLUJtVEpJQWVSRzRtRHotNi1ZOXlvZDk1b24xOTE2TFllTVhmSF96bXZpS0hhZzJCclF2RTZCQUpCanR6cUNldXNwbEJtSHVmYTJZUnNPNUE5WFdCYmpuR3hjM2lBYk00UXRqZGd6U2Z3LVI0cmNOM3gtbGptajFlVFFZdmNNN2U1OVVJaFZDTFFCT21STkZmX2J3MnBISkR4bk9tWURKblB0RV9VOXQ1NEgtb2tjZGFvaXJhelhSd2Q5TWszRERnaw?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-05T05:00:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : non, un lion n'a pas sauvé un enfant d'une hyène",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaEwzSUF1THhqdlRmLWZIUWluMWZSc09ZV0MwZnJ6WS1HVlZXMTJpcVl2bElRS2k5RmtWZ2Q5Mng1SE9adDNUWVlqcXpiQWRtMG0xRWhpdDVlbjhodmFJVVJsdVRsTzZoQzh3RDlicUdVNkxYaGxOWEpfWmhIQjMyYkRWX1E5TlJwQTRaeDQzdU5DMWk1aUZOMjMxZWU4cHBMYU1HbUM1dUlFS1FIM2Rmek9sWTVxdnoxTk9lM1BVS1ZCMW8?oc=5",
+      "source": "ici.fr",
+      "publishedAt": "2026-11-05T04:41:00+00:00"
+    },
     {
       "title": "INTELLIGENCE ARTIFICIELLE-À l'occasion des référendums organisés lors des élections de mi-mandat, les électeur",
       "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOT2pwMVNFc0lnR0JrWE52enBXSjFDQktEdEdBdTJXYXFaR08ta3o4SUhERndLMWxTT2xZcTlhcVdER1R0X3dOdnpDNlFZT2FXMEktWWtNVEYzQm1YYmFzX25iU1NnQldDbkRHYllER040enlQR2Q1M3hRdEkyZmo4MGRwMFNMQVhmQTA0RDlVYUpQNjVkckNuanRlTlhadkJLSEtFSnVSMXVfM2U5amdMalg3bTFtQmZwZWFEWW9MVzRmSmhoN0hPdjZFZktsTklIWTJrd0FMRnhhMFJPOFBQblVxQ1I4WnFzZDZpb1hoQmkzV1pReEF3cHp2Yzh4WGUybG04UjFyTE9pa1Y1TFJQY3R1b2ZPMmctSVNVbF9vcUtPdTdpaDNZX0VuaUxEbkotalBoQTV2b2pzTDNPNndxTTlNVW51RnpZYnpCSjY0WjLSAdYCQVVfeXFMTWNPYm8tXzRBOGpReGRZcVVuM0xneUZGWUpNX1pSSXdkTF9rajdJU3NBQnlOaHdLRkVuaXJiajZtVDRZaWcyTlFrSDdENHk4eFJPSVA4bUdmUDZRVjh0Sm1kT2lJSFhpUDd3Wnk0MTFqdVVrZnpUM1BCeVZkMWgzYVBuLUktLVRzYTl1bFh4aHRoOExETkFSbldvblRxVFQxUkZsMG0xTzljQlFfVTZ3Yy1uaHZiOWJDTTdsMnN0OHpkdU91c1FhZGRFOGtDSXlpOWtVRFowLTBkS1dLSEIyb0RwRENBQlc1WWFCdDdQNEZRX1dyNDJQam4waTV3NENVcXdGekpUVGVrbjhzU1lzUXp2dWxZMDlQNzIxLW9Ua2wzM2xxMldwSDIwTHRJNGduYURsZzd0U0YxMGlxWDdyV0F3ZGprWmhfRlJDVUNxQlR2WnFxY0x3?oc=5",
@@ -21,58 +63,16 @@
       "publishedAt": "2026-11-04T20:50:00+00:00"
     },
     {
+      "title": "Apple réduit les budgets d'utilisation de l'IA de ses salariés pour contenir ses coûts...",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQczJ4d1hQaEVLYzE1TDBSVFN4YkU4X1EtMUl3Q2NNOXRUTEdISkFoYmJuc0FlS1NrV08zYUNtdnhwcXFIZjR4NDN3czdKOTZuMld6STg2X1hwMURtczRMRHpYcEpGUllabGxfb0R6bkhLTUxGTVFYWXhvMHhfU0NPbHViVlY0SEQzOGNoMFhhTUNnR1JCR0Z1cmcybEt3em9KN1RKNDRoRGM3X0tzQ3ZTR285ZlEtbWIzOThlQnZCZkJ3cmVIQUxOYlVXREPSAdIBQVVfeXFMTlQxTTNHMHNidjQzOHlkamZOMVJZU0pXRXhZVXRPQkI4QUVjYmJESERkYjFMbm02WDZBUXlpel9hMjV6TVpuTnhzSndPZlB0WWZ1emRvaGhvYmVvNTdEQlF5bW1SR3RiTTNrWmZtQi1hbEh5Q3JKMnMyMTRGcGJXWmlGb1U0X1pWX2xESml4Y1BsSTNsTFVDa0F5XzlBZnlfQTdLZW5wOFRZRW9mMkF3MWw5SWtueVlzLXBKNFJTOFFHeG9MVkJhQU01N25aZ3N1U293?oc=5",
+      "source": "Fortuneo",
+      "publishedAt": "2026-11-04T20:49:00+00:00"
+    },
+    {
       "title": "Le sujet du prochain film d'Albert Dupontel va beaucoup faire parler, mais il rassure tout le monde",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPejJfa1lpY2g0U1NmalF4UWRBY1E5VnV3OGlWOVJvRzhRU1lNNnNILTFNZHd3TEJITnREOUlFQ0tDZldjVV9NYThRZFFET3FzRmphLXJjT0ZSNzc0LUJwdmsxeHp3RnpkOGtsSTNqdW9lR25IWHQzMzlEbG5NRVl4Z2FOaHlHTnpUaF9SVQ?oc=5",
       "source": "Ecran Large",
       "publishedAt": "2026-11-04T20:45:00+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle inquiète désormais plus les experts que le climat",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2pnemZFaEpJd2k5MklvUmdEVlotcmFXM3poUXY2Yld1MDUxYUtzZ20zWmt6Tld3a2dYc1JZSWJWMVRHNTlwUHFFNk1PXzlDcnpxelIyelZpN2hiSkh3aW84eU1MUldMS0s5VjVFR29sMXF2WHE4NVZVUzFLd0sxR0k2d1gzdWtTUFJjS3A5LWwxSTE1dHV6UDlFX0o2c1NsOXhzMlBUZXdTMUJqVVhEdnFn?oc=5",
-      "source": "lejdd.fr",
-      "publishedAt": "2026-11-04T18:39:47+00:00"
-    },
-    {
-      "title": "Complotisme : l’intelligence artificielle peut-elle nous faire changer d’avis ?",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcFkwQ0lkaVBQS2hQdjI5UTRoT3E0bGJhMEpiTkZIYUV3a1BjS25ndlpKYzV1Rl9YRDQ4ZEtnUFZZd3hqUDZMenhtS2tvaTZIRURscU85SEEzRy1VTnktc0lrMXhtR0tjR1hMejJIYjRkZ0ZNMmFkV3hzX1AtVUc3NUU1cVZXMk05U3B6WXAwbjdPQVh5blN6NTZSN0FQUC1JT2hiUk1mc1RfQ05fcVhhcjlwR0kxSzdkZGFyWE1rc0YtLXVEU3lEZkdB?oc=5",
-      "source": "Regards protestants",
-      "publishedAt": "2026-11-04T18:28:52+00:00"
-    },
-    {
-      "title": "Pac-Man géants, intelligence artificielle et œuvres monumentales : à Lyon, la Fête des lumières tente de conjurer le désenchantement",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNeEk2T0UxTUZNQVRiUXRLNW5mSXp6cnlRdzZTVWJUQ3BjV1UxTzU5ZHZLTVRSaFRZdi0ybTN5TjQtR1ZremlwR3dFYTQ2RkRSTVFHWnBqaEJrYWtSWlFUeThpQ193cjN3Z1lHaFNWcHlLMmx6V08wc1ZlT1UtZmxiRW1PUUR6QTJ2OGxNSkNfYU5jWUpFMTdvXzFEbk92eDF4bTNicVFFX3czSk9mV1Q0MGV2Z2YxYm5MTnJoYTFPeVRpM0toS1I2M1JSR0I5RWxSZl9XUzVCeVlXaGdBbktZaERKLVRTc09EMmlYZWdvVnkwcDN5VkVqVDRsWQ?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-11-04T18:21:06+00:00"
-    },
-    {
-      "title": "Écrivains : allons-nous tous disparaître ?",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaHNfeEl0STU4VkRDdFZkWHpGM2xUMlpRcXh4TjNXT2xqU1M3SGxuU3gwRDAwUzhOMVhpY2paTU5WU3BlNEJDU3VIQW01SFBTUmxEZVM5MlJLRlphcGNBZjM3Ykw0RWozQllJT0VsV1VCb3lmbWF1VGxUd0VEeU1SN3BJZkhUTTYzWjkwU25taDdPNXk0TjVWQk1YLWZhSGY1R1MtdWZKTFVYeXR1aDJwWFpZdkNhV0ZURXFEeGMxZ1B1Z01DUnlhdHNuUmg?oc=5",
-      "source": "Le Point",
-      "publishedAt": "2026-11-04T17:30:00+00:00"
-    },
-    {
-      "title": "Une discussion \"nécessaire sur les opportunités offertes par l'IA\" et sur son effet transformateur: les dirigeants de l'UE et des grandes figures de l'IA vont se réunir à Dublin pour un nouveau sommet",
-      "url": "https://news.google.com/rss/articles/CBMihgNBVV95cUxORW1sUkZkQk0yZUNwbHJGblJxbUFDYThZNWlRZUU1cElhd01PbU9mZFdBak9GWTlWZHE2T3ZMR0o2cWp3SXZ4cldjSWFCcTNNd19wd292eFJqcjU4Um1ZT2pXVUV3RTJZamJNQ2dmT1dveFpIenhiLTBsZkdKMURPcndDSkY1QmNVWDJqdUp1bm5VbWNzVkpjZFg4OXhyQUMtSHh0WXQ5OVdjbHpRR0c1WFBLQnZobWRESmJ0alFBWXpINnlzamZvUzBLRzE4Ymx0V0liZFVCM3REUFlRd3gzV3dnaWlOV2FHeUxsckJhOS01QXVkdHN3VHhRMWt4QWpldHF3UTNmd3Q5R1M1VFQ4SkxGUEJYdlVMZWxVZXV6TXFYV1VFOGoycW5DVjJ5Um5Fanhpdm54elg2aVpfLXo0UjJhSUE1Q3hNTVk3QmNFaW1zTzA5NjE3aTczUG1tVEUzZXJIOHRmQXFuZno3c1FDWjlmUU5UQzdNcHRqaGVFOEk5U01aamc?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-04T17:18:50+00:00"
-    },
-    {
-      "title": "Le Japon veut obtenir des entreprises américaines d’intelligence artificielle (IA) des données sur les vulnérabilités logicielles, rapporte Nikkei",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbFBSZnF0ZWphM1EwU3ZKSXpqV0YtNzVVWHdWLUliVmV4RGxJM3oxOUlMR25KbWljQVB5XzhRdFI2cldDa1VHT2dQNEVBc3VMRm4wVl9sOUozZGFHOUp1NDN2Wi01Nl9BblB6QUVzS29sZHliUTIzOHJaQlViVk1sQlpVZWdXbHJhTEx6cmgtSmhlUWRDMjg3MEtEcEJGM28wNHZweEdMMTdGN0xOajJoS0tOOEVYVXBmcDItajB4Z3dUMndNbFRqMHNjbGViUVVZaWV1c3pnTWhNVlNwMlE2QlFyVkNuS0EtYnNPR2R3?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-04T17:04:22+00:00"
-    },
-    {
-      "title": "L’IA a-t-elle raccourci nos journées de travail ? Ce que cette étude révèle va vous surprendre",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT0tFT0NISElMUDljazRQR2dwa0FxdXFHNlNrdExaN3QzN3VybGhGd21GcExwVGh0QTg0M25CajhKSHBsMDlUQU9rTHZMTFIxdGdIWWhSMmFQd04waWlBZFlqbjlleDhlWTVPc1lROE1fWHhmRnJ3eGlxZDVlZURub2Q1MjItN2dIT2pyNGVzbVlLQUdfZEJzbktNWGViUzZkWnlUcjM0SDNvX0FqMHdNQ3B1Z2dEeUlsWlFyWmpDVjNsNDZaMm1OdDFBMDZ0Zw?oc=5",
-      "source": "Journal du Geek",
-      "publishedAt": "2026-11-04T16:31:12+00:00"
-    },
-    {
-      "title": "Le boom de l’intelligence artificielle (IA) détourne l’approvisionnement en puces d’autres marchés finaux, selon le directeur général de Siltronic",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdGNwZTk2UW80LXpsZmRrdkJjUHNyMUYxSkRHSWRVdlhHZTh4STBwSUdSaVNBWFZ3eUk1dzdaZm03cnpSN1B6SzEwb2RvODh4RzlKd3pTWk1iRV9ua2RCMVc1a2dLZTk2azZIZGRtZ0M5U0dTSXdnN0JvV0daQkkwU2poQzdlVGlZeC1yaW5VZHlFT1JKcU90bnVaRzVmZHVRRHRBd2xRWEwzbG5haFdncXpaRzA0XzcydkNGdFFybVh1M1ZnejlwN21Jb3paS2w5V1J2RENjOVZURXJKeFhldWJTZE9nUE5LZkZZ?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-04T16:09:01+00:00"
     }
   ]
 }
