@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:50:18.691Z",
+  "updated_at": "2026-11-05T01:51:33.779Z",
   "source": "HAROPA",
   "source_endpoint": "ponts",
   "stale": false,
@@ -7,7 +7,7 @@
     {
       "id": "pont_rouge",
       "name": "Pont Rouge",
-      "status": "opening",
+      "status": "open",
       "latitude": 49.48786616400208,
       "longitude": 0.18626335038474393
     },
