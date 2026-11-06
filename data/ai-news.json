@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-06T17:08:15.349303+00:00",
+  "updatedAt": "2026-11-06T22:05:18.837313+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Les geeks de l’Intelligence artificielle ont-ils vu trop de films de science-fiction ?",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHU0OUpGNzM4bGNpTWhlQkktNjNmcGRrQVpiRWRCU2ZkNFB0YTNiZlZ2SzhhU3h5YnFFUm5Cb29RTm1hUXp1Vy1pNWJHS0ZRTm9fMEZXR1dLSmtlM0ExdVM2ZWZ2aWZEcS1FT2dfeUt6d0x4Y1ktT1lmVEwyRW55NXdwRnVFdVIyWE41MFNlZnhNUXlBOEVHdTRZSFJTOWlUdnplcjNPUy1fLXNEbUE5ZEVpS2YwcnBybGpzLVFwZ2plWTd2Z2ctQjZCWXNwSTdoVGViZg?oc=5",
+      "source": "Télérama",
+      "publishedAt": "2026-11-06T20:35:32+00:00"
+    },
+    {
+      "title": "Bulle de l’IA : les marchés sur la corde raide",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE9iUlpROEN1NjRqcnM3enpiTHBfYmFCclJ0bzRhd2F1YWkxVjJDUlJzTV9XbF9oQmJPbjNFaGNQRk01Vi14R0EtN2Y0UUFGYzRvLUV0cnl3N2x1WTJOYXlaUFNfRE9iVk1WUFlUTGNPSDVEM0pvNURUa1pFUDFNaUN4dGdxa3FhQVVDaWZKLTRwUDlxVms3RHhIV0t6b2wzVnF5X29n?oc=5",
+      "source": "Mediapart",
+      "publishedAt": "2026-11-06T20:27:11+00:00"
+    },
+    {
+      "title": "À Wall Street, les inquiétudes autour de l’IA menacent « l’introduction en Bourse du siècle » d’Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMnRqUXhEczV5OVppd0oyd2UzSzhsNHphQUd3MlZjMDJIcUliZkJTUlgzUXNxYmFBY2NKVmxrd3lYTF9Cc1BGZklSSG01eHh6X0xTY2JodlpFeGFIUUlMNmNseHh2V0hyQ0swRUdQb0xwOFB1dFJtaHVvUXlhUDZHRkN6VVpydkk0OE04dmQzVEZfNkRHSFk4T2doeWRTR3o5WWlGUy0xZDNpUU42TTBoRDQ5ZC1YaWlWU0pqcUMtQVR6eU15UXFBb3ZVeUJzUjVJV1A5cEctVnZfWjdzSzM3cWc2TFZEdw?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-11-06T19:43:00+00:00"
+    },
+    {
+      "title": "Marché des caméras à intelligence artificielle (IA) : prévisions 2035, l'automatisation industrielle et l'analytique retail accélèrent la croissance - Actualités et statistiques",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdFVuaGtzME13XzcxX0NPbzltR3ZwQnFtUXBtTzJ2Rm1xWjhFTUc0enNyaVRXWkdrMmRDM2NDMDJLRHJ0NHBSVDZCbnc1M2xVTlVIaEJTVmF4bkxPeGktMFhtdjdGUnQtdEZzcjBlNEJydF9VcnFOdWVmVFk4S2pqaE0zWnVxdmc5bk40MzNQTEpkS1JNQjBtS3FwYXFRa3VmTWRGX0g2ZGRHN1ZfLTREb2dEaElSNGEzRE1hMGMwa2lhT1V5ZXZjaGQ1R2NqZEVHcVBWLWRVRERuQmxGdnFsWXRGT2lGT01ZTXUybS1DWVRpUWs?oc=5",
+      "source": "IndexBox",
+      "publishedAt": "2026-11-06T18:21:04+00:00"
+    },
+    {
+      "title": "L'intelligence artificielle à l'épreuve de l'élection présidentielle de 2027",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUHg1RXhMNDJDaGdpV3Q2Vmo3eFBpWnFHYzRsbGJQbl9DZ2c3eVhjb3prVG11VTI3bmFFNFhwS2pUNUV0TGdUTFVyTU5PcEpXVFU4UGVNUG91QnB2WXpheGo4dFZ3VFpERFZJcVZiLU55Sl9ZX1RsRHhOYUxwNFRWV2VMZXRocWU1czRhWnZvZWFLSTVMeEpubTl6cnhLeE1DajlKVGFGQklkMjJYSklZb3ZBV2xyOEc5NzVlc3NmTlh5VGc?oc=5",
+      "source": "Sciences Po",
+      "publishedAt": "2026-11-06T18:18:22+00:00"
+    },
+    {
+      "title": "Rencontres de l’avenir - l’intelligence artificielle transforme-t-elle les métiers ?",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOc25HeHdzT3NaeG9IV1ZaWU9LODVDREhfT2dib1MzZXp4bnBsWDhjV2xQaHBtcDRFN1Y0RnpjM2RRdC1XRUVMb3REZXZ1NnNGMXB3dTJLekNQNVdxZWl4Z3BqUTNQa1FrclB3VmRjSWdCUkJNOWpkWGpuOHVzWHpDR3VRRk9hQy1wLWd6dnRsZzdicHd0bHI5TlNPX3hUb1dZcU1JRmkwVE4ydTVoZ0hoMXUyMy1KN1JBMzBkcjBZLWw1NGVHcU9IT0ptbTBzSGJGX2FrY25xZWwtY3Rzb1hsTVp0UmxZejVMLVNrdWNYT0wyek9uLVVBUmw5REJXMnBERFVCdmJlR01GZw?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-06T18:16:12+00:00"
+    },
+    {
+      "title": "De quelle manière l’intelligence artificielle transforme-t-elle les métiers ?",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbEVrNDJrOG45Q3h5ZWMxVml2cVA0aHJoQnlIaHNjdjk2NFhFTHRQdkdzUzBadFAzLVF3aGtPNG1xTERyZk0xdzg1SHl3SGpxNW1wbWlKaUp5aTdFZU9WTTVFZ2NuRHQzdVF4d2lFellHLWNqanlzTE5VdEFscEtIMjVLXzB5ckFBOHQ2blliWnY2RmZkX0d1NUdfODhFV0diVnpJQzRjQ25HRVdmOGl3LTk5eG5pdEhKYzR6b19oR0FPckJZMWRCYzBpSE93UkVsOXJVN091NDdrRFN6R3VHSGJVVmdHckd4VkRBSnNPdHRCM1dKTHhwVHJoLXVjcTJ5SkU4?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-06T18:12:39+00:00"
+    },
+    {
+      "title": "IA : Impact sur les Marchés Boursiers",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFlQbG9mWGFYMmVaUUJycURmUXRZZkdWRnRJU1dHUmxVY2owS0taU2pib3lIUnFnZXBDblJxNENtT2ZBNEliQUhLX1FKd2VlSHV6cFAtbzJrZ05fU0RkYi1rVlpUamdOM2h5anA0STFmUi1mdWd2VUtFOTI5WXNZSjYzWUp4VVRXXzd4TENMNFVBWG1oOE9qR3JBTUR3MTlaOFlZQXBOTGZEUQ?oc=5",
+      "source": "Le Revenu",
+      "publishedAt": "2026-11-06T17:11:00+00:00"
+    },
     {
       "title": "OpenAI reste engagée à investir dans les infrastructures d’intelligence artificielle (IA) malgré les résultats de l’élection, rapporte CNBC",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc1dvU3dPYUF4RUc4X21hcGhDam9aYkdGeFhCdzU5VkFSRWwtWHF5U1dRUEhBb3prQUpCczJVVlFRVXJSelVra1dBQXZEc2p2U0FfcVlXSXpLQXBEV3VZVTFZcW5Mb3lZdHpjVUI2V3JQNE1ZZEdWa0UzeG1sVGF0Y2ZtTFlQNTQxZUtxWU8xSG0tN0pETTlfMXpuMU1RNjQtZXVCeFB0akpPQUZDdTFQalc5Y2IzTXJoVFN4ZzhDVG8zY2d6dlpzMDJlRzZadUM2eldmdERXWDJkUzNLYmlKYlpsWlRDNFI0TURaY2Fn?oc=5",
@@ -15,12 +63,6 @@
       "publishedAt": "2026-11-06T16:29:23+00:00"
     },
     {
-      "title": "Les geeks de l’Intelligence artificielle ont-ils vu trop de films de science-fiction ?",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHU0OUpGNzM4bGNpTWhlQkktNjNmcGRrQVpiRWRCU2ZkNFB0YTNiZlZ2SzhhU3h5YnFFUm5Cb29RTm1hUXp1Vy1pNWJHS0ZRTm9fMEZXR1dLSmtlM0ExdVM2ZWZ2aWZEcS1FT2dfeUt6d0x4Y1ktT1lmVEwyRW55NXdwRnVFdVIyWE41MFNlZnhNUXlBOEVHdTRZSFJTOWlUdnplcjNPUy1fLXNEbUE5ZEVpS2YwcnBybGpzLVFwZ2plWTd2Z2ctQjZCWXNwSTdoVGViZg?oc=5",
-      "source": "Télérama",
-      "publishedAt": "2026-11-06T16:05:32+00:00"
-    },
-    {
       "title": "VIDÉO. L'entreprise de collecte de déchets Veolia met l’intelligence artificielle dans ses camions-bennes",
       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMTNtVE5SUExTVGVoeTRfYUNhSjlzODJORlF0LVlJRDJ0SmsxWTZ0NjZESldFZTY3SndLMGg1ZFA4TUtpblZySzZHM2JtRGgxNEhaYU5NRjh4UEJ2ajFkb3NWeFJWSTNsYXlVQzV2azlQTmVCanJxallaWEl3TGZVV21sS3RJYWxhMjEwd0NDeXIxYndoTjk4c1hsX3VRY1VmODM4V0dkTWRZRDZoMVBNSmJSZ2pUZUJac0ktYzVBNmxKS1laWk56Mk5TM0ZRZnZnUjJ0Qmp6U2NZaDdGSXR1SnBJeklsd2xaakRJVGxndVBxVHREdVVpdTBfbU9vZ0pfVmlkOTFHZWlreTh5SlMxV3R2NVZ0ZjdFc1hqcDBZd2s1OU5R?oc=5",
       "source": "Ouest-France",
@@ -31,48 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRVEyOFQ3RWIydG5zYmFwcEozM1gwYTMydUVSTm5zaVhIU1NISzlyUTNNN3JidzVYZVRjek1CRk84Rl9mcWdrSjBoU1E5aHYwTWFNRldENW92SGlrdVRNckN3Zk5ocGpTdU5kN05oV21SQ1J1bW9LUTlMZlJLOUxEMThJV19GRGhZUGM3YkxmLVRpMEtxM0w1anp6THVpbUpqTGg2aFN3TF9NWENTQmxiS29n?oc=5",
       "source": "Dentaire365",
       "publishedAt": "2026-11-06T15:55:56+00:00"
-    },
-    {
-      "title": "Fortifier \"l'homme intérieur\" à l'ère de l'intelligence artificielle : les défis éducatifs selon le P. Magnin",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPV0VVWFY0UnNodjFEbU1nV1U0Tzk0Z1pPT1AtZGVVck1XN2FONjNBSER5bXZfbmxLUG1iVFp4VU5OSHBpdTI3X0xVSG52NHcwZEFmNjd0NGNMWk02MXUwV2UzRzlfdW9KNXd4Y3ZuS1dPSWFQQXAxSG5wcjhYMEpuNW9jRENxeU1KQXhNLUVUcEktaExSQVU2eTlwenBPOTZvT0RjQk5GMzhudnRhTGl3RlBoaDhVMVVOMTNueDliQlVCNDRTSkpiYmY4TGM1ODJ5QTJfS01wc3EySm5DaV9DQm1ILVo1dWd0RXJMMklDOGNKZ3gydy1SSm5taDFNdTVmNGw5MTkxVDhSTnZ3Nk56TFp3bVc5T2loSE52cQ?oc=5",
-      "source": "Église catholique en France",
-      "publishedAt": "2026-11-06T15:46:36+00:00"
-    },
-    {
-      "title": "IA : l’usage abusif de l’intelligence artificielle peut mener à une amende pour recours abusif",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTkxnVllxTHZLR1hldG9GZGEzZWdJOUtOTmFVUmFPNTc4b3FUejNDMWMzRGdqdW15SmFwOGtyUUNoUFJhODdHdm91ZU1NMWUtX0xHQkZTbkg2dXEyb01CdE1tWXowb2pnUWZBb294ZDVTYWRfZ1RmVTlvZzVrNXFQYmtzdFd4eHVfU2NjSTBfeVdyaTBmdGc?oc=5",
-      "source": "eurojuris france",
-      "publishedAt": "2026-11-06T15:01:10+00:00"
-    },
-    {
-      "title": "La bulle de l’IA est-elle vraiment en train d’éclater ?",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV2N0NGlja1V4SU55SXNpRVJKaDhhejZNZFhfS09XUnB1eDlINnE4a2pKSlhXVUdMUXZoSzJXY0paUlp4RWZmUWZRUHJpdGVDY2hBS3prVTJKYWpNN1Z5VHdTRkhSYzQ5N0ZOemlZclVxR3RBNXkzYV9kUzV3TWFQQWljcldlRzljVnJ4cWM5eEtOU014ZFdXTlB3?oc=5",
-      "source": "Le Grand Continent",
-      "publishedAt": "2026-11-06T14:49:44+00:00"
-    },
-    {
-      "title": "Souveraineté et emplois : quelle est la feuille de route du gouvernement en matière d’intelligence artificielle ?",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZmF0NUo4MkVoWGg1SjA4TkRZOHZSZUtSVVh1Y0VSUk1wQTgxeDRrZlRDOE1Mel9ZS2gwR0M4NWgyZ0ppMU9UV042eEVKd1FUZGdzaU83azBSdmNLVnB6YV9ZSTcxckxfenhwYllTa3JJV0tsYUtFOG9KaW9SdHJMOENMMjh5a19fTXBHU3VKS3ZmdG1fOHZlNkhpMVFObG5sUUgyaTl2Zk16WkpHVGlIa0ZSd2RFRWszdHJjNUJLaENSbHRHbG9hbFdNUGVHRVV5eVBrMXZvQ1BfbUswWDFQR0JNNEdpdWZzb1JWOA?oc=5",
-      "source": "Public Sénat",
-      "publishedAt": "2026-11-06T14:43:25+00:00"
-    },
-    {
-      "title": "Travail, IA et avenir de l'industrie : suivez en direct les Rencontres de l'Avenir à Saint-Raphaël",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTWQ1RnV1YXVZNG1QVlJLTHEyR19kUnhybXpSNnNacUt5S1RZVFVIUXptTnIwM08yamNzX3BCNjVCcU8wcHVNRlc1MDdGenZnNGdwM3lRUVdrNy1ndDExaVNvNUFQQTJZMVdjOHhfMzc0aFhmN2p5am5xQUpnS3JDOENYRmpPQ1NYel9CcUkzUVJjeXd0VkQwc3hvNnR3NWxlb3IydHRfQ1J6RU9YcUFLQnRFQkMyOURYbE9iczY5SUVpV3Z2SS1NRDRHWW5sdE52Snh1cmhoeU9RUEJrMTFtN2gwaw?oc=5",
-      "source": "La Tribune",
-      "publishedAt": "2026-11-06T14:35:29+00:00"
-    },
-    {
-      "title": "« Faut qu’on parle » : l’IA a-t-elle sa place à l’école ? Participez au débat",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQbUJlWGR3eExmMjdLajlJZFhXX2ZqVWF5bkF2a1JDMWVHdXhUQkhra3h6bFpsRk14MkRaclNEeE1BQ29sNnpTV1NSQnF2ZW5NdS1hdVBxbGZPWGhBMGlWMzE5LWlKSXZSVlZlNGNLZzVDZjVES2k3V1p0MnFsRHh5T0s2VklIazNoN2w2RDZTa3VMTUIyeTdvMFA1LXNoc2R2WktSTFE5cWZjdDJpbDNiOGZDN0tpaFRLRXN0Qnh1N29zRFh3NkZUaDdJNzVGbUZtQXZWdlFzX3ZMd1JJZlpFcXNHOFBEU05tUWZrOFNEWHJEMWZJYUhoSmRNUQ?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-06T14:01:21+00:00"
-    },
-    {
-      "title": "IA : 85 % des avocats l’utilisent, mais la moitié n’en informe jamais ses clients",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN0hlRWxyWW9tdzRNeVJJSUljajQ4a3pZYXFoek1pSU1PMVJVNmNRQ0w0QXpGV2xpVGs3bG1VcUlfZUJqaUlmOW9Ba3JmNEtfRTdOQXNOWkpNNHI2S0FFN09sT3pEWWJKeUkzLWtKeEFFQjJRY0VIWUYxVFBudk5RZkwxM0VLa3A2aFFxTmJVR09ONXRsd3E3VzRsSnB2ZldHTW10MVpKRVN2TFBud0V6RFM4Sm9YdlJES2F6SkhSVkNPdHBuTTRDeGFpcnZvVnBaNWh3X2VXd1VCUXhGdEROaEZaUE4?oc=5",
-      "source": "Le Monde du Droit",
-      "publishedAt": "2026-11-06T14:00:42+00:00"
     }
   ]
 }
