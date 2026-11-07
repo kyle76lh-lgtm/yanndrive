@@ -1,18 +1,24 @@
 {
-  "updatedAt": "2026-11-06T22:05:18.837313+00:00",
+  "updatedAt": "2026-11-07T01:51:19.937768+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle : Wall Street sait que la régulation est un risque",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGljY3RBY2NYTzVMRlFjZ0l5U19GaDhZb3J4b19oWEQ3d1daZXBzX040bXVpOERVWVZmTzFyaVpxVE5Qem1PeTBQOG93ZXhhb0hKRnRUMzhWb00wc3NZS0pudExKWGF0cno0Y1ZfZ0ZVS2tnQnIxQmhDUXU1RDFta04tODVSSW1DZk83LWZ3NkRoNlVwd0FSTU5LdWFWU1RxT3c?oc=5",
+      "source": "Contrepoints",
+      "publishedAt": "2026-11-06T22:11:30+00:00"
+    },
     {
       "title": "Les geeks de l’Intelligence artificielle ont-ils vu trop de films de science-fiction ?",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHU0OUpGNzM4bGNpTWhlQkktNjNmcGRrQVpiRWRCU2ZkNFB0YTNiZlZ2SzhhU3h5YnFFUm5Cb29RTm1hUXp1Vy1pNWJHS0ZRTm9fMEZXR1dLSmtlM0ExdVM2ZWZ2aWZEcS1FT2dfeUt6d0x4Y1ktT1lmVEwyRW55NXdwRnVFdVIyWE41MFNlZnhNUXlBOEVHdTRZSFJTOWlUdnplcjNPUy1fLXNEbUE5ZEVpS2YwcnBybGpzLVFwZ2plWTd2Z2ctQjZCWXNwSTdoVGViZg?oc=5",
       "source": "Télérama",
-      "publishedAt": "2026-11-06T20:35:32+00:00"
+      "publishedAt": "2026-11-06T22:05:32+00:00"
     },
     {
-      "title": "Bulle de l’IA : les marchés sur la corde raide",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZE9iUlpROEN1NjRqcnM3enpiTHBfYmFCclJ0bzRhd2F1YWkxVjJDUlJzTV9XbF9oQmJPbjNFaGNQRk01Vi14R0EtN2Y0UUFGYzRvLUV0cnl3N2x1WTJOYXlaUFNfRE9iVk1WUFlUTGNPSDVEM0pvNURUa1pFUDFNaUN4dGdxa3FhQVVDaWZKLTRwUDlxVms3RHhIV0t6b2wzVnF5X29n?oc=5",
-      "source": "Mediapart",
-      "publishedAt": "2026-11-06T20:27:11+00:00"
+      "title": "Intelligence artificielle - L’ultime invention humaine ?",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVDhGM1F0VXZib0dLSl9yTkpWZDNwMVExWlIwOFZYRjBzN2Z6YWNfLWViZjk5OEZ3S1MtbzMydmtWN0Z2ZHJrVGwycml4UThkbDZxYWZtVlM1bTlFaXZSVHY2d1RSa2R2SlNmS2VVbDdhcFlyUmVpOUhTbTk5NmQ2dW16U185bkVuVjZZMW1NNjJTdUh4UE1POHZXZ0k?oc=5",
+      "source": "Arte-TV",
+      "publishedAt": "2026-11-06T21:25:28+00:00"
     },
     {
       "title": "À Wall Street, les inquiétudes autour de l’IA menacent « l’introduction en Bourse du siècle » d’Anthropic",
@@ -57,22 +63,16 @@
       "publishedAt": "2026-11-06T16:54:26+00:00"
     },
     {
-      "title": "Noël : près de trois Français sur dix utilisent l'intelligence artificielle pour préparer leurs fêtes de fin d'année",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjFTdEprMzJEUHlvYS0yRlgwQ3IyeTRMbHlabDlRZnR6bzh0Q2gwOUYydmhZQU55Q0ZkbTlCSm1HQXZha2JCMHpoWFhHRFJYOVJqbWJfSkFuV0ZFS3RKdUI4MUdEUzJRbDFRVVNyaWpsLXpNVUh6c2JfMzBpNnhqLTJtNzMxYVFWVDlJQ1lYWk85U1VIam1DSkJjSXRuLUEyZDlGeVdnWjZBdnhzOElROVdvTDJiWmNvVjZPS21tV3p5WjNoQkh3QlljR0lVQklib0x5WlJJcGVsQ2tlbWVxakNhcURDVGZkRk1J?oc=5",
-      "source": "ici.fr",
-      "publishedAt": "2026-11-06T16:29:23+00:00"
+      "title": "Moflin : le compagnon émotionnel doté d’intelligence artificielle arrive en France pour accompagner les seniors",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZmhHNDZrelZGMzQzSWhHTkZ0X2JjUG9BWWl1cGJuRXJuVm1nalZYTVFEenJIOFVDZVlUWnVFMmtxOFBOeE9IVG44Vjl2UFJtM1FaX0tRZUZTb05sUmwtcV9xTmhaLUpTcE5rQVVrQm1Ld05OcEl6bGhpVUtRcDR4U3c2YTBJOVpiOElPcld2dWRsR1JMeGNrdlFEUXRrNWc0eGxoTDA4OWJydWk5S2YyTlJuYzBhYVdqekFwSUJZeWkxWmxqOFd3RjFfekd3UEk?oc=5",
+      "source": "SilverEco",
+      "publishedAt": "2026-11-06T16:22:05+00:00"
     },
     {
-      "title": "VIDÉO. L'entreprise de collecte de déchets Veolia met l’intelligence artificielle dans ses camions-bennes",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMTNtVE5SUExTVGVoeTRfYUNhSjlzODJORlF0LVlJRDJ0SmsxWTZ0NjZESldFZTY3SndLMGg1ZFA4TUtpblZySzZHM2JtRGgxNEhaYU5NRjh4UEJ2ajFkb3NWeFJWSTNsYXlVQzV2azlQTmVCanJxallaWEl3TGZVV21sS3RJYWxhMjEwd0NDeXIxYndoTjk4c1hsX3VRY1VmODM4V0dkTWRZRDZoMVBNSmJSZ2pUZUJac0ktYzVBNmxKS1laWk56Mk5TM0ZRZnZnUjJ0Qmp6U2NZaDdGSXR1SnBJeklsd2xaakRJVGxndVBxVHREdVVpdTBfbU9vZ0pfVmlkOTFHZWlreTh5SlMxV3R2NVZ0ZjdFc1hqcDBZd2s1OU5R?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-06T16:01:35+00:00"
-    },
-    {
-      "title": "Flux numériques connectés et intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRVEyOFQ3RWIydG5zYmFwcEozM1gwYTMydUVSTm5zaVhIU1NISzlyUTNNN3JidzVYZVRjek1CRk84Rl9mcWdrSjBoU1E5aHYwTWFNRldENW92SGlrdVRNckN3Zk5ocGpTdU5kN05oV21SQ1J1bW9LUTlMZlJLOUxEMThJV19GRGhZUGM3YkxmLVRpMEtxM0w1anp6THVpbUpqTGg2aFN3TF9NWENTQmxiS29n?oc=5",
-      "source": "Dentaire365",
-      "publishedAt": "2026-11-06T15:55:56+00:00"
+      "title": "Les pertes se cumulent pour les entreprises liées à l'IA",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPanVMYmNFZml0TzlIU1lCUlFDTS0tdFpnV2JsTEl2eVNPWEl1Ul83Z2RWRjlBdkFlSlhCWE15a3gzc1NPWlZUV2NTTDdueERCeTdIY0FfNHE2ZGFwMHBqM05pYjFGa1A5VUtHYUhHN0RIOTh4WklNWEZwZ0tab3c2Q1pNcks5OGRfSHVKdksxb25CSW1sRTcxb21DWF9DZw?oc=5",
+      "source": "Pèse sur start",
+      "publishedAt": "2026-11-06T16:14:54+00:00"
     }
   ]
 }
