@@ -1,15 +1,51 @@
 {
-  "updatedAt": "2026-11-07T14:31:15.262360+00:00",
+  "updatedAt": "2026-11-07T19:00:29.605092+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
       "title": "Intelligence artificielle: le graphique vertigineux qui alimente les craintes d’une bulle",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOejJmdktFX2VIeVJiVzB1bndHZXdoeWc5OGZEVHRKNnRMaG4xV1k5bmRnU25GYW1TelN3WUkzSDJaUE1FdXBPS3FXdk1Yc0lwR0FybFZMRWdvRmRhUDB3NUhzQ2xfUUlpc1FUS1dmYnh5UW5LdWVQVGdxU1ZhYzFQbFViNHVLSXpaWlVtN0dkbTdqMjNCdmthQ3pGNkZNRllvN3VPSmp2dHJKclNfVGc4MjVrMERVbUFUR0NF?oc=5",
       "source": "Le Temps",
-      "publishedAt": "2026-11-07T13:25:47+00:00"
+      "publishedAt": "2026-11-07T18:33:32+00:00"
     },
     {
-      "title": "ÉDITO. L’Intelligence artificielle générative à l’épreuve du réel",
+      "title": "“L’intelligence artificielle est devenue un élément de puissance” : Édouard Philippe expose sa vision sur l’intelligence artificielle et les régulations nécéssaires",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxORTlCRldGSEFmLTFaRkJkdGI5WUNVNG5VRVlFdTJPZ1k0dGlSN3JpdzR6c3hnWW9IcFBfZUJNaEVMZzcybVI4RHJwR3pFRUU5amFRdmhjRW85NzYyaEtXMHo5cmE2eHJBOTcyQkkyZENTV09hUlYwTjMwclg3dVo1NmVxVnFtUGJMbVM0U0hpTjRJMW9jVDFGSDdwdGRmVHFwNlBpakJqVWh2b2t3cW9SdzFnZXVrWXlyYXNVd1d6amJybVliRFo3WXNOdmNnWlpqQmRLaXRRVnpiSU5EQ2dsc1dLQkYtc1h3eHlDdjl3UnNmQTBYWW5mS0NNejcwVW5UdW1QT0lHc3BEaHNYYU9vWkZlSGV5bF84T1o2Qkw1NGxSMnRUQURSTlNMVjlwX0lqUk9jMVF1ZW9JWnVOOTB5NA?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-07T18:11:18+00:00"
+    },
+    {
+      "title": "Pour Jean-Luc Mélenchon, l'intelligence artificielle est \"un défi existentiel\" qu'il faut \"réguler\" à l'échelle \"mondiale\"",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNOVowSHFtZWxBQVdsMGtXd1F3Z2tFclZfSjNBcC1HcjdpS3ZSbWVDb1E1ZW9URTVTMDhqRWhHY3pGX25mcmdVMnJDd0I1ZFYxd1gzanB0a2pJOHVTLU01elBNY0xJZFFhOGIxRW8xTFNHNlo4YkdnamtwcGN4VWwwU0VvQ29VMkZacUlNXzBTVy1RNmVoNzU0ckZmUHpOVWJGYm9nLWdETHVLSlpIU3oyS1BGOVB1QnZhYnYwSjg4V1Y2U0UwcmdOMDBQUWNWU0pTNm1WR0MwUW04NUZjWWRLbm9DVW9tdm1IMlVNYjI3RDJQV3d4MlRGZVhiT2FCYjBqODFkQ1FfcWZaN3dzV1JiMTJkVVNkZFlKa3NHMVAwS3FDYmtGeUE?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-07T16:54:01+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : l’IA redessine-t-elle aussi le métier d’architecte ?",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWtXSjQ3ZFZ0SlZsVnZJLWJVX2ItUERHZEJNbDZmX1loM1F4dWVVWjc4eDF2QXpZS2dmU0ZBWnc5WU5PZE8wb1BWYWNxYWV6ZDNLRndvMHdVX2Q0aXNhRWNnRFJlbmg4TVNBcUJ6R0VjNUo0VTZpWkw4SzVPWkx3LTJGbDMzREhOalI0UTRzbTBtc3dQV1pjbGgzQm1mWEFTRXBDZHhwbHN2VDdfbF9URkdvcTNSeHBoWXk5MUJwUFlGRERSZUVIUmRR?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-07T16:30:00+00:00"
+    },
+    {
+      "title": "Intelligence Artificielle : la France à la traîne en Europe",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2RpMkxmZ0dTeVdFNXFScE82S3ZSZGhVUWVuekhWNXUtTExXeV9ndURDaUJNckxfajhjV25YTTVqMzdkTVVwc1NvQ0M2aHA1SDBiZ0p2TFBnXzVyUU9ucnJ1bk9DdnM5ZkE1QXFOSmowdVF5OFlYV0txTmZod2NWWU1sNEkzRllaczBQUFprVU1tX3FRdVpuOHp6c0E5OGYtTloxV0lPY2lzZW8?oc=5",
+      "source": "Presse Agence",
+      "publishedAt": "2026-11-07T16:00:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : Comment l’IA me met d’une humeur de chien",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONk5VSDV3TE0tZnlqcmZPM3dqS2ZfTlJyay15SmN3czJxellrcFBvT1J0Y1BmWXE3NTFaUTA5anlQN1p3Q0VscHJCUnRkclB4Zlgzb3lUQmZ5TUVoalpqOHp0MS1nQ1Fwd3p6ZUlmdVRjOXBNYnlzWFp6SGRkYTRLNVZvQmIyNFRqNXZNWEd2YW9sdWNzdFJsVVZ3eEJMRm9NTUE?oc=5",
+      "source": "Le Canard enchaîné",
+      "publishedAt": "2026-11-07T14:59:00+00:00"
+    },
+    {
+      "title": "À Marseille, les deux rives de la Méditerranée veulent tracer leur propre voie dans l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNktMZ1lOWmlOOUJOZ3lJVDJOMWl5c3d5a2RFVVRydEliVDRFR2NOVVpyNG05VHJwblp5S1FmLWxtWThkNDdGSVM1N2dTSHRhdmJFZHV6VWV2ZVFXTXdqSVFYRzFjaGpWbER3c1BtX1hSMzJoOC1YbTJweV82WmJ2OHdadm9YVGlveUhqaWlRYW9CR0FyZDNVV3EyanF1RzB3c1phMVdjWXhkT2t1bmE2RFlUQnZILVlJZXJRUmRmSlAzMmFhR1BpdFpHa2g1OEgtaDdnRU56UXMzUHRpTHNxWWpUd3M5WWFwRGx0aWs2UnItaHRJcTNyd3RwUnYzUQ?oc=5",
+      "source": "La Provence",
+      "publishedAt": "2026-11-07T14:20:02+00:00"
+    },
+    {
+      "title": "ÉDITO. L’Intelligence artificielle générative à l’épreuve du réel | Le Maine Libre",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQLWg4RDZKX2dfWXRWVFR0SmlSRVNLQ3ZvbC1BX2syTDBUMVpqZ2JxbTFWc2c0OUk2SllKcXRkM082eXNlNmZUNTlLbWpBc05nUjRWTVBWeV9KMW1Eb2NhZERTVXpuUEJiZVhFQ3NQR0tmcGIxaS1IVThQSFhZem9faUNOYWR6Y3NpRHJfT1lDc1pkbmxZTHcyelFGYldpY3daMUpicUNfTG1BZlB3d2xYaGNQd3dpcWFlSl9XLTI0TmViZzQyTU9ibmJfblJONWx6VHJuRTVZSGxCWllqVW9LQmpFbk9pcThNTGNyYU40UGhqa2c3cVE?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-11-07T11:31:02+00:00"
@@ -27,52 +63,16 @@
       "publishedAt": "2026-11-07T10:09:22+00:00"
     },
     {
+      "title": "Des robots IA pour alléger le travail des services administratifs",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcl80YndLb1RtTkp3VTEtMkp1eDZiWFFqMFFGSEhnWDMzRThqVGo3c2RQTFVMSkxjMy1TcWJGQmdmRTEzem05ZXFwczhtU09xRFVXR2d3aTlvOHlYNnJQVjd5MGs4V1hKZXBySGNZY1YtWkk0VDE3TEUtTzZOSlpPQlJKTmpWTUZsVFBoeV9EWU91Z3dKQXI2bkxXdlE2bzJNN0E?oc=5",
+      "source": "lecourrier.vn",
+      "publishedAt": "2026-11-07T08:00:00+00:00"
+    },
+    {
       "title": "L’IA pense de plus en plus à notre place. Que devient notre cerveau ?",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnVWFGa3cwMjFqWFJDNHUxM2lwNmxHRE9NdlZNMjFQQUlBeTNfLUkycmxua3BSazRIY2M1NXV6ZnlGWE55SUZ4RkE0Uk5ZakxGSElaUE10TQ?oc=5",
       "source": "UN News",
       "publishedAt": "2026-11-07T07:00:00+00:00"
-    },
-    {
-      "title": "Le trader dopé à la « super intelligence » était un super escroc",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOXVpVGZZaGdZUk83Zk1Ma3paOXFJUldTaVQtYk5FQjZkU3NYUHNJWXZZejEwMU01Nm05NTlLaFUzQ2ltankxbldEbER3WkZEUlNZS0U2bW1pV0Q0Z0JGaFRPM1RaclZZb1dBNEVaZ2gxa25oWU5qQlFMRUxzc2NUbjZFZW05cGhYbTNSY2t6Q3FFWkYwVVc1M3F2RXp3dnZkd3huQ0dJRm1pLVkxdkRVY096NEh4aG5JekU2dmo5eThSbU5oS0E?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-07T06:45:08+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : l’IA, ce nouvel assistant qui peut aussi changer le quotidien des artisans",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVC13cjh2SHdkOTdVM0l1UDhncm16VUNOYjRnVGZ1em9CblUwRUJSUkFlbFliemNCSTBhYzlUbEFtQlBxaFRpS1BYdkV0dFJaNjRaaGdoTDBqZ1RjNENRNGdKSVB2bEl0LS1sV2xGcHQ1azZhZ1FzVWJqU3RDeTFqMjJkQlA2NUp6aHlfakliSVEwbDU5MUdkUGV4MmVuaG9PdExXR1RPZ0VkdWs4ZlJRcnpKMFAzaWJtNjFBODFKWTJVb1BZWElBQ1Vjb182cVFkaXk3eVNvZm91SG5idXVXbXk0TQ?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-11-07T06:30:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Les techno-prophètes, chasseurs de limites planétaires",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkFydG9WVGJUT0V6MERSbzJMbU13dHRvZHRTYnpidHRYT2Rkci1EMG5ieEVrWjFueW9sYlBWTXZhTV9qaDRWTmRpQzR3dTdYOXFnWE5VUkpNTHpZYnpuNldsOWZLUzdjQ2dwX0M5VXJJZWxMWjlETk1MbW9ScHVuRE5XNGdmd084Q2FaQl9PdzVRNnU0cmxOOTJVdnRvV2N6V2YzLUdYdE4?oc=5",
-      "source": "Le Canard enchaîné",
-      "publishedAt": "2026-11-07T05:59:00+00:00"
-    },
-    {
-      "title": "Cindy, mère de famille utilise l'intelligence artificielle pour faire ses courses : « Je suis passée de 460 euros par mois à 240 euros max »",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxONGNZQkw5SDBYYkZmUEZZU2djZmNwYkd2TzJCZlYyT2NJSGg3WWd5WHUxQVIzeUFtSXZzM3RfNUowbUFoSjYyajB0UlpDRGZ0bWJSa0FETmZXU1hPUTVhc3VIQ0h3dC1MZ0Rrdml0NFJsVEVjdXY2V0I5bmEwZGJ3WVIyQW9SS2w0ZUg2NWl1dUVsQjFibkVmM09XcUxZc2hRM1pTaC1jazhyOHNrMHdLME1zc3N4N3UxWk5OYW1BZTZqdlFacWd1N1c4MmNXaXF2X3pENEN5UENsdWw3V3dGY1JrcXAyVHdyR0NZN2J1eG4zSEZkZy1Jb19SbGN4N0ZJbFJyMkQwZkliOGdSYXZMbTc1Sl9Majl4Ql9YUUpDeWdLRHhybFAySHkzZzI?oc=5",
-      "source": "Marmiton",
-      "publishedAt": "2026-11-07T05:30:00+00:00"
-    },
-    {
-      "title": "Les geeks de l’Intelligence artificielle ont-ils vu trop de films de science-fiction ?",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHU0OUpGNzM4bGNpTWhlQkktNjNmcGRrQVpiRWRCU2ZkNFB0YTNiZlZ2SzhhU3h5YnFFUm5Cb29RTm1hUXp1Vy1pNWJHS0ZRTm9fMEZXR1dLSmtlM0ExdVM2ZWZ2aWZEcS1FT2dfeUt6d0x4Y1ktT1lmVEwyRW55NXdwRnVFdVIyWE41MFNlZnhNUXlBOEVHdTRZSFJTOWlUdnplcjNPUy1fLXNEbUE5ZEVpS2YwcnBybGpzLVFwZ2plWTd2Z2ctQjZCWXNwSTdoVGViZg?oc=5",
-      "source": "Télérama",
-      "publishedAt": "2026-11-07T04:24:30+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Wall Street sait que la régulation est un risque",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGljY3RBY2NYTzVMRlFjZ0l5U19GaDhZb3J4b19oWEQ3d1daZXBzX040bXVpOERVWVZmTzFyaVpxVE5Qem1PeTBQOG93ZXhhb0hKRnRUMzhWb00wc3NZS0pudExKWGF0cno0Y1ZfZ0ZVS2tnQnIxQmhDUXU1RDFta04tODVSSW1DZk83LWZ3NkRoNlVwd0FSTU5LdWFWU1RxT3c?oc=5",
-      "source": "Contrepoints",
-      "publishedAt": "2026-11-06T22:11:30+00:00"
-    },
-    {
-      "title": "À Wall Street, les inquiétudes autour de l’IA menacent « l’introduction en Bourse du siècle » d’Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMnRqUXhEczV5OVppd0oyd2UzSzhsNHphQUd3MlZjMDJIcUliZkJTUlgzUXNxYmFBY2NKVmxrd3lYTF9Cc1BGZklSSG01eHh6X0xTY2JodlpFeGFIUUlMNmNseHh2V0hyQ0swRUdQb0xwOFB1dFJtaHVvUXlhUDZHRkN6VVpydkk0OE04dmQzVEZfNkRHSFk4T2doeWRTR3o5WWlGUy0xZDNpUU42TTBoRDQ5ZC1YaWlWU0pqcUMtQVR6eU15UXFBb3ZVeUJzUjVJV1A5cEctVnZfWjdzSzM3cWc2TFZEdw?oc=5",
-      "source": "Le Figaro",
-      "publishedAt": "2026-11-06T19:43:00+00:00"
     }
   ]
 }
