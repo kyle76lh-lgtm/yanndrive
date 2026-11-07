@@ -1,18 +1,36 @@
 {
-  "updatedAt": "2026-11-07T01:51:19.937768+00:00",
+  "updatedAt": "2026-11-07T07:52:49.977647+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "Intelligence artificielle : Wall Street sait que la régulation est un risque",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGljY3RBY2NYTzVMRlFjZ0l5U19GaDhZb3J4b19oWEQ3d1daZXBzX040bXVpOERVWVZmTzFyaVpxVE5Qem1PeTBQOG93ZXhhb0hKRnRUMzhWb00wc3NZS0pudExKWGF0cno0Y1ZfZ0ZVS2tnQnIxQmhDUXU1RDFta04tODVSSW1DZk83LWZ3NkRoNlVwd0FSTU5LdWFWU1RxT3c?oc=5",
-      "source": "Contrepoints",
-      "publishedAt": "2026-11-06T22:11:30+00:00"
+      "title": "L’IA pense de plus en plus à notre place. Que devient notre cerveau ?",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnVWFGa3cwMjFqWFJDNHUxM2lwNmxHRE9NdlZNMjFQQUlBeTNfLUkycmxua3BSazRIY2M1NXV6ZnlGWE55SUZ4RkE0Uk5ZakxGSElaUE10TQ?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-11-07T07:00:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : l’IA, ce nouvel assistant qui peut aussi changer le quotidien des artisans",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVC13cjh2SHdkOTdVM0l1UDhncm16VUNOYjRnVGZ1em9CblUwRUJSUkFlbFliemNCSTBhYzlUbEFtQlBxaFRpS1BYdkV0dFJaNjRaaGdoTDBqZ1RjNENRNGdKSVB2bEl0LS1sV2xGcHQ1azZhZ1FzVWJqU3RDeTFqMjJkQlA2NUp6aHlfakliSVEwbDU5MUdkUGV4MmVuaG9PdExXR1RPZ0VkdWs4ZlJRcnpKMFAzaWJtNjFBODFKWTJVb1BZWElBQ1Vjb182cVFkaXk3eVNvZm91SG5idXVXbXk0TQ?oc=5",
+      "source": "Sud Ouest",
+      "publishedAt": "2026-11-07T06:30:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : Les techno-prophètes, chasseurs de limites planétaires",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkFydG9WVGJUT0V6MERSbzJMbU13dHRvZHRTYnpidHRYT2Rkci1EMG5ieEVrWjFueW9sYlBWTXZhTV9qaDRWTmRpQzR3dTdYOXFnWE5VUkpNTHpZYnpuNldsOWZLUzdjQ2dwX0M5VXJJZWxMWjlETk1MbW9ScHVuRE5XNGdmd084Q2FaQl9PdzVRNnU0cmxOOTJVdnRvV2N6V2YzLUdYdE4?oc=5",
+      "source": "Le Canard enchaîné",
+      "publishedAt": "2026-11-07T05:59:00+00:00"
     },
     {
       "title": "Les geeks de l’Intelligence artificielle ont-ils vu trop de films de science-fiction ?",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHU0OUpGNzM4bGNpTWhlQkktNjNmcGRrQVpiRWRCU2ZkNFB0YTNiZlZ2SzhhU3h5YnFFUm5Cb29RTm1hUXp1Vy1pNWJHS0ZRTm9fMEZXR1dLSmtlM0ExdVM2ZWZ2aWZEcS1FT2dfeUt6d0x4Y1ktT1lmVEwyRW55NXdwRnVFdVIyWE41MFNlZnhNUXlBOEVHdTRZSFJTOWlUdnplcjNPUy1fLXNEbUE5ZEVpS2YwcnBybGpzLVFwZ2plWTd2Z2ctQjZCWXNwSTdoVGViZg?oc=5",
       "source": "Télérama",
-      "publishedAt": "2026-11-06T22:05:32+00:00"
+      "publishedAt": "2026-11-07T04:24:30+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : Wall Street sait que la régulation est un risque",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeGljY3RBY2NYTzVMRlFjZ0l5U19GaDhZb3J4b19oWEQ3d1daZXBzX040bXVpOERVWVZmTzFyaVpxVE5Qem1PeTBQOG93ZXhhb0hKRnRUMzhWb00wc3NZS0pudExKWGF0cno0Y1ZfZ0ZVS2tnQnIxQmhDUXU1RDFta04tODVSSW1DZk83LWZ3NkRoNlVwd0FSTU5LdWFWU1RxT3c?oc=5",
+      "source": "Contrepoints",
+      "publishedAt": "2026-11-06T22:11:30+00:00"
     },
     {
       "title": "Intelligence artificielle - L’ultime invention humaine ?",
@@ -51,28 +69,10 @@
       "publishedAt": "2026-11-06T18:12:39+00:00"
     },
     {
-      "title": "IA : Impact sur les Marchés Boursiers",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWFlQbG9mWGFYMmVaUUJycURmUXRZZkdWRnRJU1dHUmxVY2owS0taU2pib3lIUnFnZXBDblJxNENtT2ZBNEliQUhLX1FKd2VlSHV6cFAtbzJrZ05fU0RkYi1rVlpUamdOM2h5anA0STFmUi1mdWd2VUtFOTI5WXNZSjYzWUp4VVRXXzd4TENMNFVBWG1oOE9qR3JBTUR3MTlaOFlZQXBOTGZEUQ?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-11-06T17:11:00+00:00"
-    },
-    {
       "title": "OpenAI reste engagée à investir dans les infrastructures d’intelligence artificielle (IA) malgré les résultats de l’élection, rapporte CNBC",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQc1dvU3dPYUF4RUc4X21hcGhDam9aYkdGeFhCdzU5VkFSRWwtWHF5U1dRUEhBb3prQUpCczJVVlFRVXJSelVra1dBQXZEc2p2U0FfcVlXSXpLQXBEV3VZVTFZcW5Mb3lZdHpjVUI2V3JQNE1ZZEdWa0UzeG1sVGF0Y2ZtTFlQNTQxZUtxWU8xSG0tN0pETTlfMXpuMU1RNjQtZXVCeFB0akpPQUZDdTFQalc5Y2IzTXJoVFN4ZzhDVG8zY2d6dlpzMDJlRzZadUM2eldmdERXWDJkUzNLYmlKYlpsWlRDNFI0TURaY2Fn?oc=5",
       "source": "Zonebourse Suisse",
       "publishedAt": "2026-11-06T16:54:26+00:00"
-    },
-    {
-      "title": "Moflin : le compagnon émotionnel doté d’intelligence artificielle arrive en France pour accompagner les seniors",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZmhHNDZrelZGMzQzSWhHTkZ0X2JjUG9BWWl1cGJuRXJuVm1nalZYTVFEenJIOFVDZVlUWnVFMmtxOFBOeE9IVG44Vjl2UFJtM1FaX0tRZUZTb05sUmwtcV9xTmhaLUpTcE5rQVVrQm1Ld05OcEl6bGhpVUtRcDR4U3c2YTBJOVpiOElPcld2dWRsR1JMeGNrdlFEUXRrNWc0eGxoTDA4OWJydWk5S2YyTlJuYzBhYVdqekFwSUJZeWkxWmxqOFd3RjFfekd3UEk?oc=5",
-      "source": "SilverEco",
-      "publishedAt": "2026-11-06T16:22:05+00:00"
-    },
-    {
-      "title": "Les pertes se cumulent pour les entreprises liées à l'IA",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPanVMYmNFZml0TzlIU1lCUlFDTS0tdFpnV2JsTEl2eVNPWEl1Ul83Z2RWRjlBdkFlSlhCWE15a3gzc1NPWlZUV2NTTDdueERCeTdIY0FfNHE2ZGFwMHBqM05pYjFGa1A5VUtHYUhHN0RIOTh4WklNWEZwZ0tab3c2Q1pNcks5OGRfSHVKdksxb25CSW1sRTcxb21DWF9DZw?oc=5",
-      "source": "Pèse sur start",
-      "publishedAt": "2026-11-06T16:14:54+00:00"
     }
   ]
 }
