@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-08T15:04:32.809545+00:00",
+  "updatedAt": "2026-11-08T19:34:07.518971+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Une start-up calédonienne veut mettre l'intelligence artificielle au service de l’agriculture",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcG5JS2dzMWtGRlpXejNQbnpSdlg3OXZMdkxidlV6czJHNkQ2c05qbHptNlFMN2VVdzdkeVhaR293YUVHSVVFN1pLUFo3bDlfS2txQVBQTGNTeDFHV05sZVlWSXNrWEk3MXZCRkIzWnY3UTBHS0xDTDIySVdYVThsdThVZ3AyYzBaUkNBRUVLOW56TVE3dTlhVmJ1ZFNQZkJxaWRYdnNpcXQ1UUNkMUkyb2hXc3VzN1FXRmkwdGRvRmZ5ekFIaHVpNEdNdmJvMENBeTV1Nzk3NXJWbjZqQ3dfSEs4SDVlQ216?oc=5",
+      "source": "Outre-mer La 1ère",
+      "publishedAt": "2026-11-08T19:00:01+00:00"
+    },
+    {
+      "title": "Robots, voitures autonomes, intelligence artificielle… au Web Summit de Lisbonne, la tech chinoise passe à l’offensive",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRUlsbkk3WS1QQ2pjUjR4amJ6TFNHTWtmRmxNZFBrSlA2WmR4RW9VOW1KcnVNU0JKSFpramdDUE1vaVQ3NWNYbmVVYzdvYUI1NHZyTUJoa1paWElxMnlhd3FFQnNVWTh1SzEzZUptcjN6VlRwX1YwSThMb3AzZHpxMmowZU5RdHdaajdDSDVjOVZZeGFCd21tYVJWQ1JGTTBQNkJPdlpCX0lRWERKSy1JRlhXVHE2Nk1MV05Va0Y5UzBJNjVoYm5oVVpKeWhNMnlvdTBNQUJjcGllQlYxelZBYmlJMmExdGEwWXIwTUphdi1KaVhudFBQejQySU1OZw?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-11-08T15:54:02+00:00"
+    },
+    {
+      "title": "L'IA accélère le développement logiciel, mais qui vérifie le travail des agents ?",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTnBoUUFtWUk2RkRNZ0h2TjZtUjFuSDExUDBRMGl0UnMwalNWUFFmQWttaVN5VDY3YlZjRktOSHRfVG52MzNaQldxLVdCMW41ZXpvRVU5aUtaaGdVcDVGbWhGRkNjeXdKdXdKV2hFUXp0dk40Z1JNYmtJSlVhaWo3OE4xc1MxR1k1TmZMZGs5LUNZVVRiU2tJakdkbXNwUkFCUmwzSm5sZ2pzUFNkbDBZRUdKQnIzRmVuZEt3QWI3b1NORWVVc1RuVUhiOW5ZM3ZXYTJpcA?oc=5",
+      "source": "MacGeneration",
+      "publishedAt": "2026-11-08T15:42:00+00:00"
+    },
+    {
+      "title": "Intelligence artificielle - L’ultime invention humaine ?",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVDhGM1F0VXZib0dLSl9yTkpWZDNwMVExWlIwOFZYRjBzN2Z6YWNfLWViZjk5OEZ3S1MtbzMydmtWN0Z2ZHJrVGwycml4UThkbDZxYWZtVlM1bTlFaXZSVHY2d1RSa2R2SlNmS2VVbDdhcFlyUmVpOUhTbTk5NmQ2dW16U185bkVuVjZZMW1NNjJTdUh4UE1POHZXZ0k?oc=5",
+      "source": "Arte-TV",
+      "publishedAt": "2026-11-08T15:06:30+00:00"
+    },
+    {
+      "title": "La renaissance de Bull, leader européen du calcul : \"L'intelligence artificielle nous apporte du volume\"",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZnV1NzR0SWtyY2lrMUFFSmJCcTN4N25MZE1NLXY4dGJuZHFVMkFzbzNQWTN4V05qN3g0T2hSUlJkRHFKd2ZVaF95ZW5LZ1FFTFczclJUcmtqeXdieUY1enJkRFRVcFNzeFhWbnVicFN2RW1YeEVPQ1ZwS3pLS0pqOU5aTXAybnBULUVGRXpfa0xNdlBmLVIxZ0JzakdRb0FQc0M0YmNxWi1ja2RkcjR4ZFc2MHBjYkJKVXZXZVR0dExRSUxqZjRUVTdfZWNSNTRoMloyZXJWM2NSMVZSSFg3VjFjaDZJVkdYdmw1Y3dYTzRpZGNqZldpSFlacGE0QQ?oc=5",
+      "source": "L'Express",
+      "publishedAt": "2026-11-08T14:58:02+00:00"
+    },
+    {
+      "title": "Malgré une large adoption par les entreprises, les gains de l’IA se font attendre",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQjlzeFJvcEszSXRYcm0zLUdhSkZ6eC1acS0wZ0tYODdrQWZEUWF4V1pKZHZjSUp1UTVoNXA1TWswUmotb3BDZ2dLVU1zbHlIQ1NUb0Y4TWFoeDZNemU4UEwyVWRqTHJieEVqamVQaUZxNEswcFVWelNRd2YwY1A5RXNsSUFyQ0g2MGNjblQ1MWJoODZrM1NHaWQ0cFJvSTAydHlpYjVqdkczeVpwa0dhRmVERXFSanZra1pnWkFBb3h1ZUxtWGJoVWZKVW1vMGZOQjRtamNhZjBmY0sxZGdTZUtXZmJKbUY1NUVoa3ppZTJyUXVLZUN0LW5wZw?oc=5",
+      "source": "L'Usine Nouvelle",
+      "publishedAt": "2026-11-08T13:00:00+00:00"
+    },
     {
       "title": "Gabriel Attal juge \"sidérant\" le peu de place de l'intelligence artificielle dans la présidentielle, \"clé\" pour \"faire monter les salaires\"",
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNVFNsY2xOa3d0WjczbGFWbHlHNUtodGZnWkhYNWZEeUxDNU10ZXdnUXotTXZ4X0VyMkczWDgzVFlUMmQtRWFwQ25OMzdlNE41SjE5MU1NUTJrUGpJRnNVbzl4eE1oRllxQV9HeWdjbzBnRnZJVFRobFN0YllERHlVUWdINTZfaGxRck9LQ0hGQVRqdlpiTXIyWlhibmFCa3UyeXM0eDJfQi1xeVlUd3UyR1lsT1BoVmdzeTM1Y1Y4TjY5Nm1pWWlMUEdZQXBmaWQ1aVVzcl9UMVl3bWlNQzFJZlJOX2t6anFudVZ6WmxLalVOMFZNY0JnQTN6V1dWekhLLXFkOHl6MEtKdHA5Ml9fXy14bDJjYS1WR29xbFBYTFlhQQ?oc=5",
@@ -24,7 +60,7 @@
       "title": "«Avec les bons paramètres, on peut forger les bons comportements» : l’IA, renouveau du contrôle social à la chinoise",
       "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQMmR6X3d1UXFiTHdaWVp6X09BTm9lRzBwcUVfUmRCMlktWVdRTGdZOTRpaFZjQVluTHo0b0dtNDF0QVVaUDhXMl9ueTdMaEdiTFFHZmJTRVRtVW5RYWJ0OTZYdzdrNm14RHB6TTZqT3ZxYXV5eHE1bXBZOGZEdGVtYjBNNkZLWkhCRkNhb3VUQXZzMVBWVXFNNTd2VzZ5dW81anM2NDFnMl92d2V3QXRtZFRjVi1MV0ZWblRaYzQ3bHRTeGdWR3UtTDl2VzN4MzZSMUVhRFBzSG8tc1FzVmV2Tk1MZlVNUTNoTEMxLTdBNGs4c0xfRTUtRGttN0pvaDAxSC1QYVhIRnlSeGVrTkg4ZTJBeGpWT0dGR3FlT3BrYUUwbjBUeHFv?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-11-08T11:15:00+00:00"
+      "publishedAt": "2026-11-08T11:18:35+00:00"
     },
     {
       "title": "Le \"cognitive offloading\" ou \"délégation cognitive\": pourquoi l'IA atrophie notre cerveau, et comment éviter d'en devenir dépendant",
@@ -37,42 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeGRkRlNRNW5neUd5ZDkyZXFtNDltS094S0RhdmtSeVZ4MGlqZVdhX29xZ2lvZDJqWkxOMlcwbjFJZVZjcE12YUpELUJGSW9yemJxUkZ5U0N1ZG9fYTJkWVpTX2dQZ2V0VWJOR2EyaTFsTFZzSFBNaEFOT3FBaV9BN2lQUDdDamE5aW9WWF9FUFdrVTlKRmFEQ0k1UGQ3emsycHlSZ1BCLXg2ZDJDN0F1Y0wzMVc0dExzanpxTl9VMA?oc=5",
       "source": "The Conversation",
       "publishedAt": "2026-11-08T08:12:42+00:00"
-    },
-    {
-      "title": "Tour du monde des correspondants - Intelligence artificielle: le rejet des «data centers» s'étend à travers le monde",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWUFfZDEyMnlyWnpVQVM5Y0FNbDVKR2lsYWpuRUlUWGhLMlJKa3lnZUNudWJ0ckQ2ajVTcHIyVGExc2dKWlRlNG5JYWRaVnpWemlqOUpFbnNYRUk3VFNMV1BncEVWb08tZUhqbGVoUEVZVklaUDJLZUNoODk4OHNWbUFneHZITTNmaGlVVmZxSVF2bm9pY0pONW1MTmtySmluMXIxVElwQnkxWlZGM0V4MUliNTI3V2h0VXUwWHBHUjBsb2VqRE1IcHk3N04zbjhOV0RlVXhpU3ZfOVgtdnQ2ZkZ2RDhabG5KYUc2Um9LVUFva3M?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-11-08T07:40:51+00:00"
-    },
-    {
-      "title": "Les livres écrits par l’IA, la menace d’un déluge sur le marché de l’édition",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLUtWYmozSUFpbjV5aTlyWFV4bW9NeTJUMERfRUQtVHdBYjJfbXpGRFdWM3haVmYzck9OZlIxSWRqcVNYMzFpV3RfaWhsdHpGbnl1dlNBM25ManV6YzV6SE15VjNzTWgyQ1lMOUVtSjJ2cExhdTlwdEhpQVV5UUtaYVIzemZOeXBOdFR3V2VVa0JOWEhLQk8wUTNrTkFkTWRrOENOTlY3cjBidHNxbVcxZXd3?oc=5",
-      "source": "Radio Classique",
-      "publishedAt": "2026-11-08T07:30:00+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle ouvre de nouvelles perspectives au cinéma vietnamien",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVURrbVFraFZ2b1ROZnBmTjhYN0YybElHeUxnbFliekdQZkVyZ0Rpb1ItZHpHbDJ6MlBCNkVzYUFJeVVtTW10MDFqbjc1SE5scWtwSUVicksyQkh5clB1VEY3ODhPMnZfVmN4Qk1MX1lONXd4dDhLWm1EdVhLalJLWUNsaUd6UVlIdUUxal9RVWlhenpsRWZma3FtSDJyRFVFM3VJUjhQYkN1aFdpS2RRQW1PMUE?oc=5",
-      "source": "lecourrier.vn",
-      "publishedAt": "2026-11-08T06:12:00+00:00"
-    },
-    {
-      "title": "\"Faire du travail dégradé, c'est dégradant\" : quand l'intelligence artificielle transforme les graphistes en simples correcteurs",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOZjNGbHF1WmVXdTh1U1djbnpTSUpwU0hsVjNpbFZjMWUtTDAyd3RzX0s3cWpYbHcxZkxSZ2g5ek0ySW94VVNDaWNoZHZpeW5QemNGaEZwM243VWxDNFdfeEpMaFFiR2dyZWwzcmtyX1ZzZ216MHZqYXJpNW9PbmRGTTNOZnVmYXFaNDZjS2V0S2tmM1NxbUVFZzd6ZDNNUDFsNEozb1R1OFZHU3JUSTducDJUc1ZBQ2RGRXlxYUFseG80UEZVWHM0aWRmTmpWZnF6SG5JLWE1NkJxSjhTYXNVWjNid1VLQlJfTTFMMXJmaHpIRXMtSFZmX08xMEZPUkk3YkFtZVdvUF8wbmRBUE8xMXozcVFieHVka2Y5RFlmU1ljbzV2Q0NwT0ItbERGME5J?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-08T06:06:47+00:00"
-    },
-    {
-      "title": "\"C'est un pillage\" : l'intelligence artificielle s'attaque à l'art aborigène et vole les artistes",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVgxcG9OZnBhbVFnZkFfQWxSOV93eElzSzI4Uko2Y3ZTYzRSVDY3UnctMWw3YVFUN1VNajNvT2tOOXFnNnRQWXpyNERuTzNxNTZUTUE0Y2tSSGdLWC1rRXVrdTJ4QkVuckRvdVRDWlM0T0NqTGpEb2ZRTVJMejBDT1Y0dklXckhHbG1tb2RwTnJVb1BvR0prdUZB?oc=5",
-      "source": "www.journaldunet.com",
-      "publishedAt": "2026-11-08T06:05:02+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : c’est quoi un « agent IA » ?",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbV93ZU5mRGdEWTI3OHVoSzN3eFZfTzV6dG56Y1ZpZHVwcWtMSFh4RklyX2ZxTGx0bVdsek5GYXlBV25iTUwyVFZsSWFHLVBHRGZuRl9TMFlrSFAzVjhDVFpMWC1iTm81a0RzaEgzWkQ0WEFfT1pqemZuTWhNY2tVTjRWQ1NPUWVFQXJPVTlQSDRRbXBWdEJscS1BY09CeWEtRnhkSVBkdWFxZXQtV1dSS3JxRzRQSXFkbDJEWEsxTGRQYTM2NHQ0M0puWGFGYlJ1Yk9fNEFwR19jRjBqSHdrbkhB?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-08T06:00:14+00:00"
     }
   ]
 }
