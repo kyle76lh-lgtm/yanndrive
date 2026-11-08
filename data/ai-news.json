@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T19:34:07.518971+00:00",
+  "updatedAt": "2026-11-08T23:06:07.268157+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -7,6 +7,12 @@
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcG5JS2dzMWtGRlpXejNQbnpSdlg3OXZMdkxidlV6czJHNkQ2c05qbHptNlFMN2VVdzdkeVhaR293YUVHSVVFN1pLUFo3bDlfS2txQVBQTGNTeDFHV05sZVlWSXNrWEk3MXZCRkIzWnY3UTBHS0xDTDIySVdYVThsdThVZ3AyYzBaUkNBRUVLOW56TVE3dTlhVmJ1ZFNQZkJxaWRYdnNpcXQ1UUNkMUkyb2hXc3VzN1FXRmkwdGRvRmZ5ekFIaHVpNEdNdmJvMENBeTV1Nzk3NXJWbjZqQ3dfSEs4SDVlQ216?oc=5",
       "source": "Outre-mer La 1ère",
       "publishedAt": "2026-11-08T19:00:01+00:00"
+    },
+    {
+      "title": "Renoncer au privilège de l’intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVGxYX0pwVEdwdVd4enBlS0ZOc1doYzRKWGJKVXgxWWdsa0phb2dGZ3AyQlZuTFBBNWtRbWZLQ0gyWERlOWZDSlRrWndhYTFZYWNGNDZIV1QtOFpITTl5cVB4N2FxU1NYc2lQY0M0bks0REV4VWJKWTdBdjdzX2d6elRR?oc=5",
+      "source": "AOC media",
+      "publishedAt": "2026-11-08T17:01:16+00:00"
     },
     {
       "title": "Robots, voitures autonomes, intelligence artificielle… au Web Summit de Lisbonne, la tech chinoise passe à l’offensive",
@@ -63,16 +69,10 @@
       "publishedAt": "2026-11-08T11:18:35+00:00"
     },
     {
-      "title": "Le \"cognitive offloading\" ou \"délégation cognitive\": pourquoi l'IA atrophie notre cerveau, et comment éviter d'en devenir dépendant",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQbnpWTmYxaDhpRWRpbU56WjNZVEh0Y3F1ZjNKTWFwSnIxMktLOU5MZ0dUdmVhZWE3N2ROUG15T3pkVkhJelpheGxsR1NxZDhUZ0J5enM1amIyRGlQaURDN1ZlcHNzUWk2ejBUUjByZGpMYjlLdDVyYngtd3M4blRSRGdlbXcxV1V0MHQ5NkdiRktQUlpLSnlCMnZ3a0wtVjhDclJvRnJoeWFTcDRFUzUxS21CNGFTRW12eUM1UXU2VkxLc3hIQzlKN1dIZ1NOWHlLd3VVYWpwSk1PYlkyejU3cU1wU2Z0RnhUR1BmZU5SYXFzcFpYeWpDeVpneHVPTDQwV2NXbFpYdHB3LVRYN3VVWGtSMGJDQzd0MVhQSEdNQ0cxLXlja2c?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-08T08:57:08+00:00"
-    },
-    {
-      "title": "Et si Socrate était le meilleur allié des enseignants face à l’intelligence artificielle ?",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeGRkRlNRNW5neUd5ZDkyZXFtNDltS094S0RhdmtSeVZ4MGlqZVdhX29xZ2lvZDJqWkxOMlcwbjFJZVZjcE12YUpELUJGSW9yemJxUkZ5U0N1ZG9fYTJkWVpTX2dQZ2V0VWJOR2EyaTFsTFZzSFBNaEFOT3FBaV9BN2lQUDdDamE5aW9WWF9FUFdrVTlKRmFEQ0k1UGQ3emsycHlSZ1BCLXg2ZDJDN0F1Y0wzMVc0dExzanpxTl9VMA?oc=5",
-      "source": "The Conversation",
-      "publishedAt": "2026-11-08T08:12:42+00:00"
+      "title": "Des photos d’annonces immobilières retouchées : où fixer les limites de l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNN1JrVENidkhxc3hPVzZId2R5eTY1THlnZGlVYV9kYWQwcy1jR1pWc3doel93S21yc0RjMW9WeUtTQmR5M0VuQkpFNE5vMVRLVUFfMk4zcDJfcldmMVlsb3d1M1RVaXlVdklTc21pUDNXMkZDR1dFdGtMM09TM0NVYVVra3ZCeXF1NHZ1SEdQeG9idzVsbFBuTEtkWWNLUEhJUXRDSjFjOUxobjJlMTJpTkdkd0pGaWplSGVKSWQzbU1JbDJrZm41ajkwM015bzJaSDhBY1dKTFNVOWRNTkl2YXBScTZIbWZiR1pWUVNlSHVyLXgwRzRidTlXaXo1NUdudkNkMg?oc=5",
+      "source": "Le Parisien",
+      "publishedAt": "2026-11-08T09:25:00+00:00"
     }
   ]
 }
