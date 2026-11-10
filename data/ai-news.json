@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-09T20:51:25.617921+00:00",
+  "updatedAt": "2026-11-10T03:01:10.886579+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "L’Australie durcit les règles de supervision de l’intelligence artificielle après qu’un agent d’OpenAI a piraté un site gouvernemental",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeE5NY2o0aHk3enRUYm1RVjlscTFsQWRPVHFUdU1NM2kzT3ZoX1BSZ2RDdktfYTFCUEpQcXVUT3F4TVF5U3hwV3hWYUM4M29lZm5wODNIZjA2Zk9TcEdyTjNoV3IwQlF4eVU4MTd0UldVUGZJRjM0MVozSzZKOXNUYTZmNUxOd0RFTUhwU3JtX3hzdnZuUDhLVTBzLXFDT3JuSzBxamJtcGctREdGQV8xS0lkTWdiOHhZTXlXLVpHNjJxbkRIZk02NXFfQ0VCUzVadnA2dEYySDVHb0VWVGRPNE5Gc2d5QzQ5TlgybA?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-10T01:29:27+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : les jeunes Québécois invités à inventer les métiers de 2040",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wRnI0WEN6eHVlT25kV1NUMk85TDFKZFlaWnlpSkszZEI2ZlhxSmJ1MWRGMkI3ZWhTaW9FWVFHc3dXX0p2NmdVZjhKME5IMzhLdmZ5RjhUbk5Hal82R2lRT3M0SjA1ZlEwYnJaMDE3SzZRakxIUHpmU21n?oc=5",
+      "source": "Lepetitjournal.com",
+      "publishedAt": "2026-11-10T00:31:14+00:00"
+    },
+    {
+      "title": "Un développeur a créé un jeu vidéo alimenté par l'IA qui est désormais un gouffre financier, la facture est de 1 000 € par jour juste pour la démo",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNdl9uZlBUdlBzaEFQVUtrMmNwMUlBVkx6SWRXanYxRi1ORTRFWTB4ZTZ1QWFVdkN1ZnNLZEs0SGRSZll5LXNNNGs3UWJVZVdwbkRucjBuR21tTHpJOVJmWlplTDBVcXBrNW4tWUUzMnV3d0dPcU94bFZvdEwwVW9mcmV2djlNTHhua1VSNFJsYlN4SXRvczdpQnhER01BaWktZ3BRLUN4WW9YLTRZb1BxeXNHZGpaNVh5d2tYVHJIY1JwblhWWms1YTRhZmRIaUxFYVRzTDhxaS1Dck1fdTF3N0pBRWZDcnlYWldyX0VQZDl4QVVHUGlBMGJXZ1NCZklHbi00NWJua2ZsTlM3NVpQUEtua0JiTEV3Z2lVZW9hVEFUWkloVFdvbG9zS0xrQzBGVFpkLVVxcDBaQQ?oc=5",
+      "source": "Les Numériques",
+      "publishedAt": "2026-11-09T21:53:11+00:00"
+    },
+    {
+      "title": "Les Hauts-de-France ont tout pour réussir : Nolej / Intelligence Artificielle : le nouvel allié des enseignants en Hauts-De-France",
+      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNZlV5YXpJb0JuVlBXMU1FUlltOUpfUEgzcGJaZk9JSlFLN2ZHekxQcWliZlcyMlFobjZydm1pWGFsQW5aMGhkQXp0R2FlYlRleUpJX1BvT1pEUjNpLVh5RFB1Q2ZyUEFURWVlaGZ2TFpycE9lQmtlNTVmNzdMdjE0a3FTMnhuSkhwUU5YVTB5NVR5a0lvMnBPMGloeTk0MEJLRVA2WnJVd3F1Zm85eXdhbWdicV90NEhMMGRuR0I5eVFBbXNjaHJVV1NFMHBNNXRWR3g1N0xFbDZGVGZpMzBRU0xxaTFfcVphaU93Q3V5bWpJZ05SOW5MVHRtRVVUWTJKc1B1UTlTRnlMVTlPMjBGLUxTQ2lFMmxrTGQtUkNOM1VURTNsOXRWU3U0ZnJZTFBTN3pjNG9MQklIR0EwcGpkeFFlMkticTlVWDZQOXljVW1vME9nUHU1R0FrN0xWQjZ6WnNwSUdn?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-09T21:45:45+00:00"
+    },
+    {
+      "title": "Le \"Far west\" : Emmanuel Macron veut interdire l'intelligence artificielle en cas de risque pour les enfants",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOX1hhS0FDSmhaeUJFcFg3UFVsVGEtOTg2VlNsVnBpemh5a1hZanFlWUR6blNrZmNaeEczVEt4d0I5WWJ2VG03ZFR2WmpJd05zZnRMaE1rajFfZGtRZE85OGwzOFdDSExSR04wb0ptVU9nR1JSN0FuVVVtRC0wUjR0bGZUaC1UNXNhbk9ObTBaQkJkNlBfWmwxd1J3V0U1UUpOcVhCNUQyZ3ZHRlZXX3BEQnllQWJpUXpBeGR4aUl6aHNHTGNKclJJM1ExeU50V1FYb3VzYUotU3d2ckV5?oc=5",
+      "source": "Actu.fr",
+      "publishedAt": "2026-11-09T21:06:56+00:00"
+    },
+    {
+      "title": "Louis Perez : « L’intelligence artificielle militaire irrigue toute la chaîne de décision »",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1pROHdNek1OeXZVNFJoZkRGcXNGbXgyWnVzZW5pMUtNRFZfNUJBanpFZXY2bUhRazJ5SkpkbUdDZ2YwNE1YaktxTUVaY2NzeHdZTzZVU1pIVWlQQVl6UzVockZYUDVUUnpkZ1BmLVlpbWJsNkNLUl9iYndtZGpVeWY0TGNCbU9uaU9Jb2lJbmlGUmp5ckdTMW0tb09yNk5RRDFKYXZiN2JranJXZ3h5U3B2b1J6T2c5QnhV?oc=5",
+      "source": "Institut des hautes études de défense nationale",
+      "publishedAt": "2026-11-09T20:53:40+00:00"
+    },
     {
       "title": "Nominal mise sur l’intelligence artificielle (IA) pour l’aérospatiale et la défense",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNHBUTXFUaF9ad2lKdlEyRnhCRGt6R28zMHlQS1RtaU54dkFHcFhOMUdtSElNRmxRWUNrWFF0SElfWE0zWmVRNGxDQzl1R0xhWVhIRlhab3VydkEzMVNJeXFPZ3B5anppc1lNa0tWNlhKN0pIdmp5OFU4ZmRwSG5vWU9HWmViMGMzNFM2NEZxaER4OFJ1SkdPM1VlRXFfVHd4endUaVhNZmN2NTZCQXFJa2RlYWt0ZTkwanpKeFI5U21zMmRDSlowUE5jcnBZQTBsSDVQR3VOUnVCQnM?oc=5",
@@ -16,7 +52,7 @@
     },
     {
       "title": "Ces métiers où savoir utiliser l’IA commence à devenir indispensable pour être recruté",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUFmMnU5NlZWZTdCc0hJRldvazF6NjEzOURRcDF4QnlBZHhlYzVOSnJuaEtVS1d6V0RzMXp3UTRiRVBBUXZnWlozSm1mQWVRc3lNYVVtQnlYeFJwTlVBdnhOMVEzNWxXT3Yta3lDSGFWQU9mV2g4bWdtcTFRZVhhVUk0WjNEWEpnYmtKSmpn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdFoySnZab29nMWZveVgzVXdXaVRSdjZPVndrRlg1emFlQmI0TlVhOTIxYUVEekQyX3dMVFNpWFktNGhXRGlOMWNndUVqeGFRcFpqZVllaE1MbkVNVEVyX1ZiQ1RwZUpMYnROaXVtQW1yT1NUdkR2cU9oRGxGbDRmc0tJcWo1dw?oc=5",
       "source": "Yahoo Actualités",
       "publishedAt": "2026-11-09T19:02:36+00:00"
     },
@@ -33,46 +69,10 @@
       "publishedAt": "2026-11-09T19:00:35+00:00"
     },
     {
-      "title": "L'intelligence artificielle pourrait bientôt faire grimper le prix de nos voitures",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUXgySHZ3cDNtUm95VnNkVllNVFNLbndHOC10eXd4a3kxcC1QRGFlRGZFMk9PWmJLdXFFRkptRGtTVDZ0SXhWd2ZVXzBTaEhZZ2J1WXhkVDZ0Q2M3MGtJeWU4U1JEVDhPSllSMmktdkFUNzVtNG1wamFyZUdKTzdzQXBpMGc0MkZjTG9qcU9fckM0akdGQ2NYN3FzTlNLZll6YmlRenlMZXo5Mm5PSEVCem1CeHVsMnhnaUNjWTRYZ3ByS1pkYWZN?oc=5",
-      "source": "Auto Plus",
-      "publishedAt": "2026-11-09T18:45:00+00:00"
-    },
-    {
-      "title": "Avec le Forum de Paris sur la paix, la France veut se replacer au coeur des discussions mondiales sur l'IA",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPal80ZlFpQjlTeERtU3J2M0dZQWsyMGtMVHAzMkliUllBeDBOQkNvaGU1cV9NOWlFZHVEUGY1LTNNLW05N3g1S3pjRVBGOUt5MEN3eUJEUVRmUFAtam1xVW9jbFhOUHVHN1A1dFpLZFYxb0c2b0xaTXhMZmFiMjMxU1NwaldnY2F3alIzblNkSUZpV2FUUFhCM0lBaS1wS3hTa0puTmlMWi1tTWtIdWIyV0ZiMmk5LVF4WXVtMWpEZVBEeHVXN0dadG9ta1BxeUVETWVxMWF2Yms2MHVGcXphQW1zSUVKU1VjTmxfU0V4RzRXWnRJbWdURThtYzhOQmYwN1VyMw?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-09T18:35:54+00:00"
-    },
-    {
-      "title": "Défis industriels : le TGV de l’Intelligence artificielle s’arrête à Nogent",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3ZDczhCanJxWTFrdENNa2djUVdwVzdpaEdpME1nbnhoY3FRbXdlZVdtRDNFRUlFeEx0Tm85bDF5TDFvT2RReDFlMjZZTWRlSWhQMGpDVXN2aVk2WkstS1FKdDZ3ZmVQQk8wZXlCaXhvLTNiTnpfcElBSFpZVmM0U3N3dE5lMWl5TDZoMW5uaEU?oc=5",
-      "source": "JHM",
-      "publishedAt": "2026-11-09T18:29:00+00:00"
-    },
-    {
-      "title": "Les auteurs du futur seront-ils des IA ?",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeGxNaXZtSXN1Q1dMQ2pzdVQxX3lGLXhrcmNjYXVETXAybVpySEVmcnRBWFExTzdFRHNKeUxWNUJsZkwwVkw0R04weDltMnZ6VVJoek55LWNwR0RHdThEVjFlTFRqUHZmbWVPa01XTHpPM3BsajJFRXVHbXhoTVZDanlhUTc3bEVTdzdmaU1hRTA?oc=5",
-      "source": "Radio France",
-      "publishedAt": "2026-11-09T17:24:44+00:00"
-    },
-    {
-      "title": "Jouets dopés à l'intelligence artificielle, pop coréenne, jeux de cartes pour adultes : les tendances de ce Noël 2026",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ0tkMzU5cERJeDJGMmM3VGFvMzJFUkowU1VOT0ZpYlUxdGJwbnVOV2JKNUZzdjNfaWFWLTR2UXNlWW1jaWtoVHhOY054bHNxZE1KQjc2d0xVNkh2anFhN0R3TVlienlPbHRUN0gxMldlM1BoeU9VRklMSHRwekpEVkFhZE9rbEZvUk5rbUZaOUVjZng1U2p3UngwZjRmeEtsNE15elJyNzEzNmtjclhMRGhreHBYYzE2LVM0WFhoVTd6andQTDNxR3Z1QjRuNHByaW5JeGRZeGlfMGJXaXJLR3g5aXczdmFVNFdydjFvNTNQZVgt?oc=5",
-      "source": "ici.fr",
-      "publishedAt": "2026-11-09T17:00:32+00:00"
-    },
-    {
-      "title": "Louis Perez : « L’intelligence artificielle militaire irrigue toute la chaîne de décision »",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOT1pROHdNek1OeXZVNFJoZkRGcXNGbXgyWnVzZW5pMUtNRFZfNUJBanpFZXY2bUhRazJ5SkpkbUdDZ2YwNE1YaktxTUVaY2NzeHdZTzZVU1pIVWlQQVl6UzVockZYUDVUUnpkZ1BmLVlpbWJsNkNLUl9iYndtZGpVeWY0TGNCbU9uaU9Jb2lJbmlGUmp5ckdTMW0tb09yNk5RRDFKYXZiN2JranJXZ3h5U3B2b1J6T2c5QnhV?oc=5",
-      "source": "Institut des hautes études de défense nationale",
-      "publishedAt": "2026-11-09T15:56:09+00:00"
-    },
-    {
-      "title": "IA en entreprise : la France championne de la prudence, mais dernière sur la formation des salariés et l’évaluation des risques",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOby02eXFoaERYenBvUHdMamJjSHE2WHEwSW5TRTRBNE1zSVdxNlVqamc2Z0hZNVlYVDBNME9hM01GczJ3N1dFYTNjcHNQc2hvTUNjMjczNGVBYmNCSjNuR0d4YWRMS3UzVkpoQ2pBNThucXpFd0VkOThyUkdidUtnQXYxY2pxa01pNWZWcERqMk9GcG9lQjFoRjF2Vm5VYnNOVWFIMmltZ1hVTHE2aGpjQTREcG82Z29zS0xJZXNjblVuRHg0VnRYaXpFM21LWmd1WnQxM2RIX2g4eVc5ZGNORmR5RGFVM05HcUVZazRxVzJpRE8wd3JQWkhuWnB5Y0VVU2VtcHhUcThObjNuRVNZdWdpUk1iZHY5djJfemtlSzVMMFRRX1hxVzg4Mk9VcEZCSUtnUmpB?oc=5",
-      "source": "L'Usine Digitale",
-      "publishedAt": "2026-11-09T15:48:59+00:00"
+      "title": "Meta Platforms lance le modèle d’intelligence artificielle Muse Ember",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWFFLbnY4STRYS1RDZUtxeDd1b194YUpKZ1NCMlBjUmJtSXp2TFJEOVFJdk9zdVgzWEJwTW9lWm1sQTJaV0poa1lrbmVuVTNJNFFfVWRTQ0lOUUhCbVdFejdPekl2dkFSTnB2c0d0VlpYSFI3ZVBEQkVhVndXd1A2a2pUcGdzakQ4OXBiMWtVNjFtRXF4cEtDbERGeldjeVRNejJVUlR5NzViNlh5YUc5aHV6aGFqTGhScVBpZWJXTG1DX0Z1emNUeWpB?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-09T18:48:21+00:00"
     }
   ]
 }
