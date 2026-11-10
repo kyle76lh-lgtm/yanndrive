@@ -1,12 +1,54 @@
 {
-  "updatedAt": "2026-11-10T18:34:46.041548+00:00",
+  "updatedAt": "2026-11-10T23:41:18.789365+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Camboulazet. L’intelligence artificielle : une soirée pour mieux la comprendre et l’utiliser",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTnNtYmNNSkVBWVgya3VlV051SHRySFJmSEtHclZQRktaNEZ4d3l4WmkwckFncHBGYmJuVUljeFR1M2p1WnZYSDRKbUJ5R2x3ckd1RjFKa3JrWVhWQjcxRFVMT1dCbzNMUkFsbTFVMGxMWktFLWVJNVEydDlTYlc1ZDJaUkE1bFU5aXI2d3NXWWhPcXU1dXVrcFdSbXNxMGVKcUFyVUt5TC1OaDRfQWZtbWduQ2I3dUVCMTlXcVFPSDZJS05oUzdvZnRacWZPLUU?oc=5",
+      "source": "Centre Presse Aveyron",
+      "publishedAt": "2026-11-10T22:16:00+00:00"
+    },
+    {
+      "title": "CoreWeave s’envole, portée par la demande d’intelligence artificielle (IA), qui dope ses perspectives de chiffre d’affaires | Clôture des marchés",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLUo3aExCdG4ySFcwRjZBd1RuNVpXak45Tm5ZbDRoMVdFQkpnUnhBaE1ldVNyMUNUZEJKa2lsa19maEVaY1poUms3a2U5SFdjVXRCX1JqdTgxTldEWWo2MGNRclBLWDJzSmNIalkteDBpNi0zWFlseTN0MXJFYTBPQm1VdFZJMVZYWWdsdFVWdXR2ZnZTNHRtRFFReFM2X0JFZzBHSEszS3NyNzZlSTQ4Z0cwTHdwcHM2SGQ4VmlGeVV6QW1BdUVqOF9RRUx3VEFMT0ZsRzFRb3V1cGlqQmM4TFlJSlROTndGQ3c?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-10T22:12:25+00:00"
+    },
+    {
+      "title": "risques intelligence artificielle : experts appellent à agir",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHpNYXB3UE9fbWljRnhBUkEwcER5cDk4cjgwN0doLXF4NFczQ2RzdDNJdGxDOVplSjlKWXQ1blBWTFBqbkFmRVpGSGxMZ2hHbU9nMTFsaU9HMFlIeWktWUF3UkVnUEM1cDFNbU1mM3FoeGtkUVVwMTF3VEEyaEd3NkFkTGE3N1ZLcGFNQ1hBc3NCYXBqZlcwT095NWR6TGpMX3E4bWlIbm1TM002?oc=5",
+      "source": "Sud Radio",
+      "publishedAt": "2026-11-10T20:27:24+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : la construction d'un data center d'Anthropic à 10 milliards de dollars fortement contesté au Cap-Breton",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQZm00S3lqRlVLYmcyMVJnQ21iS1MtM2otZ0lKNUNES0RxdGJtbUl0OG1CekMtdFgzcTlwdkxpMHNEblJ6eTRaVGVlWks1TDVSekJ2Y2hpZG9RVmVmY19mTjBHX2NROUN1aEZ1QjFOSl9Td2FJRTZVZFpVTjFoNkY5d2ppZU03aUl6X0VsNk5CRUstUEttaUNDUmpjZHJnWWxzVFAzSW1iZVg5U3d1WGFRdGQ0cWtxenpIaXBXXzd6WTVhR1VwQXctRE1VTW9kblRUUjVxQThtX3lKMDlUQ1J2STVLaWR5QlIyNXpyRW1DcXhBRHdqQk5TY2dQZExObEtKZE1GdEVVUS1YVGJYNm5CdWMyeElMQzdrRXpj?oc=5",
+      "source": "Outre-mer La 1ère",
+      "publishedAt": "2026-11-10T20:13:59+00:00"
+    },
+    {
+      "title": "IA et cinéma : des professionnels du doublage saluent le CNC pour son «premier pas»",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUUdmVVd4QVFxTEpQRnc4X2ItSTl4X0xFekhyQVhmREJLcEZOcHVfVkdzS1IxTUZCS3JtbnFqTk0zT2FzNFJGdnQtZmZvSG1HM0RTeTFqanNpYlVPZGlGZzBfYzg1LWRMRVZORG5FelpaWVVGZGlZQzVhTHduQ1JsOFhmU1RpdU9JR3hXdHBIVUcwSUZSX1ZZeGRULUxSX2NKY1VUcWQ1cDN1OWFtQUFhS0stZGtUaDZfTHlaaWJOaXZWVTJDZ3VQczVua0hhOTBBcEpLYk1WMl92VHdMVFRXUVY4aFM4N0s0ZHlIRXFB?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-10T19:01:19+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle s’invite dans le tri des déchets",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOM04zTTFwZjJwUFdmM1J4MmxkRVVkRDJ1QzhyQkQ3ZVJ1cHZDOEo3UWNBWWV3eUlzUXBlN0NLbkNGR2JxcU90UzkyZWVLc1oyZlVZSGR0NXFTSmItaWNYeUYxMHhMLTFQbGptUG56TmRJUUdoWDVtUERpd29MM3NYTkpmNWRkN0k4VDNHcFY3eUVDWk1lRVJrQ2VTTWFBamZueFdoZXBaRU1mMF9VTDNTeE10LWw1UHVwTnk0eFJLVkdESEdwNE8yWXZ4ZkczWUxkbEU0YUFWT0tSOGtFVTlXMXZzYnBiLTJCaTdlQVgzYlJDeDg?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-10T18:41:44+00:00"
+    },
     {
       "title": "Intelligence artificielle : un rapport préconise des tests indépendants avant le lancement des chatbots grand public en Europe",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRHJLTlZiRlVjV3lKbjVsQ1VQV3J3NkFYeF8yeUFRQVZ0ZXBoOTc3T3JEenh5N3o2VVhrWjVral9MeDJHLXdReHdZNVVzNWVUdGF2SFZJcnByb0xSQUN5ZE9LTWVpUHA4dWNTc3NFaUw0Qi1ENjJwWmw0MnpoSm9yRTkxVFZwaEo4MldsRzhFNU5NZjRPZHBSbk9TOV81Z2FnQjExVVQycFF0cnRJYi1fS2RRdVdOMVJDUERETWI3T3YyczAwbktNT2xqeWNnTGVwQlJmaURmRVRfOURVa2oxY1JteGd5Ti1OeVdYRW9weGNLRXQ3UTZzampZd0d5RnJZUzhN?oc=5",
       "source": "ladepeche.fr",
       "publishedAt": "2026-11-10T17:49:00+00:00"
+    },
+    {
+      "title": "2CRSi étend sa présence sur le marché des infrastructures d'intelligence artificielle...",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMW5pd0VIWWJ5dnljNVppZ2NfNHU3VzA4UVZpWXQtUUpvLXlHdmVyUFpJVDI4bUJ2aEpNV3FuZkozT0JjQkRSYmxFVzBNc1BLdVBLNklnODZIdkgtQTdxdTNxRi1DNDRTbkFEVlcxcVEyMmZ5MXM4ZlFJNWtLMkVRMTAyZ0pIM3V0aks0R0syNzNQV0FrRE1pSXRpckFjRzhtWGtLeVM3Z2VmM0dmZzRxdmlIcGIxS0dhUXJabFFENmpXLVJZcWFISXBvRdIB0AFBVV95cUxPbUlQekZfTVlxVjFvTEZwdUd1SUoxSEdGdVlrX3RaT2VoYzhHSkYtdWstT2dNelV6MWJMbEFqa1NfUUNNanpjbFNldUZ2aFE4T3A4UE15THVLa3R1S2laRnVWUlVSZU9EN2lGZUd3RDZMYWlKRDFRRTNyd3BtaDd0c0FKNm1BbHlOTFdRRlR5M0ZZb3FyTmlfelFoMzIxMlpFd280aWM3bTJiQjBydHZoTnAxYWhBUUpEMS1ZNEc5RkppZnFVM1cxV2h6TWIxSzJB?oc=5",
+      "source": "Fortuneo",
+      "publishedAt": "2026-11-10T17:12:00+00:00"
     },
     {
       "title": "IA : Anthropic vise une valorisation de 1.400 milliards de dollars à Wall Street",
@@ -18,61 +60,19 @@
       "title": "Emporté par les doutes sur l'IA, SoftBank perd des milliards mais garde son cap",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMkx5VW1MT3lDdk1aX0ZHSTZCUlBsNjJKYWxJVzdSZ3d0ZjcwOGF2bXlZQmhqd0VfYWQxbTZZNnB0RXJ6WVdQaEczZUhDTUhwczc2YVhCZXZLcklfTVVVNmxxeW91Q2dXcWc4eUpDbzlGOGZjMGVFMnU5X3RHNlNnVXM4S1lmZWFhbkxiY054YnRLMGdCWEZHd3V0Q3JwclA3NERTR01HbzhJNUtpRGxhaXdETzZXZTF0NllLVmlIUDI4bzR0NGdRQ3RYNml2OUV5a0o4Q3JjMU9HQVB5bWY2TA?oc=5",
       "source": "Les Echos",
-      "publishedAt": "2026-11-10T16:32:48+00:00"
+      "publishedAt": "2026-11-10T16:32:42+00:00"
     },
     {
-      "title": "Un outil IA capable, selon son inventeur, de remplacer 20 économistes du CEA pousse dans sa « Morning Note » un article de recherche qui lie précisément la montée du chômage aux capacités de l'intelligence artificielle",
+      "title": "Un outil IA capable, selon son inventeur, de remplacer 20 économistes pousse dans sa « Morning Note » un article de recherche qui lie précisément la montée du chômage aux capacités de l'intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQVnNUalYwbkdKWFdjN3dJbHRxdmFBNFZHUlVBMS1WUmFyN2g3clZRR3pUYjdUcHE2TGRuaUI3Z3FyU2xOOWtKM3NUeUNMY2c5SUJxZU0zTWxoZnN4c2pqd205STA2dDVJOUViNkR2Ykw3T3B4eDhHeGZiNlNtMXhDOS1IelVKRjk0bllwTzZLa0VXZVR1a29aazd0VTNyYmE0ZmVWSXpFM2NRZzZreUJfWFlieUE0MFlkdjhqZWw3MUxTdHVjUXdnWkk0a1lfM0tQN1VsOE1KcEsyWEo0SV9XbXhzR2I5LVJBdm1fUkdlRXZBNmlJNE9OaDZnWm5walNEMlpOT3k3el84amRqbWg3NHItMXd3WU5WYkV6bTc3YXlhNXY2bjd3azQtZkxWMTl1d3NlZGlRRGJTV2tkOVViY3h3OGxubFg0cnI0WXlwWklrZzRKLXZWTURLdnBWellRRDRzMGlJVnZEUmFKUWZqdFRSR19OamVmZm9qbkpRZlpmTjhjV081R3hwRERTYkhtWjhLVUNB?oc=5",
       "source": "Investir Les Echos",
       "publishedAt": "2026-11-10T16:29:12+00:00"
     },
     {
-      "title": "Immobilier tertiaire : l’intégration de l’intelligence artificielle dans le quotidien des salariés pourrait nécessiter la création de « zones de respiration »",
-      "url": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxPcFJOT09ZUU5vR1dDd2NMYVFlZmdONTM0QlhJSGRzZUlXWDJFamt4em5ZcnpVaXN1SjdTcHB0MXRCMVlYSUI5S3REdVNfZzhPWEFyVGFQUzBSNDUwMEJVamcyNzJoRmZUaXdidWtILXBHdUxSSVg5VU5GQnN4N1h0S2ZiZ2pEaGRsSnRqT2hRbEJESzdaWWFwaXpEUy1xLXZJTlBqZ0hjVzJXX05vLWIzVHZacTNwYkZhcDAzRGhXLVAtSXJTX2hCQy1XbTEzaHVJWHljNzIyZmcxUnEyRExveHFKWjZBMFZaY2VaV2NDbll1cjV3M1o4N0FhWDYyZmlZdW1QRnhPcTNES1FSVk9VUjBkczdzZGVBRExsNlJoLVRFNC1iZlpGTTFTRzg4cmJCMG00NGtPVjRhV2stLTJrdHVzd04xdV9yTDI2RkczSXpmZHdaSHVsQllrVUR5bDlsTUE?oc=5",
-      "source": "Le Moniteur",
-      "publishedAt": "2026-11-10T16:06:38+00:00"
-    },
-    {
-      "title": "IA générative: face à un \"affaiblissement cognitif\", des experts appellent Emmanuel Macron à mieux protéger les utilisateurs et formulent 18 recommandations",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQaVNRUEcwMkI5MUhnTTIxZ1VqcjZERUdIQVJHQjQtTWFxLTBSbV9qMzdQQUNOMHNfZ292bk8zbGtZNTdtQk9ULWJYc0lFclhYV2NLcXBDN0VvTWhUOVB0WUplTEp6bzNqNEpBZ29QbEpNc2dLS0REX1NBMVJ3VzEwWmg4MWRJaUlUUlV3d3pCWGtMZ1hwcHhTbFQtUkhYZDJXQlZRd25sX0tWUl9Vam9VYlNGSUJYVmRBUS1qekZhNzJQR3ZveTlWQTUtLUxLRUdDWnI1bGk3ZTc1cnRDVVZXOTBTQmktbjZrcnF3eGdVMmFJWWNwaGJBaVVXb2w5cDFYOFh4U2FyTWlQSVJVV2tjUExvOA?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-10T16:06:04+00:00"
-    },
-    {
-      "title": "IA, cybersécurité, marketplace... Orange se rapproche du modèle de la « super-app »",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUERiMnAxVW84LWg5SHVBNVl4eDhBVk5sbi1kWEpIUEp1U2taSmVxcGI0RlBFOEw5bzBTV2pXc0JBY2trU2RQeUtxSXA3amhXaUNSUmNBZl9uYmUtMFdBLTZCS05OQzEzTzJnRDhDSTFQVVNhbkk5YzlwWDMzUHlkQkFOLUdkOElPQjFPM1pDSzlPWC1VY3Zha2tKLUdacWhhcHd6cGw4OEtoRUNHcTNTN0g0QWxZTHQ1VUVwUmoyN2R2R09sQVRFU1I0V3RoMzNTYUE?oc=5",
-      "source": "La Tribune",
-      "publishedAt": "2026-11-10T16:04:18+00:00"
-    },
-    {
-      "title": "Collectivités et intelligence artificielle : l’épreuve du feu",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNemF2bS16SGNkOHZMbWwzRDVpcU1rT2w4ZmNrTW9IbG82UTFJRE9pSkNyNmFwNWNsMHRVRGFrVDRpQWF5TmRvV3F4NFp2d2Q5QU9hR0NXcUl2SjhITGpWaGxfTGdDeEtKT0JaY3pFT3dNM1dmdmV6enJyVmhkVkthTEJOZVdUWmVmZXpBWDNLUjYyeG1wYk00Z1RhUnppNFkxUDFIZFRCTVNTajBGRXF2TWozTXlNTFdKUE5QZkdkTk5uQV9haDNUQloyNDFvaGJ6UmlR?oc=5",
-      "source": "La Gazette des Communes",
-      "publishedAt": "2026-11-10T16:00:09+00:00"
-    },
-    {
-      "title": "Pour réguler l’IA, l’ONU doit créer un fonds souverain mondial",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNW1QemZ4SVV3LW5QRFFnVjZxdVg3RDJycWlONnpPQTFqbUtRRmYxRGNyeVZMODNiU0NXSEkwWUNzU3E3d0ZscFpMNHBaWDh1RTVoaWxCY1VVVlJybzRmc0R2OXpWb2JnSGtYRFRsb2Q5QU8tc0dNWHVPblpQTlU1cUduMzhjeldtajVaaUpxeHpaUEdJMHRyVlNfb3pRaG01Ny1VcnhJa1hiUGRnaE41VV9KV0xVZmJIaGRqTlphZFBWZHd5YzhWQkx1S3U0aWJIcUZCTA?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-10T15:49:16+00:00"
-    },
-    {
-      "title": "Il faut faire en sorte que l'IA générative ne nous rende pas \"bêtes et grégaires\", alerte une pédopsychiatre psychanalyste",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNazVnRHZlNnFTcERNTGxnYm1jVlJGUHVCSWdfbDc5YllmYXFQMzJEUUxHa215T2YzbU41clpUQ0JUa2pYM3VySDFRa0pCTUFFX0RrMWVaTHotOEVPd0EtMkdKemxoaF9rWU1GSjdCTHNFUnFOMXFpMERsMWRjQ2wzMl9PM0FVdDdnWHNtYnhQcEtuakdZeFhlczJuNHZzWWtub3JxODYtcFZDd2x1M2oxZ2xpVVRzNlFibEJiZmZVaXg1YzFFUHUzS29qQWI0S19JVUhfRFN0TEM0end3bUJkRGRraWgzN3picjNONWp0aXdrN0lRNXk4LU80SjQ1a3R3OUI4amxOc0ZSR0MwWnFmc25TUzdwaVJUeEFCVUpR?oc=5",
-      "source": "Franceinfo",
-      "publishedAt": "2026-11-10T15:44:40+00:00"
-    },
-    {
-      "title": "La start-up d’entraînement de modèles d’intelligence artificielle (IA) Mercor valorisée à 20 milliards de dollars lors de sa dernière levée de fonds",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMkZxSWFVTGVwU0xlc3NoWlBJUjRHMGYxdjdmM3IzbFVhcFIwY2V0TzlJb1hkT2hpeTk4TFNNeHZkdkhHbUVaWE5LUDFlVHNNckZKTm4xZV9mbC0tSVp5Nl9ycGRCbEhLZS1yYWRRQnB6cXdDeWRXaFlINEYwQVJFd0p0SzYwWDBNdnF5MWhRVWFmZmJlWjRFMm4yOTJ6cm1tUkxlTWVObzd6dzBtRmtORGExczJsNUp3cWdDOTBwSHhjYmRoUWRsWDRCSlhoRUFnSDhGNVE3QV9nTWhzUmpwLWh3bl94N24zSUNyVA?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-10T15:36:17+00:00"
-    },
-    {
-      "title": "« Les dépenses imprévues sont devenues la règle plutôt que l'exception » : comment l'IA a fait dérailler les dépenses informatiques des entreprises",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQTkZNZks3UzljUkM3Wk5lR0JLU3dHTzN0NjdOejc3NWpPNGk0X2pmZEZjZ2I2TUVPQXVEREFJOFg2V1dYaENDamQ3c05POV9FQWNpWTViTm9OWjk5VDI3dXZJUDBnWGd0SHRET3JGSzMyNTluM20yWWNiX3VON0xQRGZrSDdtcHdhMlg3LTE4Y3hNOS1aQ3VpMkJyTTZIUmdpS0lIbFNtbUxHNWFnSzYtOG1KZk5Qdk53b1ljM01OY3JFVElOMDVtZS1WUmt2X1oxRWFDS25CVWVBaVBrdkFTd0JwenBxdF9sWHhqUWNTWHp1S0VuMzRJMXVjYjZFWnQxSDBiNkRpUGtCUWxBTWxJbnhwRXJUZFVRalFpWmF0enNqVUFfaTk5V0NlbDNpeEI1U2NV?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-10T15:08:57+00:00"
+      "title": "L’IA aide les artistes… une fois qu’elle leur a nui",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZmY3ZU1QM3ZHWUJRTk5wY3dod0dyeF9SdW90Zk1ERnJndG92NFBSNVhFVW8yTEZoenlUSWZUNHJmcXgtZGNSWUF5cFlKSERuWUU3T1oyeHktZFFQWXBhQk5jVG52MW1HT2o2Z2YyZUJGLXF1RXpCQkRsNTgtUG1wLWNYalRMMEJmbjhv?oc=5",
+      "source": "The Conversation",
+      "publishedAt": "2026-11-10T16:10:06+00:00"
     }
   ]
 }
