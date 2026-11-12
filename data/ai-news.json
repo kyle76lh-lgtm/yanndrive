@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-11-12T00:34:54.945437+00:00",
+  "updatedAt": "2026-11-12T07:41:13.254663+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA distribuée : rapprocher l’intelligence des usages pour transformer l’expérience de travail",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWGF2N2VwWkdGWHFwRFRlVXhNQ09jWjJ3MVBkV0NwT2p6aEhaTWZkYlo4eEdIX1pSTXFiQ2g2ZWZRU3VDRkJjR0lrUldad2FRN3VHTmFBYmsxZnBqN3AwNXNzZHZfWllIZE1IU3pISlFYbzVqNXJqV1F0ZXI0QUh3WGJUU2ZCVVpLZ1I3Zm1fSy1ZRjZsaExmTlpNUTQ4SzlXM3FIaE9MUDJrcy1CZGIxWXJabjQ0aEQ5NWZUUzJwZDcyRUk3YkxzaGF4Q3J4cjZkOVgxVA?oc=5",
+      "source": "Les Echos Solutions",
+      "publishedAt": "2026-11-12T07:27:00+00:00"
+    },
+    {
+      "title": "L’IA s’impose avec prudence dans les habitudes des investisseurs",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZDcyRnQ1UFNCTEl5aFNkYU9hNUZhczE1ZWRxeEF5YjF0enRWZ21QZE9wLUgzRTZrVS12bGpNNWJPQWd1ZDhLYzBzbjVxZHZLNWFuSWhFNU1fQ05sVUVFU0V6TTJzVXhVeXh5eGlsSWpXWXYtekNBbC03ZWU5Y240cTJBNEZvaGNqOEdBaEcyWEVGVDFQejdnWWhBN0JSbWFTWWlCWTRLV29vQW9JakNrTDJ1YVJCendUcTNRQmlFZi1ZQ0QxNk9Fb1ZYcUstZw?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-12T07:00:12+00:00"
+    },
+    {
+      "title": "Comment les partis ont mis à jour leur programme sur l’IA pour la présidentielle",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVmh3ZEVsOWlWamgta1RvWmNFS1BoUUJBV2Q0RjBOY000Szc4V3J2dXZRakVHdXZYYW1CUEhFYXhGTDZOSDhTS1pra1VTd01WZFdDanM4XzFxendpR2trNmczZWJpUzN5a3VOOE9lTEJZM1JyeTJSVkV2cmhIM0d0dnpXUTQtR1QwbndCbm05YkhTSjV6Y1lRZkRaNzgtdWxlOWFIcXlaSEQyTVRQVVZjTW0yQVVoSGNsalVuVkUydXBlbjlnWWc?oc=5",
+      "source": "Contexte",
+      "publishedAt": "2026-11-12T07:00:00+00:00"
+    },
+    {
+      "title": "17 offres de stages de Master en IA dans les laboratoires du Grand Est",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRmhRVTdiRFhyU2xGOUpuLVZ0TFVRXzNkbTFzS1h1Q2ZXUVZobTNlelA4M2JlMzZqWlYwMmFCbkx6VEZkU3JiUXh3djUzZV80N29EemZZLTRaME1fZ0RJRzdrWU55SFJiQzk4QTdEdnlsVV9iWDk0aVp0QWJhTTFyUVJOMDMxNzE5aVR3MDJzMEhHYWVlc2N2Yk1RUzJ0elduNHcxbk5tU2NmaG9ZOWd5WHln?oc=5",
+      "source": "Université de Lorraine",
+      "publishedAt": "2026-11-12T06:04:10+00:00"
+    },
     {
       "title": "L'IA, un avantage concurrentiel ? Performance, risques et souveraineté | 12 novembre",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXpBM0pmLW05Zi13SkpJRmZCMERValpGWDdGQkhnSWI5MXdtZnVpbklkdF95cTNwNHVRcElBTTc4OHpVTEwyQTMzbHBJWlZzV2RiZ0Q5RkVKODN0TE5sZnFPaFBNaE9HbmN6N1JCMTJ6aHpCMUo0dHZCcUZFNk91aDU2UGdvcTMxWDlKU3lfSmdzaEpiQUFUZWpuRHpjOTRxdlJYQnAwaGk4S19Vci0zRlZ5RkRlVEs0SDFGWVdR?oc=5",
@@ -27,52 +51,28 @@
       "publishedAt": "2026-11-11T21:01:13+00:00"
     },
     {
+      "title": "United Airlines cherche à bloquer les agents d’intelligence artificielle sur sa plateforme pour des raisons de sécurité",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQaUtQemJZX2VQUW0wNmdFT2VMa0l2a1VibHVjcE5UanB3UzgtMWt5VWZVdnFtdEo1RFM5UmhBSGZRR3RGb0VZNUJzVVlzaE9rYURmRDcwcXk0X1BvWDlSd0FocURfVERGcFVBTXY0Z2wzVlVzd1Y2NnVpYk84cDJDak92Z1JrSG1yUzV3V0x6ZnRzYjM4Vi1BVVoyNVBLN29IX0p6dkxGX0NOUDcyZzdZSmxCWWZ2emxjTFdGbUtOSW1VaWx4RVdiRk8yNlpQa2pBOVM0NDhabkY0a01zeEdlYlFsVjFrc1V5bjVKQzRnRE8?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-11T19:23:17+00:00"
+    },
+    {
+      "title": "\"Un risque d'uniformisation\" : cette commune des Pyrénées-Orientales dit stop aux visuels générés par l’IA",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNSEhDa3lMOFgtTE56XzM3QXNFbExGVlRUdENMM2RjM3FBMTFNZkZwWHZEZU5zNVBkWDJNNVBVU0F4SDBGaDZaNko0ZmtxdUZzdUsyWE56ZDc4X0xJVDNJeTV6VF9TY29KQ1FHVHAtZkU5eTRVNW1EUmNxaXZ4cXdONFRiSXNKUmxCb0xCWTN2RXljaGN0OUJ4TXZaM28zb3Z2OTZhY2xlMy1JcFhnbktFVXdxeE9Wam8xN2ZGZmlwSDNCbUh5cE9hX0RwRmRkTUpXTHJlal9Tb0NUTkYtZ2hUaC02THRhT3I4czFUeWNMQU03bUd5d2RuLWc3TmVFaDgwSHc?oc=5",
+      "source": "ici.fr",
+      "publishedAt": "2026-11-11T18:48:23+00:00"
+    },
+    {
       "title": "Ovnis, intelligence artificielle et sabres laser : le festival Finistellaire revient à Quimper",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONGFMdzI5OHM4NElCNVN1ZHRlSWF0ZFFTWVpFenhDaTdBVHgwRFZkelhrMXk1UlNMQnY3dnlxN1NLVGxKdzItQmljUDNhMkpjUlAzZV96RnlkbTNxWXFpNlM1X3ZwVWl1aEFOV3REWVRfSDJvTkRPYms1X1BLV1lKZXZuekdhZThNbTh6SmY4TjZQV3FTdE1vMFlwUFlGZ1htZVBQTDRYclBJUWhFajRWemNpWl90TUlLazRqcEhkUVdNajV0a2c1ZURXN1A5aTRXdmZkRmlFSHFONFJvUk5sX3BGRU5SYU83U0FxN1owSnVtbWZlelI0SU1Nb0JCYkNoVm5MWjk1a2dsWFU?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-11-11T17:39:30+00:00"
     },
     {
-      "title": "Pour le géant de l’IA Anthropic, le pari risqué de l’entrée en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkJrbGhHNDl4bDl1Q0JHSEp3TW1CYjFrdWtiQi1pSVhsZFdURmF4WWRPY1ZjSDBvaFdZbEV5QXFidElPc2ZXU0RwUVBoSGQ3eVF4U3RQLUxzUEVIbXZIM3Z2YTREMk0yMTEwNjFrYjgxNWlHVWYxMWJKUFpuZjB0Q2ZNQ1lFMktBRGJGRW9iQjhsRjFaeUdINlEyeHNKZ1FCcUFZRTVXQmt0TlJiOElBc3A5Qkw5cFMwNUU2OVpFNmIxMjFnUFE?oc=5",
-      "source": "Mediapart",
-      "publishedAt": "2026-11-11T17:30:32+00:00"
-    },
-    {
-      "title": "IA : votre métier est-il en danger ? Découvrez-le avec notre moteur de recherche",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQXpNekhvazd5dHhyX0RCOW4wLXFTU2o5YmNQOHRBOU9INlFvTXczQ1QtVDBKVS1jbnFzc0gteDlrOEV2aDhabURSSV9LaGhHdm05OHBPSjQxRXJncVJ6Uk1RY1ZCSmRzNEZtaGljWVIwRmlLZWNjbUYzVTVraUw1U2JhcktYMVZBSWdWcXdyLTY1NmxsTnBRUkhxUTl4SG4tQm50N29Fb1lISlZHZnl6WEkwbDIyd0hOVkdyZHFhNnJXTlZFUGZfa25wd0JieFptc3c?oc=5",
-      "source": "Le Point",
-      "publishedAt": "2026-11-11T17:30:00+00:00"
-    },
-    {
-      "title": "Pourquoi Getty choisit (finalement) de pactiser avec l’IA",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVzN2U2tuZjVka2UzSC01UGc1UU5vTXcydHBaeW85ZlFuT1hqcHl1RS1zYVJ5SElMRXdySWNaZUdNaHFSYXBBMHRzSkcxVlpfcFRPVkROdkNhRnBWam4tblhZU3lyS2NBdUJqWnBMb2pTM19VRV9OWU00QnE5S29SX0dUMHl6MFoxbFdQNE9uSGxLa1VERWNTMGdualNSZUIwMjBOZTBMcEVaMXRVMjAzSU5pZVNuQlgycDcwa1VLVTRlMEZ0R3ZvaFNPOGxmb2FReGk1ag?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-11T16:31:47+00:00"
-    },
-    {
-      "title": "La question du jour. Utilisez-vous l’intelligence artificielle pour chercher de bonnes affaires sur Internet ?",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPV1V6NUs5TEtTV0NZRnVNblB4YzBwY3VtMXlUczdJV0NwOFdmaWpzWnp6R3hwMC1KaUE2Wm01WWJ2Mk4xTmVoTjBVaDhnU2Y4TnprUklVd1dZUXAxeDJNaXBpam9LX2FxYm5kS2xFSE5RSkIwdEVaT3JpSEFHMHVaa09CdFhudXoxNkt5NDRIY3ZyM3JPRXg3MDJ4SThSYndIMDdfSEF1bVppY2xVdERudTA0dXl3UkloTUNaV0NGT19MbU1jUHhWLS1vN2lSR19sWFh5aTdnOU5VQnFEejNrTWxlY3haYVFiRC1oaDVYMkVIT0ZlT0tJMW0xSHNXazMtT0EtZ0g2aE5ucEFBYW1xVnlxZnpuOXFmTGRraHFCMi0tNXVaREZB?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-11T16:29:02+00:00"
-    },
-    {
-      "title": "Wall Street : le Nasdaq bondit de 1,53 % grâce à l'IA",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTRFalhmcWtQZF9oRUZIeWVmX1N2SDNqRWtOZmpsR0ZFNlhicTFvOUVvNXpCRDE1bjExWTlVQlI0YnVjajBWUWtUV1VnbFNtNnc0Y0gtNllhTGFRb2tuV28tR1d4Y2hEQ1F6dkRxcjJxeDR3NFZReGE1dE5rdnowUXVnV2FJdVlDTEFyLTVkREl3OHA2SjlqaUZQR0FObDgzYjJhS1c1OFZ4UQ?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-11-11T15:56:00+00:00"
-    },
-    {
-      "title": "La start-up britannique de puces d’intelligence artificielle Fractile atteint une valorisation de 7 milliards de dollars lors d’une levée de fonds",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNlVZTVIwZS14VE1xNUNCTDBGQXRwU3E2T1JBWWhsLVV2SUxpRzUyeHZpbS1acWNIb2dqM3hZWmdObjJoWGcwZjA4SDlNQ0FEbEI3ZFpnRXNzeEJXMTcxS2w3bFVEaU4yS1R0MGVlQW02TV9vWjlzQVV5WDBzU1RZYVNUeXBCX29ScWM1bXNMVkRZd25rVjBQbWdVZmxpak5DTklLcmJieXRLWDZTcEpRY2NEWGFhMmtjM2RGWkN6OWk0ZjltenZrdUFGQk51SWNQaGxDZUJja2luWHl3R0JDUWo4SVZpMGRXSFRNWGpYWEE?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-11T14:49:41+00:00"
-    },
-    {
-      "title": "L'IA, un outil précieux pour les prévisions météo des ouragans",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSWZqU2FMUmVJWnN1TlNjckYwSm8xWTlmOEhUblZONVhHNHNEMzZ1dVR1NGpLSFNGWUZPVnU4X3prU184U0R3MmdUWGZvZDFJb0M2TnBqODNMbVlPSV9FX05IQlY1ek5tM21IT0lXY2Z2VDAwQm1ocVlOcU1jQ01PLUZmVml3MVNFbE15WmhaZ0NROTczemNqUlNGTkdLTFVUc3FFQlBjNDZUd3h6bjhV?oc=5",
-      "source": "tv5monde",
-      "publishedAt": "2026-11-11T13:57:00+00:00"
+      "title": "L’intelligence artificielle dans l’éducation : comment apprendre plus efficacement à l’ère du numérique",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcEIyN3RVdjRUejlLdXMwd29TeWtfa205MkRRbXpWa1duUFk2bDduT1hHYzJFWnpsSnN6SjBSMWpaV3VJYkhSRVZOdTdhZUZ1a0NuYk1DNnBQdnpfdlRDVnY3ZTd5cUc3YTFNSlkzdTFMVHgxRHBVOHBnU2M5MWY0My13UkQyZWNZTVh2d2lTbWkta0Y3MHRxQlVxQlBYREp6WUlVZXFpbGE2dzRvbU9kdU9FMGJKcFBtamk4?oc=5",
+      "source": "VL Média",
+      "publishedAt": "2026-11-11T17:32:17+00:00"
     }
   ]
 }
