@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-13T17:38:12.260001+00:00",
+  "updatedAt": "2026-11-13T22:51:31.701315+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUtOTWFJc2h4MHRYMW4zSHdPUHdEbmczdzZHYXVjX3FSMGJkSXd1TW13QlZOcmJVMHRZNXVuQkg4UGdKTk5fdkhjckJYcHE2ZE1jTW9HdDNQWGkyTzhUVkxZRmQwSUJUdlpybVhaTXRsbHlhbEFOODRHX2pIX2IyMUJaMU9BSUFscWprdlRFVTVvQ0k3MnB1cFhtOFFGdlFFdUdBNENITzY4TTJHUVY1SWNXd3hvRHRwci1KYXdjVkVPRENjSG5SVjFkMXZvRWl5MTdJTTA4WU4tdlktM2pzc0xDR0c5ZFpqY0pBX0N3VUc?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-13T22:24:13+00:00"
+    },
+    {
+      "title": "COP31 : assurer une information climatique fiable à l’ère de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16WUJMTHZhMnVYNzhjTlBKWkpMT2VQVVk1MDIxMzVtY1RRQmdMWWRYcWN0WWZiVVJWRjNKbnNvX2ZTZkxlWlZyOHF5SmNRWFI3RVFteE1Kcw?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-11-13T22:06:53+00:00"
+    },
+    {
+      "title": "Relationner avec une intelligence artificielle : «Tout ce que l’on dit à ces chatbots est potentiellement public",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOY1lVVjBOSlp6a2xaZk1PS3ZaZ3NteHpKT0JvSmVIVk5PWTQ5a29sRXI1SVRSV3NVS210eThEazlZVE1RXzB0ZERZM3BFUmpDSWpERndWdzFEVzJQMnF1aVZVVlY2ejF0Mzg4RnJUSUhrWWVoTllLZFVrTTBpUlJSaXJtZjgydklJaFJCOWVWTGNFWm9DMzcxajd2SmFZa1RuRnp1MTcwbWZfNV9VM1ZvSl9PRndXUVRSMXlqbjNVc3V2cXhCYmxvWDlERG1yQWZuZVlGUDhZWm56ck5USG5wQ29wNWQ1aGNXOE9sVmpHa1FiOW41dm9KaGk4YVBxemdoNFFwTUgtYURrRjJmYy1iaUt5WGU5d2s4alZJ?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-13T21:20:21+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : l’Union européenne sommée d’agir pour rester dans la course mondiale",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaVdNRkhWRUR3OS1hcGNOU0dRTEJ6OV9TTEpyMW03dTlzYVhfRTVCQTVvc0oyVU5KQW1lWFd2S05faWtuTG1xMmJHWGhudHhUWnlLblhUWjBMQkxPYWJIWTVZbnpqRHhXYTZpcmpyZkcwb0dNb0lDdmRwenNoSWlVYlNPRlN0N0ZGNGtQT1FOQWZyY3QzSmVZNThEdGU5X0VfZlF3VHlGVm8tRnpRa2hzd1hYaUlGV1BUWWFUaTdlVzEya2N2cUxOejhxRGJNSGMyNkR2VVlVQUpLdFNJbzR6NkVVdEo?oc=5",
+      "source": "lanouvellerepublique.fr",
+      "publishedAt": "2026-11-13T17:59:49+00:00"
+    },
+    {
+      "title": "Le patron d’Anthropic appelle à ralentir l’IA après des incidents où des agents autonomes ont pris le contrôle",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbzZmalV3UTBLYi1WN3ZOTjIxdl93cEJ1ZTktdkRVaGxUYzhtMDZzX3h2UHo1d2liSUwyVUlmRkMxTk9qMGJJM3l6N0lVZUFsT242Q2VDTmM3UHVTVUFJbU93MzhVNVpycUN0LVZsZU1MRVFWQ2VJRU1hemRFRXdMQWZROWpVQlFEdjFnTVVrUjUycGl0TU9udVBNdEUzUlpRdl94R040NU1LTDF4WndNMmwzemZFbUhuYm45UnlOczU5YTFsYW9uZnlhS0tMcTdBb3c0czBuWVRuZTdPZGIzMG82eTdLZUpsY3hrXzVNZmp1QjEyaTdaUg?oc=5",
+      "source": "Le Temps",
+      "publishedAt": "2026-11-13T17:56:00+00:00"
+    },
+    {
+      "title": "La France officialise la création d’un centre international dédié à l’intelligence artificielle militaire à Rennes",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTXRnS3JNYmRYLVV3VEd0bXpsQzZndVpBNkZnZDR6dkRvb0xIUUdRMUduWENMWEhJclg2X1RXWW1xazNodl9FR2wwZXoyVnhCbWNWb0FrTTFWaENRMmd5MmE1S0Y2bEk5Uk5PNkJwRmNCc2xudURCb3FseFZEc0NFYndyeURUOHpqZWlQYzFFRmhnSVpYc3BzZ2NsdlROTlFMQjZCWXdXM0JVaVNtSmNveGVQOUlWVi1nemR0NUlzdkFWeUVPM1pJUHppRFNHazhnX2tEU1BNblk3TDRma1dLZkV3?oc=5",
+      "source": "Zone Militaire",
+      "publishedAt": "2026-11-13T17:37:07+00:00"
+    },
     {
       "title": "IA : Anthropic veut policer les comportements ? J’emmerde Claude",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3B5Q0FldmN4T2NhVWpTNUoyUXRRV1FyZVpJakJrZFhOankxVlN4V2phcU96anBLYnBXcEF0QWJYN3hCRnJvOUo3NWwtdkRVVDZLY1lnNnJOelZvZl8wcUZuX1lNdlMzanphRGloeTlpdDBaUlZzaVRKZnRWdjd5eUdwSEJyaEIxV2dhVll1bHo2emItMnNiQVF2WXJpNm9Md3hVSUhOMmlOSFZCTXpkbmh6M0d6VnNtZk9rQVdCZjQ5NnczYUF4UXdPSy1KcVRIMGFJUg?oc=5",
@@ -9,10 +45,22 @@
       "publishedAt": "2026-11-13T17:07:45+00:00"
     },
     {
+      "title": "«Je déteste l’idée que l’UE aurait perdu la course de l’IA»: à Dublin, l’intelligence artificielle s’invite pour la première fois à un sommet européen",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNWW1taUswUzVnTHk5OHdwS0VRRHpud3J3WlhrcGVDUV9pa0UzUlUwb2ZJTms0SlpzYi13ZFVRQVNZdDBGUHFVOEl0bFQ2SXI5RVQzZ2pMeVdWR3dzS0pvSndfNkdoVVVVRy1xS3FqbFNhaThDU3E1eW54MVB3emVHc3ByM1VYTDBTdjJkTmRhakwtN1FLTEtoMjBGSEJlbF82V2tlQmZzMy01VDJpbzdVSWhxdUhBX2ZvUVdyQ2tyWVE5emxnZnZ6TG1MQk5fMzZSV3ZjbFYyMXZLMV9kN3BWRV95bnR6WU04Z1NMYVp0T3ZRdzdmLXV3bDN0VmtxaF9ZRGEtTHM1WWhfWFJWU3pj?oc=5",
+      "source": "Le Temps",
+      "publishedAt": "2026-11-13T16:47:51+00:00"
+    },
+    {
       "title": "Des clichés améliorés, des clients trompés: de pratique discrète à tendance lourde, c'est quoi le \"House fishing\", quand la retouche IA de photos de biens à louer ou à vendre dérape",
       "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNSDZyRUdtUVEwOVVzZFZlNzJROUdoYm1YS1FQNUxEYkFPcVdMc0ZMdHNJWW9hcVNYY0JiZW1tcGNiLVU4cTBJZkR2R2RVRDNRODJpN0tVT2ItblBxQldUa2ZFR09PczFNeU5IaXZFY1d4RXc4X2JFaHZGQm1Ka3hIMHdwamxJS09BWjcwWC1JRnE2TzJSQXU1eXdjdHg5QW9MMW04Z29RZ1JFd2NERE1OYkY3R29hbVoxQkxOSlpDLWNzeUJ0a3BfdDMtcDU5ajV6X2Fmc2VRenVWanl4VWhKaGM0VWZMd2R2TlRjZzFJbExZWkIzelQyQklkcmRJb0JZU0RmWXJEWHFzUzhqYXV3alBrNFNUZG9Zdk9HRkthaTl1MDF1RTltZEtMVGNLRUdFZTFXTVQxVFh1eDBMWm1FeGZoZ3BZdHNWZ3c1eDhKRXRCTFJ4cDVVQUhicHNkR2dmNGFTOWtNcms?oc=5",
       "source": "BFM",
       "publishedAt": "2026-11-13T16:28:19+00:00"
+    },
+    {
+      "title": "Rennes va accueillir un centre international dédié à l’IA de défense",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjJYSXNYbEVtRlpYTXBRMjgyTEd0SmY5eGZNYzJKOWFsaVBWT1Vob3VkOW8xR1RHYlU4b3VuN2Eyd2JzUDlTQXh2em9DRTNxRjQ1ZUN6OFdmQnEtRXhWRDRjSkVaamYtRmhncUFTMjJON0VtTDh1cnZvemREX0NhTk9GN3hXaFk1Q0M3SkVQQlhYa1dFOEJXZkNDNDdiOW9hd3FFaGZod29jVHBtdDBN?oc=5",
+      "source": "Le Monde Informatique",
+      "publishedAt": "2026-11-13T15:51:10+00:00"
     },
     {
       "title": "Intelligence artificielle. « Rapidité », « financements » et « coordination étroite » : le dirigeant de Mistral appelle l’Europe à agir pour rester dans la course mondiale",
@@ -25,54 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2l0U0FLdWpTX1JLVDdmUDZuWVBiVm9wUy1VdGx0UUEwYTJwdDlmb0o5bEFaYXZEWkduSGRCVFJIWmdoV3hJVlAzME9nT0U0UTBlY25ES2ZYQlZFXzEtQVRXMjFJRFljSFpHWE5xaGMtclRSVVZpQ2dOcEFseFJaVWtCWlo4WVNDS0tFYS1DQWQ1MUF1bmpiS3ZjNFllWFV5emdoeXVESnI1MVl6WTI4M3laOHo?oc=5",
       "source": "CNews",
       "publishedAt": "2026-11-13T15:33:22+00:00"
-    },
-    {
-      "title": "74 milliards de dollars pour deux gigantesques centres de données IA: SpaceX investit massivement en Arizona et au Texas, et assure ménager les communautés",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQV1l1Q3FsUlVodnBUVTZ4RUZfRUU3eHRyVVVUcW5QclFkcGVMVmk1cGlBdHo0YkNBNlRLMkdTdzVLck5nd0pLVTBNRVRRTnNwWFFQaWt2SGhIYkpYSUVVNGNuRWVEU3hoTE5KU3lLYXYxNlhsdVhYVlZ4M1pWcUdKZWhBTGEzNlpuTUJxMlZUS2dMcEpVZGN0M0FCLUM2dkpIajlQWVZXa2ZIZEhIbW1jVkVWeHBDMjB6S3B3MHpyM2NIM2N0dXpqZlRaVjM1OHBaUEMyVE83d3czX29uWkhOVlBGZm9fSzZReVBCSHB6dlVhUmE2b2x6WUlFZkZ5ZHRuWnJYWUJUSURHNkNlMkJvWmJtdDZQZlhLWU9PR0doSlVoT0pTOFU5WTMtc3QyeEVXNGNQaW14dHJsQlJfdGtnTzZGZG9uY2MxOFZJcA?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-13T15:24:07+00:00"
-    },
-    {
-      "title": "Zone euro : l’intelligence artificielle tire un quart de la croissance du crédit",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZVVfSm5NYkxIVTMzS2h1T3dIYTQyeXRPelFuczhZeGlSTHNWZHFMVVhNbW9ZRDRLOEZaQ2tmLXlCQzhRUlBDVUk2RFEyeGh4ZHRjZ0lRSVlVVkNRQjktUUxqcmxEU1NMUm5GZ3pzZVlrMHdkMS1SR1F2TDVoQnlTTnVtM3pvQTdsMUppU3RGSmt6NkNnXzlMRlVYcGZiS3VyRVc3UDVISmFUdzZvU1dOXzRGMkQ?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-11-13T15:00:00+00:00"
-    },
-    {
-      "title": "\"L'Europe dispose de toute la technologie et des talents nécessaires pour prendre la tête de la course à l'intelligence artificielle\": le patron de Mistral appelle les dirigeants des 27 à un sursaut et à \"agir dès maintenant\"",
-      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOdjRxZTZDWHlzN0I5QjFFbWl5NXp2SWpXOXdVcElPSFNRQ1ZtbDRVb053OEx4Q3VoQnN3WFJ6UUl0cXJqTEVaRE1nZmZPZF9pVmtfdl9qMVpYZXBvUElpYzlScUxHUWlzSUE3cVFlY01ncDcza3VZbnVVWE94RmU2NnFQNWpYTjVkSHN6WnlLdzlwRXYycWlneENQLVRYaWVwbHg1TWs2MWhDM1NYaGJOOS1sX2tUQ3pYOFpOZ0JhdlhJNnFUVHlTUGFsa2Y1cVdaZEgzVS1sMFJBUTY2UTlZNUx5ekVMQzdqU0VpWlcwY3RtM1NpZ2JyLUVOZlZvRi1oajR4MGhEMWQ3ZGF4OTZpV2JQNTgweWxHQ3JfWTVsLXRVdm14S3VHdElJSTMzSEF2ZEI4ZUJSbm4zZ0J5OS15bGVLYjgydTBONnFiXzc4RkdYQnE0X2RPcmo0Vy1zWDQySHItcEswaVBLWkJrSnFrVWE0M3cybTg1SHhOUXIzU2hrNUp0c0N6QVVjQ0N3QmdQZG1z?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-13T14:58:43+00:00"
-    },
-    {
-      "title": "Le patron de Mistral AI, Arthur Mensch, appelle l'Europe à \"agir maintenant\" pour rester dans la course en matière d'intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSm9HVk5xR1RsS3VmRmU3Tk1mSjZNY2l3QUZMVV9PT0NTaE84TlM1cXA5RTcwRVRRSmZYVDN0eHlEaW1yNWZuYUtEbVhYMm03ekpKQ1lpeVRCc1RuUHRIM0F4RExBLVJBOU0zX1B6MUNPOER3Ync4RVdZcUJ1UU94MnNqdTJ1TW5tS19sazZlVU1TSERWQVZacExHNzhLQVdjeEZ5TUVTOEZoRWY4RHJRMk5XSzFPSDdXQXllY3lkeDZPNFdxRkY3SzF3bjZzVXFKck5XS1N5a3RzRXZZVmE1UEV1d0oyUTYyNUJjbE5qbTRLMEVuUVB6akN0N01SYlM4MkZDNlRIZEVFSU5iZS1mUlFGcHB0c3Q3YXY0RnE3cGNxQVNVYjQ0ZENlR241V1ZFclRGc1lISQ?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-13T14:52:57+00:00"
-    },
-    {
-      "title": "Data centers : la France accueille la puissance de l'IA, mais où va la valeur ?",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSWFGYzJDQjduRi16cjdGMWdLWGVRM3o0TFpfdTVjWVBVVmRpNXpwX2ZNS3FtdlNJRmg1SDF3bHRvSTR0UGoxOWhvT18zei04WDMtR19EMmUtNlc2Q2lwZE1rQWo4THZJcGRPYnZfQlVMeDMwZldFOUtzdF9RamVwOUxUMk5HT08tUHg3Nk5kcy1NTTB3M213LTRRaUJyRXNqU0EzMlZBTDA0LWtLaWRoOEZGVHVEM2N0WFRkMzJUNnhEbUZRR0wyM1lRck5nZWRpZmxIQQ?oc=5",
-      "source": "JDN",
-      "publishedAt": "2026-11-13T14:43:47+00:00"
-    },
-    {
-      "title": "L'IA peut rendre le travail plus rapide sans rendre les organisations plus efficaces",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNanZWZDAtR0FraG5nQzBYMnRYUUtxQ2U1U1A4RGt6aW02Z1NyZER6MzVxR1pISHJ1MER4N1M4RmZjZmh3SHRnNDkyc3ZNTGpMby1lWDQwVnVrX2ZQTTZkMDBJSGJYSVBNazNzZHMxVkJKUVNOMThMMUFyOVJpNjQ5cVRkaFkxa2thSmQ3Snh6ZU5ZQnFnU3NvamNweGVIdE4ycmZpLUNhX0dKX2MybmxtaHpBQkVFMTZ0UWdfYVNTdGVUU3JfNkJURFJzVnlUZFYxQVR3eTEzUHNoZXRzZVpzbXdR?oc=5",
-      "source": "JDN",
-      "publishedAt": "2026-11-13T14:42:34+00:00"
-    },
-    {
-      "title": "Face à l'IA générative, les outils de veille stratégique ont-ils encore une valeur ajoutée ?",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOUmRtY0RLTDZsaFJSSy1CdWp4SUMwbzlYa0laTGxhOGZKSURhaWNCUzFPZzJINkNhc0x4RUlCbHVfTUxVcjhMd0FodExDSlE1TUFSd2JQYlZlTVZEaks4eUQ2bXF0dnVZZzFsTTM4NHh0ZV9pa3RBaFEyU3ROc0t3YzBFa0J5UHN6UGZ2MUZCRWh1X1VMcGsxTVhEMGpZVlZqeDVZUEY3R3RoTEtYWlN3ZWJkQzQ2WUoxZ1VsZ2h3SkhzcUd6VFV4SWkzNU41dGdTZ0g1RlpNMFVUV3VYbjB1aWdXNThxZ016?oc=5",
-      "source": "JDN",
-      "publishedAt": "2026-11-13T14:42:21+00:00"
-    },
-    {
-      "title": "Le Pack Office est mort, l'IA est la nouvelle bureautique",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa0oxdXVHeThUZ195VVVTZjhidDNEN0tSRVN3U0p6TDVaS21WVVFBWnl3cklJdW1XTU5BOG9iZnIxTERMRmZENTVsTjNJRVF1VEpZb2RjNnBOb0tIWVFubGduY0dFMFdrVGJibURvcDFCRHZLb3EtYnBySDhsc3JDS25tb3pLcFJnMEVRdXBzWEZLUmQyZTdSNHFZdDR1Y3hjZHhlTDN3NnpHOHJ5ZW9rdHdwM3NUUjVoS2Q3aw?oc=5",
-      "source": "JDN",
-      "publishedAt": "2026-11-13T14:41:47+00:00"
     }
   ]
 }
