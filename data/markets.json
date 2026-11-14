@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-14T02:45:52.869Z",
+  "updatedAt": "2026-11-14T09:29:55.789Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
       "price": 306.6,
-      "previousClose": 312.5,
+      "previousClose": 312.29998779296875,
       "currency": "EUR",
       "marketTime": 1794587972
     },
@@ -45,43 +45,43 @@
       "marketTime": 1794587729
     },
     "BTC-USD": {
-      "price": 67442.01,
-      "previousClose": 71342.96875,
+      "price": 67103.71,
+      "previousClose": 68249.2734375,
       "currency": "USD",
-      "marketTime": 1794624348
+      "marketTime": 1794648592
     },
     "ETH-USD": {
-      "price": 1903.65,
-      "previousClose": 2016.8297119140625,
+      "price": 1903.25,
+      "previousClose": 1927.5888671875,
       "currency": "USD",
-      "marketTime": 1794624349
+      "marketTime": 1794648589
     },
     "SOL-USD": {
-      "price": 75.68,
-      "previousClose": 81.66072845458984,
+      "price": 75.61,
+      "previousClose": 78.09608459472656,
       "currency": "USD",
-      "marketTime": 1794624350
+      "marketTime": 1794648584
     },
     "XRP-USD": {
-      "price": 0.9973,
-      "previousClose": 1.0399279594421387,
+      "price": 0.9879,
+      "previousClose": 1.009443998336792,
       "currency": "USD",
-      "marketTime": 1794624349
+      "marketTime": 1794648589
     },
     "BNB-USD": {
-      "price": 623.78,
-      "previousClose": 656.0533447265625,
+      "price": 615.6,
+      "previousClose": 629.433349609375,
       "currency": "USD",
-      "marketTime": 1794624336
+      "marketTime": 1794648583
     },
     "DOGE-USD": {
-      "price": 0.06302,
-      "previousClose": 0.06641799956560135,
+      "price": 0.06278,
+      "previousClose": 0.06441199779510498,
       "currency": "USD",
-      "marketTime": 1794624321
+      "marketTime": 1794648584
     },
     "GC=F": {
-      "price": 3887.6,
+      "price": 3886.3,
       "previousClose": 3885.300048828125,
       "currency": "USD",
       "marketTime": 1794607199

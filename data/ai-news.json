@@ -1,12 +1,60 @@
 {
-  "updatedAt": "2026-11-14T02:45:53.794756+00:00",
+  "updatedAt": "2026-11-14T09:29:56.395367+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Trois stratégies pour les entreprises et les États face à l’IA, ou pourquoi les décisions de Mistral et de l’Union européenne ne sont pas contradictoires avec la souveraineté numérique",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
+      "source": "The Conversation",
+      "publishedAt": "2026-11-14T08:03:53+00:00"
+    },
+    {
+      "title": "Un métier junior sur cinq exige désormais des compétences en intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTmlGSnhlTjVZeG54MWE0SUhhenVMbklrdW91YjhCSzZIc1Z2MFNWZXpkcC1RNkZmVlZ1S25SWmRCU0E2bGRHd3p6UVNzS3JMczZxWjVJZURMSFFmcWxKYWdKMW5ZTGtEYllBM0JIaGM3d2FoYWYzUXJnOTJUZlhOTldJZ09kQ0JpV05ndTJYcXJhd0dOYUswTFVZaUVfZDBwamdSVE5nbm1tODl0VkY3TzRBNF9pRXNXQnYzREVJZmlPcVhqWUtfQWR5M3Q1bVJ1ZDIteWJmN3E5S21uWERzLVRjaXBrVGxaM2FB?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-14T07:30:43+00:00"
+    },
+    {
+      "title": "« Il est Nvidia » : Jensen Huang, le pape de l'intelligence artificielle qui semblait intouchable",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVnJKX1RYT3lFajgxX0s5MmpzTm5EbTh1bUluNUtCWkpqd0lMV0pXQ0V0bGJ5SjBwTmtGdmg3dl83eTZSNUl4MV8wYjY5bnNXSGk0YUZKTkpTdnBadWpnWUNiZS1jLXpGUDVQV25FRE53cExwWVZfdHNtQmVueHVDYlpuM3JHc0xoMFFsbzZrQzh3bU5JaTBXRk9xcHFVOVY3YTQxWDZXSzZLeTZxdEFOdWpzUFBSRWpmVDNWUU96M090S1hZckpoOFEyek10dmpOQmpmLWlOMHBmZFByTkZybXdzX0IwOFptTklhcVNkaFg?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-14T07:30:20+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : « Ne pas enlever l’humain de l’équation sinon on va arriver à du grand n’importe quoi »",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPQmhGSC1TNi1fN1BaUHlHVHd6LW56U1hvM283MTJ1QzdOblI3OGp0LWxTQTZMWUNyeUxwMkJldjRObF9ObVF6eGM2VDdTQ25HT0FGUnlIZWdyVmxTYWVmQlExYnM1cTllWjNwWlJ1NjczUmt0ampFUzRNN3BfZ2FiaUtJYkRSeUZ1ak1TOHhLSUhmNWc1TG1mTDhxNm5SZkF5bVNqSW9Ob3RpbHV3WDVwd1N5aTVUSnlndkRYb1RENm1pdmZQcFR4OGFELUJKOThpd3NSbDJ6YkV0MDJIcUM5UDZYUWRfUm8zQnZmMW45VmVpTW93V3Q0aEdIblpPNXNzTnZ3cUdlU0QyVGtTYU1KYjlZcHQtZl9rdXVfbXFCNnhMR3M2NWF0VUo5cHVHamth?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-14T07:16:04+00:00"
+    },
+    {
+      "title": "Une des premières maison de l’intelligence artificielle d’Île-de-France va ouvrir : à quoi s’attendre ?",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQelpFbGF1ajBRVW1RUkRidEpucUc3eUVDajVzd2dicWpvYUNtYXR1MHNBSzE2ZHBlSUxQYlFYSVRYc1ZaNkp3QjlzNmZMU1FIdldsR20wNlQzZFRwOG51MjFNQmdva0FLUjFfUkRVcVl5Ul9Qd1ZIajF4RzhkellwS3lmdU9nSWJ4RmxfNElMNXFmYjFmektSNy1wOWwtUURhNjg3eERvWVNpN1NHSE51eDFXLURtVnlvTkRzYm1mVG9tY2hSZFlqS21KNkZsVjgwbDV2SWxoS2lJQ2hnZFlUazFKeDNRWWdfcVVrYnN3?oc=5",
+      "source": "Actu.fr",
+      "publishedAt": "2026-11-14T05:46:01+00:00"
+    },
+    {
+      "title": "Bourges : 600 jeunes sensibilisés aux risques d'Internet et de l'Intelligence Artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUUJBSWs0bEZ4Y2loUmZOWHJxS21XTEFGeFJ4NVV0Tk9HckNsajZiX1dPcktBZjJuSTAwbW5iNmdRVjZ5T1BFd3dhMkgxWW1ZcEpGY19GOE5xVGhIaTBBbFRTNFFlREFUbDU0eWFkdUUxVVpNUW5OeEptOXdidF9JalBab0pJbkQ0WlRiaVltcFdSa3dWQ0duazZjMlVzemRjOV90SUhocklUQXJIaUpnRDQ2b3Y4dXNWM0UwbG9oclNqUHZrYjI3YzRaSjY3VTZnT3ZjdXV4alBVcEVkVjBnWEZaMVBvZw?oc=5",
+      "source": "ici.fr",
+      "publishedAt": "2026-11-14T03:12:39+00:00"
+    },
     {
       "title": "COP31 : assurer une information climatique fiable à l’ère de l’IA",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16WUJMTHZhMnVYNzhjTlBKWkpMT2VQVVk1MDIxMzVtY1RRQmdMWWRYcWN0WWZiVVJWRjNKbnNvX2ZTZkxlWlZyOHF5SmNRWFI3RVFteE1Kcw?oc=5",
       "source": "UN News",
       "publishedAt": "2026-11-13T22:06:53+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle (IA) arrive en tête des préoccupations concernant le système financier dans la dernière enquête de la Fed",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeFJXM0NNRUEzdDZkRXVuczNiZmFmbEVuS2hVdlN3RUdEZjlyaXd1d3d1M3ZYeGRBLWhLLVpsMjVkeTBlWkxmdTdYTXdpTl9oeU5WYXpCblVBLXhZNUdjY090UjJYM1hfdGdLRnZQUFZ5MmJYN0g2dXNpWnI5NWFFZG1ENWJlMlhYS0JLR3JkekdsY21Na1lTR2lPQUIwa2dfVzY1Uk1McmY2aHhLeFZWaF9za2tnWUt1U2V6eDE2ZFRjOGxhc1FnNF9IcjJIc3NlZEY0aWxxYzhSTkZoZGEwMUg1emc5NkJycmNnTlhDTmc?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-13T21:01:37+00:00"
+    },
+    {
+      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUtOTWFJc2h4MHRYMW4zSHdPUHdEbmczdzZHYXVjX3FSMGJkSXd1TW13QlZOcmJVMHRZNXVuQkg4UGdKTk5fdkhjckJYcHE2ZE1jTW9HdDNQWGkyTzhUVkxZRmQwSUJUdlpybVhaTXRsbHlhbEFOODRHX2pIX2IyMUJaMU9BSUFscWprdlRFVTVvQ0k3MnB1cFhtOFFGdlFFdUdBNENITzY4TTJHUVY1SWNXd3hvRHRwci1KYXdjVkVPRENjSG5SVjFkMXZvRWl5MTdJTTA4WU4tdlktM2pzc0xDR0c5ZFpqY0pBX0N3VUc?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-13T20:58:04+00:00"
     },
     {
       "title": "Bachelor en Intelligence Artificielle ‒ IC",
@@ -15,64 +63,16 @@
       "publishedAt": "2026-11-13T20:50:11+00:00"
     },
     {
+      "title": "L'Europe veut saisir le \"tournant\" de l'IA, décisif pour les décennies à venir",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVMxNEFibGxMelZIM05uck9DOHhDWWFXOFMwYkJVdjJxRzVhUEVNcUlkNThVRktVdDBNc1oxdlZFemZPMmFWSGJTRUxHY3doNTk1VGZVdk50LTlLVmhDLS1nX0YzYWpPWkVuV3Jpb1p5cFMxc3VMMXpERWRqTFBBblBKNVZkUk1tdVFpaVhXTGVkTFI5RV9Vdm8xbDBCbVprbnZkYWNPbERKVlVabHB3bUR1d0tPdDdldHJUX19NSzlpRURPbHBrUlFMTWFNalk0bnhv?oc=5",
+      "source": "Orange Actualités",
+      "publishedAt": "2026-11-13T19:14:00+00:00"
+    },
+    {
       "title": "Intelligence artificielle : l’Union européenne sommée d’agir pour rester dans la course mondiale",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaVdNRkhWRUR3OS1hcGNOU0dRTEJ6OV9TTEpyMW03dTlzYVhfRTVCQTVvc0oyVU5KQW1lWFd2S05faWtuTG1xMmJHWGhudHhUWnlLblhUWjBMQkxPYWJIWTVZbnpqRHhXYTZpcmpyZkcwb0dNb0lDdmRwenNoSWlVYlNPRlN0N0ZGNGtQT1FOQWZyY3QzSmVZNThEdGU5X0VfZlF3VHlGVm8tRnpRa2hzd1hYaUlGV1BUWWFUaTdlVzEya2N2cUxOejhxRGJNSGMyNkR2VVlVQUpLdFNJbzR6NkVVdEo?oc=5",
       "source": "lanouvellerepublique.fr",
       "publishedAt": "2026-11-13T17:59:49+00:00"
-    },
-    {
-      "title": "Le patron d’Anthropic appelle à ralentir l’IA après des incidents où des agents autonomes ont pris le contrôle",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbzZmalV3UTBLYi1WN3ZOTjIxdl93cEJ1ZTktdkRVaGxUYzhtMDZzX3h2UHo1d2liSUwyVUlmRkMxTk9qMGJJM3l6N0lVZUFsT242Q2VDTmM3UHVTVUFJbU93MzhVNVpycUN0LVZsZU1MRVFWQ2VJRU1hemRFRXdMQWZROWpVQlFEdjFnTVVrUjUycGl0TU9udVBNdEUzUlpRdl94R040NU1LTDF4WndNMmwzemZFbUhuYm45UnlOczU5YTFsYW9uZnlhS0tMcTdBb3c0czBuWVRuZTdPZGIzMG82eTdLZUpsY3hrXzVNZmp1QjEyaTdaUg?oc=5",
-      "source": "Le Temps",
-      "publishedAt": "2026-11-13T17:56:00+00:00"
-    },
-    {
-      "title": "La France officialise la création d’un centre international dédié à l’intelligence artificielle militaire à Rennes",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTXRnS3JNYmRYLVV3VEd0bXpsQzZndVpBNkZnZDR6dkRvb0xIUUdRMUduWENMWEhJclg2X1RXWW1xazNodl9FR2wwZXoyVnhCbWNWb0FrTTFWaENRMmd5MmE1S0Y2bEk5Uk5PNkJwRmNCc2xudURCb3FseFZEc0NFYndyeURUOHpqZWlQYzFFRmhnSVpYc3BzZ2NsdlROTlFMQjZCWXdXM0JVaVNtSmNveGVQOUlWVi1nemR0NUlzdkFWeUVPM1pJUHppRFNHazhnX2tEU1BNblk3TDRma1dLZkV3?oc=5",
-      "source": "Zone Militaire",
-      "publishedAt": "2026-11-13T17:37:07+00:00"
-    },
-    {
-      "title": "IA : Anthropic veut policer les comportements ? J’emmerde Claude",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQa3B5Q0FldmN4T2NhVWpTNUoyUXRRV1FyZVpJakJrZFhOankxVlN4V2phcU96anBLYnBXcEF0QWJYN3hCRnJvOUo3NWwtdkRVVDZLY1lnNnJOelZvZl8wcUZuX1lNdlMzanphRGloeTlpdDBaUlZzaVRKZnRWdjd5eUdwSEJyaEIxV2dhVll1bHo2emItMnNiQVF2WXJpNm9Md3hVSUhOMmlOSFZCTXpkbmh6M0d6VnNtZk9rQVdCZjQ5NnczYUF4UXdPSy1KcVRIMGFJUg?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-13T17:07:45+00:00"
-    },
-    {
-      "title": "«Je déteste l’idée que l’UE aurait perdu la course de l’IA»: à Dublin, l’intelligence artificielle s’invite pour la première fois à un sommet européen",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNWW1taUswUzVnTHk5OHdwS0VRRHpud3J3WlhrcGVDUV9pa0UzUlUwb2ZJTms0SlpzYi13ZFVRQVNZdDBGUHFVOEl0bFQ2SXI5RVQzZ2pMeVdWR3dzS0pvSndfNkdoVVVVRy1xS3FqbFNhaThDU3E1eW54MVB3emVHc3ByM1VYTDBTdjJkTmRhakwtN1FLTEtoMjBGSEJlbF82V2tlQmZzMy01VDJpbzdVSWhxdUhBX2ZvUVdyQ2tyWVE5emxnZnZ6TG1MQk5fMzZSV3ZjbFYyMXZLMV9kN3BWRV95bnR6WU04Z1NMYVp0T3ZRdzdmLXV3bDN0VmtxaF9ZRGEtTHM1WWhfWFJWU3pj?oc=5",
-      "source": "Le Temps",
-      "publishedAt": "2026-11-13T16:47:51+00:00"
-    },
-    {
-      "title": "Des clichés améliorés, des clients trompés: de pratique discrète à tendance lourde, c'est quoi le \"House fishing\", quand la retouche IA de photos de biens à louer ou à vendre dérape",
-      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxNSDZyRUdtUVEwOVVzZFZlNzJROUdoYm1YS1FQNUxEYkFPcVdMc0ZMdHNJWW9hcVNYY0JiZW1tcGNiLVU4cTBJZkR2R2RVRDNRODJpN0tVT2ItblBxQldUa2ZFR09PczFNeU5IaXZFY1d4RXc4X2JFaHZGQm1Ka3hIMHdwamxJS09BWjcwWC1JRnE2TzJSQXU1eXdjdHg5QW9MMW04Z29RZ1JFd2NERE1OYkY3R29hbVoxQkxOSlpDLWNzeUJ0a3BfdDMtcDU5ajV6X2Fmc2VRenVWanl4VWhKaGM0VWZMd2R2TlRjZzFJbExZWkIzelQyQklkcmRJb0JZU0RmWXJEWHFzUzhqYXV3alBrNFNUZG9Zdk9HRkthaTl1MDF1RTltZEtMVGNLRUdFZTFXTVQxVFh1eDBMWm1FeGZoZ3BZdHNWZ3c1eDhKRXRCTFJ4cDVVQUhicHNkR2dmNGFTOWtNcms?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-13T16:28:19+00:00"
-    },
-    {
-      "title": "Rennes va accueillir un centre international dédié à l’IA de défense",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMjJYSXNYbEVtRlpYTXBRMjgyTEd0SmY5eGZNYzJKOWFsaVBWT1Vob3VkOW8xR1RHYlU4b3VuN2Eyd2JzUDlTQXh2em9DRTNxRjQ1ZUN6OFdmQnEtRXhWRDRjSkVaamYtRmhncUFTMjJON0VtTDh1cnZvemREX0NhTk9GN3hXaFk1Q0M3SkVQQlhYa1dFOEJXZkNDNDdiOW9hd3FFaGZod29jVHBtdDBN?oc=5",
-      "source": "Le Monde Informatique",
-      "publishedAt": "2026-11-13T15:51:10+00:00"
-    },
-    {
-      "title": "Intelligence artificielle. « Rapidité », « financements » et « coordination étroite » : le dirigeant de Mistral appelle l’Europe à agir pour rester dans la course mondiale",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNR0Q5M0kyTF9OUl92eHR5aWZuWXMza0dMRmtRWmdoZU5nSngzNWJtUTl6MnJrVnA3em1iRUNKcEhuRWEwZTlUZWdseVVLc2ZTbmlEOVMtV0pzWW1oZWFHTkotX3NnQUxEVjctU2FVVFE5VW1ENU5PUkl3OFdlbHZuZDNoR201djBZYkZXRjByX25sNXpPMk1tMXlNTTNzUWlyZFlBNTF0MWVRWkhhUDZfR0pXeDd1eGd3TzhlRDNaMWVHZ2FyXzZZbmY0UzZRc1k3RVVELWFDbnhIanB6aTUxSEt4emxiUUZEYTFGTDlUZGh4M2dUbVVtWVppNmY3WVAxeEljQ3JYZm1fbkFJZVAyV0trc3NkWkMzbDhXMHJ2LTZKYllZY3N3VXdPVGF0TlhaeWtGSTMwTUhYaHdsd0UtUmhSdGtkNF9lc1dVQnJKRGFQZzVybHNzLTQxakpOdUU?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-11-13T15:44:30+00:00"
-    },
-    {
-      "title": "Scandale Nvidia : du jeu vidéo à l’intelligence artificielle, que fait vraiment ce fleuron américain de la tech ?",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2l0U0FLdWpTX1JLVDdmUDZuWVBiVm9wUy1VdGx0UUEwYTJwdDlmb0o5bEFaYXZEWkduSGRCVFJIWmdoV3hJVlAzME9nT0U0UTBlY25ES2ZYQlZFXzEtQVRXMjFJRFljSFpHWE5xaGMtclRSVVZpQ2dOcEFseFJaVWtCWlo4WVNDS0tFYS1DQWQ1MUF1bmpiS3ZjNFllWFV5emdoeXVESnI1MVl6WTI4M3laOHo?oc=5",
-      "source": "CNews",
-      "publishedAt": "2026-11-13T15:33:22+00:00"
-    },
-    {
-      "title": "74 milliards de dollars pour deux gigantesques centres de données IA: SpaceX investit massivement en Arizona et au Texas, et assure ménager les communautés",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQV1l1Q3FsUlVodnBUVTZ4RUZfRUU3eHRyVVVUcW5QclFkcGVMVmk1cGlBdHo0YkNBNlRLMkdTdzVLck5nd0pLVTBNRVRRTnNwWFFQaWt2SGhIYkpYSUVVNGNuRWVEU3hoTE5KU3lLYXYxNlhsdVhYVlZ4M1pWcUdKZWhBTGEzNlpuTUJxMlZUS2dMcEpVZGN0M0FCLUM2dkpIajlQWVZXa2ZIZEhIbW1jVkVWeHBDMjB6S3B3MHpyM2NIM2N0dXpqZlRaVjM1OHBaUEMyVE83d3czX29uWkhOVlBGZm9fSzZReVBCSHB6dlVhUmE2b2x6WUlFZkZ5ZHRuWnJYWUJUSURHNkNlMkJvWmJtdDZQZlhLWU9PR0doSlVoT0pTOFU5WTMtc3QyeEVXNGNQaW14dHJsQlJfdGtnTzZGZG9uY2MxOFZJcA?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-13T15:24:07+00:00"
     }
   ]
 }
