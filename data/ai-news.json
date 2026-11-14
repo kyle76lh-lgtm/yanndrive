@@ -1,13 +1,7 @@
 {
-  "updatedAt": "2026-11-13T22:51:31.701315+00:00",
+  "updatedAt": "2026-11-14T02:45:53.794756+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
-    {
-      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUtOTWFJc2h4MHRYMW4zSHdPUHdEbmczdzZHYXVjX3FSMGJkSXd1TW13QlZOcmJVMHRZNXVuQkg4UGdKTk5fdkhjckJYcHE2ZE1jTW9HdDNQWGkyTzhUVkxZRmQwSUJUdlpybVhaTXRsbHlhbEFOODRHX2pIX2IyMUJaMU9BSUFscWprdlRFVTVvQ0k3MnB1cFhtOFFGdlFFdUdBNENITzY4TTJHUVY1SWNXd3hvRHRwci1KYXdjVkVPRENjSG5SVjFkMXZvRWl5MTdJTTA4WU4tdlktM2pzc0xDR0c5ZFpqY0pBX0N3VUc?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-13T22:24:13+00:00"
-    },
     {
       "title": "COP31 : assurer une information climatique fiable à l’ère de l’IA",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16WUJMTHZhMnVYNzhjTlBKWkpMT2VQVVk1MDIxMzVtY1RRQmdMWWRYcWN0WWZiVVJWRjNKbnNvX2ZTZkxlWlZyOHF5SmNRWFI3RVFteE1Kcw?oc=5",
@@ -15,10 +9,10 @@
       "publishedAt": "2026-11-13T22:06:53+00:00"
     },
     {
-      "title": "Relationner avec une intelligence artificielle : «Tout ce que l’on dit à ces chatbots est potentiellement public",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOY1lVVjBOSlp6a2xaZk1PS3ZaZ3NteHpKT0JvSmVIVk5PWTQ5a29sRXI1SVRSV3NVS210eThEazlZVE1RXzB0ZERZM3BFUmpDSWpERndWdzFEVzJQMnF1aVZVVlY2ejF0Mzg4RnJUSUhrWWVoTllLZFVrTTBpUlJSaXJtZjgydklJaFJCOWVWTGNFWm9DMzcxajd2SmFZa1RuRnp1MTcwbWZfNV9VM1ZvSl9PRndXUVRSMXlqbjNVc3V2cXhCYmxvWDlERG1yQWZuZVlGUDhZWm56ck5USG5wQ29wNWQ1aGNXOE9sVmpHa1FiOW41dm9KaGk4YVBxemdoNFFwTUgtYURrRjJmYy1iaUt5WGU5d2s4alZJ?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-13T21:20:21+00:00"
+      "title": "Bachelor en Intelligence Artificielle ‒ IC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdUhRVF9KYWNfMXVZeWtvSVBMS3ZsV3BSTlhldmVScm55RjluUFRqOG9aMS1tUElzaURyRFIyTndFejQ4YWJuX09WVHRRcjY0cFZjWEd6LW9KZGpEb0FYdXVPZFhmdnhmcjc4RFRPT0VPNkYycUZ5RVNRM1ZZVTQxSktxNTJvbTBDemFaTVFR?oc=5",
+      "source": "EPFL",
+      "publishedAt": "2026-11-13T20:50:11+00:00"
     },
     {
       "title": "Intelligence artificielle : l’Union européenne sommée d’agir pour rester dans la course mondiale",
@@ -73,6 +67,12 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2l0U0FLdWpTX1JLVDdmUDZuWVBiVm9wUy1VdGx0UUEwYTJwdDlmb0o5bEFaYXZEWkduSGRCVFJIWmdoV3hJVlAzME9nT0U0UTBlY25ES2ZYQlZFXzEtQVRXMjFJRFljSFpHWE5xaGMtclRSVVZpQ2dOcEFseFJaVWtCWlo4WVNDS0tFYS1DQWQ1MUF1bmpiS3ZjNFllWFV5emdoeXVESnI1MVl6WTI4M3laOHo?oc=5",
       "source": "CNews",
       "publishedAt": "2026-11-13T15:33:22+00:00"
+    },
+    {
+      "title": "74 milliards de dollars pour deux gigantesques centres de données IA: SpaceX investit massivement en Arizona et au Texas, et assure ménager les communautés",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQV1l1Q3FsUlVodnBUVTZ4RUZfRUU3eHRyVVVUcW5QclFkcGVMVmk1cGlBdHo0YkNBNlRLMkdTdzVLck5nd0pLVTBNRVRRTnNwWFFQaWt2SGhIYkpYSUVVNGNuRWVEU3hoTE5KU3lLYXYxNlhsdVhYVlZ4M1pWcUdKZWhBTGEzNlpuTUJxMlZUS2dMcEpVZGN0M0FCLUM2dkpIajlQWVZXa2ZIZEhIbW1jVkVWeHBDMjB6S3B3MHpyM2NIM2N0dXpqZlRaVjM1OHBaUEMyVE83d3czX29uWkhOVlBGZm9fSzZReVBCSHB6dlVhUmE2b2x6WUlFZkZ5ZHRuWnJYWUJUSURHNkNlMkJvWmJtdDZQZlhLWU9PR0doSlVoT0pTOFU5WTMtc3QyeEVXNGNQaW14dHJsQlJfdGtnTzZGZG9uY2MxOFZJcA?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-13T15:24:07+00:00"
     }
   ]
 }
