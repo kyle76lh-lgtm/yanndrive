@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-14T09:29:56.395367+00:00",
+  "updatedAt": "2026-11-14T16:00:22.296419+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Café IA : comprendre l’intelligence artificielle au quotidien",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVmxCUy1NbDFHSG5kcDdzQldjQmRmMEZEOTh5WUlNTS0zSFZSRWxmVFhxQU1nM0xJOTJZT3hEZlVSdVZLMmNjWkw1WFU1bWctMHhXbW5ISnoyZjRwSmxVYlVZX1BXVkNwMlpuWEE1N3ZXOVgyWmptT1RrMWppUDV3bUJzWjR3dGJGWlV6Q1FfZjlSclpDSW9wdnlCbGNKZERHYkVaTDdvN1RhNVE?oc=5",
+      "source": "Métropole Européenne de Lille (MEL)",
+      "publishedAt": "2026-11-14T14:26:52+00:00"
+    },
+    {
+      "title": "IA : comment Huawei est devenu le navire amiral de la Chine dans la bataille des puces",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPLUhWYVFBM2VoTGN3V24tNkZ4bEtqOXgyS0hvc3NLWTlkWmlkS1hST3lvUjZwLU5LaFVmNVJFMDcxSG9DRXZ4ZXEwb0xuamZOanp4Z3FycVNQTkY3NWhZYzRERGNESGhQM3h0bjBUM2VrdFE0bkxRc01wMWFpOGh3emtuQ0FNRm14RGRXM2xYQWM2WkZXNTNFeUxkWGt3OTFVSVJPUmJ4T2dyVUluY1RyWGgzd3NTVXZhdGV0emtkQldCNFhOeHhiOW1vZFJsTEUzZTdWR1VDNFM3dnZjRzAxUVE0eHpXcmJG?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-14T14:00:01+00:00"
+    },
+    {
+      "title": "Nvidia : Le départ de Jensen Huang, cofondateur de Nvidia, prive l'intelligence artificielle de son «banquier central",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPSTlmam56RTZUemR3Yi1YMUlVaGdBMlBONXZScmlsdHV1Rmtud05LT1dfQmNObC12X3NYSld1OVlodmR1M2JjRkJucGIxRHZudjd2NHdHTlQ4dFU2bjBhREJKNFMtYjRyeFhxamdnVnZmRVEyQmY3NDczNmk2TnRERzEzOFVKUnlvNXh5WkxXNkI2UndkRDIzbFpNdjdwYmM2S0dxaVJmcXZJeFZPTXJJRER1UUhRRlB2cDBMVnBYbU9nVkItTWVQcHp1d3JWTnRIa3hQNC1MdzI2SGlBUDNhaDF4TUlRSG9lM2NjZzRHcVJzR0dvYVp5S2VRaXJpNm1XdUUyb2xmclZrZWNLRS1YdQ?oc=5",
+      "source": "BFM Bourse",
+      "publishedAt": "2026-11-14T11:26:19+00:00"
+    },
+    {
+      "title": "ChatGPT Wallet permet aux agents IA de faire des achats et bientôt de payer à notre place",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT3V2RW1fd3ZQNGM5S1hXbHIxbFhPVGlEdTRpUm1PcFNWcEJGcWVXZW9qTXpWRGJ0cTRXSmg3RnZ5VE5ibi1aUGszQzFwNkdldkNKQUNxSnNYTXptNWVkWllmY1NHMU55VzRDaGswNWtMVkVrODhqMi1qbXQ2RUg3cW1teDhTZnRjLXFXSERoUHR0R090a1haTHhUejhHb0JoSE8zRDBDczctM04wOXJIV1BOWXhVLVV0Q1NxckV6U2tydm40TmpJaVNkbUdDYWlqNkl3Q3VpOUd2VGdtMFFGalFB?oc=5",
+      "source": "MacGeneration",
+      "publishedAt": "2026-11-14T11:08:00+00:00"
+    },
+    {
+      "title": "Une nouvelle cérémonie récompense la musique générée par l’intelligence artificielle et ses créateurs",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV25uZk1DcWVyQlB0dmxoWVFoSnRBaHFiV2FTUzlFY0xSWDY3b2Y3UzVrbnZOcndGWEs3dkpBTFFpNlc2TW9KVWQ5NVM4WVlCS0s4eGxncVdaVkQyZ3o3dlpEOFlmSEN1N0FBZmwyeW50YzA5ZmVGc2RVZWRUMGg4ZVhjUXM4Q2tCaFRCdlFKcEotWTJ0TExKM3NJVXc1NEt3STEyWlY4dlVjQ0tTNzFNVVZuLVEwelVUeGpBTTNRc3luVTlXUGV6MXJOc1ZIQjh0M0RoREhqTjMwdXE2TVFKWjk1cHdJU1I5MnBPbG15dVU?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-14T09:03:13+00:00"
+    },
+    {
+      "title": "« Le prof a fait une vidéo “full” générée IA pour illustrer son cours. Retirez Internet aux darons »",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWXRUdlJvZ3JmRjRqNjMyaHc0aG9aUWRuRmZwUVczOGR4Znk4RDBKWFBsN0o0SGdoWVV5SndMR05HRDBzQXNMU2duZnVXU0w3c0NNUExTdHozWjNqSkFUc2w0aHpaLWl3NlBKb1N4MUZ4MWFPT2llU1R1ek1wTDNJU0pRMDRsWDNPMG1RdGNzZU43TUJIZ3Y1eTJnNlYtdE95TTZRYW5tdTAwRVp2ZDZIa2E2S2dzdG53aFZhckZXX2V2WU5DelQ4d0VPR2hWUXlfQkhveUVpQnhYVkNEdHY5WQ?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-14T09:00:07+00:00"
+    },
     {
       "title": "Trois stratégies pour les entreprises et les États face à l’IA, ou pourquoi les décisions de Mistral et de l’Union européenne ne sont pas contradictoires avec la souveraineté numérique",
       "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
@@ -11,7 +47,7 @@
     {
       "title": "Un métier junior sur cinq exige désormais des compétences en intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTmlGSnhlTjVZeG54MWE0SUhhenVMbklrdW91YjhCSzZIc1Z2MFNWZXpkcC1RNkZmVlZ1S25SWmRCU0E2bGRHd3p6UVNzS3JMczZxWjVJZURMSFFmcWxKYWdKMW5ZTGtEYllBM0JIaGM3d2FoYWYzUXJnOTJUZlhOTldJZ09kQ0JpV05ndTJYcXJhd0dOYUswTFVZaUVfZDBwamdSVE5nbm1tODl0VkY3TzRBNF9pRXNXQnYzREVJZmlPcVhqWUtfQWR5M3Q1bVJ1ZDIteWJmN3E5S21uWERzLVRjaXBrVGxaM2FB?oc=5",
-      "source": "franceinfo",
+      "source": "Franceinfo",
       "publishedAt": "2026-11-14T07:30:43+00:00"
     },
     {
@@ -37,42 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUUJBSWs0bEZ4Y2loUmZOWHJxS21XTEFGeFJ4NVV0Tk9HckNsajZiX1dPcktBZjJuSTAwbW5iNmdRVjZ5T1BFd3dhMkgxWW1ZcEpGY19GOE5xVGhIaTBBbFRTNFFlREFUbDU0eWFkdUUxVVpNUW5OeEptOXdidF9JalBab0pJbkQ0WlRiaVltcFdSa3dWQ0duazZjMlVzemRjOV90SUhocklUQXJIaUpnRDQ2b3Y4dXNWM0UwbG9oclNqUHZrYjI3YzRaSjY3VTZnT3ZjdXV4alBVcEVkVjBnWEZaMVBvZw?oc=5",
       "source": "ici.fr",
       "publishedAt": "2026-11-14T03:12:39+00:00"
-    },
-    {
-      "title": "COP31 : assurer une information climatique fiable à l’ère de l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16WUJMTHZhMnVYNzhjTlBKWkpMT2VQVVk1MDIxMzVtY1RRQmdMWWRYcWN0WWZiVVJWRjNKbnNvX2ZTZkxlWlZyOHF5SmNRWFI3RVFteE1Kcw?oc=5",
-      "source": "UN News",
-      "publishedAt": "2026-11-13T22:06:53+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle (IA) arrive en tête des préoccupations concernant le système financier dans la dernière enquête de la Fed",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeFJXM0NNRUEzdDZkRXVuczNiZmFmbEVuS2hVdlN3RUdEZjlyaXd1d3d1M3ZYeGRBLWhLLVpsMjVkeTBlWkxmdTdYTXdpTl9oeU5WYXpCblVBLXhZNUdjY090UjJYM1hfdGdLRnZQUFZ5MmJYN0g2dXNpWnI5NWFFZG1ENWJlMlhYS0JLR3JkekdsY21Na1lTR2lPQUIwa2dfVzY1Uk1McmY2aHhLeFZWaF9za2tnWUt1U2V6eDE2ZFRjOGxhc1FnNF9IcjJIc3NlZEY0aWxxYzhSTkZoZGEwMUg1emc5NkJycmNnTlhDTmc?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-13T21:01:37+00:00"
-    },
-    {
-      "title": "IA : Les Européens au défi de s’entendre pour rester dans la course et mieux la réguler",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUtOTWFJc2h4MHRYMW4zSHdPUHdEbmczdzZHYXVjX3FSMGJkSXd1TW13QlZOcmJVMHRZNXVuQkg4UGdKTk5fdkhjckJYcHE2ZE1jTW9HdDNQWGkyTzhUVkxZRmQwSUJUdlpybVhaTXRsbHlhbEFOODRHX2pIX2IyMUJaMU9BSUFscWprdlRFVTVvQ0k3MnB1cFhtOFFGdlFFdUdBNENITzY4TTJHUVY1SWNXd3hvRHRwci1KYXdjVkVPRENjSG5SVjFkMXZvRWl5MTdJTTA4WU4tdlktM2pzc0xDR0c5ZFpqY0pBX0N3VUc?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-13T20:58:04+00:00"
-    },
-    {
-      "title": "Bachelor en Intelligence Artificielle ‒ IC",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdUhRVF9KYWNfMXVZeWtvSVBMS3ZsV3BSTlhldmVScm55RjluUFRqOG9aMS1tUElzaURyRFIyTndFejQ4YWJuX09WVHRRcjY0cFZjWEd6LW9KZGpEb0FYdXVPZFhmdnhmcjc4RFRPT0VPNkYycUZ5RVNRM1ZZVTQxSktxNTJvbTBDemFaTVFR?oc=5",
-      "source": "EPFL",
-      "publishedAt": "2026-11-13T20:50:11+00:00"
-    },
-    {
-      "title": "L'Europe veut saisir le \"tournant\" de l'IA, décisif pour les décennies à venir",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVMxNEFibGxMelZIM05uck9DOHhDWWFXOFMwYkJVdjJxRzVhUEVNcUlkNThVRktVdDBNc1oxdlZFemZPMmFWSGJTRUxHY3doNTk1VGZVdk50LTlLVmhDLS1nX0YzYWpPWkVuV3Jpb1p5cFMxc3VMMXpERWRqTFBBblBKNVZkUk1tdVFpaVhXTGVkTFI5RV9Vdm8xbDBCbVprbnZkYWNPbERKVlVabHB3bUR1d0tPdDdldHJUX19NSzlpRURPbHBrUlFMTWFNalk0bnhv?oc=5",
-      "source": "Orange Actualités",
-      "publishedAt": "2026-11-13T19:14:00+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : l’Union européenne sommée d’agir pour rester dans la course mondiale",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaVdNRkhWRUR3OS1hcGNOU0dRTEJ6OV9TTEpyMW03dTlzYVhfRTVCQTVvc0oyVU5KQW1lWFd2S05faWtuTG1xMmJHWGhudHhUWnlLblhUWjBMQkxPYWJIWTVZbnpqRHhXYTZpcmpyZkcwb0dNb0lDdmRwenNoSWlVYlNPRlN0N0ZGNGtQT1FOQWZyY3QzSmVZNThEdGU5X0VfZlF3VHlGVm8tRnpRa2hzd1hYaUlGV1BUWWFUaTdlVzEya2N2cUxOejhxRGJNSGMyNkR2VVlVQUpLdFNJbzR6NkVVdEo?oc=5",
-      "source": "lanouvellerepublique.fr",
-      "publishedAt": "2026-11-13T17:59:49+00:00"
     }
   ]
 }
