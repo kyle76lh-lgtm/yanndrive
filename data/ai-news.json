@@ -1,18 +1,30 @@
 {
-  "updatedAt": "2026-11-15T00:14:50.165422+00:00",
+  "updatedAt": "2026-11-15T06:43:24.045979+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "“Intelligence artificielle : L’ultime invention humaine ?” : retour aux origines d’un rêve",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYXdtUTJTdGpzcWVrZ1pZSDF2OUlrTmt2Qmpnc2hkaGZWdV9UaW9MalhJMjBmRXJRR3NwZUdNYUlfd2Y0Q0dvU2lKYmZmcW5TSmhvWDZsdUZZV2I2dEw3dHBPUk1zZHRzWU51UlBuZnVMS201d2wtX2N3eElhTG83NzRwdXd4VFRSVXQwak9UbTBKdm9EWUtEdU9YempfNFVRYnBSNjlBNjc5YVlDZU9IdmoyTmpzNWxpUExCcmF2U1pUY1VDbXB0aENjY0piRnBxUlE?oc=5",
+      "source": "Télérama",
+      "publishedAt": "2026-11-15T05:30:00+00:00"
+    },
     {
       "title": "« Il faut brûler maman », le nouveau film d’Albert Dupontel, ne manque pas d’effets spéciaux, ni d’IA",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcG80QUFaY09HNjF1V1JrMlJXM3F1eGVNQmxuMW5GVUNjbEJUZDE2dlExQ0JLVlZYUWVuaHFkdXlRQ2FESFRmNHZYdHlrTU95ckNfdVFaQTZtOUxOenZNNlhma0hvRlMxT281WjctNVZ0Y1B0REg3aEdTRmNPVHlwUnFLNHl4bTdUbll2dlZfWGVqa21NT2xEMVhZZ0F3bVVoYS1mbllacE5qUzlVYWdaSzlTam1LMk1vbnpXM19Ldy01SWVLMmF0M0JLckpKdDNYUkV2SjJESGluU0NVX2dUYm5qNjFCejAyOGRkelp3?oc=5",
       "source": "Le HuffPost",
-      "publishedAt": "2026-11-14T23:37:28+00:00"
+      "publishedAt": "2026-11-15T00:25:37+00:00"
     },
     {
       "title": "Lignes de défense - Un centre international dédié à l'IA de défense ouvre ses portes à Rennes",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeGpRMlZVaGJjd1NKQ3pRRm4tNlZyekpVTkJjcHM5bEZtZmZld2s4dmFQem1LUEljSnVRU1NCNXFXUW82anRBcHFDZGNtMGJrTkFhMmhZNFRfbE5JR2dUUEd4aExwcjF5XzJFWWpqUlR1VUZITnVUZVBaTHBKUmhObWo0RVhCcmhnN1JPSUk5cl9CTlpIV2FJMHZZOGdMTlpsVzRtMlRfWUczR2lKX2dPZUhOb3pQeTJnTGJ1YXBnelowNnhZR1VJRDVsZ0E0NUpFbW1YdW1zLU1uM0ZXdDR5M1BQejJ3RkU4T3plYXYxXzJrMEk?oc=5",
       "source": "RFI",
       "publishedAt": "2026-11-14T23:16:00+00:00"
+    },
+    {
+      "title": "Espionnage, intelligence artificielle: le séisme Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc0FJOXJ5OEFwQ0hhcXNGOVZxMFVScGM5djNVaTNJaVJMczV4by1IMmZnT1hIRUdqQ0s5NTNFblRVNWNfYTA0RWw1MnZ0bkZzOEgtLU13eVVCdlZRY1lyaWlrZ2cwdG45NWZVVFVWc3Z6Q0hseVlNVW4tNVNGX2ZRMnJQb0lKZHV3M3BjdGhPODdxZUFyZndla2p4RUxqWmNDc1VfRUpGV3IwSnNsTzFCMzg4MjBhWHZmR3dHSVRObUZYZDRUazByRHpZVjhIUGVNTVVoQ1QtVzY?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-14T21:38:32+00:00"
     },
     {
       "title": "Gouvernance automatisée et IA digne de confiance",
@@ -25,12 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTFUQXhneW5UMVM5NjY4bERvVlk4VFp4b1J4UDM5dG5NQ2Y3Q0V1ckoxSVA5b1lBbVRNcFY5dWNYS2tQM0FFTFY4Qy04LXQ1eVdiNTBRVVp5VnB4VVVvYlo4Z3hYUkNCTWhldUtIX3pzZXdJTUdUeHdrOEZjNVVrUUVNamwtRkstNzdqdi01Z2xsc0pmOC1FMjNHUGZoREtWQVE?oc=5",
       "source": "IBM",
       "publishedAt": "2026-11-14T20:57:37+00:00"
-    },
-    {
-      "title": "Strasbourg. Le « tribunal » d'IAgora : quand l’intelligence artificielle se retrouve à la barre",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWttc09NRXZlSEk1dnZhUTIwZTRzd2pvVjBHX2I1UGZFaHpfbXVrQ0xWdXpnc2lhbHJDc0dRVXpydzBDamlnY0RzTUtLeVA0YVVTM1Q1X2x0NnAzS2U2cVMwd2dmSDZQcy1seEVPQzRPbTVQN2lGNUJSc0VVVzBLb3RydFh3ekExazhHb2lkMmZ1WXpPNUJPU0ZJS25PTXlrRmd6dHJGRllhNVdZUzFBMEVZeWthMWl5MjdKOWY4OUdtWlJxdFMxd0hZOXQ2Zw?oc=5",
-      "source": "DNA.fr",
-      "publishedAt": "2026-11-14T17:56:57+00:00"
     },
     {
       "title": "Il interroge l’intelligence artificielle Claude sur une arme de guerre : les gendarmes interviennent dans sa commune",
@@ -57,22 +63,16 @@
       "publishedAt": "2026-11-14T14:26:52+00:00"
     },
     {
-      "title": "IA : comment Huawei est devenu le navire amiral de la Chine dans la bataille des puces",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPLUhWYVFBM2VoTGN3V24tNkZ4bEtqOXgyS0hvc3NLWTlkWmlkS1hST3lvUjZwLU5LaFVmNVJFMDcxSG9DRXZ4ZXEwb0xuamZOanp4Z3FycVNQTkY3NWhZYzRERGNESGhQM3h0bjBUM2VrdFE0bkxRc01wMWFpOGh3emtuQ0FNRm14RGRXM2xYQWM2WkZXNTNFeUxkWGt3OTFVSVJPUmJ4T2dyVUluY1RyWGgzd3NTVXZhdGV0emtkQldCNFhOeHhiOW1vZFJsTEUzZTdWR1VDNFM3dnZjRzAxUVE0eHpXcmJG?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-14T14:00:01+00:00"
-    },
-    {
       "title": "ChatGPT Wallet permet aux agents IA de faire des achats et bientôt de payer à notre place",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT3V2RW1fd3ZQNGM5S1hXbHIxbFhPVGlEdTRpUm1PcFNWcEJGcWVXZW9qTXpWRGJ0cTRXSmg3RnZ5VE5ibi1aUGszQzFwNkdldkNKQUNxSnNYTXptNWVkWllmY1NHMU55VzRDaGswNWtMVkVrODhqMi1qbXQ2RUg3cW1teDhTZnRjLXFXSERoUHR0R090a1haTHhUejhHb0JoSE8zRDBDczctM04wOXJIV1BOWXhVLVV0Q1NxckV6U2tydm40TmpJaVNkbUdDYWlqNkl3Q3VpOUd2VGdtMFFGalFB?oc=5",
       "source": "MacGeneration",
       "publishedAt": "2026-11-14T11:08:00+00:00"
     },
     {
-      "title": "Une nouvelle cérémonie récompense la musique générée par l’intelligence artificielle et ses créateurs",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV25uZk1DcWVyQlB0dmxoWVFoSnRBaHFiV2FTUzlFY0xSWDY3b2Y3UzVrbnZOcndGWEs3dkpBTFFpNlc2TW9KVWQ5NVM4WVlCS0s4eGxncVdaVkQyZ3o3dlpEOFlmSEN1N0FBZmwyeW50YzA5ZmVGc2RVZWRUMGg4ZVhjUXM4Q2tCaFRCdlFKcEotWTJ0TExKM3NJVXc1NEt3STEyWlY4dlVjQ0tTNzFNVVZuLVEwelVUeGpBTTNRc3luVTlXUGV6MXJOc1ZIQjh0M0RoREhqTjMwdXE2TVFKWjk1cHdJU1I5MnBPbG15dVU?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-14T09:03:13+00:00"
+      "title": "« Le prof a fait une vidéo “full” générée IA pour illustrer son cours. Retirez Internet aux darons »",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWXRUdlJvZ3JmRjRqNjMyaHc0aG9aUWRuRmZwUVczOGR4Znk4RDBKWFBsN0o0SGdoWVV5SndMR05HRDBzQXNMU2duZnVXU0w3c0NNUExTdHozWjNqSkFUc2w0aHpaLWl3NlBKb1N4MUZ4MWFPT2llU1R1ek1wTDNJU0pRMDRsWDNPMG1RdGNzZU43TUJIZ3Y1eTJnNlYtdE95TTZRYW5tdTAwRVp2ZDZIa2E2S2dzdG53aFZhckZXX2V2WU5DelQ4d0VPR2hWUXlfQkhveUVpQnhYVkNEdHY5WQ?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-14T09:00:07+00:00"
     }
   ]
 }
