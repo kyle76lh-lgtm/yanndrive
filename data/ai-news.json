@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T19:51:06.822698+00:00",
+  "updatedAt": "2026-11-15T23:36:17.234303+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -45,6 +45,12 @@
       "publishedAt": "2026-11-15T11:29:00+00:00"
     },
     {
+      "title": "IA : Les data centers posent-ils un vrai problème de consommation d’eau ?",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUVo0blBmQzVFNFJyaGdPTXYwSjZieDBMLWhBSXpnTFAwSEhySTJrdHJQVER6VnFRODNWRWNQZzlhOFU5eE1LX2k2QUhWZXBjUGNqUk5JcURteXNFNXNxODdJd3o2clZDUmE1NHh2d3ljTm9GRjg1dnZhU2M1N1M3OFo5Zk1oSng2UDlSQjIydzJ2SzgwcTdyUzNraFFiTjBoUFgxbDRtT1V4REhkNHJCNExHanN3cTZ3cGlLU3V4enFvQ0ctM1huSG1HeVZQaTFfX3RhT1A3MWRQSU0?oc=5",
+      "source": "Atlantico",
+      "publishedAt": "2026-11-15T09:56:55+00:00"
+    },
+    {
       "title": "Les Européens face au mur du financement de l’IA",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdFZCZFBJUnM3VWRmYzVoZGh6ZE5SX3hoNVp3WEkzWG1sY2tjcnFNWklyVmVJYTVPMEg2YXk4Yk5oS01XVlZnZ1JJbm1FdE9TbjhHejlGTWk4VElsLV8ySUUxaXI3SG52S093TElwQnNSX2wxM1FyNktqaUJKVHRLYTJCUll5VVU2ZkpMVy13?oc=5",
       "source": "l'Opinion",
@@ -63,16 +69,10 @@
       "publishedAt": "2026-11-15T08:12:38+00:00"
     },
     {
-      "title": "“Intelligence artificielle : L’ultime invention humaine ?” : retour aux origines d’un rêve",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ0xPUnRza1JPNTkwZ2lFU3BhbXdLcVdjcTZJZ28wWWFDYkhDVlBfTWRGYkhzYm1GVkc5aW1ZTG53VHFzNVY3dzFnTFZGSWRqSGtJcHdNMW84czlqSXhjZWJFM09jeEZmOHFNU1NWVzhfQ28wQ0tETVRFZHBRMld6ZmRNbjFwZG9Ecmk2ajN3R3JndTdnN184T093Wk9VNG9lU3RNTEhmcGhXaHdoOWwwa3BUSEphN00zZ3JHVG1WZjA0Ynl6RTFQVGwyYnFHUQ?oc=5",
-      "source": "Télérama",
-      "publishedAt": "2026-11-15T05:30:00+00:00"
-    },
-    {
-      "title": "Lignes de défense - Un centre international dédié à l'IA de défense ouvre ses portes à Rennes",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeGpRMlZVaGJjd1NKQ3pRRm4tNlZyekpVTkJjcHM5bEZtZmZld2s4dmFQem1LUEljSnVRU1NCNXFXUW82anRBcHFDZGNtMGJrTkFhMmhZNFRfbE5JR2dUUEd4aExwcjF5XzJFWWpqUlR1VUZITnVUZVBaTHBKUmhObWo0RVhCcmhnN1JPSUk5cl9CTlpIV2FJMHZZOGdMTlpsVzRtMlRfWUczR2lKX2dPZUhOb3pQeTJnTGJ1YXBnelowNnhZR1VJRDVsZ0E0NUpFbW1YdW1zLU1uM0ZXdDR5M1BQejJ3RkU4T3plYXYxXzJrMEk?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-11-14T23:16:00+00:00"
+      "title": "\"Des CV dopés à l'IA qui parlent à des IA pour réussir à avoir un rendez-vous face à un humain\" : un expert fait le point sur l’intelligence artificielle dans le processus de recrutement",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQVFRBeDhuOElWM0pseENNbHJ3blh1dnQ0bl8wVHRMclNscHU0Y0gzYWdVNEwwRjQ2SHBfSWJFYS1fOFU3RTZybmpjdTZyc3NlSkxYUmlsbUJfZVBsYkliU21ya1lheEJSZTd5UThQLUNKMFd5dTY5NjZjeko0ODhqYjlsZ0tNcUZvV2JuSW5uWl9samtWZGxSaGRuMTJpZDRJaExzWVk0VUFZRFFvNl9Fdk84Z1hlTzh6WWV4TTlpNi01cFRGU2pad3JmZ0owS2p4UnZIUFhuNUkxRklFbHJGR2JlTXdmWEg0Z1duUUdiRE44YTdpS3VfUldyRTJXX2dFNW52OUwxa21xYW5aVDEwcERDWTBWTmpyM21kQWo2RUpHOXp4cDRPV1NKZ0FadHBhT296UEtFLXZPazdSVnhQT1kxT0xoRWxYWVE?oc=5",
+      "source": "TF1 Info",
+      "publishedAt": "2026-11-15T07:00:00+00:00"
     }
   ]
 }
