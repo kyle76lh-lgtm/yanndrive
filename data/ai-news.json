@@ -1,24 +1,42 @@
 {
-  "updatedAt": "2026-11-14T20:36:25.132391+00:00",
+  "updatedAt": "2026-11-15T00:14:50.165422+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
       "title": "« Il faut brûler maman », le nouveau film d’Albert Dupontel, ne manque pas d’effets spéciaux, ni d’IA",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcG80QUFaY09HNjF1V1JrMlJXM3F1eGVNQmxuMW5GVUNjbEJUZDE2dlExQ0JLVlZYUWVuaHFkdXlRQ2FESFRmNHZYdHlrTU95ckNfdVFaQTZtOUxOenZNNlhma0hvRlMxT281WjctNVZ0Y1B0REg3aEdTRmNPVHlwUnFLNHl4bTdUbll2dlZfWGVqa21NT2xEMVhZZ0F3bVVoYS1mbllacE5qUzlVYWdaSzlTam1LMk1vbnpXM19Ldy01SWVLMmF0M0JLckpKdDNYUkV2SjJESGluU0NVX2dUYm5qNjFCejAyOGRkelp3?oc=5",
       "source": "Le HuffPost",
-      "publishedAt": "2026-11-14T20:28:39+00:00"
+      "publishedAt": "2026-11-14T23:37:28+00:00"
     },
     {
-      "title": "Erstein. Avec “Iris”, le musée Würth mise sur l’intelligence artificielle pour améliorer l’expérience des visiteurs",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVnBaTzNnZ0R0X3ppaE1fWjBvYld5OTQ3S1JVcFYzRUx1SU16cVlLOHBKU1A3aXNPbENLaGNjWDFGQnBUU1FZZmh6WWVWWWo0aThVWU5iejBEZ1RscmdNNlc5RHN3SFFqd2dkV2FQclc5N2txZmNNOWQycEM0YjRtdWVOQlZHVDdOVGtHRG1vSmlSVHZzcDI0SE9Eai04VWFxcklxTE9hWjlLU1JhQnlObm5GaERNZm1LRmoyVDJlYkUtMk9EbnA1S083Q25Zak1NTlBCMTZXbUxrNmRJNklJT05sQQ?oc=5",
-      "source": "DNA.fr",
-      "publishedAt": "2026-11-14T18:02:54+00:00"
+      "title": "Lignes de défense - Un centre international dédié à l'IA de défense ouvre ses portes à Rennes",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeGpRMlZVaGJjd1NKQ3pRRm4tNlZyekpVTkJjcHM5bEZtZmZld2s4dmFQem1LUEljSnVRU1NCNXFXUW82anRBcHFDZGNtMGJrTkFhMmhZNFRfbE5JR2dUUEd4aExwcjF5XzJFWWpqUlR1VUZITnVUZVBaTHBKUmhObWo0RVhCcmhnN1JPSUk5cl9CTlpIV2FJMHZZOGdMTlpsVzRtMlRfWUczR2lKX2dPZUhOb3pQeTJnTGJ1YXBnelowNnhZR1VJRDVsZ0E0NUpFbW1YdW1zLU1uM0ZXdDR5M1BQejJ3RkU4T3plYXYxXzJrMEk?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-11-14T23:16:00+00:00"
+    },
+    {
+      "title": "Gouvernance automatisée et IA digne de confiance",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE51c0hvUi1qX1JoQ3NiWGFTRC1CaHZnYWN2NGZVbndVZTBhY2ZsbC11VDdxaHR3TlRJZFVWRU5hM3VGOUoxS0dWQmIxNTBZSHhCWW04TElkdV9vX2RnbWJKMnA1dXNRM1Q0THhyTlhOX3Vrdw?oc=5",
+      "source": "IBM",
+      "publishedAt": "2026-11-14T20:57:40+00:00"
+    },
+    {
+      "title": "3 idées reçues qui freinent l’adoption de l’IA générative dans votre entreprise",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMTFUQXhneW5UMVM5NjY4bERvVlk4VFp4b1J4UDM5dG5NQ2Y3Q0V1ckoxSVA5b1lBbVRNcFY5dWNYS2tQM0FFTFY4Qy04LXQ1eVdiNTBRVVp5VnB4VVVvYlo4Z3hYUkNCTWhldUtIX3pzZXdJTUdUeHdrOEZjNVVrUUVNamwtRkstNzdqdi01Z2xsc0pmOC1FMjNHUGZoREtWQVE?oc=5",
+      "source": "IBM",
+      "publishedAt": "2026-11-14T20:57:37+00:00"
     },
     {
       "title": "Strasbourg. Le « tribunal » d'IAgora : quand l’intelligence artificielle se retrouve à la barre",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZWttc09NRXZlSEk1dnZhUTIwZTRzd2pvVjBHX2I1UGZFaHpfbXVrQ0xWdXpnc2lhbHJDc0dRVXpydzBDamlnY0RzTUtLeVA0YVVTM1Q1X2x0NnAzS2U2cVMwd2dmSDZQcy1seEVPQzRPbTVQN2lGNUJSc0VVVzBLb3RydFh3ekExazhHb2lkMmZ1WXpPNUJPU0ZJS25PTXlrRmd6dHJGRllhNVdZUzFBMEVZeWthMWl5MjdKOWY4OUdtWlJxdFMxd0hZOXQ2Zw?oc=5",
       "source": "DNA.fr",
       "publishedAt": "2026-11-14T17:56:57+00:00"
+    },
+    {
+      "title": "Il interroge l’intelligence artificielle Claude sur une arme de guerre : les gendarmes interviennent dans sa commune",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZnNVRjVvMjdTSkg0QThNR0t2ZDhLbUs0RlQtT0dZMFZNeWpYNVplNkJoSjlNVS1hYy1Xd0hXYW9xb1ZkUVAzX1M2bVcwWTQ4R2VxMzVqd2NTMk1oWW8xeWN2QmNVWm9oSER4Mzh4OTdYWGxhZV9qZmd0d0FZYU5GZlJSZHZzb1dXT1VqcERsMFpXVmRKdExKSl90aC1tbXFyUDB2UXVTa0NhZ0RtRlZaTDZCbkNvdkJXcnJ6aFJsX1BwcjNOaHBPZmh0V240SlhzYUZQYU5HRDVPMEU4cFE?oc=5",
+      "source": "French Breaches",
+      "publishedAt": "2026-11-14T16:50:00+00:00"
     },
     {
       "title": "L'affaire Nvidia accentue les tensions sur l'intelligence artificielle entre la Chine et les Etats-Unis",
@@ -55,24 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPV25uZk1DcWVyQlB0dmxoWVFoSnRBaHFiV2FTUzlFY0xSWDY3b2Y3UzVrbnZOcndGWEs3dkpBTFFpNlc2TW9KVWQ5NVM4WVlCS0s4eGxncVdaVkQyZ3o3dlpEOFlmSEN1N0FBZmwyeW50YzA5ZmVGc2RVZWRUMGg4ZVhjUXM4Q2tCaFRCdlFKcEotWTJ0TExKM3NJVXc1NEt3STEyWlY4dlVjQ0tTNzFNVVZuLVEwelVUeGpBTTNRc3luVTlXUGV6MXJOc1ZIQjh0M0RoREhqTjMwdXE2TVFKWjk1cHdJU1I5MnBPbG15dVU?oc=5",
       "source": "Zonebourse Suisse",
       "publishedAt": "2026-11-14T09:03:13+00:00"
-    },
-    {
-      "title": "« Le prof a fait une vidéo “full” générée IA pour illustrer son cours. Retirez Internet aux darons »",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWXRUdlJvZ3JmRjRqNjMyaHc0aG9aUWRuRmZwUVczOGR4Znk4RDBKWFBsN0o0SGdoWVV5SndMR05HRDBzQXNMU2duZnVXU0w3c0NNUExTdHozWjNqSkFUc2w0aHpaLWl3NlBKb1N4MUZ4MWFPT2llU1R1ek1wTDNJU0pRMDRsWDNPMG1RdGNzZU43TUJIZ3Y1eTJnNlYtdE95TTZRYW5tdTAwRVp2ZDZIa2E2S2dzdG53aFZhckZXX2V2WU5DelQ4d0VPR2hWUXlfQkhveUVpQnhYVkNEdHY5WQ?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-14T09:00:07+00:00"
-    },
-    {
-      "title": "Trois stratégies pour les entreprises et les États face à l’IA, ou pourquoi les décisions de Mistral et de l’Union européenne ne sont pas contradictoires avec la souveraineté numérique",
-      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxOWDdJaXZ3Q2paQVNYU0ItNkFoN3FNbUJtMWxHVHgtV1BvNEFNVFVwcjlLaFg3UmFCWFoza056X1hIT011aG9fQzdGd2RMaDBwNVlEWDNKbFJBeHJKZDVqWUEySnV1Yktra1pDX0dqaG5OREtSaEpWTHRWYktiZGNxaGRtRm1SYV9oS2lWYWxPbjUycWxOaGxSTUwxUUJfcVAweFpteW4xbUtIYnRUazBhUWtNME1IeC1lemVzeXEwd0k0S041dmk1UWsyNUY0Y0hoZEFfSms0U1VDLTlUdXhSaG5McnZKS3poNk0weWZReUp4cG1MMkN5cDc5Q0lqRDBLeGNlbXVjNzF5YTJubG4zUnBZekM2THFfQ1hrLUVxU3B1WmllUi1DZzhqSnBtSndWaE9PcXdvcTZhSTRD?oc=5",
-      "source": "The Conversation",
-      "publishedAt": "2026-11-14T08:03:53+00:00"
-    },
-    {
-      "title": "Un métier junior sur cinq exige désormais des compétences en intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTmlGSnhlTjVZeG54MWE0SUhhenVMbklrdW91YjhCSzZIc1Z2MFNWZXpkcC1RNkZmVlZ1S25SWmRCU0E2bGRHd3p6UVNzS3JMczZxWjVJZURMSFFmcWxKYWdKMW5ZTGtEYllBM0JIaGM3d2FoYWYzUXJnOTJUZlhOTldJZ09kQ0JpV05ndTJYcXJhd0dOYUswTFVZaUVfZDBwamdSVE5nbm1tODl0VkY3TzRBNF9pRXNXQnYzREVJZmlPcVhqWUtfQWR5M3Q1bVJ1ZDIteWJmN3E5S21uWERzLVRjaXBrVGxaM2FB?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-14T07:30:43+00:00"
     }
   ]
 }
