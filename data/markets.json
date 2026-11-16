@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T23:36:16.862Z",
+  "updatedAt": "2026-11-16T03:05:10.821Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
@@ -81,10 +81,10 @@
       "marketTime": 1794785767
     },
     "GC=F": {
-      "price": 3882.9,
+      "price": 3878.2,
       "previousClose": 3886.300048828125,
       "currency": "USD",
-      "marketTime": 1794785173
+      "marketTime": 1794797703
     }
   }
 }
