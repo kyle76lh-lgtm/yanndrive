@@ -1,78 +1,78 @@
 {
-  "updatedAt": "2026-11-16T11:01:36.012968+00:00",
+  "updatedAt": "2026-11-16T20:55:44.503672+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
-    {
-      "title": "L’entraînement des IA s’avère toujours plus consommateur d’énergie",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVFJwODJvN3BwNGdrNHY0LWg0R0NxVUs3NnR2OEs3WW1CWXBGMi04d184WkdEcDhCeEplTXpMTTMzcV9NX0NkU0p1U1hJRDctdGh5RERzZDRueTBpS3JyR3RKZkZGS004WmhEWWE1S0w5SjlRamdVWDBmbFJ5Qll1YXd3ZFVuQjhETDd6VzF1MEsxaFR6NVFnRmRSb3pSOFk0a1ZvRVpBOU1oZUxvaVVYRHNXSFRkVl9zNGFSOVZXYnVPTjRQcmJpVDVheTNMZzd0V2hVNA?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-16T11:00:03+00:00"
-    },
-    {
-      "title": "Les couples font appel à l’intelligence artificielle dans leurs disputes",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPam94eFZneE5ZMzRTMndmb1dHbHNZaENWMGlJNFpwVXZoRUZUNndScDBNUTRzNGxfV3dwYVpsTUdsNG5sck5zOVNHWjE2bGwwbmtIOTF0UEdTQktqZlhlcFF0ZUcyeTZVbERyN0VnV2s5SnNhaV9mR3hNRW55Smd6cG8zenZYVzdSR292VWNoV0lLWlRNY3piRF90NTVZRk5OMGM3cG8xeVdxQlVGaHQ0MGY2NWw4clBROHNvd0M5cmprS3lEbktNUFZhT0MwQQ?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-16T10:24:44+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : les collectivités consolident leurs projets, selon le baromètre Data Publica",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQU1lwOFFZMFlDdUx2RFN4enJCdkpGWWFUSjRxMGxza1VQb0I5alo5bmJWajZOTjVQV1lEU1NpaVJWWEhOSE40YUdpOHVHSjVRVzUxTHRycVF1aVZwUjlpOVhTQjFMVGhSTHo3QjNDWlZMa0pXTk1BdjMtMmpEcmxUeWtsR3liWjEwT25neTV5TWFySkxmazQxZ2NmaXZPcUJEekNqMmVOeWxhS2Y4TXY1STlvZ0NrQUVMbk1zWUZ2NmV6VHlVbmxhRTQxekVEQ3V0OWsxX2Uxbm9nUTl2dExaU3FSMC0tVFZTMXhHVV9SRE8ycmpJ?oc=5",
-      "source": "Éditions WEKA",
-      "publishedAt": "2026-11-16T10:10:05+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : cinq choses à savoir sur Anthropic, le rival d’OpenAI, en voie d’entrer en Bourse",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPeXh4c1hhU2pySk5oRVVXbksyLTIwVXJxeld3MkoxSWt6UDFPOWNxcDMwWm1kcmRhejktekFLek84eEk1S00wZEdEeUYwRzYxM012V0Q3cTA1dHF1QWFldWFlUlpXSm9aaklxbEhuZWtTN0dQeWlnazNoN0VyTnRqQl95NTVXX1JkVkdHYTFlUWNWN3Z6NVp1Ri1aS296UVVXZEtDaTdaZGpLTm1mcEZ4RXVScjlRYzFvcUFQdEx2T1pkVzA0WnNIdmtPTWlwbzRTUmViNG40OWpHcVhxMFFEVlNsVDdmSktGM0xSUHB4eERHOTJuemRJLWpVeEY0Y05leGoyd3ZmWU1oaElCX0ExV1RxVW1UalEwVFhGRw?oc=5",
-      "source": "Sud Ouest",
-      "publishedAt": "2026-11-16T10:06:36+00:00"
-    },
-    {
-      "title": "IA : tous vulnérables",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpR2ZnSWRoczdrUmxWWnM0UjZiSkZUTWkzYjBHMjlWRTJHUTgwVEg5OVZaR3ExdUVrTUdaY2dtaDBWbzQwTjl0U01BMDRZSWhNUk0wSFF6d2pQX3VzWXBzemdR?oc=5",
-      "source": "Centre national de la recherche scientifique (CNRS)",
-      "publishedAt": "2026-11-16T09:36:19+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle recèle à la fois un « immense potentiel » et un « grand péril » pour le climat, selon l’Onu",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQendQNTFKWE5xZ0pXb2pIWGpPbEIwZTFkSDhRaGhzYkdEWThHSVpkb2REUXBLTDhCLUt6NlJMN3NuNkFJbWJ1S2lhRXJyWWctbkRvZlVVMEJ2eEUxajQwMEcxcEFibDE2ZmpaTlV6VDRxRUpVQjZNQW9rRF91Ykw4dmdLQU9GUWlid2ctT1hnVjk2Y2l3clZaN2lPOHdxcXlScHJyMFpfdjRaQktUZllIVDhhNzFqTUliSl8zZVF1YkVRa2RFeEdaVzlnS1lCVHJxZE9UNXNBU1BWVXlCVXd2MFlSaUlaVmJnU1ZRbWFyOXFXYW15d21rOWQxQ1Nxa0F4Y01qOThLRktSeTBLLXVKYmhYOFc4NDFjeXJ6bGd1ZHlFYlJMTGZrYnEteFBpVjcxRUZj?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-16T09:26:34+00:00"
-    },
-    {
-      "title": "IA en entreprise : pourquoi la France peine à transformer ses ambitions en résultats",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQjJ0WHhKSmJZU1NGQTNQRzdqMnBxUFVpbmZGNVZHNlVFWVFnQ21VeENWUVlJSllmQl9TTUpxbXIxOWtnaUc3Um5zUGFwa1phcmJmUlZQRGd1VzBibjJhdEFjYWd5UTMxSFZYMjBDcG43SUR3Qnk4SDBuS2NfOFAyUmo3Vzk?oc=5",
-      "source": "Maddyness",
-      "publishedAt": "2026-11-16T09:08:16+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : Le Parisien et les médias du groupe LVMH signent un partenariat avec OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQQWtfWGVRMEd1d1cyUEozRzVMSUF6dTh6UWRaN1pSeklMcFBiaDdPZ3BNUzRkMHhfMGtiSzdvR1VCTHFrYkNVa2plQ08tSEljT0JmYjBjODlBblBycWNyUTlpSWVMWHJIVWVBVTVpLWpscjJVZEdWLWc2N1BiY3M2Vnd2cTdJVWpCZkUyMS1Oa1BwaGtGNG1Sd3NZb29xa2tiVkduQ09yMzM3Y3FZcEVFcDdyNTlONjk2d2pIR0VycGRSZWJHLTB4Vzk4NUF4TFN3RWVhYl9pSHFESmY5Qk83aVgtWjN0TXVhd2ItX3M2Sjg4dTJUVFkyTzRCWXgwTTEtY0JhU1ZEeGNrVGM?oc=5",
-      "source": "Le Parisien",
-      "publishedAt": "2026-11-16T09:06:37+00:00"
-    },
     {
       "title": "Deux applications suisses promettent de transformer nos habitudes alimentaires grâce à l’intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOWVPWmk1dHEtMTlhVW9mdmJ1Zng1ZE5wUmRzVWZaMVo1NnlUa0c0ejNpclU4TGdPSGRma2hKUUtNbWN0TDVrcXJPUGFVbnJ0c3k2V2lTY2Vlb2xjTnpnWFdvaHE5a2hkampnLWNXNVhCMXYyQVNpR3E2SXppbHFhNEU2MUJPc2hxWU1JejZUQXdFazBnQTloMEhuaEpGOE8za1pNa01JR1dWRVo3aVFvbUhOV1k1NXRuX2FManFkZnZpNUNCLTZBZWt4UUxGeGtEVzJPZjF3dTdWUG1DbE15cGcxenViWlE?oc=5",
       "source": "Le Temps",
-      "publishedAt": "2026-11-16T09:01:41+00:00"
+      "publishedAt": "2026-11-16T20:01:44+00:00"
     },
     {
-      "title": "[Tribune] Les mass-affluents seront le véritable test de l'IA patrimoniale",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQN1ZRVEI3WnRSSF9TWUZnMm1RcmtFdjJiSG5IOGo1TDZraUFkUWsyNnk2OGhaV0tiWnBjcktsbFd0bEJzMzhab3dFX2tIa044SHp4QURzd29KNUszT0VqSVJicklrZFlBZ0pTcGR5cU5VMlByN1FLSE5tZ3laUDZEeEowOVotTVZMck9yWjBFcHZCeUdhNlg2Z19SWGxCSjItR1h3cm9uR2VEamEwV2xySlpCQmZOR3BSLXk1QV9EZFdtNzFXSFY2eEJLQnpBYmJraFpLTWZvclRTS1Fjd3ZlVXlhZTR5OWRtTFlyUmJreC1sclk?oc=5",
-      "source": "Gestion de Fortune",
-      "publishedAt": "2026-11-16T09:00:00+00:00"
+      "title": "« L’IA peut réaliser la quasi-totalité des tâches » : quand l’intelligence artificielle met un sérieux coup de frein sur l’emploi des jeunes",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOTno1V0RPWDhNZENUMVhCS0hpZUNfcS0yZkdHbGhaZVlQZXVya210WWh3QXVHU2JKRjRROUZoNk14VWsyN3UwelE2MkpJU19XYlNaR3U0S3daTHpBakxGcGN3X0czcFpCc25RYWg4VEhZdTByaHdvWkd1Zk13NlZ1TkJyNXFjUVcwekdVNTAxRXZVemp2LUdDdDZiUkFKTUNwMUp1alVPVUVOOF9aMDA3RTdSZjlzTTJ3ZExRMU4tdVRWbW1VZG0yR0lIaHlRN21nN1VicXJ0Sm5RVUV1REpaWG5OWFB6TWFGeVBnNEZYTFlHWmVjN25ES1owem9vNEU5Y3VEU25BT1ZnMXFnV2swM0hJVQ?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-11-16T18:54:49+00:00"
     },
     {
-      "title": "Comment une entreprise bénéficiaire peut légalement vous licencier à cause de l’IA",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdXpGc0RSZHlHTXpyOWFwLWVDNFhvX1lPTzFhZXJQVWdwek41c3R5aFBsbUpPU3hzQUVDVVM0TndGU1FTcDY5SzJZMWZVZ1J0VUN3dFE0MGc2X0JzVTVGdzBRSUV1UHNDMXV1U1pXMk5XTVVZZEl2VGdmR0p2RnZTb0k3djFqNkg3aVVqREtXMFRYZlllWVdJMnBTMlZJRXdrSkRiOVF2dGVDS1lrUUUxUldMRGoxQWFtbVc3OXhhVnZtWEl6RGxnNzlnMWI0STVhcWg5VTRPdw?oc=5",
-      "source": "Le Point",
-      "publishedAt": "2026-11-16T09:00:00+00:00"
+      "title": "43% des 12-17 ans utilisent l’IA quotidiennement",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MRHpFRWxxOGladm9EMkJCRnhra0djdkhBOU9iQjlBbGRVNEpwSHh4MzZBR2JMSXVmWkNRYno5Vm5GZ3lZbU1GV1pFdEZZdzBqSHN2TUdPNkZQcXBPRGVXanpxcS1XaXFpb0hFX2I5TVJYVXZZTjdOU09B?oc=5",
+      "source": "CB News",
+      "publishedAt": "2026-11-16T18:26:03+00:00"
     },
     {
-      "title": "Pas besoin d’acheter des Mac : Mount Thor veut les louer aux entreprises de l’IA",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTFJHdXcyQ0gwRlBrc1RxeFJMemJXSk9iX0VuOVk2UVhycElNdW05ZDdPSV9kdTdnZnJ0dmNUaFN1RVZNeTdqV1ZPYjg4ZmZ4NVlWUUlDdjlnNThYR29JMm9hRENVTGRqNzk2elk5QVFkNnZUUFlDY1F4UjlFNWNkY01JcXJQOXlodncxWnpTd3JxY1JYSFplNkk5Ymt1ZWxoQXZialJfaEp5MDRaTURrMDdmNTExeERoQWdPX19jR1pQejYyeWVoY2NtSXlIWVpuZUFR?oc=5",
-      "source": "MacGeneration",
-      "publishedAt": "2026-11-16T08:46:00+00:00"
+      "title": "Passy. Intelligence artificielle et entreprise éco-responsable : un frein ou un levier ?",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWE9DN0M2WC1xYnRHOTNSTWpsZnhET1IwSlRQemFMWmV6M3VqRURFaGVON0VfdDFoN25NTmMyZ3RGUU1IZ3RHNXlsWTlnTF9qYWl2RnZYemY1b2ZvQWN5U2tZTVhYLWduUHhwb2dxNm5Qb3RoWXEtUTBfekxYOUxtZ1hmdTVJOExrYldSWE1FcDZCSWxRNjlTcDUwbmZ5UjNfczZmODZzU2pvLVg2RWVmNkVDQmRGRjFwb0xqQkN6TV8tb1U?oc=5",
+      "source": "Le Dauphiné Libéré",
+      "publishedAt": "2026-11-16T17:37:15+00:00"
+    },
+    {
+      "title": "Changement climatique : l'IA peu fiable dès lors qu'elle est contestée, selon un rapport",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNXzJoTk1fYkpqOS00S1BKcXpHUmkzMEJ4TmZVelkxY210a0pyOXB5b3pnLXVpdTZaLUhrR3E1dTdnNEVLakJsamxqbDhrcWt1NWVGUmEtTXF5aTgxZjR6MVJOT0w1OUM2OGJqOERQaWJQWmE5OGJCLWRHYm0zcl9rY0hGdzJlVnJXZUhsLUtOdUF3OElBdklZMnNXVEltc2xsSWJJWGpqaDZpeDFhbTRXSEJBTUFDVDBpYXNLaXA5X25KNFB2TVpiT1ZpZ1BrdnBScjdMRDBtMUNTTDUxQXhONmt3?oc=5",
+      "source": "France 24",
+      "publishedAt": "2026-11-16T17:25:31+00:00"
+    },
+    {
+      "title": "Classement. Intelligence artificielle : la Normandie parmi les trois régions les moins bien classées de France",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbmFhX0JRSWtybjIxNTQzbkxYN3dRU0NRSHF0Q3NDWE9oNHFpRFZCaF9qc3RNWE45Z3pTOFFnMzNMc1JEN1EwOW9URWhXZXJvWmhsVURiMHlxU3dubGtmZG1pQlEzWkcwZzlhakJPT1dBeUYzbWZmUXczN0ZqcEV2TU5KMXh5ejVBRGlsUkhwSk9rZTlVcURRMVpreGVWajBTU2F4d3NHdGwtOWRuUDhJMnVWUGE5NGtHUzFGeWp4WTRSVmU3aEtVNXl1cEdHUTRwcjBGN2hUN0VsQzhWRjZhamsxNnc3UGJSOWc?oc=5",
+      "source": "lamanchelibre.fr",
+      "publishedAt": "2026-11-16T17:00:00+00:00"
+    },
+    {
+      "title": "Rouen. \"Intelligence artificielle dans l'édition\" : comment le secteur littéraire s'adapte",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb0VqcWF5Uzl3bV95YjQ1aWc1UlNJTmh0VHRodWVJdEV2VFkwZjl6cWVITlBPeTRkMUJRMVBJeWZQVzBKdmpQbV9hcXFuemN2MFJPaVJNY2x5WEZCbnFNazVEbE96NmUyc1AwQ0NuN2JJcDQtYXV4ck52UG1MdEFkeTVvdXk4aVlUbjBoUXJjOXhicjB0aWF2WlhOYlF1cmR5UjFZRUVpckx5Um03NGxvZ3dBX3N1R0duSU05R2M5b0tVandnUm5WYXNkOHU?oc=5",
+      "source": "tendanceouest.com",
+      "publishedAt": "2026-11-16T17:00:00+00:00"
+    },
+    {
+      "title": "Cac 40 : Avant deux rendez-vous cruciaux pour l'intelligence artificielle, le CAC 40 joue la prudence",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSklWM1lLbTVxN3V2TTNHNC1MOEZkUmRwcENzU0VJd1FKSWNEUllCdExVM2dZZjB0eV9Xak1wcHo1VlBMaVpBNzNWeWFzeG5XRUV1SWNwNldRaUd4YnpVUTZPM0RHMnNhYTYxZzdOV0Z1NFNGcnhES3lEcmxMUENOMnpSTXhBUVMwdzlPNE1oOUlFVVlLblpNbFNLd0hQZnM0RW81c0k1bHdYRUFodVJja2F0dG16UDVaMi1Tdk0yeF9rSDRkeHJlTTZaeW9scVFHN01Cbm9pZWx2Ty11UDNLNk0wRDF5bHJYd1ZSWDl2a3lodkZ5c21pZlpKOEMwdw?oc=5",
+      "source": "BFM Bourse",
+      "publishedAt": "2026-11-16T16:41:41+00:00"
+    },
+    {
+      "title": "Databricks veut accélérer l’adoption de l’IA en entreprise en Europe et au Moyen-Orient à coups de milliards",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPeG0xQ1djbG5JTXRNdlpySm10N3BSazZkM0lRU2FiU3pDMjhGZnc2VThDaTNta0dpUUxSbllfM0toMjVDemdWVFNadG5YMUkwUUZtbUdOdTl0WkMyNnJFbGJWdjUwRUNodTd4TUFETVVjX2djemtIQ2RvZFdWT2RHWElmRXdNUVctSFdUb1BycnA2dDFCSVhGal9nUkJxNUVYMHZQa25OT0ExdXBnR3Y3NV9aZEJlaXhUWXFTaXVZazJjWWRIZmJGX3Jkc1Bza1ZVMDRSNGpJdC1IUnlwRkZYRWEyUkpCV2ZiOVYtY2RHcDRtNDhSNmZ1RTVDQ1JYU2ZRQkZiZVlhUUpuZlhXS2dKZWJBUVgyWFNVNnBRR1h3ZVNucjR3SXVtbnRscUpvSFVtQXc?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-11-16T16:32:23+00:00"
+    },
+    {
+      "title": "Cécile Pierrot, cryptographe : « Nous craignons un effet de saturation » avec le raz de marée de l’IA dans le déchiffrement",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNdkhJbXlBZnIyamM4RnZrRVlKMnE5MGNaTXRsYzZVOERXX2dyOGZmeVYtZU54c05sb0pLQ1IzTENHU09CRWpBTkVNUlJxdERHMEdldEMtTU54elc1QS1LTkwtX2pVUmtiRHhqVmRianR2dU9DZWdrRFRISFNqcmNJaXpJUC1zUXNpZi1vOUd0cERnNTBsYlJuQzJUMlNjRE5JOXJmQ3hUa01Ca05VT0o2TXF6bUZQcGpYZVd0bUNBSXJ5U1A3aTkyR2JfUG5yRTdDQVFfYlAyN1Z4RkRTd056XzZHVDk4R085U0twazliSFlHd2o1NFZMdGIyajZjUTNMUTluSHFHbnBDUnBZdjV1UGhvWG9BMVE?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-16T16:30:07+00:00"
+    },
+    {
+      "title": "L'IA accélère, la France manque de bras : le nouveau défi géant des data centers",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEZteGFINnlNaUNUUVhlWXBTVmJWYndmSFNkN0QxSkZOby1oRHZabHdHWElNQjQyU2JHWnFheGhtWlNrVDhnVDcyNDU0RWJrb0t5ZFpoaUozR0tGR0ZJYlNYMmZwOXRHVHQ5dXF2RmlVVS1SQ2xwWXlNU3ktX0pqMFpnaVZJMTJ5R0JFdFIwZGJ3cDFJenhJM00yaE9qXy15UkxPTlZndWs5SEloRVgwelB4UElfRTRQVHNaOTJxc1JUb2ZzZ2R2Sg?oc=5",
+      "source": "La Tribune",
+      "publishedAt": "2026-11-16T16:25:01+00:00"
+    },
+    {
+      "title": "L'IA et nous",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1icFpoakhvS1R1Tm94VVFudWthdl9QYVJrR0JvSHVuRk0tcTNJVHNnRWZKeEtRLU9PMWpITEM2UFBDNzltTzZMc2ZHenFMd0hTSThlMmlBLVhkRWFKOW9DVWxwd0ZIQkdOUWVoa2FKVEVGUV8wdVA0OHZnNl8?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-16T16:17:28+00:00"
     }
   ]
 }
