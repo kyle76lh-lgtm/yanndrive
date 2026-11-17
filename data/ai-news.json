@@ -1,78 +1,78 @@
 {
-  "updatedAt": "2026-11-17T12:14:44.573860+00:00",
+  "updatedAt": "2026-11-17T21:00:14.868999+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "La Résidence : avec les « Olymp(IA)des », le réseau met l’intelligence artificielle à l’épreuve du terrain",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRkdCR0Q1X0dmYmpZZkxFemp4SmE3Rmp6RkNXMW5JZUxzTFVaOVlvakJYVGluOFgyZmRzYmVudER0WXJpdGFxUXM2S19rVlZISnUxZVJ3VWJlZkJLa3lQamVEbndSMk1TaVB6T2JhSlpxYnlOWC1ESHUtbmJIa2tKSENRMVFvV3dvNXVidW9aVzBJWWs?oc=5",
-      "source": "Toute la Franchise",
-      "publishedAt": "2026-11-17T11:49:16+00:00"
+      "title": "Débat consacrée à la souveraineté : Marseille, capitale de l’intelligence artificielle ?",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTkRtemJzT1lEenJzQWNHc0QtX05wanJST0M5alY2bFRpbEVpSmY3dDhfY2luRWxzbV9NWXEyMk1Ec2lWVDFuaHlGU2o5NVBuMGpGSVFfVnYyRE14SE9nZ3FPaDJ0cnkyOWxINGFDV1FYSFUwQWNMOXpNd0w3REtfejJwLTBzZm42bVVWaXRqbEdfT25aRGtRdW81dzc1YTN3aW8zaHFvNVRseWZCS0dLWUxPSWZsVDFoeDAxWFFOZk1jRkxsTzh0bjZyVTRXOGtBVVAzYVVjSTlkbHc4?oc=5",
+      "source": "La Provence",
+      "publishedAt": "2026-11-17T20:35:01+00:00"
     },
     {
-      "title": "Intelligence artificielle : perte de données, entraînement de modèles, deepfakes... Pourquoi vous ne devriez pas utiliser vos photos personnelles sur l'IA",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOSG9YN3RTQ2poclU2U1R5TGpaZ3czMFVuYTRWLWZzWlFUYl9kNjhmSzQ0RFhyNGxxZnR0RUtDdHhrWk05SjRvTldVRlpfY0tWU0x6NnYzX2NEQ3g5Y1p6eXo1b3hHRWNWaGNIekRYWGxQZnAwU1pIa0FCdGltVjhoSE4zUC1CWmJ2RGlPNURNRVRCRWpRcmVxQVRBZUJhenIxUVIxUlg4M3VOVWp4R0RKLW85NVV0WTI0ZGFWOWJBSUFSdWhaSjZ6aG9MaVV1STMwOWczMEluSElHaXViVHIxa3hYY0UwcURqTUhDblN6SEYtQTNHQTFkVWtZQVdzR1Y2Y0RoaWZ2d2hwVEpOY0k4WERYdDN1QWQ4UnA1OGFkNVY?oc=5",
-      "source": "ladepeche.fr",
-      "publishedAt": "2026-11-17T11:43:00+00:00"
-    },
-    {
-      "title": "OVHcloud lance «Olala», son tout premier modèle d'intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZmE4RndtRHJLdnFFbVZoYWoxNkxnNmNJX2ZHZF9hWHV6S1VEb2Z3blVvbEhJOVBTTERaS2FnODd5bHRkRGpiMFg4T2g4Skl2VWJxLXFnZVdOVGpSaU14R0pvcmVUV1ZjQUY5RTNVVU55V3ZsTVpReU12Ry1FTm4ydUdxcU90TGN1S1hJZUJYZG5FcGVwcWh5SC1Maw?oc=5",
-      "source": "Yahoo Finance France",
-      "publishedAt": "2026-11-17T11:13:57+00:00"
-    },
-    {
-      "title": "Millennium, l’École normale supérieure et sa Fondation annoncent la création d’une chaire de recherche consacrée aux fondements théoriques de l’intelligence artificielle | ENS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObFEyZkNoVWp6Q05KQ1I0R25ZeldFbkdWakt5TkFCUWdwZXowV2paTlBvSGJnLTM0ZHhwd2hWNk5CU284d1hRVUxMT2V0MkQyblNTRWF0Z2VOMWJqY0pCTzdNSl9FSlBScHhDYTQ5NmxFemtsaTJPa0dUa0R3N2JBaTB1LWNvcUNYRjRObWtDc3p6cGdIaDUxZkVqaExCZWpQVGxzYWlNblMtMnd3b21fTHdfQ1ZuNUZSTHlaMDQyMA?oc=5",
-      "source": "PSL | ENS",
-      "publishedAt": "2026-11-17T11:04:58+00:00"
-    },
-    {
-      "title": "Median Technologies récompensée à Las Vegas pour son intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbnZxZFJGaWxYZ3RqLV93OC1VUC1QZ1BmTkI4MmttNHJzWFQzY0RkWm5VVXM5NnNfWnJwS0FmQjJjQi1VRDYtLUgtcjJRRFlrMUVpellWUFZPV3dfRnRhVFJXVERCcmVPbTJJOS1WVS0xOTUxbkNRUERubUd4dWdEMlBLNzBMd1NjVkJZMnFvNjdYZkFBaVowbW5Nb0hIZmJV?oc=5",
-      "source": "Tribuca.net",
-      "publishedAt": "2026-11-17T11:01:19+00:00"
-    },
-    {
-      "title": "Armes autonomes : « L’intelligence artificielle en guerre, ce sont des vies humaines en jeu »",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSGVDWjBNalUyMDZnWDdoUEI3UVhsUlZWZmh0anFobUoxQ0ZCS0h2OU9VdTNTdm1Lekg2clZRSEliMFdIQzhKRXY4Qk9TLVBzSkxiVlpKbjNRT2dXNUNzd2pzc0xGRHp6bnBOWXBEUGVTS09pbDRTRFFmYWp0VFBVS1RYMmZwMXVrU2txdzJ6MU9USVdGbE9CRlg0LUZJSUZTNWhYTExwSnRsSHB2QTVLMzdsZHRiTi0taU9NNUl2TThJeUE3?oc=5",
-      "source": "La Croix",
-      "publishedAt": "2026-11-17T10:51:34+00:00"
-    },
-    {
-      "title": "Olala, le premier modèle d’IA de l’entreprise française OVHcloud",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZ2hkcFoyOEtnMGRIM0t2UW1sdXMzcUM3NURrWnJidi1selZzNER3WmhwRlpic1VEWlNNTUl1emJzei1KdGpCeklfZ2xzbXI2ZWk5V2tQUW9USllLbG01allrWGJRa0ZBNC1GMkdpTlVFMW04bUZKZ2RlSkVDTnN5dmx2LWRibDJIcmthLUN5dGFJLVFNcTRMaUI4RXZ2NGFCaDd6MkV2VjZ3bFRPSFFGMTZ6dF9wcExHRzlObm5jMXlrb1ZEcDVESVFoVno0U0s1Z1JVaEZpS2kya2ZoVXllTA?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-17T10:36:04+00:00"
-    },
-    {
-      "title": "Perspectives sur la fusion dans le monde 2026 : l’IA, le défi d’un financement à hauteur de 80 milliards de dollars et les futurs scénarios de déploiement",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZUNrOTg0SlFDVkdlSUlEUU1jSTlOTzhTUnhzaDg4N3ZFSGFwVnYxN2h6eGgyUVNLbW84eVdpUnRHR2RkTW50aUJOZDQxeDFxRWx5NmpkS2E5aWpXZnZrU004SFVzeXk3SUVPNC05bm9sdVBUakhuOV9SaUlSQnNhbWhkTHNSeXBzay1YbEpTX3NJc1FZMWZVZlRBNWpwZVozMlFyVWl0UU4yaG1odFJwZWlHdnE3LUJmblV1S2Q3cm5VcElzLWwwaFZxWEdYLVBWUENZMXFrX1NubkMzWkZOZU1QeVdhLVJjWjNuNzNmaXNHS2tZYmJoQ0lfT1Y1ck8ydEdTR1lwTVUtS3VmMnF6NXlNWHc1c3Ba?oc=5",
-      "source": "International Atomic Energy Agency",
-      "publishedAt": "2026-11-17T10:31:31+00:00"
-    },
-    {
-      "title": "Agents IA : pourquoi les trésoriers peinent encore à passer du pilote au déploiement",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNTVUbHN5VWJLZWJKcEY1ZVg1Q0hBYk5VMmpBci0xcGJtVUZib1I1UC0yTmZ5aEF0MkU1RlVmX1FQQmtYTV9iNksxYkFkN2x5OVNybmhNRjRSRkkyM0Y2TUVqRmUyZ1lwaGx5QTVTN0xLWklPR1pJSmNybDF2d0M3Nl9ON3ctbXFhTlVPR042VmxfLU5HX0ZDdTJ4dlhTQkQtcnp1eExIc1RrRmYzVVZGbFNYQm9KdGpQVWV5bDdBZjZ5Nnk1a0xNdg?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-17T10:30:10+00:00"
-    },
-    {
-      "title": "Les progrès de l’intelligence artificielle (IA) coïncident avec une forte hausse des incidents cyber, selon les données de Marsh",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWWpoTWJpcWVmN0VKX0JVeTUyREZuelNWZy1Ba3BVVC1sRG9iaEhuR1REU1o0OWxkc19NVUJmYk9Ga082TV9iUmp2d1k5Wk9IZmt0SVlvMmFfTW1fVHNfaXQyR2dOZ0Y3aTdXbnktQ19oYnMzeFYyNGtHYUtTUW5UMXNicm1QcXVyT2F1Zm5fa21sYkxZS0JUb1NGOHYyaWFzdHFORF9Pam8tNy10a2JOY2xnOGw3LWhFeTRpU3VFSWZJRWREVkdTdHNTd0p6M0JTeDRUVkd5dHN0VUp0bnBNdWxQVVVJeVRvdEg2dl9R?oc=5",
+      "title": "2026 est l’année où « l’essor de l’intelligence artificielle (IA) s’est transformé en financement par la dette », selon Wigglesworth",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMm5YcnJRcmxDUnpIU2xjaV9BMURNM1hqZDFlcTVjN2JkVktEbENxZk05Y2tGN1FOV0I4VEQzTDVxY0ZfQjRGYmMzYTBXVVBRa3htbFp1WHp5MkV0UFNVUFZKbEZKNkRtNHJfMjRUTy1VSEJIdF91UWVYbTk4TFo0cFl1Q0ZJVFN1OHNMc3pvc0NhX2hWWVlqQjZUbGFYcy1wZWZXUUQzc2pHTG9PTHFhRExfYUcwS09DUnhacTVNOTBSMDUtaXpfVUsxd3lOOWk0Zkk3TmMzVDVDRnRiV0xONm8zODVlMHM?oc=5",
       "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-17T10:27:02+00:00"
+      "publishedAt": "2026-11-17T19:24:11+00:00"
     },
     {
-      "title": "Moins de 100 salariés face aux géants de l'IA: le pari fou du français OVHcloud qui veut concurrencer Mistral et les Américains et vise 100 millions d'utilisateurs",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQZmZJM3VRa1hKTWJyalRfNGt2b3NFU0JPRkZtVFpZVXBKczNOQU1SblpEYkVmaHhvcml0czNiMUhJX1I3OE5VLS1OVXF2Nm1SU050OGFwdzBqV2FkYXcwUEpValJKOC0ySHljTXhWUFZtUlpTS1RKXzNiODllVGluSWk5OUtuOFlqLWc5SUlWX1d0YjhESTFubzA4eEdOeG5wekdzNEIyUTV0TUJHSnpKcFI0aDFjNWlMQk91cDNSYk9iM3BxSUZEcWFqV25yQ1M1RzVhRDhuN2NVcDRmMGZ0djB0cDVleXBkLUR4c3QxcGNpb2tTbExCR1V2QjZFSFJ1YzlDTFg3Z0FaWldDY1pHX1FyWGw1ckVGdEFpZ3Q3MXFlR2ZpS0JpbF9MUGV6SU1hWHo2Y2JSdEJHNmNla1Y3a2hReGwyNlpqVXpSVk0wM3RfNDJuZGduaQ?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-17T10:12:09+00:00"
+      "title": "\"Ça crée un peu de suspicion\" : comment l’intelligence artificielle a révolutionné les photos des annonces immobilières",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPcDZHYnlMb1BHbFZpQ3JfdTVYV09IVEltNGktNERCT2JkRTd2d0dBYXZkNW14WlRoVUdUMWEzNnJhbmZQUUduVmViSF92aXhUSTBPNkNhcXdGa0E4VmhqUTNTcW5ybk55aHNPMnZIZlFGN1pZTXVXdlZ1X1JnUFJFUXlXakFTSUxZTy1tTFdIWG5OeHhobEhEbW1QV1Q0d1lqRWFmeTduM2xKeERtSkxqbGVFSTllbmd0QU5IT1pFSHVWM09qdkVqZk1aQVFLVThkOUhhWmU4djR3NFZiZE5XMXpmOHl6dk9XOHlrTUpMUjRhUTE0?oc=5",
+      "source": "TF1 Info",
+      "publishedAt": "2026-11-17T18:00:27+00:00"
     },
     {
-      "title": "Intelligence artificielle: Barbara Cassin et Abel Quentin débattent",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUxfclh6cS0xOE1WOUk0WENVczN3Rm1xSVpvaE9TVE9rbzEyYTFHNWRDQk5rbGpOak1KRW9JMGxreGN0ak1qVEFocWR6cGxvTlkwaFJ1NDlnM3ZkMGIwVFFheTVzYW53dWVJZFB4RHpUN2c4ZGRGWFJsVnhNZHVHY1FiUEhCLUJCWWV3a1VZVmRqTDZWaVZ0TVhpc2Y?oc=5",
-      "source": "Le Pèlerin",
-      "publishedAt": "2026-11-17T09:30:03+00:00"
+      "title": "« Les data centers vont nous pourrir la vie »",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaG1uYVVDR010QVFTYWE1Z3JVbHZoM3QtbWxmZUxkQTZTUHc5RjlpeGQ2em54YmswMTNNSFRwY014UzVOTEFFQXQwbm5LczhhNS1yVU51U2JPajNxQkg5TFRMWG1mcUFTck5wbzNqTHgtc0huemhfOWZxUGFYbDhqNmxXT1psc1lyeVB2bm5faVFRRGtqb2R2LWl3SlVtVUp6WlE?oc=5",
+      "source": "Mediapart",
+      "publishedAt": "2026-11-17T17:59:18+00:00"
+    },
+    {
+      "title": "« L'IA industrielle est la plus grande opportunité de l'histoire de notre entreprise » : comment Dassault Systèmes tente de résister au rouleau compresseur de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPdE4teE5qdXZuVUR5MWx1RlQtN0NFcnM3YnNOQ094dkN0bzVyZ0QwR2xYYzR6amtRYnYxUHhPQ3NVZGdiSGoxY2FCbnpUZElCN291VHVBWTkwOW9ZV3I4ai1LRTEyYlVVaVFVQWp4ZzJTSklDUlZWZlJVdzJPVzZGblJMcjhvMkVDQTU2WUd4TWhqTUV4ZEJhQWlfcUVhSlYxdmozeFJKeVRFMkhFYzhsX3R5Y0VpRk90Vml6VmROa3pYdlhsNWI2b0x6d2ozOTVmczdKVU85Y0ItMzhTcmNZbzhpOVRBZlZkbGVKbTgyelg2amNWR0gyRkQyc3NvWGNCRzNYR2lQVGg5LWhVa1QzUTJzTjV0LXA2OExSQjdua2dXckl3MnU4dG9vRUdHOE5o?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-17T17:35:16+00:00"
+    },
+    {
+      "title": "Entrée en Bourse d’Anthropic : six questions auxquelles l’IA ne peut pas répondre",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWlpBdFhFOE00SFgxTE9MRVlreUdELTEtRXFVMzFmdV9oam15NTczek5YYjJRRm5PYkYxTmZGWUFZSnRIanZwX3FscWQ2YlhsR2d0N21mdFBBbm92QkFXdFlldjJzZGhEZURZT2loRVdKNTdwcTAxcVp3RVEwVnlPRmRaN3VSek5LRm9SanY5UW5tWTd0V1ZYT1V1RDFVLVhZdnMzZFdSX2R4ZF84cU9RUGNpZU9Ndm93eUppdDRNbmtET2pCbTVubW9SY2JCODFidVpSRGhBNnc1MEJQWUdvRVFVdw?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-17T16:43:00+00:00"
+    },
+    {
+      "title": "Les modèles d’intelligence artificielle (IA) de pointe prennent pour cibles des civils et une école iranienne lors de tests de Vals AI",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdTZSODBIOFlNaXVQellGc2NnMUNvTnFHNmJuMDdHWDF0bldITWU1bk9jUENHNmlKbm5iUHVHald6UG5laWZCRzNhbkM3UUNQQ1RTT1ZPX3JjNldYdkxGaWxBVXVQaHlyXzc0T2pnaHRocFRJT2FvNjBRNlBvMTYtbFdkSUg2bGhNT1NlQmdTR2M0Sk96QXRveW1XM0p1QWtyRldmSWItb1R6c0E5QnJNcmE4cG5Rb19mX1ZIVkVhNzBEbzN0OFBVb3NiOUhxdEpKNGFNZW1GdXRTUmZTV21GLWkxNllfdEVUMkVzMnFB?oc=5",
+      "source": "Zonebourse Suisse",
+      "publishedAt": "2026-11-17T16:21:42+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle dans les entreprises et les métiers : recours à l’IA, compétences demandées et formation",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQMFF4bGw2MlZiY3c0THAwLTRVWFk4My1xUVpOVVhyV3VoZjZ5V25CblZpaWdoOWgwd0pUaFI1ZGp0cDk1dVVOSXZ0RzVPZUxrMmJXSC11MjhsUmRNY3JoY2p1bFEybnl2czJEYnVXUkk1SUxReXNqc2FZZUxGLWl2b1AxLVJ5R1JuSXJ2V05MQUM4ZzdJeFlMTUNLWkszSnRvZnNuZ0NZbUdaTjk0bHg5eDhmT0NOalZ1cGxyRjZodjFUNFRUam1paHM2eDZsQ3kwbXk5TUowT2FsQmlwMm1QQWhOOVJGOHlSbE91TDkyWjlxaHBlM3kteXZ1NjdrVUgtRkJDWW12c0dHVDI2MlpuSlFwaWsycDZJNDdUeGx0VE9IR3YwUURYaFNDYw?oc=5",
+      "source": "France Travail.org",
+      "publishedAt": "2026-11-17T15:59:40+00:00"
+    },
+    {
+      "title": "L’intelligence artificielle et les métiers à 5 ans : la vision des employeurs",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOeXJVZ0lDQjdzSmVkMUlsa1ZIYlVXajRocElyRUowd0VIc1BobzZwRGZSZFJKcFlyd3VRX1FSTVhaZ2xtalc2SFpYcU1VSlhoa1VqMkRqcjhUNjByRE0ydmlaWDNYb2FFa0hmeW9aYWcwb2ppeXBFNWd6M3FrQ01Mbm1KbnlPWHJSSXItVGlsZ1haY1NoQW5JNzdCcjl1QTE5TFJaT09NQjhDbGkzTWl0Y3pHamplSERTWGVfUE9GTUdUV3JucG9Dc1VIU09sdEJwbXdVWlppRXdMX0cxbWZheUt0RllCZE5JTDJ2NjJVU1NmNVNOOWt1UQ?oc=5",
+      "source": "France Travail.org",
+      "publishedAt": "2026-11-17T15:59:40+00:00"
+    },
+    {
+      "title": "Face à l’IA, choisir ce qui nous rend plus humains – webinaire sur Magnifica Humanitas",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPX0lOV0ZmamtKZVhqQkNwTi1GdDNzYW9XSFhqZ2pua2c5T1BUTHM4NGFadlc0RDBJUlpyZHJQOWo3SVMxNlVGb05naWIwT0tKZWRmSjRGeHFqYk5PT3JzTW5UZ0M5VHZBRlJqRVhaMC1yRHFPRXB2VXU5ZzZ6ODc1X2hmTEVZZ2U0anBDbktuQVBGdWU3VjFIS3hkam9XZUFNbEFnQ2xlV2RHV1duOC1xbXI1VkFwY2pLb3F4ZVBDS0JJeTlB?oc=5",
+      "source": "Église catholique en France",
+      "publishedAt": "2026-11-17T14:54:56+00:00"
+    },
+    {
+      "title": "Intelligence artificielle : quels usages dans le champ du handicap ?",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU192cURENFdRZm5fMTYtM1JJMlQ4al85bTI0d1NlRl9wY2UzVG5TNXk3U3BrdUJyTXE4QUl6cU1hc1lGS1R0aGtMOHZLSDNvMmktNWI0RDNSUGhsOUt6Rzh5d3NSRDNUX2hmRldVcU5UOV9SUzJoSzlhTHJxa1dBMHNqLXVhZ1ZseGZHQ0U2d0FqLTF0R3l4cW95UXY3eHd4dWc?oc=5",
+      "source": "Le Media Social",
+      "publishedAt": "2026-11-17T14:47:16+00:00"
+    },
+    {
+      "title": "LIAttoral : l'intelligence artificielle pour digitaliser le sentier du littoral à partir des images prises par drone",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3Z6X19HM3ZveWlic2JSbGFtX3VvZHNSOHBKVE40V1BhMFIwZ0dJVml0NUFyMjliZkEyX21MTHNtdV9kQWFwMl9JOFJES2h5UXFQLWJCb3ZFOWZSeTViZVotNFN3TlJkVkV2S2dFLUczcGEwbV85a09YdlA1T1BPNnlxa1lVbUp4R3FhVHl1S18zSHRxQTM4d3ZR?oc=5",
+      "source": "Cerema",
+      "publishedAt": "2026-11-17T14:14:59+00:00"
     }
   ]
 }
