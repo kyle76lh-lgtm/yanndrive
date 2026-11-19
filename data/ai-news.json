@@ -1,12 +1,48 @@
 {
-  "updatedAt": "2026-11-19T17:43:19.544938+00:00",
+  "updatedAt": "2026-11-19T23:52:50.063782+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "VIDÉO. Anthropic et son intelligence artificielle Claude entrent en bourse, les craintes autour de la bulle IA levée ?",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNbDZaY2Nld0RhbWZicEpLM1JqREY3NnB3UExCdUpkWmFsV3ExQTlFR3QwZmhvRk1sZ0tZN3FBeElYTmFMVFNUQ0ZsajJzY2tieW9KVDBZRmRpU1BzNi1qcWdwMDY4ZjRMM1loZ291U3pTbk5VN2NScEVENllBSU5aR1ZFaFhfTjlISzRjV3pkVm53SDF0aFBWXzEyNWRUWkltMXd2cGpBWFB2elRreFpsRVhlUTlWclhGWFgzLXU0Z2VYNnlCUV9xY2d2cjEwRVlLQ2VIaDRHOTVOSmZ2RF9ReEh5eElfYlZ2Zm9yOV8xTHpfM1BMVlVXQzBpYTVuZS1EeHRQNlNBZ1dzblJ2Y3d1WklKRWdmcUlDTHpiam55MjU1ZERra1NOb1VkMnhNbnppWHB3UktmR1NLbHM?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-19T17:33:46+00:00"
+      "title": "Intelligence artificielle : l’action Anthropic finit sa première journée en hausse de 17 % et valorise l’entreprise à 1 280 milliards de dollars",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNaVN5ZlVrTnlROWdJdkpBc0QzSURjdFVuWW1hZm5VWEluSTAySExyQTRsMFM5OGFhdzVZa0dqVEd4NmJvT0gycmVhdHJFQWZvUEhEWWVJZUFNNjhRUE5CeVhzY09EajdJMExxQ0ZldDc4YkQ0U3A5bDlVeXZ2SFNkdE5yNjhiYlhGbGgteHRmemRhd2I0YUdYdUpLdDYzaG1Dcm5IY1Q0Q0JiSFZHU090Z0puYmU4RnRrUHgweE40QmtrTWx1Vk02T1dJVGxyNmhPRnlFZDZ4VDhGWHRnOG5ETkVnY1RoUllSVGNsdlduSHFpNnY1QWJ6UjVzUEhCUHRsOUFibVhkLU56X19SaVEwYmpTY3djSnE1OEdHMi1kY2RRdFktd3ZFV21sSVdpd1MxeXA4?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-19T23:30:58+00:00"
+    },
+    {
+      "title": "Solana présente sa feuille de route 2027 avec intelligence artificielle on-chain et blocs plus rapides",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TWTVhNHg0TlZ2RnpDUHNacXdZMVFDX3ZPX1I5Rkx3c3p3N3lmRk1YSllneEtMVjlmeGRtVmp1VTZTb05IUjF1NHBmVDRONHpvMXFwZHBrY3RyLU54NHB0MTlEbWxMc0M3dVd1YkNrTEp5TVB0TzY0?oc=5",
+      "source": "BeInCrypto",
+      "publishedAt": "2026-11-19T23:25:00+00:00"
+    },
+    {
+      "title": "Face au développement de l'intelligence artificielle, Meta \"réévalue\" son objectif de zéro émission nette à l'horizon 2030",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNQlJzcHYwTVZ0TXlNTmJzWHlJM1BFNWFqX3pXQXM1LVZ0RW8wQnFmRHVEMXlZTHpmbUVuMWs2T2g2UWZCSTAxM0F4ZWNRQlBDRFBKSEx5ZDJWYmM1a0M0ZTNoQ0tVYXZiTGkwZFJUUlowblNOVTB2UHkxM3JSd1hVeFpzQ0FOaXNMUENVUlBKYjlvaU9mbEtoQnJNMUtEUGp4WXJfUURqUzZKcnNsZmlMSkxWY00yLXN3dEdUMFNxY1dDYVZQdlBiakxQREhBaDVoTHN2WnVZNFJubDhaSmVpbTB6MXk3RHFPZ19mYUhacnR0S2VaSERkM2FlZFZvV0RLMlE?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-19T21:38:43+00:00"
+    },
+    {
+      "title": "« On est en train de perdre la bataille » : l’IA offre aux prédateurs de nouveaux moyens d’exploiter les enfants",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91SE1CS3gxdm1uVEk5bFF5ZFlGUW1yX0tWSGJkQUt2Y2c5SXZpOXAta1FrbUN5VS1YRzdNT0VPdnNXbHNsSUx3a2xERFc2b295WV85MTk2VQ?oc=5",
+      "source": "UN News",
+      "publishedAt": "2026-11-19T20:59:00+00:00"
+    },
+    {
+      "title": "Les Etats-Unis ont été secoués par des pannes informatiques à répétition au plus haut niveau: la principale responsable a peut-être été trouvée, l'intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNRzNPVWhCd09zZUpoZEVvd0NhRlA5TmJUbDlVcnhodWZqSUZUeGtPUmlCRHY5TnQ0Zi1YeXRSaFRfZ0RKdDJZVEE5Q2VBT2xRaHAyMXItdWpFb0lianliOXBRNzJqNHNuaDcxS2JsbnZrWHoxVWl2eEdxWVlXUkdMRC1OT2NPdVNvYzZEMkdYU3VLZ1ZZYlVzLWVpRERzZUxoX2VPRmY3RndONHJLa3NwQ19jVU5SZGZjWVphV1FmYmJvRndmTE9fTU4ydDdJbF9LNzFNcDZOcmthZWZvY1pLYUNJM1RQZFpXcmw3NnJiRHdJaUZUYVp0SFdPc2YyMDVWOEFibUZCQnZnUW82dlRIb1ZMc3dONnpWcWdMV2hNZjlWemVUNFJEU0xUdE1vSFl1UkY3TmxwMFJZMHIwbjZTaGU3V0dOQjAxR1BRcndUUlA4QQ?oc=5",
+      "source": "BFM",
+      "publishedAt": "2026-11-19T18:24:05+00:00"
+    },
+    {
+      "title": "Microsoft veut détourner les entreprises d’OpenAI et Anthropic avec des modèles d’IA performants et moins coûteux qui « restent sous contrôle »",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOOUNaY3ZWelNNQ2NiOGR4bVlYbE55SVRCcVRsX2tLS0IwN1d6eEVvS2ZqMl9OWTIzSnNaZFJaeW4wOGdSOGx5Z0FKdHpmc0dNbXpweURLTndrZ09ueThoVVhyYmxCMFFvNFVlcTVEWVJ6Qm5BWVpuNzlrQmxxUXJ1MWlzQnB2SjRzUGtRN3RmOWVNcGM4SkZyV3l6Rkp2d3lSbUtVYVdqV2NmbVAwVlVBV2o4Z1gwUEVLVGlUQVVkeEtTamtvd1FyLTRkVXY0MUlkS2VENkVXNHVsSUcxS2QyNE45X3JDZ19GUHhHZGRlbFNMaW1MTVEzTWFWX0VRaWdqem5ndU50djB3b3oxM3l1X1pfSjBOZDAzRFFzZ2EyXzlGbFVHdnhldFRtcUpUeTBqT0xwako5cS1SUVE2RUJF?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-11-19T17:28:03+00:00"
+    },
+    {
+      "title": "Alternative à Palantir pour l’analyse des données, concurrent de Mythos dans la cyber : OVHcloud dévoile ses ambitions dans l’IA souveraine",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPRkZTVC1vTFpfdGEwTllWU21TSXpMZGg0dW5MZFY3M1pnaE9OU3ZQN05oY25NM2E1N19IU3RLTWlrcFVjRm56STdBY1lBN0RmcmE0TWhfRFlpc21sdkk1M1JXNUlXWWI3MkVuUHhyWWJURFhoRGxwVVRoWVZrTWdUWE1XN3pNc0R4eUVaLTBENXpYdkpiRXUtbDgwcG1MYTU4bkRXRXBXMnVNdHRZaEczd1lIYjVYRXQzQnNJeDRsVzE0Q3F4WFAxN01SaU9qREhQakdfUmFPZ2psS2xmbnRMclI4OEZTUXZfUEwwakZkcWdDYkdVQzZmLWZmNjF4X2c3dENxNjVTZG0xRzNnQ0xuUThZV2ZJVnlFNGw4WmxpRmIxcl9uWm01dUVXdWY0RTJKYVhMVGJKNkVGb2t0OWZmUkNQTlp0YnB6?oc=5",
+      "source": "L'Usine Digitale",
+      "publishedAt": "2026-11-19T16:45:04+00:00"
     },
     {
       "title": "Fonction publique et IA, formalités administratives, réforme de l'État, recrutements… La revue de presse internationale",
@@ -21,10 +57,10 @@
       "publishedAt": "2026-11-19T15:56:38+00:00"
     },
     {
-      "title": "Google annonce la sortie du modèle d’intelligence artificielle (IA) Gemini 4 Neon",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORnJBckFWZHl1N0psUDIxdmFzb042YzY5REhqX2YzZW1LRVpmMUhGeDhlTWdoRG1FOExtQ29IckpINmZTWkpoZGQyWFVWVVl5TzBYcmEzVjZodE1jcHRYaEFKVmI3ZVZtZFpDN2NOMlhvb0Z6Q2ZXNjcyZGRnMnhuc3FkZkFPS3g2OVlBaXBwZWlGTUtWNkRNQVN1TUNPcWc3Y3pZaGRGZmkzU1JWNm5Pb0xuaGRYR05Hcm0zbDB0bnZ2bzVaRGhxYzNWRW9hVWxTNFZsR1p1aw?oc=5",
-      "source": "Zonebourse Suisse",
-      "publishedAt": "2026-11-19T15:40:58+00:00"
+      "title": "AVIS D’EXPERT – L’observabilité à l’épreuve des applications dopées à l’IA",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZnY0Z0pQUEotUkVPM0haRDhyRnNUc3dtOC1tNC1ZbVBCTkg0cDFjZGRvNnFjM2xWTjdWXzFaWVFRY0lvbmJxZmRmVVlMSU9pNlk2bks3ZTFnRDNOM084V2ptTGxqLU1sS2lLbnF4MEZiYklKc3hIbWlsUTVCczNSWE1ITUI1U0tsNTFUWmxhME95SUtLZzlORGlsVUxDOWxGRnpPWnY3X1FzZw?oc=5",
+      "source": "Solutions-Numeriques",
+      "publishedAt": "2026-11-19T15:42:48+00:00"
     },
     {
       "title": "Demain, l’intelligence artificielle assistera le chirurgien, mais qui décidera ?",
@@ -36,43 +72,7 @@
       "title": "Les enjeux liés à l’intelligence artificielle en période électorale",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUnROajVRdkRzR1lPTHdGZVhwQzE2TVNqdWs2aVhyWlJSMEFLM3FlQUJLMVJyOC04YXJvd1V6dTg0RXp1dUM3ckVvekFoUzRyeEpPazNON0hzZWYzaWZOekhLeW9RWkxjOVZuQV9FTzhvS2RENjRNSFVZMW5MNUZ3QWNWUXdGaFRZSDUwOHF6WXpFN1p0MnlKTWRCWEI?oc=5",
       "source": "Arcom.fr",
-      "publishedAt": "2026-11-19T15:33:29+00:00"
-    },
-    {
-      "title": "WAICF 2027 : comment la Côte d’Azur renforce son statut de capitale de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTEpDMGpGc2JqdE5FSUdhR3JmblFOaTY0aW5WcFd0Snl5NWc5bUxEc1lvaFhjNWtQVjhEcTB3RlBBaVRYa29oNXc2WVkxX0JMaEJXVkVyM3Z0X09oY1pmdjhjWmdVZTRscldHQndZd2VSMGZNcWFSYUJLMkFqSE1DOTVRZFJodDRmdmtnM3pTWlhSWW03WDZMQ2hUOWhxVTJGWVFjMWRSckJ3NWlkN0NvSm5rWFU3S1g2ZTR5bmJaNFZ1R0RBdWtCbkdrN2hiTldQSThvSm9MVQ?oc=5",
-      "source": "Nice-Matin",
-      "publishedAt": "2026-11-19T15:30:03+00:00"
-    },
-    {
-      "title": "Ninon Bajard: «Ne pas comprendre ce que peut faire une IA est potentiellement dangereux?»",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOTJaQUIyaV9YYUhVeVFpaWszbzRJd05zTXJUU0hlSnNFNldDdkQ1RjJOTDFJS1JMVS1TQ2hhRVJ2a3h1MFJsQUVGYUlsbHdYODVUMUtpYjJHOUg2bnR1cVkxSG84UnkzRnl5QnR4Rlc0QllJVkdtdHhzUnRDcFVQWTU3YXNQbVc4VWFLbk1sWnJtcUdPYzhwcG1jdU5meGxIc0Y1azZaMkwtaXFjbW52R2N3Mk4tS0YxbTEwajcwY1d0Z0tka2lPTHB0UmJGeFJSNmdUY2w3NUd2Q3ozMERZVGNWOEpNbnM?oc=5",
-      "source": "RFI",
-      "publishedAt": "2026-11-19T15:15:24+00:00"
-    },
-    {
-      "title": "L’intelligence artificielle au service de la lutte contre les maladies infectieuses émergentes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0lhTE9CMTN2WFlmWnJhMnFzZ3ZvMTNMMGpNZlJydTVJc0V3Vm8wWkU1OThmcWJGTC1Rb1lwTlFiUlBqRXVmakdFMjJiU3UwaEM3aG5xVDBKM0lKOGowVmMyeDduaWRmcTg1RzRESjQyU0N6akwwZUFvbUdYaVF3YWh3eEtGemFJWTdSREFidE5vRzZwazVHMlQzM0lpMzF0U2N5TFFPa1BpTmhzclhzVVN3bw?oc=5",
-      "source": "Université Paris Cité",
-      "publishedAt": "2026-11-19T14:14:19+00:00"
-    },
-    {
-      "title": "Une cyberattaque utilisant l'intelligence artificielle a visé l'UE en octobre",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd09OZlI5UG5IMkpPd2NmZ184amhoendzR3dvX1VmUjY2em9CME9KNTBrV2gwSzRMb3czYjNYc0llZi1LbmR5bzJNM1ctY2pocF83a3NpZ0FEeXl5ZlhNUU5tamJFcEt0dzlScmp5a2pyOHNGbjlaSmVJdjdIMjNYM3huY09NeTctQ1N3eUE1UUxHX1RSRjIxR2FsQjFSRDlZWm84VjU1bjZoZw?oc=5",
-      "source": "Yahoo Actualités",
-      "publishedAt": "2026-11-19T14:06:47+00:00"
-    },
-    {
-      "title": "« La troisième vague de la philanthropie américaine commence » : la généreuse IPO d'Anthropic fait débat dans le secteur du caritatif",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPOWV4eWE5bDN1Z0tyM21hZXhIb0NmN2lid29PT1FOcVhTYmZCc0dRcERoZEtQRkdkRzgtaE1hZ1EzU1BKY2h2MFI2TDdBbVAwc00yUWNGaWdQM0JCQWZMR3laR0d4c0o5NnJoNDY4MzZvekFOUzY2WHlJV3ZNRjdKTk8zZzQyMEt5eUpIbkZFQmFaSVhfZ1Q0Mzl0ck4xMGpaV0tERTJBOHduSk5DYk9FamJjalBzS1p0V3BHZlE1ZFRDTzdwQjVIcm8yQ0ZwYzA3NnBDeDZ6QlBlc0h4ZDlCREpRdElBcEdYYUxRMzB2M25Ea0VSX3ozU1hpWVJ1RnlJaUpjSUxSaGs3czAtMG9rcjlxLWNwM1NVUl9SQnFINXByZw?oc=5",
-      "source": "Les Echos",
-      "publishedAt": "2026-11-19T14:00:09+00:00"
-    },
-    {
-      "title": "IA et droits d'auteur: la proposition de loi Darcos de nouveau examinée à l'Assemblée nationale pour rétablir l'équilibre entre géants de l'intelligence artificielle et créateurs",
-      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxQc3plYk52SWpvX3pyNkZ6N0xUbzJ5b045LXVrb3J4RHJWb2NWOUg4V2ZRU3AwaF9ncUFISmhfZ0ZjUDRTYk04ME5lVDZpeW5uclltSHNZQzdNdkU4SU1VRW1kUnJtaWQwZWp1ZGxYUzVBejluS3ZBQTZhblpyRUUxNlNNMDdSWXI5UWJjcEppamNmaVZqWTNiTXJRZFo5bkNBbmVCRnNYUEJndWhqTXpqSWpFb1pwLTVQcVpJSjMzQ3dzOFVMWG03WC1keFVCdVRhNThwS2w3MlNYbjV3THBsTGdfTnQwZWN5a2QzMTlEcmxXZmxSSEFMQ1BHV1hBTlZBUVZqNFA3cnZzRVd5NjNUUU9abW9EXzhYcm9WTFVmakNHNWtBTnl4YW1XQk1wUDYtcmNJeWJLWGFreWdSY1NMOE1LV0U1NzRaaUt3QWJFNG5RaGVnNlRIaWk1WkUwSk5DTUg0M2F3a1lyVmc?oc=5",
-      "source": "BFM",
-      "publishedAt": "2026-11-19T12:41:24+00:00"
+      "publishedAt": "2026-11-19T15:33:17+00:00"
     }
   ]
 }
