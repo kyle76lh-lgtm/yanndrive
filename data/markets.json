@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:52:49.526Z",
+  "updatedAt": "2026-11-20T04:56:52.476Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
@@ -16,7 +16,7 @@
     },
     "SPCX": {
       "price": 138.43,
-      "previousClose": 143.5,
+      "previousClose": 141.6999969482422,
       "currency": "USD",
       "marketTime": 1795122001
     },
@@ -28,7 +28,7 @@
     },
     "PLTR": {
       "price": 153.68,
-      "previousClose": 156.6699981689453,
+      "previousClose": 156.55999755859375,
       "currency": "USD",
       "marketTime": 1795122000
     },
@@ -45,46 +45,46 @@
       "marketTime": 1795106121
     },
     "BTC-USD": {
-      "price": 61848.66,
+      "price": 61434.26,
       "previousClose": 62987.265625,
       "currency": "USD",
-      "marketTime": 1795132366
+      "marketTime": 1795150610
     },
     "ETH-USD": {
-      "price": 1753.14,
+      "price": 1723.69,
       "previousClose": 1774.7491455078125,
       "currency": "USD",
-      "marketTime": 1795132362
+      "marketTime": 1795150607
     },
     "SOL-USD": {
-      "price": 72.96,
+      "price": 72.06,
       "previousClose": 73.62283325195312,
       "currency": "USD",
-      "marketTime": 1795132363
+      "marketTime": 1795150603
     },
     "XRP-USD": {
-      "price": 0.959,
+      "price": 0.9599,
       "previousClose": 0.9686030149459839,
       "currency": "USD",
-      "marketTime": 1795132365
+      "marketTime": 1795150603
     },
     "BNB-USD": {
-      "price": 578.92,
+      "price": 566.73,
       "previousClose": 582.4876708984375,
       "currency": "USD",
-      "marketTime": 1795132366
+      "marketTime": 1795150586
     },
     "DOGE-USD": {
-      "price": 0.05808,
+      "price": 0.05687,
       "previousClose": 0.05880200117826462,
       "currency": "USD",
-      "marketTime": 1795132356
+      "marketTime": 1795150604
     },
     "GC=F": {
-      "price": 3600.9,
-      "previousClose": 3741.89990234375,
+      "price": 3530.2,
+      "previousClose": 3685.5,
       "currency": "USD",
-      "marketTime": 1795131767
+      "marketTime": 1795150005
     }
   }
 }

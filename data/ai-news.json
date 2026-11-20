@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:52:50.063782+00:00",
+  "updatedAt": "2026-11-20T04:56:53.158678+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -15,6 +15,12 @@
       "publishedAt": "2026-11-19T23:25:00+00:00"
     },
     {
+      "title": "L'entreprise américaine d'intelligence artificielle Anthropic signe une entrée en Bourse historique en détrônant SpaceX",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdUVLOVQ2cmR0U2ltOWRiQXUwemVkYzJ2NUxWX3loWjJVTElVeUhGdkFvblBkaTBKWVZFNjZ1NVdCVjBPcnQzZkRoRk5YT0ZTWlI3SEJ6UTRPTGR6TDR5ZVRmTDIyRTVUXzB2azJsMzk4WHh6Tm14V0t4ZWE1WTZhVEJua2RHRzVWUW92OEJkZnhQdG5KUzh6RXk3SnczdzI3dlctTWhwYVd2VVQ4Z3ZVUGFvSEloSjYzVFk1QVVuUEljMEpNaFhTblZqcDJrVG5xS3dsV3oxclp2czNRc0ZrYy1xSWtMU2h6Q1hVOWdVMU15aDNNYkRsMHlpTnBvYVV4TFJRRA?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-19T22:53:30+00:00"
+    },
+    {
       "title": "Face au développement de l'intelligence artificielle, Meta \"réévalue\" son objectif de zéro émission nette à l'horizon 2030",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNQlJzcHYwTVZ0TXlNTmJzWHlJM1BFNWFqX3pXQXM1LVZ0RW8wQnFmRHVEMXlZTHpmbUVuMWs2T2g2UWZCSTAxM0F4ZWNRQlBDRFBKSEx5ZDJWYmM1a0M0ZTNoQ0tVYXZiTGkwZFJUUlowblNOVTB2UHkxM3JSd1hVeFpzQ0FOaXNMUENVUlBKYjlvaU9mbEtoQnJNMUtEUGp4WXJfUURqUzZKcnNsZmlMSkxWY00yLXN3dEdUMFNxY1dDYVZQdlBiakxQREhBaDVoTHN2WnVZNFJubDhaSmVpbTB6MXk3RHFPZ19mYUhacnR0S2VaSERkM2FlZFZvV0RLMlE?oc=5",
       "source": "franceinfo",
@@ -27,10 +33,22 @@
       "publishedAt": "2026-11-19T20:59:00+00:00"
     },
     {
+      "title": "Les institutions européennes, cibles de choix pour les cyberassaillants",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1BfSTZxR2Vkb0w0U3dlUmNuVGl6S1JSaUR2TUVvZGhmbVM0cWszZmZDbmxDMmU1RERUQXU3M0hZY3JXVEFIUGhvamFfcHF3cFotMjYwZUtPQ1UwSTduM2tmcUQ5OGlmZm1QalNrbWMySFoyOHBNWmhlTHdrTElrNDBSWE5PM2w1X2cyTWxSS0kxMW5iem05Y3d3ejU3aHlZR0JhUXdKWnFWdFdD?oc=5",
+      "source": "l'Opinion",
+      "publishedAt": "2026-11-19T18:40:00+00:00"
+    },
+    {
       "title": "Les Etats-Unis ont été secoués par des pannes informatiques à répétition au plus haut niveau: la principale responsable a peut-être été trouvée, l'intelligence artificielle",
       "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNRzNPVWhCd09zZUpoZEVvd0NhRlA5TmJUbDlVcnhodWZqSUZUeGtPUmlCRHY5TnQ0Zi1YeXRSaFRfZ0RKdDJZVEE5Q2VBT2xRaHAyMXItdWpFb0lianliOXBRNzJqNHNuaDcxS2JsbnZrWHoxVWl2eEdxWVlXUkdMRC1OT2NPdVNvYzZEMkdYU3VLZ1ZZYlVzLWVpRERzZUxoX2VPRmY3RndONHJLa3NwQ19jVU5SZGZjWVphV1FmYmJvRndmTE9fTU4ydDdJbF9LNzFNcDZOcmthZWZvY1pLYUNJM1RQZFpXcmw3NnJiRHdJaUZUYVp0SFdPc2YyMDVWOEFibUZCQnZnUW82dlRIb1ZMc3dONnpWcWdMV2hNZjlWemVUNFJEU0xUdE1vSFl1UkY3TmxwMFJZMHIwbjZTaGU3V0dOQjAxR1BRcndUUlA4QQ?oc=5",
       "source": "BFM",
       "publishedAt": "2026-11-19T18:24:05+00:00"
+    },
+    {
+      "title": "VIDÉO. Anthropic et son intelligence artificielle Claude entrent en bourse, les craintes autour de la bulle IA levée ?",
+      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNbDZaY2Nld0RhbWZicEpLM1JqREY3NnB3UExCdUpkWmFsV3ExQTlFR3QwZmhvRk1sZ0tZN3FBeElYTmFMVFNUQ0ZsajJzY2tieW9KVDBZRmRpU1BzNi1qcWdwMDY4ZjRMM1loZ291U3pTbk5VN2NScEVENllBSU5aR1ZFaFhfTjlISzRjV3pkVm53SDF0aFBWXzEyNWRUWkltMXd2cGpBWFB2elRreFpsRVhlUTlWclhGWFgzLXU0Z2VYNnlCUV9xY2d2cjEwRVlLQ2VIaDRHOTVOSmZ2RF9ReEh5eElfYlZ2Zm9yOV8xTHpfM1BMVlVXQzBpYTVuZS1EeHRQNlNBZ1dzblJ2Y3d1WklKRWdmcUlDTHpiam55MjU1ZERra1NOb1VkMnhNbnppWHB3UktmR1NLbHM?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-19T17:33:46+00:00"
     },
     {
       "title": "Microsoft veut détourner les entreprises d’OpenAI et Anthropic avec des modèles d’IA performants et moins coûteux qui « restent sous contrôle »",
@@ -39,40 +57,22 @@
       "publishedAt": "2026-11-19T17:28:03+00:00"
     },
     {
-      "title": "Alternative à Palantir pour l’analyse des données, concurrent de Mythos dans la cyber : OVHcloud dévoile ses ambitions dans l’IA souveraine",
-      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPRkZTVC1vTFpfdGEwTllWU21TSXpMZGg0dW5MZFY3M1pnaE9OU3ZQN05oY25NM2E1N19IU3RLTWlrcFVjRm56STdBY1lBN0RmcmE0TWhfRFlpc21sdkk1M1JXNUlXWWI3MkVuUHhyWWJURFhoRGxwVVRoWVZrTWdUWE1XN3pNc0R4eUVaLTBENXpYdkpiRXUtbDgwcG1MYTU4bkRXRXBXMnVNdHRZaEczd1lIYjVYRXQzQnNJeDRsVzE0Q3F4WFAxN01SaU9qREhQakdfUmFPZ2psS2xmbnRMclI4OEZTUXZfUEwwakZkcWdDYkdVQzZmLWZmNjF4X2c3dENxNjVTZG0xRzNnQ0xuUThZV2ZJVnlFNGw4WmxpRmIxcl9uWm01dUVXdWY0RTJKYVhMVGJKNkVGb2t0OWZmUkNQTlp0YnB6?oc=5",
-      "source": "L'Usine Digitale",
-      "publishedAt": "2026-11-19T16:45:04+00:00"
-    },
-    {
       "title": "Fonction publique et IA, formalités administratives, réforme de l'État, recrutements… La revue de presse internationale",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaTFhTFpyWi1kX054MTdaMjl4eVNxZEVIbHNwMTFUalF6S1drMVhZOUxHUEJVZ1NlbkZDdU1DejNyejRXcTRkUmlDSjFTQ21DRndDSGtqZTVEcE9Qa2dOdE5ScUpnSDNBTUtNbkNDSC1fejlreHpWbnluZGYzQ2VhUTFZRnNXbEtCM3hfU2VaOHkxcHlwRDVKdTZ6eWx0Q002YS1WUjU0YjRya2NtWC0zNFk2YWs3allKUVE3Y0U4Y2g3RV9GZE9CZWx2NWxHeVJ2QkJodUlFYllHeTlmd1pDZ0RrM1Q?oc=5",
       "source": "Acteurs Publics",
       "publishedAt": "2026-11-19T16:44:52+00:00"
     },
     {
+      "title": "Ce que l’IA nous fait gagner, ce que le travail nous fait devenir",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONFplWmlNUG43Mlg3SGNfb192NVNuZWdNaTJsNE9DWGN0N295eDVKcFh6NHVDU3VyWVl3NkxjX0k5ZTk5emtURXNKRU0wWkhZWmhnUW9nODUyaVQyenNvYzFOdDQtY0JndklHVHY2NzByUEdRVllRSDltQ1VLdlYwWXFuSUJOTUdycDFrNGNUYjh6SzVFX3lkcXl1R3ZaZzA?oc=5",
+      "source": "Aleteia",
+      "publishedAt": "2026-11-19T16:14:51+00:00"
+    },
+    {
       "title": "Microsoft veut devenir le chef d’orchestre de l’intelligence artificielle en entreprise",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQW9RYkVOMktRRjI4VXFOMXZzT2I3THJZX0FTMmFLcGdzNnlOVnpHanVZa3ZYeUViMzRPUW9kT0p4V2N1eG0wbjA1b3N2Y1lhRzhrNjUwR1dqb3FmdTBBRkhQX0F3X184clhPb3k3RlBoMFNKU2t6ZWE4VEIyb3ZKZ2FOR1ZLbHVYNFo1ZUg5YXVrdUpmM3E2RnFTZXFWUklocmYydWVzUmtqR3lkU3FMS09wVHc4N3RuQlpyal9TajBhVkNTblBkVmU5LUlxX3EtdnZVMHZqcDE1akFVa2dsYUh2aU84UVNKOWQ2X2w2WUtCNkM3bV8wQ3ZB?oc=5",
       "source": "L'Usine Digitale",
       "publishedAt": "2026-11-19T15:56:38+00:00"
-    },
-    {
-      "title": "AVIS D’EXPERT – L’observabilité à l’épreuve des applications dopées à l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZnY0Z0pQUEotUkVPM0haRDhyRnNUc3dtOC1tNC1ZbVBCTkg0cDFjZGRvNnFjM2xWTjdWXzFaWVFRY0lvbmJxZmRmVVlMSU9pNlk2bks3ZTFnRDNOM084V2ptTGxqLU1sS2lLbnF4MEZiYklKc3hIbWlsUTVCczNSWE1ITUI1U0tsNTFUWmxhME95SUtLZzlORGlsVUxDOWxGRnpPWnY3X1FzZw?oc=5",
-      "source": "Solutions-Numeriques",
-      "publishedAt": "2026-11-19T15:42:48+00:00"
-    },
-    {
-      "title": "Demain, l’intelligence artificielle assistera le chirurgien, mais qui décidera ?",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjhGYXJGQ0JrRnhiQ1BqVFBSUTVqV2hwWG1QQXVNVmlTVVlhdUtGNEQ4Q2QyNUhzWGtsVmlhYi16SkJocVJxNXBwY2RnWlRvLXhSeE9uSUNaMWU2U21tdkFfUXhuZWRXTlA1VU1NRDVDcFRlcDJHTWNIa2hqWXBIT093RU1wVGl5eVB3N1lIVVkzMGI1WnJ6U2lfTlQtSTljZVJDVTBaVGtZbGhQNTYw?oc=5",
-      "source": "The Conversation",
-      "publishedAt": "2026-11-19T15:34:08+00:00"
-    },
-    {
-      "title": "Les enjeux liés à l’intelligence artificielle en période électorale",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUnROajVRdkRzR1lPTHdGZVhwQzE2TVNqdWs2aVhyWlJSMEFLM3FlQUJLMVJyOC04YXJvd1V6dTg0RXp1dUM3ckVvekFoUzRyeEpPazNON0hzZWYzaWZOekhLeW9RWkxjOVZuQV9FTzhvS2RENjRNSFVZMW5MNUZ3QWNWUXdGaFRZSDUwOHF6WXpFN1p0MnlKTWRCWEI?oc=5",
-      "source": "Arcom.fr",
-      "publishedAt": "2026-11-19T15:33:17+00:00"
     }
   ]
 }
