@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-20T21:37:22.309Z",
+  "updatedAt": "2026-11-21T02:49:13.198Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
       "price": 292.7,
-      "previousClose": 301.1000061035156,
+      "previousClose": 304.3999938964844,
       "currency": "EUR",
       "marketTime": 1795192514
     },
@@ -40,51 +40,51 @@
     },
     "IWDA.AS": {
       "price": 122.71,
-      "previousClose": 126.7300033569336,
+      "previousClose": 127.0999984741211,
       "currency": "EUR",
       "marketTime": 1795192505
     },
     "BTC-USD": {
-      "price": 58737.54,
+      "price": 58581.33,
       "previousClose": 61901.8203125,
       "currency": "USD",
-      "marketTime": 1795210638
+      "marketTime": 1795229346
     },
     "ETH-USD": {
-      "price": 1616.8,
+      "price": 1616.65,
       "previousClose": 1755.1898193359375,
       "currency": "USD",
-      "marketTime": 1795210639
+      "marketTime": 1795229349
     },
     "SOL-USD": {
-      "price": 68.28,
+      "price": 68.53,
       "previousClose": 73.06595611572266,
       "currency": "USD",
-      "marketTime": 1795210636
+      "marketTime": 1795229348
     },
     "XRP-USD": {
-      "price": 0.901,
+      "price": 0.9018,
       "previousClose": 0.9598069787025452,
       "currency": "USD",
-      "marketTime": 1795210637
+      "marketTime": 1795229349
     },
     "BNB-USD": {
-      "price": 537.21,
+      "price": 535,
       "previousClose": 579.5918579101562,
       "currency": "USD",
-      "marketTime": 1795210630
+      "marketTime": 1795229349
     },
     "DOGE-USD": {
-      "price": 0.05349,
+      "price": 0.05417,
       "previousClose": 0.058118999004364014,
       "currency": "USD",
-      "marketTime": 1795210631
+      "marketTime": 1795229349
     },
     "GC=F": {
-      "price": 3525.1,
+      "price": 3539,
       "previousClose": 3685.5,
       "currency": "USD",
-      "marketTime": 1795210039
+      "marketTime": 1795211997
     }
   }
 }

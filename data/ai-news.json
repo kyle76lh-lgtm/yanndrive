@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-11-20T21:37:22.976740+00:00",
+  "updatedAt": "2026-11-21T02:49:13.790932+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "IA et cybersécurité : 6 vidéos pour ne pas se faire piéger !",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Gd0Rpa3FUcWhaUGdZeEdqaEh4alpSWjRuaFBXQWhBUlRrcTR3U1JfRENqV2lSSDhvRlVEdUgwRFZxQ0hIYTBRMUVmaDNBd3lrY2x3?oc=5",
+      "source": "Université de Lorraine",
+      "publishedAt": "2026-11-21T02:10:39+00:00"
+    },
+    {
+      "title": "Aux Etats-Unis, Wall Street en déroute après la dégringolade des sociétés liées à l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGp1TENXS2JGYW95MW1UQ05KS3B3XzI4Sk51TmZLdFQwUmJ2ZXVxLXRZR1liRDA4Z094MGFfbmd0TFkyaHdCU2l1M1E5RjFMdWV6S0pULWd2Zkc3bVRUM1k5b09KdG9MajFYYjVFb21xblpLNFpSRVN1SExOUUVGYzhvclFHSEFQV0IwbXBEWUxRa2RWUzdGcUVJdGlWUmRwVnNIOXRsRG5JNnJiN1d5UXJBZG8zdXFSUndTM3F4bTNqN29Ed0VaTGVwVmtTb01NcEswV0NLRG5nLWcwYjMtT0F1SlBwaEVTRi12RFZCTVlSWncwZnZwMEpkY1lhMUd0UEtnelBvY04?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-21T00:33:30+00:00"
+    },
+    {
+      "title": "Les marchés boursiers mondiaux ébranlés par la fébrilité autour de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjRLdnhhNlozOUVHOTRqTDU3N29ZakVhY0liakhUN3FVNl84UHpJWjBldk9wNGw2MDJqTllNZGRldFFfczNEalNJVWJOT045NTROeXVadWJ4VjBHNWtsNjdETHdidHNwRk0ydkNqNnVibHV4d1VYcjktd3VTU1lMX1R4Vm1keVlUbVVSYUhnRHhnSUZIR21YT0pVb0h2YlM4X3kyQ1JIZU9iOFFva0owLQ?oc=5",
+      "source": "Yahoo Finance France",
+      "publishedAt": "2026-11-20T22:40:48+00:00"
+    },
+    {
+      "title": "L’IA fait de nouveau dérailler les Bourses mondiales",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVThOeXNaOWtuS3VuQ3B1UFZTR0lFMjhzS1NNaEQtWHBlOVd2QmFQdmRfOW9aYXJzeXJnbXlXVEJzTmFNM295dl9GLTF5UW55NWxJSDBGUEZtT0k2QllVTF9NdHhDOG5pNFVWV2tXRHFzT3lycnJQanBTOF9Sb1RkZ3BUZXV3MjFkOEFJWjl3?oc=5",
+      "source": "Le Devoir",
+      "publishedAt": "2026-11-20T22:27:33+00:00"
+    },
+    {
+      "title": "Comment des milliers d'employés du géant de l'IA Anthropic sont devenus millionnaires en 24 heures",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPaFM5YkJtSU9lX2UyQUlKUlJSekladGtwSVkzM1RkWGh2MTRvVkhVaDBTRHlDOEdJMmdNMjFtRW1yODhoaHJhRmtuNHRaenJDUi1rSHBFdXVjMXVQZm1yOUtwMkE2alluMWlqTC1KYldidXVTSVNkQi05SXlTQXJFVWtqRzFhV2paVFdfa25UOUVMSnlnZGVXMUt2bTZuSFhmelVWMmpuSmVRcVJXMGZDbUJieEdNdS1laVlPdEtOcG9ONDV1eThLUVVOY2VYRk9aN3lHVUNGenFfVVFJZEJ5S0hOMGtlVjd5WjRBVUJvRm9DNVA5NzhBMVlQTnNVZzdHTXc?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-20T22:04:04+00:00"
+    },
+    {
+      "title": "Parler aux animaux grâce à l’intelligence artificielle, bientôt une réalité ?",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZUN1X3FKZHYtdUkxMjdGMDNkZ2JTSkh5TFVNeE9fUm55cXFPUnVnOXFWRHJ6QkZJMzRERllNSzRYajNGZkZxZjhoMGRTSE1CVXNOLVpNbUNhenhQZGFQNEc5X0NqWGJMSjdOMU1Sa0RNY3VwV2tLQ0NDcWQweExzWi1QLUpsNWRSbXpQQjNLQUJwT1A0dFlqMkhWTVMyaFVBWVU0NzBFc2FzRmZyYnV4eHJfZlh1cXdWZ3JDMGZwR29vc0ZpTWIyTXZkbm1NdEZIaUJkNW9tVGViUQ?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-20T21:47:50+00:00"
+    },
     {
       "title": "Intelligence artificielle : Mistral veut plus que doubler ses effectifs en Asie-Pacifique",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLW5hOGRUV09Ib0xERGZ2aDRoNEo2c2FtNjlhdEtWMFFySmtMU0pzU2xqV2JRazZfVVFaY3d3VEJaTkJheDVhMmQ4QUNLYWotVlBVejB6SjdJcXU0VzNYUGNRMnBTTWZ6NDAweWFKbmphbWx1cFRfdHFrNElPcHphbDFmOEVDYjctUDNlR3pVajBySzc1b09nYzhGZWpuTDFvWjE3MlBWX3ZWUHFBSWRmeUw5WGlZYUJRS0xuWlZTZm02YWdTb2ZkQVA3OWpfUDg2V1VJZFR1cndkNlFCcmtlMQ?oc=5",
@@ -15,64 +51,28 @@
       "publishedAt": "2026-11-20T20:35:43+00:00"
     },
     {
+      "title": "Grâce à l’IA, un chercheur affirme avoir résolu l’un des problèmes mathématiques les plus importants du monde",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeUgtWmRvMHpjOHVBdmZ2TUJ2ZVRKMms4dHluTW1nbGFPMFYzWEYwczJGcmhLazlnTURXeEZmRnlnczVtdURiR1lIYlZONmxjenVDMGF4cUUyOU9uTC15RUpoQXhXTnRhQ2JQWHozVWNmS3ZsMEdycnJiRWpENmJIV2xJQTZiWHlOTURWM0hSSmpGdDZmeHFkb2pVS25fblY4bE1YNW5DR245cWJuRVl4VllHcGxTV3RUemFfb0hXX3NxN0hLaG14TUNqTS1yM0E5Q3I1eEZ0M2Y2SXFVMTJadzJTMEVnQXFpNTdsS3EwTEJzcS1QY3VtZ0RaeFhTNTc4XzFaRDMxcVlmbm9aNUJObw?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-20T19:39:00+00:00"
+    },
+    {
       "title": "« Elle s’est déjà dégonflée » : la bulle de l’intelligence artificielle fait vaciller les marchés",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVHlTMFNRM2JMZkc0dXBxRlVVZ0pKb3BQc2UzTjV3NjVLcjRHMmxUbHFIYllBYUdha2YybXZXY0paZ25aWFNiSUx3UXpDZXlnMGpBOVFrZGdnWkxJUzBJM0dUNEM3OWsteDNFZncwdktyUXMzQVNKQTJaZ2hrSVZlcU5kRDh4MDJoSW9IallCaWpUZkZISTdack9KeUlXWHdOcV9oaU45bWZuSWZlRjRMcnlLRlhMcGhVbDIzTDFQaEM3bUJJcmJ4MQ?oc=5",
       "source": "Paris Match",
       "publishedAt": "2026-11-20T19:37:26+00:00"
     },
     {
-      "title": "Bulle IA : «Il ne faut pas perdre de vue que les investisseurs ne sont pas forcément rationnels",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPOVBkVjhYSDFrX3c3S1oyLVF0d3JEMU9NTldOQ0x6MHpaZ1dsbjFVcUY2LTc0NmRmN0tJNy1ORlduZ3djU0RKekZzWDZVYk0wVTFrQzZyUGhzeFhuN1Y1ZVkzYTBaemtUMUppUFlDMnhrenVLdjVlcV9GMm45eEdNT0gwUDBYRTd4U2t3bWt0MVYtUEFTb2s4bXFkRGlkWkVLcDdvNFVBem9CdENnVHY3dUNQOWpBM2c4S04xaW9HVHp5RFBRTDRjdnlmeHpjaG55cUtfS0FfUGhpOURSaG5MR2dwVVE3NUlzcnB1VUtUTkdOUjQyd1g0aTdDc3pnQWFWNi1vRUFicVd2N1RGMkRoNg?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-20T19:32:00+00:00"
-    },
-    {
-      "title": "« L’entrée en Bourse d’Anthropic est probablement davantage dictée par la peur que par la foi en l’avenir de l’IA »",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUmFyMXJ5bjMzRi1TNWZwcFFQUlpCLUpkemItT1JyNElCbWE1a21zdFBFSmR2bHZyby1aWHF1ZmtqaGRQMGFaNG8wc0pqS2UtaktheGttQVR4TmlnZ3lsbFF4X1dzVTNld3ptM0Z2bzFONGZYb2QwemVuR2tBT2JteDdRbnhTclNPRlFhemZxemtOb1ppN0dwVTdkb3FBSUstVm5yRFV6QzJqMG9wUmNTaFI4Qkx0NGFrODhnRVp3UmYwbjJQdXdJdmRhRXQ2MlZDWC0tWFNYTXo1OFNQajZSX0lrb0pCTnZkVWc5NEZodlJ3MmdleldBZU1xZXU4SHB1cGNCMEFxWW8?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-20T19:00:11+00:00"
-    },
-    {
       "title": "Contenus IA : Google supprime de son moteur de recherche plusieurs sites d’actu (dont «Marie France",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUGZscXRFallLRXhCek9iWjNjZDBtZ2hCX0k3V1E2ZDNRVE9VU1hkYl9PbjgxaG4zM0FYZko0VkdwMExfNVhXYmNUTExRRUlWQ3ZYYWZtbi1NM05aVEhvVnJaMENDTndmaVJaMlVHYzRrZUY2aDZIQS02bi1mQUdDSFF6REVtZVlGZ1NQYXNKbkJkanJtTDhORGZkNHJHYUViS2szRm5sR1MxM0lpeE1UbTlKR0lYZzlVWnQxVVpUeXo5OTdUTksxdU1rS2NlZ0dreURWZ0haZlBMdE5vcmhENXlfS3FHYkFQSWdGSmg5b2FTeFVHdG9JWFFtWQ?oc=5",
       "source": "Libération",
-      "publishedAt": "2026-11-20T18:42:00+00:00"
-    },
-    {
-      "title": "« Nous ne parviendrons pas à réguler l’IA si les entreprises qui la conçoivent demeurent des autocraties »",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd2Jlak1wZ21oTFQ0dUtVTFBGdDJ3OVVaU0hFeUQ1Zi1MZTd0TEVWcDlhaFFMTnkxR1lPNXFLanpWeXI1SEo1VDNnUG5HSlNiTUhXUVVDelZVcnNEWnh4LUVVOUI0NG9zbDM2d3BUZm1RS1ZqZzN5T1gzYmdDbE1qekt3TmdleDN4MGhEUUsteWkxWVd1QVU5bk9Wc1J5X0dBa09iN2pzc1k5aGpkMERJVEotVFdXbXcyZGdMLUp6aDJuWFRrZ2ZIeDU5cDZfMWMxVHJJTEgxRXBFVzctZVlnQ0ZKSVl4Z3dJblRXRkk4ZVl4dXVaaHg5YVhwSXk?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-20T18:00:24+00:00"
+      "publishedAt": "2026-11-20T18:45:38+00:00"
     },
     {
       "title": "La semaine de l’éco - Boom de l'intelligence artificielle : la révolution à quel prix ?",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPblh5MkNsNGcwdHRVeW5raGtNbXl1enFPMmVreEMzWVBUVUxPTXpSSENyRGU3NzA2UDl1OGVPNmk0NGY0Wmd1eVpmWVVqVUliRkk1Qkc0cVU3SWowbW1qbndpVVZ6X1dBMVNCMTF1MkdYeVdSVTU2MU9FWC1vc1B5eFhTYVA4cGJPNnhFU1Rna2RZM3ZjQ3lhV2RaQmJ6YzVtdFVyUFdwOHlra21ETVR3WU5zRWM4Y2NqTEx4cklOMkd6RldqRDRkTGtuVEF5R0Z3TXZmRHZJeVBuUVFVTkJSMThn?oc=5",
       "source": "France 24",
       "publishedAt": "2026-11-20T17:37:58+00:00"
-    },
-    {
-      "title": "IA et cybersécurité : 6 vidéos pour ne pas se faire piéger !",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRUNpbHNNblNsR1dvaVhna2ktdlJtTlExQzRvaV9GcTNHV2F2YlV3VE9QeGR2NFpucUVWTG0xSjZGUWJCREdpSy1Ddlo1YWxBUXFWLWxjeXNJU193SFdiS183MGFVYmFENmRSMUhPWVQ4SVFvcnpCbDFKY2lZTjRiaURnZUFpUU5Jb3VCd1hmZVBYUWlKMkkyMUFiYTQ0ZHc?oc=5",
-      "source": "Université de Lorraine",
-      "publishedAt": "2026-11-20T17:02:22+00:00"
-    },
-    {
-      "title": "Rubrique Éco : Intelligence artificielle : OS Graphics passe à la vitesse supérieure avec la CCI de Moselle",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRzFXT1VrLWxYTnphNm8xcVZFbVpSOHQ3WExyaERLaEllV3oxUzB1TG42LWVBalo0QURKTVQ1UF9faEs0R3RpMTRLLXV1c20wVGFDQnJZclZsSVJwUVRmbU1Za0p6TG1TS3F2TkdIM3hFSVRfVUdXeEZBU3g5by15ODNEYTNXTkxiWE5tbkN2akkxQmtSR09zQ0xqNWhMUHpydjAtRWdJQlNiclRmQWoxbWJ2MEc5eGNOVmNLcUFjeDU?oc=5",
-      "source": "Moselle TV",
-      "publishedAt": "2026-11-20T16:43:49+00:00"
-    },
-    {
-      "title": "Les défis d’une intelligence artificielle européenne",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVU1rdndfc0w3MGJSRVRKMEwyWDhSTFlpTlY2NVN5Y1lmeUNJRWI1cmdvSGMtTnhWdmZYcEZOQllHT2N5MFdnaFhMYnVoQllaSk9tcy1SYnJTcjg3X2RRbVVBandlZjMwam1sYTM2YlpBWFVPRk1EbEQxckRncHpsS3o5bmJSVzRYNTFZRHdsN0NLX1dwVnBQclpQTQ?oc=5",
-      "source": "La Croix",
-      "publishedAt": "2026-11-20T15:50:53+00:00"
-    },
-    {
-      "title": "GAIA Labs : des collègues IA que les entreprises gardent sous contrôle",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRlhOaTRJS04yZk5QUHB0aUdwRHlZSnZXUVhubVMyS242OVo2aGZ6azNEVkJNOUxUSW1rLVV1c3JnVl9aVk56elZ2VzhoT1RSM1E0V3FtbmpGY1hubVNsRHZNTXVYTzJQVWNLV1EwY2ZINFdfd3RUUGU4RzJKSUdpbzNidHREd0hTeWY0aGhfWWl6c0lEeVllcHRkMUFXVGpEYVo5VjRGMHEtUlBvVWdWem43VFU?oc=5",
-      "source": "Le Monde Informatique",
-      "publishedAt": "2026-11-20T15:03:18+00:00"
     }
   ]
 }
