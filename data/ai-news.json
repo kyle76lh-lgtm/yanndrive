@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-21T10:17:28.660556+00:00",
+  "updatedAt": "2026-11-21T17:37:57.206879+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Les affiches créées par l'intelligence artificielle bannies d'Ornans, ville de Gustave Courbet : \"nous avons une responsabilité\" assure le maire",
+      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPUU5VN2NqamhTOGRpTExQSDZoZXhxV3BDZkg1Mk9hZkxjaW5jaThCdTFWd0RwUkQ1c3M3ZzE4OU93Rm9MRU9qMHhYWWdnOWVMTURBRXd5aWNZNnZKTElwRGxtcEVhT0tTS001QlVOYkh4bWJmQTVaSDRzOTE4eW1ZbHRNZk5TLU1pREpJNDBLcmpfYm9rTV85WDMyblRJYWJpR29WQlNKYkFzWlBQYWJwbDYyamdzNU9DdlctY0dyS0ZhZjJ2V3dYeFhVLUg1M2F6dTdVTzhuX0twbHcydDdQTG9HdmhQOXhvbUZOY2Rza21vUnhBSE5DNVAteXp3S0tpM1VGbjQzeUtCYjN2V2U0SHVnVGM3UlFYMUFlSExFdHA4VV9zYWZnQ0pkalVqVjBxZlRGcDYyY3ZXVUNUcFctZG5NSk5XZ19pajA5LVhYX2ZpSHhRQUE?oc=5",
+      "source": "France 3 Régions",
+      "publishedAt": "2026-11-21T15:52:31+00:00"
+    },
+    {
+      "title": "VIDÉO. Comment l'intelligence artificielle pourrait révolutionner vos achats sur Internet",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOW9aMFBfd2VEUGtERGVuSkwxUFBhaU0zZ0VNWWRjM0RBM0Y2MDRqdFM3ODN5amxGQ1Q3eFdPaHNiRzVmemYwTm5EM01YVk9HZUxHYWE3ZXNIZ0dVOWRUN0VFX0J6U3ZmRUxkdU0zeXpaczFQQWdCQ2pZMHZ0Z3dmR1NaTVFzaHlJSVQ2OGt4Z3hGZ2hIS0I4WWtKejVqM0NMVXUybFAzOGtQYUx2dUNIcVpTZjlvLTV1Y0hvV1FBVjIzY0pGcTlPS1N5cXg0b0wzTFJuYzlVQ3VaLWN5YjZkZWg3U28tejlBRGZMRlZ6T3pFRDdDTkJoRnVadTcxVnRaZzJyb2I5NDBUWUF2a0c4?oc=5",
+      "source": "Ouest-France",
+      "publishedAt": "2026-11-21T15:00:00+00:00"
+    },
+    {
+      "title": "Quand Elon Musk alertait sur les dangers de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdG5jaTUya1ZKeWs4Ymwyck96eGxJeFRXOXM2Um1vOGRIeThMbmkxWkwxMUNGWmRYU1NKU1VaelU4THo3OUNPU05TcTUtSlQ1ZlBTclB1RXZRMUdmVkNPRVFiMXNPZ0podkVKblZwaGgtbjFyVU5OeEFFYldCVzY4YTdGcmNWbDZVaWFUZzAzVUhQVEJnTXh1MUswSnhJei1wcVlnTkZzb18wOXJvT1c0UkNPWG9aWFdXNjVzOA?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-21T14:00:11+00:00"
+    },
+    {
+      "title": "La Bourse de Wall Street enregistre des centaines de milliards de dollars de pertes, pénalisée par le secteur de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQLTVGZ0NrQ2Y5cXBTcFV6Qm02MTJnaklZTzY1S2FDUlZuSE93ZTZRTXdONVpOZTUxYi1ydjVxbzNTNTNCelEzbFJGcVhTeFZKNU03RnFvRmNpWlBHMlhpNURsSU1NYXh5VzdRb2JGZ3ZUUjJ4VGxmRW5GaXN0ZXgxSWZfaU5sbEliWlU1NmZJc3YwdVlHOUZic0FsNldfQVFRcHpYalR6VzhmclIxX2tjQkFvUFZzRHJDZ2ZiUzVDdU0xM2VGVXBpblpYZ2U2cHpsN2xuUUExOE9maWtNOEMwdUZFM3RSSXoyNjBNOFllNURfNVozb3pSODFhM2d4NjNXLTFiWld5QmdWSndNUjBjbUFGeTJ0Q21pdVE?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-21T11:33:52+00:00"
+    },
+    {
+      "title": "Trop belles pour être vraies ? Des humoristes générées par l'intelligence artificielle circulent sur les réseaux sociaux",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOeFk4OThOWWhwRF84U0ZTaVJqdEhkd25MOUMyOFNrRTBMQXduOXV4cWY4a25qNTZmcWZjVUQ1V2pQeFA1MnFpMG41cWRqbUFmcUg4cW54TWFCNVlmT3RESG40S1MyVmlGR0pxOFBPRnlPM0hWSmx1RVB2NVlxaG1adzktLTlLLWZYd3BlU1l4aURQcVBrRUFhbmRoR3ZoN0JLLW1xRGwwYkE5d2JaVmdXZ3h4RU9CYm90ak5IUVFRc0h5LUowT1JtOVB1WEw2VmJrUVFVbWt5ekZrb05fMkVoZFdCR0FvQU1lU3RaS3dndGUzSTNXVHlWU0RWXzZWakNkTG5PUzRLaVczUVhCT1pHZ2dUaw?oc=5",
+      "source": "TF1+",
+      "publishedAt": "2026-11-21T11:10:07+00:00"
+    },
+    {
+      "title": "Anthropic ou le pari de plus en plus vertigineux de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQlFnV1E4UHJTNi1OUkVhSUZkLVFxaks1QUk1OGdlY2JEdG15eXBfTWVOVHdRN2tYazJzX1dXaDBzVmhuc0RtWkNJX05aVlg5T2lRMmFaZk5uVjJYWVIwX3NjNkVlVVA1aDV5U3pRMTA4eG5vd0NfeFF5eDVvVFNiWDVaLTBWQkNMUmo4UGMtTVJNQ2lJS01nZ0lTSDdNVC13Y0VVNTJlZTJ3cDNpcjNLb0lQTEFOZU5rbi1wZXlCcw?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-21T10:30:10+00:00"
+    },
+    {
+      "title": "« La souveraineté européenne ne se construit pas autour d'un seul acteur » : comment le vétéran OVHcloud tente d'entrer dans la course à l'IA",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObXRBb3prTVVNdlVmRTRBcl9GSUUzRS1SaGpXZjJCa1VYQzdYUWZsc0xERkpLLURwUmd6RHpwQnJ4RWNQWDQybThoLTFZVFd4VXl6OERnZFFnZkV0al9lcWJCaHJWb2xfZGJ0Q0daeE5BdXVvUjR3bnhTdENRd05Qc0EwWnNaamU4Q2xpWnAxTHZld0NSX3d1V3U4WUtDVko2a3BqczVXTmtUS1hSQVdEY1d1ZHBKTTFIVXJERUt0YTNwX1VKZnNQVXhfYkhaQW1iYmk3VlFmdTJUejN5OUdPV05YcHBVNnRsdm1pNmRvRFpnVEFlbzNZLUstT0E3Sk9YYmxIcEhGTUJYREJJQ0NDMFNvdmFGNC12Nk9UUkNTNEtWRFVpUnlVVXNn?oc=5",
+      "source": "Les Echos",
+      "publishedAt": "2026-11-21T10:20:08+00:00"
+    },
+    {
+      "title": "Remiremont : l’intelligence artificielle et l’avenir de la France au cœur d’une rencontre avec Romain Marsily",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdzVPMTRxU1liSXNaVVlJWTRYU3NvNnU0TGlkTEIzcm5jeGoySG52UGhZZ3BwbU9PNzZkTjdLMWhkUG9iZzRYXzBpbG5mdXNGdk9ndHRkU1BWbmNUZ2NaYjdkZ0NfdVZWREVucFZiVVNHN21JcFdXNlFvUGE0Z19uaDh3WmZZSUowblRoRDRvOFBHTHF2R3Zra0hDdE5DaHNGd3I5N3RZNWltNi1EOFZkeXd4cXZyWkdsTGJrV3F2ellGRWpPdzlWWVl5X0JLOE1YelB5bV9PVEM4S0JxT2ZlXw?oc=5",
+      "source": "Vosges Info",
+      "publishedAt": "2026-11-21T10:00:37+00:00"
+    },
     {
       "title": "Laurent Alexandre : « L'intelligence artificielle va bouleverser toute la société, il faut une révolution politique ! »",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZlkwYjNsZ01HbUVSa0g2aDYyWUpCczFjSmxCc0ZCUHo4RHJqeDc2M1pNQmtWdWtHNXVGTnhnVmQwR1pXRG9pcTZlY2lCVWQ2cFRBWTFhMWYzT3MtaTFONmc3a2x5QXpFR0VLazV5WmxLUkh1S1ZYb3JZZzJkdDBvc1FtNGVyeDVEaDRGcV9xMFZuVmtTS0YzOTlTUEhJaFI5NjY0RXA2bDZuclE4M1F4bUk5NHFhQndPZmpyLWVGRDZtbUJDd2dRUUdCdzRnVERvVXMyQnBJNTdfeHM?oc=5",
@@ -9,70 +57,22 @@
       "publishedAt": "2026-11-21T10:00:18+00:00"
     },
     {
+      "title": "Un mathématicien annonce la résolution de l'hypothèse de Riemann, l'un des plus célèbres problèmes du monde, avec l'aide d'une IA d'Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQSmc5cnJPdDBNWWtKenI1Y0tMZkNVUUw2SldVQzVjNHBzSXJWRlZyUVNGc0RidjRkUmp0V19neWFUazRNeFVxbWJSd1N2TVVUNXRYV3pIUTV5S21UM0ZLTUlFaTY3QWZuMTAyTzE2NVlSZjA0SGphVjY0dXR1OGhPa2JKWEthbjRJTVVoV1BSazhWa0k5T1ptRHZUdndFNFR2ei1iRS1YQUlzaWtrRnRpQTAtbnNFcU95OXF2Q3BPNzZFV1ZwMUZGZXJNMUU5ZU5BdV9iSXdqcW15dGhkbldBYmlSaTd0Zzlsam5yQ0oxM3lCRjFyaWN3VWMya2pWWXlueWFKWDBSeS1CLTN2MEd6V0ZGSDVGZw?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-21T09:44:37+00:00"
+    },
+    {
       "title": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
       "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNmFyY215Wi1zQjBlTkpLVFZoMjlJUUVFWVFVYm91dUVfNnhaV0sya3NDTFVPeDBMTlFhNHRsOGZtaWFaa0loUWVfV09PUHoxRHdKeVBELVBHemR6TkZHTHlKcGpkUlhNRV9mNTZFeWR4VXRib2lBRkw1RHQ5WV9yRGc3cGt4Z0VpMXZYVDNBQUF6bEE0amlrcjhVT0VwLVltUWtjWWpwU2dYWGJzLW50SzFDUGtPa2FoYWwwZUZldXhGSUc0T0U3YlVxWHZDT1EtYmRXbEFCQ2xjeFIyZXpCam9MTEJUeHVQMHpaSkxBX2JWWVpBQ0duZ251ejRETVBpQ3FaMEw5Vmc4NXhLb0FiZURhN2dPd0xTaTEyMDU2RHZfZw?oc=5",
       "source": "Le Monde.fr",
-      "publishedAt": "2026-11-21T09:30:02+00:00"
+      "publishedAt": "2026-11-21T09:30:00+00:00"
     },
     {
       "title": "Robots tueurs : accord à l'ONU pour poursuivre les discussions sur de possibles règles internationales d'ici à 2028",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWnZqaEVPUWpMSTV2dTNVblpYb1FiN1lBRVV2cWZWbmUtWE5LejVSUExKbVZveXJ2a1RfdlBGSmN1VlVEX0hwTDZ5RjFOYXZsZVVLZHE0VVo4Q2dyODdPNzJvWnhqQU9kQkZuT3lQVHFDeUt0a0JYcUx3TVhpeXRQaXQ3bjF4N21GckVyTHhSTmQ1Nk1IVC14TmJvamdxTENVVUFMQV9mVWlIWEJwc2VBdmFCRTBuQkN0ajRJclotSUtudHd1cDdSZUxWSHQ2NXBXWmFZVnpadVh0TTIzbWFiblRIX194NENoWWZDcEs0c2tYbDN1UTFsc3VTb1laLWZvX0lnb2p1QTdaODJDdVE?oc=5",
       "source": "Les Echos",
       "publishedAt": "2026-11-21T08:19:43+00:00"
-    },
-    {
-      "title": "Des élus américains appellent à interdire les modèles d’IA chinois dans les systèmes fédéraux",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRHV2NXkwTFcybE10SkIzdGx0bFlKS0gwUU1VZ25KOHBBLWg0eEhELThFSnk1MF9SZ01mSDdWSjdvSHNQYlk4VGUySk9LMFd2bzJpRDJKLXdBcFZKYjhYdXVNVHdGdUhUcU9HbW8tUlZVWlVUaW5FeldwRl9xcExwbWVIbUFFWUo5S3lHeERSbnNwQlRHYzRLaW4wb3Z6NENEMmdFdzJwb255RDlYbU40S1dtaFlicjV1eW9fZTBYUzlCSkVna3MwQ1ZUU1lHLW91UFNTT0VQVnBidTlSaml0NVpwMUNwaENEdEpRTUI3TTlFOVJXa0o3em1GN3cwdG5i?oc=5",
-      "source": "Anadolu Ajansı",
-      "publishedAt": "2026-11-21T06:48:44+00:00"
-    },
-    {
-      "title": "\"Des campagnes d'attaques de plus en plus automatisées\" : comment les cybercriminels ont placé l'intelligence artificielle au cœur de leurs opérations",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNWTlDM0w2dGo0VE9Od2xzc0NvZ3BqV216bHNmbC1LajFSQXdlbEZhczd5LXVSRU9NSERCd3ByTEJ3WUgxcm44S0tjMFhmdlRZWklxZHExYnlzb2dqeVVGbW5Qc0pnTXBmeW1EWXY0MmpUR25QZ0hRRWQ0bWdQQWM3a1R2YW9laHlyNnFSR056cFdYb29pY1NqMDB4dUpZWWRiTzE5TGJfR0V3UXBHRk1PVDhtdlFFMURaSTY5MzVIdGp2dmxXZG1xdllQcWpYdEVqZW1mVk1rcTIxV0F2TzRaZDg4UHdtMXJUc3BFaWlZNUVuTlA1QUYxZHlKa0F6MnUwUjRDTTFYODc1ZGJxOFU1aWJvOFdSSlB0cTl0eUJfSXgzLWJiQmFjbXduOTdyd2NMYWcxQ2wwUjVvZks5UkJybFVLb0lZZEJQeUdTYUkwbw?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-21T06:18:32+00:00"
-    },
-    {
-      "title": "À Dinan, une charte municipale sur l’utilisation de l’intelligence artificielle pourrait voir le jour",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQRXRrbjVHd3lTZkpZZk5jY0dxX0F0bWp6aHJhaWd2ODNxUFdMa1ZaWFV0WEFKYmZYUUtVM0kyMnFSZUxVUlBsR0JLRHdleTZqaWpMclBnQkxNRHNWODVJdnRPRlRlRkNyS2JwVmlQMThxVDkyWUFlVHhITHZxVUdoY29PM1hhUkFSdHQ5YXNsWnpkTG1paUNlYW95d3JQYXJKUHZhLXJPX2hYMW41YVFPWWRPQ1ZzLWdPaFhua3ZQSkFadTN0a3lOTVo3dlFndUJhZUtuTWRObXhaZUdXaUQySTRpX3MzNUVRTmFRYVdvVDdBSkEwN1dseEhfUVFzcHpkd2NtQVVycURQVk84LWk1UkViTDRzbXFmYjRhdnVIdWoyLUlVSmc?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-21T06:07:01+00:00"
-    },
-    {
-      "title": "Intelligence artificielle : c’est quoi un « prompt » ?",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVm8zMlVfaTJyY1pQcEVMenp1UllCcldiaE5JdXowWVNLZ1Y5ZjA1ZVpUbzFOWUVzOUluNnQ2dmNHcXNzQW05R3haenZ1Y0UyeXdKQmpxR3pKLTBTRVlyX0VWTkh6MFV2QTNobDBGQi0wQU16U0Q2VUxIU0czYnRXelNlYWR0OTQtbERNZmFnZzZOVU91SFAxVlpBeVIyQTJjUmlOeGtITThOZGt5MzNEN2xQX1lrN25NZlV0My01MEl3dEZ6VmUwNGp6RE5GZ2JJNlpWV3A0bnpBNXJDazRv?oc=5",
-      "source": "Ouest-France",
-      "publishedAt": "2026-11-21T06:00:32+00:00"
-    },
-    {
-      "title": "Krach boursier : l'intelligence artificielle détruit tout, jusqu'à l'or",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMzEyMEZaRjZFekY4WlhBcmdzb3FIMDZPdXFqQ0ZqYjc3c2tpS3lTd2h6a3VBV1ptOW1pWDR0MWswSlZXYVQ1LWFRZkVWb0IzeC1sZzd2ZktYU2ZBN0RPVDJxWkZyRnBWNHZmTk5OQkpPOHhtc3dfMUJrMEh1dmZOU0VaWTlPaTNLb1duSXA3aHgxYnN6cG1NcTdkS0RVUi0xZ2JTTjVMc2M0WUFrNE02TFlYTTE?oc=5",
-      "source": "Le Revenu",
-      "publishedAt": "2026-11-21T05:20:00+00:00"
-    },
-    {
-      "title": "IA et cybersécurité : 6 vidéos pour ne pas se faire piéger !",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Gd0Rpa3FUcWhaUGdZeEdqaEh4alpSWjRuaFBXQWhBUlRrcTR3U1JfRENqV2lSSDhvRlVEdUgwRFZxQ0hIYTBRMUVmaDNBd3lrY2x3?oc=5",
-      "source": "Université de Lorraine",
-      "publishedAt": "2026-11-21T02:10:39+00:00"
-    },
-    {
-      "title": "Aux Etats-Unis, Wall Street en déroute après la dégringolade des sociétés liées à l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSGp1TENXS2JGYW95MW1UQ05KS3B3XzI4Sk51TmZLdFQwUmJ2ZXVxLXRZR1liRDA4Z094MGFfbmd0TFkyaHdCU2l1M1E5RjFMdWV6S0pULWd2Zkc3bVRUM1k5b09KdG9MajFYYjVFb21xblpLNFpSRVN1SExOUUVGYzhvclFHSEFQV0IwbXBEWUxRa2RWUzdGcUVJdGlWUmRwVnNIOXRsRG5JNnJiN1d5UXJBZG8zdXFSUndTM3F4bTNqN29Ed0VaTGVwVmtTb01NcEswV0NLRG5nLWcwYjMtT0F1SlBwaEVTRi12RFZCTVlSWncwZnZwMEpkY1lhMUd0UEtnelBvY04?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-21T00:33:30+00:00"
-    },
-    {
-      "title": "Comment des milliers d'employés du géant de l'IA Anthropic sont devenus millionnaires en 24 heures",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPaFM5YkJtSU9lX2UyQUlKUlJSekladGtwSVkzM1RkWGh2MTRvVkhVaDBTRHlDOEdJMmdNMjFtRW1yODhoaHJhRmtuNHRaenJDUi1rSHBFdXVjMXVQZm1yOUtwMkE2alluMWlqTC1KYldidXVTSVNkQi05SXlTQXJFVWtqRzFhV2paVFdfa25UOUVMSnlnZGVXMUt2bTZuSFhmelVWMmpuSmVRcVJXMGZDbUJieEdNdS1laVlPdEtOcG9ONDV1eThLUVVOY2VYRk9aN3lHVUNGenFfVVFJZEJ5S0hOMGtlVjd5WjRBVUJvRm9DNVA5NzhBMVlQTnNVZzdHTXc?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-20T22:04:04+00:00"
-    },
-    {
-      "title": "Parler aux animaux grâce à l’intelligence artificielle, bientôt une réalité ?",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZUN1X3FKZHYtdUkxMjdGMDNkZ2JTSkh5TFVNeE9fUm55cXFPUnVnOXFWRHJ6QkZJMzRERllNSzRYajNGZkZxZjhoMGRTSE1CVXNOLVpNbUNhenhQZGFQNEc5X0NqWGJMSjdOMU1Sa0RNY3VwV2tLQ0NDcWQweExzWi1QLUpsNWRSbXpQQjNLQUJwT1A0dFlqMkhWTVMyaFVBWVU0NzBFc2FzRmZyYnV4eHJfZlh1cXdWZ3JDMGZwR29vc0ZpTWIyTXZkbm1NdEZIaUJkNW9tVGViUQ?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-20T21:47:50+00:00"
     }
   ]
 }
