@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T22:21:54.575096+00:00",
+  "updatedAt": "2026-11-22T02:23:50.899284+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
@@ -25,12 +25,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOW9aMFBfd2VEUGtERGVuSkwxUFBhaU0zZ0VNWWRjM0RBM0Y2MDRqdFM3ODN5amxGQ1Q3eFdPaHNiRzVmemYwTm5EM01YVk9HZUxHYWE3ZXNIZ0dVOWRUN0VFX0J6U3ZmRUxkdU0zeXpaczFQQWdCQ2pZMHZ0Z3dmR1NaTVFzaHlJSVQ2OGt4Z3hGZ2hIS0I4WWtKejVqM0NMVXUybFAzOGtQYUx2dUNIcVpTZjlvLTV1Y0hvV1FBVjIzY0pGcTlPS1N5cXg0b0wzTFJuYzlVQ3VaLWN5YjZkZWg3U28tejlBRGZMRlZ6T3pFRDdDTkJoRnVadTcxVnRaZzJyb2I5NDBUWUF2a0c4?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-11-21T15:00:00+00:00"
-    },
-    {
-      "title": "Quand Elon Musk alertait sur les dangers de l’IA",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdG5jaTUya1ZKeWs4Ymwyck96eGxJeFRXOXM2Um1vOGRIeThMbmkxWkwxMUNGWmRYU1NKU1VaelU4THo3OUNPU05TcTUtSlQ1ZlBTclB1RXZRMUdmVkNPRVFiMXNPZ0podkVKblZwaGgtbjFyVU5OeEFFYldCVzY4YTdGcmNWbDZVaWFUZzAzVUhQVEJnTXh1MUswSnhJei1wcVlnTkZzb18wOXJvT1c0UkNPWG9aWFdXNjVzOA?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-21T14:00:11+00:00"
     },
     {
       "title": "La Bourse de Wall Street enregistre des centaines de milliards de dollars de pertes, pénalisée par le secteur de l'IA",
@@ -73,6 +67,12 @@
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQSmc5cnJPdDBNWWtKenI1Y0tMZkNVUUw2SldVQzVjNHBzSXJWRlZyUVNGc0RidjRkUmp0V19neWFUazRNeFVxbWJSd1N2TVVUNXRYV3pIUTV5S21UM0ZLTUlFaTY3QWZuMTAyTzE2NVlSZjA0SGphVjY0dXR1OGhPa2JKWEthbjRJTVVoV1BSazhWa0k5T1ptRHZUdndFNFR2ei1iRS1YQUlzaWtrRnRpQTAtbnNFcU95OXF2Q3BPNzZFV1ZwMUZGZXJNMUU5ZU5BdV9iSXdqcW15dGhkbldBYmlSaTd0Zzlsam5yQ0oxM3lCRjFyaWN3VWMya2pWWXlueWFKWDBSeS1CLTN2MEd6V0ZGSDVGZw?oc=5",
       "source": "franceinfo",
       "publishedAt": "2026-11-21T09:44:37+00:00"
+    },
+    {
+      "title": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNmFyY215Wi1zQjBlTkpLVFZoMjlJUUVFWVFVYm91dUVfNnhaV0sya3NDTFVPeDBMTlFhNHRsOGZtaWFaa0loUWVfV09PUHoxRHdKeVBELVBHemR6TkZHTHlKcGpkUlhNRV9mNTZFeWR4VXRib2lBRkw1RHQ5WV9yRGc3cGt4Z0VpMXZYVDNBQUF6bEE0amlrcjhVT0VwLVltUWtjWWpwU2dYWGJzLW50SzFDUGtPa2FoYWwwZUZldXhGSUc0T0U3YlVxWHZDT1EtYmRXbEFCQ2xjeFIyZXpCam9MTEJUeHVQMHpaSkxBX2JWWVpBQ0duZ251ejRETVBpQ3FaMEw5Vmc4NXhLb0FiZURhN2dPd0xTaTEyMDU2RHZfZw?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-21T09:30:00+00:00"
     }
   ]
 }
