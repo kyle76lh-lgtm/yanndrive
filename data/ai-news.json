@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-22T17:44:53.401437+00:00",
+  "updatedAt": "2026-11-22T22:50:00.648155+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Intelligence artificielle: les fabricants de serveurs augmentent les prix jusqu'à 45%",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYU9wZ1ZnYmJHbTZlRmR6c25vY2plaVVDVFRYZUc4RXpvZG9mZVZvQUtUVkc4UDRGamotYUs2R0RXR2tpbTJheVFsMkowSFhsSmFKSW9Hb29JUUcwejlXQVo2REM5WEYzSnYxVHEwN1YzWWluYTZaM24xQklNSjhrR19XWXJUVThKMXV0U2lWR3ZqaUZlb0FzblNaUTJlUHdYbVlHLU85d21qMUZhQVVJMlJfTl9FbzhVWVFOX2hGWnB4UXhad1FZTGt5c210dw?oc=5",
+      "source": "RFI",
+      "publishedAt": "2026-11-22T18:46:09+00:00"
+    },
+    {
+      "title": "Mathématiques et IA : prenons le temps de comprendre",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnNBQnkzQXVXZ09TZUhiLWJadjk2aEdXM3U1MDJCT2lJUXpUUlJKLVZNaHJaQ2NNeVFkbGVvby05MnNfZWhndUVzU1NZMWV0NmlFQy11ZTZtU3F1RmVfZjVYMlpLRzlfcnJ4dEh1cW9TT2VQSGQ0OFpsdHhQSGYwUDlWOUpmelJwaDg4MmNtaC1ZeHVXMktYZHFHME5lTURyUUlWN3NNbVlEbDg5azZOQUVTQXJYMGNGWnVYcWlYZw?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-22T17:00:10+00:00"
+    },
     {
       "title": "Bulle ou pas bulle, peu importe: l’intelligence artificielle dévore la planète",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYjJmdXo0cUU3b20tUmd3ZzltQ3VYdU1WdUd0TG90Z3g1d3FkclpPMWVYQU5zblV3VnVnZENQSzJ1WDRYTFlJV3dPWTNBWnYtVlZXb1JfRnRWZW5DLUJXQml3Z3VWQllpdURvNkpvRkpDcmV5UF92cDFpZERhenkyU0prSkRLaUpKWjlwLWpiYVdfRUVZT3Vpc29fWml3OE9qZWNhUGJybkxyRFBNN2d1aWUxS1RoajYxZ1BnQW8zLWZ2NGtnTUhqamEzRQ?oc=5",
@@ -15,16 +27,16 @@
       "publishedAt": "2026-11-22T13:45:08+00:00"
     },
     {
-      "title": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZjFwUDQ1MnJwa21jOEtteWYwQVh1M25sdEZvZmw4UzdFbngzWTlMc0EwSXlwZXZnUm0xazRnd1JyTWNoR0Y1VUlnMjZTc052Q0tBUHNKeDdkcXY4SzZuQWU2N25CdEEyY3hFOXpRdllUX1R4cHlMR1lRTm50ZkRuazBhZi1vMDJ1M1loRGpjRlBLWUlOSnJZVkxSZ2owZ0VVbTU0RWRaSHJ4bGdsTWhlVlVqTGZ6dVB4X211dHdtYXRDbDc5czJtZmg0bFFhZjRsRktJd1NnckxZU2tNU0xDVXl2blhrbFJLMW92NjcyQWJNand2eEFMQ3o1WlRnTGxpYjR5SWQ1d2xmbkU?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-22T11:25:48+00:00"
-    },
-    {
       "title": "L'IA et le « syndrome de la photocopieuse » : comment une révolution créative pourrait appauvrir notre culture",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbXNDNjJSdWJxRDRnVlpSenpqVXVLc2hxSVV6eW5EM3d3U3lRdkJEWEtPREJBUE5qNzc4UDlxeDE0YVhlUnI3UHpOZFduZWJMbzE5TDBhZG0ySEJjek44N3Q5T3lGa1ZQakxSaWFCTzJPdVpEbW4yNEQ4b2pjeHEzcGRldThaVktGdnZ3ZHVzYlRFUG9wbmx6RjFyVENtb2k3a01DdUIzTnhwU19vUUhhTWRCaU5xaUY1M2Z3b29ac0pzUmpRZy1EdHNScGhrQXcteDhQSDF1MzU0cldTTjRQdElxTjYyeU9uMGk3Yko4bm04UQ?oc=5",
       "source": "Futura, le média qui explore le monde",
       "publishedAt": "2026-11-22T11:23:00+00:00"
+    },
+    {
+      "title": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZjFwUDQ1MnJwa21jOEtteWYwQVh1M25sdEZvZmw4UzdFbngzWTlMc0EwSXlwZXZnUm0xazRnd1JyTWNoR0Y1VUlnMjZTc052Q0tBUHNKeDdkcXY4SzZuQWU2N25CdEEyY3hFOXpRdllUX1R4cHlMR1lRTm50ZkRuazBhZi1vMDJ1M1loRGpjRlBLWUlOSnJZVkxSZ2owZ0VVbTU0RWRaSHJ4bGdsTWhlVlVqTGZ6dVB4X211dHdtYXRDbDc5czJtZmg0bFFhZjRsRktJd1NnckxZU2tNU0xDVXl2blhrbFJLMW92NjcyQWJNand2eEFMQ3o1WlRnTGxpYjR5SWQ1d2xmbkU?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-22T11:21:00+00:00"
     },
     {
       "title": "Logement, intelligence artificielle et investissements : l’économie corse au cœur des échanges à Ajaccio",
@@ -35,7 +47,7 @@
     {
       "title": "L'intelligence artificielle résout un célèbre problème mathématique",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb09GeWtVMkNpbTcyVXJUZ3FESGpGSENMazlIOFVoQk5PSWVfS2J3LUl3emFkdnVZREtLUFpBN3VaemwydWdMWnE3NDcybkhBTGo0blpKTEI1U0VRcVJxWmI2eWRBYzI5enAwbjZ5VHhXcnVIcG1ScHJlSm4xdjgxSlpMM29XZWNfN2FMaDJjMHFTQVRPWmlLYzgtdG01ZUpBRGVydk92NXBuYkZobEZReEY0VGNndGlNQWhWZmhBb2x1eHhfclJBMTNTVG9CU1hTbmZBUS1XZ2o?oc=5",
-      "source": "Franceinfo",
+      "source": "franceinfo",
       "publishedAt": "2026-11-22T08:23:14+00:00"
     },
     {
@@ -51,28 +63,16 @@
       "publishedAt": "2026-11-22T06:00:00+00:00"
     },
     {
+      "title": "Scandale de triche à l’IA en Corée du Sud : sous pression, le ministre de l’éducation démissionne",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZXdaTjhYM1ZXV29tZlVHUU54ZWYwRzR1a2hEbFNETWp2V3pCTEpXYzVPV1FVNG9WcUNfWGNPWXdkZTMzWVNhZ19Hc2hKazhqX3BkTHNtdWZWVDVKXzJGdzd5V3ZkNWRuUy13M2F0MDRvYXVsVUlRU2lMUkRTdDAzR0FoTEVkUFNsQ0ZlT0ItZVVHOUVHSFVwdFFXZG9Rc1V2ZUZWQkpHN3ViVkxYQlppY3lwR3hHOS1kMzZuOVRCYl83VUx1T2huOW9IMmxUVFUzRzVBbDZnLXlGbnJmVkpKaGFBVkNZNTZ3b1IzNnM3SlhkTFVkY2dTSjJ3Z2I?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-22T05:55:03+00:00"
+    },
+    {
       "title": "L'IA crée de nouveaux emplois : découvrez ces 5 métiers d'avenir",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzZ0dEpaeEZfZWlZTDlaeHlKVGNISnVvU2x6SWFMb2dIS21tNnJabVdrQ21RdlBTZjFGSV9MeW02VjJLeFJQQjMzT05tSERJbEs3YzJndDhaOVBnU1V6MUNoaThvYk1SNy1mcHBVeXFiZ1NRTGFWaHB6azNOWFBkdWlyX3B2cmdPX0hTNjQ3VFkzUnFRak5HUzlGZ09jS1hsU0lXYUdUZGV1SlpvMUg1czFHanh2Nzh0?oc=5",
       "source": "Le Télégramme",
       "publishedAt": "2026-11-22T05:00:01+00:00"
-    },
-    {
-      "title": "IA : ils deviennent millionnaires en 24h",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ3RPX1ktaXQ1a1pydVdETzFNeWV6TXA5dkIwM1Q5b3NzRTAwOTE1NUV6OThoM0FwbS16MGZaVEZmTktLdDBLbEdZTXhaTVBSUndYaU55M0NaYUI3aXJKOUd4VzFDekM2c25OdGpUQmozVHp4VWJmeDJNcE5fMVE3M0llTHp0Q21ITjVURFlTUU02T3ozU1JzWEgwcVlNczV5OU5pOWtySFFhZGVDYmtQOGh3?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-21T17:00:03+00:00"
-    },
-    {
-      "title": "L'intelligence artificielle dévoile les théories secrètes des manuscrits du mathématicien Kurt Gödel",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWFJVHhIZXQ2Y3BUbVJGU2lGLTMtN1h6VXRpSVJIWm9uS1F0bHJHcEpmM1QyUzU1M0x5NzhSQUxEamtYRTVFNXlUaGF6dGlvZGxURWZBZ3FHbGZPY2NZbE50WGJYMVUzMXBMSTJjWENieVRrdFBiWE1yR0RqM2hFY2xRVG1jSldyQUpwUTdZeDdoVGhfUW9kaFlMRjZXNkF1WmRLSTZEWWZCR2VpQzg3WtIBtgFBVV95cUxQc1FDelZ0ZjlTbENYbmNtaU56S2lzOEI3R2UtTTFKa19QTnFDU0VBTTZ1bVd5UUxKVllOOEFxaGlSSFlVU2t4aDd1Yy1wVXI2U0gtVUVDSjBPYnZWbFgyMzY3cjhZY09lZ2VUcWlDaEZnOXlDTjVPV0doQTlrX3AtNEFQOFBxNTVJa2doNnJJVVNhYzNzbGlNWk9aMmdVVmFMTHpyTE1zTHVUakl3MEhrMlZNUHZOUQ?oc=5",
-      "source": "Génération NT",
-      "publishedAt": "2026-11-21T16:30:01+00:00"
-    },
-    {
-      "title": "Les affiches créées par l'intelligence artificielle bannies d'Ornans, ville de Gustave Courbet : \"nous avons une responsabilité\" assure le maire",
-      "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPUU5VN2NqamhTOGRpTExQSDZoZXhxV3BDZkg1Mk9hZkxjaW5jaThCdTFWd0RwUkQ1c3M3ZzE4OU93Rm9MRU9qMHhYWWdnOWVMTURBRXd5aWNZNnZKTElwRGxtcEVhT0tTS001QlVOYkh4bWJmQTVaSDRzOTE4eW1ZbHRNZk5TLU1pREpJNDBLcmpfYm9rTV85WDMyblRJYWJpR29WQlNKYkFzWlBQYWJwbDYyamdzNU9DdlctY0dyS0ZhZjJ2V3dYeFhVLUg1M2F6dTdVTzhuX0twbHcydDdQTG9HdmhQOXhvbUZOY2Rza21vUnhBSE5DNVAteXp3S0tpM1VGbjQzeUtCYjN2V2U0SHVnVGM3UlFYMUFlSExFdHA4VV9zYWZnQ0pkalVqVjBxZlRGcDYyY3ZXVUNUcFctZG5NSk5XZ19pajA5LVhYX2ZpSHhRQUE?oc=5",
-      "source": "France 3 Régions",
-      "publishedAt": "2026-11-21T15:52:31+00:00"
     }
   ]
 }
