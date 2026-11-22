@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-22T02:23:50.899284+00:00",
+  "updatedAt": "2026-11-22T10:01:18.088750+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "L'intelligence artificielle résout un célèbre problème mathématique",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb09GeWtVMkNpbTcyVXJUZ3FESGpGSENMazlIOFVoQk5PSWVfS2J3LUl3emFkdnVZREtLUFpBN3VaemwydWdMWnE3NDcybkhBTGo0blpKTEI1U0VRcVJxWmI2eWRBYzI5enAwbjZ5VHhXcnVIcG1ScHJlSm4xdjgxSlpMM29XZWNfN2FMaDJjMHFTQVRPWmlLYzgtdG01ZUpBRGVydk92NXBuYkZobEZReEY0VGNndGlNQWhWZmhBb2x1eHhfclJBMTNTVG9CU1hTbmZBUS1XZ2o?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-22T08:23:14+00:00"
+    },
+    {
+      "title": "Mistral Vibe, Euria, Apertus… Quelle IA générative choisir pour se libérer de ChatGPT et Gemini",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTkNOS3Q2aW9ZNHlnbnpWSlBpM2s1Q1cyTDNrZ1JDTVEtNlNFOEd2a0twOGZLM252ajNJV0hNLVVwUmZpcUR6LUpOMlFwbXJVRE1HSUI3enZwRU9ld0cyZVd3b0ZGbHI5YWI4djlnYllkUkxIS0tYU2FRVTZpUGxkLXRtZHd2bmlCeUpqVWh5SUlFX3IxTHFLV3RtdldkQjdWVVNfNm1QLURMUTh5VkpWcW14aFVSd05VaVhnS0pn?oc=5",
+      "source": "Vert Le média",
+      "publishedAt": "2026-11-22T06:00:00+00:00"
+    },
     {
       "title": "IA : ils deviennent millionnaires en 24h",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ3RPX1ktaXQ1a1pydVdETzFNeWV6TXA5dkIwM1Q5b3NzRTAwOTE1NUV6OThoM0FwbS16MGZaVEZmTktLdDBLbEdZTXhaTVBSUndYaU55M0NaYUI3aXJKOUd4VzFDekM2c25OdGpUQmozVHp4VWJmeDJNcE5fMVE3M0llTHp0Q21ITjVURFlTUU02T3ozU1JzWEgwcVlNczV5OU5pOWtySFFhZGVDYmtQOGh3?oc=5",
@@ -25,6 +37,12 @@
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNOW9aMFBfd2VEUGtERGVuSkwxUFBhaU0zZ0VNWWRjM0RBM0Y2MDRqdFM3ODN5amxGQ1Q3eFdPaHNiRzVmemYwTm5EM01YVk9HZUxHYWE3ZXNIZ0dVOWRUN0VFX0J6U3ZmRUxkdU0zeXpaczFQQWdCQ2pZMHZ0Z3dmR1NaTVFzaHlJSVQ2OGt4Z3hGZ2hIS0I4WWtKejVqM0NMVXUybFAzOGtQYUx2dUNIcVpTZjlvLTV1Y0hvV1FBVjIzY0pGcTlPS1N5cXg0b0wzTFJuYzlVQ3VaLWN5YjZkZWg3U28tejlBRGZMRlZ6T3pFRDdDTkJoRnVadTcxVnRaZzJyb2I5NDBUWUF2a0c4?oc=5",
       "source": "Ouest-France",
       "publishedAt": "2026-11-21T15:00:00+00:00"
+    },
+    {
+      "title": "Quand Elon Musk alertait sur les dangers de l’IA",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdG5jaTUya1ZKeWs4Ymwyck96eGxJeFRXOXM2Um1vOGRIeThMbmkxWkwxMUNGWmRYU1NKU1VaelU4THo3OUNPU05TcTUtSlQ1ZlBTclB1RXZRMUdmVkNPRVFiMXNPZ0podkVKblZwaGgtbjFyVU5OeEFFYldCVzY4YTdGcmNWbDZVaWFUZzAzVUhQVEJnTXh1MUswSnhJei1wcVlnTkZzb18wOXJvT1c0UkNPWG9aWFdXNjVzOA?oc=5",
+      "source": "Le Monde.fr",
+      "publishedAt": "2026-11-21T14:00:11+00:00"
     },
     {
       "title": "La Bourse de Wall Street enregistre des centaines de milliards de dollars de pertes, pénalisée par le secteur de l'IA",
@@ -51,28 +69,10 @@
       "publishedAt": "2026-11-21T10:20:08+00:00"
     },
     {
-      "title": "Remiremont : l’intelligence artificielle et l’avenir de la France au cœur d’une rencontre avec Romain Marsily",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdzVPMTRxU1liSXNaVVlJWTRYU3NvNnU0TGlkTEIzcm5jeGoySG52UGhZZ3BwbU9PNzZkTjdLMWhkUG9iZzRYXzBpbG5mdXNGdk9ndHRkU1BWbmNUZ2NaYjdkZ0NfdVZWREVucFZiVVNHN21JcFdXNlFvUGE0Z19uaDh3WmZZSUowblRoRDRvOFBHTHF2R3Zra0hDdE5DaHNGd3I5N3RZNWltNi1EOFZkeXd4cXZyWkdsTGJrV3F2ellGRWpPdzlWWVl5X0JLOE1YelB5bV9PVEM4S0JxT2ZlXw?oc=5",
-      "source": "Vosges Info",
-      "publishedAt": "2026-11-21T10:00:37+00:00"
-    },
-    {
       "title": "Laurent Alexandre : « L'intelligence artificielle va bouleverser toute la société, il faut une révolution politique ! »",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZlkwYjNsZ01HbUVSa0g2aDYyWUpCczFjSmxCc0ZCUHo4RHJqeDc2M1pNQmtWdWtHNXVGTnhnVmQwR1pXRG9pcTZlY2lCVWQ2cFRBWTFhMWYzT3MtaTFONmc3a2x5QXpFR0VLazV5WmxLUkh1S1ZYb3JZZzJkdDBvc1FtNGVyeDVEaDRGcV9xMFZuVmtTS0YzOTlTUEhJaFI5NjY0RXA2bDZuclE4M1F4bUk5NHFhQndPZmpyLWVGRDZtbUJDd2dRUUdCdzRnVERvVXMyQnBJNTdfeHM?oc=5",
       "source": "Sud Radio",
       "publishedAt": "2026-11-21T10:00:18+00:00"
-    },
-    {
-      "title": "Un mathématicien annonce la résolution de l'hypothèse de Riemann, l'un des plus célèbres problèmes du monde, avec l'aide d'une IA d'Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQSmc5cnJPdDBNWWtKenI1Y0tMZkNVUUw2SldVQzVjNHBzSXJWRlZyUVNGc0RidjRkUmp0V19neWFUazRNeFVxbWJSd1N2TVVUNXRYV3pIUTV5S21UM0ZLTUlFaTY3QWZuMTAyTzE2NVlSZjA0SGphVjY0dXR1OGhPa2JKWEthbjRJTVVoV1BSazhWa0k5T1ptRHZUdndFNFR2ei1iRS1YQUlzaWtrRnRpQTAtbnNFcU95OXF2Q3BPNzZFV1ZwMUZGZXJNMUU5ZU5BdV9iSXdqcW15dGhkbldBYmlSaTd0Zzlsam5yQ0oxM3lCRjFyaWN3VWMya2pWWXlueWFKWDBSeS1CLTN2MEd6V0ZGSDVGZw?oc=5",
-      "source": "franceinfo",
-      "publishedAt": "2026-11-21T09:44:37+00:00"
-    },
-    {
-      "title": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPNmFyY215Wi1zQjBlTkpLVFZoMjlJUUVFWVFVYm91dUVfNnhaV0sya3NDTFVPeDBMTlFhNHRsOGZtaWFaa0loUWVfV09PUHoxRHdKeVBELVBHemR6TkZHTHlKcGpkUlhNRV9mNTZFeWR4VXRib2lBRkw1RHQ5WV9yRGc3cGt4Z0VpMXZYVDNBQUF6bEE0amlrcjhVT0VwLVltUWtjWWpwU2dYWGJzLW50SzFDUGtPa2FoYWwwZUZldXhGSUc0T0U3YlVxWHZDT1EtYmRXbEFCQ2xjeFIyZXpCam9MTEJUeHVQMHpaSkxBX2JWWVpBQ0duZ251ejRETVBpQ3FaMEw5Vmc4NXhLb0FiZURhN2dPd0xTaTEyMDU2RHZfZw?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-21T09:30:00+00:00"
     }
   ]
 }
