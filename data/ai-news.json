@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-22T22:50:00.648155+00:00",
+  "updatedAt": "2026-11-23T03:16:05.435755+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
+    {
+      "title": "Bitcoin : Les investisseurs lassés du marché misent désormais sur l’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CTi1Gck45Q1VuSnVkdnl2c2x4ZWM4dEk2clh3dkt6T0NjLXBkRmFIZ1hmY3J5YzRCalczX0Vic2NiRDlsSzZXd2dOOEo4WGhzN1NkVkNZN09DRnBkSUkzUmU1N3ZGZmRWQjhjVQ?oc=5",
+      "source": "TradingView",
+      "publishedAt": "2026-11-22T20:00:00+00:00"
+    },
     {
       "title": "Intelligence artificielle: les fabricants de serveurs augmentent les prix jusqu'à 45%",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYU9wZ1ZnYmJHbTZlRmR6c25vY2plaVVDVFRYZUc4RXpvZG9mZVZvQUtUVkc4UDRGamotYUs2R0RXR2tpbTJheVFsMkowSFhsSmFKSW9Hb29JUUcwejlXQVo2REM5WEYzSnYxVHEwN1YzWWluYTZaM24xQklNSjhrR19XWXJUVThKMXV0U2lWR3ZqaUZlb0FzblNaUTJlUHdYbVlHLU85d21qMUZhQVVJMlJfTl9FbzhVWVFOX2hGWnB4UXhad1FZTGt5c210dw?oc=5",
       "source": "RFI",
       "publishedAt": "2026-11-22T18:46:09+00:00"
-    },
-    {
-      "title": "Mathématiques et IA : prenons le temps de comprendre",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnNBQnkzQXVXZ09TZUhiLWJadjk2aEdXM3U1MDJCT2lJUXpUUlJKLVZNaHJaQ2NNeVFkbGVvby05MnNfZWhndUVzU1NZMWV0NmlFQy11ZTZtU3F1RmVfZjVYMlpLRzlfcnJ4dEh1cW9TT2VQSGQ0OFpsdHhQSGYwUDlWOUpmelJwaDg4MmNtaC1ZeHVXMktYZHFHME5lTURyUUlWN3NNbVlEbDg5azZOQUVTQXJYMGNGWnVYcWlYZw?oc=5",
-      "source": "Le Monde.fr",
-      "publishedAt": "2026-11-22T17:00:10+00:00"
     },
     {
       "title": "Bulle ou pas bulle, peu importe: l’intelligence artificielle dévore la planète",
@@ -27,16 +27,16 @@
       "publishedAt": "2026-11-22T13:45:08+00:00"
     },
     {
+      "title": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZjFwUDQ1MnJwa21jOEtteWYwQVh1M25sdEZvZmw4UzdFbngzWTlMc0EwSXlwZXZnUm0xazRnd1JyTWNoR0Y1VUlnMjZTc052Q0tBUHNKeDdkcXY4SzZuQWU2N25CdEEyY3hFOXpRdllUX1R4cHlMR1lRTm50ZkRuazBhZi1vMDJ1M1loRGpjRlBLWUlOSnJZVkxSZ2owZ0VVbTU0RWRaSHJ4bGdsTWhlVlVqTGZ6dVB4X211dHdtYXRDbDc5czJtZmg0bFFhZjRsRktJd1NnckxZU2tNU0xDVXl2blhrbFJLMW92NjcyQWJNand2eEFMQ3o1WlRnTGxpYjR5SWQ1d2xmbkU?oc=5",
+      "source": "Libération",
+      "publishedAt": "2026-11-22T11:25:48+00:00"
+    },
+    {
       "title": "L'IA et le « syndrome de la photocopieuse » : comment une révolution créative pourrait appauvrir notre culture",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbXNDNjJSdWJxRDRnVlpSenpqVXVLc2hxSVV6eW5EM3d3U3lRdkJEWEtPREJBUE5qNzc4UDlxeDE0YVhlUnI3UHpOZFduZWJMbzE5TDBhZG0ySEJjek44N3Q5T3lGa1ZQakxSaWFCTzJPdVpEbW4yNEQ4b2pjeHEzcGRldThaVktGdnZ3ZHVzYlRFUG9wbmx6RjFyVENtb2k3a01DdUIzTnhwU19vUUhhTWRCaU5xaUY1M2Z3b29ac0pzUmpRZy1EdHNScGhrQXcteDhQSDF1MzU0cldTTjRQdElxTjYyeU9uMGk3Yko4bm04UQ?oc=5",
       "source": "Futura, le média qui explore le monde",
       "publishedAt": "2026-11-22T11:23:00+00:00"
-    },
-    {
-      "title": "En Corée du Sud, le ministre de l’Education démissionne après un scandale de triche à l’IA",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZjFwUDQ1MnJwa21jOEtteWYwQVh1M25sdEZvZmw4UzdFbngzWTlMc0EwSXlwZXZnUm0xazRnd1JyTWNoR0Y1VUlnMjZTc052Q0tBUHNKeDdkcXY4SzZuQWU2N25CdEEyY3hFOXpRdllUX1R4cHlMR1lRTm50ZkRuazBhZi1vMDJ1M1loRGpjRlBLWUlOSnJZVkxSZ2owZ0VVbTU0RWRaSHJ4bGdsTWhlVlVqTGZ6dVB4X211dHdtYXRDbDc5czJtZmg0bFFhZjRsRktJd1NnckxZU2tNU0xDVXl2blhrbFJLMW92NjcyQWJNand2eEFMQ3o1WlRnTGxpYjR5SWQ1d2xmbkU?oc=5",
-      "source": "Libération",
-      "publishedAt": "2026-11-22T11:21:00+00:00"
     },
     {
       "title": "Logement, intelligence artificielle et investissements : l’économie corse au cœur des échanges à Ajaccio",
@@ -49,6 +49,12 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb09GeWtVMkNpbTcyVXJUZ3FESGpGSENMazlIOFVoQk5PSWVfS2J3LUl3emFkdnVZREtLUFpBN3VaemwydWdMWnE3NDcybkhBTGo0blpKTEI1U0VRcVJxWmI2eWRBYzI5enAwbjZ5VHhXcnVIcG1ScHJlSm4xdjgxSlpMM29XZWNfN2FMaDJjMHFTQVRPWmlLYzgtdG01ZUpBRGVydk92NXBuYkZobEZReEY0VGNndGlNQWhWZmhBb2x1eHhfclJBMTNTVG9CU1hTbmZBUS1XZ2o?oc=5",
       "source": "franceinfo",
       "publishedAt": "2026-11-22T08:23:14+00:00"
+    },
+    {
+      "title": "Le cinéma doit-il vraiment s’inquiéter de l’IA après le cuisant échec de Sanxingdui - Future Past en Chine ?",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYlJfXzl0MFd5TDIySHQ0enNScjFaRjM2Q3RIeUMxeGNCUnZ4TXNwR3dkQUo1TnZ6aDUxZklsQTBLYm9mYVhjS3E5cV9weDdOTzZtWHhqR0lOVXZXQ1ptWEF6a29sSDVCcHJKNU9VYk45TW9jaC1FVm1NNlcxREZSSDVkR3NLdUhfVjh1TFpqMHpUQnlFNnJOZlVfWjVlckVaU3BuUDBmV1ZEczRTNTRfb3VrbWpfcVZYXy03NGdzWU4yR2xJYmQwTHNRWDdkSUxBWmxCcGZwLVk3Y2xE?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-11-22T08:00:00+00:00"
     },
     {
       "title": "TÉMOIGNAGE. On a demandé aux IA… de nous dire de quoi on est malade",
@@ -67,12 +73,6 @@
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZXdaTjhYM1ZXV29tZlVHUU54ZWYwRzR1a2hEbFNETWp2V3pCTEpXYzVPV1FVNG9WcUNfWGNPWXdkZTMzWVNhZ19Hc2hKazhqX3BkTHNtdWZWVDVKXzJGdzd5V3ZkNWRuUy13M2F0MDRvYXVsVUlRU2lMUkRTdDAzR0FoTEVkUFNsQ0ZlT0ItZVVHOUVHSFVwdFFXZG9Rc1V2ZUZWQkpHN3ViVkxYQlppY3lwR3hHOS1kMzZuOVRCYl83VUx1T2huOW9IMmxUVFUzRzVBbDZnLXlGbnJmVkpKaGFBVkNZNTZ3b1IzNnM3SlhkTFVkY2dTSjJ3Z2I?oc=5",
       "source": "Le Monde.fr",
       "publishedAt": "2026-11-22T05:55:03+00:00"
-    },
-    {
-      "title": "L'IA crée de nouveaux emplois : découvrez ces 5 métiers d'avenir",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNzZ0dEpaeEZfZWlZTDlaeHlKVGNISnVvU2x6SWFMb2dIS21tNnJabVdrQ21RdlBTZjFGSV9MeW02VjJLeFJQQjMzT05tSERJbEs3YzJndDhaOVBnU1V6MUNoaThvYk1SNy1mcHBVeXFiZ1NRTGFWaHB6azNOWFBkdWlyX3B2cmdPX0hTNjQ3VFkzUnFRak5HUzlGZ09jS1hsU0lXYUdUZGV1SlpvMUg1czFHanh2Nzh0?oc=5",
-      "source": "Le Télégramme",
-      "publishedAt": "2026-11-22T05:00:01+00:00"
     }
   ]
 }
