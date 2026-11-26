@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-25T22:44:34.420Z",
+  "updatedAt": "2026-11-26T04:29:00.653Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
       "price": 290.9,
-      "previousClose": 299.1000061035156,
+      "previousClose": 302.5,
       "currency": "EUR",
       "marketTime": 1795624629
     },
@@ -40,51 +40,51 @@
     },
     "IWDA.AS": {
       "price": 122.34,
-      "previousClose": 124.58000183105469,
+      "previousClose": 126.76000213623047,
       "currency": "EUR",
       "marketTime": 1795624752
     },
     "BTC-USD": {
-      "price": 60089.65,
+      "price": 60985.4,
       "previousClose": 59747.765625,
       "currency": "USD",
-      "marketTime": 1795646670
+      "marketTime": 1795667335
     },
     "ETH-USD": {
-      "price": 1685.44,
+      "price": 1701.86,
       "previousClose": 1677.69482421875,
       "currency": "USD",
-      "marketTime": 1795646668
+      "marketTime": 1795667337
     },
     "SOL-USD": {
-      "price": 70.38,
+      "price": 71.15,
       "previousClose": 69.63577270507812,
       "currency": "USD",
-      "marketTime": 1795646670
+      "marketTime": 1795667331
     },
     "XRP-USD": {
-      "price": 0.9369,
+      "price": 0.958,
       "previousClose": 0.9243720173835754,
       "currency": "USD",
-      "marketTime": 1795646663
+      "marketTime": 1795667328
     },
     "BNB-USD": {
-      "price": 551.63,
+      "price": 559.46,
       "previousClose": 547.7404174804688,
       "currency": "USD",
-      "marketTime": 1795646669
+      "marketTime": 1795667310
     },
     "DOGE-USD": {
-      "price": 0.05577,
+      "price": 0.05689,
       "previousClose": 0.05524799972772598,
       "currency": "USD",
-      "marketTime": 1795646651
+      "marketTime": 1795667338
     },
     "GC=F": {
-      "price": 3617.8,
-      "previousClose": 3561.89990234375,
+      "price": 3611.8,
+      "previousClose": 3535.800048828125,
       "currency": "USD",
-      "marketTime": 1795643997
+      "marketTime": 1795666723
     }
   }
 }
