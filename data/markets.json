@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-26T04:29:00.653Z",
+  "updatedAt": "2026-11-26T14:16:18.699Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
-      "price": 290.9,
-      "previousClose": 302.5,
+      "price": 300.7,
+      "previousClose": 290.8999938964844,
       "currency": "EUR",
-      "marketTime": 1795624629
+      "marketTime": 1795701553
     },
     "TSLA": {
       "price": 380.14,
@@ -39,52 +39,52 @@
       "marketTime": 1795640401
     },
     "IWDA.AS": {
-      "price": 122.34,
-      "previousClose": 126.76000213623047,
+      "price": 125.66,
+      "previousClose": 122.33999633789062,
       "currency": "EUR",
-      "marketTime": 1795624752
+      "marketTime": 1795701664
     },
     "BTC-USD": {
-      "price": 60985.4,
-      "previousClose": 59747.765625,
+      "price": 60719.17,
+      "previousClose": 60378.19921875,
       "currency": "USD",
-      "marketTime": 1795667335
+      "marketTime": 1795702576
     },
     "ETH-USD": {
-      "price": 1701.86,
-      "previousClose": 1677.69482421875,
+      "price": 1700.61,
+      "previousClose": 1690.76904296875,
       "currency": "USD",
-      "marketTime": 1795667337
+      "marketTime": 1795702573
     },
     "SOL-USD": {
-      "price": 71.15,
-      "previousClose": 69.63577270507812,
+      "price": 71.3,
+      "previousClose": 70.39324188232422,
       "currency": "USD",
-      "marketTime": 1795667331
+      "marketTime": 1795702572
     },
     "XRP-USD": {
-      "price": 0.958,
-      "previousClose": 0.9243720173835754,
+      "price": 0.9518,
+      "previousClose": 0.9369450211524963,
       "currency": "USD",
-      "marketTime": 1795667328
+      "marketTime": 1795702567
     },
     "BNB-USD": {
-      "price": 559.46,
-      "previousClose": 547.7404174804688,
+      "price": 552.6,
+      "previousClose": 553.5673217773438,
       "currency": "USD",
-      "marketTime": 1795667310
+      "marketTime": 1795702545
     },
     "DOGE-USD": {
-      "price": 0.05689,
-      "previousClose": 0.05524799972772598,
+      "price": 0.05694,
+      "previousClose": 0.05596800148487091,
       "currency": "USD",
-      "marketTime": 1795667338
+      "marketTime": 1795702574
     },
     "GC=F": {
-      "price": 3611.8,
+      "price": 3602.1,
       "previousClose": 3535.800048828125,
       "currency": "USD",
-      "marketTime": 1795666723
+      "marketTime": 1795701975
     }
   }
 }
