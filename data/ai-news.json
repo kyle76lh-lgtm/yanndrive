@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-11-26T23:03:53.533894+00:00",
+  "updatedAt": "2026-11-27T04:56:35.537445+00:00",
   "source": "Google Actualités · presse francophone",
   "articles": [
     {
-      "title": "Colmar. Une conférence sur l’intelligence artificielle, outil au service de l’urologie",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNODZKM0tZVDNObnpIOHA0bXh3V29GTG1IcDl4YkduUDNsUE5LcWxKTEFDQmRpMFd2c05iYzR3aWNyZ1RhdGxvZmYxdXdESTdKQ0g3bmJ5SEZ2ak9TT0lnLXRrTFp0dTNlZmx1Wm5HNUNyN3ZjLWFoY1JaeC1wMXVhOHJtTjJqWDl4Xzg1WDFqSmdzZ1ZNQ01zTDMtMVZ4MUxXSmJqTWU0Z0NaX1pGblZXel8wWQ?oc=5",
-      "source": "dna.fr",
-      "publishedAt": "2026-11-26T18:57:46+00:00"
+      "title": "\"ChatGPT m'a dit de vous appeler\" : les centres antipoison débordés à cause de l'IA",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU0xpWWlYNXRmWTNPMXhnU3BSY2R4dGc2MG93SGdDSFJOdjJYRmhMS1VzWTJhWWEyLVdjSG9CN0hXRDZ6aEJfd2k4VDU1NHVYTkUzUzVqTGIySGprWHF1clpfcFRKWHp2SlBXV2llUkh2eE9aQlpod04xQ193V3hIT0IzaWJ3MWNNUkxxbUQzYW9tb29hbDd5ekdyUWlGb0RmV2p1RlhPT1YwOVRrdTU5MGZEdWlVRGNmUzZxampaZ2JVOWtzdENaNjQ1S2Iycm1LVlJ2bHp1QlE3UnVGYmxsWlF0SWZpenZR?oc=5",
+      "source": "franceinfo",
+      "publishedAt": "2026-11-26T20:51:55+00:00"
+    },
+    {
+      "title": "L'IA peut-elle vraiment remplacer les professionnels ?",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYUh3YzRlODQtNHl6VGx3ZC1PNTM3SHBjQzBVdENSNkJYLVgxZnlSLW5EaVp4Zk5lSFVUYXZMZ09HUlJ2bXpuNTR5OHc1MEx5aTZzNWVmejlLb3lSUWhHdXFWdjRHdElmWEVvWVJ4a1M0REVWRExVU2J0ZVFZc0dFd0xaNkM3Q2tCck90WjNPOUZ4VDlodzZ2NjBKbHg5bndjcW45RjI3MGpTekNRb1E4ZThCbkZiUlVj?oc=5",
+      "source": "TF1 Info",
+      "publishedAt": "2026-11-26T20:25:12+00:00"
     },
     {
       "title": "En vidéo – Data centers et intelligence artificielle dans l’espace: qui domine vraiment la nouvelle économie spatiale?",
@@ -15,10 +21,10 @@
       "publishedAt": "2026-11-26T18:36:01+00:00"
     },
     {
-      "title": "«Un tournant dans le paysage des cybermenaces»: pour la première fois, des agents IA ont attaqué des infrastructures critiques en Suisse",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONF9oOUpKVzNPNXAwX3h0UTdjVjk2bjI3SHY2OXl4SThlRnR5OGxCWndFQnpMbHdGWnNvXzBBNUtUSG9GVEE3cUpXaGdFSzlJQktCN3FNYWowRklpT3c3OVFETnNlWXlXa1BWXy1BWHcxOUhZOGYxZFNNcDJWRFRlT2lGWEFrUUFDRkgtUnh1R3JZUE9CZ2xHa3JkN3VSajJhU1cta3NYV3FVLVVJRW1aak53aFNjUFpYYmVneC1BZUx2R25VbFlCWm1FMUNvOHpvR0xaaWxUdEpnVV9nRlhzVTB2N2doTW9kTURGOGNUMlZSSkF6My1BNEZtR2hIeHVvdndyM0VDeEpKRlJjNXdNY3ZtX0pCQQ?oc=5",
-      "source": "Le Temps",
-      "publishedAt": "2026-11-26T17:01:00+00:00"
+      "title": "« Nous sommes en discussion avec un tiers des pays de l’Apec » : l’intelligence artificielle chinoise à la conquête du monde",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPb29pRURaZ2U5cGlsYVBFaUhEWExkU3J6bmdaN29idnJJanlWZGJXN09HX1BoTVFvbHhzN1Q0R0w5RDRLNWtNeEtvSDJkaGdad3lWRno3THVVNElaZmF0LTdWYzNybWozS0hVcDBDQ1dyd3RZTFV4eEVWWnJPT1MyVXJFbXdLNEtSUFZUTUE0NnBHWHRjSl85eEtKWXB5Szh6eHVITnY0Y1RlbEhDbnRfRXh4cDVSV1VMalNuYmxSX3ZISWs3b0VFc2VQa2pjVmtQcmxkQ3lST1BEUi1CV1kwa1NFX3QtZjlEOHNwYUVYWE9aQQ?oc=5",
+      "source": "Le Figaro",
+      "publishedAt": "2026-11-26T18:30:00+00:00"
     },
     {
       "title": "Jeux vidéo et intelligence artificielle : Pézenas explore les enjeux du numérique",
@@ -39,12 +45,6 @@
       "publishedAt": "2026-11-26T16:47:06+00:00"
     },
     {
-      "title": "En santé, l’IA n’est pas toujours bonne conseillère",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUjhMOWY4QU5aUjNHREo5eGNiQWVkRWh5aUZCNHNTaE1QS25HYmlrQ1pKZ0lVTTF4WEkyblNYcm84Q2paTmlFSVdtbGpCUDh5ZlBWTDFUUTFQT3RDZld5RDI2UUI2QWptYlBxYnFVX2xWeE1vMnBUOWtzQlNuY3ZKTjU4QTdaaVVWWUFpYm5jSmwtVVgyMk1odWJ5Tmk?oc=5",
-      "source": "JIM.fr",
-      "publishedAt": "2026-11-26T16:09:42+00:00"
-    },
-    {
       "title": "Les patients consultant l’intelligence artificielle sont de plus en plus nombreux à douter de leur médecin, selon une étude",
       "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQT2hYV2xzVWJjdXdnNUdMOVljWHRlS2YtQ2FGa0NGZEZhVTBBLXYyUmd6S0xLUWk4Z0tnTzg3Q0QzZi1XOGdiRWVSZlMza0ZfSGI1bElLQUxNU0UzRlFoSnU2YkZiTEZxN3ByR3lUWVZmeERtZFZ4ZURFNElNUWlZWXZHZFBxNW1xRC14QjhPMjY5eno3NHd3UTh0RVNvaG9JaTVEV21Yd1NPTF85Nm05N1Rid0EtakdweFNCNlBlTFdETXRfR0NNaUlDZGQyRnZPOENFanlKM1Q4Q1VkdjdqeXFJWVF2RktfWlUyeTdHU19YLUJubi13d210eGdWbk0wdy00c3hIVVJJa01YY0V5dEVBbWhfVXM0aW9KU3Fsa2NRd0ZvVUNnbDBPcnBlczJ4S2EyVlRoMWdLbnpSOFp0UlMtLXY?oc=5",
       "source": "Ouest-France",
@@ -57,22 +57,22 @@
       "publishedAt": "2026-11-26T15:57:39+00:00"
     },
     {
-      "title": "L’intelligence artificielle, nouveau moteur de l’obsolescence programmée ?",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZGNjWlFYUXlSQkNwb29peUZsN3F0c2RNbnRlbmRRUDVjM05NWTRNa1lDdW1weHJJQWdpR3NuMHR3elJTVno5RC1uSjNqODFJT0p5UXJGcnliSERhQ2pRbGJDZVV4elZGazdQUGh0d2hKcTFlRjJtQjA4MnZvM1h6NVpXcFNHZGE2UkZtR3N6aWhfRkxOdjV3YW1BbUd5b1hsWEhqdGRsWWZSaDJiNHgyUTNQamJ0enFTSWVXdlA0U01nSko0bEY3X19kckY?oc=5",
-      "source": "Les Numériques",
-      "publishedAt": "2026-11-26T14:58:00+00:00"
+      "title": "Le secteur protégé doit s'emparer de l'intelligence artificielle pour garder son équilibre",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaTJpbDczYl9Fa1k2d1BvUDg3SlB0RVJoYnZ4SVJHMy1zQmpBQ3pmVnNjLURqVTlQOTNIVUQ5YjZCdW1wNUFrbncyS1R6aW1fVVBab3czNEd1eDFBMk1ocGNlel9oSFJJeHNVUWw5T2dxSzl5Wkk5WWRZcDBUZVgxXzRPM3B6UFlkbTN0djhHNHNGQWFobTNtZ2hNOA?oc=5",
+      "source": "Hospimedia",
+      "publishedAt": "2026-11-26T15:43:18+00:00"
     },
     {
-      "title": "Santé : un médecin met en garde contre les risques liés aux diagnostics de l’intelligence artificielle",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdmlqN0NMdW9SSTNxaDhwbFhsRkd2NmxNTU5ZSVVoaWxsaFdSbTJTZ1ZtTldFcTNuZGVxYm5XLWRHaHZkSGZsRnR4b3pBZ2xCdG5FeU5LWm9YbFRzNXRTMDlGd0NTNUtNUGp4UFFFbmZERFBvcjV0cS1PREhrSTF4eHAxeWg2QXdaZ0NDQm51QUlVQTlLV2M1R0ZWekYzeUYxWmJJc0FfR1ZRVTBaZVRsQURKREVhM1M3TmpzV2t4WGl3TW1QekZiYnhZcHBVcDA0WVV4RVhVaVFDN1lCQjhvckJuNFVRUnRrSXc?oc=5",
-      "source": "Anadolu Ajansı",
-      "publishedAt": "2026-11-26T14:32:58+00:00"
+      "title": "Atos retient Scaleway pour sa suite d’intelligence artificielle",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFAxOHV3VW1fYVRaSTdjWWZnM19TdG53MXctc2FoNjZaVlQya09ZaWJ1YnZHX0JkRDFqMUgzTm9BX3pqZjh4QWNSMzM4TkdvOHFCNnNxd09pVFdUaW1UN2RRbWVQdGRDMGoxenA5NlZHcXVZbnF5aW9adHh2RkhZME5QVW9sYi1GMHRPX0NoUmhJN1JVR3JuVllkSVJiSDViZnZhNnBhYnd4a21JLWQxczdWbHR1c3gydEpmXw?oc=5",
+      "source": "L'Informaticien",
+      "publishedAt": "2026-11-26T15:39:57+00:00"
     },
     {
-      "title": "Intelligence artificielle : 8 erreurs médicamenteuses signalées par l’ANSM",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcjZhMVpMY0djTUZGYno4WU5wWkMwXzJqbEtLYlV1UGZ2M2Vfb21ORWEzbU40REZIUXpLY3BEeWFGc19iWTRwTVpvXzRmbDQ3ejN3ZnFVZ1c3RXFnVHVDMzZvZmloVkIwZ0dhR3ZpUDJpN21xNHA2M01rSERBZjhxXzAwNklhOWZkdVZ0UlJBakg4aHZibWhxQmlpSmhucnR5WXZ3WFJEWUVRY1lxMklmLWVCYUJfOXRIaUVPNFExbk5pNXVLUi1BQWhPcVVXYThvR180?oc=5",
-      "source": "Le Moniteur des pharmacies",
-      "publishedAt": "2026-11-26T14:03:30+00:00"
+      "title": "IA et données sensibles : les enjeux pour la finance",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLU84SUJpR2pmTnQtcENDdDM2OTRDU1RyTlFxMi1yUzRlaEpWREpyVXNjUWFfZ2ZiczZ6TkVmdUJYT080eHh5TjY0QlNNY01tSTVSMGx1NU9xaDJlWkRWakdtdnRiZUN4NVU2RFc5Nk5qbXhyN3Q5eDlRbloySlZKd19SaFNQZ0Vp?oc=5",
+      "source": "EY",
+      "publishedAt": "2026-11-26T15:35:57+00:00"
     }
   ]
 }
