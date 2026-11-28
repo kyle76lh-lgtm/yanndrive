@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-28T04:39:42.650Z",
+  "updatedAt": "2026-11-28T13:37:13.130Z",
   "source": "Yahoo Finance",
   "quotes": {
     "SAF.PA": {
       "price": 305.1,
-      "previousClose": 290.8999938964844,
+      "previousClose": 299.20001220703125,
       "currency": "EUR",
       "marketTime": 1795797358
     },
@@ -40,45 +40,45 @@
     },
     "IWDA.AS": {
       "price": 127.23,
-      "previousClose": 122.33999633789062,
+      "previousClose": 125.81999969482422,
       "currency": "EUR",
       "marketTime": 1795797303
     },
     "BTC-USD": {
-      "price": 59958.13,
-      "previousClose": 60494.7109375,
+      "price": 59133.17,
+      "previousClose": 59866.37109375,
       "currency": "USD",
-      "marketTime": 1795840779
+      "marketTime": 1795873030
     },
     "ETH-USD": {
-      "price": 1662.96,
-      "previousClose": 1687.7418212890625,
+      "price": 1642.56,
+      "previousClose": 1661.083251953125,
       "currency": "USD",
-      "marketTime": 1795840779
+      "marketTime": 1795873028
     },
     "SOL-USD": {
-      "price": 71.59,
-      "previousClose": 70.9327621459961,
+      "price": 70.45,
+      "previousClose": 71.58027648925781,
       "currency": "USD",
-      "marketTime": 1795840779
+      "marketTime": 1795873027
     },
     "XRP-USD": {
-      "price": 0.9485,
-      "previousClose": 0.9429069757461548,
+      "price": 0.937,
+      "previousClose": 0.9480000138282776,
       "currency": "USD",
-      "marketTime": 1795840773
+      "marketTime": 1795873028
     },
     "BNB-USD": {
-      "price": 554.55,
-      "previousClose": 553.1614990234375,
+      "price": 550.09,
+      "previousClose": 554.1807861328125,
       "currency": "USD",
-      "marketTime": 1795840749
+      "marketTime": 1795873028
     },
     "DOGE-USD": {
-      "price": 0.05753,
-      "previousClose": 0.05638499930500984,
+      "price": 0.05637,
+      "previousClose": 0.057666998356580734,
       "currency": "USD",
-      "marketTime": 1795840755
+      "marketTime": 1795873022
     },
     "GC=F": {
       "price": 3668.5,
